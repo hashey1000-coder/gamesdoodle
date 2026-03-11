@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Number Generator</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', system-ui, sans-serif; background: #202124; color: #e8eaed; display: flex; align-items: center; justify-content: center; min-height: 100vh; }
+    .container { text-align: center; width: 100%; max-width: 480px; padding: 32px; }
+    h1 { font-size: 1.3rem; font-weight: 400; margin-bottom: 24px; color: #9aa0a6; }
+    .result { font-size: 4rem; font-weight: 700; margin: 24px 0; color: #8ab4f8; min-height: 80px; display: flex; align-items: center; justify-content: center; }
+    .inputs { display: flex; gap: 16px; align-items: center; justify-content: center; margin-bottom: 24px; }
+    .inputs label { font-size: 0.9rem; color: #9aa0a6; }
+    .inputs input { width: 100px; padding: 10px 12px; border-radius: 8px; border: 1px solid #5f6368; background: #303134; color: #e8eaed; font-size: 1.1rem; text-align: center; outline: none; }
+    .inputs input:focus { border-color: #8ab4f8; }
+    button { background: #8ab4f8; color: #202124; border: none; padding: 14px 48px; border-radius: 24px; font-size: 1.1rem; font-weight: 600; cursor: pointer; transition: background 0.2s; }
+    button:hover { background: #aecbfa; }
+    button:active { transform: scale(0.97); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Random Number Generator</h1>
+    <div class="result" id="result">—</div>
+    <div class="inputs">
+      <div><label>Min</label><br><input type="number" id="min" value="1"></div>
+      <div><label>Max</label><br><input type="number" id="max" value="100"></div>
+    </div>
+    <button onclick="generate()">Generate</button>
+  </div>
+  <script>
+    function generate() {
+      const min = parseInt(document.getElementById('min').value) || 0;
+      const max = parseInt(document.getElementById('max').value) || 100;
+      const lo = Math.min(min, max);
+      const hi = Math.max(min, max);
+      const num = Math.floor(Math.random() * (hi - lo + 1)) + lo;
+      const el = document.getElementById('result');
+      el.style.opacity = '0';
+      setTimeout(() => { el.textContent = num; el.style.opacity = '1'; }, 150);
+    }
+    generate();
+  </script>
+</body>
+</html>
