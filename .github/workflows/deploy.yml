@@ -2,14 +2,15 @@ name: Deploy to cPanel
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup Node
@@ -20,27 +21,16 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build project
+      - name: Build site
         run: npm run build
 
-      - name: Create deploy archive
-        run: tar -czf site.tar.gz -C dist .
-
-      - name: Setup SSH
-        run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.CPANEL_SSH_KEY }}" > ~/.ssh/id_ed25519
-          chmod 600 ~/.ssh/id_ed25519
-          ssh-keyscan -H ${{ secrets.CPANEL_HOST }} >> ~/.ssh/known_hosts
-
-      - name: Upload archive
-        run: |
-          scp site.tar.gz ${{ secrets.CPANEL_USER }}@${{ secrets.CPANEL_HOST }}:/home/sassache2/
-
-      - name: Extract on server
-        run: |
-          ssh ${{ secrets.CPANEL_USER }}@${{ secrets.CPANEL_HOST }} << 'EOF'
-            rm -rf /home/sassache2/gamesdoodle.org/*
-            tar -xzf /home/sassache2/site.tar.gz -C /home/sassache2/gamesdoodle.org
-            rm /home/sassache2/site.tar.gz
-          EOF
+      - name: Upload dist files to server
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.CPANEL_HOST }}
+          username: ${{ secrets.CPANEL_USER }}
+          key: ${{ secrets.CPANEL_SSH_KEY }}
+          port: 22
+          source: "dist/*"
+          target: "/home/sassache2/gamesdoodle.org/"
+          strip_components: 1
