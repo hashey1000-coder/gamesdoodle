@@ -84,7 +84,7 @@ export default function GameEmbed({ game }) {
             />
             <div className="game-play-btn">
               <span className="game-play-icon">▶</span>
-              <span className="game-play-label">Play Now</span>
+              <span className="game-play-label">{isExternal ? 'Play on Official Site ↗' : 'Play Now'}</span>
             </div>
           </button>
         ) : (

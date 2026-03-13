@@ -10587,10 +10587,11 @@ export const games = [
   },
   {
     slug: 'nerdle',
+    pinned: true,
     title: 'Nerdle – Play the Daily Math Equation Puzzle Online',
     metaDescription: 'Play Nerdle online, the daily math equation guessing game. Crack the hidden calculation in 6 tries using digits and operators. Free, no download needed.',
     category: 'online-games',
-    embedUrl: 'https://nerdlegame.com',
+    embedUrl: 'https://files.rocketgames.io/uploads/games/n/nerdle/files/116c67/index.html',
     thumbnail: '/images/nerdle.webp',
     relatedSlugs: ['quordle', 'octordle', 'numberle'],
     excerpt: 'What if Wordle swapped letters for numbers? Nerdle is the daily math equation puzzle that challenges you to crack a hidden calculation in just six tries...',
@@ -10618,6 +10619,7 @@ export const games = [
   },
   {
     slug: 'moviedle',
+    pinned: true,
     title: 'Moviedle – Play the Daily Movie Guessing Game Online',
     metaDescription: 'Play Moviedle online, the daily movie guessing game. Identify the film from cast, director, and genre clues. Free to play, no download needed.',
     category: 'online-games',
@@ -10647,6 +10649,7 @@ export const games = [
   },
   {
     slug: 'swiftle',
+    pinned: true,
     title: 'Swiftle – Play the Taylor Swift Song Guessing Game Online',
     metaDescription: 'Play Swiftle online, the Heardle-style game for Taylor Swift fans. Identify the song from a short audio clip in 5 tries. Free to play instantly.',
     category: 'online-games',
@@ -10676,6 +10679,7 @@ export const games = [
   },
   {
     slug: 'squaredle',
+    pinned: true,
     title: 'Squaredle – Play the Daily Word Finding Puzzle Online',
     metaDescription: 'Play Squaredle online, the daily word-finding grid puzzle. Connect adjacent letters to find all hidden words. Free to play, no download needed.',
     category: 'online-games',
@@ -10705,10 +10709,11 @@ export const games = [
   },
   {
     slug: 'flaggle',
+    pinned: true,
     title: 'Flaggle – Play the Daily Flag Guessing Game Online',
     metaDescription: 'Play Flaggle online, the daily flag guessing game. Identify the country from its flag with progressive reveal clues. Free to play, no download needed.',
     category: 'online-games',
-    embedUrl: 'https://flaggle.app',
+    embedUrl: 'http://flagle.org',
     thumbnail: '/images/flaggle.webp',
     relatedSlugs: ['tradle', 'moviedle', 'squaredle'],
     excerpt: 'You think you know your flags? Flaggle reveals a country\'s flag piece by piece and challenges you to name it before the whole thing is on screen...',
@@ -10734,10 +10739,11 @@ export const games = [
   },
   {
     slug: 'numberle',
+    pinned: true,
     title: 'Numberle – Play the Daily Math Equation Game Online',
     metaDescription: 'Play Numberle online, the daily math equation guessing game inspired by Wordle. Crack the hidden equation in 6 tries. Free to play, no download needed.',
     category: 'online-games',
-    embedUrl: 'https://numberle.org',
+    embedUrl: 'https://numberle.pages.dev/random',
     thumbnail: '/images/numberle.webp',
     relatedSlugs: ['nerdle', 'quordle', 'octordle'],
     excerpt: 'Numberle is the daily maths puzzle that asks one straightforward question: can you guess the hidden equation in six tries? Think Wordle, but replace letters with digits...',
@@ -10763,10 +10769,11 @@ export const games = [
   },
   {
     slug: 'tradle',
+    pinned: true,
     title: 'Tradle – Play the Daily Trade & Economics Guessing Game Online',
     metaDescription: 'Play Tradle online, the daily geography and economics puzzle. Guess the country from its export treemap in 6 tries. Free to play, no download needed.',
     category: 'online-games',
-    embedUrl: 'https://games.oec.world/en/tradle',
+    embedUrl: 'https://games.oec.world/en/tradle/',
     thumbnail: '/images/tradle.webp',
     relatedSlugs: ['flaggle', 'moviedle', 'quordle'],
     excerpt: 'Tradle shows you a colourful chart of a country\'s exports and asks: which country is this? It\'s geography, economics, and detective work rolled into one daily puzzle...',
@@ -10792,10 +10799,11 @@ export const games = [
   },
   {
     slug: 'duotrigordle',
+    pinned: true,
     title: 'Duotrigordle – Solve 32 Wordle Puzzles at Once Online',
     metaDescription: 'Play Duotrigordle online, the ultimate multi-board Wordle challenge. Solve 32 five-letter words in 37 guesses. Free to play, no download needed.',
     category: 'online-games',
-    embedUrl: 'https://duotrigordle.com',
+    embedUrl: 'https://wordlewebsite.com/game/duotrigordle/',
     thumbnail: '/images/duotrigordle.webp',
     relatedSlugs: ['quordle', 'octordle', 'nerdle'],
     excerpt: 'Quordle felt manageable. Octordle pushed you harder. Duotrigordle solves 32 Wordle boards simultaneously and asks if you have what it takes...',
@@ -10821,10 +10829,11 @@ export const games = [
   },
   {
     slug: 'quordle',
+    pinned: true,
     title: 'Quordle – Play the 4-Board Wordle Puzzle Online',
     metaDescription: 'Play Quordle online, the daily word puzzle where you solve 4 Wordle boards at once in 9 guesses. Hosted by Merriam-Webster. Free to play instantly.',
     category: 'online-games',
-    embedUrl: 'https://www.merriam-webster.com/games/quordle/',
+    embedUrl: 'https://montessorichildrenscommunity.org/quordle',
     thumbnail: '/images/quordle.webp',
     relatedSlugs: ['octordle', 'duotrigordle', 'nerdle'],
     excerpt: 'Wordle was the starter. Quordle is the main course. Solve four five-letter words simultaneously in just nine guesses — every word you type hits all four boards at once...',
@@ -10850,10 +10859,11 @@ export const games = [
   },
   {
     slug: 'octordle',
+    pinned: true,
     title: 'Octordle – Play the 8-Board Wordle Puzzle Online',
     metaDescription: 'Play Octordle online, the daily word puzzle where you solve 8 Wordle boards simultaneously in 13 guesses. Hosted by Britannica. Free to play instantly.',
     category: 'online-games',
-    embedUrl: 'https://www.britannica.com/games/octordle/',
+    embedUrl: 'https://octordlegame.io/game/octordle/',
     thumbnail: '/images/octordle.webp',
     relatedSlugs: ['quordle', 'duotrigordle', 'nerdle'],
     excerpt: 'Eight boards. Thirteen guesses. One word applies to all of them. Octordle is where multi-board Wordle stops feeling manageable and starts feeling like a genuine feat...',
@@ -10884,7 +10894,12 @@ export function getGameBySlug(slug) {
 
 // Helper function to get games by category
 export function getGamesByCategory(categorySlug) {
-  return games.filter(g => g.category === categorySlug);
+  const all = games.filter(g => g.category === categorySlug);
+  // Pinned games appear first, then the rest in original order
+  return [
+    ...all.filter(g => g.pinned),
+    ...all.filter(g => !g.pinned),
+  ];
 }
 
 // Helper function to get a category by slug
