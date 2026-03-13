@@ -75,6 +75,11 @@ export default function GameEmbed({ game }) {
           />
         )}
       </div>
+      {isFullscreen && showIframe && (
+        <button className="fullscreen-exit-float" onClick={toggleFullscreen} aria-label="Exit fullscreen">
+          ✕
+        </button>
+      )}
     </div>
   );
 }
