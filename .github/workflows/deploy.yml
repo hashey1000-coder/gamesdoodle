@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -23,12 +23,21 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Deploy via rsync
-        uses: easingthemes/ssh-deploy@v4.1.10
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.CPANEL_SSH_KEY }}
-          REMOTE_HOST: ${{ secrets.CPANEL_HOST }}
-          REMOTE_USER: ${{ secrets.CPANEL_USER }}
-          SOURCE: "dist/"
-          TARGET: "/home/sassache2/gamesdoodle.org/"
-          ARGS: "-rlgoDzvc --delete"
+      - name: Upload dist folder
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.CPANEL_HOST }}
+          username: ${{ secrets.CPANEL_USER }}
+          key: ${{ secrets.CPANEL_SSH_KEY }}
+          source: "dist"
+          target: "/home/sassache2/"
+
+      - name: Deploy on server
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.CPANEL_HOST }}
+          username: ${{ secrets.CPANEL_USER }}
+          key: ${{ secrets.CPANEL_SSH_KEY }}
+          script: |
+            rsync -av --delete /home/sassache2/dist/ /home/sassache2/gamesdoodle.org/
+            rm -rf /home/sassache2/dist
