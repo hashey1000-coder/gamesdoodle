@@ -21,7 +21,7 @@ jobs:
         run: npm install
 
       - name: Save previous sitemap (for IndexNow diff)
-        run: cp public/sitemap.xml /tmp/prev-sitemap.xml
+        run: git show HEAD^1:public/sitemap.xml > /tmp/prev-sitemap.xml || cp public/sitemap.xml /tmp/prev-sitemap.xml
 
       - name: Build site
         run: npm run build
