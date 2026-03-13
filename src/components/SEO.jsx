@@ -54,6 +54,8 @@ function homepageSchema({ title }) {
         '@id': `${SITE_URL}/#webpage`,
         url: `${SITE_URL}/`,
         name: title,
+        datePublished: '2025-12-17T11:48:33+00:00',
+        dateModified: '2026-01-20T09:32:54+00:00',
         about: { '@id': `${SITE_URL}/#organization` },
         isPartOf: { '@id': `${SITE_URL}/#website` },
         inLanguage: 'en-US',
@@ -222,9 +224,11 @@ export default function SEO({
   const fullCanonical = canonical ? `${SITE_URL}${canonical}` : SITE_URL;
   const ogImage = image ? `${SITE_URL}${image}` : '';
 
-  // Determine robots
+  // Determine robots — match live site's Rank Math directives
   const isStaticPage = schemaType === 'static';
-  const robotsContent = isStaticPage ? 'follow, noindex' : 'index, follow';
+  const robotsContent = isStaticPage
+    ? 'follow, noindex, max-snippet:-1, max-video-preview:-1, max-image-preview:large'
+    : 'follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large';
 
   // Article meta tags for game pages
   const isArticle = ogType === 'article';
@@ -265,6 +269,7 @@ export default function SEO({
       <meta property="og:site_name" content={SITE_NAME} />
       <meta property="og:locale" content="en_US" />
       {ogImage && <meta property="og:image" content={ogImage} />}
+      {ogImage && <meta property="og:image:secure_url" content={ogImage} />}
       {ogImage && <meta property="og:image:width" content="800" />}
       {ogImage && <meta property="og:image:height" content="400" />}
       {ogImage && <meta property="og:image:type" content={ogImage.endsWith('.webp') ? 'image/webp' : ogImage.endsWith('.png') ? 'image/png' : 'image/jpeg'} />}

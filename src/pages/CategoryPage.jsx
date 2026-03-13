@@ -3,12 +3,14 @@ import { Helmet } from 'react-helmet-async';
 import SEO from '../components/SEO';
 import GameCard from '../components/GameCard';
 import { getCategoryBySlug, getGamesByCategory } from '../data/games';
+import { useFavorites } from '../hooks/useFavorites';
 
 const GAMES_PER_PAGE = 12;
 
 export default function CategoryPage({ slug }) {
   const [searchParams] = useSearchParams();
   const category = getCategoryBySlug(slug);
+  const { toggleFavorite, isFavorite } = useFavorites();
 
   const allGames = getGamesByCategory(slug);
   const currentPage = parseInt(searchParams.get('page') || '1', 10);
@@ -35,9 +37,10 @@ export default function CategoryPage({ slug }) {
   return (
     <>
       <SEO
-        title={`${pageTitle} – Games Doodle`}
+        title={`${pageTitle} - Games Doodle`}
         description={category.metaDescription}
         canonical={canonical}
+        ogType="article"
         schemaType="category"
         schemaData={{
           slug: slug,
@@ -58,7 +61,7 @@ export default function CategoryPage({ slug }) {
         </div>
         <div className="games-grid">
           {paginatedGames.map(game => (
-            <GameCard key={game.slug} game={game} />
+            <GameCard key={game.slug} game={game} isFavorite={isFavorite(game.slug)} onToggleFavorite={toggleFavorite} />
           ))}
         </div>
 

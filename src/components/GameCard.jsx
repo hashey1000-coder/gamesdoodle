@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-export default function GameCard({ game }) {
+export default function GameCard({ game, isFavorite, onToggleFavorite }) {
   const [imgError, setImgError] = useState(false);
   const shortTitle = game.title.split(/[–\-]/)[0].trim();
 
@@ -23,11 +23,21 @@ export default function GameCard({ game }) {
           )}
         </div>
         <div className="game-card-body">
-          <h2 className="game-card-title">{shortTitle}</h2>
+          <h4 className="game-card-title">{shortTitle}</h4>
           <p className="game-card-excerpt">{game.excerpt}</p>
           <span className="game-card-cta">▶ Play Now</span>
         </div>
       </Link>
+      {onToggleFavorite && (
+        <button
+          className={`game-card-fav${isFavorite ? ' active' : ''}`}
+          onClick={(e) => { e.preventDefault(); e.stopPropagation(); onToggleFavorite(game.slug); }}
+          aria-label={isFavorite ? 'Remove from favorites' : 'Add to favorites'}
+          title={isFavorite ? 'Remove from favorites' : 'Add to favorites'}
+        >
+          {isFavorite ? '❤️' : '🤍'}
+        </button>
+      )}
     </article>
   );
 }

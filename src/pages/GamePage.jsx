@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { useParams, Navigate } from 'react-router-dom';
 import { getGameBySlug, getCategoryBySlug } from '../data/games';
 import { staticPages } from '../data/staticPages';
 import CategoryPage from './CategoryPage';
@@ -7,7 +7,16 @@ import GameDetail from './GameDetail';
 import NotFoundPage from './NotFoundPage';
 
 export default function GamePage() {
-  const { slug } = useParams();
+  const { slug, page } = useParams();
+
+  // Handle WordPress-style pagination URLs: /online-games/page/2/ → /online-games/?page=2
+  if (page) {
+    const pageNum = parseInt(page, 10);
+    if (pageNum === 1) {
+      return <Navigate to={`/${slug}/`} replace />;
+    }
+    return <Navigate to={`/${slug}/?page=${pageNum}`} replace />;
+  }
 
   // Check if it's a category page
   const category = getCategoryBySlug(slug);

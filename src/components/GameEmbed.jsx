@@ -75,11 +75,6 @@ export default function GameEmbed({ game }) {
           />
         )}
       </div>
-      {isFullscreen && showIframe && (
-        <button className="fullscreen-close-btn" onClick={toggleFullscreen}>
-          ✕
-        </button>
-      )}
     </div>
   );
 }
