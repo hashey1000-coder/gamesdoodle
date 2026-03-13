@@ -10585,9 +10585,299 @@ export const games = [
 </div>
 <!-- CONTENT END 1 -->`,
   },
-];
+  {
+    slug: 'nerdle',
+    title: 'Nerdle – Play the Daily Math Equation Puzzle Online',
+    metaDescription: 'Play Nerdle online, the daily math equation guessing game. Crack the hidden calculation in 6 tries using digits and operators. Free, no download needed.',
+    category: 'online-games',
+    embedUrl: 'https://nerdlegame.com',
+    thumbnail: '/images/nerdle.webp',
+    relatedSlugs: ['quordle', 'octordle', 'numberle'],
+    excerpt: 'What if Wordle swapped letters for numbers? Nerdle is the daily math equation puzzle that challenges you to crack a hidden calculation in just six tries...',
+    content: `<p>What if Wordle swapped letters for numbers? Nerdle is the daily math equation puzzle that challenges you to crack a hidden calculation in just six tries — and it&#8217;s every bit as addictive as the word game that inspired it. Created by mathematician Richard Mann and his daughter Imogen in January 2022, Nerdle turned a lockdown project into a global phenomenon that attracted over a million players in its first month alone.</p>
 
-// Helper function to get a game by its slug
+<p>The concept is elegantly simple. A hidden mathematical equation is waiting for you, and your job is to find it. Type any valid equation — something like <strong>3*4+5=17</strong> — and the game tells you how close you are using colour-coded tiles. Every guess must be a real, working calculation before it&#8217;ll submit, which means you&#8217;re doing real maths with every attempt. No random letter-bashing allowed here.</p>
+
+<p>Classic Nerdle uses eight-character equations and gives you six guesses. But the real depth comes from the variants: mini (six characters), micro (five), maxi (ten characters with brackets and powers), bi-nerdle (solve two simultaneously), quad-nerdle (four at once), speed nerdle (race against the clock), and instant nerdle for when you just need the answer and want to skip straight to it. There are over 17,000 possible equations in classic mode alone, so repetition isn&#8217;t going to be a problem anytime soon.</p>
+
+<p>The game follows standard order of operations — multiplication and division before addition and subtraction — and accepts commutative answers. If the hidden equation is <strong>10+20=30</strong>, your guess of <strong>20+10=30</strong> will be marked as a win. That flexibility makes Nerdle feel fair rather than frustrating, rewarding mathematical thinking rather than punishing technicality.</p>
+
+<p>Whether you&#8217;re a maths teacher looking for a classroom warm-up, a number-obsessed puzzle fan who&#8217;s burned through every Wordle variant, or just someone who finds words too easy, Nerdle delivers a genuine daily challenge that keeps your arithmetic sharp and your competitive streak fully engaged.</p>
+
+<h2 class="wp-block-heading">How To Play Nerdle</h2>
+
+<p>Each guess must be a valid mathematical equation — digits 0–9 and the operators <strong>+ - * / =</strong> are your only tools. Type your equation using the on-screen keyboard and press Enter to submit. The equation has to be mathematically correct before Nerdle will accept it, so <strong>1+1=3</strong> won&#8217;t fly.</p>
+
+<p>After each guess, tiles change colour to guide you. <strong>Green</strong> means the character is correct and in the right position. <strong>Purple</strong> means it appears in the equation but in a different spot. <strong>Black</strong> means that character doesn&#8217;t appear anywhere in the solution. Use this feedback to narrow down your next equation.</p>
+
+<p>Remember that standard order of operations applies — <strong>2+3*4=14</strong>, not 20. The equals sign always comes before the result, and the result is always on the right. Approach each guess as a genuine mathematical statement and let the colours do the detective work for you. Solve it in six tries or fewer and your streak is safe for another day.</p>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'moviedle',
+    title: 'Moviedle – Play the Daily Movie Guessing Game Online',
+    metaDescription: 'Play Moviedle online, the daily movie guessing game. Identify the film from cast, director, and genre clues. Free to play, no download needed.',
+    category: 'online-games',
+    embedUrl: 'https://moviedle.xyz',
+    thumbnail: '/images/moviedle.webp',
+    relatedSlugs: ['swiftle', 'flaggle', 'squaredle'],
+    excerpt: 'Think you know your movies? Moviedle challenges you to identify a daily film from progressively revealed clues — cast ages, director, genres, and release year...',
+    content: `<p>Think you know your movies? Moviedle challenges you to identify a daily film from progressively revealed clues — cast ages at the time of filming, the director&#8217;s name, genres, and release year comparisons. It&#8217;s a game for everyone who&#8217;s ever confidently said &#8220;I&#8217;ll watch anything&#8221; and genuinely means it, or who can identify a film from a single frame before the title card even appears.</p>
+
+<p>The game starts you off with almost nothing. Every identifying detail — cast photos, names, the director, genres — begins hidden or blurred. Wrong guesses progressively unlock more information, slowly piecing together the puzzle. A correct guess comes with the satisfying click of everything snapping into place. The daily challenge rotates across a huge range of films, from blockbuster franchises to indie darlings, keeping even the most dedicated cinephiles on their toes.</p>
+
+<p>What makes Moviedle more than just a trivia quiz is how it rewards genuine film knowledge rather than lucky guessing. Understanding that a particular actor was a certain age in the mid-90s, recognising a director&#8217;s recurring collaborators, or knowing that a specific combination of genres points to one studio era over another — these are the kinds of connections that separate the film fans from the film obsessives.</p>
+
+<p>Beyond the classic daily challenge, Moviedle offers several game modes to keep things fresh. Moviemoji tasks you with guessing a film purely from a string of emojis — a completely different and wonderfully chaotic kind of challenge. Fill The Grid and Twenty Questions add more variety for when one puzzle a day simply isn&#8217;t enough. A full archive of past games means new players have plenty of back catalogue to work through.</p>
+
+<h2 class="wp-block-heading">How To Play Moviedle</h2>
+
+<p>Type any movie title into the search bar to submit your first guess. The game will immediately show you how wrong (or right) you were, with directional arrows indicating whether the actual film&#8217;s release year is earlier or later than your guess. Each wrong answer unlocks another piece of information about the mystery film.</p>
+
+<p>The clues reveal in a set order: cast members (with ages blurred at first), then the director, then genres, then the release date window. Each wrong guess peels back another layer. Pay attention to the age indicators — if a cast member was listed as being in their early 30s and the release window narrows to the late 1990s, that&#8217;s a meaningful clue about when their career was at its peak.</p>
+
+<p>There&#8217;s no guess limit, but fewer guesses make for a better score to share. The real challenge is resisting the urge to start with a safe, easy-to-identify film and instead making educated guesses based on the clues. The more clues you need, the more the game will humble you — which is exactly why it&#8217;s so hard to stop playing.</p>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'swiftle',
+    title: 'Swiftle – Play the Taylor Swift Song Guessing Game Online',
+    metaDescription: 'Play Swiftle online, the Heardle-style game for Taylor Swift fans. Identify the song from a short audio clip in 5 tries. Free to play instantly.',
+    category: 'online-games',
+    embedUrl: 'https://swiftle.app',
+    thumbnail: '/images/swiftle.webp',
+    relatedSlugs: ['moviedle', 'flaggle', 'squaredle'],
+    excerpt: 'Are you really a Swiftie? Swiftle puts your Taylor Swift knowledge to the ultimate test — one half-second clip at a time. Identify the song before the clues run out...',
+    content: `<p>Are you really a Swiftie? Swiftle puts your Taylor Swift knowledge to the ultimate test — one half-second clip at a time. Inspired by the wildly popular Heardle format, this daily music guessing game gives you just 0.5 seconds of audio and challenges you to name the track. Get it wrong or skip, and you earn a longer listen. But true fans shouldn&#8217;t need one.</p>
+
+<p>The game covers Taylor Swift&#8217;s entire discography — from <em>Taylor Swift</em> all the way through the Taylor&#8217;s Version re-recordings and every album era in between. That means deep cuts, B-sides, bonus tracks, and vault songs are all fair game alongside the singles everyone knows. Swiftle doesn&#8217;t give easy passes, and if you&#8217;ve claimed to know every word of every song, this is where you prove it.</p>
+
+<p>Each daily puzzle is the same for everyone worldwide, which turns Swiftle into a social experience just as much as a personal challenge. Sharing your result — how many clips you needed, whether you guessed correctly — has become a mini-ritual for fans on social media, especially around album releases and anniversaries. Getting it in one play immediately earns you the bragging rights you&#8217;ve been building since <em>Fearless</em>.</p>
+
+<p>The format works brilliantly because it tests a different kind of memory than trivia questions do. Recognising a song from half a second isn&#8217;t about knowing facts — it&#8217;s about having genuinely absorbed the music. The intro riff, the opening piano note, the first milliseconds of a vocal. Whether you&#8217;re a casual listener who only knows the big albums or someone who can hum every vault track from <em>1989</em>, Swiftle will find your limits and invite you back tomorrow to try again.</p>
+
+<h2 class="wp-block-heading">How To Play Swiftle</h2>
+
+<p>Press the play button to hear a 0.5-second clip of today&#8217;s Taylor Swift song. If you recognise it immediately, type the title into the search bar and submit your guess. If you&#8217;re not sure, click Skip or guess incorrectly to unlock a slightly longer audio clip — each wrong guess or skip reveals more of the track.</p>
+
+<p>You get five attempts in total. The clips get progressively longer with each guess: 0.5 seconds, then 1 second, 2 seconds, 4 seconds, and finally 7 seconds on your last attempt. Most dedicated fans should be able to identify a song before the final clip, but vault tracks and deep album cuts can trip up even the most dedicated listeners.</p>
+
+<p>Search for song titles as you type — the autocomplete shows matching tracks from across the discography, which also serves as a handy reminder of which songs exist when you&#8217;re blanking on a title you definitely know. Share your result when you&#8217;re done and come back tomorrow for a fresh challenge. The streak counter keeps track of your daily consistency — because Swifties don&#8217;t miss a day.</p>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'squaredle',
+    title: 'Squaredle – Play the Daily Word Finding Puzzle Online',
+    metaDescription: 'Play Squaredle online, the daily word-finding grid puzzle. Connect adjacent letters to find all hidden words. Free to play, no download needed.',
+    category: 'online-games',
+    embedUrl: 'https://squaredle.app',
+    thumbnail: '/images/squaredle.webp',
+    relatedSlugs: ['quordle', 'nerdle', 'moviedle'],
+    excerpt: 'Squaredle is the word puzzle that rewards exploration over guessing. Instead of finding one mystery word, you hunt for every word hiding inside a grid of letters...',
+    content: `<p>Squaredle is the word puzzle that rewards exploration over guessing. Instead of finding one mystery word, you hunt for every word hiding inside a grid of letters — and there are a lot of them. Swipe or click through adjacent letters to form words, uncover all the required ones, and if you&#8217;re feeling ambitious, go hunting for the bonus words the game&#8217;s designers buried in there too. It&#8217;s the kind of puzzle you can finish in five minutes or spend half an hour in, depending on how deep you want to dig.</p>
+
+<p>Created by Joey Kan and launching in early 2022 during the peak of the daily puzzle boom, Squaredle distinguished itself from the Wordle pack by being genuinely different in format. While most variants kept the &#8220;guess one word&#8221; structure, Squaredle asks something harder: find all the words. The grid changes daily, the required words vary in length and difficulty, and the bonus list keeps competitive players chasing a perfect score long after the required words are done.</p>
+
+<p>Movement in the grid follows a simple rule — each letter must be adjacent to the previous one, including diagonals. That means every path through the grid is different, and the same letters can form multiple different words depending on which direction you travel. The puzzle rewards players who think spatially, who can see multiple paths at once, and who know their way around the less common corners of the English vocabulary.</p>
+
+<p>Words must be at least four letters long, and the required words span multiple lengths. Shorter required words are usually more familiar, while the longer ones test vocabulary properly. Bonus words push into more obscure territory — if you&#8217;re finding them all, you&#8217;re genuinely impressive. The game keeps track of which words you&#8217;ve found and which are still hiding, giving you that perfect nudge to keep going when you think you&#8217;re done.</p>
+
+<h2 class="wp-block-heading">How To Play Squaredle</h2>
+
+<p>Look at the grid of letters and swipe or click through adjacent tiles to form words. Letters must be connected — each new letter must be directly next to the previous one on the grid, including diagonals. You can&#8217;t skip over tiles or use the same tile twice in a single word.</p>
+
+<p>All words must be at least four letters long. As you find valid words, they&#8217;ll be added to your list and the tiles will briefly highlight. Required words are sorted by length — find all of them to complete the daily puzzle. Bonus words beyond the required list earn you extra points and bragging rights, but they&#8217;re optional.</p>
+
+<p>If you&#8217;re stuck, the hint system can point you toward words you&#8217;re missing. The daily puzzle resets at midnight, so you get one fresh grid every day. Your streak tracks how many consecutive days you&#8217;ve completed the required words, which gives you every reason to come back tomorrow and keep your record intact.</p>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'flaggle',
+    title: 'Flaggle – Play the Daily Flag Guessing Game Online',
+    metaDescription: 'Play Flaggle online, the daily flag guessing game. Identify the country from its flag with progressive reveal clues. Free to play, no download needed.',
+    category: 'online-games',
+    embedUrl: 'https://flaggle.app',
+    thumbnail: '/images/flaggle.webp',
+    relatedSlugs: ['tradle', 'moviedle', 'squaredle'],
+    excerpt: 'You think you know your flags? Flaggle reveals a country\'s flag piece by piece and challenges you to name it before the whole thing is on screen...',
+    content: `<p>You think you know your flags? Flaggle reveals a country&#8217;s flag piece by piece and challenges you to name it before the whole thing is on screen. It&#8217;s a geography game, a vexillology test, and a daily exercise in humility — all in one. Even players who are confident about the major nations will find themselves stumped by the more obscure corners of the world map, especially when all they&#8217;ve got is a sliver of colour and an ambiguous symbol.</p>
+
+<p>The daily challenge gives everyone the same flag, which makes Flaggle a naturally social game. Sharing your result — whether you nailed it on the first reveal or needed every single hint — starts conversations about which country that shade of red actually belongs to, and why so many small island nations have suspiciously similar colour palettes. It&#8217;s the kind of game that makes you realise how many flags you thought you knew but absolutely didn&#8217;t.</p>
+
+<p>What separates great Flaggle players from casual ones is pattern recognition. Knowing that horizontal tricolours appear across dozens of countries, that certain shades of green appear almost exclusively in African nations, or that a particular coat of arms narrows things down to Central America — this kind of knowledge transforms the game from random guessing into something resembling genuine expertise. Every puzzle teaches you something, even when you get it wrong.</p>
+
+<p>The game covers the full range of sovereign nations, from the instantly recognisable to the genuinely obscure. Some flags are almost identical to neighbouring countries&#8217; designs, which creates its own specific frustration. But that frustration is precisely what keeps players coming back — the desire to finally nail that tricky flag they missed yesterday, and to one day reach the point where no reveal catches them cold.</p>
+
+<h2 class="wp-block-heading">How To Play Flaggle</h2>
+
+<p>Each round starts with a partially revealed flag — you&#8217;ll see a small cropped section and need to guess which country it belongs to. Type the country name into the search bar and submit your guess. Wrong answers reveal more of the flag, giving you progressively more to work with.</p>
+
+<p>Use what you can see strategically. Colours narrow things down significantly — a red, white, and blue combination is common, but the specific shades and arrangement point to specific regions. Symbols, emblems, or distinctive stripes can eliminate entire continents from consideration. If you see a crescent and star, you&#8217;re looking at a very different shortlist than if you see a cross or a shield.</p>
+
+<p>There&#8217;s no penalty for wrong guesses beyond seeing more of the flag, so don&#8217;t be afraid to make educated regional guesses early on. The built-in reference list lets you browse world flags, which is useful when you know roughly which region a flag belongs to but can&#8217;t quite land on the specific country. Come back daily and your geography knowledge will improve faster than any textbook could manage.</p>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'numberle',
+    title: 'Numberle – Play the Daily Math Equation Game Online',
+    metaDescription: 'Play Numberle online, the daily math equation guessing game inspired by Wordle. Crack the hidden equation in 6 tries. Free to play, no download needed.',
+    category: 'online-games',
+    embedUrl: 'https://numberle.org',
+    thumbnail: '/images/numberle.webp',
+    relatedSlugs: ['nerdle', 'quordle', 'octordle'],
+    excerpt: 'Numberle is the daily maths puzzle that asks one straightforward question: can you guess the hidden equation in six tries? Think Wordle, but replace letters with digits...',
+    content: `<p>Numberle is the daily maths puzzle that asks one straightforward question: can you guess the hidden equation in six tries? Think Wordle, but replace every letter with a digit or arithmetic symbol. It&#8217;s accessible enough for anyone who made it through secondary school maths, deep enough to genuinely challenge you every day, and short enough to fit into any commute, break, or five minutes of procrastination.</p>
+
+<p>Part of the wider wave of equation-guessing games that emerged alongside the Wordle explosion in early 2022, Numberle carves out its own identity with a clean, no-fuss interface and a daily puzzle format that feels consistent and fair. Every guess you make has to be a valid mathematical equation — no guessing random strings of numbers and hoping for the best. The game enforces real arithmetic, which keeps things honest and surprisingly educational.</p>
+
+<p>The colour feedback works just like the original Wordle system. Green means you&#8217;ve placed a digit or symbol in exactly the right position. Yellow (or brown, depending on your colour settings) means it appears somewhere in the equation but in the wrong spot. Grey means it doesn&#8217;t appear in the solution at all. Six guesses is more than enough to crack most equations with sensible play — but the pressure of the streak counter has a way of making those six attempts feel very finite indeed.</p>
+
+<p>There&#8217;s a satisfying mental shift that happens as you play Numberle regularly. You start approaching equations differently — thinking about which digit combinations produce clean results, which operators are most commonly used in short equations, and how to maximise the information gained from each guess. It&#8217;s the same kind of strategic thinking that makes Wordle so compelling, just wearing different clothes.</p>
+
+<h2 class="wp-block-heading">How To Play Numberle</h2>
+
+<p>Your goal is to guess the hidden mathematical equation in six attempts. Type any valid equation using the on-screen keypad — digits 0–9 and the operators <strong>+ − × ÷ =</strong> are available. The equation must be mathematically correct to submit, so make sure both sides of the equals sign actually balance.</p>
+
+<p>After each guess, the tiles change colour. <strong>Green</strong> means that digit or symbol is correct and in the right position. <strong>Yellow/brown</strong> means it&#8217;s part of the equation but positioned elsewhere. <strong>Grey</strong> means it doesn&#8217;t appear in the solution at all. Build on this information with each guess, systematically narrowing down the possibilities.</p>
+
+<p>Start with an equation that uses a variety of common digits and operators to gather as much information as possible from your first guess. Avoid repeating grey characters in subsequent guesses. The equals sign always separates the calculation from its result, with the result on the right — keep that structure in mind as you build each attempt. Six guesses sounds like plenty until the streak pressure kicks in.</p>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'tradle',
+    title: 'Tradle – Play the Daily Trade & Economics Guessing Game Online',
+    metaDescription: 'Play Tradle online, the daily geography and economics puzzle. Guess the country from its export treemap in 6 tries. Free to play, no download needed.',
+    category: 'online-games',
+    embedUrl: 'https://games.oec.world/en/tradle',
+    thumbnail: '/images/tradle.webp',
+    relatedSlugs: ['flaggle', 'moviedle', 'quordle'],
+    excerpt: 'Tradle shows you a colourful chart of a country\'s exports and asks: which country is this? It\'s geography, economics, and detective work rolled into one daily puzzle...',
+    content: `<p>Tradle shows you a colourful treemap chart of a country&#8217;s exports — oil, machinery, electronics, textiles, agriculture, all broken down by value and proportion — and asks a deceptively simple question: which country is this? It&#8217;s the Wordle variant for geography teachers, economics students, curious travellers, and anyone who has ever found themselves going down a Wikipedia rabbit hole about international trade flows at midnight.</p>
+
+<p>Created by the team behind the Observatory of Economic Complexity (OEC) — a world-leading data visualisation platform for global trade statistics — Tradle launched in early 2022 and quickly found a devoted audience among the puzzle and geography communities. It uses real trade data from the OEC&#8217;s extensive database, which means every puzzle is grounded in actual economic reality rather than invented scenarios. Learning what a country exports isn&#8217;t just useful for the game; it&#8217;s genuinely useful knowledge about how the world works.</p>
+
+<p>The game rewards a specific kind of knowledge that no other Wordle variant tests. Understanding that a treemap dominated by petroleum and natural gas narrows the field dramatically. Knowing that a country whose exports are mostly electronics and machinery suggests East Asia rather than Sub-Saharan Africa. Recognising the distinctive export profile of a small island nation versus a continental powerhouse. These economic fingerprints are unique to Tradle, and building fluency in reading them turns each session into a genuine learning experience.</p>
+
+<p>Wrong guesses provide directional feedback, telling you whether the correct country is geographically closer to the equator or the poles, and which direction to look on the map. Six guesses is enough to get systematic about it — eliminate entire continents, narrow down by region, then drill into specific countries based on what the export proportions tell you. It&#8217;s deeply satisfying when the pieces click into place.</p>
+
+<h2 class="wp-block-heading">How To Play Tradle</h2>
+
+<p>Study the treemap shown on screen. Each coloured block represents a category of exports, sized proportionally to its share of the country&#8217;s total export value. Larger blocks dominate the economy; smaller ones are secondary industries. The colour coding groups related product types together — look for patterns rather than individual details.</p>
+
+<p>Type any country name into the search bar and submit your guess. Wrong answers provide two pieces of feedback: a directional arrow showing which way on the map to look, and a distance indicator showing how far away the correct country is from your guess. Use this to eliminate regions systematically rather than guessing randomly.</p>
+
+<p>You have six guesses to identify the country. If you see a treemap dominated by crude oil, start with major petroleum exporters and use the directional clues to navigate from there. If it&#8217;s mostly agricultural goods, think about which regions export those crops at scale. The export profile is your primary clue — treat it like a fingerprint and trust what the data is telling you.</p>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'duotrigordle',
+    title: 'Duotrigordle – Solve 32 Wordle Puzzles at Once Online',
+    metaDescription: 'Play Duotrigordle online, the ultimate multi-board Wordle challenge. Solve 32 five-letter words in 37 guesses. Free to play, no download needed.',
+    category: 'online-games',
+    embedUrl: 'https://duotrigordle.com',
+    thumbnail: '/images/duotrigordle.webp',
+    relatedSlugs: ['quordle', 'octordle', 'nerdle'],
+    excerpt: 'Quordle felt manageable. Octordle pushed you harder. Duotrigordle solves 32 Wordle boards simultaneously and asks if you have what it takes...',
+    content: `<p>Quordle felt manageable. Octordle pushed you harder. Duotrigordle is where sanity waves goodbye. The premise is the same as every multi-board Wordle variant — guess five-letter words using colour-coded clues — except here you&#8217;re solving thirty-two boards at once. Every single word you type applies to all 32 simultaneously, and you have 37 guesses to crack all of them before the game ends. It is, by any reasonable measure, completely ridiculous. It&#8217;s also brilliant.</p>
+
+<p>Built by developer thesilican and released in 2022, Duotrigordle is open source and has gathered a devoted following of puzzle masochists who consider Octordle a warm-up. The 32 boards are displayed in a scrollable grid, each one tracking its own independent colour feedback for every guess. You can scroll between them freely, which means part of the challenge is just mentally tracking where you are with each board and which letters you still need to crack. The sheer information density is overwhelming at first and deeply satisfying once you develop a system.</p>
+
+<p>The game offers three daily modes to match different kinds of madness. The standard mode shows all 32 boards at once from the start. Sequence mode unlocks boards one at a time — you only see the next board after solving the previous one, which demands a different approach entirely. Jumble mode randomises the first three target words, throwing another variable into the chaos. Practice mode removes the daily limit, letting you work through additional puzzles whenever you have time and energy to spare.</p>
+
+<p>Despite the seemingly impossible scale, the mathematics of 37 guesses across 32 boards is more forgiving than it sounds. Early guesses serve as broad reconnaissance, eliminating letters across all boards simultaneously. The real skill is recognising when a board is nearly solved and pivoting to prioritise it before running out of guesses, while keeping enough flexibility to finish the trickier boards. It&#8217;s multi-tasking taken to a logical extreme, and somehow it works.</p>
+
+<h2 class="wp-block-heading">How To Play Duotrigordle</h2>
+
+<p>Type any valid five-letter word and press Enter. That guess applies to every one of the 32 boards simultaneously. Each board shows its own colour feedback: <strong>green</strong> for correct letter in the correct position, <strong>yellow</strong> for correct letter in the wrong position, <strong>grey</strong> for letters that don&#8217;t appear in that board&#8217;s word. The keyboard at the bottom tracks the best result each letter has achieved across all boards.</p>
+
+<p>Start with information-gathering words that cover a wide spread of common letters — <strong>CRANE</strong>, <strong>SLOTH</strong>, <strong>WIPED</strong> are popular openers that eliminate large chunks of the alphabet quickly. Use your first few guesses to build a picture across all 32 boards before targeting specific words. Scroll through the grid regularly to check your progress and spot which boards are close to solved.</p>
+
+<p>You have 37 guesses to solve all 32 words. Prioritise boards where you&#8217;re close to a solution but don&#8217;t neglect the trickier ones — leaving difficult boards for last with few guesses remaining is how runs end. When you finish (or run out of guesses), share your result and see how your attempt compares to the rest of the daily leaderboard.</p>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'quordle',
+    title: 'Quordle – Play the 4-Board Wordle Puzzle Online',
+    metaDescription: 'Play Quordle online, the daily word puzzle where you solve 4 Wordle boards at once in 9 guesses. Hosted by Merriam-Webster. Free to play instantly.',
+    category: 'online-games',
+    embedUrl: 'https://www.merriam-webster.com/games/quordle/',
+    thumbnail: '/images/quordle.webp',
+    relatedSlugs: ['octordle', 'duotrigordle', 'nerdle'],
+    excerpt: 'Wordle was the starter. Quordle is the main course. Solve four five-letter words simultaneously in just nine guesses — every word you type hits all four boards at once...',
+    content: `<p>Wordle was the starter. Quordle is the main course. The concept is elegantly brutal: four five-letter words, nine guesses, every word you type filling squares on all four boards at once. What sounds like a modest step up from the original turns out to require a fundamentally different approach — because strategies that work perfectly for one word fall apart completely when you need them to serve four boards simultaneously.</p>
+
+<p>Created by Freddie Meyer in January 2022 and later acquired by Merriam-Webster, Quordle became one of the most popular Wordle variants almost immediately. The Merriam-Webster partnership gives the game an official dictionary backing that both legitimises the word choices and provides access to the publisher&#8217;s deep vocabulary resources. It also means the game isn&#8217;t going anywhere — unlike some indie variants that appeared and disappeared during the puzzle boom, Quordle has an institutional home.</p>
+
+<p>The nine-guess limit is where the game&#8217;s tension lives. In standard Wordle you can afford to use early guesses for pure information gathering. In Quordle, every guess has to serve multiple boards, and by the time you&#8217;ve built a clear picture of all four words, you need to have enough guesses left to actually solve them. The maths is unforgiving — an inefficient opening puts you under pressure immediately, and pressure is exactly when five-letter words get harder to think of.</p>
+
+<p>Practice mode removes the daily limit and generates unlimited fresh puzzles, which is where most players do the work of developing their strategy. The daily puzzle syncs worldwide, so sharing results and comparing performances has become part of the experience. Quordle threads on social media fill up every morning with grids of coloured squares and commentary ranging from smug to mortified — which is precisely the kind of communal experience that made the whole genre explode in the first place.</p>
+
+<h2 class="wp-block-heading">How To Play Quordle</h2>
+
+<p>Type any valid five-letter word and press Enter. It fills in squares on all four boards at once. Each board gives independent colour feedback: <strong>green</strong> for the right letter in the right spot, <strong>yellow</strong> for a correct letter in the wrong position, <strong>grey</strong> for letters not present in that board&#8217;s word. The shared keyboard at the bottom shows the best result each letter has achieved across all four boards.</p>
+
+<p>You have nine guesses to solve all four words. Spend the first two or three guesses on information-gathering — choose words that cover a wide spread of common letters to build a picture of all four solutions simultaneously. After that, start targeting specific boards based on what you know, but always choose guesses that serve multiple boards where possible.</p>
+
+<p>The hardest part of Quordle is discipline. When you can almost see one solution, the temptation is to go straight for it and worry about the other boards later. Resist this — leaving a board mostly unsolved with limited guesses remaining is extremely dangerous. Focus on the boards with the fewest possibilities and methodically work through them all before your guesses run out. Practice mode is your best teacher.</p>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'octordle',
+    title: 'Octordle – Play the 8-Board Wordle Puzzle Online',
+    metaDescription: 'Play Octordle online, the daily word puzzle where you solve 8 Wordle boards simultaneously in 13 guesses. Hosted by Britannica. Free to play instantly.',
+    category: 'online-games',
+    embedUrl: 'https://www.britannica.com/games/octordle/',
+    thumbnail: '/images/octordle.webp',
+    relatedSlugs: ['quordle', 'duotrigordle', 'nerdle'],
+    excerpt: 'Eight boards. Thirteen guesses. One word applies to all of them. Octordle is where multi-board Wordle stops feeling manageable and starts feeling like a genuine feat...',
+    content: `<p>Eight boards. Thirteen guesses. One word you type applies to all of them at once. Octordle is where multi-board Wordle stops feeling manageable and starts feeling like a genuine feat of mental juggling. If Quordle introduced you to the chaos of solving multiple words simultaneously, Octordle doubles the board count and then gives you only four extra guesses to compensate. The result is one of the most satisfying puzzle challenges available anywhere online.</p>
+
+<p>Originally created as an independent game before being acquired and hosted on Britannica&#8217;s website, Octordle has found a permanent home alongside the encyclopaedia&#8217;s educational content — which feels appropriate, given how much vocabulary it quietly teaches. The Britannica hosting means it&#8217;s stable, well-supported, and backed by a serious publisher&#8217;s word resources. It also offers several difficulty tiers to match where you are in your Octordle journey.</p>
+
+<p>Classic mode gives you 13 guesses for 8 boards — the baseline challenge that most players start with. Chill mode is slightly more forgiving with 16 guesses and a gentler word list, making it a good starting point if you&#8217;re new to the format. Extreme mode reduces the guess count to 12 and pulls from a more demanding vocabulary, which is exactly as brutal as it sounds. Sequence mode unlocks each new board only after the previous one is solved, demanding a completely different strategic approach. Rescue mode pre-fills several starter words and asks you to salvage a win from the position — which requires a very different skill set entirely.</p>
+
+<p>What makes Octordle more than just a harder Quordle is how it changes your relationship with information. At four boards, you can track everything in your head. At eight, you have to develop a genuine system — knowing at a glance which boards are nearly done, which still need multiple letters identified, and which might be heading toward a difficult endgame. That meta-awareness is a skill in itself, and building it over dozens of sessions turns Octordle into something almost meditative.</p>
+
+<h2 class="wp-block-heading">How To Play Octordle</h2>
+
+<p>Type any valid five-letter word and press Enter — it applies to all eight boards simultaneously. Each board returns independent colour feedback: <strong>green</strong> for the correct letter in the right position, <strong>yellow</strong> for a correct letter in the wrong position, <strong>grey</strong> for a letter not present in that board&#8217;s word. The shared keyboard updates to show the best result each letter has achieved across all eight boards.</p>
+
+<p>You have 13 guesses to solve all eight words. Dedicate the first three or four to broad information gathering — high-frequency letter words that eliminate as much of the alphabet as possible across all boards simultaneously. After the opening phase, start reading each board individually. Identify which boards are closest to solved and which still have multiple unknowns, then balance your remaining guesses accordingly.</p>
+
+<p>The critical habit in Octordle is never fixating on a single board. It&#8217;s tempting to solve an easy one quickly and move on, but guesses spent on one board are spent on all eight — make every guess count for as many boards as possible. Scroll through all eight after each guess to reassess the picture. When two or three boards reach the endgame simultaneously, the final few guesses become a genuine test of prioritisation under pressure.</p>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+];
 export function getGameBySlug(slug) {
   return games.find(g => g.slug === slug);
 }
