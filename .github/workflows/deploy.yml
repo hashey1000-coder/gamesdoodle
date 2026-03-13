@@ -20,6 +20,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Save previous sitemap (for IndexNow diff)
+        run: cp public/sitemap.xml /tmp/prev-sitemap.xml
+
       - name: Build site
         run: npm run build
 
@@ -34,3 +37,6 @@ jobs:
         run: |
           scp -r dist/* \
           ${{ secrets.CPANEL_USER }}@${{ secrets.CPANEL_HOST }}:/home/sassache2/gamesdoodle.org/
+
+      - name: Submit new URLs to Bing IndexNow
+        run: node submit-indexnow.cjs /tmp/prev-sitemap.xml
