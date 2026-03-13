@@ -267,7 +267,7 @@ export default function SEO({
       {ogImage && <meta property="og:image" content={ogImage} />}
       {ogImage && <meta property="og:image:width" content="800" />}
       {ogImage && <meta property="og:image:height" content="400" />}
-      {ogImage && <meta property="og:image:type" content="image/png" />}
+      {ogImage && <meta property="og:image:type" content={ogImage.endsWith('.webp') ? 'image/webp' : ogImage.endsWith('.png') ? 'image/png' : 'image/jpeg'} />}
       {ogImage && <meta property="og:image:alt" content={title} />}
 
       {/* Article meta tags (game pages) */}
