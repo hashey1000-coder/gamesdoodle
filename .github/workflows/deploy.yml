@@ -23,21 +23,14 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Upload dist folder
-        uses: appleboy/scp-action@v0.1.7
-        with:
-          host: ${{ secrets.CPANEL_HOST }}
-          username: ${{ secrets.CPANEL_USER }}
-          key: ${{ secrets.CPANEL_SSH_KEY }}
-          source: "dist"
-          target: "/home/sassache2/"
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.CPANEL_SSH_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H ${{ secrets.CPANEL_HOST }} >> ~/.ssh/known_hosts
 
-      - name: Deploy on server
-        uses: appleboy/ssh-action@v1.0.3
-        with:
-          host: ${{ secrets.CPANEL_HOST }}
-          username: ${{ secrets.CPANEL_USER }}
-          key: ${{ secrets.CPANEL_SSH_KEY }}
-          script: |
-            rsync -av --delete /home/sassache2/dist/ /home/sassache2/gamesdoodle.org/
-            rm -rf /home/sassache2/dist
+      - name: Deploy with rsync
+        run: |
+          rsync -avz --delete dist/ \
+          ${{ secrets.CPANEL_USER }}@${{ secrets.CPANEL_HOST }}:/home/sassache2/gamesdoodle.org/
