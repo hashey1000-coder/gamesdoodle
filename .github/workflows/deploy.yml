@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup Node
@@ -23,12 +23,12 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Deploy with rsync
-        uses: easingthemes/ssh-deploy@v5
+      - name: Deploy via rsync
+        uses: easingthemes/ssh-deploy@v4.1.10
         env:
           SSH_PRIVATE_KEY: ${{ secrets.CPANEL_SSH_KEY }}
-          ARGS: "-rlgoDzvc --delete"
-          SOURCE: "dist/"
           REMOTE_HOST: ${{ secrets.CPANEL_HOST }}
           REMOTE_USER: ${{ secrets.CPANEL_USER }}
-          TARGET: "/home/sassache2/gamesdoodle.org"
+          SOURCE: "dist/"
+          TARGET: "/home/sassache2/gamesdoodle.org/"
+          ARGS: "-rlgoDzvc --delete"
