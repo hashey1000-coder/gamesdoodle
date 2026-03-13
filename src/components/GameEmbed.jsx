@@ -22,6 +22,13 @@ export default function GameEmbed({ game }) {
     setIsFullscreen(prev => !prev);
   }, []);
 
+  // Reset state when navigating to a different game
+  useEffect(() => {
+    setIsPlaying(false);
+    setIsFullscreen(false);
+    setIsLoaded(false);
+  }, [game.slug]);
+
   // Lock body scroll when fullscreen
   useEffect(() => {
     if (isFullscreen) {
