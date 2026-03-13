@@ -552,22 +552,26 @@ html, body {
   font-size: 0.9rem;
   cursor: pointer;
   opacity: 0;
+  pointer-events: none;
   transition: all var(--transition);
 }
 
-.game-card:hover .game-card-fav,
 .game-card-fav.active {
   opacity: 1;
-}
-
-.game-card-fav:hover {
-  background: rgba(0,0,0,0.8);
-  transform: scale(1.15);
-}
-
-.game-card-fav.active {
+  pointer-events: auto;
   background: rgba(239, 68, 68, 0.2);
   border-color: rgba(239, 68, 68, 0.3);
+}
+
+@media (hover: hover) {
+  .game-card:hover .game-card-fav {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .game-card-fav:hover {
+    background: rgba(0,0,0,0.8);
+    transform: scale(1.15);
+  }
 }
 
 /* ============ Game Action Bar (Share/Fav) ============ */
