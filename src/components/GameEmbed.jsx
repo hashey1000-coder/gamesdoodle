@@ -1,20 +1,36 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { getRelatedGames } from '../data/games';
 
 export default function GameEmbed({ game }) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [isFullscreen, setIsFullscreen] = useState(false);
+  const [isLoaded, setIsLoaded] = useState(false);
   const relatedGames = getRelatedGames(game.relatedSlugs || []);
   const isExternal = Boolean(game.externalUrl);
 
   const handlePlay = useCallback(() => {
     setIsPlaying(true);
+    setIsLoaded(false);
+  }, []);
+
+  const handleIframeLoad = useCallback(() => {
+    setIsLoaded(true);
   }, []);
 
   const toggleFullscreen = useCallback(() => {
     setIsFullscreen(prev => !prev);
   }, []);
+
+  // Lock body scroll when fullscreen
+  useEffect(() => {
+    if (isFullscreen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => { document.body.style.overflow = ''; };
+  }, [isFullscreen]);
 
   const showIframe = isPlaying && !isExternal;
 
@@ -36,7 +52,7 @@ export default function GameEmbed({ game }) {
           )}
         </div>
       </div>
-      <div className="game-iframe-container">
+      <div className={`game-iframe-container${showIframe ? ' playing' : ''}`}>
         {!isPlaying ? (
           /* Thumbnail + play button overlay for ALL games */
           <button
@@ -65,14 +81,23 @@ export default function GameEmbed({ game }) {
             </div>
           </button>
         ) : (
-          <iframe
-            src={game.embedUrl}
-            title={game.title}
-            className="game-iframe"
-            allowFullScreen
-            allow="autoplay; fullscreen; gamepad"
-            {...(!game.noSandbox && { sandbox: 'allow-scripts allow-same-origin allow-popups allow-forms allow-modals' })}
-          />
+          <>
+            {!isLoaded && (
+              <div className="game-loading-overlay">
+                <div className="game-spinner" />
+                <span className="game-loading-text">Loading game…</span>
+              </div>
+            )}
+            <iframe
+              src={game.embedUrl}
+              title={game.title}
+              className={`game-iframe${isLoaded ? ' loaded' : ''}`}
+              allowFullScreen
+              allow="autoplay; fullscreen; gamepad"
+              onLoad={handleIframeLoad}
+              {...(!game.noSandbox && { sandbox: 'allow-scripts allow-same-origin allow-popups allow-forms allow-modals' })}
+            />
+          </>
         )}
       </div>
       {isFullscreen && showIframe && (

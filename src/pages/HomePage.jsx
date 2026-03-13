@@ -45,7 +45,6 @@ export default function HomePage() {
       <div className="page-content">
         {/* Hero Section */}
         <section className="hero-section">
-          <div className="hero-badge">🎮 Free Browser Games</div>
           <h1 className="hero-title">
             <span className="gradient-text">Games Doodle</span> – Play Google Doodle Games
           </h1>

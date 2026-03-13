@@ -36,6 +36,10 @@
   --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 /* Site Wrapper */
 .site-wrapper {
   min-height: 100vh;
@@ -697,7 +701,7 @@
 /* ============ Hero Section ============ */
 .hero-section {
   text-align: center;
-  padding: 48px 0 40px;
+  padding: 32px 0 28px;
   position: relative;
 }
 
@@ -747,7 +751,7 @@
   font-size: 1.1rem;
   color: var(--text-secondary);
   max-width: 600px;
-  margin: 0 auto 36px;
+  margin: 0 auto 24px;
   line-height: 1.6;
 }
 
@@ -1013,6 +1017,8 @@
   border-radius: 0;
   margin: 0;
   border: none;
+  display: flex;
+  flex-direction: column;
 }
 
 .game-embed-toolbar {
@@ -1085,8 +1091,13 @@
   background: #000;
 }
 
+.game-iframe-container.playing {
+  aspect-ratio: 4 / 3;
+}
+
 .game-embed-wrapper.fullscreen .game-iframe-container {
-  height: calc(100vh - 54px);
+  flex: 1;
+  height: auto;
   aspect-ratio: unset;
 }
 
@@ -1101,6 +1112,43 @@
   width: 100%;
   height: 100%;
   border: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.game-iframe.loaded {
+  opacity: 1;
+}
+
+.game-loading-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  background: #000;
+  z-index: 1;
+}
+
+.game-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(255,255,255,0.1);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.game-loading-text {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  letter-spacing: 0.3px;
 }
 
 /* ============ Game Play Overlay (thumbnail + play button) ============ */
@@ -1573,12 +1621,18 @@
     justify-content: flex-end;
   }
 
+  .game-iframe-container.playing {
+    aspect-ratio: unset;
+    height: 55vh;
+  }
+
   .game-embed-wrapper.fullscreen .game-embed-toolbar {
     display: none;
   }
 
   .game-embed-wrapper.fullscreen .game-iframe-container {
-    height: 100vh;
+    flex: 1;
+    height: auto;
   }
 
   .game-embed-wrapper.fullscreen .fullscreen-exit-float {
@@ -1591,8 +1645,8 @@
     height: 28px;
     border: none;
     border-radius: 50%;
-    background: rgba(255,255,255,0.08);
-    color: rgba(255,255,255,0.25);
+    background: rgba(0,0,0,0.35);
+    color: rgba(255,255,255,0.4);
     font-size: 0.85rem;
     cursor: pointer;
     align-items: center;
@@ -1669,5 +1723,9 @@
 
   .homepage-seo-text {
     padding: 20px;
+  }
+
+  .game-iframe-container.playing {
+    height: 50vh;
   }
 }

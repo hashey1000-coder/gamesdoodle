@@ -14,6 +14,9 @@ export default function GameCard({ game, isFavorite, onToggleFavorite }) {
               src={game.thumbnail}
               alt={game.title}
               loading="lazy"
+              decoding="async"
+              width="400"
+              height="225"
               onError={() => setImgError(true)}
             />
           ) : (
