@@ -19,7 +19,7 @@ const allSlugs = [...content.matchAll(/^\s+slug: '([^']+)'/gm)].map(m => m[1]);
 const gameSlugs = allSlugs.filter(s => !catSlugs.includes(s));
 
 // Static page slugs
-const staticSlugs = ['about-us', 'privacy-policy', 'contact-us', 'editorial-policy'];
+const staticSlugs = ['about-us', 'privacy-policy', 'contact-us', 'editorial-policy', 'terms-of-service', 'dmca'];
 
 // Tag slugs
 const tagSlugs = ['arcade', 'racing', 'shooter', 'puzzle', 'sports', 'io', 'word-and-trivia', 'strategy', 'music-and-creative', 'simulation', 'card-and-board', 'platformer'];
@@ -54,13 +54,15 @@ tagSlugs.forEach(slug => {
   urls.push({ loc: `${SITE_URL}/tag/${slug}/`, priority: '0.7', changefreq: 'weekly' });
 });
 
+// Static pages
+staticSlugs.forEach(slug => {
+  urls.push({ loc: `${SITE_URL}/${slug}/`, priority: '0.3', changefreq: 'monthly' });
+});
+
 // Game pages
 gameSlugs.forEach(slug => {
   urls.push({ loc: `${SITE_URL}/${slug}/`, priority: '0.7', changefreq: 'monthly' });
 });
-
-// Static pages (noindex, but include in sitemap for discovery — optional, but WordPress had them)
-// Actually, static pages are noindexed so we should NOT include them in the sitemap.
 
 // Build XML
 const xml = `<?xml version="1.0" encoding="UTF-8"?>

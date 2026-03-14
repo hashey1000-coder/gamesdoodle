@@ -223,4 +223,118 @@ export const staticPages = {
 <p>If you have questions about this Editorial Policy or our content standards, please contact us:</p>
 <p>Email: admin@gamesdoodle.org<br/>Website: <a href="https://gamesdoodle.org/">https://gamesdoodle.org/</a></p>`,
   },
+  'terms-of-service': {
+    title: 'Terms of Service',
+    metaTitle: 'Terms of Service – Games Doodle',
+    metaDescription: 'Read the Terms of Service for GamesDoodle.org. Understand the terms and conditions for using our website and playing games.',
+    content: `<p>Last updated: March 2026</p>
+<p>Welcome to gamesdoodle.org. By accessing and using this website, you accept and agree to be bound by these Terms of Service. If you do not agree with any part of these terms, you should not use this website.</p>
+
+<h2>1. Description of Service</h2>
+<p>gamesdoodle.org is a free-to-use website that provides browser-based games for entertainment purposes. Games are accessible directly through your web browser without the need for downloads, registrations, or software installation.</p>
+
+<h2>2. User Eligibility</h2>
+<p>This website is intended for a general audience. By using this site, you confirm that you are either at least 13 years of age or have the consent of a parent or guardian. We do not knowingly collect personal information from children under 13.</p>
+
+<h2>3. Acceptable Use</h2>
+<p>When using gamesdoodle.org, you agree not to:</p>
+<ul>
+<li>Use the site for any unlawful purpose</li>
+<li>Attempt to gain unauthorised access to any part of the site</li>
+<li>Interfere with or disrupt the website's functionality</li>
+<li>Copy, distribute, or modify any content without permission</li>
+<li>Use automated tools, bots, or scrapers to access content</li>
+<li>Attempt to bypass any security measures</li>
+</ul>
+
+<h2>4. Intellectual Property</h2>
+<p>All original content on gamesdoodle.org, including but not limited to text, design, graphics, and layout, is the intellectual property of gamesdoodle.org.</p>
+<p>Games featured on this website may be owned by their respective developers and are embedded or linked under fair use or with appropriate permissions. gamesdoodle.org does not claim ownership of third-party game content.</p>
+
+<h2>5. Third-Party Content &amp; Links</h2>
+<p>gamesdoodle.org may contain links to external websites and embedded content from third-party providers. We are not responsible for the content, accuracy, or privacy practices of these external sites.</p>
+<p>Accessing third-party content is at your own risk and subject to those sites' terms and conditions.</p>
+
+<h2>6. Advertising</h2>
+<p>This website may display advertisements served by Google AdSense and other advertising partners. Advertising helps support the cost of operating and maintaining the website.</p>
+<p>We do not control the content of advertisements and are not responsible for any products or services advertised.</p>
+
+<h2>7. Disclaimer of Warranties</h2>
+<p>gamesdoodle.org is provided "as is" and "as available" without any warranties, expressed or implied. We do not guarantee that:</p>
+<ul>
+<li>The website will be available at all times without interruption</li>
+<li>The website will be free of errors, bugs, or security vulnerabilities</li>
+<li>Any particular game will remain available or function correctly</li>
+</ul>
+
+<h2>8. Limitation of Liability</h2>
+<p>To the maximum extent permitted by law, gamesdoodle.org and its owner shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising from your use of, or inability to use, this website.</p>
+
+<h2>9. Indemnification</h2>
+<p>You agree to indemnify and hold harmless gamesdoodle.org, its owner, and any affiliates from any claims, damages, losses, or expenses arising from your use of the website or violation of these terms.</p>
+
+<h2>10. Changes to These Terms</h2>
+<p>We reserve the right to modify these Terms of Service at any time. Changes will be posted on this page with an updated date. Continued use of the website after changes constitutes acceptance of the revised terms.</p>
+
+<h2>11. Governing Law</h2>
+<p>These Terms of Service are governed by and construed in accordance with the laws of the United Kingdom. Any disputes arising from these terms shall be subject to the exclusive jurisdiction of the courts of the United Kingdom.</p>
+
+<h2>12. Contact</h2>
+<p>If you have any questions about these Terms of Service, please contact us:</p>
+<p>Email: admin@gamesdoodle.org<br/>Website: <a href="https://gamesdoodle.org/">https://gamesdoodle.org/</a></p>`,
+  },
+  'dmca': {
+    title: 'DMCA & Copyright Policy',
+    metaTitle: 'DMCA & Copyright Policy – Games Doodle',
+    metaDescription: 'Read the DMCA and Copyright Policy for GamesDoodle.org. Learn how to report copyright infringement and how we handle takedown requests.',
+    content: `<p>Last updated: March 2026</p>
+<p>gamesdoodle.org respects the intellectual property rights of others and expects its users to do the same. We comply with the Digital Millennium Copyright Act (DMCA) and will respond promptly to notices of alleged copyright infringement.</p>
+
+<h2>Copyright Ownership</h2>
+<p>gamesdoodle.org hosts and embeds browser-based games from various sources. While we create original site content including descriptions, layouts, and design, many games featured on this site are developed and owned by third-party creators.</p>
+<p>We do not claim ownership of any third-party games or content embedded on this site.</p>
+
+<h2>Reporting Copyright Infringement</h2>
+<p>If you believe that any content on gamesdoodle.org infringes upon your copyright, please submit a DMCA takedown notice with the following information:</p>
+<ul>
+<li>Your full name and contact information</li>
+<li>A description of the copyrighted work you believe has been infringed</li>
+<li>The URL(s) on gamesdoodle.org where the infringing content is located</li>
+<li>A statement that you have a good faith belief that the use of the material is not authorised by the copyright owner</li>
+<li>A statement, under penalty of perjury, that the information in the notice is accurate and that you are the copyright owner or authorised to act on their behalf</li>
+<li>Your physical or electronic signature</li>
+</ul>
+
+<h2>How to Submit a Notice</h2>
+<p>Please send DMCA notices to:</p>
+<p>Email: admin@gamesdoodle.org<br/>Subject: DMCA Takedown Request</p>
+
+<h2>Response to Valid Notices</h2>
+<p>Upon receiving a valid DMCA takedown notice, we will:</p>
+<ul>
+<li>Review the claim promptly</li>
+<li>Remove or disable access to the allegedly infringing content</li>
+<li>Notify the content provider (if applicable) of the removal</li>
+</ul>
+
+<h2>Counter-Notification</h2>
+<p>If you believe content was removed in error, you may submit a counter-notification containing:</p>
+<ul>
+<li>Your full name and contact information</li>
+<li>Identification of the material that was removed and its location before removal</li>
+<li>A statement under penalty of perjury that you believe the material was removed by mistake</li>
+<li>Your consent to the jurisdiction of the appropriate courts</li>
+<li>Your physical or electronic signature</li>
+</ul>
+
+<h2>Repeat Infringers</h2>
+<p>gamesdoodle.org reserves the right to terminate access to users or content providers who are repeat infringers of copyright.</p>
+
+<h2>Disclaimer</h2>
+<p>gamesdoodle.org acts in good faith to host only content that is freely available or properly licensed. If any content on this site is found to be infringing, we will take immediate action to resolve the issue upon notification.</p>
+
+<h2>Contact</h2>
+<p>For any copyright-related questions or concerns:</p>
+<p>Email: admin@gamesdoodle.org<br/>Website: <a href="https://gamesdoodle.org/">https://gamesdoodle.org/</a></p>`,
+  },
 };

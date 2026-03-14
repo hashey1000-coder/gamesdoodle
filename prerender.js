@@ -30,7 +30,7 @@ const gamesSource = fs.readFileSync(path.join(__dirname, 'src/data/games.js'), '
 
 const CAT_SLUGS = ['google-doodle-games', 'online-games', 'google-tools', 'google-easter-egg'];
 const TAG_SLUGS = ['arcade', 'racing', 'shooter', 'puzzle', 'sports', 'io', 'word-and-trivia', 'strategy', 'music-and-creative', 'simulation', 'card-and-board', 'platformer'];
-const STATIC_SLUGS = ['about-us', 'privacy-policy', 'contact-us', 'editorial-policy'];
+const STATIC_SLUGS = ['about-us', 'privacy-policy', 'contact-us', 'editorial-policy', 'terms-of-service', 'dmca'];
 
 const allSlugs = [...gamesSource.matchAll(/^\s+slug: '([^']+)'/gm)].map(m => m[1]);
 const gameSlugs = allSlugs.filter(s => !CAT_SLUGS.includes(s));
