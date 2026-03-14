@@ -1,14 +1,17 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { isNewGame, getTagsForGame } from '../data/games';
 
 export default function GameCard({ game, isFavorite, onToggleFavorite }) {
   const [imgError, setImgError] = useState(false);
   const shortTitle = game.title.split(/[–\-]/)[0].trim();
+  const gameTags = getTagsForGame(game);
 
   return (
     <article className="game-card">
       <Link to={`/${game.slug}/`} className="game-card-link">
         <div className="game-card-thumb">
+          {isNewGame(game) && <span className="game-card-new-badge">NEW</span>}
           {game.thumbnail && !imgError ? (
             <img
               src={game.thumbnail}
@@ -31,6 +34,15 @@ export default function GameCard({ game, isFavorite, onToggleFavorite }) {
           <span className="game-card-cta">▶ Play Now</span>
         </div>
       </Link>
+      {gameTags.length > 0 && (
+        <div className="game-card-tags">
+          {gameTags.map(tag => (
+            <Link key={tag.slug} to={`/tag/${tag.slug}/`} className="game-card-tag" onClick={(e) => e.stopPropagation()}>
+              {tag.emoji} {tag.name}
+            </Link>
+          ))}
+        </div>
+      )}
       {onToggleFavorite && (
         <button
           className={`game-card-fav${isFavorite ? ' active' : ''}`}

@@ -2,8 +2,9 @@ import { useEffect, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import GameEmbed from '../components/GameEmbed';
+import VoteButtons from '../components/VoteButtons';
 import GameCard from '../components/GameCard';
-import { getCategoryBySlug, getRelatedGames } from '../data/games';
+import { getCategoryBySlug, getRelatedGames, getTagsForGame } from '../data/games';
 import { useFavorites } from '../hooks/useFavorites';
 import { useToast } from '../components/Toast';
 
@@ -20,9 +21,24 @@ function trackRecentlyPlayed(slug) {
 export default function GameDetail({ game }) {
   const category = getCategoryBySlug(game.category);
   const relatedGames = getRelatedGames(game.relatedSlugs || []);
+  const gameTags = getTagsForGame(game);
   const { toggleFavorite, isFavorite } = useFavorites();
   const showToast = useToast();
   const fav = isFavorite(game.slug);
+
+  // Show 'continue' toast only once per session per game
+  useEffect(() => {
+    try {
+      const sessionKey = `welcomed_${game.slug}`;
+      if (sessionStorage.getItem(sessionKey)) return;
+      const recent = JSON.parse(localStorage.getItem('recentlyPlayed') || '[]');
+      if (recent.includes(game.slug)) {
+        sessionStorage.setItem(sessionKey, '1');
+        setTimeout(() => showToast('Welcome back! 👾 Jump straight in ▶'), 800);
+      }
+    } catch { /* ignore */ }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [game.slug]);
 
   // Track this game as recently played
   useEffect(() => {
@@ -99,6 +115,8 @@ export default function GameDetail({ game }) {
 
         <GameEmbed game={game} />
 
+        <VoteButtons slug={game.slug} />
+
         <div
           className="game-page-content"
           dangerouslySetInnerHTML={{ __html: game.content }}
@@ -111,11 +129,24 @@ export default function GameDetail({ game }) {
           </div>
         )}
 
+        {gameTags.length > 0 && (
+          <div className="game-tags">
+            <span className="tag-label">Tags:</span>
+            <div className="game-tags-list">
+              {gameTags.map(tag => (
+                <Link key={tag.slug} to={`/tag/${tag.slug}/`} className="game-tag-pill">
+                  {tag.emoji} {tag.name}
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
+
         {/* Related Games Section */}
         {relatedGames.length > 0 && (
           <section className="related-games-section">
             <h2 className="related-games-heading">🎮 You May Also Like</h2>
-            <div className="games-grid">
+            <div className="related-games-strip">
               {relatedGames.map(rg => (
                 <GameCard key={rg.slug} game={rg} />
               ))}

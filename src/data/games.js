@@ -32,12 +32,28 @@ export const categories = [
   },
 ];
 
+export const tags = [
+  { slug: 'arcade', name: 'Arcade', emoji: '👾', description: 'Fast-paced arcade games with classic action gameplay. Test your reflexes with endless runners, shooters, and retro-style challenges.' },
+  { slug: 'racing', name: 'Racing', emoji: '🏎️', description: 'Racing and driving games featuring cars, bikes, and stunts. Drift, race, and explore open roads in your browser.' },
+  { slug: 'shooter', name: 'Shooter', emoji: '🔫', description: 'Shooter games including FPS, battle royale, and space combat. Take aim and compete in intense online battles.' },
+  { slug: 'puzzle', name: 'Puzzle', emoji: '🧩', description: 'Brain-teasing puzzle games that challenge your logic, spatial reasoning, and problem-solving skills.' },
+  { slug: 'sports', name: 'Sports', emoji: '⚽', description: 'Sports games covering football, basketball, cricket, and more. Compete in your favourite sports right in the browser.' },
+  { slug: 'io', name: '.io Games', emoji: '🌐', description: 'Massively multiplayer .io games where you compete against players worldwide in real-time browser battles.' },
+  { slug: 'word-and-trivia', name: 'Word & Trivia', emoji: '📝', description: 'Word games, trivia quizzes, and daily brain challenges. Test your vocabulary and general knowledge.' },
+  { slug: 'strategy', name: 'Strategy', emoji: '♟️', description: 'Strategy and tower defense games requiring careful planning, resource management, and tactical thinking.' },
+  { slug: 'music-and-creative', name: 'Music & Creative', emoji: '🎵', description: 'Music-making tools, drawing games, and creative experiences. Express yourself through art and sound.' },
+  { slug: 'simulation', name: 'Simulation', emoji: '🎮', description: 'Simulation, idle, and clicker games. Build, manage, and watch your empire grow at your own pace.' },
+  { slug: 'card-and-board', name: 'Card & Board', emoji: '♠️', description: 'Classic card games, board games, and tabletop favourites. Play chess, solitaire, mahjong, and more online.' },
+  { slug: 'platformer', name: 'Platformer', emoji: '🦘', description: 'Side-scrolling and platformer games with jumping, running, and obstacle courses. Master precision movement.' },
+];
+
 export const games = [
   {
     slug: 'pokemon-tower-defense',
     title: 'Pokemon Tower Defense – Play the Fan-Made Strategy Game Online',
     metaDescription: 'Play Pokemon Tower Defense online, the fan-made strategy game that combines classic Pokémon battles with tower defense gameplay.',
     category: 'online-games',
+    tags: ['strategy'],
     embedUrl: 'https://ptd.onl/play-ptd-1',
     thumbnail: '/images/pokemon-tower-defense.webp',
     relatedSlugs: ['traffic-jam-3d', 'madalin-stunt-cars-2', 'slitherio'],
@@ -71,6 +87,7 @@ export const games = [
     title: 'Traffic Jam 3D – Play the High-Speed Driving Game Online',
     metaDescription: 'Play Traffic Jam 3D online, the fast-paced driving game where you dodge traffic, complete missions, upgrade cars, and push for high scores.',
     category: 'online-games',
+    tags: ['racing', 'arcade'],
     embedUrl: 'https://ubg76.gitlab.io/traffic-jam-3d/',
     thumbnail: '/images/traffic-jam-3d.webp',
     relatedSlugs: ['basket-random-pro', 'madalin-stunt-cars-2', 'slitherio'],
@@ -110,6 +127,7 @@ export const games = [
     title: 'Sausage Flip – Play the Funny Flipping Physics Game Online',
     metaDescription: 'Play Sausage Flip online, the hilarious physics arcade game where you flip, bounce, and stick your way through obstacle-filled levels.',
     category: 'online-games',
+    tags: ['arcade', 'puzzle'],
     embedUrl: 'https://ubg76.gitlab.io/sausage-flip/',
     thumbnail: '/images/sausage-flip.webp',
     relatedSlugs: ['basket-random-pro', 'madalin-stunt-cars-2', 'dino-swords'],
@@ -151,6 +169,7 @@ export const games = [
     title: 'Madalin Stunt Cars 2 – Play Free Online Multiplayer Driving Game',
     metaDescription: 'Play Madalin Stunt Cars 2 online, the free open-world driving game with supercars, massive ramps, and multiplayer stunt arenas.',
     category: 'online-games',
+    tags: ['racing'],
     embedUrl: 'https://madalinstuntcars2.io/game/',
     thumbnail: '/images/madalin-stunt-cars-2.webp',
     relatedSlugs: ['basket-random-pro', 'chicken-invaders', 'dino-swords'],
@@ -198,6 +217,7 @@ export const games = [
     title: 'Basket Random Pro – Play the Ragdoll Basketball Game Online',
     metaDescription: 'Play Basket Random Pro online, the chaotic ragdoll basketball game. Jump, shoot, and score in wild matches against the CPU or a friend.',
     category: 'online-games',
+    tags: ['sports', 'arcade'],
     embedUrl: 'https://game3.glov3.me/uploads/game/html5/29686/',
     thumbnail: '/images/basket-random-pro.webp',
     relatedSlugs: ['pani-puri', 'chicken-invaders', 'dino-swords'],
@@ -239,6 +259,7 @@ export const games = [
     title: 'Slither.io – Play Free Online Snake Multiplayer Game',
     metaDescription: 'Play Slither.io online, the addictive multiplayer snake game. Eat orbs, grow longer, outsmart rivals, and climb the global leaderboard.',
     category: 'online-games',
+    tags: ['io', 'arcade'],
     embedUrl: 'https://html5.gamedistribution.com/5dd0b18fb81d49da82ff459f08737390/?gd_sdk_referrer_url=https://game-game.com/poppy-time/',
     thumbnail: '/images/slitherio.webp',
     relatedSlugs: ['pani-puri', 'chicken-invaders', 'dino-swords'],
@@ -280,6 +301,7 @@ export const games = [
     title: 'Chicken Invaders Game – Play Free Online Space Shooter',
     metaDescription: 'Play Chicken Invaders online, the classic space shooter where you battle waves of alien chickens, dodge eggs, and upgrade your weapons to survive.',
     category: 'online-games',
+    tags: ['shooter', 'arcade'],
     embedUrl: 'https://html5.gamedistribution.com/821b4d96858847148ea874f2d3243bb4/?gd_sdk_referrer_url=https://unblocked-games.org/game/chicken-invaders/',
     thumbnail: '/images/chicken-invaders.webp',
     relatedSlugs: ['pani-puri', 'google-birthday-pinata-doodle', 'dino-swords'],
@@ -321,6 +343,7 @@ export const games = [
     title: 'Pani Puri Google Doodle – Play the Street Food Game Online',
     metaDescription: 'Play the Pani Puri Google Doodle game online. Match puris, fill orders fast, and enjoy this fun street food puzzle from Google.',
     category: 'online-games',
+    tags: ['arcade', 'puzzle'],
     embedUrl: 'https://game3.glov3.me/uploads/game/html5/25816/',
     thumbnail: '/images/pani-puri.webp',
     relatedSlugs: ['chinese-new-year-snake-google-doodle', 'google-birthday-pinata-doodle', 'dino-swords'],
@@ -358,6 +381,7 @@ export const games = [
     title: 'Dino Swords – Play the Weaponised Chrome Dino Game Online',
     metaDescription: 'Play Dino Swords online, the wild Chrome Dino mod packed with weapons and power-ups. Jump, collect items, and survive as long as you can.',
     category: 'online-games',
+    tags: ['arcade'],
     embedUrl: 'https://dinoswords.gg/',
     thumbnail: '/images/dino-swords.webp',
     relatedSlugs: ['chinese-new-year-snake-google-doodle', 'google-birthday-pinata-doodle', 'rise-of-the-half-moon'],
@@ -393,6 +417,7 @@ export const games = [
     title: 'Google Birthday Piñata Doodle - Play the Game Free Online',
     metaDescription: 'Play the Google Birthday Piñata Doodle game online. Smash the piñata to collect candy in this fun interactive Google birthday celebration game.',
     category: 'google-doodle-games',
+    tags: ['arcade'],
     embedUrl: 'https://web.archive.org/web/20241230233121/https://www.google.com/logos/2013/bday13/bday13.html',
     thumbnail: '/images/google-birthday-pinata-doodle.webp',
     relatedSlugs: ['chinese-new-year-snake-google-doodle', 'pizza-google-doodle', 'rise-of-the-half-moon'],
@@ -428,6 +453,7 @@ export const games = [
     title: 'Rise of the Half Moon - Play The Doodle Game Unblocked',
     metaDescription: 'Play Rise of the Half Moon Google Doodle unblocked. Match lunar phase cards, build cycles, unlock wild cards, and battle the Half Moon.',
     category: 'online-games',
+    tags: ['puzzle'],
     embedUrl: 'https://hg1.onga.io/rise-of-the-half-moon/',
     thumbnail: '/images/rise-of-the-half-moon.webp',
     relatedSlugs: ['chinese-new-year-snake-google-doodle', 'pizza-google-doodle', 'beethoven-google-doodle'],
@@ -463,6 +489,7 @@ export const games = [
     title: 'Chinese New Year Snake Google Doodle – Play the Snake Game Unblocked',
     metaDescription: 'Play the Chinese New Year Snake Google Doodle in fullscreen. Collect festive items, grow your snake, and enjoy the Lunar New Year classic.',
     category: 'online-games',
+    tags: ['arcade'],
     embedUrl: 'https://game3.glov3.me/uploads/game/html5/25765/',
     thumbnail: '/images/chinese-new-year-snake-google-doodle.webp',
     relatedSlugs: ['johann-sebastian-bach-google-doodle', 'pizza-google-doodle', 'beethoven-google-doodle'],
@@ -500,6 +527,7 @@ export const games = [
     title: 'Pizza Google Doodle Game – Play the Pizza Slicing Puzzle Fullscreen',
     metaDescription: 'Play the Pizza Google Doodle game in fullscreen. Slice pizzas to match orders, distribute toppings correctly, and solve tricky food puzzles.',
     category: 'online-games',
+    tags: ['puzzle'],
     embedUrl: 'https://game3.glov3.me/uploads/game/html5/25792/',
     thumbnail: '/images/pizza-google-doodle.webp',
     relatedSlugs: ['johann-sebastian-bach-google-doodle', 'mbira-google-doodle', 'beethoven-google-doodle'],
@@ -537,6 +565,7 @@ export const games = [
     title: 'Mbira Google Doodle – Play the Zimbabwe Rhythm Game Fullscreen',
     metaDescription: 'Play the Mbira Google Doodle in fullscreen. Follow the story, hit notes in rhythm, and learn to play Zimbabwe’s traditional instrument online.',
     category: 'online-games',
+    tags: ['music-and-creative'],
     embedUrl: '/tools/mbira-google-doodle.html',
     noSandbox: true,
     thumbnail: '/images/mbira-google-doodle.webp',
@@ -575,6 +604,7 @@ export const games = [
     title: 'Johann Sebastian Bach Google Doodle – Play AI Music Composer',
     metaDescription: 'Play the Johann Sebastian Bach Google Doodle in fullscreen. Write a melody, let AI harmonise it in Bach’s style, and create your own Baroque music.',
     category: 'online-games',
+    tags: ['music-and-creative'],
     embedUrl: 'https://game3.glov3.me/uploads/game/html5/25831/',
     thumbnail: '/images/johann-sebastian-bach-google-doodle.webp',
     relatedSlugs: ['oskar-fischinger-google-doodle', 'savoy-ballroom-google-doodle', 'beethoven-google-doodle'],
@@ -612,6 +642,7 @@ export const games = [
     title: 'Beethoven Google Doodle – Play the Music Puzzle Game Fullscreen',
     metaDescription: 'Play the Beethoven Google Doodle in fullscreen. Reassemble famous melodies, solve sheet music puzzles, and help Beethoven reach his concert.',
     category: 'online-games',
+    tags: ['music-and-creative', 'puzzle'],
     embedUrl: 'https://i.gamesgo.net/uploads/game/html5/25836/',
     thumbnail: '/images/beethoven-google-doodle.webp',
     relatedSlugs: ['oskar-fischinger-google-doodle', 'savoy-ballroom-google-doodle', 'clara-rockmore-google-doodle'],
@@ -647,6 +678,7 @@ export const games = [
     title: 'Savoy Ballroom Google Doodle – Play the Swing Rhythm Game Fullscreen',
     metaDescription: 'Play the Savoy Ballroom Google Doodle in fullscreen. Hit the keys to swing rhythms, dance through levels, and experience the birthplace of Lindy Hop.',
     category: 'online-games',
+    tags: ['music-and-creative'],
     embedUrl: 'https://game3.glov3.me/uploads/game/html5/25830/',
     thumbnail: '/images/savoy-ballroom-google-doodle.webp',
     relatedSlugs: ['oskar-fischinger-google-doodle', 'hip-hop-google-doodle', 'clara-rockmore-google-doodle'],
@@ -682,6 +714,7 @@ export const games = [
     title: 'Oskar Fischinger Google Doodle – Create Visual Music Fullscreen',
     metaDescription: 'Play the Oskar Fischinger Google Doodle in fullscreen. Create looping visual music, place notes on the grid, and watch shapes dance to your sound.',
     category: 'online-games',
+    tags: ['music-and-creative'],
     embedUrl: 'https://game3.glov3.me/uploads/game/html5/25809/',
     thumbnail: '/images/oskar-fischinger-google-doodle.webp',
     relatedSlugs: ['paris-games-2024', 'hip-hop-google-doodle', 'clara-rockmore-google-doodle'],
@@ -717,6 +750,7 @@ export const games = [
     title: 'Clara Rockmore Google Doodle – Play the Theremin Online Fullscreen',
     metaDescription: 'Play the Clara Rockmore Google Doodle in fullscreen. Learn the theremin, follow guided notes, and create music with the world’s first electronic instrument.',
     category: 'online-games',
+    tags: ['music-and-creative'],
     embedUrl: 'https://game3.glov3.me/uploads/game/html5/25810/',
     thumbnail: '/images/clara-rockmore-google-doodle.webp',
     relatedSlugs: ['paris-games-2024', 'hip-hop-google-doodle', 'google-hurdles'],
@@ -752,6 +786,7 @@ export const games = [
     title: 'Hip Hop Google Doodle – Play the DJ Mixing Game Fullscreen',
     metaDescription: 'Play the Hip Hop Google Doodle in fullscreen. Mix breakbeats on virtual turntables, scratch records, and explore the sounds that shaped hip hop.',
     category: 'online-games',
+    tags: ['music-and-creative'],
     embedUrl: 'https://game3.glov3.me/uploads/game/html5/25778/',
     thumbnail: '/images/hip-hop-google-doodle.webp',
     relatedSlugs: ['paris-games-2024', 'petanque-google-doodle-game', 'google-hurdles'],
@@ -789,6 +824,7 @@ export const games = [
     title: 'Paris Games 2024 Google Doodle – Play Hidden Objects Game',
     metaDescription: 'Play the Paris Games 2024 Google Doodle in fullscreen. Explore illustrated Paris, find 20 hidden items and discover mini-games.',
     category: 'online-games',
+    tags: ['puzzle', 'sports'],
     embedUrl: 'https://searchplayground.google/paris-2024/',
     thumbnail: '/images/paris-games-2024.webp',
     relatedSlugs: ['slalom-canoe-google-doodle', 'petanque-google-doodle-game', 'google-hurdles'],
@@ -822,6 +858,7 @@ export const games = [
     title: 'Google Hurdles - Play the 2012 Doodle Game Free Online',
     metaDescription: 'Play Google Hurdles online. Race and jump over hurdles in this classic 2012 Olympic Google Doodle game.',
     category: 'google-doodle-games',
+    tags: ['sports', 'arcade'],
     externalUrl: 'https://doodles.google/doodle/hurdles-2012/',
     thumbnail: '/images/google-hurdles.webp',
     relatedSlugs: ['slalom-canoe-google-doodle', 'petanque-google-doodle-game', 'google-soccer'],
@@ -855,6 +892,7 @@ export const games = [
     title: 'Alan Turing Google Doodle - Play the Turing Machine Game',
     metaDescription: 'Play the Alan Turing Google Doodle game online. Solve the Turing machine puzzle in this interactive tribute to the father of computer science.',
     category: 'google-doodle-games',
+    tags: ['puzzle'],
     embedUrl: 'https://web.archive.org/web/20250117154116/https://www.google.com/logos/2012/turing-doodle-static.html',
     thumbnail: '/images/alan-turing-google-doodle.webp',
     relatedSlugs: ['rubiks-cube-google-doodle', 'jerry-lawson-google-doodle', 'pangolin-love'],
@@ -888,6 +926,7 @@ export const games = [
     title: 'Pétanque Google Doodle Game – Play Online Multiplayer Fullscreen',
     metaDescription: 'Play Pétanque, the 2022 Google Doodle multiplayer game, in fullscreen. Throw boules, aim for the cochonnet, and challenge players online.',
     category: 'online-games',
+    tags: ['sports'],
     embedUrl: 'https://game3.glov3.me/uploads/game/html5/25818/',
     thumbnail: '/images/petanque-google-doodle-game.webp',
     relatedSlugs: ['slalom-canoe-google-doodle', 'pac-man-halloween-2025', 'google-soccer'],
@@ -921,6 +960,7 @@ export const games = [
     title: 'Slalom Canoe Google Doodle – Olympic Whitewater Racing Game',
     metaDescription: 'Play Slalom Canoe, the Olympic Google Doodle where you paddle through gates, dodge rocks, and race down a changing whitewater course.',
     category: 'online-games',
+    tags: ['sports', 'arcade'],
     embedUrl: 'https://game3.glov3.me/uploads/game/html5/25760/',
     thumbnail: '/images/slalom-canoe-google-doodle.webp',
     relatedSlugs: ['google-basketball-doodle', 'pac-man-halloween-2025', 'google-soccer'],
@@ -954,6 +994,7 @@ export const games = [
     title: 'Google Soccer Doodle – Endless Goalkeeper Penalty Challenge',
     metaDescription: 'Play Google Soccer, the Olympic Doodle where you guard the goal, block endless penalties, and survive as long as possible before three get past you.',
     category: 'online-games',
+    tags: ['sports'],
     embedUrl: 'https://doodle.p2o.io/doodle-football.html',
     thumbnail: '/images/google-soccer.webp',
     relatedSlugs: ['google-basketball-doodle', 'pac-man-halloween-2025', 'alan-turing-google-doodle'],
@@ -987,6 +1028,7 @@ export const games = [
     title: 'Google Basketball Doodle – 24-Second Olympic Hoops Challenge',
     metaDescription: 'Play Google Basketball, the Olympic Doodle where you time your shots, move back for 2s and 3s, and score as many hoops as possible in 24 seconds.',
     category: 'online-games',
+    tags: ['sports'],
     embedUrl: 'https://doodlecricketunblocked.netlify.app/doodle-basketball',
     thumbnail: '/images/google-basketball-doodle.webp',
     relatedSlugs: ['rubiks-cube-google-doodle', 'pac-man-halloween-2025', 'alan-turing-google-doodle'],
@@ -1020,6 +1062,7 @@ export const games = [
     title: 'PAC-MAN Halloween 2025 Google Doodle – Spooky Maze Edition',
     metaDescription: 'Play the PAC-MAN Halloween 2025 Google Doodle with haunted mazes, eyeball power-ups, and classic ghosts in a spooky arcade twist.',
     category: 'online-games',
+    tags: ['arcade'],
     embedUrl: 'https://searchplayground.google/pacman/halloween/?hl=en&gl=us&doodle=389734636',
     thumbnail: '/images/pac-man-halloween-2025.webp',
     relatedSlugs: ['rubiks-cube-google-doodle', 'jerry-lawson-google-doodle', 'alan-turing-google-doodle'],
@@ -1051,6 +1094,7 @@ export const games = [
     title: 'Rubik’s Cube Google Doodle – Play the 3D Puzzle Online',
     metaDescription: 'Play the Rubik’s Cube Google Doodle, a fully interactive 3D puzzle where you twist, rotate, and try to solve the iconic cube online.',
     category: 'online-games',
+    tags: ['puzzle'],
     embedUrl: 'https://sz-games.github.io/Games2/the-cube-master/',
     thumbnail: '/images/rubiks-cube-google-doodle.webp',
     relatedSlugs: ['doctor-who-50th-anniversary', 'jerry-lawson-google-doodle', 'pangolin-love'],
@@ -1088,6 +1132,7 @@ export const games = [
     title: 'Jerry Lawson Google Doodle – Build and Play Retro Arcade Games',
     metaDescription: 'Play the Jerry Lawson Google Doodle, a game-building experience where you play retro levels and create your own arcade games in the browser.',
     category: 'online-games',
+    tags: ['arcade', 'music-and-creative'],
     embedUrl: 'https://game3.glov3.me/uploads/game/html5/25779/',
     thumbnail: '/images/jerry-lawson-google-doodle.webp',
     relatedSlugs: ['doctor-who-50th-anniversary', 'garden-gnomes', 'pangolin-love'],
@@ -1121,6 +1166,7 @@ export const games = [
     title: 'Pangolin Love Google Doodle Game – Valentine’s Platform Adventure',
     metaDescription: 'Play Pangolin Love, Google’s Valentine’s Doodle platformer where you roll across levels, collect gifts, and learn about endangered pangolins.',
     category: 'online-games',
+    tags: ['platformer', 'puzzle'],
     embedUrl: 'https://i.gamesgo.net/uploads/game/html5/25811/',
     thumbnail: '/images/pangolin-love.webp',
     relatedSlugs: ['doctor-who-50th-anniversary', 'garden-gnomes', 'google-scoville-game'],
@@ -1154,6 +1200,7 @@ export const games = [
     title: 'Doctor Who 50th Anniversary Google Doodle – Play Whodle Online',
     metaDescription: 'Play the Doctor Who 50th Anniversary Google Doodle, an 8-bit adventure where you choose a Doctor and recover the stolen Google letters from Daleks.',
     category: 'online-games',
+    tags: ['puzzle', 'arcade'],
     embedUrl: 'https://game3.glov3.me/uploads/game/html5/25790/',
     thumbnail: '/images/doctor-who-50th-anniversary.webp',
     relatedSlugs: ['pangolin-love', 'garden-gnomes', 'google-scoville-game'],
@@ -1187,6 +1234,7 @@ export const games = [
     title: 'Garden Gnomes Google Doodle Game – Trebuchet Flower Launcher Fun',
     metaDescription: 'Play Garden Gnomes, Google’s physics Doodle where you launch gnomes, bounce across the garden, and plant flowers for big scores.',
     category: 'online-games',
+    tags: ['arcade'],
     embedUrl: 'https://google.ubg235.com/google-garden-gnomes/',
     thumbnail: '/images/garden-gnomes.webp',
     relatedSlugs: ['pony-express', 'great-ghoul-duel', 'google-scoville-game'],
@@ -1220,6 +1268,7 @@ export const games = [
     title: 'Google Boba Game – Play the Game Unblocked Online',
     metaDescription: 'Enjoy the Google Boba Game online. Mix bubble tea, add boba pearls, and serve customers in this fun and relaxing browser game.',
     category: 'online-games',
+    tags: ['puzzle', 'arcade'],
     embedUrl: 'https://game3.glov3.me/uploads/game/html5/25777/',
     thumbnail: '/images/google-boba-game.webp',
     relatedSlugs: ['tall-man-run', 'jelly-truck', 'time-shooter-3'],
@@ -1257,6 +1306,7 @@ export const games = [
     title: 'Doodle Champion Island Games – Play the 16-Bit RPG Adventure',
     metaDescription: 'Play Doodle Champion Island Games, Google’s 16-bit RPG packed with Olympic minigames, side quests, secrets, and hidden trophies.',
     category: 'online-games',
+    tags: ['arcade', 'sports'],
     embedUrl: 'https://doodlechampionislandgames.org/',
     thumbnail: '/images/doodle-champion-island-games.webp',
     relatedSlugs: ['google-boba-game', 'dinosaur-game', 'google-cricket'],
@@ -1290,6 +1340,7 @@ export const games = [
     title: 'Magic Cat Academy – Play the Halloween Google Doodle Game',
     metaDescription: 'Play Magic Cat Academy, the Halloween Doodle where you draw spells to defeat ghosts and save Momo’s spellbook.',
     category: 'online-games',
+    tags: ['arcade'],
     embedUrl: 'https://html5-games.io/game/magic_cat/',
     thumbnail: '/images/magic-cat-academy.webp',
     relatedSlugs: ['google-boba-game', 'dinosaur-game', 'doodle-champion-island-games'],
@@ -1323,6 +1374,7 @@ export const games = [
     title: 'Coding for Carrots - Play the Google Doodle Coding Game',
     metaDescription: 'Play Coding for Carrots, the Google Doodle coding game. Help a bunny collect carrots by learning basic coding concepts in this fun interactive game.',
     category: 'google-doodle-games',
+    tags: ['puzzle', 'strategy'],
     embedUrl: 'https://web.archive.org/web/20241217035409/https://www.google.com/logos/2017/logo17/logo17.html',
     thumbnail: '/images/coding-for-carrots.webp',
     relatedSlugs: ['google-boba-game', 'magic-cat-academy', 'doodle-champion-island-games'],
@@ -1356,6 +1408,7 @@ export const games = [
     title: 'Google Lotería Doodle Game – Play Multiplayer Mexican Bingo',
     metaDescription: 'Play Google Lotería, the multiplayer Doodle inspired by the traditional Mexican card game. Match illustrated cards, mark your board, and win online.',
     category: 'online-games',
+    tags: ['card-and-board'],
     embedUrl: 'https://game3.glov3.me/uploads/game/html5/25813/',
     thumbnail: '/images/google-loteria.webp',
     relatedSlugs: ['google-boba-game', 'magic-cat-academy', 'doodle-champion-island-games'],
@@ -1389,6 +1442,7 @@ export const games = [
     title: 'Great Ghoul Duel - Play the Google Halloween Game Free Online',
     metaDescription: 'Play Great Ghoul Duel, the Google Halloween Doodle game. Collect spirit flames and compete in this spooky multiplayer Google Doodle game.',
     category: 'google-doodle-games',
+    tags: ['io', 'arcade'],
     embedUrl: '/tools/great-ghoul-duel.html',
     noSandbox: true,
     thumbnail: '/images/great-ghoul-duel.webp',
@@ -1421,10 +1475,50 @@ export const games = [
 <!-- CONTENT END 1 -->`,
   },
   {
+    slug: 'marie-tharp-google-doodle',
+    title: 'Marie Tharp Google Doodle – Map the Ocean Floor Interactive Game',
+    metaDescription: 'Play the Marie Tharp Google Doodle game celebrating the oceanographic cartographer who helped prove continental drift by mapping the ocean floor.',
+    category: 'google-doodle-games',
+    tags: ['puzzle', 'simulation'],
+    dateAdded: '2026-03-14',
+    externalUrl: 'https://doodles.google/doodle/celebrating-marie-tharp/',
+    thumbnail: '/images/marie-tharp-google-doodle.webp',
+    relatedSlugs: ['google-earth-day-honeybees', 'coding-for-carrots', 'lake-xochimilco-google-doodle'],
+    excerpt: 'The Marie Tharp Google Doodle is an interactive game celebrating the American geologist and oceanographic cartographer who co-published the first world map of the ocean floors.',
+    content: `<p>The Marie Tharp Google Doodle is an interactive game released on November 21, 2022, celebrating the life of one of the most important — and most overlooked — scientists of the 20th century. Marie Tharp was an American geologist and oceanographic cartographer who co-published the first comprehensive map of the ocean floor, providing crucial evidence that helped prove the theory of continental drift at a time when the scientific establishment dismissed it as nonsense.</p>
+
+<p>The Doodle takes you on a narrated journey through Tharp&#8217;s career, blending interactive puzzles with animated storytelling. You help plot data points on ocean floor maps, piece together geological evidence, and experience the moment when Tharp identified the rift valley running down the centre of the Mid-Atlantic Ridge — a discovery that fundamentally changed our understanding of how the Earth works. The game is voiced by three current female scientists: Becky Nesel, Dr. Tiara Moore, and Cate Larsen, who guide you through each stage.</p>
+
+<p>Born in 1920 in Ypsilanti, Michigan, Tharp earned degrees in English, music, geology, and mathematics. She joined Columbia University&#8217;s Lamont Geological Observatory in 1948, where she began working with geologist Bruce Heezen. Because women weren&#8217;t allowed on research vessels at the time, Tharp was tasked with plotting the sonar data that male scientists collected at sea. It was painstaking, detailed work — and it led to one of the greatest discoveries in earth science.</p>
+
+<p>While meticulously plotting thousands of sonar readings, Tharp noticed a V-shaped notch running consistently along the centre of the Mid-Atlantic Ridge. She recognised it as a rift valley — evidence that the ocean floor was spreading apart. When she showed Heezen, he initially dismissed it as &#8220;girl talk,&#8221; associating it with the widely ridiculed theory of continental drift. But when he plotted earthquake epicentres on Tharp&#8217;s map and found they aligned precisely with her rift valley, he was convinced. Their collaboration produced the first detailed map of the entire ocean floor, published in 1977, which became one of the most important scientific documents of the century.</p>
+
+<p>The Doodle was designed by Olivia Huynh and Alyssa Winans with UX by Anthony Irwin, and engineered by Gemma Nash, Jonathan Shneier, and Daniel Dovali. The art direction beautifully captures the mid-century scientific aesthetic — hand-drawn contour lines, period-appropriate instruments, and a warm colour palette that evokes the feel of vintage scientific illustrations. The music and sound design by Silas Hite complements the exploratory mood perfectly.</p>
+
+<h2 class="wp-block-heading">How To Play Marie Tharp Google Doodle</h2>
+
+<ul class="wp-block-list">
+<li>Click the Doodle to begin the interactive experience. You&#8217;ll be guided through Marie Tharp&#8217;s story by voice narration from three modern female scientists.</li>
+
+<li>Follow the on-screen prompts to interact with each scene — you&#8217;ll plot sonar data points on maps, connect geological features, and piece together evidence of the Mid-Atlantic Ridge.</li>
+
+<li>Pay attention to the narration between interactive segments to learn about Tharp&#8217;s challenges as a woman in science and how she overcame institutional barriers.</li>
+
+<li>Complete each mapping challenge to advance through the story, from Tharp&#8217;s early days at Columbia to the publication of her groundbreaking ocean floor map.</li>
+
+<li>The experience combines puzzle-solving with historical education — take your time to absorb the fascinating science behind plate tectonics and ocean floor cartography.</li>
+</ul>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
     slug: 'pony-express',
     title: 'Pony Express Google Doodle Game – Ride the Wild West Mail Trail',
     metaDescription: 'Play the Pony Express Google Doodle game where you ride through the Wild West, collect letters, dodge obstacles, and deliver the mail on time.',
     category: 'online-games',
+    tags: ['arcade'],
     embedUrl: 'https://game3.glov3.me/uploads/game/html5/25758/ponyexpress15.html',
     thumbnail: '/images/pony-express.webp',
     relatedSlugs: ['google-loteria', 'great-ghoul-duel', 'coding-for-carrots'],
@@ -1456,6 +1550,7 @@ export const games = [
     title: 'Google Scoville Game – Ice Cream vs Chilli Peppers Doodle',
     metaDescription: 'Play the Google Scoville Game, a fun Doodle where you battle chilli peppers with ice cream while learning about the Scoville heat scale.',
     category: 'online-games',
+    tags: ['arcade'],
     embedUrl: 'https://i.gamesgo.net/uploads/game/html5/25780/',
     thumbnail: '/images/google-scoville-game.webp',
     relatedSlugs: ['pony-express', 'great-ghoul-duel', 'coding-for-carrots'],
@@ -1489,6 +1584,7 @@ export const games = [
     title: 'Crazy Shooters 2 - Play The Game Unblocked Online',
     metaDescription: 'Play Crazy Shooters 2 online, a fast-paced browser FPS with 9 weapons, 2 game modes, and intense multiplayer battles across tactical maps.',
     category: 'online-games',
+    tags: ['shooter'],
     embedUrl: 'https://html5.gamedistribution.com/rvvASMiM/5fb9c72b2cbd458c9ad4865f036dcc27/index.html?gd_sdk_referrer_url=https%3A%2F%2Fcool77.com%2Fcrazy-shooters-2&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2Nvb2w3Ny5jb20vY3Jhenktc2hvb3RlcnMtMiIsInBhcmVudERvbWFpbiI6ImNvb2w3Ny5jb20iLCJ0b3BEb21haW4iOiJtaW5pZ2FtZXN2aWxsZS5jb20iLCJoYXNJbXByZXNzaW9uIjpmYWxzZSwibG9hZGVyRW5hYmxlZCI6dHJ1ZSwiaG9zdCI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidmVyc2lvbiI6IjEuNS4xOCJ9',
     thumbnail: '/images/crazy-shooters-2.webp',
     relatedSlugs: ['highway-racer-3d', 'crazy-shooters', 'adam-and-eve-adam-the-ghost'],
@@ -1522,6 +1618,7 @@ export const games = [
     title: 'Highway Racer 3D - Play The Game Unblocked Online',
     metaDescription: 'Play Highway Racer 3D, dodge traffic at high speed, earn near-miss bonuses, and unlock faster cars across multiple game modes.',
     category: 'online-games',
+    tags: ['racing'],
     embedUrl: 'https://23azostore.github.io/s5/highway-racer-3d/',
     thumbnail: '/images/highway-racer-3d.webp',
     relatedSlugs: ['rolly-vortex', 'crazy-shooters', 'adam-and-eve-adam-the-ghost'],
@@ -1555,6 +1652,7 @@ export const games = [
     title: 'Adam and Eve: Adam the Ghost – Online Free Game',
     metaDescription: 'Play Adam and Eve: Adam the Ghost, a funny point-and-click puzzle game where Adam scares victims by solving clever environmental puzzles in each level.',
     category: 'online-games',
+    tags: ['puzzle', 'platformer'],
     embedUrl: 'https://html5.gamedistribution.com/rvvASMiM/7e1d1e47d33e4685b8b7a9d98a3dd924/index.html?gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2h0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tLzdlMWQxZTQ3ZDMzZTQ2ODViOGI3YTlkOThhM2RkOTI0LyIsInBhcmVudERvbWFpbiI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidG9wRG9tYWluIjoiZ2FtZXNjZW50cmFsLm5ldCIsImhhc0ltcHJlc3Npb24iOmZhbHNlLCJsb2FkZXJFbmFibGVkIjp0cnVlLCJob3N0IjoiaHRtbDUuZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJ2ZXJzaW9uIjoiMS41LjE4In0%253D',
     thumbnail: '/images/adam-and-eve-adam-the-ghost.webp',
     relatedSlugs: ['rolly-vortex', 'crazy-shooters', 'google-terminal'],
@@ -1588,6 +1686,7 @@ export const games = [
     title: 'Crazy Shooters Unblocked - Play Free Online Now',
     metaDescription: 'Play Crazy Shooters, a fast-paced browser FPS with multiplayer rooms, 9 weapons, 4 maps, and Free-for-All or Team Deathmatch modes — no download needed.',
     category: 'online-games',
+    tags: ['shooter'],
     embedUrl: 'https://cmug.gitlab.io/crazy-shooters/',
     thumbnail: '/images/crazy-shooters.webp',
     relatedSlugs: ['rolly-vortex', 'google-black-hole', 'google-terminal'],
@@ -1621,6 +1720,7 @@ export const games = [
     title: 'Rolly Vortex Unblocked - Play Game Online For Free',
     metaDescription: 'Play Rolly Vortex unblocked, the fast-paced tunnel runner where reflexes matter. Dodge spinning obstacles and beat your high score.',
     category: 'online-games',
+    tags: ['arcade'],
     embedUrl: 'https://sudoku-online.github.io/a9/rolly-vortex/',
     thumbnail: '/images/rolly-vortex.webp',
     relatedSlugs: ['google-matrix', 'google-black-hole', 'google-terminal'],
@@ -1654,6 +1754,7 @@ export const games = [
     title: 'Google Terminal Easter Egg – Search Google Like a 1980s Command Line',
     metaDescription: 'Use the Google Terminal Easter Egg to search in a retro 1980s command line with green text, dial-up sounds, and authentic BBS-style visuals.',
     category: 'google-easter-egg',
+    tags: ['simulation'],
     embedUrl: 'https://elgoog.im/terminal/',
     thumbnail: '/images/google-terminal.webp',
     relatedSlugs: ['google-matrix', 'google-black-hole', 'google-space-invaders-arcade-game'],
@@ -1687,6 +1788,7 @@ export const games = [
     title: 'Google Black Hole – Play the Fun Easter Egg Online',
     metaDescription: 'Watch the Google Black Hole Easter Egg pull text, images, and links into a spinning void before restoring the page in a smooth, cosmic animation.',
     category: 'google-easter-egg',
+    tags: ['simulation'],
     embedUrl: 'https://elgoog.im/black-hole/',
     thumbnail: '/images/google-black-hole.webp',
     relatedSlugs: ['google-matrix', 'google-tetris-arcade-game', 'google-space-invaders-arcade-game'],
@@ -1718,6 +1820,7 @@ export const games = [
     title: 'Google Matrix – Play the Fun Easter Egg Online',
     metaDescription: 'See the Google Matrix Easter Egg with falling green code rain and a fully usable search bar inside the iconic Matrix effect.',
     category: 'google-easter-egg',
+    tags: ['simulation'],
     embedUrl: 'https://elgoog.im/matrix/',
     thumbnail: '/images/google-matrix.webp',
     relatedSlugs: ['chrome-t-rex-dinosaur-game-3d', 'google-tetris-arcade-game', 'google-space-invaders-arcade-game'],
@@ -1755,6 +1858,7 @@ export const games = [
     title: 'Google Space Invaders Arcade Game – Play the Fun Easter Egg Online',
     metaDescription: 'Google Space Invaders Arcade Game lets you shoot aliens while the Google logo acts as shields in this fun browser tribute to the arcade classic.',
     category: 'google-easter-egg',
+    tags: ['arcade', 'shooter'],
     embedUrl: 'https://elgoog.im/space-invaders/',
     thumbnail: '/images/google-space-invaders-arcade-game.webp',
     relatedSlugs: ['chrome-t-rex-dinosaur-game-3d', 'google-tetris-arcade-game', 'google-maps-snake-game'],
@@ -1796,6 +1900,7 @@ export const games = [
     title: 'Google Tetris Arcade Game – Play the Fun Easter Egg',
     metaDescription: 'Google Tetris Arcade Game turns the homepage into falling tetromino blocks, an ambient fan-made tribute inspired by the classic puzzle game.',
     category: 'google-easter-egg',
+    tags: ['puzzle', 'arcade'],
     embedUrl: 'https://elgoog.im/tetris/',
     thumbnail: '/images/google-tetris-arcade-game.webp',
     relatedSlugs: ['chrome-t-rex-dinosaur-game-3d', 'google-tilt', 'google-maps-snake-game'],
@@ -1833,6 +1938,7 @@ export const games = [
     title: 'Chrome T-Rex Dinosaur Game 3D – Play the Dino Game Unblocked',
     metaDescription: 'Play Chrome T-Rex Dinosaur Game 3D from a behind-the-back view. Jump cacti, duck pterodactyls, and survive longer in this fan browser remake.',
     category: 'online-games',
+    tags: ['arcade'],
     embedUrl: 'https://dinosgame.com/3d/',
     thumbnail: '/images/chrome-t-rex-dinosaur-game-3d.webp',
     relatedSlugs: ['google-legally-blonde', 'google-tilt', 'google-maps-snake-game'],
@@ -1872,6 +1978,7 @@ export const games = [
     title: 'Google Tilt Easter Egg – The Askew Page Trick',
     metaDescription: 'Google Tilt Easter Egg makes the search page lean right when you type “tilt” or “askew,” a subtle visual trick where results still work normally.',
     category: 'google-easter-egg',
+    tags: ['simulation'],
     embedUrl: 'https://elgoog.im/tilt/',
     thumbnail: '/images/google-tilt.webp',
     relatedSlugs: ['google-legally-blonde', 'google-guitar', 'google-maps-snake-game'],
@@ -1909,6 +2016,7 @@ export const games = [
     title: 'Google Maps Snake Game – Play the Travel Arcade Easter Egg',
     metaDescription: 'Play Google Maps Snake Game and drive buses or trains through cities like London, Tokyo, and Cairo, collecting passengers in this fun April Fools’ Easter egg.',
     category: 'google-easter-egg',
+    tags: ['arcade'],
     embedUrl: 'https://elgoog.im/snake/on-google-maps/',
     thumbnail: '/images/google-maps-snake-game.webp',
     relatedSlugs: ['google-legally-blonde', 'google-guitar', 'google-wicked'],
@@ -1946,6 +2054,7 @@ export const games = [
     title: 'Google Legally Blonde Easter Egg – Pink Page Effect',
     metaDescription: 'Google Legally Blonde Easter Egg turns links pink as Bruiser pops from Elle’s purse, celebrating the film with a fun, stylish page makeover.',
     category: 'google-easter-egg',
+    tags: ['simulation'],
     embedUrl: 'https://elgoog.im/legally-blonde/',
     thumbnail: '/images/google-legally-blonde.webp',
     relatedSlugs: ['google-let-it-snow', 'google-guitar', 'google-wicked'],
@@ -1983,6 +2092,7 @@ export const games = [
     title: 'Google Guitar Doodle Game – Play the Les Paul Guitar',
     metaDescription: 'Play the Google Guitar Doodle Game honoring Les Paul. Strum strings, use your keyboard, record 30-second tracks, and share your music online.',
     category: 'google-easter-egg',
+    tags: ['music-and-creative'],
     embedUrl: 'https://elgoog.im/guitar/',
     thumbnail: '/images/google-guitar.webp',
     relatedSlugs: ['google-let-it-snow', 'google-batman', 'google-wicked'],
@@ -2018,6 +2128,7 @@ export const games = [
     title: 'Google Wicked – Play The Easter Egg Online',
     metaDescription: 'Google Wicked Easter Egg made pages float with green smoke, pink bubbles, and “Defying Gravity” from the film.',
     category: 'google-easter-egg',
+    tags: ['simulation'],
     embedUrl: 'https://elgoog.im/wicked/',
     thumbnail: '/images/google-wicked.webp',
     relatedSlugs: ['google-let-it-snow', 'google-batman', 'google-super-mario-bros'],
@@ -2053,6 +2164,7 @@ export const games = [
     title: 'Google Let It Snow – Play The Easter Egg Online',
     metaDescription: 'Enjoy the Google Let It Snow Easter Egg. Watch snow fall, frost cover the screen, draw in the ice, then defrost and repeat.',
     category: 'google-easter-egg',
+    tags: ['simulation'],
     embedUrl: 'https://elgoog.im/let-it-snow/',
     thumbnail: '/images/google-let-it-snow.webp',
     relatedSlugs: ['google-thanos-snap', 'google-batman', 'google-super-mario-bros'],
@@ -2088,6 +2200,7 @@ export const games = [
     title: 'Google Batman – Play The Easter Egg Online',
     metaDescription: 'Experience the Google Batman Easter Egg. Click the Bat-Signal to summon stormy Gotham skies and watch Batman swing across the screen.',
     category: 'google-easter-egg',
+    tags: ['simulation'],
     embedUrl: 'https://elgoog.im/batman/',
     thumbnail: '/images/google-batman.webp',
     relatedSlugs: ['google-thanos-snap', 'curve-ball-3d', 'google-super-mario-bros'],
@@ -2121,6 +2234,7 @@ export const games = [
     title: 'Google Super Mario Bros – Play The Easter Egg Online',
     metaDescription: 'Play the Google Super Mario Bros Easter Egg. Click the Question Block, collect coins, score points, and unlock the hidden 1-UP sound.',
     category: 'google-easter-egg',
+    tags: ['simulation'],
     embedUrl: 'https://elgoog.im/mario/',
     thumbnail: '/images/google-super-mario-bros.webp',
     relatedSlugs: ['google-thanos-snap', 'curve-ball-3d', 'rolling-ball-3d'],
@@ -2154,6 +2268,7 @@ export const games = [
     title: 'Google Zipper Game - Play Google Zipper Game Online',
     metaDescription: 'Unzip the Google homepage with the Google Zipper Game. A Google Easter egg that lets you interactively open the page for quick entertainment.',
     category: 'google-easter-egg',
+    tags: ['simulation'],
     embedUrl: 'https://elgoog.im/zipper/',
     thumbnail: '/images/google-zipper-game.webp',
     relatedSlugs: ['google-underwater', 'google-gravity', 'google-random-number-generator'],
@@ -2187,6 +2302,7 @@ export const games = [
     title: 'Google Gravity - Play the Game Free Online',
     metaDescription: 'Play the Google Gravity game online and watch the Google homepage fall apart! Experience fun physics and interactive chaos with Google Gravity now!',
     category: 'google-easter-egg',
+    tags: ['simulation'],
     embedUrl: 'https://embed.gamesdoodle.org/gravity/',
     thumbnail: '/images/google-gravity.webp',
     relatedSlugs: ['google-pacman', 'memory-game', 'flip-a-coin'],
@@ -2220,6 +2336,7 @@ export const games = [
     title: 'Google Thanos Snap – Play The Easter Egg Online',
     metaDescription: 'Relive the Google Thanos Snap Easter egg that let you dust half your search results. Discover how it worked and try the preserved version today.',
     category: 'google-easter-egg',
+    tags: ['simulation'],
     embedUrl: 'https://elgoog.im/thanos/',
     thumbnail: '/images/google-thanos-snap.webp',
     relatedSlugs: ['rolling-ball-3d', 'curve-ball-3d', 'unicycle-hero'],
@@ -2251,6 +2368,7 @@ export const games = [
     title: 'Curve Ball 3D – Play The Game Free Online',
     metaDescription: 'Play Curve Ball 3D online — a fast, neon 3D Pong game where you curve shots, outplay AI opponents, and fight through a brutal tournament.',
     category: 'online-games',
+    tags: ['sports', 'arcade'],
     embedUrl: 'https://ubg67.gitlab.io/curve-ball-3d/',
     thumbnail: '/images/curve-ball-3d.webp',
     relatedSlugs: ['rolling-ball-3d', 'unicycle-hero', 'sling-drift'],
@@ -2288,6 +2406,7 @@ export const games = [
     title: 'Google Random Number Generator - Try The Random Number Generator',
     metaDescription: 'Generate random numbers instantly with Google Random Number Generator. Free online tool for games, picks, and quick decisions.',
     category: 'online-games',
+    tags: ['simulation'],
     embedUrl: '/tools/random-number-generator.html',
     thumbnail: '/images/google-random-number-generator.webp',
     relatedSlugs: ['dinosaur-game', 'google-gravity', 'quick-draw'],
@@ -2325,6 +2444,7 @@ export const games = [
     title: 'Rolling Ball 3D – Play The Game Unblocked Online',
     metaDescription: 'Rolling Ball 3D is an endless reflex game where you steer a speeding ball, avoid obstacles, and collect diamonds on twisting 3D tracks.',
     category: 'online-games',
+    tags: ['arcade'],
     embedUrl: 'https://6xgames.io/thebase/RollingBall3D/?gd_sdk_referrer_url=https://6xgames.io/gg/rolling-ball-3d',
     thumbnail: '/images/rolling-ball-3d.webp',
     relatedSlugs: ['big-shot-boxing', 'google-zerg-rush', 'worlds-hardest-game'],
@@ -2360,6 +2480,7 @@ export const games = [
     title: 'Unicycle Hero – Play The Game Unblocked Online',
     metaDescription: 'Play Unicycle Hero, a fun skill game featuring unicycle balance, ridiculous events, and upgrade-based progression.',
     category: 'online-games',
+    tags: ['sports', 'arcade'],
     embedUrl: 'https://sudoku-online.github.io/a3/unicycle-hero/',
     thumbnail: '/images/unicycle-hero.webp',
     relatedSlugs: ['big-shot-boxing', 'google-zerg-rush', 'worlds-hardest-game'],
@@ -2395,6 +2516,7 @@ export const games = [
     title: 'Sling Drift – Play The Game Unblocked Online',
     metaDescription: 'Play Sling Drift, an addictive driving game where you time perfect drifts using a slingshot mechanic on endless tracks.',
     category: 'online-games',
+    tags: ['racing', 'arcade'],
     embedUrl: 'https://ubgwtf.gitlab.io/sling-drift/',
     thumbnail: '/images/sling-drift.webp',
     relatedSlugs: ['big-shot-boxing', 'google-zerg-rush', 'worlds-hardest-game'],
@@ -2430,6 +2552,7 @@ export const games = [
     title: 'World\'s Hardest Game – Play The Game Unblocked Online',
     metaDescription: 'Play World’s Hardest Game unblocked online and test your timing, patience, and reflexes in this classic rage-inducing challenge.',
     category: 'online-games',
+    tags: ['puzzle', 'arcade'],
     embedUrl: 'https://unblocked-games.org/games/worldshardestgame/',
     thumbnail: '/images/worlds-hardest-game.webp',
     relatedSlugs: ['big-shot-boxing', 'google-zerg-rush', 'google-sphere'],
@@ -2465,6 +2588,7 @@ export const games = [
     title: 'Big Shot Boxing – Play The Game Unblocked Online',
     metaDescription: 'Play Big Shot Boxing unblocked, a retro pixel boxing game with simple controls, career mode, smart upgrades, and timing-based fights.',
     category: 'online-games',
+    tags: ['sports', 'arcade'],
     embedUrl: 'https://classroom8.github.io/big-shot-boxing/',
     thumbnail: '/images/big-shot-boxing.webp',
     relatedSlugs: ['google-sphere', 'google-zerg-rush', 'design-the-next-iphone'],
@@ -2500,6 +2624,7 @@ export const games = [
     title: 'Google Sphere – Play The Google Easter Egg Free Online',
     metaDescription: 'Play Google Sphere, the classic Google Easter egg that turns search results into a spinning 3D sphere. Free, interactive, and nostalgic.',
     category: 'online-games',
+    tags: ['simulation'],
     embedUrl: 'https://mrdoob.com/projects/chromeexperiments/google-sphere/',
     thumbnail: '/images/google-sphere.webp',
     relatedSlugs: ['google-zerg-rush', 'google-blob-opera', 'design-the-next-iphone'],
@@ -2535,6 +2660,7 @@ export const games = [
     title: 'Google Zerg Rush – Play The Easter Egg Free Online',
     metaDescription: 'Play Google Zerg Rush, the famous Easter egg inspired by StarCraft. Click the attacking “O”s before they destroy your search results.',
     category: 'online-games',
+    tags: ['arcade'],
     embedUrl: 'https://elgoog.im/zergrush/',
     thumbnail: '/images/google-zerg-rush.webp',
     relatedSlugs: ['atari-breakout', 'google-blob-opera', 'design-the-next-iphone'],
@@ -2568,6 +2694,7 @@ export const games = [
     title: 'Design The Next iPhone – Play The Game Free Online',
     metaDescription: 'Design The Next iPhone is a funny Neal.fun game where you drag absurd features onto an iPhone and present it like a real Apple keynote.',
     category: 'online-games',
+    tags: ['music-and-creative', 'simulation'],
     embedUrl: 'https://web.archive.org/web/20250510145308/https://neal.fun/design-the-next-iphone/',
     thumbnail: '/images/design-the-next-iphone.webp',
     relatedSlugs: ['atari-breakout', 'google-blob-opera', 'ambient-chaos'],
@@ -2601,6 +2728,7 @@ export const games = [
     title: 'Atari Breakout – Play The Game Unblocked Online',
     metaDescription: 'Play Atari Breakout unblocked, the arcade game where you bounce a ball to smash blocks. Simple controls, addictive gameplay, and timeless fun.',
     category: 'online-games',
+    tags: ['arcade'],
     embedUrl: 'https://www.coolmathgames.com/sites/default/files/public_games/41808/?gd_sdk_referrer_url=https%3A%2F%2Fwww.coolmathgames.com%2F0-atari-breakout',
     thumbnail: '/images/atari-breakout.webp',
     relatedSlugs: ['ambient-chaos', 'sun-vs-moon', 'paper'],
@@ -2632,6 +2760,7 @@ export const games = [
     title: 'Google Blob Opera – Play The Game Unblocked Online',
     metaDescription: 'Blob Opera lets you create beautiful opera music by dragging singing blobs. Powered by AI, free to play, and surprisingly addictive.',
     category: 'online-games',
+    tags: ['music-and-creative'],
     embedUrl: 'https://gacembed.withgoogle.com/blob-opera#/',
     thumbnail: '/images/google-blob-opera.webp',
     relatedSlugs: ['ambient-chaos', 'sun-vs-moon', 'paper'],
@@ -2667,6 +2796,7 @@ export const games = [
     title: 'Asteroid Launcher - Play the Game Unblocked Online',
     metaDescription: 'Asteroid Launcher lets you experiment with asteroid impacts by changing size, speed, and materials and dropping them anywhere on Earth.',
     category: 'online-games',
+    tags: ['simulation'],
     embedUrl: 'https://asteroidlauncher.pages.dev/',
     thumbnail: '/images/asteroid-launcher.webp',
     relatedSlugs: ['baby-map', 'google-in-1998', 'google-boba-game'],
@@ -2700,6 +2830,7 @@ export const games = [
     title: 'Ambient Chaos – Play The Game Unblocked Online',
     metaDescription: 'Ambient Chaos is a Neal.fun sound mixer that turns relaxing audio into hilarious noise. Mix rain, sirens, arguing, and more.',
     category: 'online-games',
+    tags: ['simulation'],
     embedUrl: 'https://web.archive.org/web/2025/https://neal.fun/ambient-chaos/',
     thumbnail: '/images/ambient-chaos.webp',
     relatedSlugs: ['the-size-of-space', 'life-stats-game', 'the-deep-sea'],
@@ -2733,6 +2864,7 @@ export const games = [
     title: 'Sun vs Moon – Play The Game Unblocked Online',
     metaDescription: 'Choose Team Sun or Team Moon and join thousands of players clicking in real time in this simple, strangely addictive Neal.fun experiment.',
     category: 'online-games',
+    tags: ['arcade'],
     embedUrl: 'https://web.archive.org/web/20250510032320/https://neal.fun/sun-vs-moon/',
     thumbnail: '/images/sun-vs-moon.webp',
     relatedSlugs: ['ambient-chaos', 'life-stats-game', 'the-deep-sea'],
@@ -2764,6 +2896,7 @@ export const games = [
     title: 'Paper – Play The Game Unblocked Online',
     metaDescription: 'Fold a virtual sheet of paper and watch exponential growth spiral from millimetres to the Moon in this simple, mind-bending Neal.fun experience.',
     category: 'online-games',
+    tags: ['music-and-creative'],
     embedUrl: 'https://web.archive.org/web/20250510032437/https://neal.fun/paper/',
     thumbnail: '/images/paper.webp',
     relatedSlugs: ['ambient-chaos', 'life-stats-game', 'the-deep-sea'],
@@ -2797,6 +2930,7 @@ export const games = [
     title: 'The Size of Space - Play The Game Unblocked Online',
     metaDescription: 'Play The Size of Space game unblocked and scroll through planets, stars, galaxies, and the observable universe to see how big space really is.',
     category: 'online-games',
+    tags: ['simulation'],
     embedUrl: 'https://web.archive.org/web/20250510032437/https://neal.fun/size-of-space/',
     thumbnail: '/images/the-size-of-space.webp',
     relatedSlugs: ['life-stats-game', 'absurd-trolley-problems', 'asteroid-launcher'],
@@ -2830,6 +2964,7 @@ export const games = [
     title: 'The Deep Sea – Interactive Ocean Experience Unblocked',
     metaDescription: 'Play The Deep Sea game unblocked and scroll through real ocean depths, strange sea creatures, famous shipwrecks, and fascinating facts.',
     category: 'online-games',
+    tags: ['simulation'],
     embedUrl: 'https://web.archive.org/web/20250318005239/https://neal.fun/deep-sea/',
     thumbnail: '/images/the-deep-sea.webp',
     relatedSlugs: ['the-size-of-space', 'life-stats-game', 'us-states-quiz'],
@@ -2861,6 +2996,7 @@ export const games = [
     title: 'US States Quiz - Play The Game Unblocked Online',
     metaDescription: 'Play the US States Quiz and test how well you know all 50 states. A fun and simple geography quiz you can try online.',
     category: 'online-games',
+    tags: ['word-and-trivia'],
     embedUrl: 'https://sheppardsoftware.com/geography/usa/50-states-game-1/USAmap_HTML5.html',
     thumbnail: '/images/us-states-quiz.webp',
     relatedSlugs: ['the-size-of-space', 'life-stats-game', 'absurd-trolley-problems'],
@@ -2894,6 +3030,7 @@ export const games = [
     title: 'Life Stats Game - Play The Game Unblocked Online',
     metaDescription: 'Play Life Stats game unblocked and discover surprising numbers about your life, time lived, and the world since your birth.',
     category: 'online-games',
+    tags: ['simulation'],
     embedUrl: 'https://web.archive.org/web/20240301000932/https://neal.fun/life-stats/',
     thumbnail: '/images/life-stats-game.webp',
     relatedSlugs: ['absurd-trolley-problems', 'asteroid-launcher', 'baby-map'],
@@ -2923,6 +3060,7 @@ export const games = [
     title: 'Wonders of Street View – Play The Game Unblocked Online',
     metaDescription: 'Explore Wonders of Street View on Neal.fun and discover strange, beautiful, and unexpected places captured around the world.',
     category: 'online-games',
+    tags: ['word-and-trivia'],
     embedUrl: 'https://web.archive.org/web/20250510032437/https://neal.fun/wonders-of-street-view/',
     thumbnail: '/images/wonders-of-street-view.webp',
     relatedSlugs: ['ambient-chaos', 'life-stats-game', 'paper'],
@@ -2954,6 +3092,7 @@ export const games = [
     title: 'Absurd Trolley Problems - Play The Game Unblocked Online',
     metaDescription: 'Play Absurd Trolley Problems online and face ridiculous moral dilemmas where every choice leads to unexpected and funny outcomes.',
     category: 'online-games',
+    tags: ['puzzle', 'simulation'],
     embedUrl: 'https://web.archive.org/web/20240302090609mp_/https://neal.fun/absurd-trolley-problems/',
     thumbnail: '/images/absurd-trolley-problems.webp',
     relatedSlugs: ['asteroid-launcher', 'baby-map', 'google-in-1998'],
@@ -2985,6 +3124,7 @@ export const games = [
     title: 'Google Underwater – Try the Underwater Google Effect Online',
     metaDescription: 'Google Underwater is a fun hidden effect that turns your screen into an underwater scene when activated. Instead of a normal search page, everything appears',
     category: 'google-tools',
+    tags: ['simulation'],
     embedUrl: 'https://elgoog.im/underwater/',
     thumbnail: '/images/google-underwater.webp',
     relatedSlugs: ['dinosaur-game', 'google-gravity', 'google-random-number-generator'],
@@ -3018,6 +3158,7 @@ export const games = [
     title: 'Google Mirror – See Google in Reverse Mode Online',
     metaDescription: 'Try Google Mirror and see the Google homepage flipped in reverse. A fun Google Easter egg that mirrors everything on your screen.',
     category: 'google-tools',
+    tags: ['simulation'],
     embedUrl: 'https://elgoog.im/google-mirror/',
     thumbnail: '/images/google-mirror.webp',
     relatedSlugs: ['quick-draw', 'google-zipper-game', 'google-cricket'],
@@ -3051,6 +3192,7 @@ export const games = [
     title: 'Google Space – Explore the Zero Gravity Google Effect Online',
     metaDescription: 'Try Google Space and watch the Google homepage float in zero gravity. A fun Google Easter egg with drifting elements and space effects.',
     category: 'google-tools',
+    tags: ['simulation'],
     embedUrl: 'https://mrdoob.com/projects/chromeexperiments/google-space/',
     thumbnail: '/images/google-space.webp',
     relatedSlugs: ['google-underwater', 'google-mirror', 'google-random-number-generator'],
@@ -3082,6 +3224,7 @@ export const games = [
     title: 'Google In 1998 – Try the Classic Google Search Easter Egg',
     metaDescription: 'Explore Google in 1998 and see the original Google homepage design. Experience how early Google search looked and worked online.',
     category: 'google-tools',
+    tags: ['simulation'],
     embedUrl: 'https://elgoog.im/google1998/',
     thumbnail: '/images/google-in-1998.webp',
     relatedSlugs: ['tall-man-run', 'jelly-truck', 'time-shooter-3'],
@@ -3113,6 +3256,7 @@ export const games = [
     title: 'Baby Map – See How Many Babies Are Born in Each Country',
     metaDescription: 'Explore Baby Map to see how many babies are born in each country. View global birth data displayed clearly on an interactive world map.',
     category: 'online-games',
+    tags: ['simulation'],
     embedUrl: 'https://neal-fun.firebaseapp.com/baby-map/',
     thumbnail: '/images/baby-map.webp',
     relatedSlugs: ['google-in-1998', 'google-boba-game', 'tall-man-run'],
@@ -3144,6 +3288,7 @@ export const games = [
     title: 'Tall Man Run - Play the Game Unblocked Online',
     metaDescription: 'Play Tall Man Run online and grow taller as you race through obstacles. Choose the right gates, avoid shrink traps, and reach the finish strong.',
     category: 'online-games',
+    tags: ['arcade', 'platformer'],
     embedUrl: 'https://g.igroutka.ru/games/23/kAweCuOlx3YIN4KP/rvvASMiM/7980c23fbbae4af6851e01052fce3cce/',
     thumbnail: '/images/tall-man-run.webp',
     relatedSlugs: ['jelly-truck', 'love-calculator', 'time-shooter-3'],
@@ -3175,6 +3320,7 @@ export const games = [
     title: 'Time Shooter 3 - Play the Game Unblocked Online',
     metaDescription: 'Play Time Shooter 3 online and control time as you move. Dodge bullets, plan every shot, and defeat enemies in slow-motion action.',
     category: 'online-games',
+    tags: ['shooter'],
     embedUrl: 'https://html5.gamedistribution.com/rvvASMiM/6493b872f0564380a7adad671d1e0a57/index.html?gd_sdk_referrer_url=https%3A%2F%2Fgamedistribution.com%2Fgames%2Ftime-shooter-3%3A-swat%2F&gd_zone_config=eyJwYXJlbnRVUkwiOiJodHRwczovL2dhbWVkaXN0cmlidXRpb24uY29tL2dhbWVzL3RpbWUtc2hvb3Rlci0zOi1zd2F0LyIsInBhcmVudERvbWFpbiI6ImdhbWVkaXN0cmlidXRpb24uY29tIiwidG9wRG9tYWluIjoiZ2FtZWRpc3RyaWJ1dGlvbi5jb20iLCJoYXNJbXByZXNzaW9uIjpmYWxzZSwibG9hZGVyRW5hYmxlZCI6dHJ1ZSwiaG9zdCI6Imh0bWw1LmdhbWVkaXN0cmlidXRpb24uY29tIiwidmVyc2lvbiI6IjEuNS4xOCJ9',
     thumbnail: '/images/time-shooter-3.webp',
     relatedSlugs: ['jelly-truck', 'love-calculator', 'love-tester'],
@@ -3206,6 +3352,7 @@ export const games = [
     title: 'Jelly Truck – Play the Game Unblocked Online',
     metaDescription: 'Play Jelly Truck online and drive a wobbly jelly-style truck through challenging physics-based levels. A fun and unique driving game to master.',
     category: 'online-games',
+    tags: ['racing', 'puzzle'],
     embedUrl: 'https://jellytruck.bitbucket.io/file/',
     thumbnail: '/images/jelly-truck.webp',
     relatedSlugs: ['love-calculator', 'google-space', 'love-tester'],
@@ -3237,6 +3384,7 @@ export const games = [
     title: 'Love Calculator – Play the Game Unblocked Online',
     metaDescription: 'Play the Love Calculator online and check love compatibility between two names. Enter names and get a fun love percentage instantly.',
     category: 'online-games',
+    tags: ['simulation'],
     embedUrl: 'https://alnahian2003.github.io/lovecalc/',
     thumbnail: '/images/love-calculator.webp',
     relatedSlugs: ['google-space', 'google-mirror', 'love-tester'],
@@ -3268,6 +3416,7 @@ export const games = [
     title: 'Love Tester – Play the Game Unblocked Online',
     metaDescription: 'Play the Love Tester game online and test compatibility between two names. A fun, light-hearted game for laughs and curiosity.',
     category: 'online-games',
+    tags: ['simulation'],
     embedUrl: 'https://www.onlinegames.io/games/2021/3/love-tester/index.html',
     thumbnail: '/images/love-tester.webp',
     relatedSlugs: ['google-space', 'google-mirror', 'google-zipper-game'],
@@ -3299,6 +3448,7 @@ export const games = [
     title: 'Google Dinosaur Game - Play Chrome Dino Run Online',
     metaDescription: 'Play the classic Google Dinosaur Game (Chrome Dino)! Jump over cacti and dodge obstacles in this fun offline runner game, now available online.',
     category: 'google-doodle-games',
+    tags: ['arcade'],
     embedUrl: 'https://embed.gamesdoodle.org/dino/',
     thumbnail: '/images/dinosaur-game.webp',
     relatedSlugs: ['quick-draw', 'google-gravity', 'google-cricket'],
@@ -3336,7 +3486,8 @@ export const games = [
     title: 'Google Cricket - Play Google Doodle Cricket Online',
     metaDescription: 'Play the Google Cricket game from the popular Doodle Cricket series! Step into the pitch, score big runs, and enjoy fun, casual cricket gameplay online.',
     category: 'google-doodle-games',
-    embedUrl: 'https://embed.gamesdoodle.org/cricket/',
+    tags: ['sports'],
+    embedUrl: 'https://game3.glov3.me/uploads/game/html5/25768/',
     thumbnail: '/images/google-cricket.webp',
     relatedSlugs: ['quick-draw', 'google-gravity', 'flip-a-coin'],
     excerpt: 'Google Cricket is one of the most popular and delightful games from the Google Doodle series.',
@@ -3371,6 +3522,7 @@ export const games = [
     title: 'Quick Draw with Google - Fun Speed Drawing Game',
     metaDescription: 'Play the Quick Draw game and see if Google can guess your doodles! Enjoy fast-paced AI fun with this addictive Google drawing challenge.',
     category: 'google-doodle-games',
+    tags: ['music-and-creative'],
     embedUrl: 'https://santatracker.google.com/speedsketch.html',
     thumbnail: '/images/quick-draw.webp',
     relatedSlugs: ['google-pacman', 'google-gravity', 'flip-a-coin'],
@@ -3406,6 +3558,7 @@ export const games = [
     title: 'Flip a Coin Google | Heads or Tails Online',
     metaDescription: 'Flip a coin online with this simple heads or tails. Try the Google coin flip now for quick, random decisions anytime whether you are playing any game',
     category: 'google-doodle-games',
+    tags: ['simulation'],
     embedUrl: 'https://embed.gamesdoodle.org/flip/',
     thumbnail: '/images/flip-a-coin.webp',
     relatedSlugs: ['google-pacman', 'memory-game', 'google-feud'],
@@ -3439,6 +3592,7 @@ export const games = [
     title: 'Google Pacman - Play the Game Free Online',
     metaDescription: 'Play Google Pacman online for free! Enjoy the classic arcade fun, eat pellets, and escape ghosts in this timeless free Pacman game. Pac-man is free',
     category: 'google-doodle-games',
+    tags: ['arcade'],
     embedUrl: 'https://web.archive.org/web/20241219020527/https://www.google.com/logos/2010/pacman10-i.html',
     thumbnail: '/images/google-pacman.webp',
     relatedSlugs: ['google-minesweeper', 'memory-game', 'google-feud'],
@@ -3474,6 +3628,7 @@ export const games = [
     title: 'Popcorn Game - Play Google Doodle Popcorn Game',
     metaDescription: 'Play the popcorn game online and enjoy the fun of the Google popcorn game. Inspired by Google doodle popcorn, test your timing and precision in this game.',
     category: 'online-games',
+    tags: ['arcade'],
     embedUrl: 'https://web.archive.org/web/20241124021400/https://www.google.com/logos/2024/popcorn/rc4/popcorn.html',
     thumbnail: '/images/popcorn-game.webp',
     relatedSlugs: ['poppy-playtime', 'pou', 'spacebar-clicker'],
@@ -3505,6 +3660,7 @@ export const games = [
     title: 'Vortella\'s Dress Up - Play the Game Online Poki',
     metaDescription: 'Play Vortella’s Dress Up game online and style Vortella with beautiful outfits, makeup, and accessories. Enjoy Vortella’s Dress Up Poki anytime.',
     category: 'online-games',
+    tags: ['simulation', 'music-and-creative'],
     embedUrl: 'https://vortellas-dressup.com/gg/vortellas-dress-up/',
     thumbnail: '/images/vortellas-dress-up.webp',
     relatedSlugs: ['level-devil', 'super-liquid-soccer', 'ragdoll-hit'],
@@ -3536,6 +3692,7 @@ export const games = [
     title: 'Make It Meme - Play the Game Unblocked Online Poki',
     metaDescription: 'Play Make It Meme unblocked and create hilarious captions in this fun multiplayer meme game. Enjoy MakeItMeme online and make everyone laugh.',
     category: 'online-games',
+    tags: ['music-and-creative'],
     embedUrl: 'https://tinyplay.io/make-it-meme.embed',
     thumbnail: '/images/make-it-meme.webp',
     relatedSlugs: ['sort-the-court', 'red-ball', 'blockpost'],
@@ -3571,6 +3728,7 @@ export const games = [
     title: 'Watermelon Game - Play Suika Game Free Online',
     metaDescription: 'Play the Watermelon Game online and enjoy the relaxing Suika game experience. Drop fruits, merge them smartly, and create the ultimate watermelon.',
     category: 'online-games',
+    tags: ['puzzle'],
     embedUrl: 'https://playsuikagame.com/',
     thumbnail: '/images/watermelon-game.webp',
     relatedSlugs: ['minefun-io', 'venge', 'tunnel-rush'],
@@ -3602,6 +3760,7 @@ export const games = [
     title: 'Huggy Wuggy - Play the Game Free Online',
     metaDescription: 'Play Huggy Wuggy online and experience a thrilling horror adventure. Explore dark locations, solve puzzles, and survive intense moments in the game.',
     category: 'online-games',
+    tags: ['arcade', 'platformer'],
     embedUrl: 'https://gg.unblockedzugames.com/huggy-wuggy/',
     thumbnail: '/images/huggy-wuggy.webp',
     relatedSlugs: ['minefun-io', 'watermelon-game', 'stunt-bike-extreme'],
@@ -3633,6 +3792,7 @@ export const games = [
     title: 'Slow Roads IO - Play the Game Unblocked Online',
     metaDescription: 'Play Slow Roads online and navigate narrow tracks with precision. Enjoy slow roads io unblocked, master turns, and beat your high score in this driving game.',
     category: 'online-games',
+    tags: ['racing', 'simulation'],
     embedUrl: 'https://slowroads.io/#A2-1243cc55@0',
     thumbnail: '/images/slow-roads.webp',
     relatedSlugs: ['bottle-game', 'gladihoppers', 'cluster-truck'],
@@ -3664,6 +3824,7 @@ export const games = [
     title: 'Gladihoppers - Play the Game Unblocked Online',
     metaDescription: 'Play Gladihoppers online and hop into action with fast-paced arena battles. Master jumps, attacks, and strategy in this addictive gladi hoppers game unblocked.',
     category: 'online-games',
+    tags: ['arcade', 'sports'],
     embedUrl: 'https://gladihoppers-pro.github.io/file/',
     thumbnail: '/images/gladihoppers.webp',
     relatedSlugs: ['bottle-game', 'cluster-rush', 'cluster-truck'],
@@ -3695,6 +3856,7 @@ export const games = [
     title: 'Bottle Game - Play Bottle Flip 3D Free Online',
     metaDescription: 'Play Bottle Game online and master the art of bottle flipping. Enjoy Bottle Flip 3D challenges with moving platforms, obstacles, and endless fun in this game.',
     category: 'online-games',
+    tags: ['arcade'],
     embedUrl: 'https://bottleflip3d.com/wp-content/uploads/games/html5/B/BottleFlip/index.html',
     thumbnail: '/images/bottle-game.webp',
     relatedSlugs: ['tanuki-sunset', 'cluster-rush', 'cluster-truck'],
@@ -3726,6 +3888,7 @@ export const games = [
     title: 'Cluster Truck - Play the Game Unblocked Online',
     metaDescription: 'Play Cluster Truck and jump across moving trucks in this truck jumping game. Enjoy clustertruck unblocked, master levels, and test your reflexes today.',
     category: 'online-games',
+    tags: ['arcade', 'platformer'],
     embedUrl: 'https://html5.gamedistribution.com/rvvASMiM/e0a0c56a87c44a3c91c316b9c93f840c/index.html',
     thumbnail: '/images/cluster-truck.webp',
     relatedSlugs: ['tanuki-sunset', 'cluster-rush', 'survival-race'],
@@ -3757,6 +3920,7 @@ export const games = [
     title: 'Cluster Rush - Play the Game Unblocked Online',
     metaDescription: 'Play Cluster Rush unblocked online and navigate through rotating clusters and obstacles. Enjoy fast-paced gameplay, precise controls in Cluster Rush game.',
     category: 'online-games',
+    tags: ['arcade', 'platformer'],
     embedUrl: 'https://html5.gamedistribution.com/rvvASMiM/e0a0c56a87c44a3c91c316b9c93f840c/index.html',
     thumbnail: '/images/cluster-rush.webp',
     relatedSlugs: ['tanuki-sunset', 'bad-ice-cream', 'survival-race'],
@@ -3788,6 +3952,7 @@ export const games = [
     title: 'Tanuki Sunset - Play the Game Unblocked Online',
     metaDescription: 'Play Tanuki Sunset unblocked and dodge enemies while shooting your way to victory. Enjoy smooth gameplay, power-ups in this action-packed Tanuki Sunset game.',
     category: 'online-games',
+    tags: ['racing', 'arcade'],
     embedUrl: 'https://thepizzaedition-games.github.io/source/class-488/',
     thumbnail: '/images/tanuki-sunset.webp',
     relatedSlugs: ['huggy-wuggy', 'bad-ice-cream', 'survival-race'],
@@ -3819,6 +3984,7 @@ export const games = [
     title: 'Stunt Bike Extreme - Play the Game Unblocked Online',
     metaDescription: 'Play Stunt Bike Extreme and experience thrilling stunt bike action. Master jumps, balance your bike, and conquer tracks in stunt bike extreme unblocked game.',
     category: 'online-games',
+    tags: ['racing', 'sports'],
     embedUrl: 'https://g.igroutka.ru/games/793/2xTdm6GrXEuN0Kwq/fe831138-3321-40ed-b8cd-f1c482091e04/index.html',
     thumbnail: '/images/stunt-bike-extreme.webp',
     relatedSlugs: ['minefun-io', 'watermelon-game', 'tunnel-rush'],
@@ -3850,6 +4016,7 @@ export const games = [
     title: 'Survival Race - Play the Game Unblocked Online',
     metaDescription: 'Play Survival Race unblocked and navigate challenging tracks filled with obstacles. Boost speed, survive hazards, and enjoy this thrilling race survival game.',
     category: 'online-games',
+    tags: ['racing', 'arcade'],
     embedUrl: 'https://survival-race.io/survival-race-unblocked-76.embed',
     thumbnail: '/images/survival-race.webp',
     relatedSlugs: ['huggy-wuggy', 'bad-ice-cream', 'stunt-bike-extreme'],
@@ -3881,6 +4048,7 @@ export const games = [
     title: 'Bad Ice-Cream - Play Icecream Game Unblocked Online',
     metaDescription: 'Play Bad Ice-Cream unblocked and collect fruits in challenging mazes. Avoid enemies, use strategy, and enjoy this addictive icecream game for hours of fun.',
     category: 'online-games',
+    tags: ['arcade', 'puzzle'],
     embedUrl: 'https://ubgwtf.gitlab.io/bad-ice-cream/',
     thumbnail: '/images/bad-ice-cream.webp',
     relatedSlugs: ['huggy-wuggy', 'watermelon-game', 'stunt-bike-extreme'],
@@ -3912,6 +4080,7 @@ export const games = [
     title: 'Minefun IO - Play Minefun Game Free Online Poki',
     metaDescription: 'Play MineFun.io game online and enjoy fast-paced multiplayer sandbox action. Build, explore, fight, and survive in the exciting MineFun IO world.',
     category: 'online-games',
+    tags: ['io', 'simulation'],
     embedUrl: 'https://minefun.io/',
     thumbnail: '/images/minefun-io.webp',
     relatedSlugs: ['make-it-meme', 'venge', 'tunnel-rush'],
@@ -3943,6 +4112,7 @@ export const games = [
     title: 'Venge IO - Play Venge io Game Unblocked Online',
     metaDescription: 'Play Venge.io game online and enjoy fast-paced FPS combat with special abilities, smooth gameplay, and competitive multiplayer action.',
     category: 'online-games',
+    tags: ['io', 'shooter'],
     embedUrl: 'https://venge.io/',
     thumbnail: '/images/venge.webp',
     relatedSlugs: ['make-it-meme', 'red-ball', 'blockpost'],
@@ -3974,6 +4144,7 @@ export const games = [
     title: 'Tunnel Rush - Play the Game Unblocked Online',
     metaDescription: 'Play Tunnel Rush game online and test your reflexes in a fast-paced 3D tunnel full of obstacles. Enjoy smooth, endless arcade action unblocked now.',
     category: 'online-games',
+    tags: ['arcade'],
     embedUrl: 'https://iframe.unblocked-76-games.org/tunnel-rush-main/',
     thumbnail: '/images/tunnel-rush.webp',
     relatedSlugs: ['make-it-meme', 'venge', 'blockpost'],
@@ -4005,6 +4176,7 @@ export const games = [
     title: 'Blockpost - Play the Game Unblocked Online Poki',
     metaDescription: 'Play Blockpost unblocked and enjoy fast-paced multiplayer FPS action. Battle players online in the Blockpost game with block-style combat and weapons.',
     category: 'online-games',
+    tags: ['shooter', 'io'],
     embedUrl: 'https://airoyale007.github.io/blockpost2/',
     thumbnail: '/images/blockpost.webp',
     relatedSlugs: ['sort-the-court', 'red-ball', 'vortellas-dress-up'],
@@ -4036,6 +4208,7 @@ export const games = [
     title: 'Red Ball - Play the Game Unblocked Online',
     metaDescription: 'Play Red Ball unblocked and roll through exciting levels full of traps and puzzles. Enjoy classic platform fun in the Red Ball game online.',
     category: 'online-games',
+    tags: ['platformer'],
     embedUrl: 'https://html5.gamedistribution.com/rvvASMiM/c22ea55d12384e87888f4e23c1fe5876/index.html',
     thumbnail: '/images/red-ball.webp',
     relatedSlugs: ['sort-the-court', 'super-liquid-soccer', 'vortellas-dress-up'],
@@ -4067,6 +4240,7 @@ export const games = [
     title: 'Sort the Court - Play the Game Free Online',
     metaDescription: 'Play Sort the Court online and make powerful yes or no decisions to grow your kingdom. Enjoy the relaxing and strategic Sort the Court game.',
     category: 'online-games',
+    tags: ['simulation', 'strategy'],
     embedUrl: 'https://vocalnutria9174.github.io/sort-the-court/',
     thumbnail: '/images/sort-the-court.webp',
     relatedSlugs: ['level-devil', 'super-liquid-soccer', 'vortellas-dress-up'],
@@ -4098,6 +4272,7 @@ export const games = [
     title: 'Super Liquid Soccer - Play the Game Unblocked Online',
     metaDescription: 'Play Super Liquid Soccer online and enjoy fast football action with smooth controls gameplay. Experience Super Liquid Soccer unblocked and score goals.',
     category: 'online-games',
+    tags: ['sports'],
     embedUrl: 'https://html5.gamedistribution.com/rvvASMiM/af67e83c4a454a32b70bd53cf4291950/index.html',
     thumbnail: '/images/super-liquid-soccer.webp',
     relatedSlugs: ['level-devil', 'marble-run', 'ragdoll-hit'],
@@ -4129,6 +4304,7 @@ export const games = [
     title: 'Level Devil - Play the Game Unblocked Online Poki',
     metaDescription: 'Play Level Devil online and face tricky devil levels filled with hidden traps and surprises. Enjoy Level Devil unblocked gameplay that tests timing and patience',
     category: 'online-games',
+    tags: ['platformer', 'puzzle'],
     embedUrl: 'https://10minutestilldawnonline.github.io/a77/level-devil/',
     thumbnail: '/images/level-devil.webp',
     relatedSlugs: ['mazean', 'marble-run', 'ragdoll-hit'],
@@ -4160,6 +4336,7 @@ export const games = [
     title: 'Ragdoll Hit - Play the Game Unblocked Online Poki',
     metaDescription: 'Play Ragdoll Hit unblocked and enjoy chaotic physics combat. Swing, jump, and knock opponents away in this fun ragdoll hit game available online anytime.',
     category: 'online-games',
+    tags: ['arcade'],
     embedUrl: 'https://ragdoll-hit-game.github.io/embed/ragdoll-hit.html',
     thumbnail: '/images/ragdoll-hit.webp',
     relatedSlugs: ['mazean', 'marble-run', 'bedwars'],
@@ -4191,6 +4368,7 @@ export const games = [
     title: 'Head Soccer - Play Head Football Game Free Online',
     metaDescription: 'Play Head Soccer online and enjoy fast-paced head football action. Score goals, use special powers, and win intense one-on-one matches in this fun game.',
     category: 'online-games',
+    tags: ['sports'],
     embedUrl: 'https://head-soccer.github.io/halloween-head-soccer/index.html',
     thumbnail: '/images/head-soccer.webp',
     relatedSlugs: ['world-guesser', 'piano-game', 'piano-tiles'],
@@ -4222,6 +4400,7 @@ export const games = [
     title: 'Spacebar Clicker - Play Spacebar Game & Test Online',
     metaDescription: 'Play Spacebar Clicker and test your speed in this exciting spacebar game. Click as fast as possible, beat high scores, and enjoy the challenge.',
     category: 'online-games',
+    tags: ['simulation'],
     embedUrl: 'https://www.arealme.com/spacebar-clicker/en/',
     thumbnail: '/images/spacebar-clicker.webp',
     relatedSlugs: ['world-guesser', 'head-soccer', 'piano-tiles'],
@@ -4253,6 +4432,7 @@ export const games = [
     title: 'Marble Run - Play the Game Free Online',
     metaDescription: 'Build tracks and race marbles in Marble Run online! Test physics, design loops, and enjoy Marble Run game free anytime, unblocked, and fun for all ages.',
     category: 'online-games',
+    tags: ['simulation', 'puzzle'],
     embedUrl: 'https://games.crazygames.com/en_US/marble-run/index.html',
     thumbnail: '/images/marble-run.webp',
     relatedSlugs: ['mazean', 'mr-mine', 'bedwars'],
@@ -4284,6 +4464,7 @@ export const games = [
     title: 'Mazean - Play the Game Unblocked Online',
     metaDescription: 'Play Mazean online! Navigate challenging mazes, avoid traps, and beat every level in this fun Mazean game. Unblocked and free to play anytime.',
     category: 'online-games',
+    tags: ['puzzle'],
     embedUrl: 'https://mazean.com/',
     thumbnail: '/images/mazean.webp',
     relatedSlugs: ['hill-climb-racing', 'mr-mine', 'bedwars'],
@@ -4315,6 +4496,7 @@ export const games = [
     title: 'Bedwars - Play the Bed Wars Game Free Online',
     metaDescription: 'Play Bedwars online! Build defenses, gather resources, attack opponents, and protect your bed in this exciting Bedwars game for free.',
     category: 'online-games',
+    tags: ['io', 'strategy'],
     embedUrl: 'https://bloxd.io/game/bedwars',
     thumbnail: '/images/bedwars.webp',
     relatedSlugs: ['hill-climb-racing', 'mr-mine', 'chill-guy-clicker'],
@@ -4346,6 +4528,7 @@ export const games = [
     title: 'Mr Mine - Play the Game Free Online',
     metaDescription: 'Play Mr Mine online! Dig, hire miners, upgrade tools, collect rare gems, and build a mining empire in this addictive idle Mr Mine game for free.',
     category: 'online-games',
+    tags: ['simulation'],
     embedUrl: 'https://cdn.mrmine.com/game/desktop/index.html?nocache=1764883624',
     thumbnail: '/images/mr-mine.webp',
     relatedSlugs: ['hill-climb-racing', 'tag-game', 'chill-guy-clicker'],
@@ -4381,6 +4564,7 @@ export const games = [
     title: 'Hill Climb Racing - Play the Game Unblocked Online',
     metaDescription: 'Play Hill Climb Racing online! Enjoy hill climb game fun, upgrade vehicles, perform stunts, and master physics-based hill climb racing gameplay free.',
     category: 'online-games',
+    tags: ['racing'],
     embedUrl: 'https://geometrylitepc.io/hill-climb-racing-unblocked.embed',
     thumbnail: '/images/hill-climb-racing.webp',
     relatedSlugs: ['gun-spin', 'tag-game', 'chill-guy-clicker'],
@@ -4416,6 +4600,7 @@ export const games = [
     title: 'Chill Guy Clicker - Play the Cliquer Game Free Online',
     metaDescription: 'Play Chill Guy Clicker online free! Tap to earn points, unlock upgrades, and enjoy a relaxing and addictive casual clicker game with Chill Guy.',
     category: 'online-games',
+    tags: ['simulation'],
     embedUrl: 'https://chillguyclicker.io/chill-guy-clicker.embed',
     thumbnail: '/images/chill-guy-clicker.webp',
     relatedSlugs: ['gun-spin', 'tag-game', 'hexanaut-io'],
@@ -4447,6 +4632,7 @@ export const games = [
     title: 'Tag Game - Play Tag Unblocked Online Poki',
     metaDescription: 'Play Tag Game online free! Chase opponents, avoid getting tagged, and enjoy fast-paced multiplayer action in this exciting unblocked tag game online.',
     category: 'online-games',
+    tags: ['arcade', 'io'],
     embedUrl: 'https://taggame.io/tag-game.embed',
     thumbnail: '/images/tag-game.webp',
     relatedSlugs: ['gun-spin', 'gin-rummy', 'hexanaut-io'],
@@ -4478,6 +4664,7 @@ export const games = [
     title: 'Gun Spin - Play the Gunspin Game Unblocked Online',
     metaDescription: 'Play Gun Spin online free! Spin your gun, avoid obstacles, and hit targets in this thrilling gun spin game. Enjoy fast-paced action unblocked anytime.',
     category: 'online-games',
+    tags: ['arcade', 'shooter'],
     embedUrl: 'https://games.cdn.famobi.com/html5games/g/gun-spin/c17d6484/',
     thumbnail: '/images/gun-spin.webp',
     relatedSlugs: ['plinko', 'gin-rummy', 'hexanaut-io'],
@@ -4509,6 +4696,7 @@ export const games = [
     title: 'Hexanaut IO - Play the Game Free Online',
     metaDescription: 'Play Hexanaut IO online free! Expand your territory, outmaneuver opponents, and dominate the hexagonal arena in this fast-paced and strategic IO game.',
     category: 'online-games',
+    tags: ['io', 'strategy'],
     embedUrl: 'https://hexanaut.io/',
     thumbnail: '/images/hexanaut-io.webp',
     relatedSlugs: ['plinko', 'gin-rummy', 'american-truck-simulator'],
@@ -4540,6 +4728,7 @@ export const games = [
     title: 'Gin Rummy - Play the Rummy Card Game Free Online',
     metaDescription: 'Play Gin Rummy online free! Enjoy this classic rummy card game, form sets and runs, and test your strategy against friends or AI opponents anytime.',
     category: 'online-games',
+    tags: ['card-and-board'],
     embedUrl: 'https://www.gin-rummy-online.com/',
     thumbnail: '/images/gin-rummy.webp',
     relatedSlugs: ['plinko', 'countries-of-the-world-quiz', 'american-truck-simulator'],
@@ -4571,6 +4760,7 @@ export const games = [
     title: 'Plinko - Play the Game Free Unblocked Online',
     metaDescription: 'Play Plinko, the addictive disc drop game! Enjoy free Plinko online, test your luck, and aim for high scores in this fun and unblocked Plinko game.',
     category: 'online-games',
+    tags: ['arcade', 'simulation'],
     embedUrl: 'https://plinko-game-online.github.io/',
     thumbnail: '/images/plinko.webp',
     relatedSlugs: ['ice-dodo', 'countries-of-the-world-quiz', 'american-truck-simulator'],
@@ -4602,6 +4792,7 @@ export const games = [
     title: 'American Truck Simulator - Play the Game Free Online',
     metaDescription: 'Drive, deliver, and manage cargo in American Truck Simulator. Experience realistic roads, trucks, and missions in this top truck simulator game online.',
     category: 'online-games',
+    tags: ['racing', 'simulation'],
     embedUrl: 'https://dnrweqffuwjtx.cloudfront.net/games/2022/unity/cargo-truck-simulator/index.html',
     thumbnail: '/images/american-truck-simulator.webp',
     relatedSlugs: ['ice-dodo', 'countries-of-the-world-quiz', 'popcorn-game'],
@@ -4633,6 +4824,7 @@ export const games = [
     title: 'Countries of the World Quiz - Play Bing Flag Quiz Online',
     metaDescription: 'Test your knowledge with the Countries of the World Quiz. Guess the country, recognize flags, and play the country quiz online, including Bing countries quiz.',
     category: 'online-games',
+    tags: ['word-and-trivia'],
     embedUrl: 'https://world-geography-games.com/en/countries_world.html',
     thumbnail: '/images/countries-of-the-world-quiz.webp',
     relatedSlugs: ['ice-dodo', 'pou', 'popcorn-game'],
@@ -4664,6 +4856,7 @@ export const games = [
     title: 'Ice Dodo - Play the Game Unblocked Online',
     metaDescription: 'Play Ice Dodo online and enjoy this fast-paced ice racing challenge. Master slippery tracks, perfect your jumps, and experience the Ice Dodo unblocked game',
     category: 'online-games',
+    tags: ['platformer', 'arcade'],
     embedUrl: 'https://incrediblewebsite.github.io/onionfist/icedodo/',
     thumbnail: '/images/ice-dodo.webp',
     relatedSlugs: ['poppy-playtime', 'pou', 'popcorn-game'],
@@ -4695,6 +4888,7 @@ export const games = [
     title: 'Pou - Play the Pou Game Free Online',
     metaDescription: 'Play the Pou game online and enjoy fun Pou gameplay as you feed, clean, and care for your virtual pet. Explore mini-games, customization, and relaxing play.',
     category: 'online-games',
+    tags: ['simulation'],
     embedUrl: 'https://www.coolmathgames.com/sites/default/files/public_games/41519/?gd_sdk_referrer_url=https%3A%2F%2Fwww.coolmathgames.com%2F0-pou',
     thumbnail: '/images/pou.webp',
     relatedSlugs: ['poppy-playtime', 'head-soccer', 'spacebar-clicker'],
@@ -4726,6 +4920,7 @@ export const games = [
     title: 'Poppy Playtime - Play the Game Free Online',
     metaDescription: 'Play Poppy Playtime game online and explore a creepy abandoned toy factory filled with puzzles, secrets, and horror. Experience the thrilling gameplay',
     category: 'online-games',
+    tags: ['arcade', 'puzzle'],
     embedUrl: 'https://html5.gamedistribution.com/rvvASMiM/bcf3099fc3ee4573b6c28f3a17c57bbb/index.html',
     thumbnail: '/images/poppy-playtime.webp',
     relatedSlugs: ['world-guesser', 'head-soccer', 'spacebar-clicker'],
@@ -4757,6 +4952,7 @@ export const games = [
     title: 'World Guesser - Play the Worldguessr Game Free Online',
     metaDescription: 'Play World Guesser online and test your geography skills. Explore random locations, analyze clues, and guess countries in this free world geoguessr game.',
     category: 'online-games',
+    tags: ['word-and-trivia'],
     embedUrl: 'https://www.worldguessr.com/',
     thumbnail: '/images/world-guesser.webp',
     relatedSlugs: ['super-star-car', 'piano-game', 'piano-tiles'],
@@ -4788,6 +4984,7 @@ export const games = [
     title: 'Piano Tiles - Play the Music Tiles Game Free Online',
     metaDescription: 'Play Piano Tiles online and enjoy fast-paced music gameplay. Tap black tiles, avoid white ones, and test your rhythm skills in this addictive music tiles game.',
     category: 'online-games',
+    tags: ['music-and-creative', 'arcade'],
     embedUrl: 'https://www.calculators.org/games/piano-tiles/game.php',
     thumbnail: '/images/piano-tiles.webp',
     relatedSlugs: ['super-star-car', 'piano-game', 'gunblood'],
@@ -4819,6 +5016,7 @@ export const games = [
     title: 'Piano Game - Play the Simulator Game Free Online',
     metaDescription: 'Play piano game online! Enjoy virtual piano, learn melodies, practice songs, and create music with this fun and interactive piano simulator for all ages.',
     category: 'online-games',
+    tags: ['music-and-creative', 'simulation'],
     embedUrl: 'https://gamesnacks.com/games/perfectpiano',
     thumbnail: '/images/piano-game.webp',
     relatedSlugs: ['super-star-car', 'wheelie-life', 'gunblood'],
@@ -4852,6 +5050,7 @@ export const games = [
     title: 'Makeup Game - Play the Make Up Game Free Online',
     metaDescription: 'Play makeup games online and explore beauty creatively. Try different styles, colors, and accessories in makeup game online for endless fun and makeovers.',
     category: 'online-games',
+    tags: ['simulation', 'music-and-creative'],
     embedUrl: 'https://www.freegames.com/games/Princess-Makeup-Game/index.html',
     thumbnail: '/images/makeup-game.webp',
     relatedSlugs: ['hex-empire', 'voxiom', 'connect-4'],
@@ -4883,6 +5082,7 @@ export const games = [
     title: 'Duck Race - Play the Duck Game Free Online',
     metaDescription: 'Play Duck Race online! Guide your duck, customize names, avoid obstacles, and win thrilling races in the addictive Duck Race game for endless fun.',
     category: 'online-games',
+    tags: ['arcade', 'sports'],
     embedUrl: 'https://html5.gamedistribution.com/0a7b14bd07ac46029ebc8939cce18079/index.html',
     thumbnail: '/images/duck-race.webp',
     relatedSlugs: ['bubble-shooter-free', 'duck-life-4', 'makeup-game'],
@@ -4914,6 +5114,7 @@ export const games = [
     title: 'Super Star Car - Play the Game Free Online Poki',
     metaDescription: 'Play Super Star Car online! Race through exciting tracks, perform stunts, unlock cars, and enjoy endless fun with Super Star Car Poki and unblocked versions.',
     category: 'online-games',
+    tags: ['racing'],
     embedUrl: 'https://htmlxm.github.io/h3/super-star-car/',
     thumbnail: '/images/super-star-car.webp',
     relatedSlugs: ['solar-smash', 'wheelie-life', 'gunblood'],
@@ -4945,6 +5146,7 @@ export const games = [
     title: 'Gunblood - Play the Blood Game Free Online',
     metaDescription: 'Play Gunblood online! Test your reflexes in this exciting blood game. Shoot fast, aim precisely, and master duels in Gunblood unblocked anytime, anywhere.',
     category: 'online-games',
+    tags: ['shooter', 'arcade'],
     embedUrl: 'https://bagelcomics.com/games/html/gunblood.html',
     thumbnail: '/images/gunblood.webp',
     relatedSlugs: ['solar-smash', 'wheelie-life', 'duck-race'],
@@ -4976,6 +5178,7 @@ export const games = [
     title: 'Wheelie Life - Play the Soflo Game Unblocked Online',
     metaDescription: 'Play Wheelie Life online! Perform daring wheelies, master stunts, and upgrade bikes in this fun Wheelie Life game. Enjoy Soflo Wheelie Life unblocked anytime.',
     category: 'online-games',
+    tags: ['simulation', 'racing'],
     embedUrl: 'https://html5.gamedistribution.com/rvvASMiM/4c3d86c8cd974d24b4f7d07f70aeadfe/index.html',
     thumbnail: '/images/wheelie-life.webp',
     relatedSlugs: ['solar-smash', 'duck-life-4', 'duck-race'],
@@ -5007,6 +5210,7 @@ export const games = [
     title: 'Solar Smash - Play the Game Unblocked Online',
     metaDescription: 'Play Solar Smash online! Destroy planets with missiles, lasers, and comets in this addictive Solar Smash game. Enjoy planetary chaos unblocked anytime.',
     category: 'online-games',
+    tags: ['simulation'],
     embedUrl: 'https://games.crazygames.com/en_US/solar-smash/index.html',
     thumbnail: '/images/solar-smash.webp',
     relatedSlugs: ['bubble-shooter-free', 'duck-life-4', 'duck-race'],
@@ -5038,6 +5242,7 @@ export const games = [
     title: 'Duck Life 4 - Play the Game Unblocked Online',
     metaDescription: 'Play Duck Life 4 online! Train your duck, upgrade skills, and win exciting races in Duck Life 4 unblocked for endless fun and adventure.',
     category: 'online-games',
+    tags: ['simulation', 'sports'],
     embedUrl: 'https://dnrweqffuwjtx.cloudfront.net/games/2024/wix/duck-life-4/index.html',
     thumbnail: '/images/duck-life-4.webp',
     relatedSlugs: ['bubble-shooter-free', 'voxiom', 'makeup-game'],
@@ -5069,6 +5274,7 @@ export const games = [
     title: 'Bubble Shooter Free - Play the Game Free Online',
     metaDescription: 'Play Bubble Shooter Free online! Match colorful bubbles, use power-ups, and clear challenging levels in this exciting bubble shooter game for endless fun.',
     category: 'online-games',
+    tags: ['puzzle', 'arcade'],
     embedUrl: 'https://cdn.bubbleshooter.net/games/bubble-shooter/',
     thumbnail: '/images/bubble-shooter-free.webp',
     relatedSlugs: ['hex-empire', 'voxiom', 'makeup-game'],
@@ -5100,6 +5306,7 @@ export const games = [
     title: 'Voxiom - Play the Voxiom IO Game Free Online',
     metaDescription: 'Play Voxiom IO online and test your shooting skills in fast-paced voxel arenas. Dominate maps, master weapons, and enjoy Voxiom IO game action free online.',
     category: 'online-games',
+    tags: ['io', 'shooter'],
     embedUrl: 'https://games.crazygames.com/en_US/voxiom-io/index.html',
     thumbnail: '/images/voxiom.webp',
     relatedSlugs: ['hex-empire', 'strike-force-heroes', 'connect-4'],
@@ -5131,6 +5338,7 @@ export const games = [
     title: 'Hex Empire - Play the Game Free Online',
     metaDescription: 'Play Hex Empire online and conquer the board by capturing hexagonal tiles. Test your strategy skills in Hex Empire game and dominate your opponents worldwide.',
     category: 'online-games',
+    tags: ['strategy'],
     embedUrl: 'https://www.freewebarcade.com/html5/flash/hexempire.html',
     thumbnail: '/images/hex-empire.webp',
     relatedSlugs: ['jacksmith', 'strike-force-heroes', 'connect-4'],
@@ -5162,6 +5370,7 @@ export const games = [
     title: 'Connect 4 - Play the Connect Four Game Free Online',
     metaDescription: 'Play Connect 4 online and test your strategy skills. Connect four discs in a row to win while blocking opponents. Enjoy classic Connect 4 anywhere, anytime.',
     category: 'online-games',
+    tags: ['card-and-board', 'puzzle'],
     embedUrl: 'https://www.calculators.org/games/connect-4/game.php',
     thumbnail: '/images/connect-4.webp',
     relatedSlugs: ['jacksmith', 'strike-force-heroes', 'yahtzee-free-online'],
@@ -5193,6 +5402,7 @@ export const games = [
     title: 'Strike Force Heroes - Play the Game Free Online',
     metaDescription: 'Play Strike Force Heroes online and experience intense shooter action with custom classes, weapons, and upgrades. Battle enemies and dominate every mission.',
     category: 'online-games',
+    tags: ['shooter', 'arcade'],
     embedUrl: 'https://games.crazygames.com/en_US/strike-force-heroes/index.html',
     thumbnail: '/images/strike-force-heroes.webp',
     relatedSlugs: ['jacksmith', 'a-small-world-cup', 'yahtzee-free-online'],
@@ -5224,6 +5434,7 @@ export const games = [
     title: 'Yahtzee Free Online - Play the Yahtzee Game Unblocked',
     metaDescription: 'Play Yahtzee free online and enjoy the classic dice game anytime. Roll, score, and challenge yourself in Yahtzee online with smooth gameplay.',
     category: 'online-games',
+    tags: ['card-and-board'],
     embedUrl: 'https://web.archive.org/web/20250117221140/https://games.crazygames.com/en_US/yahtzee-online/index.html',
     thumbnail: '/images/yahtzee-free-online.webp',
     relatedSlugs: ['rocket-goal', 'a-small-world-cup', 'rocket-soccer-derby'],
@@ -5255,6 +5466,7 @@ export const games = [
     title: 'Jacksmith - Play Jack Smith Game Free Online',
     metaDescription: 'Play Jacksmith game and become a master blacksmith by crafting powerful weapons for warriors. Learn how to forge, fight, and win in this strategy game.',
     category: 'online-games',
+    tags: ['simulation', 'strategy'],
     embedUrl: 'https://jacksmithgame.io/jacksmith.embed',
     thumbnail: '/images/jacksmith.webp',
     relatedSlugs: ['rocket-goal', 'a-small-world-cup', 'yahtzee-free-online'],
@@ -5286,6 +5498,7 @@ export const games = [
     title: 'Rocket Soccer Derby - Play the Game Unblocked Online',
     metaDescription: 'Play Rocket Soccer Derby online and enjoy high-speed car soccer action. Compete in soccer derby matches, score goals, and play Rocket Soccer Derby unblocked',
     category: 'online-games',
+    tags: ['sports', 'racing'],
     embedUrl: 'https://embed.gamesdoodle.org/rocket-soccer/edit/rocket-soccer-derby/',
     thumbnail: '/images/rocket-soccer-derby.webp',
     relatedSlugs: ['space-invaders', 'war-mahjong', 'infinity-craft'],
@@ -5317,6 +5530,7 @@ export const games = [
     title: 'A Small World Cup - Play the Game Unblocked Online',
     metaDescription: 'Play A Small World Cup online and enjoy fun mini football action. Choose teams, score goals, and play A Small World Cup unblocked anytime for free.',
     category: 'online-games',
+    tags: ['sports'],
     embedUrl: 'https://embed.gamesdoodle.org/asmallworldcup/',
     thumbnail: '/images/a-small-world-cup.webp',
     relatedSlugs: ['rocket-goal', 'rocket-soccer-derby', 'infinity-craft'],
@@ -5348,6 +5562,7 @@ export const games = [
     title: 'Rocket Goal - Play the IO Game Free Online',
     metaDescription: 'Play Rocket Goal online and enjoy fast-paced car soccer action. Compete in the Rocket Goal game, score amazing goals, and play RocketGoal.io unblocked anytime.',
     category: 'online-games',
+    tags: ['sports', 'io'],
     embedUrl: 'https://rocketgoal.io/',
     thumbnail: '/images/rocket-goal.webp',
     relatedSlugs: ['space-invaders', 'rocket-soccer-derby', 'infinity-craft'],
@@ -5379,6 +5594,7 @@ export const games = [
     title: 'Infinity Craft - Play Neal.Fun Infinite Craft Unblocked',
     metaDescription: 'Play Infinity Craft online and explore endless combinations in the infinite craft game by neal.fun. Create new elements, and enjoy Infinite Craft unblocked fun.',
     category: 'online-games',
+    tags: ['puzzle', 'simulation'],
     embedUrl: 'https://infinitecraft-game.io/infinite-craft-game.embed',
     thumbnail: '/images/infinity-craft.webp',
     relatedSlugs: ['space-invaders', 'block-breaker', 'war-mahjong'],
@@ -5410,6 +5626,7 @@ export const games = [
     title: 'Space Invaders - Play the Game Free Online',
     metaDescription: 'Play Space Invaders online free and relive the classic arcade shooting action. Defend Earth, defeat alien waves, and enjoy the legendary Space Invaders game.',
     category: 'online-games',
+    tags: ['arcade', 'shooter'],
     embedUrl: 'https://www.korovatron.co.uk/spaceinvaders/',
     thumbnail: '/images/space-invaders.webp',
     relatedSlugs: ['diner-dash', 'block-breaker', 'war-mahjong'],
@@ -5441,6 +5658,7 @@ export const games = [
     title: 'War Mahjong - Play the Game Free Online',
     metaDescription: 'Play War Mahjong online free and enjoy a strategic twist on the classic mahjong game. Match tiles, plan moves, and win the War Mahjong game with skill.',
     category: 'online-games',
+    tags: ['card-and-board', 'puzzle'],
     embedUrl: 'https://warmahjong.com/game/war-mahjong/',
     thumbnail: '/images/war-mahjong.webp',
     relatedSlugs: ['diner-dash', 'block-breaker', 'zombs-royale'],
@@ -5472,6 +5690,7 @@ export const games = [
     title: 'Diner Dash - Play the Game Free Online',
     metaDescription: 'Play Diner Dash online free and manage your busy diner. Serve customers, upgrade your restaurant, and master time management in this fun Diner Dash game.',
     category: 'online-games',
+    tags: ['simulation'],
     embedUrl: 'https://passclassroom.com/flashgame?load=diner-dash',
     thumbnail: '/images/diner-dash.webp',
     relatedSlugs: ['diep-io', 'master-chess', 'zombs-royale'],
@@ -5503,6 +5722,7 @@ export const games = [
     title: 'Block Breaker - Play Google Brick Game Free Online',
     metaDescription: 'Play Block Breaker online free, break bricks, and challenge your reflexes in this classic Google Block Breaker game. Enjoy endless fun!',
     category: 'online-games',
+    tags: ['arcade', 'puzzle'],
     embedUrl: 'https://colorblockjamlevel.io/block-breaker.embed',
     thumbnail: '/images/block-breaker.webp',
     relatedSlugs: ['diner-dash', 'master-chess', 'zombs-royale'],
@@ -5534,6 +5754,7 @@ export const games = [
     title: 'Zombs Royale - Play the Zombie IO Game Free Online',
     metaDescription: 'Play Zombs Royale online and survive the ultimate battle. Collect weapons, defeat enemies, and become the last one standing in this zombie royale game.',
     category: 'online-games',
+    tags: ['io', 'shooter'],
     embedUrl: 'https://zombsroyale.io/',
     thumbnail: '/images/zombs-royale.webp',
     relatedSlugs: ['diep-io', 'master-chess', 'cubes-2048'],
@@ -5565,6 +5786,7 @@ export const games = [
     title: 'Master Chess - Play the Game Free Online',
     metaDescription: 'Play Master Chess online and challenge your strategic skills. Improve tactics, beat opponents, and become a true chessmaster in this master chess game.',
     category: 'online-games',
+    tags: ['card-and-board', 'strategy'],
     embedUrl: 'https://dnrweqffuwjtx.cloudfront.net/games/2023/code/master-chess/index.html',
     thumbnail: '/images/master-chess.webp',
     relatedSlugs: ['diep-io', 'stick-war-legacy', 'cubes-2048'],
@@ -5596,6 +5818,7 @@ export const games = [
     title: 'Diep.IO - Play the Diep IO Game Free Online',
     metaDescription: 'Play Diep.io online and upgrade your tank to dominate the battlefield. Battle other players, destroy shapes, and become the strongest in this diep.io game.',
     category: 'online-games',
+    tags: ['io', 'shooter'],
     embedUrl: 'https://diep.io/',
     thumbnail: '/images/diep-io.webp',
     relatedSlugs: ['geometry-dash-world', 'stick-war-legacy', 'cubes-2048'],
@@ -5627,6 +5850,7 @@ export const games = [
     title: 'Cubes 2048 - Play the IO Game Free Online',
     metaDescription: 'Play Cubes 2048 io online and merge numbered cubes to grow bigger. Enjoy smooth controls, competitive gameplay, and endless fun in this cube game.',
     category: 'online-games',
+    tags: ['io', 'puzzle'],
     embedUrl: 'https://www.dailytoolz.com/cubes-2048/iframe.html',
     thumbnail: '/images/cubes-2048.webp',
     relatedSlugs: ['geometry-dash-world', 'stick-war-legacy', 'guess-who'],
@@ -5658,6 +5882,7 @@ export const games = [
     title: 'Stick War Legacy - Play the Game Free Online',
     metaDescription: 'Play Stick War Legacy game online and command powerful stickman armies. Train units, conquer enemies, and enjoy strategic stickman war battles for free.',
     category: 'online-games',
+    tags: ['strategy', 'arcade'],
     embedUrl: 'https://www.stickwarlegacy.io/games/stick-war-legacy-3/index.html',
     thumbnail: '/images/stick-war-legacy.webp',
     relatedSlugs: ['geometry-dash-world', 'farm-merge-valley', 'guess-who'],
@@ -5689,6 +5914,7 @@ export const games = [
     title: 'Geometry Dash World - Play the Game Free Online',
     metaDescription: 'Play Geometry Dash World free online and jump through fast-paced rhythm levels. Enjoy Dash World gameplay with visuals, music, and skill-based challenges.',
     category: 'online-games',
+    tags: ['arcade', 'platformer'],
     embedUrl: 'https://geometrylitegame.org/geometry-dash-lite-game.embed',
     thumbnail: '/images/geometry-dash-world.webp',
     relatedSlugs: ['billiards', 'farm-merge-valley', 'guess-who'],
@@ -5720,6 +5946,7 @@ export const games = [
     title: 'Guess Who - Play the Game Free Online',
     metaDescription: 'Play Guess Who online and test your deduction skills by asking smart questions. Enjoy the classic Guess Who game with fun characters and strategic gameplay.',
     category: 'online-games',
+    tags: ['card-and-board', 'puzzle'],
     embedUrl: 'https://ahmedazhar05.github.io/guess-who/',
     thumbnail: '/images/guess-who.webp',
     relatedSlugs: ['billiards', 'farm-merge-valley', 'mario-bros'],
@@ -5751,6 +5978,7 @@ export const games = [
     title: 'Farm Merge Valley - Play the Game Online MSN',
     metaDescription: 'Play Farm Merge Valley and build your dream farm by merging crops, buildings, and resources. Enjoy calm farming gameplay in Farm Merge Valley game online.',
     category: 'online-games',
+    tags: ['simulation', 'puzzle'],
     embedUrl: 'https://games.crazygames.com/en_US/farm-merge-valley/index.html',
     thumbnail: '/images/farm-merge-valley.webp',
     relatedSlugs: ['billiards', 'bubble-trouble', 'mario-bros'],
@@ -5782,6 +6010,7 @@ export const games = [
     title: 'Billiards - Play the Billiard Game Unblocked Online',
     metaDescription: 'Play billiards online and enjoy the classic cue sport experience. Practice accurate shots, smart angles, and smooth control in this timeless billiard game.',
     category: 'online-games',
+    tags: ['sports'],
     embedUrl: 'https://games.crazygames.com/en_US/8-ball-billiards-classic/index.html',
     thumbnail: '/images/billiards.webp',
     relatedSlugs: ['cut-the-rope', 'bubble-trouble', 'mario-bros'],
@@ -5813,6 +6042,7 @@ export const games = [
     title: 'Mario Bros - Play the Game Free Online',
     metaDescription: 'Play Mario Bros online and relive the classic Super Mario Bros adventure. Jump, run, defeat enemies, and explore iconic levels in this legendary game.',
     category: 'online-games',
+    tags: ['platformer', 'arcade'],
     embedUrl: 'https://www.retrogames.cc/embed/15127-super-mario-bros-usa.html',
     thumbnail: '/images/mario-bros.webp',
     relatedSlugs: ['cut-the-rope', 'bubble-trouble', 'kour-io'],
@@ -5844,6 +6074,7 @@ export const games = [
     title: 'Bubble Trouble - Play the Trouble Game Free Online',
     metaDescription: 'Play Bubble Trouble online and enjoy a classic arcade challenge where you pop bouncing bubbles. Use sharp timing, avoid danger, and clear every level.',
     category: 'online-games',
+    tags: ['arcade'],
     embedUrl: 'https://rebubbled.com/games/bt2/2025-11-22__18-56-40/',
     thumbnail: '/images/bubble-trouble.webp',
     relatedSlugs: ['cut-the-rope', 'fruit-merge', 'kour-io'],
@@ -5875,6 +6106,7 @@ export const games = [
     title: 'Cut The Rope - Play the Om Nom Game Free Online',
     metaDescription: 'Play Cut the Rope online and enjoy a fun physics puzzle game where you feed Om Nom candy. Solve smart levels, cut ropes wisely, and collect stars.',
     category: 'online-games',
+    tags: ['puzzle'],
     embedUrl: 'https://smashkartsonlinegames.github.io/v88/cut-the-rope-time-travel/',
     thumbnail: '/images/cut-the-rope.webp',
     relatedSlugs: ['backgammon', 'fruit-merge', 'kour-io'],
@@ -5906,6 +6138,7 @@ export const games = [
     title: 'Kour.IO - Play Kour IO Game Unblocked Online',
     metaDescription: 'Play kour.io online, an exciting parkour-based multiplayer game. Enjoy kour.io unblocked and test your skills in this fast-paced kour.io game for free!',
     category: 'online-games',
+    tags: ['io', 'shooter'],
     embedUrl: 'https://kour.io/',
     thumbnail: '/images/kour-io.webp',
     relatedSlugs: ['backgammon', 'fruit-merge', 'hole-io'],
@@ -5937,6 +6170,7 @@ export const games = [
     title: 'Fruit Merge - Play the Fruit Game Free Online',
     metaDescription: 'Play Fruit Merge online, a fun and addictive fruit game where you combine fruits to grow bigger. Enjoy the fruit merge game anytime for free online!',
     category: 'online-games',
+    tags: ['puzzle'],
     embedUrl: 'https://www.tafeldiploma.nl/gf/fruit-merge/5/',
     thumbnail: '/images/fruit-merge.webp',
     relatedSlugs: ['backgammon', 'miniblox', 'hole-io'],
@@ -5968,6 +6202,7 @@ export const games = [
     title: 'Backgammon - Play the Game Free Online',
     metaDescription: 'Play Backgammon online free, a classic board game of strategy and skill. Enjoy backgammon game anytime, anywhere with friends or solo online!',
     category: 'online-games',
+    tags: ['card-and-board'],
     embedUrl: 'https://toytheater.com/backgammon.php',
     thumbnail: '/images/backgammon.webp',
     relatedSlugs: ['we-become-what-we-behold', 'miniblox', 'hole-io'],
@@ -5999,6 +6234,7 @@ export const games = [
     title: 'We Become What We Behold - Play Game Unblocked Online',
     metaDescription: 'Play We Become What We Behold online, a thought-provoking game where your actions shape the world. Enjoy this free, unblocked social simulation today.',
     category: 'online-games',
+    tags: ['simulation', 'puzzle'],
     embedUrl: 'https://webecomewhatwebehold.github.io/file/',
     thumbnail: '/images/we-become-what-we-behold.webp',
     relatedSlugs: ['age-of-war', 'geometry-dash-lite', 'hazmob'],
@@ -6030,6 +6266,7 @@ export const games = [
     title: 'Miniblox - Play Miniblox IO Game Free Online',
     metaDescription: 'Play Miniblox online, a fun and addictive io game where you build, survive, and explore. Enjoy Mini Blox free and unblocked for endless creative fun.',
     category: 'online-games',
+    tags: ['io', 'simulation'],
     embedUrl: 'https://miniblox.io/',
     thumbnail: '/images/miniblox.webp',
     relatedSlugs: ['we-become-what-we-behold', 'age-of-war', 'hazmob'],
@@ -6061,6 +6298,7 @@ export const games = [
     title: 'Hole IO - Play the Game Free Online',
     metaDescription: 'Play Hole.io online, a fun and addictive game where you control a black hole to swallow everything. Enjoy Hole.io game free and unblocked now!',
     category: 'online-games',
+    tags: ['io', 'arcade'],
     embedUrl: 'https://hole-io.com/',
     thumbnail: '/images/hole-io.webp',
     relatedSlugs: ['we-become-what-we-behold', 'miniblox', 'hazmob'],
@@ -6092,6 +6330,7 @@ export const games = [
     title: 'Hazmob FPS - Play Online Shooter Game Free',
     metaDescription: 'Play Hazmob online, the thrilling FPS game. Test your skills in fast-paced shooter battles in Hazmob FPS online for free on any device.',
     category: 'online-games',
+    tags: ['shooter', 'io'],
     embedUrl: 'https://leveldevilnotatrollgame.io/hazmob-fps.embed',
     thumbnail: '/images/hazmob.webp',
     relatedSlugs: ['age-of-war', 'mahjong-classic', 'geometry-dash-lite'],
@@ -6123,6 +6362,7 @@ export const games = [
     title: 'Age of War - Play the Game Free Online',
     metaDescription: 'Play Age of War online for free. Build armies, upgrade your base, and dominate each era in the Age of War game. Strategy and action await!',
     category: 'online-games',
+    tags: ['strategy'],
     embedUrl: 'https://ageofwarunblocked.github.io/',
     thumbnail: '/images/age-of-war.webp',
     relatedSlugs: ['mahjong-titans', 'mahjong-classic', 'geometry-dash-lite'],
@@ -6154,6 +6394,7 @@ export const games = [
     title: 'Geometry Dash Lite - Play Geo Dash Lite Free Online',
     metaDescription: 'Play Geometry Dash Lite free online. Jump, dodge, and dash through challenging levels in Geometry Lite. Enjoy Geo Dash Lite fun anytime for free.',
     category: 'online-games',
+    tags: ['arcade', 'platformer'],
     embedUrl: 'https://geometrydashlite-unblocked.gitlab.io/embed/geometry-dash-lite.html',
     thumbnail: '/images/geometry-dash-lite.webp',
     relatedSlugs: ['mahjong-titans', 'mahjong-classic', 'mahjong-solitaire'],
@@ -6189,6 +6430,7 @@ export const games = [
     title: 'Mahjong Classic - Play the Game Free Online',
     metaDescription: 'Play Mahjong Classic online for free. Enjoy classic Mahjong gameplay, match tiles strategically, and challenge yourself with Mahjong Classic free.',
     category: 'online-games',
+    tags: ['card-and-board', 'puzzle'],
     embedUrl: 'https://cdn.htmlgames.com/MahjongClassic/index.html',
     thumbnail: '/images/mahjong-classic.webp',
     relatedSlugs: ['mahjong-titans', 'escape-road-2', 'mahjong-solitaire'],
@@ -6220,6 +6462,7 @@ export const games = [
     title: 'Mahjong Titans - Play the Game Free Online',
     metaDescription: 'Play Mahjong Titans online for free and test your skills. Enjoy Mahjong Titans game, match tiles strategically, and challenge yourself with Mahjong Titans.',
     category: 'online-games',
+    tags: ['card-and-board', 'puzzle'],
     embedUrl: 'https://cdn.htmlgames.com/MahjongTitans/index.html',
     thumbnail: '/images/mahjong-titans.webp',
     relatedSlugs: ['escape-road', 'escape-road-2', 'mahjong-solitaire'],
@@ -6251,6 +6494,7 @@ export const games = [
     title: 'Mahjong Solitaire - Play the Game Free Online',
     metaDescription: 'Play Mahjong Solitaire online and test your skills. Enjoy Mahjong Solitaire game free, match tiles strategically, and challenge yourself with Mahjong Solitaire.',
     category: 'online-games',
+    tags: ['card-and-board', 'puzzle'],
     embedUrl: 'https://www.mathsisfun.com/games/a/mahjong/index.html#start',
     thumbnail: '/images/mahjong-solitaire.webp',
     relatedSlugs: ['escape-road', 'escape-road-2', 'fireboy-and-watergirl'],
@@ -6282,6 +6526,7 @@ export const games = [
     title: 'Escape Road 2 - Play the Game Unblocked Online',
     metaDescription: 'Play Escape Road 2 online and master new city roads. Enjoy Escape Road 2 unblocked, dodge obstacles, complete tricky levels, and test your driving skills.',
     category: 'online-games',
+    tags: ['racing', 'arcade'],
     embedUrl: 'https://escaperoad2.io/escape-road-2.embed',
     thumbnail: '/images/escape-road-2.webp',
     relatedSlugs: ['escape-road', 'run-3', 'fireboy-and-watergirl'],
@@ -6313,6 +6558,7 @@ export const games = [
     title: 'Escape Road - Play the Game Unblocked Online',
     metaDescription: 'Play Escape Road online and master challenging city roads. Enjoy Escape Road unblocked, dodge obstacles, complete levels, and experience nonstop driving fun.',
     category: 'online-games',
+    tags: ['racing', 'arcade'],
     embedUrl: 'https://escaperoad.io/escape-road.embed',
     thumbnail: '/images/escape-road.webp',
     relatedSlugs: ['openguessr', 'run-3', 'fireboy-and-watergirl'],
@@ -6344,6 +6590,7 @@ export const games = [
     title: 'Fireboy and Watergirl - Play the Game Free Online',
     metaDescription: 'Play Fireboy and Watergirl game online and solve fun co-op puzzles. Control Fireboy and Watergirl to escape temples and collect gems. Play now',
     category: 'online-games',
+    tags: ['platformer', 'puzzle'],
     embedUrl: 'https://html5.gamedistribution.com/rvvASMiM/f9c8b389d3024c8f8b65e38e0d7c7e3f/index.html',
     thumbnail: '/images/fireboy-and-watergirl.webp',
     relatedSlugs: ['openguessr', 'run-3', 'friday-night-funkin'],
@@ -6375,6 +6622,7 @@ export const games = [
     title: 'Run 3 Unblocked - Play the Game Free Online',
     metaDescription: 'Play Run 3 online and experience gravity-defying endless runner action. Enjoy Run 3 unblocked and master tunnels in this fun space game.',
     category: 'online-games',
+    tags: ['arcade', 'platformer'],
     embedUrl: 'https://linh879.github.io/run333/tn6pS9dCf37xAhkJv/',
     thumbnail: '/images/run-3.webp',
     relatedSlugs: ['openguessr', 'sprunki', 'friday-night-funkin'],
@@ -6406,6 +6654,7 @@ export const games = [
     title: 'Mr Racer - Play the Car Racing Game Free Online',
     metaDescription: 'Play MR RACER game and enjoy intense MR RACER car racing with fast cars, smooth controls, and thrilling highway action. Test your driving skills now!',
     category: 'online-games',
+    tags: ['racing'],
     embedUrl: 'https://survival-race.io/mr-racer-car-racing.embed',
     thumbnail: '/images/mr-racer.webp',
     relatedSlugs: ['snake-io', 'wrestle-bros', '2-minute-football'],
@@ -6437,6 +6686,7 @@ export const games = [
     title: 'OpenGuessr - Play Open Guesser Game Free Online',
     metaDescription: 'Play OpenGuessr game online and guess real-world locations using street view clues. Improve geography skills with this fun open guesser game.',
     category: 'online-games',
+    tags: ['word-and-trivia'],
     embedUrl: 'https://games.crazygames.com/en_US/openguessr/index.html',
     thumbnail: '/images/openguessr.webp',
     relatedSlugs: ['skribbl', 'sprunki', 'friday-night-funkin'],
@@ -6468,6 +6718,7 @@ export const games = [
     title: 'Friday Night Funkin - Play FNF Online Game Unblocked',
     metaDescription: 'Play Friday Night Funkin online and test your rhythm skills. Enjoy fnf gameplay, rap battles, catchy music, and exciting challenges in this hit game.',
     category: 'online-games',
+    tags: ['music-and-creative', 'arcade'],
     embedUrl: 'https://fridaynight-funkin.github.io/f88/friday-night-funkin/',
     thumbnail: '/images/friday-night-funkin.webp',
     relatedSlugs: ['skribbl', 'sprunki', 'mope-io'],
@@ -6499,6 +6750,7 @@ export const games = [
     title: 'Sprunki - Play Sprunkin incredibox Game Online',
     metaDescription: 'Play Sprunki game online and create music with fun characters. Inspired by sprunkin incredibox, Sprunki lets you mix beats creatively and freely.',
     category: 'online-games',
+    tags: ['music-and-creative'],
     embedUrl: 'https://sprunki.org/sprunki.embed',
     thumbnail: '/images/sprunki.webp',
     relatedSlugs: ['skribbl', 'mr-racer', 'mope-io'],
@@ -6530,6 +6782,7 @@ export const games = [
     title: 'Skribbl IO - Play the Game Unblocked Online',
     metaDescription: 'Play Skribbl io game online and enjoy drawing, guessing, and laughing with friends. Join Skribbl unblocked for creative multiplayer fun anytime.',
     category: 'online-games',
+    tags: ['music-and-creative', 'io'],
     embedUrl: 'https://skribbl.io/',
     thumbnail: '/images/skribbl.webp',
     relatedSlugs: ['snake-io', 'mr-racer', 'mope-io'],
@@ -6561,6 +6814,7 @@ export const games = [
     title: 'Mope IO - Play Mope.io Game Free Online',
     metaDescription: 'Play the Mope io game online and survive the wild ecosystem. Eat, evolve, and dominate players in Mope.io’s addictive multiplayer world.',
     category: 'online-games',
+    tags: ['io', 'simulation'],
     embedUrl: 'https://games.crazygames.com/en_US/mopeio/index.html',
     thumbnail: '/images/mope-io.webp',
     relatedSlugs: ['snake-io', 'mr-racer', '2-minute-football'],
@@ -6592,6 +6846,7 @@ export const games = [
     title: 'Cookie Clicker Unblocked - Play Cookieclicker.com Online',
     metaDescription: 'Play Cookie Clicker online free! Tap to bake cookies, unlock upgrades, and grow your cookie empire in the addictive Cookie Clicker game unblocked.',
     category: 'online-games',
+    tags: ['simulation'],
     embedUrl: 'https://cookiegame.org/index.html',
     thumbnail: '/images/cookie-clicker-unblocked.webp',
     relatedSlugs: ['getaway-shootout', 'basket-random', 'checkers'],
@@ -6623,6 +6878,7 @@ export const games = [
     title: 'Killer Sudoku - Play the Game Free Online',
     metaDescription: 'Play Killer Sudoku online and test your logic with this fun number puzzle game. Solve challenging grids and improve your math and reasoning skills every day!',
     category: 'online-games',
+    tags: ['puzzle'],
     embedUrl: 'https://cdn.htmlgames.com/KillerSudoku/index.html?npa=1',
     thumbnail: '/images/killer-sudoku.webp',
     relatedSlugs: ['pizza-tower', 'bullet-force', 'bloxorz'],
@@ -6654,6 +6910,7 @@ export const games = [
     title: 'Basket Random – Play the Game Unblocked Online',
     metaDescription: 'Play Basket Random unblocked and enjoy hilarious basketball matches with crazy physics, random moves, and endless fun. Try to score before your rival does!',
     category: 'online-games',
+    tags: ['sports', 'arcade'],
     embedUrl: 'https://ubg98.github.io/BasketRandom/',
     thumbnail: '/images/basket-random.webp',
     relatedSlugs: ['getaway-shootout', 'among-us-online', 'fall-guys'],
@@ -6685,6 +6942,7 @@ export const games = [
     title: 'Crossy Road Unblocked - Play the Crossy Road Game Online',
     metaDescription: 'Play Crossy Road unblocked! Jump, dodge, and cross endless roads in this fun and fast-paced Crossy Road game online. Stay alive and beat your best score!',
     category: 'online-games',
+    tags: ['arcade'],
     embedUrl: 'https://ubg98.github.io/CrossyRoad/',
     thumbnail: '/images/crossy-road.webp',
     relatedSlugs: ['cookie-clicker-unblocked', 'cookie-clicker-2', 'checkers'],
@@ -6718,6 +6976,7 @@ export const games = [
     title: 'Doodle Jump – Play Doodle Jump Game Unblocked',
     metaDescription: 'Play Doodle Jump unblocked online! Enjoy the fun Doodle Jump game, dodge obstacles, use power-ups, and climb higher for endless arcade adventure.',
     category: 'online-games',
+    tags: ['arcade', 'platformer'],
     embedUrl: 'https://doodle-jumponline.github.io/file/',
     thumbnail: '/images/doodle-jump.webp',
     relatedSlugs: ['snow-rider-unblocked', 'monkey-mart', 'nyt-crossword'],
@@ -6751,6 +7010,7 @@ export const games = [
     title: 'Stickman Hook - Play the Game Unblocked Online',
     metaDescription: 'Play Stickman Hook unblocked at GamesDoodle.org! Swing, jump, and flip through exciting levels in the Stickman Hook game. Fun and free to play online!',
     category: 'online-games',
+    tags: ['arcade', 'platformer'],
     embedUrl: 'https://stickman-hook.gamestores.fun/',
     thumbnail: '/images/stickman-hook.webp',
     relatedSlugs: ['basketball-stars', 'stickman', 'the-impossible-quiz'],
@@ -6784,6 +7044,7 @@ export const games = [
     title: 'Basketball Stars – Play the Game Unblocked Online',
     metaDescription: 'Play Basketball Stars unblocked online! Show off your skills, score amazing dunks, and enjoy the fast-paced fun of the ultimate Basketball Stars game.',
     category: 'online-games',
+    tags: ['sports'],
     embedUrl: 'https://htmlxm.github.io/h/basketball-stars/',
     thumbnail: '/images/basketball-stars.webp',
     relatedSlugs: ['snow-rider-unblocked', 'getting-over-it', 'moto-x3m'],
@@ -6817,6 +7078,7 @@ export const games = [
     title: 'Monkey Mart – Play the Game Unblocked Online',
     metaDescription: 'Play Monkey Mart online and manage your own supermarket! Enjoy the fun Monkey Mart game, expand your store, and try Monkey Mart unblocked anywhere.',
     category: 'online-games',
+    tags: ['simulation'],
     embedUrl: 'https://monkey-mart.io/iframe/index.html',
     thumbnail: '/images/monkey-mart.webp',
     relatedSlugs: ['tic-tac-toe', 'smash-karts', 'eggy-car'],
@@ -6848,6 +7110,7 @@ export const games = [
     title: 'Checkers - Play Checkers Online Free Game',
     metaDescription: 'Enjoy Checkers online free! Play the classic Checkers game, challenge your mind, and master the strategy behind this timeless board game online.',
     category: 'online-games',
+    tags: ['card-and-board'],
     embedUrl: 'https://www.ilibrarian.net/games/checkers/index.html',
     thumbnail: '/images/checkers.webp',
     relatedSlugs: ['getaway-shootout', 'basket-random', 'fall-guys'],
@@ -6881,6 +7144,7 @@ export const games = [
     title: 'Polytrack - Play the Game Unblocked Online',
     metaDescription: 'Play Polytrack unblocked and race through fast, minimalist tracks. Enjoy smooth controls, speed challenges, and addictive time-trial gameplay.',
     category: 'online-games',
+    tags: ['racing'],
     embedUrl: 'https://polytrack-online.github.io/file/',
     thumbnail: '/images/polytrack.webp',
     relatedSlugs: ['basketball-bros', 'uno-online', 'steal-a-brainrot'],
@@ -6914,6 +7178,7 @@ export const games = [
     title: 'Hacker Typer - Play Simulator Prank and Fake Hacking',
     metaDescription: 'Experience Hacker Typer simulator online! Try this fun hacker prank and fake hacking game to look like a real coder typing fast on your screen.',
     category: 'online-games',
+    tags: ['simulation'],
     embedUrl: 'https://hackertyper.com/',
     thumbnail: '/images/hacker-typer.webp',
     relatedSlugs: ['fruit-ninja', 'duck-life', 'ping-pong'],
@@ -6947,6 +7212,7 @@ export const games = [
     title: 'Bad Time Simulator | Play Sans Fight Game Online',
     metaDescription: 'Play Bad Time Simulator online! Master the epic Sans fight and relive the iconic Sans battle challenge anytime. Play the game online free now.',
     category: 'online-games',
+    tags: ['arcade', 'platformer'],
     embedUrl: 'https://embed.gamesdoodle.org/c2-sans-fight/',
     thumbnail: '/images/bad-time-simulator.webp',
     relatedSlugs: ['password-game', 'dinosaur-game', 'do-a-barrel-roll'],
@@ -6982,6 +7248,7 @@ export const games = [
     title: 'Moto X3M – Play Moto X3M Unblocked Game Online',
     metaDescription: 'Play Moto X3M unblocked online! Enjoy thrilling bike stunts, conquer tricky tracks, and race through challenging levels in this fast-paced Moto X3M game.',
     category: 'online-games',
+    tags: ['racing', 'sports'],
     embedUrl: 'https://motox3m.gitlab.io/x3m-1.20.1p/',
     thumbnail: '/images/moto-x3m.webp',
     relatedSlugs: ['plants-vs-zombies', 'doodle-jump', 'nyt-crossword'],
@@ -7015,6 +7282,7 @@ export const games = [
     title: 'Smash Karts – Play SmashKarts Unblocked Online',
     metaDescription: 'Play Smash Karts unblocked! Race, battle, and collect power-ups in this fast-paced smashkarts game. Compete with friends for ultimate karting glory.',
     category: 'online-games',
+    tags: ['racing', 'arcade'],
     embedUrl: 'https://embed.gamesdoodle.org/smash-karts/',
     thumbnail: '/images/smash-karts.webp',
     relatedSlugs: ['slope-2', 'slope-unblocked', 'drift-hunters'],
@@ -7048,6 +7316,7 @@ export const games = [
     title: 'Snow Rider Unblocked – Play Snow Riding 3D Game Online',
     metaDescription: 'Play Snow Rider unblocked online! Enjoy the thrilling Snow Rider 3D game, dodge obstacles, collect gifts, and race down snowy slopes.',
     category: 'online-games',
+    tags: ['racing', 'arcade'],
     embedUrl: 'https://html5.gamedistribution.com/rvvASMiM/73c5cc9e10ea47a694c7c40dd9d2a3ae/index.html',
     thumbnail: '/images/snow-rider-unblocked.webp',
     relatedSlugs: ['tic-tac-toe', 'monkey-mart', 'eggy-car'],
@@ -7081,6 +7350,7 @@ export const games = [
     title: 'NYT Crossword – Play New York Times crossword Puzzle',
     metaDescription: 'Play the NYT Crossword puzzle online! Solve the famous New York Times crossword daily, enjoy clever clues, and test your word skills.',
     category: 'online-games',
+    tags: ['word-and-trivia', 'puzzle'],
     embedUrl: 'https://nytimescrossword.io/nytimes-crossword.embed',
     thumbnail: '/images/nyt-crossword.webp',
     relatedSlugs: ['snow-rider-unblocked', 'monkey-mart', 'eggy-car'],
@@ -7114,6 +7384,7 @@ export const games = [
     title: 'Snake IO - Play Snake.io Game Free Online',
     metaDescription: 'Play Snake io online and grow your snake to the top. Enjoy the classic Snake.io game with smooth controls, fast gameplay, and fun battles against players.',
     category: 'online-games',
+    tags: ['io', 'arcade'],
     embedUrl: 'https://www.gamenora.com/splash/snakeio/',
     thumbnail: '/images/snake-io.webp',
     relatedSlugs: ['flyordie', 'wrestle-bros', '2-minute-football'],
@@ -7145,6 +7416,7 @@ export const games = [
     title: 'Drift Hunters – Play Drift Hunters Unblocked Max',
     metaDescription: 'Play Drift Hunters unblocked! Master epic drifts, upgrade cars, and experience the ultimate Drift Hunters game with realistic physics and tracks.',
     category: 'online-games',
+    tags: ['racing'],
     embedUrl: 'https://embed.gamesdoodle.org/drift-hunters/',
     thumbnail: '/images/drift-hunters.webp',
     relatedSlugs: ['slope-2', 'slope-unblocked', 'drive-mad'],
@@ -7178,6 +7450,7 @@ export const games = [
     title: 'Drive Mad – Play the Game Unblocked Online',
     metaDescription: 'Play Drive Mad unblocked! Enjoy the thrilling Drive Mad game with crazy stunts, tricky tracks, and exciting car challenges online anytime.',
     category: 'online-games',
+    tags: ['racing', 'puzzle'],
     embedUrl: 'https://embed.gamesdoodle.org/drive-mad/index.html',
     thumbnail: '/images/drive-mad.webp',
     relatedSlugs: ['rooftop-snipers', 'bad-time-simulator', 'do-a-barrel-roll'],
@@ -7211,6 +7484,7 @@ export const games = [
     title: 'Password Game – Play The Password Game Online',
     metaDescription: 'Play the Password Game online! Discover the fun puzzle rules, beat challenges, and master each level of The Password Game now.',
     category: 'online-games',
+    tags: ['word-and-trivia', 'puzzle'],
     embedUrl: 'https://embed.gamesdoodle.org/password-game/',
     thumbnail: '/images/password-game.webp',
     relatedSlugs: ['quick-draw', 'dinosaur-game', 'google-cricket'],
@@ -7244,6 +7518,7 @@ export const games = [
     title: 'Google Feud - Play the Game Unblocked Online',
     metaDescription: 'Play the Google Feud game online! Guess the top search queries in this fun trivia challenge. Google Feud unblocked and ready to play instantly!',
     category: 'google-doodle-games',
+    tags: ['word-and-trivia'],
     embedUrl: 'https://embed.gamesdoodle.org/googlefeud/',
     thumbnail: '/images/google-feud.webp',
     relatedSlugs: ['google-minesweeper', 'doodle-baseball', 'google-dreidel'],
@@ -7277,6 +7552,7 @@ export const games = [
     title: 'Do a Barrel Roll – Play the Game Free Online',
     metaDescription: 'Play Do a Barrel Roll online! Watch your screen spin in this fun browser trick. Try it now and see the classic spin in action!',
     category: 'online-games',
+    tags: ['arcade', 'simulation'],
     embedUrl: 'https://embed.gamesdoodle.org/doabarellroll/doabarrelroll/',
     thumbnail: '/images/do-a-barrel-roll.webp',
     relatedSlugs: ['password-game', 'dinosaur-game', 'google-cricket'],
@@ -7310,6 +7586,7 @@ export const games = [
     title: 'Slope 2 – Play Slope 2 Player Unblocked Online',
     metaDescription: 'Play Slope 2 unblocked! Test your reflexes in this fast-paced slope2 game. Race, dodge obstacles, and enjoy thrilling 2-player challenges anytime.',
     category: 'online-games',
+    tags: ['arcade'],
     embedUrl: 'https://embed.gamesdoodle.org/slope-2-player/',
     thumbnail: '/images/slope-2.webp',
     relatedSlugs: ['rooftop-snipers', 'slope-unblocked', 'drive-mad'],
@@ -7341,6 +7618,7 @@ export const games = [
     title: 'Slope Unblocked – Play Slope Game Free Online',
     metaDescription: 'Play Slope unblocked online! Test your reflexes in the thrilling Slope game. Roll the ball, dodge obstacles, and master endless slopes anytime.',
     category: 'online-games',
+    tags: ['arcade'],
     embedUrl: 'https://embed.gamesdoodle.org/slop/',
     thumbnail: '/images/slope-unblocked.webp',
     relatedSlugs: ['rooftop-snipers', 'bad-time-simulator', 'drive-mad'],
@@ -7392,6 +7670,7 @@ export const games = [
     title: 'Google Minesweeper – Play Minesweeper Online Game Free',
     metaDescription: 'Play Google Minesweeper online for free! Enjoy the classic minesweeper game experience with simple controls and endless puzzle challenges.',
     category: 'google-doodle-games',
+    tags: ['puzzle'],
     embedUrl: 'https://www.minesweepergoogle.com/gameapp.html',
     thumbnail: '/images/google-minesweeper.webp',
     relatedSlugs: ['google-snake', 'doodle-baseball', 'google-dreidel'],
@@ -7425,6 +7704,7 @@ export const games = [
     title: 'Google Doodle Baseball - Play 4th of July Game Online',
     metaDescription: 'Play Google Doodle Baseball online! Celebrate with the fun Fourth of July baseball doodle. Hit home runs and enjoy the classic Google Baseball game!',
     category: 'google-doodle-games',
+    tags: ['sports'],
     embedUrl: 'https://embed.gamesdoodle.org/baseball/',
     thumbnail: '/images/doodle-baseball.webp',
     relatedSlugs: ['google-snake', 'google-tic-tac-toe', 'google-dreidel'],
@@ -7458,6 +7738,7 @@ export const games = [
     title: 'Eggy Car – Play the Eggy Car Game Free Online',
     metaDescription: 'Play Eggy Car online and test your skills in this addictive Eggy Car game. Balance your egg across tricky roads and see how far you can go without dropping it!',
     category: 'online-games',
+    tags: ['racing', 'arcade'],
     embedUrl: 'https://games.crazygames.com/en_US/eggy-car/index.html',
     thumbnail: '/images/eggy-car.webp',
     relatedSlugs: ['tic-tac-toe', 'smash-karts', 'drift-hunters'],
@@ -7485,6 +7766,7 @@ export const games = [
     title: '1v1 LOL Unblocked - Play the Game Free Online',
     metaDescription: 'Play 1v1 LOL unblocked online! Build, shoot, and outsmart rivals in this action-packed 1v1 LOL game. Show your skills in fast-paced battle arenas.',
     category: 'online-games',
+    tags: ['shooter', 'io'],
     embedUrl: 'https://1v1-lolunblocked.gitlab.io/file/',
     thumbnail: '/images/1v1-lol-unblocked.webp',
     relatedSlugs: ['tetris-unblocked', 'ovo-game', 'subway-surfers-unblocked'],
@@ -7516,6 +7798,7 @@ export const games = [
     title: 'Tetris Unblocked - Play the Game Free Online',
     metaDescription: 'Play Tetris unblocked online free! Stack blocks, clear lines, and test your reflexes in the timeless Tetris game that never goes out of style.',
     category: 'online-games',
+    tags: ['puzzle', 'arcade'],
     embedUrl: 'https://www.goodoldtetris.com/',
     thumbnail: '/images/tetris-unblocked.webp',
     relatedSlugs: ['2048-cupcakes', 'ovo-game', 'subway-surfers-unblocked'],
@@ -7549,6 +7832,7 @@ export const games = [
     title: 'Subway Surfers Unblocked - Play the Game Free Online',
     metaDescription: 'Play Subway Surfers unblocked online and dash through subways, dodge trains, and collect coins in the thrilling endless running Subway Surfers game.',
     category: 'online-games',
+    tags: ['arcade', 'platformer'],
     embedUrl: 'https://files.ufreegame.net/1024/Subway-Surfers-Zurich/',
     thumbnail: '/images/subway-surfers-unblocked.webp',
     relatedSlugs: ['2048-game', 'ovo-game', '2048-cupcakes'],
@@ -7580,6 +7864,7 @@ export const games = [
     title: 'OvO Game - Play Ovo Unblocked Online',
     metaDescription: 'Play Ovo game online and test your parkour skills through exciting obstacle courses. Run, jump, and slide your way in the thrilling Ovo unblocked adventure.',
     category: 'online-games',
+    tags: ['platformer', 'arcade'],
     embedUrl: 'https://ovoclassic-pro.github.io/file/',
     thumbnail: '/images/ovo-game.webp',
     relatedSlugs: ['2048-game', 'tiny-fishing', '2048-cupcakes'],
@@ -7611,6 +7896,7 @@ export const games = [
     title: '2048 Game - Play 2048 Unblocked Free Online',
     metaDescription: 'Play 2048 online for free! Slide tiles, merge numbers, and reach 2048. Enjoy 2048 unblocked anytime and anwhere, start the fun now!',
     category: 'online-games',
+    tags: ['puzzle'],
     embedUrl: 'https://www.2048.org/',
     thumbnail: '/images/2048-game.webp',
     relatedSlugs: ['temple-run-2', 'tiny-fishing', 'temple-run'],
@@ -7642,6 +7928,7 @@ export const games = [
     title: 'Tiny Fishing - Play the Game Unblocked Online',
     metaDescription: 'Cast your line and catch rare fish in Tiny Fishing unblocked! Upgrade your gear, dive deeper, and earn gold in this relaxing and addictive fishing game.',
     category: 'online-games',
+    tags: ['simulation'],
     embedUrl: 'https://tinyfishing2.io/tiny-fishing.embed',
     thumbnail: '/images/tiny-fishing.webp',
     relatedSlugs: ['temple-run-2', '8-ball-pool', 'temple-run'],
@@ -7673,6 +7960,7 @@ export const games = [
     title: 'Bullet Force - Play the Game Unblocked Online',
     metaDescription: 'Play Bullet Force unblocked, a fast-paced FPS game with modern weapons and multiplayer action. Jump into intense battles and test your shooting skills online!',
     category: 'online-games',
+    tags: ['shooter'],
     embedUrl: 'https://games.crazygames.com/en_US/bullet-force-multiplayer/index.html',
     thumbnail: '/images/bullet-force.webp',
     relatedSlugs: ['pizza-tower', 'baldis-basics', 'bloxorz'],
@@ -7702,6 +7990,7 @@ export const games = [
     title: 'Agario Unblocked - Play the Game Free Online',
     metaDescription: 'Play Agario unblocked and dominate the arena! Eat smaller cells, grow bigger, and survive the chaos in this addictive online Agario game.',
     category: 'online-games',
+    tags: ['io', 'arcade'],
     embedUrl: 'https://games.crazygames.com/en_US/agario/index.html',
     thumbnail: '/images/agario.webp',
     relatedSlugs: ['papas-pizzeria', 'oregon-trail', 'papas-freezeria'],
@@ -7733,6 +8022,7 @@ export const games = [
     title: 'Papa\'s Freezeria - Play the Game Unblocked Online',
     metaDescription: 'Play Papa\'s Freezeria unblocked and manage your own ice cream shop! Serve customers, blend sundaes, and master the fun Papa\'s Freezeria game online.',
     category: 'online-games',
+    tags: ['simulation'],
     embedUrl: 'https://games.crazygames.com/en_US/papas-freezeria/index.html',
     thumbnail: '/images/papas-freezeria.webp',
     relatedSlugs: ['incredibox', 'oregon-trail', 'my-singing-monsters'],
@@ -7764,6 +8054,7 @@ export const games = [
     title: 'My Singing Monsters - Play Game Unblocked Online',
     metaDescription: 'Play My Singing Monsters online and create your own monster orchestra. Enjoy the My Singing Monsters game and play My Singing Monsters unblocked anywhere.',
     category: 'online-games',
+    tags: ['simulation', 'music-and-creative'],
     embedUrl: 'https://scratch.mit.edu/projects/835874535/embed',
     thumbnail: '/images/my-singing-monsters.webp',
     relatedSlugs: ['hacker-typer', 'mortal-kombat', 'ping-pong'],
@@ -7795,6 +8086,7 @@ export const games = [
     title: '2 Minute Football - Play the Game Unblocked Online',
     metaDescription: 'Play 2 Minute Football online and become a QB legend. Enjoy this fast two minute football game and try 2 Minute Football unblocked for free.',
     category: 'online-games',
+    tags: ['sports'],
     embedUrl: 'https://games.crazygames.com/en_US/qb-legend/index.html',
     thumbnail: '/images/2-minute-football.webp',
     relatedSlugs: ['flyordie', 'wrestle-bros', 'evo-wars-io'],
@@ -7826,6 +8118,7 @@ export const games = [
     title: 'Block Blast Unblocked - Play the Game Free Online',
     metaDescription: 'Play Block Blast game free and enjoy a fun puzzle challenge. Drag blocks, clear lines, and score big in the Block Blast online and unblocked version.',
     category: 'online-games',
+    tags: ['puzzle'],
     embedUrl: 'https://block-blast-online.github.io/',
     thumbnail: '/images/block-blast-unblocked.webp',
     relatedSlugs: ['racing-limits', 'color-by-number', 'poxel'],
@@ -7857,6 +8150,7 @@ export const games = [
     title: 'Thief Puzzle - Play the Game Free Online',
     metaDescription: 'Play Thief Puzzle free and test your logic skills. Solve tricky levels, plan your moves, and enjoy the ultimate Thief Puzzle game challenge online.',
     category: 'online-games',
+    tags: ['puzzle'],
     embedUrl: 'https://games.cdn.famobi.com/html5games/t/thief-puzzle/v080/?fg_domain=play.famobi.com&fg_aid=A-FAMOBI-COM&fg_uid=56b693d4-476b-472b-a1ed-25cc7cabbd09&fg_pid=96ab9c2f-6013-4b31-96dc-ccb5c7a89329&fg_beat=473&original_ref=',
     thumbnail: '/images/thief-puzzle.webp',
     relatedSlugs: ['build-now-gg', 'golf-orbit', 'traffic-rider'],
@@ -7888,6 +8182,7 @@ export const games = [
     title: 'Space Waves Game - Play the Game Unblocked Online',
     metaDescription: 'Play Space Waves game online and test your reflexes in a fast-paced neon space world. Enjoy Space Waves unblocked, it is one of the crazy games.',
     category: 'online-games',
+    tags: ['arcade'],
     embedUrl: 'https://hotgames.io/space-waves.embed',
     thumbnail: '/images/space-waves-game.webp',
     relatedSlugs: ['grow-a-garden', '99-nights-in-the-forest', 'football-bros-unblocked'],
@@ -7919,6 +8214,7 @@ export const games = [
     title: 'Wrestle Bros - Play WWE Wrestling Game Unblocked',
     metaDescription: 'Play Wrestle Bros, the fun wrestling game where you flip, throw, and defeat opponents. Enjoy Wrestling Bros online and Wrestle Bros unblocked for free.',
     category: 'online-games',
+    tags: ['sports', 'arcade'],
     embedUrl: 'https://wrestlebros.io/',
     thumbnail: '/images/wrestle-bros.webp',
     relatedSlugs: ['flyordie', 'taming-io', 'evo-wars-io'],
@@ -7950,6 +8246,7 @@ export const games = [
     title: 'FlyOrDie - Play EvoWorld IO Game Free Online',
     metaDescription: 'Play FlyOrDie IO, the evolution-based fly or die game. Eat, evolve, and survive in EvoWorld. Become stronger and dominate the sky in this fun multiplayer game.',
     category: 'online-games',
+    tags: ['io', 'simulation'],
     embedUrl: 'https://evoworld.io/',
     thumbnail: '/images/flyordie.webp',
     relatedSlugs: ['supermarket-simulator', 'taming-io', 'evo-wars-io'],
@@ -7981,6 +8278,7 @@ export const games = [
     title: 'Evo Wars IO - Play the Evo Game Free Online',
     metaDescription: 'Play Evo Wars IO, the fast-paced evowars io game. Evolve, fight, and dominate the arena. Upgrade your warrior and survive in this addictive battle game.',
     category: 'online-games',
+    tags: ['io', 'arcade'],
     embedUrl: 'https://games.crazygames.com/en_US/evowarsio/index.html',
     thumbnail: '/images/evo-wars-io.webp',
     relatedSlugs: ['supermarket-simulator', 'taming-io', 'block-blast-unblocked'],
@@ -8012,6 +8310,7 @@ export const games = [
     title: 'Taming IO - Play the Game Free Online',
     metaDescription: 'Play Taming io, the survival and pet-taming game where you gather resources, craft tools, and battle enemies. Enjoy Taming.io online free and build your empire.',
     category: 'online-games',
+    tags: ['io', 'strategy'],
     embedUrl: 'https://tamming.io/',
     thumbnail: '/images/taming-io.webp',
     relatedSlugs: ['supermarket-simulator', 'color-by-number', 'block-blast-unblocked'],
@@ -8043,6 +8342,7 @@ export const games = [
     title: 'Supermarket Simulator - Play the Game Free Online',
     metaDescription: 'Play Supermarket Simulator free and manage your own store. Stock shelves, serve customers, and grow your business in this fun Supermarket game online.',
     category: 'online-games',
+    tags: ['simulation'],
     embedUrl: 'https://unblocked-games.s3.amazonaws.com/games/2025/unity/supermarket-simulator/index.html',
     thumbnail: '/images/supermarket-simulator.webp',
     relatedSlugs: ['racing-limits', 'color-by-number', 'block-blast-unblocked'],
@@ -8074,6 +8374,7 @@ export const games = [
     title: 'Color by Number - Play the Colour Tap Free Online',
     metaDescription: 'Play Color by Number free and enjoy relaxing coloring fun. Fill numbered spaces, unlock artworks, and experience the soothing joy of colour by number games.',
     category: 'online-games',
+    tags: ['music-and-creative', 'puzzle'],
     embedUrl: 'https://games.crazygames.com/en_US/color-tap-coloring-by-numbers/index.html',
     thumbnail: '/images/color-by-number.webp',
     relatedSlugs: ['racing-limits', 'ragdoll-archers', 'poxel'],
@@ -8105,6 +8406,7 @@ export const games = [
     title: 'Racing Limits - Play the Game Free Online',
     metaDescription: 'Play Racing Limits online and experience high-speed traffic racing. Master controls, upgrade vehicles, and enjoy endless racing action in the Racing Limits game',
     category: 'online-games',
+    tags: ['racing'],
     embedUrl: 'https://racinglimits.io/1.embed',
     thumbnail: '/images/racing-limits.webp',
     relatedSlugs: ['front-wars', 'ragdoll-archers', 'poxel'],
@@ -8136,6 +8438,7 @@ export const games = [
     title: 'Poxel IO - Play the Game Free Online',
     metaDescription: 'Play Poxel, the fast and addictive Poxel IO game. Move, survive, and outplay opponents in this competitive pixel io arena. Fun, fast, and free to play!',
     category: 'online-games',
+    tags: ['io', 'shooter'],
     embedUrl: 'https://poxel.io/',
     thumbnail: '/images/poxel.webp',
     relatedSlugs: ['front-wars', 'ragdoll-archers', 'thief-puzzle'],
@@ -8167,6 +8470,7 @@ export const games = [
     title: 'Ragdoll Archers - Play the Game Unblocked Online',
     metaDescription: 'Play Ragdoll Archers online and master your aim. Enjoy ragdoll physics, challenging targets, and thrilling battles in this exciting Ragdoll Archers game.',
     category: 'online-games',
+    tags: ['arcade', 'shooter'],
     embedUrl: 'https://ragdollarchers.github.io/embed/ragdoll-archers.html',
     thumbnail: '/images/ragdoll-archers.webp',
     relatedSlugs: ['front-wars', 'golf-orbit', 'thief-puzzle'],
@@ -8198,6 +8502,7 @@ export const games = [
     title: 'Front Wars - Play the IO Game Free Online',
     metaDescription: 'Play Front Wars online and lead your army to victory. Strategize, fight enemies, and dominate the battlefield in this thrilling Front Wars game.',
     category: 'online-games',
+    tags: ['strategy', 'io'],
     embedUrl: 'https://frontwars.io/',
     thumbnail: '/images/front-wars.webp',
     relatedSlugs: ['build-now-gg', 'golf-orbit', 'thief-puzzle'],
@@ -8229,6 +8534,7 @@ export const games = [
     title: 'Golf Orbit - Play the Game Unblocked Online',
     metaDescription: 'Play Golf Orbit online and enjoy challenging orbit-style golf courses. Aim, shoot, and master Golf Orbit game for endless fun and skillful gameplay.',
     category: 'online-games',
+    tags: ['sports', 'arcade'],
     embedUrl: 'https://sportsgames.gitlab.io/golf-orbit/',
     thumbnail: '/images/golf-orbit.webp',
     relatedSlugs: ['build-now-gg', 'planet-clicker', 'traffic-rider'],
@@ -8260,6 +8566,7 @@ export const games = [
     title: 'Build Now Gg - Play the Game Free Online',
     metaDescription: 'Play Build Now Gg online and enjoy creative building fun. Build structures, complete challenges, and explore endless construction possibilities.',
     category: 'online-games',
+    tags: ['shooter', 'io'],
     embedUrl: 'https://games.crazygames.com/en_US/buildnow-gg/index.html',
     thumbnail: '/images/build-now-gg.webp',
     relatedSlugs: ['deadshot-io', 'planet-clicker', 'traffic-rider'],
@@ -8291,6 +8598,7 @@ export const games = [
     title: 'Traffic Rider - Play the Raider Game Free Online',
     metaDescription: 'Play Traffic Rider online and experience thrilling high-speed motorcycle rides. Enjoy smooth controls and endless traffic challenges.',
     category: 'online-games',
+    tags: ['racing'],
     embedUrl: 'https://traffic-rider.io/traffic-rider.embed',
     thumbnail: '/images/traffic-rider.webp',
     relatedSlugs: ['deadshot-io', 'planet-clicker', 'space-waves-game'],
@@ -8322,6 +8630,7 @@ export const games = [
     title: 'Planet Clicker - Play Earth & World Clicker Game Online',
     metaDescription: 'Play Planet Clicker online and grow your planets. Try Earth Clicker and World Clicker for fun idle gameplay with upgrades and nonstop clicking action.',
     category: 'online-games',
+    tags: ['simulation'],
     embedUrl: 'https://planetclicker.app/games/planet_clicker/',
     thumbnail: '/images/planet-clicker.webp',
     relatedSlugs: ['deadshot-io', '99-nights-in-the-forest', 'space-waves-game'],
@@ -8353,6 +8662,7 @@ export const games = [
     title: 'Deadshot IO - Play the Game Free Online',
     metaDescription: 'Play Deadshot IO game online and compete in fast-paced shooter battles. Enjoy Deadshot.io unblocked with smooth controls, quick matches, and nonstop action.',
     category: 'online-games',
+    tags: ['io', 'shooter'],
     embedUrl: 'https://unblockedgameswtf.gitlab.io/dead-shot-io/',
     thumbnail: '/images/deadshot-io.webp',
     relatedSlugs: ['grow-a-garden', '99-nights-in-the-forest', 'space-waves-game'],
@@ -8384,6 +8694,7 @@ export const games = [
     title: '99 Nights in the Forest - Play the Game Online Wiki',
     metaDescription: 'Play 99 Nights in the Forest, a survival adventure game. Explore the forest, craft tools, and stay alive. Learn tips, wiki info, and codes.',
     category: 'online-games',
+    tags: ['simulation'],
     embedUrl: 'https://crossy-road.io/99-nights-in-the-forest.embed',
     thumbnail: '/images/99-nights-in-the-forest.webp',
     relatedSlugs: ['grow-a-garden', 'soccer-bros', 'football-bros-unblocked'],
@@ -8415,6 +8726,7 @@ export const games = [
     title: 'Grow a Garden - Play the Game Free Online Wiki',
     metaDescription: 'Play Grow a Garden online! Explore the Grow a Garden game, learn gardening, plant crops, and enjoy this fun Grow a Garden Roblox-style experience.',
     category: 'online-games',
+    tags: ['simulation'],
     embedUrl: 'https://growden.io/',
     thumbnail: '/images/grow-a-garden.webp',
     relatedSlugs: ['polytrack', 'soccer-bros', 'football-bros-unblocked'],
@@ -8446,6 +8758,7 @@ export const games = [
     title: 'Football Bros Unblocked - Play the Game Free Online',
     metaDescription: 'Play Football Bros unblocked online! Enjoy fast football action in this fun football bros game. Join matches, score goals, and dominate the field.',
     category: 'online-games',
+    tags: ['sports'],
     embedUrl: 'https://html5.gamedistribution.com/rvvASMiM/36da07e31e0a4c0ba00fe1b28dda69ab/index.html',
     thumbnail: '/images/football-bros-unblocked.webp',
     relatedSlugs: ['polytrack', 'soccer-bros', 'steal-a-brainrot'],
@@ -8477,6 +8790,7 @@ export const games = [
     title: 'Soccer Bros - Play the Game Unblocked Online',
     metaDescription: 'Play Soccer Bros unblocked and enjoy fast, action-packed 1v1 football battles. Choose unique characters, score goals, and dominate the Soccer Bros game online.',
     category: 'online-games',
+    tags: ['sports'],
     embedUrl: 'https://games.crazygames.com/en_US/soccer-bros/index.html',
     thumbnail: '/images/soccer-bros.webp',
     relatedSlugs: ['polytrack', 'uno-online', 'steal-a-brainrot'],
@@ -8508,6 +8822,7 @@ export const games = [
     title: 'Steal a Brainrot - Play the Game Free Online',
     metaDescription: 'Play Steal a Brainrot online free and enjoy a fun competitive challenge. Outsmart opponents, grab brainrots, and win in this fast, chaotic online game.',
     category: 'online-games',
+    tags: ['arcade'],
     embedUrl: 'https://trafficrally.io/steal-brainrot-online.embed',
     thumbnail: '/images/steal-a-brainrot.webp',
     relatedSlugs: ['basketball-bros', 'uno-online', 'paper-io-2'],
@@ -8539,6 +8854,7 @@ export const games = [
     title: 'UNO Online - Play the Game Free Unblocked',
     metaDescription: 'Play UNO Online for free. Enjoy the classic UNO card game, challenge players worldwide, and experience fast, fun card-matching battles online.',
     category: 'online-games',
+    tags: ['card-and-board'],
     embedUrl: 'https://uno-online.io/1.embed',
     thumbnail: '/images/uno-online.webp',
     relatedSlugs: ['basketball-bros', 'bloxd-io', 'paper-io-2'],
@@ -8570,6 +8886,7 @@ export const games = [
     title: 'Basketball Bros - Play Basket Bros Game Unblocked',
     metaDescription: 'Play Basketball Bros online and enjoy fast 1v1 action in the BasketBros game. Try Basketball Bros unblocked and compete in fun, fast-paced basketball battles.',
     category: 'online-games',
+    tags: ['sports'],
     embedUrl: 'https://games.crazygames.com/en_US/basketbros/index.html',
     thumbnail: '/images/basketball-bros.webp',
     relatedSlugs: ['slice-master', 'bloxd-io', 'paper-io-2'],
@@ -8601,6 +8918,7 @@ export const games = [
     title: 'Paper IO 2 - Play the Game Unblocked Online',
     metaDescription: 'Play Paper IO 2 online and expand your territory. Enjoy fast, strategic gameplay in the Paperio 2 world. Try the best Paper IO 2 game unblocked anytime.',
     category: 'online-games',
+    tags: ['io', 'arcade'],
     embedUrl: 'https://paper-2.io/',
     thumbnail: '/images/paper-io-2.webp',
     relatedSlugs: ['slice-master', 'bloxd-io', 'draw-a-perfect-circle'],
@@ -8632,6 +8950,7 @@ export const games = [
     title: 'Draw a Perfect Circle - Play Perfect Circle Game Online',
     metaDescription: 'Play Draw a Perfect Circle, the fun perfect circle game. Test accuracy, improve precision, and challenge your drawing skills with this addictive online game.',
     category: 'online-games',
+    tags: ['puzzle', 'music-and-creative'],
     embedUrl: 'https://drawaperfectcircle.com/perfect-circle/',
     thumbnail: '/images/draw-a-perfect-circle.webp',
     relatedSlugs: ['capybara-clicker', 'im-not-a-robot', 'word-wipe'],
@@ -8663,6 +8982,7 @@ export const games = [
     title: 'Slice Master - Play the Game Unblocked Online',
     metaDescription: 'Play Slice Master, the fast and addictive slicing game. Enjoy Slice Master unblocked, slice objects, avoid traps, and score big in the slicemaster challenge',
     category: 'online-games',
+    tags: ['arcade'],
     embedUrl: 'https://2games.io//embed/slice-master',
     thumbnail: '/images/slice-master.webp',
     relatedSlugs: ['capybara-clicker', 'im-not-a-robot', 'draw-a-perfect-circle'],
@@ -8694,6 +9014,7 @@ export const games = [
     title: 'Bloxd IO - Play the Game Unblocked Online',
     metaDescription: 'Play Bloxd IO, a fun online adventure and parkour game. Explore worlds, complete challenges, and enjoy Bloxd.io or blox io unblocked with friends online.',
     category: 'online-games',
+    tags: ['io', 'shooter'],
     embedUrl: 'https://bloxd.io/',
     thumbnail: '/images/bloxd-io.webp',
     relatedSlugs: ['slice-master', 'im-not-a-robot', 'draw-a-perfect-circle'],
@@ -8725,6 +9046,7 @@ export const games = [
     title: 'I’m Not a Robot - Play the Game Online Neal Fun',
     metaDescription: 'Play I’m Not a Robot, the fun Neal Fun challenge! Solve human tests, complete tasks, and enjoy the interactive I’m Not a Robot game online.',
     category: 'online-games',
+    tags: ['puzzle'],
     embedUrl: 'https://not-a-robot.tinyfun.io/not-a-robot/',
     thumbnail: '/images/im-not-a-robot.webp',
     relatedSlugs: ['capybara-clicker', 'super-smash-flash-2', 'word-wipe'],
@@ -8756,6 +9078,7 @@ export const games = [
     title: 'Capybara Clicker - Play the Game Unblocked Online',
     metaDescription: 'Play Capybara Clicker, the fun idle click game! Grow your capybara population, unlock upgrades, and enjoy the relaxing capybara clicker game online.',
     category: 'online-games',
+    tags: ['simulation'],
     embedUrl: 'https://scratch.mit.edu/projects/794262893/embed',
     thumbnail: '/images/capybara-clicker.webp',
     relatedSlugs: ['spider-solitaire-free', 'super-smash-flash-2', 'word-wipe'],
@@ -8787,6 +9110,7 @@ export const games = [
     title: 'Word Wipe - Play the Game Free Online',
     metaDescription: 'Play Word Wipe, the fast-paced word puzzle game! Enjoy Word Wipe AARP online, clear rows, and boost your vocabulary in this fun word wipe game.',
     category: 'online-games',
+    tags: ['word-and-trivia'],
     embedUrl: 'https://word-wipe.com/wp-content/uploads/games/Word-Wipe/word-wipe.html',
     thumbnail: '/images/word-wipe.webp',
     relatedSlugs: ['spider-solitaire-free', 'super-smash-flash-2', 'poker-online'],
@@ -8818,6 +9142,7 @@ export const games = [
     title: 'Super Smash Flash 2 - Play the Game Unblocked Online',
     metaDescription: 'Enjoy Super Smash Flash 2 online — the fan-made fighting game with your favorite heroes! Play Super Smash Flash 2 unblocked anytime and battle for victory!',
     category: 'online-games',
+    tags: ['arcade', 'platformer'],
     embedUrl: 'https://www.twoplayergames.org/gameframe/super-smash-flash-2',
     thumbnail: '/images/super-smash-flash-2.webp',
     relatedSlugs: ['spider-solitaire-free', 'lolbeans', 'poker-online'],
@@ -8849,6 +9174,7 @@ export const games = [
     title: 'Spider Solitaire Free - Play the Game Unblocked Online',
     metaDescription: 'Enjoy Spider Solitaire free online! Test your patience and logic in this classic card game. Play anytime, anywhere, and improve your strategy today!',
     category: 'online-games',
+    tags: ['card-and-board'],
     embedUrl: 'https://games.cdn.famobi.com/html5games/s/spider-solitaire/v2/?fg_domain=play.famobi.com&fg_aid=A-FAMOBI-COM&fg_uid=03206d0d-f8b4-4ccf-bcd0-3be11c651f57&fg_pid=96ab9c2f-6013-4b31-96dc-ccb5c7a89329&fg_beat=460&original_ref=https%3A%2F%2Fgames.cdn.famobi.com%2F',
     thumbnail: '/images/spider-solitaire-free.webp',
     relatedSlugs: ['eaglercraft', 'lolbeans', 'poker-online'],
@@ -8880,6 +9206,7 @@ export const games = [
     title: 'Poker Online - Play the Poker Game Unblocked',
     metaDescription: 'Play poker online and test your strategy in thrilling multiplayer matches. Join the classic poker game, bluff your way to victory, and win big today!',
     category: 'online-games',
+    tags: ['card-and-board'],
     embedUrl: 'https://www.247freepoker.com/game/frame.html',
     thumbnail: '/images/poker-online.webp',
     relatedSlugs: ['eaglercraft', 'lolbeans', 'dragon-ball-z'],
@@ -8911,6 +9238,7 @@ export const games = [
     title: 'LOLBeans - Play the Game Free Online',
     metaDescription: 'Play LOLBeans, a hilarious online racing game. Compete with others, dodge obstacles, and reach the finish line in this fast-paced LOLBeans game adventure!',
     category: 'online-games',
+    tags: ['io', 'arcade'],
     embedUrl: 'https://fallguys2.co/lolbeansio-1.embed',
     thumbnail: '/images/lolbeans.webp',
     relatedSlugs: ['eaglercraft', 'minecraft-unblocked', 'dragon-ball-z'],
@@ -8942,6 +9270,7 @@ export const games = [
     title: 'Eaglercraft Unblocked - Play the Game Free Online',
     metaDescription: 'Play Eaglercraft unblocked and explore a pixel world of creativity! Build, mine, and survive in this fun online sandbox Eaglercraft game adventure.',
     category: 'online-games',
+    tags: ['simulation', 'io'],
     embedUrl: 'https://eaglercraftonline.bitbucket.io/file/',
     thumbnail: '/images/eaglercraft.webp',
     relatedSlugs: ['clash-royale-online', 'minecraft-unblocked', 'dragon-ball-z'],
@@ -8973,6 +9302,7 @@ export const games = [
     title: 'Dragon Ball Z - Play the Game Unblocked Online',
     metaDescription: 'Play Dragon Ball Z online and relive epic Saiyan battles! Train, fight, and power up your heroes in this action-packed Dragon Ball Z fighting game.',
     category: 'online-games',
+    tags: ['arcade'],
     embedUrl: 'https://www.twoplayergames.org/gameframe/dragon-ball-z',
     thumbnail: '/images/dragon-ball-z.webp',
     relatedSlugs: ['clash-royale-online', 'minecraft-unblocked', 'super-mario'],
@@ -9004,6 +9334,7 @@ export const games = [
     title: 'Minecraft Unblocked - Play the Classic Game Free Online',
     metaDescription: 'Play Minecraft unblocked online! Explore endless worlds, craft tools, and build anything you imagine in this classic sandbox adventure game.',
     category: 'online-games',
+    tags: ['simulation'],
     embedUrl: 'https://classic.minecraft.net/',
     thumbnail: '/images/minecraft-unblocked.webp',
     relatedSlugs: ['clash-royale-online', 'agario', 'super-mario'],
@@ -9035,6 +9366,7 @@ export const games = [
     title: 'Clash Royale Online - Play Clash Royale Unblocked Game',
     metaDescription: 'Play Clash Royale online and enjoy epic real-time card battles! Collect troops, build decks, and fight opponents in this fast-paced Clash Royale game.',
     category: 'online-games',
+    tags: ['strategy', 'card-and-board'],
     embedUrl: 'https://web.archive.org/web/20250113091227/https://html5.gamemonetize.co/fz411b21gdp389jp8x5w7ads2jsa1acw/',
     thumbnail: '/images/clash-royale-online.webp',
     relatedSlugs: ['papas-pizzeria', 'agario', 'super-mario'],
@@ -9066,6 +9398,7 @@ export const games = [
     title: 'Super Mario - Play Super Mario 64 Unblocked Game Online',
     metaDescription: 'Play Super Mario 64 unblocked and relive the classic adventure! Join Mario to explore worlds, collect stars, and save Princess Peach in this fun Mario game.',
     category: 'online-games',
+    tags: ['platformer', 'arcade'],
     embedUrl: 'https://ubg365.github.io/super-mario-64/play.html',
     thumbnail: '/images/super-mario.webp',
     relatedSlugs: ['papas-pizzeria', 'agario', 'papas-freezeria'],
@@ -9097,6 +9430,7 @@ export const games = [
     title: 'Papa\'s Pizzeria - Play the Game Unblocked Online',
     metaDescription: 'Play Papa’s Pizzeria unblocked and manage your own pizza shop! Take orders, bake pizzas, and serve customers fast in the fun Papa’s Pizzeria game online.',
     category: 'online-games',
+    tags: ['simulation'],
     embedUrl: 'https://games.crazygames.com/en_US/papas-pizzeria/index.html',
     thumbnail: '/images/papas-pizzeria.webp',
     relatedSlugs: ['incredibox', 'oregon-trail', 'papas-freezeria'],
@@ -9128,6 +9462,7 @@ export const games = [
     title: 'Oregon Trail - Play the Game Unblocked Online',
     metaDescription: 'Play Oregon Trail game and experience the classic journey west. Survive, trade, and explore in Oregon Trail unblocked adventures full of strategy and fun.',
     category: 'online-games',
+    tags: ['simulation', 'strategy'],
     embedUrl: 'https://archive.org/embed/msdos_Oregon_Trail_The_1990',
     thumbnail: '/images/oregon-trail.webp',
     relatedSlugs: ['incredibox', 'mortal-kombat', 'my-singing-monsters'],
@@ -9159,6 +9494,7 @@ export const games = [
     title: 'Incredibox - Play Sprunki Incredibox Game Free Online',
     metaDescription: 'Play Incredibox and create catchy beats with cool characters. Enjoy the Incredibox game and explore Sprunki Incredibox remixes to make your own music online.',
     category: 'online-games',
+    tags: ['music-and-creative'],
     embedUrl: 'https://sprunki.com/',
     thumbnail: '/images/incredibox.webp',
     relatedSlugs: ['hacker-typer', 'mortal-kombat', 'my-singing-monsters'],
@@ -9190,6 +9526,7 @@ export const games = [
     title: 'Mortal Kombat - Play the Game Unblocked Online',
     metaDescription: 'Play Mortal Kombat online and experience intense battles. Enjoy the classic Mortal Kombat game and fight with legends in Mortal Kombat unblocked.',
     category: 'online-games',
+    tags: ['arcade'],
     embedUrl: 'https://www.twoplayergames.org/gameframe/mortal-kombat',
     thumbnail: '/images/mortal-kombat.webp',
     relatedSlugs: ['hacker-typer', 'duck-life', 'ping-pong'],
@@ -9221,6 +9558,7 @@ export const games = [
     title: 'Ping Pong - Play Table Tennis Game Unblocked Online',
     metaDescription: 'Enjoy the fast-paced Ping Pong game online! Play Ping Pong unblocked and test your reflexes in this exciting table tennis game for all skill levels.',
     category: 'online-games',
+    tags: ['sports'],
     embedUrl: 'https://media.boyslife.org/onlinegames/pingpong/',
     thumbnail: '/images/ping-pong.webp',
     relatedSlugs: ['fruit-ninja', 'duck-life', 'flappy-bird'],
@@ -9252,6 +9590,7 @@ export const games = [
     title: 'Duck Life - Play the Game Unblocked Online',
     metaDescription: 'Train your duck and race to victory in Duck Life! Play Duck Life unblocked online, build skills, and become the ultimate duck champion in this fun duck game.',
     category: 'online-games',
+    tags: ['simulation', 'sports'],
     embedUrl: 'https://games.crazygames.com/en_US/ducklife/index.html',
     thumbnail: '/images/duck-life.webp',
     relatedSlugs: ['fruit-ninja', 'word-search-puzzles', 'flappy-bird'],
@@ -9283,6 +9622,7 @@ export const games = [
     title: 'Fruit Ninja - Play the Game Free Online',
     metaDescription: 'Play Fruit Ninja online and test your slicing skills! Enjoy this addictive ninja game and slash fruits with style in the ultimate Fruit Ninja game challenge.',
     category: 'online-games',
+    tags: ['arcade'],
     embedUrl: 'https://html5.gamedistribution.com/rvvASMiM/a4a46cbc5a5c4ba1823e753e68fce8f0/index.html',
     thumbnail: '/images/fruit-ninja.webp',
     relatedSlugs: ['kenken', 'word-search-puzzles', 'flappy-bird'],
@@ -9314,6 +9654,7 @@ export const games = [
     title: 'Flappy Bird - Play the Game Unblocked Online',
     metaDescription: 'Play Flappy Bird online and test your reflexes! Tap to keep the bird flying through pipes in this addictive and challenging flappy bird unblocked game.',
     category: 'online-games',
+    tags: ['arcade'],
     embedUrl: 'https://playcanv.as/index/DLgXf1zr',
     thumbnail: '/images/flappy-bird.webp',
     relatedSlugs: ['kenken', 'word-search-puzzles', 'killer-sudoku'],
@@ -9345,6 +9686,7 @@ export const games = [
     title: 'Word Search Puzzles - Play the Game Free Online',
     metaDescription: 'Enjoy free word search puzzles online! Find hidden words in a fun and relaxing word search game that boosts your focus and vocabulary skills.',
     category: 'online-games',
+    tags: ['word-and-trivia'],
     embedUrl: 'https://azgames.io/game/word-search/',
     thumbnail: '/images/word-search-puzzles.webp',
     relatedSlugs: ['kenken', 'bullet-force', 'killer-sudoku'],
@@ -9376,6 +9718,7 @@ export const games = [
     title: 'kenken - Play the Game Free Online',
     metaDescription: 'Play KenKen online and enjoy this smart number puzzle game. Challenge your logic, math, and reasoning skills with fun and interactive KenKen puzzles!',
     category: 'online-games',
+    tags: ['puzzle'],
     embedUrl: 'https://embed.universaluclick.com/c/usat/l/U2FsdGVkX1%2BYT5NgQOGmP0eXS7l6ui3HRvkJPZnVrskWmQHiltHShoQoSZ6VaAmj%0AabFcR1j377gJYN0sXVf9pg%3D%3D/g/ken',
     thumbnail: '/images/kenken.webp',
     relatedSlugs: ['pizza-tower', 'bullet-force', 'killer-sudoku'],
@@ -9407,6 +9750,7 @@ export const games = [
     title: 'Pizza Tower - Play the Game Free Online',
     metaDescription: 'Play Pizza Tower online and enjoy the action-packed platformer! Run, jump, and smash through levels as Peppino in this fast-paced pizza tower game.',
     category: 'online-games',
+    tags: ['platformer', 'arcade'],
     embedUrl: 'https://web.archive.org/web/20241216005147/https://kdata1.com/2021/03/3527391/2.1/',
     thumbnail: '/images/pizza-tower.webp',
     relatedSlugs: ['paper-io', 'baldis-basics', 'bloxorz'],
@@ -9438,6 +9782,7 @@ export const games = [
     title: 'Bloxorz Unblocked – Play the Game Free Online',
     metaDescription: 'Play Bloxorz unblocked online! Enjoy this challenging blox game, roll the block through tricky paths, and drop it perfectly into the square hole to win.',
     category: 'online-games',
+    tags: ['puzzle'],
     embedUrl: 'https://bloxorzunblocked.github.io/',
     thumbnail: '/images/bloxorz.webp',
     relatedSlugs: ['paper-io', 'baldis-basics', 'idle-breakout'],
@@ -9469,6 +9814,7 @@ export const games = [
     title: 'Baldi’s Basics - Play the Game Unblocked Online',
     metaDescription: 'Play Baldi’s Basics unblocked online! Explore the fun yet creepy Baldi’s Basics game, collect notebooks, and escape Baldi’s school before he catches you.',
     category: 'online-games',
+    tags: ['arcade', 'puzzle'],
     embedUrl: 'https://baldis-basics-online.github.io/file/',
     thumbnail: '/images/baldis-basics.webp',
     relatedSlugs: ['paper-io', 'granny-unblocked', 'idle-breakout'],
@@ -9500,6 +9846,7 @@ export const games = [
     title: 'Paper IO - Play the Game Unblocked Online',
     metaDescription: 'Play Paper.io unblocked online and conquer the map! Expand your land, eliminate rivals, and dominate the arena in this thrilling multiplayer paper game.',
     category: 'online-games',
+    tags: ['io', 'arcade'],
     embedUrl: 'https://games.crazygames.com/en_US/paper-io-2/index.html',
     thumbnail: '/images/paper-io.webp',
     relatedSlugs: ['drift-boss-unblocked', 'granny-unblocked', 'idle-breakout'],
@@ -9531,6 +9878,7 @@ export const games = [
     title: 'Idle Breakout - Play the Game Unblocked Online',
     metaDescription: 'Play Idle Breakout unblocked game online. Smash bricks, earn points, and upgrade balls in this addictive idle breakout game of endless fun and strategy.',
     category: 'online-games',
+    tags: ['simulation', 'arcade'],
     embedUrl: 'https://idle-breakout.github.io/games/idle-breakout/index.html',
     thumbnail: '/images/idle-breakout.webp',
     relatedSlugs: ['drift-boss-unblocked', 'granny-unblocked', 'crossy-road'],
@@ -9562,6 +9910,7 @@ export const games = [
     title: 'Granny Unblocked - Play the Game Free Online',
     metaDescription: 'Play Granny unblocked horror game online. Escape the creepy house, solve puzzles, and survive the terrifying Granny game with stealth and strategy.',
     category: 'online-games',
+    tags: ['puzzle', 'arcade'],
     embedUrl: 'https://unblocked-games.s3.amazonaws.com/games/granny/index.html',
     thumbnail: '/images/granny-unblocked.webp',
     relatedSlugs: ['drift-boss-unblocked', 'cookie-clicker-2', 'crossy-road'],
@@ -9593,6 +9942,7 @@ export const games = [
     title: 'Drift Boss Unblocked - Play the Game Free Online',
     metaDescription: 'Play Drift Boss unblocked and show off your drifting skills! Control your car, drift around sharp turns, and master the Drift Boss game for endless fun online.',
     category: 'online-games',
+    tags: ['racing', 'arcade'],
     embedUrl: 'https://html5.gamedistribution.com/rvvASMiM/44df88b8e5f64c2b96cb97f74e6eac31/index.html',
     thumbnail: '/images/drift-boss-unblocked.webp',
     relatedSlugs: ['cookie-clicker-unblocked', 'cookie-clicker-2', 'crossy-road'],
@@ -9624,6 +9974,7 @@ export const games = [
     title: 'Cookie Clicker 2 - Play the Game Unblocked Online',
     metaDescription: 'Play Cookie Clicker 2 unblocked! Bake cookies, unlock upgrades, and expand your bakery empire in the fun and addictive Cookie Clicker 2 game online.',
     category: 'online-games',
+    tags: ['simulation'],
     embedUrl: 'https://cookieclicker2.io/cookie-clicker.embed',
     thumbnail: '/images/cookie-clicker-2.webp',
     relatedSlugs: ['cookie-clicker-unblocked', 'basket-random', 'checkers'],
@@ -9655,6 +10006,7 @@ export const games = [
     title: 'Getaway Shootout – Play the Game Unblocked Online',
     metaDescription: 'Play Getaway Shootout unblocked and race, jump, and shoot your way to the getaway point. Compete in crazy battles in this fun and chaotic action game.',
     category: 'online-games',
+    tags: ['arcade', 'shooter'],
     embedUrl: 'https://games.crazygames.com/en_US/getaway-shootout/index.html',
     thumbnail: '/images/getaway-shootout.webp',
     relatedSlugs: ['slope-3', 'among-us-online', 'fall-guys'],
@@ -9686,6 +10038,7 @@ export const games = [
     title: 'Fall Guys – Play Fall Guys Game Unblocked Online',
     metaDescription: 'Play Fall Guys unblocked and join hilarious obstacle courses. Compete, dodge, and race to victory in the ultimate Fall Guys game of chaos and fun.',
     category: 'online-games',
+    tags: ['arcade', 'io'],
     embedUrl: 'https://fallguys3.com/fall-guys-and-fall-girls-knockdown.embed',
     thumbnail: '/images/fall-guys.webp',
     relatedSlugs: ['slope-3', 'among-us-online', 'fnaf-unblocked'],
@@ -9717,6 +10070,7 @@ export const games = [
     title: 'Among Us Online – Play the Game Unblocked Free',
     metaDescription: 'Play Among Us online free and join crewmates or impostors in thrilling missions. Enjoy Among Us unblocked and test your deception and teamwork skills.',
     category: 'online-games',
+    tags: ['io', 'strategy'],
     embedUrl: 'https://ubg365.github.io/among-us/play.html',
     thumbnail: '/images/among-us-online.webp',
     relatedSlugs: ['slope-3', 'shell-shockers', 'fnaf-unblocked'],
@@ -9748,6 +10102,7 @@ export const games = [
     title: 'Slope 3 – Play the Game Unblocked Online',
     metaDescription: 'Play Slope 3 unblocked online and test your reflexes on a fast 3D track. Control the ball, avoid obstacles, and race through endless neon slopes.',
     category: 'online-games',
+    tags: ['arcade'],
     embedUrl: 'https://html5.gamedistribution.com/rvvASMiM/ae7e70e9d8584fddb1a1dd5a3dc7e4d4/index.html',
     thumbnail: '/images/slope-3.webp',
     relatedSlugs: ['bitlife-unblocked', 'shell-shockers', 'fnaf-unblocked'],
@@ -9779,6 +10134,7 @@ export const games = [
     title: 'FNAF Unblocked – Play Five Nights at Freddy’s Online',
     metaDescription: 'Play FNAF unblocked and experience the horror of Five Nights at Freddy’s online. Survive the nights, monitor cameras, and escape the animatronics’ attack.',
     category: 'online-games',
+    tags: ['puzzle', 'arcade'],
     embedUrl: 'https://ubg365.github.io/fnaf/play.html',
     thumbnail: '/images/fnaf-unblocked.webp',
     relatedSlugs: ['bitlife-unblocked', 'shell-shockers', 'wordle-game'],
@@ -9810,6 +10166,7 @@ export const games = [
     title: 'Shell Shockers - Play the Game Unblocked Online',
     metaDescription: 'Play Shell Shockers, the ultimate egg shooter game online. Enter egg battles, use weapons, and dominate Shell Shockers unblocked anytime, anywhere.',
     category: 'online-games',
+    tags: ['shooter', 'io'],
     embedUrl: 'https://violentegg.fun/',
     thumbnail: '/images/shell-shockers.webp',
     relatedSlugs: ['bitlife-unblocked', 'happy-wheels', 'wordle-game'],
@@ -9841,6 +10198,7 @@ export const games = [
     title: 'BitLife Unblocked - Play the Game Free Online',
     metaDescription: 'Play BitLife unblocked and live your dream life! Make choices, build careers, find love, and shape your story in the fun life simulator BitLife game online.',
     category: 'online-games',
+    tags: ['simulation'],
     embedUrl: 'https://bitlifeonline.bitbucket.io/file/',
     thumbnail: '/images/bitlife-unblocked.webp',
     relatedSlugs: ['slither-io', 'happy-wheels', 'wordle-game'],
@@ -9872,6 +10230,7 @@ export const games = [
     title: 'Wordle Game - Play the Game Unblocked Online',
     metaDescription: 'Play Wordle game online and guess the hidden word in six tries! Enjoy Wordle unlimited, NYTimes Wordle, and Wordle unblocked free for daily fun challenges.',
     category: 'online-games',
+    tags: ['word-and-trivia'],
     embedUrl: 'https://powerlanguage-wordle.github.io/',
     thumbnail: '/images/wordle-game.webp',
     relatedSlugs: ['slither-io', 'happy-wheels', 'rocket-league'],
@@ -9903,6 +10262,7 @@ export const games = [
     title: 'Happy Wheels - Play the Game Unblocked Online',
     metaDescription: 'Play Happy Wheels unblocked, the funniest ragdoll physics game! Ride crazy vehicles, avoid deadly traps, and survive hilarious challenges online.',
     category: 'online-games',
+    tags: ['arcade', 'platformer'],
     embedUrl: 'https://games.crazygames.com/en_US/happy-wheels/index.html',
     thumbnail: '/images/happy-wheels.webp',
     relatedSlugs: ['slither-io', 'chess-online', 'rocket-league'],
@@ -9934,6 +10294,7 @@ export const games = [
     title: 'Slither IO - Play the Game Unblocked Online',
     metaDescription: 'Play Slither.io unblocked and become the biggest snake! Compete online, eat glowing orbs, and dominate the arena in this addictive Slither.io game.',
     category: 'online-games',
+    tags: ['io', 'arcade'],
     embedUrl: 'https://slithergame.io/slither-io.embed',
     thumbnail: '/images/slither-io.webp',
     relatedSlugs: ['geometry-dash-unblocked', 'chess-online', 'rocket-league'],
@@ -9965,6 +10326,7 @@ export const games = [
     title: 'Rocket League - Play the Game Unblocked Online',
     metaDescription: 'Play Rocket League unblocked and join the thrilling car-soccer action. Drive, boost, and score goals in this high-speed Rocket League game adventure.',
     category: 'online-games',
+    tags: ['sports', 'racing'],
     embedUrl: 'https://ubg77.github.io/edit/rocket-soccer-derby/',
     thumbnail: '/images/rocket-league.webp',
     relatedSlugs: ['geometry-dash-unblocked', 'chess-online', 'fortnite-online'],
@@ -9996,6 +10358,7 @@ export const games = [
     title: 'Chess Online - Play Chess Game Free Unblocked Online',
     metaDescription: 'Play chess online free and challenge players worldwide. Enjoy the classic chess game unblocked with smart moves and real-time strategy.',
     category: 'online-games',
+    tags: ['card-and-board', 'strategy'],
     embedUrl: 'https://chessunblock.github.io/file/',
     thumbnail: '/images/chess-online.webp',
     relatedSlugs: ['geometry-dash-unblocked', '1v1-lol-unblocked', 'fortnite-online'],
@@ -10027,6 +10390,7 @@ export const games = [
     title: 'Geometry Dash Unblocked - Play the Game Free Online',
     metaDescription: 'Play Geometry Dash unblocked for free! Jump, fly, and flip through challenging levels in Geometry Dash online — test your skills with endless fun.',
     category: 'online-games',
+    tags: ['arcade', 'platformer'],
     embedUrl: 'https://geometrygame.org/geometry-dash.embed',
     thumbnail: '/images/geometry-dash-unblocked.webp',
     relatedSlugs: ['tetris-unblocked', '1v1-lol-unblocked', 'fortnite-online'],
@@ -10058,6 +10422,7 @@ export const games = [
     title: 'Fortnite Online - Play the Game Unblocked Online',
     metaDescription: 'Play Fortnite online for free! Enjoy the unblocked Fortnite game with epic battles, creative modes, and intense multiplayer fun right in your browser.',
     category: 'online-games',
+    tags: ['shooter', 'io'],
     embedUrl: 'https://games.crazygames.com/en_US/fortzone-battle-royale-xkd/index.html',
     thumbnail: '/images/fortnite-online.webp',
     relatedSlugs: ['tetris-unblocked', '1v1-lol-unblocked', 'subway-surfers-unblocked'],
@@ -10089,6 +10454,7 @@ export const games = [
     title: '2048 Cupcakes - Play the Game Free Online',
     metaDescription: 'Play 2048 Cupcakes and merge delicious treats to reach the ultimate dessert! Enjoy this sweet and addictive Cupcake Game challenge online.',
     category: 'online-games',
+    tags: ['puzzle'],
     embedUrl: 'https://0x0800.github.io/2048-CUPCAKES/',
     thumbnail: '/images/2048-cupcakes.webp',
     relatedSlugs: ['2048-game', 'tiny-fishing', 'temple-run'],
@@ -10120,6 +10486,7 @@ export const games = [
     title: 'Temple Run - Play the Game Unblocked Online',
     metaDescription: 'Play Temple Run Unblocked online! Dash, jump, and slide through ancient temples, escape monsters, and collect coins in this fast-paced endless running game.',
     category: 'online-games',
+    tags: ['arcade', 'platformer'],
     embedUrl: 'https://html5.gamedistribution.com/f2af2ecc05a445edb6862c589e996a7e/index.html',
     thumbnail: '/images/temple-run.webp',
     relatedSlugs: ['temple-run-2', '8-ball-pool', 'penalty-shooters-2'],
@@ -10151,6 +10518,7 @@ export const games = [
     title: '8 Ball Pool - Play the Game Unblocked Online',
     metaDescription: 'Challenge players worldwide in 8 Ball Pool game. Master your shots, refine your aim, and become a pool legend in this exciting online billiards game.',
     category: 'online-games',
+    tags: ['sports'],
     embedUrl: 'https://htmlxm.github.io/h8/8-ball-pool/',
     thumbnail: '/images/8-ball-pool.webp',
     relatedSlugs: ['stickman-hook', 'stickman', 'penalty-shooters-2'],
@@ -10182,6 +10550,7 @@ export const games = [
     title: 'Temple Run 2 - Play the Game Unblocked Online',
     metaDescription: 'Play Temple Run 2 unblocked! Run, jump, and slide through thrilling temples. Escape the beast, collect coins, and test your reflexes.',
     category: 'online-games',
+    tags: ['arcade', 'platformer'],
     embedUrl: 'https://htmlxm.github.io/h8/temple-run-2/',
     thumbnail: '/images/temple-run-2.webp',
     relatedSlugs: ['stickman-hook', '8-ball-pool', 'penalty-shooters-2'],
@@ -10213,6 +10582,7 @@ export const games = [
     title: 'Penalty Shooters 2 - Play the Game Unblocked Online',
     metaDescription: 'Step into the spotlight in Penalty Shooters 2! Test your aim, timing, and reflexes in thrilling penalty duels. Score goals, defend, and claim victory!',
     category: 'online-games',
+    tags: ['sports'],
     embedUrl: 'https://htmlxm.github.io/h6/penalty-shooters-2/',
     thumbnail: '/images/penalty-shooters-2.webp',
     relatedSlugs: ['stickman-hook', 'stickman', 'the-impossible-quiz'],
@@ -10244,6 +10614,7 @@ export const games = [
     title: 'Stickman - Play the Game Free Online',
     metaDescription: 'Play Stickman online! Enjoy action-packed levels, fun challenges, and creative gameplay in the Stickman game. Start playing now!',
     category: 'online-games',
+    tags: ['arcade'],
     embedUrl: 'https://html5.gamedistribution.com/89d3a50c38c14692be0f5d1a3b872ef2/index.html',
     thumbnail: '/images/stickman.webp',
     relatedSlugs: ['basketball-stars', 'getting-over-it', 'the-impossible-quiz'],
@@ -10275,6 +10646,7 @@ export const games = [
     title: 'The Impossible Quiz - Play The Game Online',
     metaDescription: 'Play The Impossible Quiz online! Test your brain with tricky, hilarious questions in The Impossible Quiz unblocked. Can you beat it?',
     category: 'online-games',
+    tags: ['word-and-trivia', 'puzzle'],
     embedUrl: 'https://htmlxm.github.io/h8/the-impossible-quiz/',
     thumbnail: '/images/the-impossible-quiz.webp',
     relatedSlugs: ['basketball-stars', 'getting-over-it', 'basketball-legends'],
@@ -10306,6 +10678,7 @@ export const games = [
     title: 'Basketball Legends - Play the Game Unblocked Online',
     metaDescription: 'Play Basketball Legends game online at GamesDoodle.org. Enjoy epic 1v1 matches, special dunks, and thrilling moves in Basketball Legends unblocked!',
     category: 'online-games',
+    tags: ['sports'],
     embedUrl: 'https://www.basketballlegends.fun/gamedata/basketball-legends',
     thumbnail: '/images/basketball-legends.webp',
     relatedSlugs: ['basketball-stars', 'getting-over-it', 'moto-x3m'],
@@ -10337,6 +10710,7 @@ export const games = [
     title: 'Getting Over It – Play the Game Free Online',
     metaDescription: 'Play Getting Over It online for free! Experience the tough climbing challenge and try fan-made versions like Getting Over It Scratch.',
     category: 'online-games',
+    tags: ['platformer', 'arcade'],
     embedUrl: 'https://games.crazygames.com/en_US/getting-over-it/index.html',
     thumbnail: '/images/getting-over-it.webp',
     relatedSlugs: ['plants-vs-zombies', 'doodle-jump', 'moto-x3m'],
@@ -10368,6 +10742,7 @@ export const games = [
     title: 'Plants vs Zombies – Play PvZ Game Online',
     metaDescription: 'Play Plants vs Zombies online! Build defenses, stop zombies, and enjoy PvZ fun. Try the Plants vs Zombies Fusion version for more action in this classic game.',
     category: 'online-games',
+    tags: ['strategy'],
     embedUrl: 'https://www.retrogames.cc/embed/42666-plants-vs-zombies.html',
     thumbnail: '/images/plants-vs-zombies.webp',
     relatedSlugs: ['snow-rider-unblocked', 'doodle-jump', 'nyt-crossword'],
@@ -10399,6 +10774,7 @@ export const games = [
     title: 'Tic Tac Toe – Play Tic Tac Toe Game Online',
     metaDescription: 'Play Tic Tac Toe online! Enjoy the classic tic tac toe game against friends or AI. Simple, fun, and perfect for quick matches anytime.',
     category: 'online-games',
+    tags: ['card-and-board', 'puzzle'],
     embedUrl: 'https://games.crazygames.com/en_US/tic-tac-toe/index.html',
     thumbnail: '/images/tic-tac-toe.webp',
     relatedSlugs: ['slope-2', 'smash-karts', 'drift-hunters'],
@@ -10426,6 +10802,7 @@ export const games = [
     title: 'Rooftop Snipers – Play the Game Unblocked Online',
     metaDescription: 'Play Rooftop Snipers unblocked! Enjoy the hilarious two-player rooftop snipers game with crazy physics, fun duels, and endless shooting battles online.',
     category: 'online-games',
+    tags: ['shooter', 'arcade'],
     embedUrl: 'https://embed.gamesdoodle.org/rooftop-snipers/games/rooftop-snipers/',
     thumbnail: '/images/rooftop-snipers.webp',
     relatedSlugs: ['password-game', 'bad-time-simulator', 'do-a-barrel-roll'],
@@ -10453,6 +10830,7 @@ export const games = [
     title: 'Google Memory Game - Play Free Online Now',
     metaDescription: 'Train your brain with the Google Memory Game! Flip and match cards in this fun memory game. Play online for free and boost your concentration.',
     category: 'google-doodle-games',
+    tags: ['puzzle', 'card-and-board'],
     embedUrl: 'https://santatracker.google.com/matching.html',
     thumbnail: '/images/memory-game.webp',
     relatedSlugs: ['google-minesweeper', 'doodle-baseball', 'google-feud'],
@@ -10474,6 +10852,7 @@ export const games = [
     title: 'Google Dreidel - Play Hanukkah Game Free Online',
     metaDescription: 'Spin the Google Dreidel online! Enjoy the classic dreidel game for fun and learning right here. No download needed, just play and enjoy!',
     category: 'google-doodle-games',
+    tags: ['card-and-board', 'simulation'],
     embedUrl: 'https://embed.gamesdoodle.org/spinadreidel/',
     thumbnail: '/images/google-dreidel.webp',
     relatedSlugs: ['google-snake', 'google-tic-tac-toe', 'google-solitaire'],
@@ -10495,6 +10874,7 @@ export const games = [
     title: 'Google Snake - Play Classic Snake Game Online',
     metaDescription: 'Play Google Snake, a modern take on the classic Snake Game. Control the snake, eat food, grow longer, and avoid crashes. Enjoy fun gameplay',
     category: 'google-doodle-games',
+    tags: ['arcade'],
     embedUrl: 'https://snak.ee/google-snake-new/index.html',
     thumbnail: '/images/google-snake.webp',
     relatedSlugs: ['google-tic-tac-toe', 'google-solitaire', 'google-dreidel'],
@@ -10526,6 +10906,7 @@ export const games = [
     title: 'Google Solitaire - Play The Solitaire Google Free Online',
     metaDescription: 'Enjoy Google Solitaire, a timeless card game! Play Solitaire free online, stack cards strategically, and challenge yourself to win every round.',
     category: 'google-doodle-games',
+    tags: ['card-and-board'],
     embedUrl: 'https://embed.gamesdoodle.org/solitaire/',
     thumbnail: '/images/google-solitaire.webp',
     relatedSlugs: ['google-snake', 'google-tic-tac-toe', 'google-dreidel'],
@@ -10557,6 +10938,7 @@ export const games = [
     title: 'Google Tic Tac Toe - Play Game Free Online',
     metaDescription: 'Play Google Tic Tac Toe online! Challenge yourself or a friend in this classic strategy game. Get three in a row and win the match',
     category: 'google-doodle-games',
+    tags: ['card-and-board', 'puzzle'],
     embedUrl: 'https://embed.gamesdoodle.org/tic-tac/',
     thumbnail: '/images/google-tic-tac-toe.webp',
     relatedSlugs: ['google-snake', 'google-solitaire', 'google-dreidel'],
@@ -10587,10 +10969,11 @@ export const games = [
   },
   {
     slug: 'nerdle',
-    pinned: true,
+    dateAdded: '2026-03-14',
     title: 'Nerdle – Play the Daily Math Equation Puzzle Online',
     metaDescription: 'Play Nerdle online, the daily math equation guessing game. Crack the hidden calculation in 6 tries using digits and operators. Free, no download needed.',
     category: 'online-games',
+    tags: ['puzzle', 'word-and-trivia'],
     embedUrl: 'https://files.rocketgames.io/uploads/games/n/nerdle/files/116c67/index.html',
     thumbnail: '/images/nerdle.webp',
     relatedSlugs: ['quordle', 'octordle', 'numberle'],
@@ -10619,10 +11002,11 @@ export const games = [
   },
   {
     slug: 'moviedle',
-    pinned: true,
+    dateAdded: '2026-03-14',
     title: 'Moviedle – Play the Daily Movie Guessing Game Online',
     metaDescription: 'Play Moviedle online, the daily movie guessing game. Identify the film from cast, director, and genre clues. Free to play, no download needed.',
     category: 'online-games',
+    tags: ['word-and-trivia'],
     embedUrl: 'https://moviedle.xyz',
     thumbnail: '/images/moviedle.webp',
     relatedSlugs: ['swiftle', 'flaggle', 'squaredle'],
@@ -10649,10 +11033,11 @@ export const games = [
   },
   {
     slug: 'swiftle',
-    pinned: true,
+    dateAdded: '2026-03-14',
     title: 'Swiftle – Play the Taylor Swift Song Guessing Game Online',
     metaDescription: 'Play Swiftle online, the Heardle-style game for Taylor Swift fans. Identify the song from a short audio clip in 5 tries. Free to play instantly.',
     category: 'online-games',
+    tags: ['word-and-trivia', 'music-and-creative'],
     embedUrl: 'https://swiftle.app',
     thumbnail: '/images/swiftle.webp',
     relatedSlugs: ['moviedle', 'flaggle', 'squaredle'],
@@ -10679,10 +11064,11 @@ export const games = [
   },
   {
     slug: 'squaredle',
-    pinned: true,
+    dateAdded: '2026-03-14',
     title: 'Squaredle – Play the Daily Word Finding Puzzle Online',
     metaDescription: 'Play Squaredle online, the daily word-finding grid puzzle. Connect adjacent letters to find all hidden words. Free to play, no download needed.',
     category: 'online-games',
+    tags: ['word-and-trivia'],
     embedUrl: 'https://squaredle.app',
     thumbnail: '/images/squaredle.webp',
     relatedSlugs: ['quordle', 'nerdle', 'moviedle'],
@@ -10709,10 +11095,11 @@ export const games = [
   },
   {
     slug: 'flaggle',
-    pinned: true,
+    dateAdded: '2026-03-14',
     title: 'Flaggle – Play the Daily Flag Guessing Game Online',
     metaDescription: 'Play Flaggle online, the daily flag guessing game. Identify the country from its flag with progressive reveal clues. Free to play, no download needed.',
     category: 'online-games',
+    tags: ['word-and-trivia'],
     embedUrl: 'http://flagle.org',
     thumbnail: '/images/flaggle.webp',
     relatedSlugs: ['tradle', 'moviedle', 'squaredle'],
@@ -10739,10 +11126,11 @@ export const games = [
   },
   {
     slug: 'numberle',
-    pinned: true,
+    dateAdded: '2026-03-14',
     title: 'Numberle – Play the Daily Math Equation Game Online',
     metaDescription: 'Play Numberle online, the daily math equation guessing game inspired by Wordle. Crack the hidden equation in 6 tries. Free to play, no download needed.',
     category: 'online-games',
+    tags: ['puzzle', 'word-and-trivia'],
     embedUrl: 'https://numberle.pages.dev/random',
     thumbnail: '/images/numberle.webp',
     relatedSlugs: ['nerdle', 'quordle', 'octordle'],
@@ -10769,10 +11157,11 @@ export const games = [
   },
   {
     slug: 'tradle',
-    pinned: true,
+    dateAdded: '2026-03-14',
     title: 'Tradle – Play the Daily Trade & Economics Guessing Game Online',
     metaDescription: 'Play Tradle online, the daily geography and economics puzzle. Guess the country from its export treemap in 6 tries. Free to play, no download needed.',
     category: 'online-games',
+    tags: ['word-and-trivia'],
     embedUrl: 'https://games.oec.world/en/tradle/',
     thumbnail: '/images/tradle.webp',
     relatedSlugs: ['flaggle', 'moviedle', 'quordle'],
@@ -10799,10 +11188,11 @@ export const games = [
   },
   {
     slug: 'duotrigordle',
-    pinned: true,
+    dateAdded: '2026-03-14',
     title: 'Duotrigordle – Solve 32 Wordle Puzzles at Once Online',
     metaDescription: 'Play Duotrigordle online, the ultimate multi-board Wordle challenge. Solve 32 five-letter words in 37 guesses. Free to play, no download needed.',
     category: 'online-games',
+    tags: ['word-and-trivia'],
     embedUrl: 'https://wordlewebsite.com/game/duotrigordle/',
     thumbnail: '/images/duotrigordle.webp',
     relatedSlugs: ['quordle', 'octordle', 'nerdle'],
@@ -10829,10 +11219,11 @@ export const games = [
   },
   {
     slug: 'quordle',
-    pinned: true,
+    dateAdded: '2026-03-14',
     title: 'Quordle – Play the 4-Board Wordle Puzzle Online',
     metaDescription: 'Play Quordle online, the daily word puzzle where you solve 4 Wordle boards at once in 9 guesses. Hosted by Merriam-Webster. Free to play instantly.',
     category: 'online-games',
+    tags: ['word-and-trivia'],
     embedUrl: 'https://montessorichildrenscommunity.org/quordle',
     thumbnail: '/images/quordle.webp',
     relatedSlugs: ['octordle', 'duotrigordle', 'nerdle'],
@@ -10859,10 +11250,11 @@ export const games = [
   },
   {
     slug: 'octordle',
-    pinned: true,
+    dateAdded: '2026-03-14',
     title: 'Octordle – Play the 8-Board Wordle Puzzle Online',
     metaDescription: 'Play Octordle online, the daily word puzzle where you solve 8 Wordle boards simultaneously in 13 guesses. Hosted by Britannica. Free to play instantly.',
     category: 'online-games',
+    tags: ['word-and-trivia'],
     embedUrl: 'https://octordlegame.io/game/octordle/',
     thumbnail: '/images/octordle.webp',
     relatedSlugs: ['quordle', 'duotrigordle', 'nerdle'],
@@ -10887,18 +11279,344 @@ export const games = [
 </div>
 <!-- CONTENT END 1 -->`,
   },
+  {
+    slug: 'magic-cat-academy-2',
+    title: 'Magic Cat Academy 2 – Play the Underwater Halloween Google Doodle',
+    metaDescription: 'Play Magic Cat Academy 2, the 2020 Halloween Google Doodle where Momo the cat battles underwater ghosts to save the Deep Sea School. Free to play.',
+    category: 'google-doodle-games',
+    tags: ['arcade'],
+    dateAdded: '2026-03-14',
+    embedUrl: 'https://hg1.onga.io/magic-cat-academy-2/',
+    thumbnail: '/images/magic-cat-academy-2.webp',
+    relatedSlugs: ['magic-cat-academy', 'great-ghoul-duel', 'doodle-champion-island-games'],
+    excerpt: 'Magic Cat Academy 2 takes Momo underwater for Halloween 2020, swapping the school corridors for ocean depths filled with sea-creature ghosts.',
+    content: `<p>Magic Cat Academy 2 is the sequel to one of Google&#8217;s most beloved Doodles, released on October 30, 2020 — four years after the original. This time Momo the cat wizard has traded her school&#8217;s haunted hallways for the ocean floor, battling ghosts through the five levels of the Deep Sea School. The same satisfying gesture-based spellcasting returns, now with a striking underwater aesthetic and a brand new cast of aquatic ghost designs.</p>
+
+<p>The core mechanic is unchanged from the original: ghosts approach Momo with glowing symbols above their heads, and you defeat them by drawing those shapes with your mouse or finger. Horizontal and vertical lines, V shapes, upside-down Vs, and the crowd-clearing lightning bolt are all back. What changes is the visual language — your enemies are now sea-creature ghosts inspired by crabs, jellyfish, manta rays, and deep-sea anglerfish, each rendered with the original Doodle team&#8217;s characteristic charm.</p>
+
+<p>The five levels take Momo through increasingly challenging ocean environments: the Coral Reef Classroom, the Kelp Forest Gymnasium, the Bioluminescent Cafeteria, the Abyssal Library, and finally the Trenches — where the final boss lurks. Symbol combinations grow longer and ghost waves grow faster as you descend deeper. The underwater palette of deep blues, teals, and bioluminescent glows makes this sequel visually distinct from the warmer autumnal tones of the original school setting.</p>
+
+<p>The game was again developed by the Google Doodle team and built around Juliana Chen&#8217;s Momo character, who has since become one of Google&#8217;s most recognisable mascots. The underwater setting was chosen specifically to give the sequel a fresh identity while keeping everything fans loved about the original intact. Magic Cat Academy 2 sits comfortably between its predecessor and the 2024 space instalment as the most atmospheric entry in the trilogy.</p>
+
+<h2 class="wp-block-heading">How To Play Magic Cat Academy 2</h2>
+
+<p>Draw symbols matching those shown above each ghost&#8217;s head using your mouse or touchscreen. Click and drag (or swipe) to create the shape anywhere on the screen.</p>
+
+<p>Basic spells include horizontal lines, vertical lines, and V shapes pointing up or down. The lightning bolt hits every ghost on screen at once — save it for busy moments when multiple enemies converge.</p>
+
+<p>Keep an eye out for heart symbols to restore one of your five lives. Drawing quickly but accurately matters more than grand sweeping gestures — shorter, confident strokes register faster.</p>
+
+<p>Prioritise ghosts closest to Momo. If they reach her before you draw their symbol, you lose a life. In later levels, ghosts may carry two or three symbols stacked — draw each in sequence without lifting.</p>
+
+<p>The final boss requires a sustained flurry of spells across multiple phases. Stay calm, read the symbols clearly, and don&#8217;t rush — accuracy beats speed at the endgame.</p>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'magic-cat-academy-3',
+    title: 'Magic Cat Academy 3 – Play the Space Halloween Google Doodle 2024',
+    metaDescription: 'Play Magic Cat Academy 3, the Halloween 2024 Google Doodle where Momo battles space ghosts across five galactic levels. The trilogy finale — free to play.',
+    category: 'google-doodle-games',
+    tags: ['arcade'],
+    dateAdded: '2026-03-14',
+    embedUrl: 'https://hg1.onga.io/magic-cat-academy-3/',
+    thumbnail: '/images/magic-cat-academy-3.webp',
+    relatedSlugs: ['magic-cat-academy', 'magic-cat-academy-2', 'doodle-champion-island-games'],
+    excerpt: 'Magic Cat Academy 3 sends Momo to space for Halloween 2024, completing the beloved trilogy with a stellar cast of cosmic ghosts and a five-planet adventure.',
+    content: `<p>Magic Cat Academy 3 is the trilogy finale, released on October 31, 2024 to complete one of Google Doodle&#8217;s most celebrated series. After haunting a school in 2016 and plunging underwater in 2020, Momo the cat wizard has suited up in a spacesuit and blasted off to battle ghosts across five planetary environments. It&#8217;s the most visually ambitious entry in the series, trading earthly settings for a glittering galaxy of asteroid fields, alien planets, and nebulae.</p>
+
+<p>The gesture-based spellcasting system that defined the first two games returns in full — draw the symbols above each ghost&#8217;s head to defeat them, clear waves to progress, and manage five lives across five escalating levels. What changes is the scale and spectacle. Ghost designs now draw on science-fiction and cosmic horror archetypes: translucent nebula wraiths, geometric crystalline entities, and bioluminescent deep-space creatures replace the underwater and school-themed enemies of the earlier instalments.</p>
+
+<p>Each of the five levels is set in a distinct planetary environment — from a low-gravity asteroid outpost in the opening stage to the black hole observatory that serves as the game&#8217;s dramatic finale. The symbol vocabulary expands compared to the earlier games, introducing new shapes that appear in later levels and demanding greater precision under time pressure. The lightning bolt ultimate ability returns, still capable of clearing all on-screen enemies simultaneously and still one of the most satisfying moments in Doodle game history.</p>
+
+<p>Developed eight years after the original Magic Cat Academy premiered, the third instalment reflects how far Google&#8217;s Doodle engineering has evolved. The animation quality, particle effects, and responsive gesture recognition are markedly more polished. For fans who played the original on a 2016 Google search page, returning to Momo for this space conclusion is a genuinely nostalgic experience — and a worthy send-off for one of gaming&#8217;s most charming casual characters.</p>
+
+<h2 class="wp-block-heading">How To Play Magic Cat Academy 3</h2>
+
+<p>Use your mouse or touchscreen to draw symbols matching those shown above each ghost. Click and drag (or swipe) anywhere on the screen to cast spells.</p>
+
+<p>Core symbols include horizontal and vertical lines, V shapes in both directions, and the lightning bolt — which clears all visible ghosts at once. Later levels introduce additional shapes, so read each symbol carefully before drawing.</p>
+
+<p>Watch for the heart symbol to restore a lost life. You have five lives per run, so prioritise ghosts closest to Momo before dealing with distant ones.</p>
+
+<p>In the final levels, ghosts may carry chains of two or three symbols. Draw each in sequence without pausing — the game registers multi-symbol spells as a single continuous gesture chain.</p>
+
+<p>The black hole finale boss has multiple phases and attacks faster than anything earlier in the game. Focus on accuracy over speed, and use the lightning bolt as soon as the screen fills to avoid being overwhelmed.</p>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'eiji-tsuburaya-google-doodle',
+    title: 'Eiji Tsuburaya Google Doodle – Play the Tokusatsu Filmmaking Mini-Games',
+    metaDescription: 'Play the Eiji Tsuburaya Google Doodle in fullscreen. Direct a Tokusatsu monster movie through five mini-challenges — dress the actor, rig the harness, and destroy the city!',
+    category: 'google-doodle-games',
+    tags: ['arcade', 'puzzle'],
+    dateAdded: '2026-03-14',
+    embedUrl: 'https://game3.glov3.me/uploads/game/html5/25762/',
+    thumbnail: '/images/eiji-tsuburaya-google-doodle.webp',
+    relatedSlugs: ['doodle-champion-island-games', 'great-ghoul-duel', 'magic-cat-academy'],
+    excerpt: 'Before CGI, every monster movie required an army of clever technicians pulling wires, stitching costumes, and building miniature cities. The Eiji Tsuburaya Google Dood...',
+    content: `<p>Before CGI, every monster movie required an army of clever technicians pulling wires, stitching costumes, and building miniature cities. The Eiji Tsuburaya Google Doodle drops you into that world, putting you in the director&#8217;s chair for a series of rapid-fire Tokusatsu filmmaking challenges that are equal parts chaotic and charming. Released on July 7, 2015 — Tsuburaya&#8217;s 114th birthday — this interactive Doodle celebrates the man who created both Ultraman and the entire genre of Japanese monster films.</p>
+
+<p>Eiji Tsuburaya was born in 1901 in Sukagawa, Japan, and developed an obsession with aviation that eventually led him to cinema. He joined the Japanese film industry in the 1930s and developed groundbreaking special effects techniques during World War II. But his legacy was truly cemented in 1954, when he served as special effects director on the original Godzilla — a film that invented the concept of a man in a rubber suit stomping through a miniature city. Tsuburaya built every set by hand at carefully calculated scales, rigged every wire himself, and used forced perspective to make a man in a monster costume look genuinely terrifying. The illusion was so convincing that US military officials reportedly believed the film was using real wartime footage.</p>
+
+<p>In 1963, Tsuburaya founded Tsuburaya Productions and created what would become Japan&#8217;s other great monster franchise: Ultraman. The 1966 television series combined Tsuburaya&#8217;s signature miniature-destruction aesthetic with a superhero narrative, inventing a template for the &#8220;tokusatsu&#8221; (special filming) genre that has influenced everything from Power Rangers to Pacific Rim. Tsuburaya died in 1970, but his studio and techniques live on — Ultraman remains one of the most profitable entertainment franchises in Japanese history.</p>
+
+<p>The Google Doodle captures his process brilliantly. You work through five mini-game challenges that simulate what it actually took to make a Tokusatsu production in the 1960s. You dress an actor in the monster costume before the scene starts, connect electrical wires to rig the lighting, fasten the harness that will make the monster appear to fly, and then direct the actual monster attack — stomping through a meticulously built miniature city. The final challenge requires you to destroy buildings on cue, timing your destruction for maximum cinematic effect. It&#8217;s silly, fast, and surprisingly educational about a filmmaking craft that deserves far more recognition than it typically gets.</p>
+
+<h2 class="wp-block-heading">How To Play Eiji Tsuburaya Doodle</h2>
+
+<p>The Doodle runs you through five sequential mini-game challenges, each simulating a different stage of Tokusatsu filmmaking:</p>
+
+<ul class="wp-block-list">
+<li><strong>Dress the actor</strong> — drag costume pieces onto the actor before the timer runs out. Match each piece to the correct body position.</li>
+
+<li><strong>Connect the wires</strong> — draw lines to complete the electrical circuit, linking each pair of matching connectors on the lighting rig.</li>
+
+<li><strong>Connect the harness</strong> — attach the rigging cables to the correct attachment points on the monster costume so the actor can be lifted safely.</li>
+
+<li><strong>Destroy the buildings</strong> — time your clicks or taps to knock down miniature city blocks at the right moment as the monster charges through the set.</li>
+
+<li>Each challenge must be completed within a time limit — work quickly but accurately to move through all stages and complete the film.</li>
+</ul>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'valentines-day-2022-google-doodle',
+    title: 'Valentine\'s Day 2022 Google Doodle – Help Two Hamsters Find Love',
+    metaDescription: 'Play the Valentine\'s Day 2022 Google Doodle, an interactive 3D puzzle where you clear paths for two smitten hamsters to reach each other. Free to play online.',
+    category: 'google-doodle-games',
+    tags: ['puzzle'],
+    dateAdded: '2026-03-14',
+    embedUrl: 'https://game3.glov3.me/uploads/game/html5/25835/',
+    thumbnail: '/images/valentines-day-2022-google-doodle.webp',
+    relatedSlugs: ['pangolin-love', 'doodle-champion-island-games', 'google-earth-day-honeybees'],
+    excerpt: 'The Valentine\'s Day 2022 Google Doodle is an interactive 3D puzzle game where you piece together a path so two adorable hamsters can scamper into each other\'s arms.',
+    content: `<p>The Valentine&#8217;s Day 2022 Google Doodle is one of Google&#8217;s most charming interactive creations — an isometric 3D puzzle game where two smitten hamsters stand on opposite sides of a broken path, and it&#8217;s your job to piece the route together so they can finally reach each other. Released on February 14, 2022, it turned Google&#8217;s homepage into a miniature love story told entirely through clever spatial puzzles and adorable animations.</p>
+
+<p>The concept is deceptively simple: each level presents you with a gap-filled path between two hamsters. You need to slide, rotate, and place path tiles into the correct positions to create an unbroken route connecting the pair. As you progress through the levels, the puzzles become more complex — paths twist in multiple directions, platforms sit at different heights, and you&#8217;ll need to think in three dimensions to figure out how pieces fit together. It&#8217;s part jigsaw, part spatial reasoning, and entirely heartwarming.</p>
+
+<p>Google&#8217;s Doodle team described it as an &#8220;interactive 3-D Doodle&#8221; — a step up from many of their previous holiday games in terms of visual complexity. The isometric perspective gives the game a toy-like quality, as if you&#8217;re rearranging pieces on a tiny diorama. When you successfully connect a path, the hamsters scamper toward each other with an enthusiasm that makes the puzzle-solving feel genuinely rewarding. Each completed level ends with the two hamsters meeting in the middle, nuzzling or celebrating in some adorable way before the next challenge begins.</p>
+
+<p>The art direction was led by Kevin Laughlin and Celine You, who gave the hamsters expressive faces and bouncy animations that bring real personality to what could have been a sterile puzzle game. The engineering team — including Daniel Dovali, Conner Lane, and Mark Ivey — built the 3D engine that runs smoothly in a browser without any plugins or downloads. UX designer Winnie Ma ensured the controls felt intuitive whether you were playing on desktop or mobile.</p>
+
+<p>Valentine&#8217;s Day Doodles have a long history at Google. In 2017, they released the beloved Pangolin Love game, where you helped an endangered pangolin collect ingredients for chocolate-covered strawberries across four days of mini-games. The 2022 edition takes a different approach — instead of an action game, it&#8217;s a contemplative puzzle that rewards patience and careful observation. The hamster theme was a deliberate choice: hamsters are universally seen as cute, non-threatening, and endlessly entertaining to watch, making them perfect Valentine&#8217;s ambassadors.</p>
+
+<h2 class="wp-block-heading">How To Play Valentine&#8217;s Day 2022 Google Doodle</h2>
+
+<ul class="wp-block-list">
+<li>Click on the Doodle to start the first puzzle. Two hamsters appear on opposite sides of a broken 3D path.</li>
+
+<li>Examine the gaps in the path and the available path pieces. Click or tap a piece to select it, then place it in the correct position to bridge the gap.</li>
+
+<li>Some pieces may need to be rotated or flipped — use the on-screen controls or click multiple times to cycle through orientations.</li>
+
+<li>Once you&#8217;ve placed all pieces correctly and created an unbroken path, the hamsters will automatically scamper toward each other.</li>
+
+<li>Complete each level to unlock the next puzzle. Difficulty increases with more complex paths, multiple height levels, and trickier piece shapes.</li>
+
+<li>Enjoy the adorable reunion animations when the hamsters meet — each level has a unique celebration moment.</li>
+</ul>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'lake-xochimilco-google-doodle',
+    title: 'Lake Xochimilco Google Doodle – Snap Axolotl Photos on the Lake',
+    metaDescription: 'Play the Lake Xochimilco Google Doodle in fullscreen. Boat through the UNESCO lake near Mexico City on a trajinera and photograph axolotls hiding in the water.',
+    category: 'google-doodle-games',
+    tags: ['puzzle', 'simulation'],
+    dateAdded: '2026-03-14',
+    embedUrl: 'https://game3.glov3.me/uploads/game/html5/25817/',
+    thumbnail: '/images/lake-xochimilco-google-doodle.webp',
+    relatedSlugs: ['google-earth-day-honeybees', 'pangolin-love', 'doodle-champion-island-games'],
+    excerpt: 'Not all endangered species look fearsome. The axolotl — a permanently-smiling freshwater salamander that regenerates its own limbs and lives only in one Mexican lake — has bec...',
+    content: `<p>Not all endangered species look fearsome. The axolotl — a permanently-smiling freshwater salamander that regenerates its own limbs and lives only in one Mexican lake — has become one of the internet&#8217;s most beloved creatures. The Lake Xochimilco Google Doodle leans into that affection completely, putting you on a brightly painted trajinera boat and sending you out to photograph axolotls hiding in the reeds and chinampas. Released on May 20, 2023, it commemorates the 103rd anniversary of the Mexican government returning Lake Xochimilco to its local community.</p>
+
+<p>Lake Xochimilco sits about 20 kilometres south of Mexico City and was once the heart of the ancient Aztec civilisation. The Aztecs built a remarkable system of artificial floating gardens called chinampas — rectangular plots of fertile land raised above the water using interwoven branches, reeds, and soil — that allowed them to farm intensively in a lake environment. When Spanish colonists arrived in the 15th century, they redirected the lake for their own use, and the ecosystem suffered centuries of disruption. In 1920, the Mexican government formally returned the lake to its indigenous community, and in 1987 UNESCO designated it a World Heritage Site.</p>
+
+<p>The lake is now the last remaining native habitat on Earth for the axolotl. These extraordinary creatures&#8212;technically aquatic neotenic salamanders that never fully undergo metamorphosis&#8212;can regenerate lost limbs, damaged organs, and even portions of their brains and eyes. Their mouths curve permanently upward into a slight smile, giving them an expression of constant mild amusement. Despite their celebrity status online, they were listed as critically endangered in 2008. Pollution, invasive species, and urban drainage have destroyed most of their natural habitat, leaving Xochimilco as their final refuge.</p>
+
+<p>The Doodle was designed by artist Helene Leroux, who traveled to Mexico to research the lake firsthand. The game is a photography adventure: you drift through the canals on a colorful wooden trajinera, scanning the water and vegetation for axolotls that pop up briefly before disappearing again. The challenge is timing — you need to spot them quickly and snap your shot before they vanish. The vibrant visual style captures the real Xochimilco beautifully, right down to the painted trajinera boats that have become one of Mexico City&#8217;s most recognisable tourist experiences.</p>
+
+<h2 class="wp-block-heading">How To Play Lake Xochimilco Doodle</h2>
+
+<ul class="wp-block-list">
+<li>Click the Doodle to board your trajinera boat and begin gliding through the canals of Lake Xochimilco.</li>
+
+<li>Watch the water and the vegetation along the edges carefully — axolotls will appear briefly in the reeds, beneath lily pads, or in the shallows.</li>
+
+<li>Click on an axolotl the moment you spot one to snap a photograph. Timing is key: hesitate too long and they disappear back into the lake.</li>
+
+<li>Try to photograph as many axolotls as possible before your journey ends. Each successful photo adds to your collection.</li>
+
+<li>Read the facts that appear between scenes to learn about the axolotl&#8217;s remarkable biology and the conservation efforts protecting Lake Xochimilco today.</li>
+</ul>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'google-earth-day-honeybees',
+    title: 'Google Earth Day Honeybees – Play the Pollination Doodle Game',
+    metaDescription: 'Play Google\'s Earth Day 2020 Doodle game. Help a bee pollinate flowers across six levels in this beautiful nature-themed interactive game. Free to play.',
+    category: 'google-doodle-games',
+    tags: ['puzzle', 'simulation'],
+    dateAdded: '2026-03-14',
+    embedUrl: 'https://game3.glov3.me/uploads/game/html5/25833/',
+    thumbnail: '/images/google-earth-day-honeybees.webp',
+    relatedSlugs: ['coding-for-carrots', 'pangolin-love', 'doodle-champion-island-games'],
+    excerpt: 'Google\'s Earth Day 2020 Doodle game puts you in control of a bee on a mission to pollinate flowers across six ecosystems, celebrating the critical role of pollinators.',
+    content: `<p>Google&#8217;s Earth Day 2020 Doodle game was released on April 22, 2020 — the 50th anniversary of Earth Day — as an interactive tribute to one of the planet&#8217;s most vital creatures: the bee. Rather than a single mini-game, it presents a narrative-driven experience across six distinct ecosystems, putting you in control of a honeybee on a critical pollination mission. Each ecosystem teaches something real about the relationship between bees and the plants they sustain.</p>
+
+<p>The game was developed in partnership with the Xerces Society, a leading pollinator conservation organisation, which provided ecological guidance to ensure the content was scientifically grounded. The six ecosystems — each representing a different region and biome — feature plants native to those habitats, and the game subtly teaches players which flowers attract which bees, how nectar collection works, and why the pollination chain matters for global food supply.</p>
+
+<p>Gameplay involves guiding your bee through each level, visiting flowers in the correct sequence to collect nectar and transfer pollen. The controls are intentionally gentle — smooth, unhurried movement that suits the meditative subject matter. Time pressure exists but never feels punishing. The emphasis is on exploration and discovery rather than reflexes, making it one of the more accessible Google Doodle games across age groups.</p>
+
+<p>The visual design is exceptional even by Google&#8217;s Doodle standards: rich botanical illustrations, ambient nature soundscapes, and fluid bee animation combine to create something genuinely beautiful. Released at the start of the first global lockdown, the Earth Day 2020 Doodle offered a quiet moment of nature at a time when many people couldn&#8217;t go outside — which may partly explain why it was shared far more widely than a typical Doodle at the time.</p>
+
+<p>The game also includes educational interstitials between levels explaining facts about bee populations, the threats they face from habitat loss and pesticides, and what individuals can do to support pollinators — from planting wildflowers to avoiding certain garden chemicals.</p>
+
+<h2 class="wp-block-heading">How To Play Google Earth Day Honeybees</h2>
+
+<p>Control your bee using the mouse or arrow keys. Guide it toward flowers to collect nectar and pollen — hovering near a flower initiates the pollination interaction automatically.</p>
+
+<p>Visit flowers in each ecosystem in sequence. The game highlights which flowers need attention. Some blooms require multiple visits before they&#8217;re fully pollinated.</p>
+
+<p>Collect enough nectar in each level to fill the pollen meter before time runs out. The timer is generous — focus on finding all the flowers rather than rushing.</p>
+
+<p>Between levels, read the ecological fact cards. They provide context for what you&#8217;re doing and explain the real-world stakes of bee population decline.</p>
+
+<p>Later levels introduce environmental obstacles like wind currents and denser flower arrangements. Move carefully and maintain a steady flight path to avoid missing flowers in tricky terrain.</p>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'flying-car-simulator',
+    title: 'Flying Car Simulator – Drive and Fly Your Car in 3D',
+    metaDescription: 'Play Flying Car Simulator online for free. Drive through a city or take off and fly your car like an airplane in this 3D Unity WebGL game.',
+    category: 'online-games',
+    tags: ['racing', 'simulation'],
+    dateAdded: '2026-03-14',
+    embedUrl: 'https://ubg67.gitlab.io/flying-car-simulator/',
+    thumbnail: '/images/flying-car-simulator.webp',
+    relatedSlugs: ['moto-x3m', 'eggy-car', 'marble-run'],
+    excerpt: 'Flying Car Simulator is a 3D driving game where you can switch between driving on roads and flying through the sky above a detailed city.',
+    content: `<p>Flying Car Simulator is a 3D open-world driving game developed by Blue Axis and released in June 2019. Unlike traditional driving games that keep you grounded, this one lets you take to the skies at the press of a button. Drive through a detailed city environment, then hit F to deploy your wings and soar above the rooftops like an airplane. It&#8217;s the best of both worlds — street racing and free flight in one seamless experience.</p>
+
+<p>The game is built with Unity WebGL and features a surprisingly large city map to explore. You can cruise through streets, weave between buildings, or climb to extreme altitudes and look down at the entire map below. The flying mechanics are smooth and responsive, giving you full control over pitch, roll, and altitude. When you&#8217;re ready to land, just press F again and your car transforms back for ground driving.</p>
+
+<p>Nitro boost adds an extra layer of excitement — hold Shift to blast forward at high speed whether you&#8217;re on the ground or in the air. The physics are arcade-style rather than realistic, which makes the game accessible and fun rather than frustrating. You don&#8217;t need to worry about fuel or damage — just enjoy the freedom of exploring the city from every angle.</p>
+
+<p>The graphics are solid for a browser game, with decent building models, road textures, and lighting effects. The city has highways, residential areas, and open spaces that all look distinct from above. Flying between skyscrapers at top speed with nitro engaged is genuinely thrilling.</p>
+
+<h2 class="wp-block-heading">How To Play Flying Car Simulator</h2>
+
+<ul class="wp-block-list">
+<li>Use WASD keys to steer and accelerate your car on the ground.</li>
+
+<li>Press F to switch between driving mode and flying mode — your car sprouts wings and takes off.</li>
+
+<li>Hold Shift to activate nitro boost for a burst of speed on the ground or in the air.</li>
+
+<li>Press Spacebar to brake when driving on the ground.</li>
+
+<li>While flying, use WASD to control pitch and direction. Explore the city from above and find interesting spots to land.</li>
+
+<li>There are no set objectives — it&#8217;s a sandbox experience. Drive, fly, and explore the open city at your own pace.</li>
+</ul>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'x-trench-run',
+    title: 'X Trench Run – Space Fighter Arcade Shooter Game',
+    metaDescription: 'Play X Trench Run online for free. Pilot a space fighter through enemy trenches, dodge obstacles, shoot turrets, and defeat bosses in this fast-paced arcade game.',
+    category: 'online-games',
+    tags: ['shooter', 'arcade'],
+    dateAdded: '2026-03-14',
+    embedUrl: 'https://html5.gamedistribution.com/24d6db9a49d94cc28cf6c5b0073adb28/',
+    thumbnail: '/images/x-trench-run.webp',
+    relatedSlugs: ['solar-smash', 'voxiom', 'marble-run'],
+    excerpt: 'X Trench Run is a fast-paced arcade space shooter where you pilot a fighter ship through enemy trenches, dodging obstacles and battling bosses.',
+    content: `<p>X Trench Run is a fast-paced arcade space shooter developed by MarketJS and released in August 2019. You play as the nation&#8217;s star cadet, piloting an X Fighter Wing on a critical mission deep into enemy territory. The gameplay is reminiscent of the iconic Death Star trench run — you fly through narrow corridors at high speed, dodging obstacles, disabling laser gates, and taking out enemy turrets along the way.</p>
+
+<p>The game features a simple but addictive gameplay loop. Each run sends you hurtling through a procedurally arranged trench filled with barriers, enemy turrets, and laser gates. You need quick reflexes to weave between obstacles while simultaneously shooting down threats. The controls are tight and responsive — arrow keys or WASD to manoeuvre, spacebar or left click to fire your weapons.</p>
+
+<p>Boss fights punctuate the action at regular intervals, providing a satisfying challenge. These larger enemies require sustained fire while you dodge their attack patterns. Defeating a boss lets you advance to the next section of the trench, where the difficulty ramps up with faster obstacles and more complex arrangements.</p>
+
+<p>Every run feels different thanks to the varied obstacle layouts, keeping the game fresh even after many attempts. The 3D graphics create a convincing sense of speed and depth as the trench walls blur past. Sound effects and a pumping soundtrack complete the arcade atmosphere.</p>
+
+<p>X Trench Run works on both desktop and mobile browsers, making it easy to pick up and play anywhere. The one-hand control scheme on mobile (tap and drag to move, auto-fire) is particularly well implemented.</p>
+
+<h2 class="wp-block-heading">How To Play X Trench Run</h2>
+
+<ul class="wp-block-list">
+<li>Use WASD or arrow keys to control your space fighter&#8217;s movement up, down, left, and right.</li>
+
+<li>Press Spacebar or left-click to fire your weapons at enemy turrets and obstacles ahead.</li>
+
+<li>Dodge barriers, laser gates, and incoming fire by weaving through the trench.</li>
+
+<li>Destroy enemy turrets to clear your path and earn points.</li>
+
+<li>Face off against bosses at the end of each section — keep firing while dodging their attacks.</li>
+
+<li>On mobile, tap and drag to move your fighter. Shooting is automatic.</li>
+</ul>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
 ];
 export function getGameBySlug(slug) {
   return games.find(g => g.slug === slug);
 }
 
+// Returns true if the game was added within the last `days` days
+export function isNewGame(game, days = 30) {
+  if (!game.dateAdded) return !!game.isNew;
+  const added = new Date(game.dateAdded);
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - days);
+  return added >= cutoff;
+}
+
 // Helper function to get games by category
 export function getGamesByCategory(categorySlug) {
   const all = games.filter(g => g.category === categorySlug);
-  // Pinned games appear first, then the rest in original order
+  // Pinned first, then remaining sorted by dateAdded (newest first, undated last)
+  // For same-date ties, later entries in the array (= more recently added) come first
   return [
     ...all.filter(g => g.pinned),
-    ...all.filter(g => !g.pinned),
+    ...all.filter(g => !g.pinned).sort((a, b) => {
+      const dateA = a.dateAdded ? new Date(a.dateAdded) : null;
+      const dateB = b.dateAdded ? new Date(b.dateAdded) : null;
+      if (dateA && !dateB) return -1;
+      if (!dateA && dateB) return 1;
+      if (dateA && dateB) {
+        const diff = dateB - dateA;
+        if (diff !== 0) return diff;
+        // Same date: later in the original array = more recently added → show first
+        return all.indexOf(b) - all.indexOf(a);
+      }
+      return 0;
+    }),
   ];
 }
 
@@ -10928,4 +11646,18 @@ export const featuredGameSlugs = [
   'memory-game',
   'google-dreidel',
 ];
+
+// Tag helpers
+export function getTagBySlug(slug) {
+  return tags.find(t => t.slug === slug);
+}
+
+export function getGamesByTag(tagSlug) {
+  return games.filter(g => g.tags && g.tags.includes(tagSlug));
+}
+
+export function getTagsForGame(game) {
+  if (!game.tags) return [];
+  return game.tags.map(slug => tags.find(t => t.slug === slug)).filter(Boolean);
+}
 

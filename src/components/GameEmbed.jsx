@@ -44,13 +44,17 @@ export default function GameEmbed({ game }) {
   return (
     <div className={`game-embed-wrapper ${isFullscreen ? 'fullscreen' : ''}`}>
       <div className="game-embed-toolbar">
-        <div className="related-quick-links">
-          {relatedGames.map(rg => (
-            <Link key={rg.slug} to={`/${rg.slug}/`} className="quick-link">
-              {rg.title.split('–')[0].trim()}
-            </Link>
-          ))}
-        </div>
+        {relatedGames.length > 0 && (
+          <div className="related-quick-links">
+            <span className="quick-links-label">Also try:</span>
+            {relatedGames.map(rg => (
+              <Link key={rg.slug} to={`/${rg.slug}/`} className="quick-link">
+                <span className="quick-link-dot" />
+                {rg.title.split(/[–\-]/)[0].trim()}
+              </Link>
+            ))}
+          </div>
+        )}
         <div className="embed-actions">
           {showIframe && (
             <button className="fullscreen-btn" onClick={toggleFullscreen}>
@@ -91,6 +95,9 @@ export default function GameEmbed({ game }) {
           <>
             {!isLoaded && (
               <div className="game-loading-overlay">
+                <div className="game-skeleton">
+                  <div className="skeleton-shimmer" />
+                </div>
                 <div className="game-spinner" />
                 <span className="game-loading-text">Loading game…</span>
               </div>
@@ -100,6 +107,7 @@ export default function GameEmbed({ game }) {
               title={game.title}
               className={`game-iframe${isLoaded ? ' loaded' : ''}`}
               allowFullScreen
+              scrolling="no"
               allow="autoplay; fullscreen; gamepad"
               onLoad={handleIframeLoad}
               {...(!game.noSandbox && { sandbox: 'allow-scripts allow-same-origin allow-popups allow-forms allow-modals' })}

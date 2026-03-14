@@ -29,6 +29,7 @@ fs.copyFileSync(path.join(DIST, 'index.html'), path.join(DIST, '200.html'));
 const gamesSource = fs.readFileSync(path.join(__dirname, 'src/data/games.js'), 'utf8');
 
 const CAT_SLUGS = ['google-doodle-games', 'online-games', 'google-tools', 'google-easter-egg'];
+const TAG_SLUGS = ['arcade', 'racing', 'shooter', 'puzzle', 'sports', 'io', 'word-and-trivia', 'strategy', 'music-and-creative', 'simulation', 'card-and-board', 'platformer'];
 const STATIC_SLUGS = ['about-us', 'privacy-policy', 'contact-us', 'editorial-policy'];
 
 const allSlugs = [...gamesSource.matchAll(/^\s+slug: '([^']+)'/gm)].map(m => m[1]);
@@ -37,6 +38,7 @@ const gameSlugs = allSlugs.filter(s => !CAT_SLUGS.includes(s));
 const routes = [
   '/',
   ...CAT_SLUGS.map(s => `/${s}/`),
+  ...TAG_SLUGS.map(s => `/tag/${s}/`),
   ...STATIC_SLUGS.map(s => `/${s}/`),
   ...gameSlugs.map(s => `/${s}/`),
 ];

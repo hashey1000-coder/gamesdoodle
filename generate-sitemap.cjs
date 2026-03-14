@@ -21,6 +21,9 @@ const gameSlugs = allSlugs.filter(s => !catSlugs.includes(s));
 // Static page slugs
 const staticSlugs = ['about-us', 'privacy-policy', 'contact-us', 'editorial-policy'];
 
+// Tag slugs
+const tagSlugs = ['arcade', 'racing', 'shooter', 'puzzle', 'sports', 'io', 'word-and-trivia', 'strategy', 'music-and-creative', 'simulation', 'card-and-board', 'platformer'];
+
 // Count games per category for pagination
 const categoryCounts = {};
 catSlugs.forEach(cat => {
@@ -44,6 +47,11 @@ catSlugs.forEach(slug => {
   for (let page = 2; page <= totalPages; page++) {
     urls.push({ loc: `${SITE_URL}/${slug}/?page=${page}`, priority: '0.5', changefreq: 'weekly' });
   }
+});
+
+// Tag pages
+tagSlugs.forEach(slug => {
+  urls.push({ loc: `${SITE_URL}/tag/${slug}/`, priority: '0.7', changefreq: 'weekly' });
 });
 
 // Game pages
@@ -78,5 +86,6 @@ if (fs.existsSync(path.join(__dirname, 'dist'))) {
 console.log(`Sitemap generated: ${urls.length} URLs`);
 console.log(`  - 1 homepage`);
 console.log(`  - ${catSlugs.length} category pages + pagination`);
+console.log(`  - ${tagSlugs.length} tag pages`);
 console.log(`  - ${gameSlugs.length} game pages`);
 console.log(`  Written to: ${publicPath}`);

@@ -99,7 +99,6 @@ export default function HomePage() {
         <section className="homepage-section">
           <div className="section-heading">
             <h2>⭐ Featured Games</h2>
-            <Link to="/online-games/" className="view-all">View All →</Link>
           </div>
           <div className="games-grid">
             {featuredGames.map(game => (
