@@ -19,7 +19,7 @@ const https = require('https');
 const INDEXNOW_KEY = process.env.INDEXNOW_KEY || '4aa56dab9c758816f479a1f2583759a2';
 const HOST         = 'gamesdoodle.org';
 const SITEMAP_PATH = 'public/sitemap.xml';
-const ENDPOINT     = 'www.bing.com';       // also accepted by Yandex, Seznam, etc.
+const ENDPOINT     = 'api.indexnow.org';   // official aggregator → distributes to Bing, Yandex, etc.
 const BATCH_SIZE   = 10_000;               // IndexNow max per request
 // ─────────────────────────────────────────────────────────────────────────────
 
