@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -21,7 +23,7 @@ jobs:
         run: npm install
 
       - name: Save previous sitemap (for IndexNow diff)
-        run: git show HEAD^1:public/sitemap.xml > /tmp/prev-sitemap.xml || cp public/sitemap.xml /tmp/prev-sitemap.xml
+        run: git show ${{ github.event.before }}:public/sitemap.xml > /tmp/prev-sitemap.xml 2>/dev/null || echo "" > /tmp/prev-sitemap.xml
 
       - name: Build site
         run: npm run build
