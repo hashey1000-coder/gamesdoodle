@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import GameCard from '../components/GameCard';
-import { games, featuredGameSlugs, categories, getGameBySlug } from '../data/games';
+import { games, featuredGameSlugs, getGameBySlug } from '../data/games';
 import { useFavorites } from '../hooks/useFavorites';
 
 function getRecentlyPlayed() {
@@ -43,88 +42,18 @@ export default function HomePage() {
         schemaType="homepage"
       />
       <div className="page-content">
-        {/* Hero Section */}
+        {/* Hero Section - matches WP H1 exactly */}
         <section className="hero-section">
           <h1 className="hero-title">
-            <span className="gradient-text">Games Doodle</span> – Play Google Doodle Games
+            Games Doodle – Play Google Doodle Games
           </h1>
-          <p className="hero-subtitle">
-            Discover 328+ free games — from classic Google Doodles to the best online browser games. No downloads, no sign-ups, just play.
-          </p>
-          <div className="stats-bar">
-            <div className="stat-item">
-              <div className="stat-number">{games.length}+</div>
-              <div className="stat-label">Games</div>
-            </div>
-            <div className="stat-item">
-              <div className="stat-number">{categories.length}</div>
-              <div className="stat-label">Categories</div>
-            </div>
-            <div className="stat-item">
-              <div className="stat-number">100%</div>
-              <div className="stat-label">Free</div>
-            </div>
-          </div>
         </section>
 
-        {/* Recently Played */}
-        {recentGames.length > 0 && (
-          <section className="homepage-section">
-            <div className="section-heading">
-              <h2>🕐 Continue Playing</h2>
-            </div>
-            <div className="games-grid">
-              {recentGames.map(game => (
-                <GameCard key={game.slug} game={game} isFavorite={isFavorite(game.slug)} onToggleFavorite={toggleFavorite} />
-              ))}
-            </div>
-          </section>
-        )}
-
-        {/* Favorite Games */}
-        {favoriteGames.length > 0 && (
-          <section className="homepage-section">
-            <div className="section-heading">
-              <h2>❤️ Your Favorites</h2>
-            </div>
-            <div className="games-grid">
-              {favoriteGames.map(game => (
-                <GameCard key={game.slug} game={game} isFavorite={true} onToggleFavorite={toggleFavorite} />
-              ))}
-            </div>
-          </section>
-        )}
-
-        {/* Featured Games */}
+        {/* Featured Games Grid - matches WP 13-game grid */}
         <section className="homepage-section">
-          <div className="section-heading">
-            <h2>⭐ Featured Games</h2>
-          </div>
           <div className="games-grid">
             {featuredGames.map(game => (
               <GameCard key={game.slug} game={game} isFavorite={isFavorite(game.slug)} onToggleFavorite={toggleFavorite} />
-            ))}
-          </div>
-        </section>
-
-        {/* Category Quick Links */}
-        <section className="homepage-section">
-          <div className="section-heading">
-            <h2>📂 Browse Categories</h2>
-          </div>
-          <div className="category-cards">
-            {categories.map(cat => (
-              <Link key={cat.slug} to={`/${cat.slug}/`} className="category-card">
-                <span className="category-card-icon">
-                  {cat.slug === 'google-doodle-games' ? '🎨' :
-                   cat.slug === 'online-games' ? '🎮' :
-                   cat.slug === 'google-tools' ? '🔧' : '🥚'}
-                </span>
-                <span className="category-card-name">{cat.name}</span>
-                <span className="category-card-count">
-                  {games.filter(g => g.category === cat.slug).length} games
-                </span>
-              </Link>
             ))}
           </div>
         </section>

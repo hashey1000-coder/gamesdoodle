@@ -7,28 +7,28 @@ export const categories = [
     name: 'Google Doodle Games',
     description: 'Discover exciting Google Doodle Games and relive past doodles with fun, interactive challenges. Play instantly online',
     metaTitle: 'Google Doodle Games – Play Free Online | Games Doodle',
-    metaDescription: 'Discover exciting Google Doodle Games and relive past doodles with fun, interactive challenges. Play instantly online at Games Doodle.',
+    metaDescription: 'Discover exciting Google Doodle Games and relive past doodles with fun, interactive challenges. Play instantly online',
   },
   {
     slug: 'online-games',
     name: 'Online Games',
     description: 'Play the collection of all the online games at the once place. Scroll through the fun online games and play now.',
     metaTitle: 'Online Games – Play Free Browser Games | Games Doodle',
-    metaDescription: 'Play the collection of all the online games at the once place. Scroll through the fun online games and play now at Games Doodle.',
+    metaDescription: 'Play the collection of all the online games at the once place. Scroll through the fun online games and play now.',
   },
   {
     slug: 'google-tools',
     name: 'Google Tools',
     description: 'Explore fun Google tools and interactive experiments. Try out creative Google features and hidden tools online.',
     metaTitle: 'Google Tools – Interactive Google Experiments | Games Doodle',
-    metaDescription: 'Explore fun Google tools and interactive experiments. Try out creative Google features and hidden tools online at Games Doodle.',
+    metaDescription: 'Explore fun Google tools and interactive experiments. Try out creative Google features and hidden tools online.',
   },
   {
     slug: 'google-easter-egg',
     name: 'Google Easter Egg',
     description: 'Discover hidden Google Easter eggs, fun tricks, and secret browser experiments. Play them all for free online.',
     metaTitle: 'Google Easter Egg – Hidden Google Tricks & Games | Games Doodle',
-    metaDescription: 'Discover hidden Google Easter eggs, fun tricks, and secret browser experiments. Play them all for free online at Games Doodle.',
+    metaDescription: 'Discover hidden Google Easter eggs, fun tricks, and secret browser experiments. Play them all for free online.',
   },
 ];
 
@@ -50,6 +50,8 @@ export const tags = [
 export const games = [
   {
     slug: 'pokemon-tower-defense',
+    datePublished: '2026-02-27T17:47:21+00:00',
+    dateModified: '2026-02-27T17:47:23+00:00',
     title: 'Pokemon Tower Defense – Play the Fan-Made Strategy Game Online',
     metaDescription: 'Play Pokemon Tower Defense online, the fan-made strategy game that combines classic Pokémon battles with tower defense gameplay.',
     category: 'online-games',
@@ -84,6 +86,8 @@ export const games = [
   },
   {
     slug: 'traffic-jam-3d',
+    datePublished: '2026-02-27T17:32:20+00:00',
+    dateModified: '2026-02-27T17:34:41+00:00',
     title: 'Traffic Jam 3D – Play the High-Speed Driving Game Online',
     metaDescription: 'Play Traffic Jam 3D online, the fast-paced driving game where you dodge traffic, complete missions, upgrade cars, and push for high scores.',
     category: 'online-games',
@@ -124,6 +128,8 @@ export const games = [
   },
   {
     slug: 'sausage-flip',
+    datePublished: '2026-02-27T17:17:11+00:00',
+    dateModified: '2026-02-27T17:17:13+00:00',
     title: 'Sausage Flip – Play the Funny Flipping Physics Game Online',
     metaDescription: 'Play Sausage Flip online, the hilarious physics arcade game where you flip, bounce, and stick your way through obstacle-filled levels.',
     category: 'online-games',
@@ -166,6 +172,8 @@ export const games = [
   },
   {
     slug: 'madalin-stunt-cars-2',
+    datePublished: '2026-02-24T17:46:39+00:00',
+    dateModified: '2026-02-26T15:35:48+00:00',
     title: 'Madalin Stunt Cars 2 – Play Free Online Multiplayer Driving Game',
     metaDescription: 'Play Madalin Stunt Cars 2 online, the free open-world driving game with supercars, massive ramps, and multiplayer stunt arenas.',
     category: 'online-games',
@@ -214,6 +222,8 @@ export const games = [
   },
   {
     slug: 'basket-random-pro',
+    datePublished: '2026-02-24T17:39:32+00:00',
+    dateModified: '2026-02-24T17:39:34+00:00',
     title: 'Basket Random Pro – Play the Ragdoll Basketball Game Online',
     metaDescription: 'Play Basket Random Pro online, the chaotic ragdoll basketball game. Jump, shoot, and score in wild matches against the CPU or a friend.',
     category: 'online-games',
@@ -256,6 +266,8 @@ export const games = [
   },
   {
     slug: 'slitherio',
+    datePublished: '2026-02-24T15:55:39+00:00',
+    dateModified: '2026-02-24T15:55:44+00:00',
     title: 'Slither.io – Play Free Online Snake Multiplayer Game',
     metaDescription: 'Play Slither.io online, the addictive multiplayer snake game. Eat orbs, grow longer, outsmart rivals, and climb the global leaderboard.',
     category: 'online-games',
@@ -298,6 +310,8 @@ export const games = [
   },
   {
     slug: 'chicken-invaders',
+    datePublished: '2026-02-21T16:02:47+00:00',
+    dateModified: '2026-02-21T16:02:50+00:00',
     title: 'Chicken Invaders Game – Play Free Online Space Shooter',
     metaDescription: 'Play Chicken Invaders online, the classic space shooter where you battle waves of alien chickens, dodge eggs, and upgrade your weapons to survive.',
     category: 'online-games',
@@ -340,6 +354,8 @@ export const games = [
   },
   {
     slug: 'pani-puri',
+    datePublished: '2026-02-21T15:26:08+00:00',
+    dateModified: '2026-02-21T15:26:11+00:00',
     title: 'Pani Puri Google Doodle – Play the Street Food Game Online',
     metaDescription: 'Play the Pani Puri Google Doodle game online. Match puris, fill orders fast, and enjoy this fun street food puzzle from Google.',
     category: 'online-games',
@@ -378,6 +394,8 @@ export const games = [
   },
   {
     slug: 'dino-swords',
+    datePublished: '2026-02-21T15:16:49+00:00',
+    dateModified: '2026-02-21T15:16:52+00:00',
     title: 'Dino Swords – Play the Weaponised Chrome Dino Game Online',
     metaDescription: 'Play Dino Swords online, the wild Chrome Dino mod packed with weapons and power-ups. Jump, collect items, and survive as long as you can.',
     category: 'online-games',
@@ -414,6 +432,8 @@ export const games = [
   },
   {
     slug: 'google-birthday-pinata-doodle',
+    datePublished: '2026-02-16T18:52:34+00:00',
+    dateModified: '2026-02-16T18:54:38+00:00',
     title: 'Google Birthday Piñata Doodle - Play the Game Free Online',
     metaDescription: 'Play the Google Birthday Piñata Doodle game online. Smash the piñata to collect candy in this fun interactive Google birthday celebration game.',
     category: 'google-doodle-games',
@@ -450,6 +470,8 @@ export const games = [
   },
   {
     slug: 'rise-of-the-half-moon',
+    datePublished: '2026-02-16T18:40:55+00:00',
+    dateModified: '2026-02-16T18:40:58+00:00',
     title: 'Rise of the Half Moon - Play The Doodle Game Unblocked',
     metaDescription: 'Play Rise of the Half Moon Google Doodle unblocked. Match lunar phase cards, build cycles, unlock wild cards, and battle the Half Moon.',
     category: 'online-games',
@@ -486,6 +508,8 @@ export const games = [
   },
   {
     slug: 'chinese-new-year-snake-google-doodle',
+    datePublished: '2026-02-16T18:31:57+00:00',
+    dateModified: '2026-02-16T18:32:01+00:00',
     title: 'Chinese New Year Snake Google Doodle – Play the Snake Game Unblocked',
     metaDescription: 'Play the Chinese New Year Snake Google Doodle in fullscreen. Collect festive items, grow your snake, and enjoy the Lunar New Year classic.',
     category: 'online-games',
@@ -524,6 +548,8 @@ export const games = [
   },
   {
     slug: 'pizza-google-doodle',
+    datePublished: '2026-02-14T19:16:28+00:00',
+    dateModified: '2026-02-14T19:16:30+00:00',
     title: 'Pizza Google Doodle Game – Play the Pizza Slicing Puzzle Fullscreen',
     metaDescription: 'Play the Pizza Google Doodle game in fullscreen. Slice pizzas to match orders, distribute toppings correctly, and solve tricky food puzzles.',
     category: 'online-games',
@@ -562,6 +588,8 @@ export const games = [
   },
   {
     slug: 'mbira-google-doodle',
+    datePublished: '2026-02-14T19:00:39+00:00',
+    dateModified: '2026-02-14T19:00:46+00:00',
     title: 'Mbira Google Doodle – Play the Zimbabwe Rhythm Game Fullscreen',
     metaDescription: 'Play the Mbira Google Doodle in fullscreen. Follow the story, hit notes in rhythm, and learn to play Zimbabwe’s traditional instrument online.',
     category: 'online-games',
@@ -601,6 +629,8 @@ export const games = [
   },
   {
     slug: 'johann-sebastian-bach-google-doodle',
+    datePublished: '2026-02-14T18:26:37+00:00',
+    dateModified: '2026-02-14T18:26:39+00:00',
     title: 'Johann Sebastian Bach Google Doodle – Play AI Music Composer',
     metaDescription: 'Play the Johann Sebastian Bach Google Doodle in fullscreen. Write a melody, let AI harmonise it in Bach’s style, and create your own Baroque music.',
     category: 'online-games',
@@ -639,6 +669,8 @@ export const games = [
   },
   {
     slug: 'beethoven-google-doodle',
+    datePublished: '2026-02-14T18:12:44+00:00',
+    dateModified: '2026-02-14T18:12:46+00:00',
     title: 'Beethoven Google Doodle – Play the Music Puzzle Game Fullscreen',
     metaDescription: 'Play the Beethoven Google Doodle in fullscreen. Reassemble famous melodies, solve sheet music puzzles, and help Beethoven reach his concert.',
     category: 'online-games',
@@ -675,6 +707,8 @@ export const games = [
   },
   {
     slug: 'savoy-ballroom-google-doodle',
+    datePublished: '2026-02-10T08:21:56+00:00',
+    dateModified: '2026-02-10T08:21:59+00:00',
     title: 'Savoy Ballroom Google Doodle – Play the Swing Rhythm Game Fullscreen',
     metaDescription: 'Play the Savoy Ballroom Google Doodle in fullscreen. Hit the keys to swing rhythms, dance through levels, and experience the birthplace of Lindy Hop.',
     category: 'online-games',
@@ -711,6 +745,8 @@ export const games = [
   },
   {
     slug: 'oskar-fischinger-google-doodle',
+    datePublished: '2026-02-10T08:16:05+00:00',
+    dateModified: '2026-02-10T08:16:09+00:00',
     title: 'Oskar Fischinger Google Doodle – Create Visual Music Fullscreen',
     metaDescription: 'Play the Oskar Fischinger Google Doodle in fullscreen. Create looping visual music, place notes on the grid, and watch shapes dance to your sound.',
     category: 'online-games',
@@ -747,6 +783,8 @@ export const games = [
   },
   {
     slug: 'clara-rockmore-google-doodle',
+    datePublished: '2026-02-10T08:11:42+00:00',
+    dateModified: '2026-02-10T08:11:45+00:00',
     title: 'Clara Rockmore Google Doodle – Play the Theremin Online Fullscreen',
     metaDescription: 'Play the Clara Rockmore Google Doodle in fullscreen. Learn the theremin, follow guided notes, and create music with the world’s first electronic instrument.',
     category: 'online-games',
@@ -783,6 +821,8 @@ export const games = [
   },
   {
     slug: 'hip-hop-google-doodle',
+    datePublished: '2026-02-10T08:05:19+00:00',
+    dateModified: '2026-02-10T08:05:22+00:00',
     title: 'Hip Hop Google Doodle – Play the DJ Mixing Game Fullscreen',
     metaDescription: 'Play the Hip Hop Google Doodle in fullscreen. Mix breakbeats on virtual turntables, scratch records, and explore the sounds that shaped hip hop.',
     category: 'online-games',
@@ -821,6 +861,8 @@ export const games = [
   },
   {
     slug: 'paris-games-2024',
+    datePublished: '2026-02-10T07:55:49+00:00',
+    dateModified: '2026-02-10T07:55:53+00:00',
     title: 'Paris Games 2024 Google Doodle – Play Hidden Objects Game',
     metaDescription: 'Play the Paris Games 2024 Google Doodle in fullscreen. Explore illustrated Paris, find 20 hidden items and discover mini-games.',
     category: 'online-games',
@@ -855,6 +897,8 @@ export const games = [
   },
   {
     slug: 'google-hurdles',
+    datePublished: '2026-02-04T21:13:52+00:00',
+    dateModified: '2026-02-04T21:13:55+00:00',
     title: 'Google Hurdles - Play the 2012 Doodle Game Free Online',
     metaDescription: 'Play Google Hurdles online. Race and jump over hurdles in this classic 2012 Olympic Google Doodle game.',
     category: 'google-doodle-games',
@@ -889,6 +933,8 @@ export const games = [
   },
   {
     slug: 'alan-turing-google-doodle',
+    datePublished: '2026-02-03T16:58:43+00:00',
+    dateModified: '2026-02-04T21:12:16+00:00',
     title: 'Alan Turing Google Doodle - Play the Turing Machine Game',
     metaDescription: 'Play the Alan Turing Google Doodle game online. Solve the Turing machine puzzle in this interactive tribute to the father of computer science.',
     category: 'google-doodle-games',
@@ -923,6 +969,8 @@ export const games = [
   },
   {
     slug: 'petanque-google-doodle-game',
+    datePublished: '2026-02-04T21:06:47+00:00',
+    dateModified: '2026-02-04T21:06:51+00:00',
     title: 'Pétanque Google Doodle Game – Play Online Multiplayer Fullscreen',
     metaDescription: 'Play Pétanque, the 2022 Google Doodle multiplayer game, in fullscreen. Throw boules, aim for the cochonnet, and challenge players online.',
     category: 'online-games',
@@ -957,6 +1005,8 @@ export const games = [
   },
   {
     slug: 'slalom-canoe-google-doodle',
+    datePublished: '2026-02-03T17:30:45+00:00',
+    dateModified: '2026-02-03T17:30:48+00:00',
     title: 'Slalom Canoe Google Doodle – Olympic Whitewater Racing Game',
     metaDescription: 'Play Slalom Canoe, the Olympic Google Doodle where you paddle through gates, dodge rocks, and race down a changing whitewater course.',
     category: 'online-games',
@@ -991,6 +1041,8 @@ export const games = [
   },
   {
     slug: 'google-soccer',
+    datePublished: '2026-02-03T17:23:28+00:00',
+    dateModified: '2026-02-03T17:23:30+00:00',
     title: 'Google Soccer Doodle – Endless Goalkeeper Penalty Challenge',
     metaDescription: 'Play Google Soccer, the Olympic Doodle where you guard the goal, block endless penalties, and survive as long as possible before three get past you.',
     category: 'online-games',
@@ -1025,6 +1077,8 @@ export const games = [
   },
   {
     slug: 'google-basketball-doodle',
+    datePublished: '2026-02-03T17:13:28+00:00',
+    dateModified: '2026-02-03T17:13:30+00:00',
     title: 'Google Basketball Doodle – 24-Second Olympic Hoops Challenge',
     metaDescription: 'Play Google Basketball, the Olympic Doodle where you time your shots, move back for 2s and 3s, and score as many hoops as possible in 24 seconds.',
     category: 'online-games',
@@ -1059,6 +1113,8 @@ export const games = [
   },
   {
     slug: 'pac-man-halloween-2025',
+    datePublished: '2026-02-03T17:06:49+00:00',
+    dateModified: '2026-02-03T17:06:51+00:00',
     title: 'PAC-MAN Halloween 2025 Google Doodle – Spooky Maze Edition',
     metaDescription: 'Play the PAC-MAN Halloween 2025 Google Doodle with haunted mazes, eyeball power-ups, and classic ghosts in a spooky arcade twist.',
     category: 'online-games',
@@ -1091,6 +1147,8 @@ export const games = [
   },
   {
     slug: 'rubiks-cube-google-doodle',
+    datePublished: '2026-01-30T19:21:38+00:00',
+    dateModified: '2026-01-30T19:21:42+00:00',
     title: 'Rubik’s Cube Google Doodle – Play the 3D Puzzle Online',
     metaDescription: 'Play the Rubik’s Cube Google Doodle, a fully interactive 3D puzzle where you twist, rotate, and try to solve the iconic cube online.',
     category: 'online-games',
@@ -1129,6 +1187,8 @@ export const games = [
   },
   {
     slug: 'jerry-lawson-google-doodle',
+    datePublished: '2026-01-30T19:15:04+00:00',
+    dateModified: '2026-01-30T19:15:07+00:00',
     title: 'Jerry Lawson Google Doodle – Build and Play Retro Arcade Games',
     metaDescription: 'Play the Jerry Lawson Google Doodle, a game-building experience where you play retro levels and create your own arcade games in the browser.',
     category: 'online-games',
@@ -1163,6 +1223,8 @@ export const games = [
   },
   {
     slug: 'pangolin-love',
+    datePublished: '2026-01-30T19:08:12+00:00',
+    dateModified: '2026-01-30T19:08:16+00:00',
     title: 'Pangolin Love Google Doodle Game – Valentine’s Platform Adventure',
     metaDescription: 'Play Pangolin Love, Google’s Valentine’s Doodle platformer where you roll across levels, collect gifts, and learn about endangered pangolins.',
     category: 'online-games',
@@ -1197,6 +1259,8 @@ export const games = [
   },
   {
     slug: 'doctor-who-50th-anniversary',
+    datePublished: '2026-01-30T18:57:41+00:00',
+    dateModified: '2026-01-30T19:02:09+00:00',
     title: 'Doctor Who 50th Anniversary Google Doodle – Play Whodle Online',
     metaDescription: 'Play the Doctor Who 50th Anniversary Google Doodle, an 8-bit adventure where you choose a Doctor and recover the stolen Google letters from Daleks.',
     category: 'online-games',
@@ -1231,6 +1295,8 @@ export const games = [
   },
   {
     slug: 'garden-gnomes',
+    datePublished: '2026-01-30T18:48:13+00:00',
+    dateModified: '2026-01-30T18:48:17+00:00',
     title: 'Garden Gnomes Google Doodle Game – Trebuchet Flower Launcher Fun',
     metaDescription: 'Play Garden Gnomes, Google’s physics Doodle where you launch gnomes, bounce across the garden, and plant flowers for big scores.',
     category: 'online-games',
@@ -1265,6 +1331,8 @@ export const games = [
   },
   {
     slug: 'google-boba-game',
+    datePublished: '2026-01-14T09:00:03+00:00',
+    dateModified: '2026-01-30T08:23:01+00:00',
     title: 'Google Boba Game – Play the Game Unblocked Online',
     metaDescription: 'Enjoy the Google Boba Game online. Mix bubble tea, add boba pearls, and serve customers in this fun and relaxing browser game.',
     category: 'online-games',
@@ -1303,6 +1371,8 @@ export const games = [
   },
   {
     slug: 'doodle-champion-island-games',
+    datePublished: '2026-01-27T19:14:23+00:00',
+    dateModified: '2026-01-30T08:22:01+00:00',
     title: 'Doodle Champion Island Games – Play the 16-Bit RPG Adventure',
     metaDescription: 'Play Doodle Champion Island Games, Google’s 16-bit RPG packed with Olympic minigames, side quests, secrets, and hidden trophies.',
     category: 'online-games',
@@ -1337,6 +1407,8 @@ export const games = [
   },
   {
     slug: 'magic-cat-academy',
+    datePublished: '2026-01-27T19:24:30+00:00',
+    dateModified: '2026-01-30T08:21:53+00:00',
     title: 'Magic Cat Academy – Play the Halloween Google Doodle Game',
     metaDescription: 'Play Magic Cat Academy, the Halloween Doodle where you draw spells to defeat ghosts and save Momo’s spellbook.',
     category: 'online-games',
@@ -1371,6 +1443,8 @@ export const games = [
   },
   {
     slug: 'coding-for-carrots',
+    datePublished: '2026-01-28T08:31:04+00:00',
+    dateModified: '2026-01-30T08:21:44+00:00',
     title: 'Coding for Carrots - Play the Google Doodle Coding Game',
     metaDescription: 'Play Coding for Carrots, the Google Doodle coding game. Help a bunny collect carrots by learning basic coding concepts in this fun interactive game.',
     category: 'google-doodle-games',
@@ -1405,6 +1479,8 @@ export const games = [
   },
   {
     slug: 'google-loteria',
+    datePublished: '2026-01-28T08:09:11+00:00',
+    dateModified: '2026-01-30T08:21:35+00:00',
     title: 'Google Lotería Doodle Game – Play Multiplayer Mexican Bingo',
     metaDescription: 'Play Google Lotería, the multiplayer Doodle inspired by the traditional Mexican card game. Match illustrated cards, mark your board, and win online.',
     category: 'online-games',
@@ -1439,6 +1515,8 @@ export const games = [
   },
   {
     slug: 'great-ghoul-duel',
+    datePublished: '2026-01-28T09:45:45+00:00',
+    dateModified: '2026-01-30T08:21:26+00:00',
     title: 'Great Ghoul Duel - Play the Google Halloween Game Free Online',
     metaDescription: 'Play Great Ghoul Duel, the Google Halloween Doodle game. Collect spirit flames and compete in this spooky multiplayer Google Doodle game.',
     category: 'google-doodle-games',
@@ -1515,6 +1593,8 @@ export const games = [
   },
   {
     slug: 'pony-express',
+    datePublished: '2026-01-28T09:55:52+00:00',
+    dateModified: '2026-01-30T08:21:10+00:00',
     title: 'Pony Express Google Doodle Game – Ride the Wild West Mail Trail',
     metaDescription: 'Play the Pony Express Google Doodle game where you ride through the Wild West, collect letters, dodge obstacles, and deliver the mail on time.',
     category: 'online-games',
@@ -1547,6 +1627,8 @@ export const games = [
   },
   {
     slug: 'google-scoville-game',
+    datePublished: '2026-01-28T09:58:31+00:00',
+    dateModified: '2026-01-30T08:21:02+00:00',
     title: 'Google Scoville Game – Ice Cream vs Chilli Peppers Doodle',
     metaDescription: 'Play the Google Scoville Game, a fun Doodle where you battle chilli peppers with ice cream while learning about the Scoville heat scale.',
     category: 'online-games',
@@ -1581,6 +1663,8 @@ export const games = [
   },
   {
     slug: 'crazy-shooters-2',
+    datePublished: '2026-01-27T09:38:38+00:00',
+    dateModified: '2026-01-27T09:38:42+00:00',
     title: 'Crazy Shooters 2 - Play The Game Unblocked Online',
     metaDescription: 'Play Crazy Shooters 2 online, a fast-paced browser FPS with 9 weapons, 2 game modes, and intense multiplayer battles across tactical maps.',
     category: 'online-games',
@@ -1615,6 +1699,8 @@ export const games = [
   },
   {
     slug: 'highway-racer-3d',
+    datePublished: '2026-01-27T09:05:06+00:00',
+    dateModified: '2026-01-27T09:05:09+00:00',
     title: 'Highway Racer 3D - Play The Game Unblocked Online',
     metaDescription: 'Play Highway Racer 3D, dodge traffic at high speed, earn near-miss bonuses, and unlock faster cars across multiple game modes.',
     category: 'online-games',
@@ -1649,6 +1735,8 @@ export const games = [
   },
   {
     slug: 'adam-and-eve-adam-the-ghost',
+    datePublished: '2026-01-27T08:56:51+00:00',
+    dateModified: '2026-01-27T08:56:55+00:00',
     title: 'Adam and Eve: Adam the Ghost – Online Free Game',
     metaDescription: 'Play Adam and Eve: Adam the Ghost, a funny point-and-click puzzle game where Adam scares victims by solving clever environmental puzzles in each level.',
     category: 'online-games',
@@ -1683,6 +1771,8 @@ export const games = [
   },
   {
     slug: 'crazy-shooters',
+    datePublished: '2026-01-26T16:24:06+00:00',
+    dateModified: '2026-01-26T16:24:10+00:00',
     title: 'Crazy Shooters Unblocked - Play Free Online Now',
     metaDescription: 'Play Crazy Shooters, a fast-paced browser FPS with multiplayer rooms, 9 weapons, 4 maps, and Free-for-All or Team Deathmatch modes — no download needed.',
     category: 'online-games',
@@ -1717,6 +1807,8 @@ export const games = [
   },
   {
     slug: 'rolly-vortex',
+    datePublished: '2026-01-26T13:27:57+00:00',
+    dateModified: '2026-01-26T13:28:00+00:00',
     title: 'Rolly Vortex Unblocked - Play Game Online For Free',
     metaDescription: 'Play Rolly Vortex unblocked, the fast-paced tunnel runner where reflexes matter. Dodge spinning obstacles and beat your high score.',
     category: 'online-games',
@@ -1751,6 +1843,8 @@ export const games = [
   },
   {
     slug: 'google-terminal',
+    datePublished: '2026-01-26T10:02:58+00:00',
+    dateModified: '2026-01-26T10:03:02+00:00',
     title: 'Google Terminal Easter Egg – Search Google Like a 1980s Command Line',
     metaDescription: 'Use the Google Terminal Easter Egg to search in a retro 1980s command line with green text, dial-up sounds, and authentic BBS-style visuals.',
     category: 'google-easter-egg',
@@ -1785,6 +1879,8 @@ export const games = [
   },
   {
     slug: 'google-black-hole',
+    datePublished: '2026-01-26T09:53:00+00:00',
+    dateModified: '2026-01-26T09:53:03+00:00',
     title: 'Google Black Hole – Play the Fun Easter Egg Online',
     metaDescription: 'Watch the Google Black Hole Easter Egg pull text, images, and links into a spinning void before restoring the page in a smooth, cosmic animation.',
     category: 'google-easter-egg',
@@ -1817,6 +1913,8 @@ export const games = [
   },
   {
     slug: 'google-matrix',
+    datePublished: '2026-01-26T09:47:16+00:00',
+    dateModified: '2026-01-26T09:47:22+00:00',
     title: 'Google Matrix – Play the Fun Easter Egg Online',
     metaDescription: 'See the Google Matrix Easter Egg with falling green code rain and a fully usable search bar inside the iconic Matrix effect.',
     category: 'google-easter-egg',
@@ -1855,6 +1953,8 @@ export const games = [
   },
   {
     slug: 'google-space-invaders-arcade-game',
+    datePublished: '2026-01-25T15:37:04+00:00',
+    dateModified: '2026-01-25T15:37:08+00:00',
     title: 'Google Space Invaders Arcade Game – Play the Fun Easter Egg Online',
     metaDescription: 'Google Space Invaders Arcade Game lets you shoot aliens while the Google logo acts as shields in this fun browser tribute to the arcade classic.',
     category: 'google-easter-egg',
@@ -1897,6 +1997,8 @@ export const games = [
   },
   {
     slug: 'google-tetris-arcade-game',
+    datePublished: '2026-01-25T15:30:13+00:00',
+    dateModified: '2026-01-25T15:30:18+00:00',
     title: 'Google Tetris Arcade Game – Play the Fun Easter Egg',
     metaDescription: 'Google Tetris Arcade Game turns the homepage into falling tetromino blocks, an ambient fan-made tribute inspired by the classic puzzle game.',
     category: 'google-easter-egg',
@@ -1935,6 +2037,8 @@ export const games = [
   },
   {
     slug: 'chrome-t-rex-dinosaur-game-3d',
+    datePublished: '2026-01-25T11:28:44+00:00',
+    dateModified: '2026-01-25T11:28:57+00:00',
     title: 'Chrome T-Rex Dinosaur Game 3D – Play the Dino Game Unblocked',
     metaDescription: 'Play Chrome T-Rex Dinosaur Game 3D from a behind-the-back view. Jump cacti, duck pterodactyls, and survive longer in this fan browser remake.',
     category: 'online-games',
@@ -1975,6 +2079,8 @@ export const games = [
   },
   {
     slug: 'google-tilt',
+    datePublished: '2026-01-25T10:53:34+00:00',
+    dateModified: '2026-01-25T10:53:38+00:00',
     title: 'Google Tilt Easter Egg – The Askew Page Trick',
     metaDescription: 'Google Tilt Easter Egg makes the search page lean right when you type “tilt” or “askew,” a subtle visual trick where results still work normally.',
     category: 'google-easter-egg',
@@ -2013,6 +2119,8 @@ export const games = [
   },
   {
     slug: 'google-maps-snake-game',
+    datePublished: '2026-01-25T10:49:16+00:00',
+    dateModified: '2026-01-25T10:49:20+00:00',
     title: 'Google Maps Snake Game – Play the Travel Arcade Easter Egg',
     metaDescription: 'Play Google Maps Snake Game and drive buses or trains through cities like London, Tokyo, and Cairo, collecting passengers in this fun April Fools’ Easter egg.',
     category: 'google-easter-egg',
@@ -2051,6 +2159,8 @@ export const games = [
   },
   {
     slug: 'google-legally-blonde',
+    datePublished: '2026-01-25T10:43:28+00:00',
+    dateModified: '2026-01-25T10:43:31+00:00',
     title: 'Google Legally Blonde Easter Egg – Pink Page Effect',
     metaDescription: 'Google Legally Blonde Easter Egg turns links pink as Bruiser pops from Elle’s purse, celebrating the film with a fun, stylish page makeover.',
     category: 'google-easter-egg',
@@ -2089,6 +2199,8 @@ export const games = [
   },
   {
     slug: 'google-guitar',
+    datePublished: '2026-01-25T10:34:19+00:00',
+    dateModified: '2026-01-25T10:34:23+00:00',
     title: 'Google Guitar Doodle Game – Play the Les Paul Guitar',
     metaDescription: 'Play the Google Guitar Doodle Game honoring Les Paul. Strum strings, use your keyboard, record 30-second tracks, and share your music online.',
     category: 'google-easter-egg',
@@ -2125,6 +2237,8 @@ export const games = [
   },
   {
     slug: 'google-wicked',
+    datePublished: '2026-01-25T10:28:08+00:00',
+    dateModified: '2026-01-25T10:28:12+00:00',
     title: 'Google Wicked – Play The Easter Egg Online',
     metaDescription: 'Google Wicked Easter Egg made pages float with green smoke, pink bubbles, and “Defying Gravity” from the film.',
     category: 'google-easter-egg',
@@ -2161,6 +2275,8 @@ export const games = [
   },
   {
     slug: 'google-let-it-snow',
+    datePublished: '2026-01-21T10:20:35+00:00',
+    dateModified: '2026-01-21T10:20:39+00:00',
     title: 'Google Let It Snow – Play The Easter Egg Online',
     metaDescription: 'Enjoy the Google Let It Snow Easter Egg. Watch snow fall, frost cover the screen, draw in the ice, then defrost and repeat.',
     category: 'google-easter-egg',
@@ -2197,6 +2313,8 @@ export const games = [
   },
   {
     slug: 'google-batman',
+    datePublished: '2026-01-21T10:14:54+00:00',
+    dateModified: '2026-01-21T10:15:59+00:00',
     title: 'Google Batman – Play The Easter Egg Online',
     metaDescription: 'Experience the Google Batman Easter Egg. Click the Bat-Signal to summon stormy Gotham skies and watch Batman swing across the screen.',
     category: 'google-easter-egg',
@@ -2231,6 +2349,8 @@ export const games = [
   },
   {
     slug: 'google-super-mario-bros',
+    datePublished: '2026-01-21T10:11:12+00:00',
+    dateModified: '2026-01-21T10:11:16+00:00',
     title: 'Google Super Mario Bros – Play The Easter Egg Online',
     metaDescription: 'Play the Google Super Mario Bros Easter Egg. Click the Question Block, collect coins, score points, and unlock the hidden 1-UP sound.',
     category: 'google-easter-egg',
@@ -2265,6 +2385,8 @@ export const games = [
   },
   {
     slug: 'google-zipper-game',
+    datePublished: '2026-01-13T00:00:23+00:00',
+    dateModified: '2026-01-21T08:27:28+00:00',
     title: 'Google Zipper Game - Play Google Zipper Game Online',
     metaDescription: 'Unzip the Google homepage with the Google Zipper Game. A Google Easter egg that lets you interactively open the page for quick entertainment.',
     category: 'google-easter-egg',
@@ -2299,6 +2421,8 @@ export const games = [
   },
   {
     slug: 'google-gravity',
+    datePublished: '2026-01-01T11:28:25+00:00',
+    dateModified: '2026-01-21T08:26:50+00:00',
     title: 'Google Gravity - Play the Game Free Online',
     metaDescription: 'Play the Google Gravity game online and watch the Google homepage fall apart! Experience fun physics and interactive chaos with Google Gravity now!',
     category: 'google-easter-egg',
@@ -2333,6 +2457,8 @@ export const games = [
   },
   {
     slug: 'google-thanos-snap',
+    datePublished: '2026-01-21T08:25:07+00:00',
+    dateModified: '2026-01-21T08:25:11+00:00',
     title: 'Google Thanos Snap – Play The Easter Egg Online',
     metaDescription: 'Relive the Google Thanos Snap Easter egg that let you dust half your search results. Discover how it worked and try the preserved version today.',
     category: 'google-easter-egg',
@@ -2365,6 +2491,8 @@ export const games = [
   },
   {
     slug: 'curve-ball-3d',
+    datePublished: '2026-01-21T08:17:40+00:00',
+    dateModified: '2026-01-21T08:17:43+00:00',
     title: 'Curve Ball 3D – Play The Game Free Online',
     metaDescription: 'Play Curve Ball 3D online — a fast, neon 3D Pong game where you curve shots, outplay AI opponents, and fight through a brutal tournament.',
     category: 'online-games',
@@ -2403,6 +2531,8 @@ export const games = [
   },
   {
     slug: 'google-random-number-generator',
+    datePublished: '2026-01-12T23:31:23+00:00',
+    dateModified: '2026-01-20T09:36:31+00:00',
     title: 'Google Random Number Generator - Try The Random Number Generator',
     metaDescription: 'Generate random numbers instantly with Google Random Number Generator. Free online tool for games, picks, and quick decisions.',
     category: 'online-games',
@@ -2441,6 +2571,8 @@ export const games = [
   },
   {
     slug: 'rolling-ball-3d',
+    datePublished: '2026-01-20T07:54:00+00:00',
+    dateModified: '2026-01-20T07:54:06+00:00',
     title: 'Rolling Ball 3D – Play The Game Unblocked Online',
     metaDescription: 'Rolling Ball 3D is an endless reflex game where you steer a speeding ball, avoid obstacles, and collect diamonds on twisting 3D tracks.',
     category: 'online-games',
@@ -2477,6 +2609,8 @@ export const games = [
   },
   {
     slug: 'unicycle-hero',
+    datePublished: '2026-01-19T18:53:57+00:00',
+    dateModified: '2026-01-19T22:13:38+00:00',
     title: 'Unicycle Hero – Play The Game Unblocked Online',
     metaDescription: 'Play Unicycle Hero, a fun skill game featuring unicycle balance, ridiculous events, and upgrade-based progression.',
     category: 'online-games',
@@ -2513,6 +2647,8 @@ export const games = [
   },
   {
     slug: 'sling-drift',
+    datePublished: '2026-01-19T18:49:06+00:00',
+    dateModified: '2026-01-19T18:49:09+00:00',
     title: 'Sling Drift – Play The Game Unblocked Online',
     metaDescription: 'Play Sling Drift, an addictive driving game where you time perfect drifts using a slingshot mechanic on endless tracks.',
     category: 'online-games',
@@ -2549,6 +2685,8 @@ export const games = [
   },
   {
     slug: 'worlds-hardest-game',
+    datePublished: '2026-01-19T18:42:12+00:00',
+    dateModified: '2026-01-19T18:42:15+00:00',
     title: 'World\'s Hardest Game – Play The Game Unblocked Online',
     metaDescription: 'Play World’s Hardest Game unblocked online and test your timing, patience, and reflexes in this classic rage-inducing challenge.',
     category: 'online-games',
@@ -2585,6 +2723,8 @@ export const games = [
   },
   {
     slug: 'big-shot-boxing',
+    datePublished: '2026-01-19T18:19:56+00:00',
+    dateModified: '2026-01-19T18:19:59+00:00',
     title: 'Big Shot Boxing – Play The Game Unblocked Online',
     metaDescription: 'Play Big Shot Boxing unblocked, a retro pixel boxing game with simple controls, career mode, smart upgrades, and timing-based fights.',
     category: 'online-games',
@@ -2621,6 +2761,8 @@ export const games = [
   },
   {
     slug: 'google-sphere',
+    datePublished: '2026-01-18T10:27:39+00:00',
+    dateModified: '2026-01-18T10:27:42+00:00',
     title: 'Google Sphere – Play The Google Easter Egg Free Online',
     metaDescription: 'Play Google Sphere, the classic Google Easter egg that turns search results into a spinning 3D sphere. Free, interactive, and nostalgic.',
     category: 'online-games',
@@ -2657,6 +2799,8 @@ export const games = [
   },
   {
     slug: 'google-zerg-rush',
+    datePublished: '2026-01-18T10:19:26+00:00',
+    dateModified: '2026-01-18T10:19:30+00:00',
     title: 'Google Zerg Rush – Play The Easter Egg Free Online',
     metaDescription: 'Play Google Zerg Rush, the famous Easter egg inspired by StarCraft. Click the attacking “O”s before they destroy your search results.',
     category: 'online-games',
@@ -2691,6 +2835,8 @@ export const games = [
   },
   {
     slug: 'design-the-next-iphone',
+    datePublished: '2026-01-18T10:07:29+00:00',
+    dateModified: '2026-01-18T10:07:32+00:00',
     title: 'Design The Next iPhone – Play The Game Free Online',
     metaDescription: 'Design The Next iPhone is a funny Neal.fun game where you drag absurd features onto an iPhone and present it like a real Apple keynote.',
     category: 'online-games',
@@ -2725,6 +2871,8 @@ export const games = [
   },
   {
     slug: 'atari-breakout',
+    datePublished: '2026-01-18T09:59:17+00:00',
+    dateModified: '2026-01-18T09:59:21+00:00',
     title: 'Atari Breakout – Play The Game Unblocked Online',
     metaDescription: 'Play Atari Breakout unblocked, the arcade game where you bounce a ball to smash blocks. Simple controls, addictive gameplay, and timeless fun.',
     category: 'online-games',
@@ -2757,6 +2905,8 @@ export const games = [
   },
   {
     slug: 'google-blob-opera',
+    datePublished: '2026-01-18T09:51:26+00:00',
+    dateModified: '2026-01-18T09:52:12+00:00',
     title: 'Google Blob Opera – Play The Game Unblocked Online',
     metaDescription: 'Blob Opera lets you create beautiful opera music by dragging singing blobs. Powered by AI, free to play, and surprisingly addictive.',
     category: 'online-games',
@@ -2793,6 +2943,8 @@ export const games = [
   },
   {
     slug: 'asteroid-launcher',
+    datePublished: '2026-01-14T10:28:03+00:00',
+    dateModified: '2026-01-18T09:03:31+00:00',
     title: 'Asteroid Launcher - Play the Game Unblocked Online',
     metaDescription: 'Asteroid Launcher lets you experiment with asteroid impacts by changing size, speed, and materials and dropping them anywhere on Earth.',
     category: 'online-games',
@@ -2827,6 +2979,8 @@ export const games = [
   },
   {
     slug: 'ambient-chaos',
+    datePublished: '2026-01-16T18:36:16+00:00',
+    dateModified: '2026-01-18T08:55:43+00:00',
     title: 'Ambient Chaos – Play The Game Unblocked Online',
     metaDescription: 'Ambient Chaos is a Neal.fun sound mixer that turns relaxing audio into hilarious noise. Mix rain, sirens, arguing, and more.',
     category: 'online-games',
@@ -2861,6 +3015,8 @@ export const games = [
   },
   {
     slug: 'sun-vs-moon',
+    datePublished: '2026-01-16T18:35:06+00:00',
+    dateModified: '2026-01-18T08:53:17+00:00',
     title: 'Sun vs Moon – Play The Game Unblocked Online',
     metaDescription: 'Choose Team Sun or Team Moon and join thousands of players clicking in real time in this simple, strangely addictive Neal.fun experiment.',
     category: 'online-games',
@@ -2893,6 +3049,8 @@ export const games = [
   },
   {
     slug: 'paper',
+    datePublished: '2026-01-16T18:34:07+00:00',
+    dateModified: '2026-01-18T08:51:25+00:00',
     title: 'Paper – Play The Game Unblocked Online',
     metaDescription: 'Fold a virtual sheet of paper and watch exponential growth spiral from millimetres to the Moon in this simple, mind-bending Neal.fun experience.',
     category: 'online-games',
@@ -2927,6 +3085,8 @@ export const games = [
   },
   {
     slug: 'the-size-of-space',
+    datePublished: '2026-01-15T18:27:29+00:00',
+    dateModified: '2026-01-18T08:41:46+00:00',
     title: 'The Size of Space - Play The Game Unblocked Online',
     metaDescription: 'Play The Size of Space game unblocked and scroll through planets, stars, galaxies, and the observable universe to see how big space really is.',
     category: 'online-games',
@@ -2961,6 +3121,8 @@ export const games = [
   },
   {
     slug: 'the-deep-sea',
+    datePublished: '2026-01-15T18:46:56+00:00',
+    dateModified: '2026-01-18T08:35:00+00:00',
     title: 'The Deep Sea – Interactive Ocean Experience Unblocked',
     metaDescription: 'Play The Deep Sea game unblocked and scroll through real ocean depths, strange sea creatures, famous shipwrecks, and fascinating facts.',
     category: 'online-games',
@@ -2993,6 +3155,8 @@ export const games = [
   },
   {
     slug: 'us-states-quiz',
+    datePublished: '2026-01-15T18:38:37+00:00',
+    dateModified: '2026-01-17T21:47:44+00:00',
     title: 'US States Quiz - Play The Game Unblocked Online',
     metaDescription: 'Play the US States Quiz and test how well you know all 50 states. A fun and simple geography quiz you can try online.',
     category: 'online-games',
@@ -3027,6 +3191,8 @@ export const games = [
   },
   {
     slug: 'life-stats-game',
+    datePublished: '2026-01-15T18:21:03+00:00',
+    dateModified: '2026-01-17T21:07:17+00:00',
     title: 'Life Stats Game - Play The Game Unblocked Online',
     metaDescription: 'Play Life Stats game unblocked and discover surprising numbers about your life, time lived, and the world since your birth.',
     category: 'online-games',
@@ -3057,6 +3223,8 @@ export const games = [
   },
   {
     slug: 'wonders-of-street-view',
+    datePublished: '2026-01-16T18:31:33+00:00',
+    dateModified: '2026-01-16T18:31:36+00:00',
     title: 'Wonders of Street View – Play The Game Unblocked Online',
     metaDescription: 'Explore Wonders of Street View on Neal.fun and discover strange, beautiful, and unexpected places captured around the world.',
     category: 'online-games',
@@ -3089,6 +3257,8 @@ export const games = [
   },
   {
     slug: 'absurd-trolley-problems',
+    datePublished: '2026-01-15T18:10:56+00:00',
+    dateModified: '2026-01-15T18:13:22+00:00',
     title: 'Absurd Trolley Problems - Play The Game Unblocked Online',
     metaDescription: 'Play Absurd Trolley Problems online and face ridiculous moral dilemmas where every choice leads to unexpected and funny outcomes.',
     category: 'online-games',
@@ -3121,6 +3291,8 @@ export const games = [
   },
   {
     slug: 'google-underwater',
+    datePublished: '2026-01-12T23:51:33+00:00',
+    dateModified: '2026-01-14T10:33:02+00:00',
     title: 'Google Underwater – Try the Underwater Google Effect Online',
     metaDescription: 'Google Underwater is a fun hidden effect that turns your screen into an underwater scene when activated. Instead of a normal search page, everything appears',
     category: 'google-tools',
@@ -3155,6 +3327,8 @@ export const games = [
   },
   {
     slug: 'google-mirror',
+    datePublished: '2026-01-13T08:20:52+00:00',
+    dateModified: '2026-01-14T10:32:53+00:00',
     title: 'Google Mirror – See Google in Reverse Mode Online',
     metaDescription: 'Try Google Mirror and see the Google homepage flipped in reverse. A fun Google Easter egg that mirrors everything on your screen.',
     category: 'google-tools',
@@ -3189,6 +3363,8 @@ export const games = [
   },
   {
     slug: 'google-space',
+    datePublished: '2026-01-13T08:30:46+00:00',
+    dateModified: '2026-01-14T10:32:49+00:00',
     title: 'Google Space – Explore the Zero Gravity Google Effect Online',
     metaDescription: 'Try Google Space and watch the Google homepage float in zero gravity. A fun Google Easter egg with drifting elements and space effects.',
     category: 'google-tools',
@@ -3221,6 +3397,8 @@ export const games = [
   },
   {
     slug: 'google-in-1998',
+    datePublished: '2026-01-14T09:10:28+00:00',
+    dateModified: '2026-01-14T10:32:42+00:00',
     title: 'Google In 1998 – Try the Classic Google Search Easter Egg',
     metaDescription: 'Explore Google in 1998 and see the original Google homepage design. Experience how early Google search looked and worked online.',
     category: 'google-tools',
@@ -3253,6 +3431,8 @@ export const games = [
   },
   {
     slug: 'baby-map',
+    datePublished: '2026-01-14T10:20:26+00:00',
+    dateModified: '2026-01-14T10:31:06+00:00',
     title: 'Baby Map – See How Many Babies Are Born in Each Country',
     metaDescription: 'Explore Baby Map to see how many babies are born in each country. View global birth data displayed clearly on an interactive world map.',
     category: 'online-games',
@@ -3285,6 +3465,8 @@ export const games = [
   },
   {
     slug: 'tall-man-run',
+    datePublished: '2026-01-13T16:44:56+00:00',
+    dateModified: '2026-01-13T16:45:00+00:00',
     title: 'Tall Man Run - Play the Game Unblocked Online',
     metaDescription: 'Play Tall Man Run online and grow taller as you race through obstacles. Choose the right gates, avoid shrink traps, and reach the finish strong.',
     category: 'online-games',
@@ -3317,6 +3499,8 @@ export const games = [
   },
   {
     slug: 'time-shooter-3',
+    datePublished: '2026-01-13T16:39:37+00:00',
+    dateModified: '2026-01-13T16:39:40+00:00',
     title: 'Time Shooter 3 - Play the Game Unblocked Online',
     metaDescription: 'Play Time Shooter 3 online and control time as you move. Dodge bullets, plan every shot, and defeat enemies in slow-motion action.',
     category: 'online-games',
@@ -3349,6 +3533,8 @@ export const games = [
   },
   {
     slug: 'jelly-truck',
+    datePublished: '2026-01-13T16:24:14+00:00',
+    dateModified: '2026-01-13T16:25:30+00:00',
     title: 'Jelly Truck – Play the Game Unblocked Online',
     metaDescription: 'Play Jelly Truck online and drive a wobbly jelly-style truck through challenging physics-based levels. A fun and unique driving game to master.',
     category: 'online-games',
@@ -3381,6 +3567,8 @@ export const games = [
   },
   {
     slug: 'love-calculator',
+    datePublished: '2026-01-13T08:59:15+00:00',
+    dateModified: '2026-01-13T08:59:19+00:00',
     title: 'Love Calculator – Play the Game Unblocked Online',
     metaDescription: 'Play the Love Calculator online and check love compatibility between two names. Enter names and get a fun love percentage instantly.',
     category: 'online-games',
@@ -3413,6 +3601,8 @@ export const games = [
   },
   {
     slug: 'love-tester',
+    datePublished: '2026-01-13T08:45:15+00:00',
+    dateModified: '2026-01-13T08:45:18+00:00',
     title: 'Love Tester – Play the Game Unblocked Online',
     metaDescription: 'Play the Love Tester game online and test compatibility between two names. A fun, light-hearted game for laughs and curiosity.',
     category: 'online-games',
@@ -3445,6 +3635,8 @@ export const games = [
   },
   {
     slug: 'dinosaur-game',
+    datePublished: '2026-01-01T11:31:05+00:00',
+    dateModified: '2026-01-01T11:31:06+00:00',
     title: 'Google Dinosaur Game - Play Chrome Dino Run Online',
     metaDescription: 'Play the classic Google Dinosaur Game (Chrome Dino)! Jump over cacti and dodge obstacles in this fun offline runner game, now available online.',
     category: 'google-doodle-games',
@@ -3483,6 +3675,8 @@ export const games = [
   },
   {
     slug: 'google-cricket',
+    datePublished: '2026-01-01T11:30:14+00:00',
+    dateModified: '2026-01-01T11:30:16+00:00',
     title: 'Google Cricket - Play Google Doodle Cricket Online',
     metaDescription: 'Play the Google Cricket game from the popular Doodle Cricket series! Step into the pitch, score big runs, and enjoy fun, casual cricket gameplay online.',
     category: 'google-doodle-games',
@@ -3519,6 +3713,8 @@ export const games = [
   },
   {
     slug: 'quick-draw',
+    datePublished: '2026-01-01T11:29:22+00:00',
+    dateModified: '2026-01-01T11:29:24+00:00',
     title: 'Quick Draw with Google - Fun Speed Drawing Game',
     metaDescription: 'Play the Quick Draw game and see if Google can guess your doodles! Enjoy fast-paced AI fun with this addictive Google drawing challenge.',
     category: 'google-doodle-games',
@@ -3555,6 +3751,8 @@ export const games = [
   },
   {
     slug: 'flip-a-coin',
+    datePublished: '2026-01-01T11:26:59+00:00',
+    dateModified: '2026-01-01T11:27:00+00:00',
     title: 'Flip a Coin Google | Heads or Tails Online',
     metaDescription: 'Flip a coin online with this simple heads or tails. Try the Google coin flip now for quick, random decisions anytime whether you are playing any game',
     category: 'google-doodle-games',
@@ -3589,6 +3787,8 @@ export const games = [
   },
   {
     slug: 'google-pacman',
+    datePublished: '2026-01-01T11:25:58+00:00',
+    dateModified: '2026-01-01T11:26:03+00:00',
     title: 'Google Pacman - Play the Game Free Online',
     metaDescription: 'Play Google Pacman online for free! Enjoy the classic arcade fun, eat pellets, and escape ghosts in this timeless free Pacman game. Pac-man is free',
     category: 'google-doodle-games',
@@ -3625,6 +3825,8 @@ export const games = [
   },
   {
     slug: 'popcorn-game',
+    datePublished: '2025-12-23T14:18:23+00:00',
+    dateModified: '2025-12-31T16:41:25+00:00',
     title: 'Popcorn Game - Play Google Doodle Popcorn Game',
     metaDescription: 'Play the popcorn game online and enjoy the fun of the Google popcorn game. Inspired by Google doodle popcorn, test your timing and precision in this game.',
     category: 'online-games',
@@ -3657,6 +3859,8 @@ export const games = [
   },
   {
     slug: 'vortellas-dress-up',
+    datePublished: '2025-12-28T11:12:43+00:00',
+    dateModified: '2025-12-29T10:03:47+00:00',
     title: 'Vortella\'s Dress Up - Play the Game Online Poki',
     metaDescription: 'Play Vortella’s Dress Up game online and style Vortella with beautiful outfits, makeup, and accessories. Enjoy Vortella’s Dress Up Poki anytime.',
     category: 'online-games',
@@ -3689,6 +3893,8 @@ export const games = [
   },
   {
     slug: 'make-it-meme',
+    datePublished: '2025-12-28T15:56:13+00:00',
+    dateModified: '2025-12-29T10:02:11+00:00',
     title: 'Make It Meme - Play the Game Unblocked Online Poki',
     metaDescription: 'Play Make It Meme unblocked and create hilarious captions in this fun multiplayer meme game. Enjoy MakeItMeme online and make everyone laugh.',
     category: 'online-games',
@@ -3725,6 +3931,8 @@ export const games = [
   },
   {
     slug: 'watermelon-game',
+    datePublished: '2025-12-28T16:57:10+00:00',
+    dateModified: '2025-12-29T10:00:05+00:00',
     title: 'Watermelon Game - Play Suika Game Free Online',
     metaDescription: 'Play the Watermelon Game online and enjoy the relaxing Suika game experience. Drop fruits, merge them smartly, and create the ultimate watermelon.',
     category: 'online-games',
@@ -3757,6 +3965,8 @@ export const games = [
   },
   {
     slug: 'huggy-wuggy',
+    datePublished: '2025-12-28T17:25:35+00:00',
+    dateModified: '2025-12-29T09:59:11+00:00',
     title: 'Huggy Wuggy - Play the Game Free Online',
     metaDescription: 'Play Huggy Wuggy online and experience a thrilling horror adventure. Explore dark locations, solve puzzles, and survive intense moments in the game.',
     category: 'online-games',
@@ -3789,6 +3999,8 @@ export const games = [
   },
   {
     slug: 'slow-roads',
+    datePublished: '2025-12-28T18:31:52+00:00',
+    dateModified: '2025-12-28T18:31:53+00:00',
     title: 'Slow Roads IO - Play the Game Unblocked Online',
     metaDescription: 'Play Slow Roads online and navigate narrow tracks with precision. Enjoy slow roads io unblocked, master turns, and beat your high score in this driving game.',
     category: 'online-games',
@@ -3821,6 +4033,8 @@ export const games = [
   },
   {
     slug: 'gladihoppers',
+    datePublished: '2025-12-28T18:26:58+00:00',
+    dateModified: '2025-12-28T18:27:00+00:00',
     title: 'Gladihoppers - Play the Game Unblocked Online',
     metaDescription: 'Play Gladihoppers online and hop into action with fast-paced arena battles. Master jumps, attacks, and strategy in this addictive gladi hoppers game unblocked.',
     category: 'online-games',
@@ -3853,6 +4067,8 @@ export const games = [
   },
   {
     slug: 'bottle-game',
+    datePublished: '2025-12-28T18:24:09+00:00',
+    dateModified: '2025-12-28T18:24:11+00:00',
     title: 'Bottle Game - Play Bottle Flip 3D Free Online',
     metaDescription: 'Play Bottle Game online and master the art of bottle flipping. Enjoy Bottle Flip 3D challenges with moving platforms, obstacles, and endless fun in this game.',
     category: 'online-games',
@@ -3885,6 +4101,8 @@ export const games = [
   },
   {
     slug: 'cluster-truck',
+    datePublished: '2025-12-28T18:19:33+00:00',
+    dateModified: '2025-12-28T18:19:34+00:00',
     title: 'Cluster Truck - Play the Game Unblocked Online',
     metaDescription: 'Play Cluster Truck and jump across moving trucks in this truck jumping game. Enjoy clustertruck unblocked, master levels, and test your reflexes today.',
     category: 'online-games',
@@ -3917,6 +4135,8 @@ export const games = [
   },
   {
     slug: 'cluster-rush',
+    datePublished: '2025-12-28T18:14:13+00:00',
+    dateModified: '2025-12-28T18:14:14+00:00',
     title: 'Cluster Rush - Play the Game Unblocked Online',
     metaDescription: 'Play Cluster Rush unblocked online and navigate through rotating clusters and obstacles. Enjoy fast-paced gameplay, precise controls in Cluster Rush game.',
     category: 'online-games',
@@ -3949,6 +4169,8 @@ export const games = [
   },
   {
     slug: 'tanuki-sunset',
+    datePublished: '2025-12-28T18:10:49+00:00',
+    dateModified: '2025-12-28T18:10:50+00:00',
     title: 'Tanuki Sunset - Play the Game Unblocked Online',
     metaDescription: 'Play Tanuki Sunset unblocked and dodge enemies while shooting your way to victory. Enjoy smooth gameplay, power-ups in this action-packed Tanuki Sunset game.',
     category: 'online-games',
@@ -3981,6 +4203,8 @@ export const games = [
   },
   {
     slug: 'stunt-bike-extreme',
+    datePublished: '2025-12-28T17:03:53+00:00',
+    dateModified: '2025-12-28T18:06:01+00:00',
     title: 'Stunt Bike Extreme - Play the Game Unblocked Online',
     metaDescription: 'Play Stunt Bike Extreme and experience thrilling stunt bike action. Master jumps, balance your bike, and conquer tracks in stunt bike extreme unblocked game.',
     category: 'online-games',
@@ -4013,6 +4237,8 @@ export const games = [
   },
   {
     slug: 'survival-race',
+    datePublished: '2025-12-28T18:03:29+00:00',
+    dateModified: '2025-12-28T18:03:31+00:00',
     title: 'Survival Race - Play the Game Unblocked Online',
     metaDescription: 'Play Survival Race unblocked and navigate challenging tracks filled with obstacles. Boost speed, survive hazards, and enjoy this thrilling race survival game.',
     category: 'online-games',
@@ -4045,6 +4271,8 @@ export const games = [
   },
   {
     slug: 'bad-ice-cream',
+    datePublished: '2025-12-28T17:32:30+00:00',
+    dateModified: '2025-12-28T17:32:32+00:00',
     title: 'Bad Ice-Cream - Play Icecream Game Unblocked Online',
     metaDescription: 'Play Bad Ice-Cream unblocked and collect fruits in challenging mazes. Avoid enemies, use strategy, and enjoy this addictive icecream game for hours of fun.',
     category: 'online-games',
@@ -4077,6 +4305,8 @@ export const games = [
   },
   {
     slug: 'minefun-io',
+    datePublished: '2025-12-28T16:45:04+00:00',
+    dateModified: '2025-12-28T16:45:06+00:00',
     title: 'Minefun IO - Play Minefun Game Free Online Poki',
     metaDescription: 'Play MineFun.io game online and enjoy fast-paced multiplayer sandbox action. Build, explore, fight, and survive in the exciting MineFun IO world.',
     category: 'online-games',
@@ -4109,6 +4339,8 @@ export const games = [
   },
   {
     slug: 'venge',
+    datePublished: '2025-12-28T16:09:09+00:00',
+    dateModified: '2025-12-28T16:32:37+00:00',
     title: 'Venge IO - Play Venge io Game Unblocked Online',
     metaDescription: 'Play Venge.io game online and enjoy fast-paced FPS combat with special abilities, smooth gameplay, and competitive multiplayer action.',
     category: 'online-games',
@@ -4141,6 +4373,8 @@ export const games = [
   },
   {
     slug: 'tunnel-rush',
+    datePublished: '2025-12-28T16:15:31+00:00',
+    dateModified: '2025-12-28T16:31:52+00:00',
     title: 'Tunnel Rush - Play the Game Unblocked Online',
     metaDescription: 'Play Tunnel Rush game online and test your reflexes in a fast-paced 3D tunnel full of obstacles. Enjoy smooth, endless arcade action unblocked now.',
     category: 'online-games',
@@ -4173,6 +4407,8 @@ export const games = [
   },
   {
     slug: 'blockpost',
+    datePublished: '2025-12-28T11:30:13+00:00',
+    dateModified: '2025-12-28T11:30:14+00:00',
     title: 'Blockpost - Play the Game Unblocked Online Poki',
     metaDescription: 'Play Blockpost unblocked and enjoy fast-paced multiplayer FPS action. Battle players online in the Blockpost game with block-style combat and weapons.',
     category: 'online-games',
@@ -4205,6 +4441,8 @@ export const games = [
   },
   {
     slug: 'red-ball',
+    datePublished: '2025-12-28T11:23:08+00:00',
+    dateModified: '2025-12-28T11:23:09+00:00',
     title: 'Red Ball - Play the Game Unblocked Online',
     metaDescription: 'Play Red Ball unblocked and roll through exciting levels full of traps and puzzles. Enjoy classic platform fun in the Red Ball game online.',
     category: 'online-games',
@@ -4237,6 +4475,8 @@ export const games = [
   },
   {
     slug: 'sort-the-court',
+    datePublished: '2025-12-28T11:17:55+00:00',
+    dateModified: '2025-12-28T11:17:56+00:00',
     title: 'Sort the Court - Play the Game Free Online',
     metaDescription: 'Play Sort the Court online and make powerful yes or no decisions to grow your kingdom. Enjoy the relaxing and strategic Sort the Court game.',
     category: 'online-games',
@@ -4269,6 +4509,8 @@ export const games = [
   },
   {
     slug: 'super-liquid-soccer',
+    datePublished: '2025-12-28T11:08:03+00:00',
+    dateModified: '2025-12-28T11:08:04+00:00',
     title: 'Super Liquid Soccer - Play the Game Unblocked Online',
     metaDescription: 'Play Super Liquid Soccer online and enjoy fast football action with smooth controls gameplay. Experience Super Liquid Soccer unblocked and score goals.',
     category: 'online-games',
@@ -4301,6 +4543,8 @@ export const games = [
   },
   {
     slug: 'level-devil',
+    datePublished: '2025-12-28T11:02:03+00:00',
+    dateModified: '2025-12-28T11:02:04+00:00',
     title: 'Level Devil - Play the Game Unblocked Online Poki',
     metaDescription: 'Play Level Devil online and face tricky devil levels filled with hidden traps and surprises. Enjoy Level Devil unblocked gameplay that tests timing and patience',
     category: 'online-games',
@@ -4333,6 +4577,8 @@ export const games = [
   },
   {
     slug: 'ragdoll-hit',
+    datePublished: '2025-12-28T10:54:11+00:00',
+    dateModified: '2025-12-28T10:54:12+00:00',
     title: 'Ragdoll Hit - Play the Game Unblocked Online Poki',
     metaDescription: 'Play Ragdoll Hit unblocked and enjoy chaotic physics combat. Swing, jump, and knock opponents away in this fun ragdoll hit game available online anytime.',
     category: 'online-games',
@@ -4365,6 +4611,8 @@ export const games = [
   },
   {
     slug: 'head-soccer',
+    datePublished: '2025-12-23T13:53:16+00:00',
+    dateModified: '2025-12-24T10:10:20+00:00',
     title: 'Head Soccer - Play Head Football Game Free Online',
     metaDescription: 'Play Head Soccer online and enjoy fast-paced head football action. Score goals, use special powers, and win intense one-on-one matches in this fun game.',
     category: 'online-games',
@@ -4397,6 +4645,8 @@ export const games = [
   },
   {
     slug: 'spacebar-clicker',
+    datePublished: '2025-12-23T14:02:27+00:00',
+    dateModified: '2025-12-24T10:09:23+00:00',
     title: 'Spacebar Clicker - Play Spacebar Game & Test Online',
     metaDescription: 'Play Spacebar Clicker and test your speed in this exciting spacebar game. Click as fast as possible, beat high scores, and enjoy the challenge.',
     category: 'online-games',
@@ -4429,6 +4679,8 @@ export const games = [
   },
   {
     slug: 'marble-run',
+    datePublished: '2025-12-23T15:58:00+00:00',
+    dateModified: '2025-12-24T10:05:50+00:00',
     title: 'Marble Run - Play the Game Free Online',
     metaDescription: 'Build tracks and race marbles in Marble Run online! Test physics, design loops, and enjoy Marble Run game free anytime, unblocked, and fun for all ages.',
     category: 'online-games',
@@ -4461,6 +4713,8 @@ export const games = [
   },
   {
     slug: 'mazean',
+    datePublished: '2025-12-23T15:53:47+00:00',
+    dateModified: '2025-12-23T15:53:48+00:00',
     title: 'Mazean - Play the Game Unblocked Online',
     metaDescription: 'Play Mazean online! Navigate challenging mazes, avoid traps, and beat every level in this fun Mazean game. Unblocked and free to play anytime.',
     category: 'online-games',
@@ -4493,6 +4747,8 @@ export const games = [
   },
   {
     slug: 'bedwars',
+    datePublished: '2025-12-23T15:49:42+00:00',
+    dateModified: '2025-12-23T15:49:43+00:00',
     title: 'Bedwars - Play the Bed Wars Game Free Online',
     metaDescription: 'Play Bedwars online! Build defenses, gather resources, attack opponents, and protect your bed in this exciting Bedwars game for free.',
     category: 'online-games',
@@ -4525,6 +4781,8 @@ export const games = [
   },
   {
     slug: 'mr-mine',
+    datePublished: '2025-12-23T15:42:06+00:00',
+    dateModified: '2025-12-23T15:42:07+00:00',
     title: 'Mr Mine - Play the Game Free Online',
     metaDescription: 'Play Mr Mine online! Dig, hire miners, upgrade tools, collect rare gems, and build a mining empire in this addictive idle Mr Mine game for free.',
     category: 'online-games',
@@ -4561,6 +4819,8 @@ export const games = [
   },
   {
     slug: 'hill-climb-racing',
+    datePublished: '2025-12-23T15:38:00+00:00',
+    dateModified: '2025-12-23T15:38:01+00:00',
     title: 'Hill Climb Racing - Play the Game Unblocked Online',
     metaDescription: 'Play Hill Climb Racing online! Enjoy hill climb game fun, upgrade vehicles, perform stunts, and master physics-based hill climb racing gameplay free.',
     category: 'online-games',
@@ -4597,6 +4857,8 @@ export const games = [
   },
   {
     slug: 'chill-guy-clicker',
+    datePublished: '2025-12-23T15:32:45+00:00',
+    dateModified: '2025-12-23T15:32:46+00:00',
     title: 'Chill Guy Clicker - Play the Cliquer Game Free Online',
     metaDescription: 'Play Chill Guy Clicker online free! Tap to earn points, unlock upgrades, and enjoy a relaxing and addictive casual clicker game with Chill Guy.',
     category: 'online-games',
@@ -4629,6 +4891,8 @@ export const games = [
   },
   {
     slug: 'tag-game',
+    datePublished: '2025-12-23T15:27:03+00:00',
+    dateModified: '2025-12-23T15:27:04+00:00',
     title: 'Tag Game - Play Tag Unblocked Online Poki',
     metaDescription: 'Play Tag Game online free! Chase opponents, avoid getting tagged, and enjoy fast-paced multiplayer action in this exciting unblocked tag game online.',
     category: 'online-games',
@@ -4661,6 +4925,8 @@ export const games = [
   },
   {
     slug: 'gun-spin',
+    datePublished: '2025-12-23T15:16:27+00:00',
+    dateModified: '2025-12-23T15:16:29+00:00',
     title: 'Gun Spin - Play the Gunspin Game Unblocked Online',
     metaDescription: 'Play Gun Spin online free! Spin your gun, avoid obstacles, and hit targets in this thrilling gun spin game. Enjoy fast-paced action unblocked anytime.',
     category: 'online-games',
@@ -4693,6 +4959,8 @@ export const games = [
   },
   {
     slug: 'hexanaut-io',
+    datePublished: '2025-12-23T15:10:33+00:00',
+    dateModified: '2025-12-23T15:10:34+00:00',
     title: 'Hexanaut IO - Play the Game Free Online',
     metaDescription: 'Play Hexanaut IO online free! Expand your territory, outmaneuver opponents, and dominate the hexagonal arena in this fast-paced and strategic IO game.',
     category: 'online-games',
@@ -4725,6 +4993,8 @@ export const games = [
   },
   {
     slug: 'gin-rummy',
+    datePublished: '2025-12-23T15:06:18+00:00',
+    dateModified: '2025-12-23T15:06:20+00:00',
     title: 'Gin Rummy - Play the Rummy Card Game Free Online',
     metaDescription: 'Play Gin Rummy online free! Enjoy this classic rummy card game, form sets and runs, and test your strategy against friends or AI opponents anytime.',
     category: 'online-games',
@@ -4757,6 +5027,8 @@ export const games = [
   },
   {
     slug: 'plinko',
+    datePublished: '2025-12-23T14:59:09+00:00',
+    dateModified: '2025-12-23T14:59:10+00:00',
     title: 'Plinko - Play the Game Free Unblocked Online',
     metaDescription: 'Play Plinko, the addictive disc drop game! Enjoy free Plinko online, test your luck, and aim for high scores in this fun and unblocked Plinko game.',
     category: 'online-games',
@@ -4789,6 +5061,8 @@ export const games = [
   },
   {
     slug: 'american-truck-simulator',
+    datePublished: '2025-12-23T14:53:33+00:00',
+    dateModified: '2025-12-23T14:53:35+00:00',
     title: 'American Truck Simulator - Play the Game Free Online',
     metaDescription: 'Drive, deliver, and manage cargo in American Truck Simulator. Experience realistic roads, trucks, and missions in this top truck simulator game online.',
     category: 'online-games',
@@ -4821,6 +5095,8 @@ export const games = [
   },
   {
     slug: 'countries-of-the-world-quiz',
+    datePublished: '2025-12-23T14:44:52+00:00',
+    dateModified: '2025-12-23T14:44:53+00:00',
     title: 'Countries of the World Quiz - Play Bing Flag Quiz Online',
     metaDescription: 'Test your knowledge with the Countries of the World Quiz. Guess the country, recognize flags, and play the country quiz online, including Bing countries quiz.',
     category: 'online-games',
@@ -4853,6 +5129,8 @@ export const games = [
   },
   {
     slug: 'ice-dodo',
+    datePublished: '2025-12-23T14:24:27+00:00',
+    dateModified: '2025-12-23T14:24:28+00:00',
     title: 'Ice Dodo - Play the Game Unblocked Online',
     metaDescription: 'Play Ice Dodo online and enjoy this fast-paced ice racing challenge. Master slippery tracks, perfect your jumps, and experience the Ice Dodo unblocked game',
     category: 'online-games',
@@ -4885,6 +5163,8 @@ export const games = [
   },
   {
     slug: 'pou',
+    datePublished: '2025-12-23T14:13:37+00:00',
+    dateModified: '2025-12-23T14:13:39+00:00',
     title: 'Pou - Play the Pou Game Free Online',
     metaDescription: 'Play the Pou game online and enjoy fun Pou gameplay as you feed, clean, and care for your virtual pet. Explore mini-games, customization, and relaxing play.',
     category: 'online-games',
@@ -4917,6 +5197,8 @@ export const games = [
   },
   {
     slug: 'poppy-playtime',
+    datePublished: '2025-12-23T14:07:53+00:00',
+    dateModified: '2025-12-23T14:07:56+00:00',
     title: 'Poppy Playtime - Play the Game Free Online',
     metaDescription: 'Play Poppy Playtime game online and explore a creepy abandoned toy factory filled with puzzles, secrets, and horror. Experience the thrilling gameplay',
     category: 'online-games',
@@ -4949,6 +5231,8 @@ export const games = [
   },
   {
     slug: 'world-guesser',
+    datePublished: '2025-12-23T13:45:07+00:00',
+    dateModified: '2025-12-23T13:45:09+00:00',
     title: 'World Guesser - Play the Worldguessr Game Free Online',
     metaDescription: 'Play World Guesser online and test your geography skills. Explore random locations, analyze clues, and guess countries in this free world geoguessr game.',
     category: 'online-games',
@@ -4981,6 +5265,8 @@ export const games = [
   },
   {
     slug: 'piano-tiles',
+    datePublished: '2025-12-23T13:39:09+00:00',
+    dateModified: '2025-12-23T13:39:10+00:00',
     title: 'Piano Tiles - Play the Music Tiles Game Free Online',
     metaDescription: 'Play Piano Tiles online and enjoy fast-paced music gameplay. Tap black tiles, avoid white ones, and test your rhythm skills in this addictive music tiles game.',
     category: 'online-games',
@@ -5013,6 +5299,8 @@ export const games = [
   },
   {
     slug: 'piano-game',
+    datePublished: '2025-12-22T09:57:59+00:00',
+    dateModified: '2025-12-23T13:31:34+00:00',
     title: 'Piano Game - Play the Simulator Game Free Online',
     metaDescription: 'Play piano game online! Enjoy virtual piano, learn melodies, practice songs, and create music with this fun and interactive piano simulator for all ages.',
     category: 'online-games',
@@ -5047,6 +5335,8 @@ export const games = [
   },
   {
     slug: 'makeup-game',
+    datePublished: '2025-12-22T07:48:07+00:00',
+    dateModified: '2025-12-22T10:06:48+00:00',
     title: 'Makeup Game - Play the Make Up Game Free Online',
     metaDescription: 'Play makeup games online and explore beauty creatively. Try different styles, colors, and accessories in makeup game online for endless fun and makeovers.',
     category: 'online-games',
@@ -5079,6 +5369,8 @@ export const games = [
   },
   {
     slug: 'duck-race',
+    datePublished: '2025-12-22T09:37:56+00:00',
+    dateModified: '2025-12-22T10:05:36+00:00',
     title: 'Duck Race - Play the Duck Game Free Online',
     metaDescription: 'Play Duck Race online! Guide your duck, customize names, avoid obstacles, and win thrilling races in the addictive Duck Race game for endless fun.',
     category: 'online-games',
@@ -5111,6 +5403,8 @@ export const games = [
   },
   {
     slug: 'super-star-car',
+    datePublished: '2025-12-22T09:53:47+00:00',
+    dateModified: '2025-12-22T09:53:49+00:00',
     title: 'Super Star Car - Play the Game Free Online Poki',
     metaDescription: 'Play Super Star Car online! Race through exciting tracks, perform stunts, unlock cars, and enjoy endless fun with Super Star Car Poki and unblocked versions.',
     category: 'online-games',
@@ -5143,6 +5437,8 @@ export const games = [
   },
   {
     slug: 'gunblood',
+    datePublished: '2025-12-22T09:50:00+00:00',
+    dateModified: '2025-12-22T09:50:02+00:00',
     title: 'Gunblood - Play the Blood Game Free Online',
     metaDescription: 'Play Gunblood online! Test your reflexes in this exciting blood game. Shoot fast, aim precisely, and master duels in Gunblood unblocked anytime, anywhere.',
     category: 'online-games',
@@ -5175,6 +5471,8 @@ export const games = [
   },
   {
     slug: 'wheelie-life',
+    datePublished: '2025-12-22T09:46:29+00:00',
+    dateModified: '2025-12-22T09:46:30+00:00',
     title: 'Wheelie Life - Play the Soflo Game Unblocked Online',
     metaDescription: 'Play Wheelie Life online! Perform daring wheelies, master stunts, and upgrade bikes in this fun Wheelie Life game. Enjoy Soflo Wheelie Life unblocked anytime.',
     category: 'online-games',
@@ -5207,6 +5505,8 @@ export const games = [
   },
   {
     slug: 'solar-smash',
+    datePublished: '2025-12-22T09:42:47+00:00',
+    dateModified: '2025-12-22T09:42:49+00:00',
     title: 'Solar Smash - Play the Game Unblocked Online',
     metaDescription: 'Play Solar Smash online! Destroy planets with missiles, lasers, and comets in this addictive Solar Smash game. Enjoy planetary chaos unblocked anytime.',
     category: 'online-games',
@@ -5239,6 +5539,8 @@ export const games = [
   },
   {
     slug: 'duck-life-4',
+    datePublished: '2025-12-22T09:29:27+00:00',
+    dateModified: '2025-12-22T09:29:29+00:00',
     title: 'Duck Life 4 - Play the Game Unblocked Online',
     metaDescription: 'Play Duck Life 4 online! Train your duck, upgrade skills, and win exciting races in Duck Life 4 unblocked for endless fun and adventure.',
     category: 'online-games',
@@ -5271,6 +5573,8 @@ export const games = [
   },
   {
     slug: 'bubble-shooter-free',
+    datePublished: '2025-12-22T09:25:26+00:00',
+    dateModified: '2025-12-22T09:25:27+00:00',
     title: 'Bubble Shooter Free - Play the Game Free Online',
     metaDescription: 'Play Bubble Shooter Free online! Match colorful bubbles, use power-ups, and clear challenging levels in this exciting bubble shooter game for endless fun.',
     category: 'online-games',
@@ -5303,6 +5607,8 @@ export const games = [
   },
   {
     slug: 'voxiom',
+    datePublished: '2025-12-22T07:42:33+00:00',
+    dateModified: '2025-12-22T07:42:35+00:00',
     title: 'Voxiom - Play the Voxiom IO Game Free Online',
     metaDescription: 'Play Voxiom IO online and test your shooting skills in fast-paced voxel arenas. Dominate maps, master weapons, and enjoy Voxiom IO game action free online.',
     category: 'online-games',
@@ -5335,6 +5641,8 @@ export const games = [
   },
   {
     slug: 'hex-empire',
+    datePublished: '2025-12-22T07:38:30+00:00',
+    dateModified: '2025-12-22T07:38:31+00:00',
     title: 'Hex Empire - Play the Game Free Online',
     metaDescription: 'Play Hex Empire online and conquer the board by capturing hexagonal tiles. Test your strategy skills in Hex Empire game and dominate your opponents worldwide.',
     category: 'online-games',
@@ -5367,6 +5675,8 @@ export const games = [
   },
   {
     slug: 'connect-4',
+    datePublished: '2025-12-22T06:16:26+00:00',
+    dateModified: '2025-12-22T06:16:27+00:00',
     title: 'Connect 4 - Play the Connect Four Game Free Online',
     metaDescription: 'Play Connect 4 online and test your strategy skills. Connect four discs in a row to win while blocking opponents. Enjoy classic Connect 4 anywhere, anytime.',
     category: 'online-games',
@@ -5399,6 +5709,8 @@ export const games = [
   },
   {
     slug: 'strike-force-heroes',
+    datePublished: '2025-12-22T06:11:23+00:00',
+    dateModified: '2025-12-22T06:11:25+00:00',
     title: 'Strike Force Heroes - Play the Game Free Online',
     metaDescription: 'Play Strike Force Heroes online and experience intense shooter action with custom classes, weapons, and upgrades. Battle enemies and dominate every mission.',
     category: 'online-games',
@@ -5431,6 +5743,8 @@ export const games = [
   },
   {
     slug: 'yahtzee-free-online',
+    datePublished: '2025-12-22T05:56:44+00:00',
+    dateModified: '2025-12-22T06:06:15+00:00',
     title: 'Yahtzee Free Online - Play the Yahtzee Game Unblocked',
     metaDescription: 'Play Yahtzee free online and enjoy the classic dice game anytime. Roll, score, and challenge yourself in Yahtzee online with smooth gameplay.',
     category: 'online-games',
@@ -5463,6 +5777,8 @@ export const games = [
   },
   {
     slug: 'jacksmith',
+    datePublished: '2025-12-22T06:05:15+00:00',
+    dateModified: '2025-12-22T06:05:17+00:00',
     title: 'Jacksmith - Play Jack Smith Game Free Online',
     metaDescription: 'Play Jacksmith game and become a master blacksmith by crafting powerful weapons for warriors. Learn how to forge, fight, and win in this strategy game.',
     category: 'online-games',
@@ -5495,6 +5811,8 @@ export const games = [
   },
   {
     slug: 'rocket-soccer-derby',
+    datePublished: '2025-12-22T05:31:33+00:00',
+    dateModified: '2025-12-22T05:59:27+00:00',
     title: 'Rocket Soccer Derby - Play the Game Unblocked Online',
     metaDescription: 'Play Rocket Soccer Derby online and enjoy high-speed car soccer action. Compete in soccer derby matches, score goals, and play Rocket Soccer Derby unblocked',
     category: 'online-games',
@@ -5527,6 +5845,8 @@ export const games = [
   },
   {
     slug: 'a-small-world-cup',
+    datePublished: '2025-12-22T05:47:41+00:00',
+    dateModified: '2025-12-22T05:47:43+00:00',
     title: 'A Small World Cup - Play the Game Unblocked Online',
     metaDescription: 'Play A Small World Cup online and enjoy fun mini football action. Choose teams, score goals, and play A Small World Cup unblocked anytime for free.',
     category: 'online-games',
@@ -5559,6 +5879,8 @@ export const games = [
   },
   {
     slug: 'rocket-goal',
+    datePublished: '2025-12-22T05:43:00+00:00',
+    dateModified: '2025-12-22T05:43:01+00:00',
     title: 'Rocket Goal - Play the IO Game Free Online',
     metaDescription: 'Play Rocket Goal online and enjoy fast-paced car soccer action. Compete in the Rocket Goal game, score amazing goals, and play RocketGoal.io unblocked anytime.',
     category: 'online-games',
@@ -5591,6 +5913,8 @@ export const games = [
   },
   {
     slug: 'infinity-craft',
+    datePublished: '2025-12-22T05:23:31+00:00',
+    dateModified: '2025-12-22T05:23:33+00:00',
     title: 'Infinity Craft - Play Neal.Fun Infinite Craft Unblocked',
     metaDescription: 'Play Infinity Craft online and explore endless combinations in the infinite craft game by neal.fun. Create new elements, and enjoy Infinite Craft unblocked fun.',
     category: 'online-games',
@@ -5623,6 +5947,8 @@ export const games = [
   },
   {
     slug: 'space-invaders',
+    datePublished: '2025-12-22T05:16:49+00:00',
+    dateModified: '2025-12-22T05:16:50+00:00',
     title: 'Space Invaders - Play the Game Free Online',
     metaDescription: 'Play Space Invaders online free and relive the classic arcade shooting action. Defend Earth, defeat alien waves, and enjoy the legendary Space Invaders game.',
     category: 'online-games',
@@ -5655,6 +5981,8 @@ export const games = [
   },
   {
     slug: 'war-mahjong',
+    datePublished: '2025-12-22T05:09:45+00:00',
+    dateModified: '2025-12-22T05:09:47+00:00',
     title: 'War Mahjong - Play the Game Free Online',
     metaDescription: 'Play War Mahjong online free and enjoy a strategic twist on the classic mahjong game. Match tiles, plan moves, and win the War Mahjong game with skill.',
     category: 'online-games',
@@ -5687,6 +6015,8 @@ export const games = [
   },
   {
     slug: 'diner-dash',
+    datePublished: '2025-12-19T11:46:59+00:00',
+    dateModified: '2025-12-19T12:13:16+00:00',
     title: 'Diner Dash - Play the Game Free Online',
     metaDescription: 'Play Diner Dash online free and manage your busy diner. Serve customers, upgrade your restaurant, and master time management in this fun Diner Dash game.',
     category: 'online-games',
@@ -5719,6 +6049,8 @@ export const games = [
   },
   {
     slug: 'block-breaker',
+    datePublished: '2025-12-19T11:51:22+00:00',
+    dateModified: '2025-12-19T11:51:24+00:00',
     title: 'Block Breaker - Play Google Brick Game Free Online',
     metaDescription: 'Play Block Breaker online free, break bricks, and challenge your reflexes in this classic Google Block Breaker game. Enjoy endless fun!',
     category: 'online-games',
@@ -5751,6 +6083,8 @@ export const games = [
   },
   {
     slug: 'zombs-royale',
+    datePublished: '2025-12-19T11:32:08+00:00',
+    dateModified: '2025-12-19T11:32:10+00:00',
     title: 'Zombs Royale - Play the Zombie IO Game Free Online',
     metaDescription: 'Play Zombs Royale online and survive the ultimate battle. Collect weapons, defeat enemies, and become the last one standing in this zombie royale game.',
     category: 'online-games',
@@ -5783,6 +6117,8 @@ export const games = [
   },
   {
     slug: 'master-chess',
+    datePublished: '2025-12-19T11:26:40+00:00',
+    dateModified: '2025-12-19T11:26:41+00:00',
     title: 'Master Chess - Play the Game Free Online',
     metaDescription: 'Play Master Chess online and challenge your strategic skills. Improve tactics, beat opponents, and become a true chessmaster in this master chess game.',
     category: 'online-games',
@@ -5815,6 +6151,8 @@ export const games = [
   },
   {
     slug: 'diep-io',
+    datePublished: '2025-12-19T11:20:40+00:00',
+    dateModified: '2025-12-19T11:20:42+00:00',
     title: 'Diep.IO - Play the Diep IO Game Free Online',
     metaDescription: 'Play Diep.io online and upgrade your tank to dominate the battlefield. Battle other players, destroy shapes, and become the strongest in this diep.io game.',
     category: 'online-games',
@@ -5847,6 +6185,8 @@ export const games = [
   },
   {
     slug: 'cubes-2048',
+    datePublished: '2025-12-19T11:16:37+00:00',
+    dateModified: '2025-12-19T11:16:39+00:00',
     title: 'Cubes 2048 - Play the IO Game Free Online',
     metaDescription: 'Play Cubes 2048 io online and merge numbered cubes to grow bigger. Enjoy smooth controls, competitive gameplay, and endless fun in this cube game.',
     category: 'online-games',
@@ -5879,6 +6219,8 @@ export const games = [
   },
   {
     slug: 'stick-war-legacy',
+    datePublished: '2025-12-19T11:12:25+00:00',
+    dateModified: '2025-12-19T11:12:26+00:00',
     title: 'Stick War Legacy - Play the Game Free Online',
     metaDescription: 'Play Stick War Legacy game online and command powerful stickman armies. Train units, conquer enemies, and enjoy strategic stickman war battles for free.',
     category: 'online-games',
@@ -5911,6 +6253,8 @@ export const games = [
   },
   {
     slug: 'geometry-dash-world',
+    datePublished: '2025-12-19T11:06:42+00:00',
+    dateModified: '2025-12-19T11:06:44+00:00',
     title: 'Geometry Dash World - Play the Game Free Online',
     metaDescription: 'Play Geometry Dash World free online and jump through fast-paced rhythm levels. Enjoy Dash World gameplay with visuals, music, and skill-based challenges.',
     category: 'online-games',
@@ -5943,6 +6287,8 @@ export const games = [
   },
   {
     slug: 'guess-who',
+    datePublished: '2025-12-19T10:59:59+00:00',
+    dateModified: '2025-12-19T11:00:01+00:00',
     title: 'Guess Who - Play the Game Free Online',
     metaDescription: 'Play Guess Who online and test your deduction skills by asking smart questions. Enjoy the classic Guess Who game with fun characters and strategic gameplay.',
     category: 'online-games',
@@ -5975,6 +6321,8 @@ export const games = [
   },
   {
     slug: 'farm-merge-valley',
+    datePublished: '2025-12-19T10:55:47+00:00',
+    dateModified: '2025-12-19T10:55:49+00:00',
     title: 'Farm Merge Valley - Play the Game Online MSN',
     metaDescription: 'Play Farm Merge Valley and build your dream farm by merging crops, buildings, and resources. Enjoy calm farming gameplay in Farm Merge Valley game online.',
     category: 'online-games',
@@ -6007,6 +6355,8 @@ export const games = [
   },
   {
     slug: 'billiards',
+    datePublished: '2025-12-19T10:51:33+00:00',
+    dateModified: '2025-12-19T10:51:36+00:00',
     title: 'Billiards - Play the Billiard Game Unblocked Online',
     metaDescription: 'Play billiards online and enjoy the classic cue sport experience. Practice accurate shots, smart angles, and smooth control in this timeless billiard game.',
     category: 'online-games',
@@ -6039,6 +6389,8 @@ export const games = [
   },
   {
     slug: 'mario-bros',
+    datePublished: '2025-12-19T10:47:32+00:00',
+    dateModified: '2025-12-19T10:47:33+00:00',
     title: 'Mario Bros - Play the Game Free Online',
     metaDescription: 'Play Mario Bros online and relive the classic Super Mario Bros adventure. Jump, run, defeat enemies, and explore iconic levels in this legendary game.',
     category: 'online-games',
@@ -6071,6 +6423,8 @@ export const games = [
   },
   {
     slug: 'bubble-trouble',
+    datePublished: '2025-12-19T10:41:57+00:00',
+    dateModified: '2025-12-19T10:41:59+00:00',
     title: 'Bubble Trouble - Play the Trouble Game Free Online',
     metaDescription: 'Play Bubble Trouble online and enjoy a classic arcade challenge where you pop bouncing bubbles. Use sharp timing, avoid danger, and clear every level.',
     category: 'online-games',
@@ -6103,6 +6457,8 @@ export const games = [
   },
   {
     slug: 'cut-the-rope',
+    datePublished: '2025-12-19T10:02:07+00:00',
+    dateModified: '2025-12-19T10:02:09+00:00',
     title: 'Cut The Rope - Play the Om Nom Game Free Online',
     metaDescription: 'Play Cut the Rope online and enjoy a fun physics puzzle game where you feed Om Nom candy. Solve smart levels, cut ropes wisely, and collect stars.',
     category: 'online-games',
@@ -6135,6 +6491,8 @@ export const games = [
   },
   {
     slug: 'kour-io',
+    datePublished: '2025-12-18T06:05:01+00:00',
+    dateModified: '2025-12-18T06:05:03+00:00',
     title: 'Kour.IO - Play Kour IO Game Unblocked Online',
     metaDescription: 'Play kour.io online, an exciting parkour-based multiplayer game. Enjoy kour.io unblocked and test your skills in this fast-paced kour.io game for free!',
     category: 'online-games',
@@ -6167,6 +6525,8 @@ export const games = [
   },
   {
     slug: 'fruit-merge',
+    datePublished: '2025-12-18T06:01:16+00:00',
+    dateModified: '2025-12-18T06:01:18+00:00',
     title: 'Fruit Merge - Play the Fruit Game Free Online',
     metaDescription: 'Play Fruit Merge online, a fun and addictive fruit game where you combine fruits to grow bigger. Enjoy the fruit merge game anytime for free online!',
     category: 'online-games',
@@ -6199,6 +6559,8 @@ export const games = [
   },
   {
     slug: 'backgammon',
+    datePublished: '2025-12-18T05:57:12+00:00',
+    dateModified: '2025-12-18T05:57:14+00:00',
     title: 'Backgammon - Play the Game Free Online',
     metaDescription: 'Play Backgammon online free, a classic board game of strategy and skill. Enjoy backgammon game anytime, anywhere with friends or solo online!',
     category: 'online-games',
@@ -6231,6 +6593,8 @@ export const games = [
   },
   {
     slug: 'we-become-what-we-behold',
+    datePublished: '2025-12-18T05:39:54+00:00',
+    dateModified: '2025-12-18T05:53:18+00:00',
     title: 'We Become What We Behold - Play Game Unblocked Online',
     metaDescription: 'Play We Become What We Behold online, a thought-provoking game where your actions shape the world. Enjoy this free, unblocked social simulation today.',
     category: 'online-games',
@@ -6263,6 +6627,8 @@ export const games = [
   },
   {
     slug: 'miniblox',
+    datePublished: '2025-12-18T05:45:28+00:00',
+    dateModified: '2025-12-18T05:52:08+00:00',
     title: 'Miniblox - Play Miniblox IO Game Free Online',
     metaDescription: 'Play Miniblox online, a fun and addictive io game where you build, survive, and explore. Enjoy Mini Blox free and unblocked for endless creative fun.',
     category: 'online-games',
@@ -6295,6 +6661,8 @@ export const games = [
   },
   {
     slug: 'hole-io',
+    datePublished: '2025-12-18T05:50:26+00:00',
+    dateModified: '2025-12-18T05:50:28+00:00',
     title: 'Hole IO - Play the Game Free Online',
     metaDescription: 'Play Hole.io online, a fun and addictive game where you control a black hole to swallow everything. Enjoy Hole.io game free and unblocked now!',
     category: 'online-games',
@@ -6327,6 +6695,8 @@ export const games = [
   },
   {
     slug: 'hazmob',
+    datePublished: '2025-12-18T05:35:44+00:00',
+    dateModified: '2025-12-18T05:35:45+00:00',
     title: 'Hazmob FPS - Play Online Shooter Game Free',
     metaDescription: 'Play Hazmob online, the thrilling FPS game. Test your skills in fast-paced shooter battles in Hazmob FPS online for free on any device.',
     category: 'online-games',
@@ -6359,6 +6729,8 @@ export const games = [
   },
   {
     slug: 'age-of-war',
+    datePublished: '2025-12-18T05:31:12+00:00',
+    dateModified: '2025-12-18T05:31:13+00:00',
     title: 'Age of War - Play the Game Free Online',
     metaDescription: 'Play Age of War online for free. Build armies, upgrade your base, and dominate each era in the Age of War game. Strategy and action await!',
     category: 'online-games',
@@ -6391,6 +6763,8 @@ export const games = [
   },
   {
     slug: 'geometry-dash-lite',
+    datePublished: '2025-12-18T05:09:36+00:00',
+    dateModified: '2025-12-18T05:09:38+00:00',
     title: 'Geometry Dash Lite - Play Geo Dash Lite Free Online',
     metaDescription: 'Play Geometry Dash Lite free online. Jump, dodge, and dash through challenging levels in Geometry Lite. Enjoy Geo Dash Lite fun anytime for free.',
     category: 'online-games',
@@ -6427,6 +6801,8 @@ export const games = [
   },
   {
     slug: 'mahjong-classic',
+    datePublished: '2025-12-18T05:02:10+00:00',
+    dateModified: '2025-12-18T05:02:11+00:00',
     title: 'Mahjong Classic - Play the Game Free Online',
     metaDescription: 'Play Mahjong Classic online for free. Enjoy classic Mahjong gameplay, match tiles strategically, and challenge yourself with Mahjong Classic free.',
     category: 'online-games',
@@ -6459,6 +6835,8 @@ export const games = [
   },
   {
     slug: 'mahjong-titans',
+    datePublished: '2025-12-18T04:57:34+00:00',
+    dateModified: '2025-12-18T04:57:35+00:00',
     title: 'Mahjong Titans - Play the Game Free Online',
     metaDescription: 'Play Mahjong Titans online for free and test your skills. Enjoy Mahjong Titans game, match tiles strategically, and challenge yourself with Mahjong Titans.',
     category: 'online-games',
@@ -6491,6 +6869,8 @@ export const games = [
   },
   {
     slug: 'mahjong-solitaire',
+    datePublished: '2025-12-18T04:51:59+00:00',
+    dateModified: '2025-12-18T04:52:02+00:00',
     title: 'Mahjong Solitaire - Play the Game Free Online',
     metaDescription: 'Play Mahjong Solitaire online and test your skills. Enjoy Mahjong Solitaire game free, match tiles strategically, and challenge yourself with Mahjong Solitaire.',
     category: 'online-games',
@@ -6523,6 +6903,8 @@ export const games = [
   },
   {
     slug: 'escape-road-2',
+    datePublished: '2025-12-18T04:47:21+00:00',
+    dateModified: '2025-12-18T04:47:23+00:00',
     title: 'Escape Road 2 - Play the Game Unblocked Online',
     metaDescription: 'Play Escape Road 2 online and master new city roads. Enjoy Escape Road 2 unblocked, dodge obstacles, complete tricky levels, and test your driving skills.',
     category: 'online-games',
@@ -6555,6 +6937,8 @@ export const games = [
   },
   {
     slug: 'escape-road',
+    datePublished: '2025-12-18T04:41:18+00:00',
+    dateModified: '2025-12-18T04:41:20+00:00',
     title: 'Escape Road - Play the Game Unblocked Online',
     metaDescription: 'Play Escape Road online and master challenging city roads. Enjoy Escape Road unblocked, dodge obstacles, complete levels, and experience nonstop driving fun.',
     category: 'online-games',
@@ -6587,6 +6971,8 @@ export const games = [
   },
   {
     slug: 'fireboy-and-watergirl',
+    datePublished: '2025-12-18T04:35:18+00:00',
+    dateModified: '2025-12-18T04:35:21+00:00',
     title: 'Fireboy and Watergirl - Play the Game Free Online',
     metaDescription: 'Play Fireboy and Watergirl game online and solve fun co-op puzzles. Control Fireboy and Watergirl to escape temples and collect gems. Play now',
     category: 'online-games',
@@ -6619,6 +7005,8 @@ export const games = [
   },
   {
     slug: 'run-3',
+    datePublished: '2025-12-18T04:29:06+00:00',
+    dateModified: '2025-12-18T04:31:36+00:00',
     title: 'Run 3 Unblocked - Play the Game Free Online',
     metaDescription: 'Play Run 3 online and experience gravity-defying endless runner action. Enjoy Run 3 unblocked and master tunnels in this fun space game.',
     category: 'online-games',
@@ -6651,6 +7039,8 @@ export const games = [
   },
   {
     slug: 'mr-racer',
+    datePublished: '2025-12-18T03:39:10+00:00',
+    dateModified: '2025-12-18T04:02:07+00:00',
     title: 'Mr Racer - Play the Car Racing Game Free Online',
     metaDescription: 'Play MR RACER game and enjoy intense MR RACER car racing with fast cars, smooth controls, and thrilling highway action. Test your driving skills now!',
     category: 'online-games',
@@ -6683,6 +7073,8 @@ export const games = [
   },
   {
     slug: 'openguessr',
+    datePublished: '2025-12-18T03:59:20+00:00',
+    dateModified: '2025-12-18T03:59:23+00:00',
     title: 'OpenGuessr - Play Open Guesser Game Free Online',
     metaDescription: 'Play OpenGuessr game online and guess real-world locations using street view clues. Improve geography skills with this fun open guesser game.',
     category: 'online-games',
@@ -6715,6 +7107,8 @@ export const games = [
   },
   {
     slug: 'friday-night-funkin',
+    datePublished: '2025-12-18T03:55:33+00:00',
+    dateModified: '2025-12-18T03:55:34+00:00',
     title: 'Friday Night Funkin - Play FNF Online Game Unblocked',
     metaDescription: 'Play Friday Night Funkin online and test your rhythm skills. Enjoy fnf gameplay, rap battles, catchy music, and exciting challenges in this hit game.',
     category: 'online-games',
@@ -6747,6 +7141,8 @@ export const games = [
   },
   {
     slug: 'sprunki',
+    datePublished: '2025-12-18T03:51:33+00:00',
+    dateModified: '2025-12-18T03:51:36+00:00',
     title: 'Sprunki - Play Sprunkin incredibox Game Online',
     metaDescription: 'Play Sprunki game online and create music with fun characters. Inspired by sprunkin incredibox, Sprunki lets you mix beats creatively and freely.',
     category: 'online-games',
@@ -6779,6 +7175,8 @@ export const games = [
   },
   {
     slug: 'skribbl',
+    datePublished: '2025-12-18T03:47:33+00:00',
+    dateModified: '2025-12-18T03:47:35+00:00',
     title: 'Skribbl IO - Play the Game Unblocked Online',
     metaDescription: 'Play Skribbl io game online and enjoy drawing, guessing, and laughing with friends. Join Skribbl unblocked for creative multiplayer fun anytime.',
     category: 'online-games',
@@ -6811,6 +7209,8 @@ export const games = [
   },
   {
     slug: 'mope-io',
+    datePublished: '2025-12-18T03:43:44+00:00',
+    dateModified: '2025-12-18T03:43:46+00:00',
     title: 'Mope IO - Play Mope.io Game Free Online',
     metaDescription: 'Play the Mope io game online and survive the wild ecosystem. Eat, evolve, and dominate players in Mope.io’s addictive multiplayer world.',
     category: 'online-games',
@@ -6843,6 +7243,8 @@ export const games = [
   },
   {
     slug: 'cookie-clicker-unblocked',
+    datePublished: '2025-12-17T16:56:47+00:00',
+    dateModified: '2025-12-17T16:56:48+00:00',
     title: 'Cookie Clicker Unblocked - Play Cookieclicker.com Online',
     metaDescription: 'Play Cookie Clicker online free! Tap to bake cookies, unlock upgrades, and grow your cookie empire in the addictive Cookie Clicker game unblocked.',
     category: 'online-games',
@@ -6875,6 +7277,8 @@ export const games = [
   },
   {
     slug: 'killer-sudoku',
+    datePublished: '2025-12-17T16:51:36+00:00',
+    dateModified: '2025-12-17T16:51:38+00:00',
     title: 'Killer Sudoku - Play the Game Free Online',
     metaDescription: 'Play Killer Sudoku online and test your logic with this fun number puzzle game. Solve challenging grids and improve your math and reasoning skills every day!',
     category: 'online-games',
@@ -6907,6 +7311,8 @@ export const games = [
   },
   {
     slug: 'basket-random',
+    datePublished: '2025-12-17T16:44:10+00:00',
+    dateModified: '2025-12-17T16:44:12+00:00',
     title: 'Basket Random – Play the Game Unblocked Online',
     metaDescription: 'Play Basket Random unblocked and enjoy hilarious basketball matches with crazy physics, random moves, and endless fun. Try to score before your rival does!',
     category: 'online-games',
@@ -6939,6 +7345,8 @@ export const games = [
   },
   {
     slug: 'crossy-road',
+    datePublished: '2025-12-17T16:38:30+00:00',
+    dateModified: '2025-12-17T16:38:31+00:00',
     title: 'Crossy Road Unblocked - Play the Crossy Road Game Online',
     metaDescription: 'Play Crossy Road unblocked! Jump, dodge, and cross endless roads in this fun and fast-paced Crossy Road game online. Stay alive and beat your best score!',
     category: 'online-games',
@@ -6973,6 +7381,8 @@ export const games = [
   },
   {
     slug: 'doodle-jump',
+    datePublished: '2025-12-17T16:32:49+00:00',
+    dateModified: '2025-12-17T16:32:51+00:00',
     title: 'Doodle Jump – Play Doodle Jump Game Unblocked',
     metaDescription: 'Play Doodle Jump unblocked online! Enjoy the fun Doodle Jump game, dodge obstacles, use power-ups, and climb higher for endless arcade adventure.',
     category: 'online-games',
@@ -7007,6 +7417,8 @@ export const games = [
   },
   {
     slug: 'stickman-hook',
+    datePublished: '2025-12-17T16:26:57+00:00',
+    dateModified: '2025-12-17T16:26:59+00:00',
     title: 'Stickman Hook - Play the Game Unblocked Online',
     metaDescription: 'Play Stickman Hook unblocked at GamesDoodle.org! Swing, jump, and flip through exciting levels in the Stickman Hook game. Fun and free to play online!',
     category: 'online-games',
@@ -7041,6 +7453,8 @@ export const games = [
   },
   {
     slug: 'basketball-stars',
+    datePublished: '2025-12-17T14:49:13+00:00',
+    dateModified: '2025-12-17T14:49:16+00:00',
     title: 'Basketball Stars – Play the Game Unblocked Online',
     metaDescription: 'Play Basketball Stars unblocked online! Show off your skills, score amazing dunks, and enjoy the fast-paced fun of the ultimate Basketball Stars game.',
     category: 'online-games',
@@ -7075,6 +7489,8 @@ export const games = [
   },
   {
     slug: 'monkey-mart',
+    datePublished: '2025-12-17T14:45:24+00:00',
+    dateModified: '2025-12-17T14:45:25+00:00',
     title: 'Monkey Mart – Play the Game Unblocked Online',
     metaDescription: 'Play Monkey Mart online and manage your own supermarket! Enjoy the fun Monkey Mart game, expand your store, and try Monkey Mart unblocked anywhere.',
     category: 'online-games',
@@ -7107,6 +7523,8 @@ export const games = [
   },
   {
     slug: 'checkers',
+    datePublished: '2025-12-17T14:40:45+00:00',
+    dateModified: '2025-12-17T14:40:46+00:00',
     title: 'Checkers - Play Checkers Online Free Game',
     metaDescription: 'Enjoy Checkers online free! Play the classic Checkers game, challenge your mind, and master the strategy behind this timeless board game online.',
     category: 'online-games',
@@ -7141,6 +7559,8 @@ export const games = [
   },
   {
     slug: 'polytrack',
+    datePublished: '2025-12-17T14:38:06+00:00',
+    dateModified: '2025-12-17T14:38:08+00:00',
     title: 'Polytrack - Play the Game Unblocked Online',
     metaDescription: 'Play Polytrack unblocked and race through fast, minimalist tracks. Enjoy smooth controls, speed challenges, and addictive time-trial gameplay.',
     category: 'online-games',
@@ -7175,6 +7595,8 @@ export const games = [
   },
   {
     slug: 'hacker-typer',
+    datePublished: '2025-12-17T14:35:57+00:00',
+    dateModified: '2025-12-17T14:35:58+00:00',
     title: 'Hacker Typer - Play Simulator Prank and Fake Hacking',
     metaDescription: 'Experience Hacker Typer simulator online! Try this fun hacker prank and fake hacking game to look like a real coder typing fast on your screen.',
     category: 'online-games',
@@ -7209,6 +7631,8 @@ export const games = [
   },
   {
     slug: 'bad-time-simulator',
+    datePublished: '2025-12-17T14:12:36+00:00',
+    dateModified: '2025-12-17T14:12:37+00:00',
     title: 'Bad Time Simulator | Play Sans Fight Game Online',
     metaDescription: 'Play Bad Time Simulator online! Master the epic Sans fight and relive the iconic Sans battle challenge anytime. Play the game online free now.',
     category: 'online-games',
@@ -7245,6 +7669,8 @@ export const games = [
   },
   {
     slug: 'moto-x3m',
+    datePublished: '2025-12-17T14:00:57+00:00',
+    dateModified: '2025-12-17T14:00:58+00:00',
     title: 'Moto X3M – Play Moto X3M Unblocked Game Online',
     metaDescription: 'Play Moto X3M unblocked online! Enjoy thrilling bike stunts, conquer tricky tracks, and race through challenging levels in this fast-paced Moto X3M game.',
     category: 'online-games',
@@ -7279,6 +7705,8 @@ export const games = [
   },
   {
     slug: 'smash-karts',
+    datePublished: '2025-12-17T13:55:52+00:00',
+    dateModified: '2025-12-17T13:55:53+00:00',
     title: 'Smash Karts – Play SmashKarts Unblocked Online',
     metaDescription: 'Play Smash Karts unblocked! Race, battle, and collect power-ups in this fast-paced smashkarts game. Compete with friends for ultimate karting glory.',
     category: 'online-games',
@@ -7313,6 +7741,8 @@ export const games = [
   },
   {
     slug: 'snow-rider-unblocked',
+    datePublished: '2025-12-17T13:48:47+00:00',
+    dateModified: '2025-12-17T13:48:48+00:00',
     title: 'Snow Rider Unblocked – Play Snow Riding 3D Game Online',
     metaDescription: 'Play Snow Rider unblocked online! Enjoy the thrilling Snow Rider 3D game, dodge obstacles, collect gifts, and race down snowy slopes.',
     category: 'online-games',
@@ -7347,6 +7777,8 @@ export const games = [
   },
   {
     slug: 'nyt-crossword',
+    datePublished: '2025-12-17T13:44:24+00:00',
+    dateModified: '2025-12-17T13:44:26+00:00',
     title: 'NYT Crossword – Play New York Times crossword Puzzle',
     metaDescription: 'Play the NYT Crossword puzzle online! Solve the famous New York Times crossword daily, enjoy clever clues, and test your word skills.',
     category: 'online-games',
@@ -7381,6 +7813,8 @@ export const games = [
   },
   {
     slug: 'snake-io',
+    datePublished: '2025-11-19T08:59:04+00:00',
+    dateModified: '2025-12-17T13:36:45+00:00',
     title: 'Snake IO - Play Snake.io Game Free Online',
     metaDescription: 'Play Snake io online and grow your snake to the top. Enjoy the classic Snake.io game with smooth controls, fast gameplay, and fun battles against players.',
     category: 'online-games',
@@ -7413,6 +7847,8 @@ export const games = [
   },
   {
     slug: 'drift-hunters',
+    datePublished: '2025-12-17T13:33:16+00:00',
+    dateModified: '2025-12-17T13:33:17+00:00',
     title: 'Drift Hunters – Play Drift Hunters Unblocked Max',
     metaDescription: 'Play Drift Hunters unblocked! Master epic drifts, upgrade cars, and experience the ultimate Drift Hunters game with realistic physics and tracks.',
     category: 'online-games',
@@ -7447,6 +7883,8 @@ export const games = [
   },
   {
     slug: 'drive-mad',
+    datePublished: '2025-12-17T13:29:11+00:00',
+    dateModified: '2025-12-17T13:29:13+00:00',
     title: 'Drive Mad – Play the Game Unblocked Online',
     metaDescription: 'Play Drive Mad unblocked! Enjoy the thrilling Drive Mad game with crazy stunts, tricky tracks, and exciting car challenges online anytime.',
     category: 'online-games',
@@ -7481,6 +7919,8 @@ export const games = [
   },
   {
     slug: 'password-game',
+    datePublished: '2025-12-17T13:06:58+00:00',
+    dateModified: '2025-12-17T13:07:01+00:00',
     title: 'Password Game – Play The Password Game Online',
     metaDescription: 'Play the Password Game online! Discover the fun puzzle rules, beat challenges, and master each level of The Password Game now.',
     category: 'online-games',
@@ -7515,6 +7955,8 @@ export const games = [
   },
   {
     slug: 'google-feud',
+    datePublished: '2025-12-17T12:57:51+00:00',
+    dateModified: '2025-12-17T12:57:52+00:00',
     title: 'Google Feud - Play the Game Unblocked Online',
     metaDescription: 'Play the Google Feud game online! Guess the top search queries in this fun trivia challenge. Google Feud unblocked and ready to play instantly!',
     category: 'google-doodle-games',
@@ -7549,6 +7991,8 @@ export const games = [
   },
   {
     slug: 'do-a-barrel-roll',
+    datePublished: '2025-12-17T12:51:07+00:00',
+    dateModified: '2025-12-17T12:51:08+00:00',
     title: 'Do a Barrel Roll – Play the Game Free Online',
     metaDescription: 'Play Do a Barrel Roll online! Watch your screen spin in this fun browser trick. Try it now and see the classic spin in action!',
     category: 'online-games',
@@ -7583,6 +8027,8 @@ export const games = [
   },
   {
     slug: 'slope-2',
+    datePublished: '2025-12-17T12:47:24+00:00',
+    dateModified: '2025-12-17T12:47:26+00:00',
     title: 'Slope 2 – Play Slope 2 Player Unblocked Online',
     metaDescription: 'Play Slope 2 unblocked! Test your reflexes in this fast-paced slope2 game. Race, dodge obstacles, and enjoy thrilling 2-player challenges anytime.',
     category: 'online-games',
@@ -7615,6 +8061,8 @@ export const games = [
   },
   {
     slug: 'slope-unblocked',
+    datePublished: '2025-12-17T12:40:15+00:00',
+    dateModified: '2025-12-17T12:40:17+00:00',
     title: 'Slope Unblocked – Play Slope Game Free Online',
     metaDescription: 'Play Slope unblocked online! Test your reflexes in the thrilling Slope game. Roll the ball, dodge obstacles, and master endless slopes anytime.',
     category: 'online-games',
@@ -7667,6 +8115,8 @@ export const games = [
   },
   {
     slug: 'google-minesweeper',
+    datePublished: '2025-12-17T12:34:40+00:00',
+    dateModified: '2025-12-17T12:34:41+00:00',
     title: 'Google Minesweeper – Play Minesweeper Online Game Free',
     metaDescription: 'Play Google Minesweeper online for free! Enjoy the classic minesweeper game experience with simple controls and endless puzzle challenges.',
     category: 'google-doodle-games',
@@ -7701,6 +8151,8 @@ export const games = [
   },
   {
     slug: 'doodle-baseball',
+    datePublished: '2025-12-17T12:05:22+00:00',
+    dateModified: '2025-12-17T12:05:24+00:00',
     title: 'Google Doodle Baseball - Play 4th of July Game Online',
     metaDescription: 'Play Google Doodle Baseball online! Celebrate with the fun Fourth of July baseball doodle. Hit home runs and enjoy the classic Google Baseball game!',
     category: 'google-doodle-games',
@@ -7735,6 +8187,8 @@ export const games = [
   },
   {
     slug: 'eggy-car',
+    datePublished: '2025-09-27T09:02:19+00:00',
+    dateModified: '2025-12-17T11:00:18+00:00',
     title: 'Eggy Car – Play the Eggy Car Game Free Online',
     metaDescription: 'Play Eggy Car online and test your skills in this addictive Eggy Car game. Balance your egg across tricky roads and see how far you can go without dropping it!',
     category: 'online-games',
@@ -7763,6 +8217,8 @@ export const games = [
   },
   {
     slug: '1v1-lol-unblocked',
+    datePublished: '2025-10-22T09:33:20+00:00',
+    dateModified: '2025-12-17T10:59:24+00:00',
     title: '1v1 LOL Unblocked - Play the Game Free Online',
     metaDescription: 'Play 1v1 LOL unblocked online! Build, shoot, and outsmart rivals in this action-packed 1v1 LOL game. Show your skills in fast-paced battle arenas.',
     category: 'online-games',
@@ -7795,6 +8251,8 @@ export const games = [
   },
   {
     slug: 'tetris-unblocked',
+    datePublished: '2025-10-22T09:17:02+00:00',
+    dateModified: '2025-12-17T10:58:15+00:00',
     title: 'Tetris Unblocked - Play the Game Free Online',
     metaDescription: 'Play Tetris unblocked online free! Stack blocks, clear lines, and test your reflexes in the timeless Tetris game that never goes out of style.',
     category: 'online-games',
@@ -7829,6 +8287,8 @@ export const games = [
   },
   {
     slug: 'subway-surfers-unblocked',
+    datePublished: '2025-10-22T09:08:06+00:00',
+    dateModified: '2025-12-17T10:56:57+00:00',
     title: 'Subway Surfers Unblocked - Play the Game Free Online',
     metaDescription: 'Play Subway Surfers unblocked online and dash through subways, dodge trains, and collect coins in the thrilling endless running Subway Surfers game.',
     category: 'online-games',
@@ -7861,6 +8321,8 @@ export const games = [
   },
   {
     slug: 'ovo-game',
+    datePublished: '2025-10-22T09:02:35+00:00',
+    dateModified: '2025-12-17T10:54:03+00:00',
     title: 'OvO Game - Play Ovo Unblocked Online',
     metaDescription: 'Play Ovo game online and test your parkour skills through exciting obstacle courses. Run, jump, and slide your way in the thrilling Ovo unblocked adventure.',
     category: 'online-games',
@@ -7893,6 +8355,8 @@ export const games = [
   },
   {
     slug: '2048-game',
+    datePublished: '2025-10-22T07:56:56+00:00',
+    dateModified: '2025-12-17T10:53:16+00:00',
     title: '2048 Game - Play 2048 Unblocked Free Online',
     metaDescription: 'Play 2048 online for free! Slide tiles, merge numbers, and reach 2048. Enjoy 2048 unblocked anytime and anwhere, start the fun now!',
     category: 'online-games',
@@ -7925,6 +8389,8 @@ export const games = [
   },
   {
     slug: 'tiny-fishing',
+    datePublished: '2025-10-20T08:34:22+00:00',
+    dateModified: '2025-12-17T10:51:06+00:00',
     title: 'Tiny Fishing - Play the Game Unblocked Online',
     metaDescription: 'Cast your line and catch rare fish in Tiny Fishing unblocked! Upgrade your gear, dive deeper, and earn gold in this relaxing and addictive fishing game.',
     category: 'online-games',
@@ -7957,6 +8423,8 @@ export const games = [
   },
   {
     slug: 'bullet-force',
+    datePublished: '2025-11-05T11:17:08+00:00',
+    dateModified: '2025-12-17T10:48:17+00:00',
     title: 'Bullet Force - Play the Game Unblocked Online',
     metaDescription: 'Play Bullet Force unblocked, a fast-paced FPS game with modern weapons and multiplayer action. Jump into intense battles and test your shooting skills online!',
     category: 'online-games',
@@ -7987,6 +8455,8 @@ export const games = [
   },
   {
     slug: 'agario',
+    datePublished: '2025-11-11T10:03:18+00:00',
+    dateModified: '2025-12-17T10:43:45+00:00',
     title: 'Agario Unblocked - Play the Game Free Online',
     metaDescription: 'Play Agario unblocked and dominate the arena! Eat smaller cells, grow bigger, and survive the chaos in this addictive online Agario game.',
     category: 'online-games',
@@ -8019,6 +8489,8 @@ export const games = [
   },
   {
     slug: 'papas-freezeria',
+    datePublished: '2025-11-11T09:43:49+00:00',
+    dateModified: '2025-12-17T10:42:44+00:00',
     title: 'Papa\'s Freezeria - Play the Game Unblocked Online',
     metaDescription: 'Play Papa\'s Freezeria unblocked and manage your own ice cream shop! Serve customers, blend sundaes, and master the fun Papa\'s Freezeria game online.',
     category: 'online-games',
@@ -8051,6 +8523,8 @@ export const games = [
   },
   {
     slug: 'my-singing-monsters',
+    datePublished: '2025-11-10T11:26:35+00:00',
+    dateModified: '2025-12-17T10:40:38+00:00',
     title: 'My Singing Monsters - Play Game Unblocked Online',
     metaDescription: 'Play My Singing Monsters online and create your own monster orchestra. Enjoy the My Singing Monsters game and play My Singing Monsters unblocked anywhere.',
     category: 'online-games',
@@ -8083,6 +8557,8 @@ export const games = [
   },
   {
     slug: '2-minute-football',
+    datePublished: '2025-11-19T08:54:44+00:00',
+    dateModified: '2025-12-17T10:25:50+00:00',
     title: '2 Minute Football - Play the Game Unblocked Online',
     metaDescription: 'Play 2 Minute Football online and become a QB legend. Enjoy this fast two minute football game and try 2 Minute Football unblocked for free.',
     category: 'online-games',
@@ -8115,6 +8591,8 @@ export const games = [
   },
   {
     slug: 'block-blast-unblocked',
+    datePublished: '2025-11-19T08:26:30+00:00',
+    dateModified: '2025-12-17T10:23:26+00:00',
     title: 'Block Blast Unblocked - Play the Game Free Online',
     metaDescription: 'Play Block Blast game free and enjoy a fun puzzle challenge. Drag blocks, clear lines, and score big in the Block Blast online and unblocked version.',
     category: 'online-games',
@@ -8147,6 +8625,8 @@ export const games = [
   },
   {
     slug: 'thief-puzzle',
+    datePublished: '2025-11-18T16:43:31+00:00',
+    dateModified: '2025-12-17T10:22:19+00:00',
     title: 'Thief Puzzle - Play the Game Free Online',
     metaDescription: 'Play Thief Puzzle free and test your logic skills. Solve tricky levels, plan your moves, and enjoy the ultimate Thief Puzzle game challenge online.',
     category: 'online-games',
@@ -8179,6 +8659,8 @@ export const games = [
   },
   {
     slug: 'space-waves-game',
+    datePublished: '2025-11-18T15:43:21+00:00',
+    dateModified: '2025-12-17T10:19:31+00:00',
     title: 'Space Waves Game - Play the Game Unblocked Online',
     metaDescription: 'Play Space Waves game online and test your reflexes in a fast-paced neon space world. Enjoy Space Waves unblocked, it is one of the crazy games.',
     category: 'online-games',
@@ -8211,6 +8693,8 @@ export const games = [
   },
   {
     slug: 'wrestle-bros',
+    datePublished: '2025-11-19T08:49:53+00:00',
+    dateModified: '2025-11-19T08:50:21+00:00',
     title: 'Wrestle Bros - Play WWE Wrestling Game Unblocked',
     metaDescription: 'Play Wrestle Bros, the fun wrestling game where you flip, throw, and defeat opponents. Enjoy Wrestling Bros online and Wrestle Bros unblocked for free.',
     category: 'online-games',
@@ -8243,6 +8727,8 @@ export const games = [
   },
   {
     slug: 'flyordie',
+    datePublished: '2025-11-19T08:45:13+00:00',
+    dateModified: '2025-11-19T08:45:14+00:00',
     title: 'FlyOrDie - Play EvoWorld IO Game Free Online',
     metaDescription: 'Play FlyOrDie IO, the evolution-based fly or die game. Eat, evolve, and survive in EvoWorld. Become stronger and dominate the sky in this fun multiplayer game.',
     category: 'online-games',
@@ -8275,6 +8761,8 @@ export const games = [
   },
   {
     slug: 'evo-wars-io',
+    datePublished: '2025-11-19T08:39:20+00:00',
+    dateModified: '2025-11-19T08:39:22+00:00',
     title: 'Evo Wars IO - Play the Evo Game Free Online',
     metaDescription: 'Play Evo Wars IO, the fast-paced evowars io game. Evolve, fight, and dominate the arena. Upgrade your warrior and survive in this addictive battle game.',
     category: 'online-games',
@@ -8307,6 +8795,8 @@ export const games = [
   },
   {
     slug: 'taming-io',
+    datePublished: '2025-11-19T08:35:02+00:00',
+    dateModified: '2025-11-19T08:35:03+00:00',
     title: 'Taming IO - Play the Game Free Online',
     metaDescription: 'Play Taming io, the survival and pet-taming game where you gather resources, craft tools, and battle enemies. Enjoy Taming.io online free and build your empire.',
     category: 'online-games',
@@ -8339,6 +8829,8 @@ export const games = [
   },
   {
     slug: 'supermarket-simulator',
+    datePublished: '2025-11-19T08:30:53+00:00',
+    dateModified: '2025-11-19T08:30:54+00:00',
     title: 'Supermarket Simulator - Play the Game Free Online',
     metaDescription: 'Play Supermarket Simulator free and manage your own store. Stock shelves, serve customers, and grow your business in this fun Supermarket game online.',
     category: 'online-games',
@@ -8371,6 +8863,8 @@ export const games = [
   },
   {
     slug: 'color-by-number',
+    datePublished: '2025-11-19T08:20:30+00:00',
+    dateModified: '2025-11-19T08:20:32+00:00',
     title: 'Color by Number - Play the Colour Tap Free Online',
     metaDescription: 'Play Color by Number free and enjoy relaxing coloring fun. Fill numbered spaces, unlock artworks, and experience the soothing joy of colour by number games.',
     category: 'online-games',
@@ -8403,6 +8897,8 @@ export const games = [
   },
   {
     slug: 'racing-limits',
+    datePublished: '2025-11-19T08:15:31+00:00',
+    dateModified: '2025-11-19T08:15:32+00:00',
     title: 'Racing Limits - Play the Game Free Online',
     metaDescription: 'Play Racing Limits online and experience high-speed traffic racing. Master controls, upgrade vehicles, and enjoy endless racing action in the Racing Limits game',
     category: 'online-games',
@@ -8435,6 +8931,8 @@ export const games = [
   },
   {
     slug: 'poxel',
+    datePublished: '2025-11-19T08:10:41+00:00',
+    dateModified: '2025-11-19T08:10:43+00:00',
     title: 'Poxel IO - Play the Game Free Online',
     metaDescription: 'Play Poxel, the fast and addictive Poxel IO game. Move, survive, and outplay opponents in this competitive pixel io arena. Fun, fast, and free to play!',
     category: 'online-games',
@@ -8467,6 +8965,8 @@ export const games = [
   },
   {
     slug: 'ragdoll-archers',
+    datePublished: '2025-11-18T16:51:31+00:00',
+    dateModified: '2025-11-18T16:51:33+00:00',
     title: 'Ragdoll Archers - Play the Game Unblocked Online',
     metaDescription: 'Play Ragdoll Archers online and master your aim. Enjoy ragdoll physics, challenging targets, and thrilling battles in this exciting Ragdoll Archers game.',
     category: 'online-games',
@@ -8499,6 +8999,8 @@ export const games = [
   },
   {
     slug: 'front-wars',
+    datePublished: '2025-11-18T16:47:42+00:00',
+    dateModified: '2025-11-18T16:47:43+00:00',
     title: 'Front Wars - Play the IO Game Free Online',
     metaDescription: 'Play Front Wars online and lead your army to victory. Strategize, fight enemies, and dominate the battlefield in this thrilling Front Wars game.',
     category: 'online-games',
@@ -8531,6 +9033,8 @@ export const games = [
   },
   {
     slug: 'golf-orbit',
+    datePublished: '2025-11-18T16:38:04+00:00',
+    dateModified: '2025-11-18T16:38:06+00:00',
     title: 'Golf Orbit - Play the Game Unblocked Online',
     metaDescription: 'Play Golf Orbit online and enjoy challenging orbit-style golf courses. Aim, shoot, and master Golf Orbit game for endless fun and skillful gameplay.',
     category: 'online-games',
@@ -8563,6 +9067,8 @@ export const games = [
   },
   {
     slug: 'build-now-gg',
+    datePublished: '2025-11-18T16:30:47+00:00',
+    dateModified: '2025-11-18T16:30:49+00:00',
     title: 'Build Now Gg - Play the Game Free Online',
     metaDescription: 'Play Build Now Gg online and enjoy creative building fun. Build structures, complete challenges, and explore endless construction possibilities.',
     category: 'online-games',
@@ -8595,6 +9101,8 @@ export const games = [
   },
   {
     slug: 'traffic-rider',
+    datePublished: '2025-11-18T16:15:28+00:00',
+    dateModified: '2025-11-18T16:15:40+00:00',
     title: 'Traffic Rider - Play the Raider Game Free Online',
     metaDescription: 'Play Traffic Rider online and experience thrilling high-speed motorcycle rides. Enjoy smooth controls and endless traffic challenges.',
     category: 'online-games',
@@ -8627,6 +9135,8 @@ export const games = [
   },
   {
     slug: 'planet-clicker',
+    datePublished: '2025-11-18T16:05:04+00:00',
+    dateModified: '2025-11-18T16:05:07+00:00',
     title: 'Planet Clicker - Play Earth & World Clicker Game Online',
     metaDescription: 'Play Planet Clicker online and grow your planets. Try Earth Clicker and World Clicker for fun idle gameplay with upgrades and nonstop clicking action.',
     category: 'online-games',
@@ -8659,6 +9169,8 @@ export const games = [
   },
   {
     slug: 'deadshot-io',
+    datePublished: '2025-11-18T15:56:48+00:00',
+    dateModified: '2025-11-18T15:56:50+00:00',
     title: 'Deadshot IO - Play the Game Free Online',
     metaDescription: 'Play Deadshot IO game online and compete in fast-paced shooter battles. Enjoy Deadshot.io unblocked with smooth controls, quick matches, and nonstop action.',
     category: 'online-games',
@@ -8691,6 +9203,8 @@ export const games = [
   },
   {
     slug: '99-nights-in-the-forest',
+    datePublished: '2025-11-18T15:30:34+00:00',
+    dateModified: '2025-11-18T15:30:35+00:00',
     title: '99 Nights in the Forest - Play the Game Online Wiki',
     metaDescription: 'Play 99 Nights in the Forest, a survival adventure game. Explore the forest, craft tools, and stay alive. Learn tips, wiki info, and codes.',
     category: 'online-games',
@@ -8723,6 +9237,8 @@ export const games = [
   },
   {
     slug: 'grow-a-garden',
+    datePublished: '2025-11-18T15:20:08+00:00',
+    dateModified: '2025-11-18T15:20:09+00:00',
     title: 'Grow a Garden - Play the Game Free Online Wiki',
     metaDescription: 'Play Grow a Garden online! Explore the Grow a Garden game, learn gardening, plant crops, and enjoy this fun Grow a Garden Roblox-style experience.',
     category: 'online-games',
@@ -8755,6 +9271,8 @@ export const games = [
   },
   {
     slug: 'football-bros-unblocked',
+    datePublished: '2025-11-18T15:01:01+00:00',
+    dateModified: '2025-11-18T15:01:03+00:00',
     title: 'Football Bros Unblocked - Play the Game Free Online',
     metaDescription: 'Play Football Bros unblocked online! Enjoy fast football action in this fun football bros game. Join matches, score goals, and dominate the field.',
     category: 'online-games',
@@ -8787,6 +9305,8 @@ export const games = [
   },
   {
     slug: 'soccer-bros',
+    datePublished: '2025-11-18T14:42:24+00:00',
+    dateModified: '2025-11-18T14:42:26+00:00',
     title: 'Soccer Bros - Play the Game Unblocked Online',
     metaDescription: 'Play Soccer Bros unblocked and enjoy fast, action-packed 1v1 football battles. Choose unique characters, score goals, and dominate the Soccer Bros game online.',
     category: 'online-games',
@@ -8819,6 +9339,8 @@ export const games = [
   },
   {
     slug: 'steal-a-brainrot',
+    datePublished: '2025-11-18T12:18:38+00:00',
+    dateModified: '2025-11-18T12:18:40+00:00',
     title: 'Steal a Brainrot - Play the Game Free Online',
     metaDescription: 'Play Steal a Brainrot online free and enjoy a fun competitive challenge. Outsmart opponents, grab brainrots, and win in this fast, chaotic online game.',
     category: 'online-games',
@@ -8851,6 +9373,8 @@ export const games = [
   },
   {
     slug: 'uno-online',
+    datePublished: '2025-11-17T13:02:44+00:00',
+    dateModified: '2025-11-17T13:02:46+00:00',
     title: 'UNO Online - Play the Game Free Unblocked',
     metaDescription: 'Play UNO Online for free. Enjoy the classic UNO card game, challenge players worldwide, and experience fast, fun card-matching battles online.',
     category: 'online-games',
@@ -8883,6 +9407,8 @@ export const games = [
   },
   {
     slug: 'basketball-bros',
+    datePublished: '2025-11-17T12:56:57+00:00',
+    dateModified: '2025-11-17T12:56:59+00:00',
     title: 'Basketball Bros - Play Basket Bros Game Unblocked',
     metaDescription: 'Play Basketball Bros online and enjoy fast 1v1 action in the BasketBros game. Try Basketball Bros unblocked and compete in fun, fast-paced basketball battles.',
     category: 'online-games',
@@ -8915,6 +9441,8 @@ export const games = [
   },
   {
     slug: 'paper-io-2',
+    datePublished: '2025-11-17T12:50:16+00:00',
+    dateModified: '2025-11-17T12:50:21+00:00',
     title: 'Paper IO 2 - Play the Game Unblocked Online',
     metaDescription: 'Play Paper IO 2 online and expand your territory. Enjoy fast, strategic gameplay in the Paperio 2 world. Try the best Paper IO 2 game unblocked anytime.',
     category: 'online-games',
@@ -8947,6 +9475,8 @@ export const games = [
   },
   {
     slug: 'draw-a-perfect-circle',
+    datePublished: '2025-11-17T12:32:01+00:00',
+    dateModified: '2025-11-17T12:45:27+00:00',
     title: 'Draw a Perfect Circle - Play Perfect Circle Game Online',
     metaDescription: 'Play Draw a Perfect Circle, the fun perfect circle game. Test accuracy, improve precision, and challenge your drawing skills with this addictive online game.',
     category: 'online-games',
@@ -8979,6 +9509,8 @@ export const games = [
   },
   {
     slug: 'slice-master',
+    datePublished: '2025-11-17T12:38:48+00:00',
+    dateModified: '2025-11-17T12:45:17+00:00',
     title: 'Slice Master - Play the Game Unblocked Online',
     metaDescription: 'Play Slice Master, the fast and addictive slicing game. Enjoy Slice Master unblocked, slice objects, avoid traps, and score big in the slicemaster challenge',
     category: 'online-games',
@@ -9011,6 +9543,8 @@ export const games = [
   },
   {
     slug: 'bloxd-io',
+    datePublished: '2025-11-17T12:44:53+00:00',
+    dateModified: '2025-11-17T12:44:55+00:00',
     title: 'Bloxd IO - Play the Game Unblocked Online',
     metaDescription: 'Play Bloxd IO, a fun online adventure and parkour game. Explore worlds, complete challenges, and enjoy Bloxd.io or blox io unblocked with friends online.',
     category: 'online-games',
@@ -9043,6 +9577,8 @@ export const games = [
   },
   {
     slug: 'im-not-a-robot',
+    datePublished: '2025-11-17T12:12:18+00:00',
+    dateModified: '2025-11-17T12:12:20+00:00',
     title: 'I’m Not a Robot - Play the Game Online Neal Fun',
     metaDescription: 'Play I’m Not a Robot, the fun Neal Fun challenge! Solve human tests, complete tasks, and enjoy the interactive I’m Not a Robot game online.',
     category: 'online-games',
@@ -9075,6 +9611,8 @@ export const games = [
   },
   {
     slug: 'capybara-clicker',
+    datePublished: '2025-11-17T11:59:49+00:00',
+    dateModified: '2025-11-17T11:59:50+00:00',
     title: 'Capybara Clicker - Play the Game Unblocked Online',
     metaDescription: 'Play Capybara Clicker, the fun idle click game! Grow your capybara population, unlock upgrades, and enjoy the relaxing capybara clicker game online.',
     category: 'online-games',
@@ -9107,6 +9645,8 @@ export const games = [
   },
   {
     slug: 'word-wipe',
+    datePublished: '2025-11-17T11:52:59+00:00',
+    dateModified: '2025-11-17T11:53:02+00:00',
     title: 'Word Wipe - Play the Game Free Online',
     metaDescription: 'Play Word Wipe, the fast-paced word puzzle game! Enjoy Word Wipe AARP online, clear rows, and boost your vocabulary in this fun word wipe game.',
     category: 'online-games',
@@ -9139,6 +9679,8 @@ export const games = [
   },
   {
     slug: 'super-smash-flash-2',
+    datePublished: '2025-11-12T10:18:25+00:00',
+    dateModified: '2025-11-12T10:18:26+00:00',
     title: 'Super Smash Flash 2 - Play the Game Unblocked Online',
     metaDescription: 'Enjoy Super Smash Flash 2 online — the fan-made fighting game with your favorite heroes! Play Super Smash Flash 2 unblocked anytime and battle for victory!',
     category: 'online-games',
@@ -9171,6 +9713,8 @@ export const games = [
   },
   {
     slug: 'spider-solitaire-free',
+    datePublished: '2025-11-12T10:09:53+00:00',
+    dateModified: '2025-11-12T10:09:54+00:00',
     title: 'Spider Solitaire Free - Play the Game Unblocked Online',
     metaDescription: 'Enjoy Spider Solitaire free online! Test your patience and logic in this classic card game. Play anytime, anywhere, and improve your strategy today!',
     category: 'online-games',
@@ -9203,6 +9747,8 @@ export const games = [
   },
   {
     slug: 'poker-online',
+    datePublished: '2025-11-12T10:02:54+00:00',
+    dateModified: '2025-11-12T10:02:56+00:00',
     title: 'Poker Online - Play the Poker Game Unblocked',
     metaDescription: 'Play poker online and test your strategy in thrilling multiplayer matches. Join the classic poker game, bluff your way to victory, and win big today!',
     category: 'online-games',
@@ -9235,6 +9781,8 @@ export const games = [
   },
   {
     slug: 'lolbeans',
+    datePublished: '2025-11-12T09:55:33+00:00',
+    dateModified: '2025-11-12T09:55:34+00:00',
     title: 'LOLBeans - Play the Game Free Online',
     metaDescription: 'Play LOLBeans, a hilarious online racing game. Compete with others, dodge obstacles, and reach the finish line in this fast-paced LOLBeans game adventure!',
     category: 'online-games',
@@ -9267,6 +9815,8 @@ export const games = [
   },
   {
     slug: 'eaglercraft',
+    datePublished: '2025-11-12T09:49:09+00:00',
+    dateModified: '2025-11-12T09:49:10+00:00',
     title: 'Eaglercraft Unblocked - Play the Game Free Online',
     metaDescription: 'Play Eaglercraft unblocked and explore a pixel world of creativity! Build, mine, and survive in this fun online sandbox Eaglercraft game adventure.',
     category: 'online-games',
@@ -9299,6 +9849,8 @@ export const games = [
   },
   {
     slug: 'dragon-ball-z',
+    datePublished: '2025-11-12T09:40:06+00:00',
+    dateModified: '2025-11-12T09:40:07+00:00',
     title: 'Dragon Ball Z - Play the Game Unblocked Online',
     metaDescription: 'Play Dragon Ball Z online and relive epic Saiyan battles! Train, fight, and power up your heroes in this action-packed Dragon Ball Z fighting game.',
     category: 'online-games',
@@ -9331,6 +9883,8 @@ export const games = [
   },
   {
     slug: 'minecraft-unblocked',
+    datePublished: '2025-11-12T09:26:19+00:00',
+    dateModified: '2025-11-12T09:26:21+00:00',
     title: 'Minecraft Unblocked - Play the Classic Game Free Online',
     metaDescription: 'Play Minecraft unblocked online! Explore endless worlds, craft tools, and build anything you imagine in this classic sandbox adventure game.',
     category: 'online-games',
@@ -9363,6 +9917,8 @@ export const games = [
   },
   {
     slug: 'clash-royale-online',
+    datePublished: '2025-11-11T10:32:20+00:00',
+    dateModified: '2025-11-11T10:32:22+00:00',
     title: 'Clash Royale Online - Play Clash Royale Unblocked Game',
     metaDescription: 'Play Clash Royale online and enjoy epic real-time card battles! Collect troops, build decks, and fight opponents in this fast-paced Clash Royale game.',
     category: 'online-games',
@@ -9395,6 +9951,8 @@ export const games = [
   },
   {
     slug: 'super-mario',
+    datePublished: '2025-11-11T10:19:06+00:00',
+    dateModified: '2025-11-11T10:19:08+00:00',
     title: 'Super Mario - Play Super Mario 64 Unblocked Game Online',
     metaDescription: 'Play Super Mario 64 unblocked and relive the classic adventure! Join Mario to explore worlds, collect stars, and save Princess Peach in this fun Mario game.',
     category: 'online-games',
@@ -9427,6 +9985,8 @@ export const games = [
   },
   {
     slug: 'papas-pizzeria',
+    datePublished: '2025-11-11T09:52:55+00:00',
+    dateModified: '2025-11-11T09:52:56+00:00',
     title: 'Papa\'s Pizzeria - Play the Game Unblocked Online',
     metaDescription: 'Play Papa’s Pizzeria unblocked and manage your own pizza shop! Take orders, bake pizzas, and serve customers fast in the fun Papa’s Pizzeria game online.',
     category: 'online-games',
@@ -9459,6 +10019,8 @@ export const games = [
   },
   {
     slug: 'oregon-trail',
+    datePublished: '2025-11-11T09:33:37+00:00',
+    dateModified: '2025-11-11T09:33:39+00:00',
     title: 'Oregon Trail - Play the Game Unblocked Online',
     metaDescription: 'Play Oregon Trail game and experience the classic journey west. Survive, trade, and explore in Oregon Trail unblocked adventures full of strategy and fun.',
     category: 'online-games',
@@ -9491,6 +10053,8 @@ export const games = [
   },
   {
     slug: 'incredibox',
+    datePublished: '2025-11-10T11:34:45+00:00',
+    dateModified: '2025-11-10T11:34:46+00:00',
     title: 'Incredibox - Play Sprunki Incredibox Game Free Online',
     metaDescription: 'Play Incredibox and create catchy beats with cool characters. Enjoy the Incredibox game and explore Sprunki Incredibox remixes to make your own music online.',
     category: 'online-games',
@@ -9523,6 +10087,8 @@ export const games = [
   },
   {
     slug: 'mortal-kombat',
+    datePublished: '2025-11-10T11:20:42+00:00',
+    dateModified: '2025-11-10T11:20:44+00:00',
     title: 'Mortal Kombat - Play the Game Unblocked Online',
     metaDescription: 'Play Mortal Kombat online and experience intense battles. Enjoy the classic Mortal Kombat game and fight with legends in Mortal Kombat unblocked.',
     category: 'online-games',
@@ -9555,6 +10121,8 @@ export const games = [
   },
   {
     slug: 'ping-pong',
+    datePublished: '2025-11-10T11:05:15+00:00',
+    dateModified: '2025-11-10T11:05:16+00:00',
     title: 'Ping Pong - Play Table Tennis Game Unblocked Online',
     metaDescription: 'Enjoy the fast-paced Ping Pong game online! Play Ping Pong unblocked and test your reflexes in this exciting table tennis game for all skill levels.',
     category: 'online-games',
@@ -9587,6 +10155,8 @@ export const games = [
   },
   {
     slug: 'duck-life',
+    datePublished: '2025-11-10T10:57:35+00:00',
+    dateModified: '2025-11-10T11:01:50+00:00',
     title: 'Duck Life - Play the Game Unblocked Online',
     metaDescription: 'Train your duck and race to victory in Duck Life! Play Duck Life unblocked online, build skills, and become the ultimate duck champion in this fun duck game.',
     category: 'online-games',
@@ -9619,6 +10189,8 @@ export const games = [
   },
   {
     slug: 'fruit-ninja',
+    datePublished: '2025-11-05T11:55:32+00:00',
+    dateModified: '2025-11-05T11:55:33+00:00',
     title: 'Fruit Ninja - Play the Game Free Online',
     metaDescription: 'Play Fruit Ninja online and test your slicing skills! Enjoy this addictive ninja game and slash fruits with style in the ultimate Fruit Ninja game challenge.',
     category: 'online-games',
@@ -9651,6 +10223,8 @@ export const games = [
   },
   {
     slug: 'flappy-bird',
+    datePublished: '2025-11-05T11:49:59+00:00',
+    dateModified: '2025-11-05T11:50:00+00:00',
     title: 'Flappy Bird - Play the Game Unblocked Online',
     metaDescription: 'Play Flappy Bird online and test your reflexes! Tap to keep the bird flying through pipes in this addictive and challenging flappy bird unblocked game.',
     category: 'online-games',
@@ -9683,6 +10257,8 @@ export const games = [
   },
   {
     slug: 'word-search-puzzles',
+    datePublished: '2025-11-05T11:45:02+00:00',
+    dateModified: '2025-11-05T11:45:03+00:00',
     title: 'Word Search Puzzles - Play the Game Free Online',
     metaDescription: 'Enjoy free word search puzzles online! Find hidden words in a fun and relaxing word search game that boosts your focus and vocabulary skills.',
     category: 'online-games',
@@ -9715,6 +10291,8 @@ export const games = [
   },
   {
     slug: 'kenken',
+    datePublished: '2025-11-05T11:38:01+00:00',
+    dateModified: '2025-11-05T11:38:02+00:00',
     title: 'kenken - Play the Game Free Online',
     metaDescription: 'Play KenKen online and enjoy this smart number puzzle game. Challenge your logic, math, and reasoning skills with fun and interactive KenKen puzzles!',
     category: 'online-games',
@@ -9747,6 +10325,8 @@ export const games = [
   },
   {
     slug: 'pizza-tower',
+    datePublished: '2025-11-05T11:07:05+00:00',
+    dateModified: '2025-11-05T11:07:09+00:00',
     title: 'Pizza Tower - Play the Game Free Online',
     metaDescription: 'Play Pizza Tower online and enjoy the action-packed platformer! Run, jump, and smash through levels as Peppino in this fast-paced pizza tower game.',
     category: 'online-games',
@@ -9779,6 +10359,8 @@ export const games = [
   },
   {
     slug: 'bloxorz',
+    datePublished: '2025-11-05T10:47:04+00:00',
+    dateModified: '2025-11-05T10:47:05+00:00',
     title: 'Bloxorz Unblocked – Play the Game Free Online',
     metaDescription: 'Play Bloxorz unblocked online! Enjoy this challenging blox game, roll the block through tricky paths, and drop it perfectly into the square hole to win.',
     category: 'online-games',
@@ -9811,6 +10393,8 @@ export const games = [
   },
   {
     slug: 'baldis-basics',
+    datePublished: '2025-10-30T08:53:05+00:00',
+    dateModified: '2025-10-30T08:53:07+00:00',
     title: 'Baldi’s Basics - Play the Game Unblocked Online',
     metaDescription: 'Play Baldi’s Basics unblocked online! Explore the fun yet creepy Baldi’s Basics game, collect notebooks, and escape Baldi’s school before he catches you.',
     category: 'online-games',
@@ -9843,6 +10427,8 @@ export const games = [
   },
   {
     slug: 'paper-io',
+    datePublished: '2025-10-30T08:44:58+00:00',
+    dateModified: '2025-10-30T08:45:00+00:00',
     title: 'Paper IO - Play the Game Unblocked Online',
     metaDescription: 'Play Paper.io unblocked online and conquer the map! Expand your land, eliminate rivals, and dominate the arena in this thrilling multiplayer paper game.',
     category: 'online-games',
@@ -9875,6 +10461,8 @@ export const games = [
   },
   {
     slug: 'idle-breakout',
+    datePublished: '2025-10-30T08:37:41+00:00',
+    dateModified: '2025-10-30T08:37:42+00:00',
     title: 'Idle Breakout - Play the Game Unblocked Online',
     metaDescription: 'Play Idle Breakout unblocked game online. Smash bricks, earn points, and upgrade balls in this addictive idle breakout game of endless fun and strategy.',
     category: 'online-games',
@@ -9907,6 +10495,8 @@ export const games = [
   },
   {
     slug: 'granny-unblocked',
+    datePublished: '2025-10-30T08:30:45+00:00',
+    dateModified: '2025-10-30T08:30:47+00:00',
     title: 'Granny Unblocked - Play the Game Free Online',
     metaDescription: 'Play Granny unblocked horror game online. Escape the creepy house, solve puzzles, and survive the terrifying Granny game with stealth and strategy.',
     category: 'online-games',
@@ -9939,6 +10529,8 @@ export const games = [
   },
   {
     slug: 'drift-boss-unblocked',
+    datePublished: '2025-10-30T08:24:09+00:00',
+    dateModified: '2025-10-30T08:24:11+00:00',
     title: 'Drift Boss Unblocked - Play the Game Free Online',
     metaDescription: 'Play Drift Boss unblocked and show off your drifting skills! Control your car, drift around sharp turns, and master the Drift Boss game for endless fun online.',
     category: 'online-games',
@@ -9971,6 +10563,8 @@ export const games = [
   },
   {
     slug: 'cookie-clicker-2',
+    datePublished: '2025-10-29T06:49:02+00:00',
+    dateModified: '2025-10-29T06:49:04+00:00',
     title: 'Cookie Clicker 2 - Play the Game Unblocked Online',
     metaDescription: 'Play Cookie Clicker 2 unblocked! Bake cookies, unlock upgrades, and expand your bakery empire in the fun and addictive Cookie Clicker 2 game online.',
     category: 'online-games',
@@ -10003,6 +10597,8 @@ export const games = [
   },
   {
     slug: 'getaway-shootout',
+    datePublished: '2025-10-29T06:21:51+00:00',
+    dateModified: '2025-10-29T06:21:53+00:00',
     title: 'Getaway Shootout – Play the Game Unblocked Online',
     metaDescription: 'Play Getaway Shootout unblocked and race, jump, and shoot your way to the getaway point. Compete in crazy battles in this fun and chaotic action game.',
     category: 'online-games',
@@ -10035,6 +10631,8 @@ export const games = [
   },
   {
     slug: 'fall-guys',
+    datePublished: '2025-10-29T06:11:36+00:00',
+    dateModified: '2025-10-29T06:11:38+00:00',
     title: 'Fall Guys – Play Fall Guys Game Unblocked Online',
     metaDescription: 'Play Fall Guys unblocked and join hilarious obstacle courses. Compete, dodge, and race to victory in the ultimate Fall Guys game of chaos and fun.',
     category: 'online-games',
@@ -10067,6 +10665,8 @@ export const games = [
   },
   {
     slug: 'among-us-online',
+    datePublished: '2025-10-29T06:05:32+00:00',
+    dateModified: '2025-10-29T06:05:34+00:00',
     title: 'Among Us Online – Play the Game Unblocked Free',
     metaDescription: 'Play Among Us online free and join crewmates or impostors in thrilling missions. Enjoy Among Us unblocked and test your deception and teamwork skills.',
     category: 'online-games',
@@ -10099,6 +10699,8 @@ export const games = [
   },
   {
     slug: 'slope-3',
+    datePublished: '2025-10-29T06:00:37+00:00',
+    dateModified: '2025-10-29T06:00:38+00:00',
     title: 'Slope 3 – Play the Game Unblocked Online',
     metaDescription: 'Play Slope 3 unblocked online and test your reflexes on a fast 3D track. Control the ball, avoid obstacles, and race through endless neon slopes.',
     category: 'online-games',
@@ -10131,6 +10733,8 @@ export const games = [
   },
   {
     slug: 'fnaf-unblocked',
+    datePublished: '2025-10-27T06:47:32+00:00',
+    dateModified: '2025-10-27T06:47:34+00:00',
     title: 'FNAF Unblocked – Play Five Nights at Freddy’s Online',
     metaDescription: 'Play FNAF unblocked and experience the horror of Five Nights at Freddy’s online. Survive the nights, monitor cameras, and escape the animatronics’ attack.',
     category: 'online-games',
@@ -10163,6 +10767,8 @@ export const games = [
   },
   {
     slug: 'shell-shockers',
+    datePublished: '2025-10-27T06:43:04+00:00',
+    dateModified: '2025-10-27T06:43:06+00:00',
     title: 'Shell Shockers - Play the Game Unblocked Online',
     metaDescription: 'Play Shell Shockers, the ultimate egg shooter game online. Enter egg battles, use weapons, and dominate Shell Shockers unblocked anytime, anywhere.',
     category: 'online-games',
@@ -10195,6 +10801,8 @@ export const games = [
   },
   {
     slug: 'bitlife-unblocked',
+    datePublished: '2025-10-27T06:31:22+00:00',
+    dateModified: '2025-10-27T06:31:23+00:00',
     title: 'BitLife Unblocked - Play the Game Free Online',
     metaDescription: 'Play BitLife unblocked and live your dream life! Make choices, build careers, find love, and shape your story in the fun life simulator BitLife game online.',
     category: 'online-games',
@@ -10227,6 +10835,8 @@ export const games = [
   },
   {
     slug: 'wordle-game',
+    datePublished: '2025-10-27T06:26:03+00:00',
+    dateModified: '2025-10-27T06:26:05+00:00',
     title: 'Wordle Game - Play the Game Unblocked Online',
     metaDescription: 'Play Wordle game online and guess the hidden word in six tries! Enjoy Wordle unlimited, NYTimes Wordle, and Wordle unblocked free for daily fun challenges.',
     category: 'online-games',
@@ -10259,6 +10869,8 @@ export const games = [
   },
   {
     slug: 'happy-wheels',
+    datePublished: '2025-10-27T06:20:21+00:00',
+    dateModified: '2025-10-27T06:20:23+00:00',
     title: 'Happy Wheels - Play the Game Unblocked Online',
     metaDescription: 'Play Happy Wheels unblocked, the funniest ragdoll physics game! Ride crazy vehicles, avoid deadly traps, and survive hilarious challenges online.',
     category: 'online-games',
@@ -10291,6 +10903,8 @@ export const games = [
   },
   {
     slug: 'slither-io',
+    datePublished: '2025-10-26T17:11:05+00:00',
+    dateModified: '2025-10-26T17:11:07+00:00',
     title: 'Slither IO - Play the Game Unblocked Online',
     metaDescription: 'Play Slither.io unblocked and become the biggest snake! Compete online, eat glowing orbs, and dominate the arena in this addictive Slither.io game.',
     category: 'online-games',
@@ -10323,6 +10937,8 @@ export const games = [
   },
   {
     slug: 'rocket-league',
+    datePublished: '2025-10-26T16:29:07+00:00',
+    dateModified: '2025-10-26T16:29:10+00:00',
     title: 'Rocket League - Play the Game Unblocked Online',
     metaDescription: 'Play Rocket League unblocked and join the thrilling car-soccer action. Drive, boost, and score goals in this high-speed Rocket League game adventure.',
     category: 'online-games',
@@ -10355,6 +10971,8 @@ export const games = [
   },
   {
     slug: 'chess-online',
+    datePublished: '2025-10-25T17:56:52+00:00',
+    dateModified: '2025-10-25T17:56:53+00:00',
     title: 'Chess Online - Play Chess Game Free Unblocked Online',
     metaDescription: 'Play chess online free and challenge players worldwide. Enjoy the classic chess game unblocked with smart moves and real-time strategy.',
     category: 'online-games',
@@ -10387,6 +11005,8 @@ export const games = [
   },
   {
     slug: 'geometry-dash-unblocked',
+    datePublished: '2025-10-22T09:47:32+00:00',
+    dateModified: '2025-10-22T09:47:33+00:00',
     title: 'Geometry Dash Unblocked - Play the Game Free Online',
     metaDescription: 'Play Geometry Dash unblocked for free! Jump, fly, and flip through challenging levels in Geometry Dash online — test your skills with endless fun.',
     category: 'online-games',
@@ -10419,6 +11039,8 @@ export const games = [
   },
   {
     slug: 'fortnite-online',
+    datePublished: '2025-10-22T09:38:54+00:00',
+    dateModified: '2025-10-22T09:38:56+00:00',
     title: 'Fortnite Online - Play the Game Unblocked Online',
     metaDescription: 'Play Fortnite online for free! Enjoy the unblocked Fortnite game with epic battles, creative modes, and intense multiplayer fun right in your browser.',
     category: 'online-games',
@@ -10451,6 +11073,8 @@ export const games = [
   },
   {
     slug: '2048-cupcakes',
+    datePublished: '2025-10-22T08:51:20+00:00',
+    dateModified: '2025-10-22T08:51:22+00:00',
     title: '2048 Cupcakes - Play the Game Free Online',
     metaDescription: 'Play 2048 Cupcakes and merge delicious treats to reach the ultimate dessert! Enjoy this sweet and addictive Cupcake Game challenge online.',
     category: 'online-games',
@@ -10483,6 +11107,8 @@ export const games = [
   },
   {
     slug: 'temple-run',
+    datePublished: '2025-10-20T08:21:38+00:00',
+    dateModified: '2025-10-20T08:31:05+00:00',
     title: 'Temple Run - Play the Game Unblocked Online',
     metaDescription: 'Play Temple Run Unblocked online! Dash, jump, and slide through ancient temples, escape monsters, and collect coins in this fast-paced endless running game.',
     category: 'online-games',
@@ -10515,6 +11141,8 @@ export const games = [
   },
   {
     slug: '8-ball-pool',
+    datePublished: '2025-10-20T08:07:31+00:00',
+    dateModified: '2025-10-20T08:28:30+00:00',
     title: '8 Ball Pool - Play the Game Unblocked Online',
     metaDescription: 'Challenge players worldwide in 8 Ball Pool game. Master your shots, refine your aim, and become a pool legend in this exciting online billiards game.',
     category: 'online-games',
@@ -10547,6 +11175,8 @@ export const games = [
   },
   {
     slug: 'temple-run-2',
+    datePublished: '2025-10-20T08:15:24+00:00',
+    dateModified: '2025-10-20T08:15:26+00:00',
     title: 'Temple Run 2 - Play the Game Unblocked Online',
     metaDescription: 'Play Temple Run 2 unblocked! Run, jump, and slide through thrilling temples. Escape the beast, collect coins, and test your reflexes.',
     category: 'online-games',
@@ -10579,6 +11209,8 @@ export const games = [
   },
   {
     slug: 'penalty-shooters-2',
+    datePublished: '2025-10-20T07:54:52+00:00',
+    dateModified: '2025-10-20T07:54:53+00:00',
     title: 'Penalty Shooters 2 - Play the Game Unblocked Online',
     metaDescription: 'Step into the spotlight in Penalty Shooters 2! Test your aim, timing, and reflexes in thrilling penalty duels. Score goals, defend, and claim victory!',
     category: 'online-games',
@@ -10611,6 +11243,8 @@ export const games = [
   },
   {
     slug: 'stickman',
+    datePublished: '2025-10-20T07:43:46+00:00',
+    dateModified: '2025-10-20T07:50:18+00:00',
     title: 'Stickman - Play the Game Free Online',
     metaDescription: 'Play Stickman online! Enjoy action-packed levels, fun challenges, and creative gameplay in the Stickman game. Start playing now!',
     category: 'online-games',
@@ -10643,6 +11277,8 @@ export const games = [
   },
   {
     slug: 'the-impossible-quiz',
+    datePublished: '2025-10-15T09:20:47+00:00',
+    dateModified: '2025-10-15T09:20:49+00:00',
     title: 'The Impossible Quiz - Play The Game Online',
     metaDescription: 'Play The Impossible Quiz online! Test your brain with tricky, hilarious questions in The Impossible Quiz unblocked. Can you beat it?',
     category: 'online-games',
@@ -10675,6 +11311,8 @@ export const games = [
   },
   {
     slug: 'basketball-legends',
+    datePublished: '2025-10-15T09:07:58+00:00',
+    dateModified: '2025-10-15T09:16:39+00:00',
     title: 'Basketball Legends - Play the Game Unblocked Online',
     metaDescription: 'Play Basketball Legends game online at GamesDoodle.org. Enjoy epic 1v1 matches, special dunks, and thrilling moves in Basketball Legends unblocked!',
     category: 'online-games',
@@ -10707,6 +11345,8 @@ export const games = [
   },
   {
     slug: 'getting-over-it',
+    datePublished: '2025-10-15T08:54:11+00:00',
+    dateModified: '2025-10-15T08:59:40+00:00',
     title: 'Getting Over It – Play the Game Free Online',
     metaDescription: 'Play Getting Over It online for free! Experience the tough climbing challenge and try fan-made versions like Getting Over It Scratch.',
     category: 'online-games',
@@ -10739,6 +11379,8 @@ export const games = [
   },
   {
     slug: 'plants-vs-zombies',
+    datePublished: '2025-09-27T09:55:44+00:00',
+    dateModified: '2025-09-27T09:55:45+00:00',
     title: 'Plants vs Zombies – Play PvZ Game Online',
     metaDescription: 'Play Plants vs Zombies online! Build defenses, stop zombies, and enjoy PvZ fun. Try the Plants vs Zombies Fusion version for more action in this classic game.',
     category: 'online-games',
@@ -10771,6 +11413,8 @@ export const games = [
   },
   {
     slug: 'tic-tac-toe',
+    datePublished: '2025-09-27T08:51:19+00:00',
+    dateModified: '2025-09-27T08:51:21+00:00',
     title: 'Tic Tac Toe – Play Tic Tac Toe Game Online',
     metaDescription: 'Play Tic Tac Toe online! Enjoy the classic tic tac toe game against friends or AI. Simple, fun, and perfect for quick matches anytime.',
     category: 'online-games',
@@ -10799,6 +11443,8 @@ export const games = [
   },
   {
     slug: 'rooftop-snipers',
+    datePublished: '2025-09-21T10:31:48+00:00',
+    dateModified: '2025-09-21T10:31:49+00:00',
     title: 'Rooftop Snipers – Play the Game Unblocked Online',
     metaDescription: 'Play Rooftop Snipers unblocked! Enjoy the hilarious two-player rooftop snipers game with crazy physics, fun duels, and endless shooting battles online.',
     category: 'online-games',
@@ -10827,6 +11473,8 @@ export const games = [
   },
   {
     slug: 'memory-game',
+    datePublished: '2025-05-28T12:26:11+00:00',
+    dateModified: '2025-05-28T12:26:12+00:00',
     title: 'Google Memory Game - Play Free Online Now',
     metaDescription: 'Train your brain with the Google Memory Game! Flip and match cards in this fun memory game. Play online for free and boost your concentration.',
     category: 'google-doodle-games',
@@ -10849,6 +11497,8 @@ export const games = [
   },
   {
     slug: 'google-dreidel',
+    datePublished: '2025-05-20T18:59:12+00:00',
+    dateModified: '2025-05-20T18:59:13+00:00',
     title: 'Google Dreidel - Play Hanukkah Game Free Online',
     metaDescription: 'Spin the Google Dreidel online! Enjoy the classic dreidel game for fun and learning right here. No download needed, just play and enjoy!',
     category: 'google-doodle-games',
@@ -10871,6 +11521,8 @@ export const games = [
   },
   {
     slug: 'google-snake',
+    datePublished: '2025-12-17T12:01:04+00:00',
+    dateModified: '2025-12-17T12:01:07+00:00',
     title: 'Google Snake - Play Classic Snake Game Online',
     metaDescription: 'Play Google Snake, a modern take on the classic Snake Game. Control the snake, eat food, grow longer, and avoid crashes. Enjoy fun gameplay',
     category: 'google-doodle-games',
@@ -10903,6 +11555,8 @@ export const games = [
   },
   {
     slug: 'google-solitaire',
+    datePublished: '2025-12-17T13:14:32+00:00',
+    dateModified: '2025-12-17T13:14:33+00:00',
     title: 'Google Solitaire - Play The Solitaire Google Free Online',
     metaDescription: 'Enjoy Google Solitaire, a timeless card game! Play Solitaire free online, stack cards strategically, and challenge yourself to win every round.',
     category: 'google-doodle-games',
@@ -10935,6 +11589,8 @@ export const games = [
   },
   {
     slug: 'google-tic-tac-toe',
+    datePublished: '2025-12-17T13:43:32+00:00',
+    dateModified: '2025-12-17T13:43:34+00:00',
     title: 'Google Tic Tac Toe - Play Game Free Online',
     metaDescription: 'Play Google Tic Tac Toe online! Challenge yourself or a friend in this classic strategy game. Get three in a row and win the match',
     category: 'google-doodle-games',

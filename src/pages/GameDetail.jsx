@@ -102,7 +102,7 @@ export default function GameDetail({ game }) {
             )}
             <span>{game.title.split(/[–\-]/)[0].trim()}</span>
           </nav>
-          <h1 className="game-page-title">{game.title}</h1>
+          <h1 className="game-page-title">{game.title.replace(/ - /g, ' – ')}</h1>
           <div className="game-action-bar">
             <button className={`action-btn fav-btn${fav ? ' active' : ''}`} onClick={handleFavorite}>
               {fav ? '❤️' : '🤍'} {fav ? 'Favorited' : 'Favorite'}

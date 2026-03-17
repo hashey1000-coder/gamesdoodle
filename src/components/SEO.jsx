@@ -236,6 +236,10 @@ export default function SEO({
   const dateModified = schemaData.dateModified || null;
   const categoryName = schemaData.category?.name || '';
 
+  // og:updated_time — homepage uses hardcoded value, game pages use their own
+  const ogUpdatedTime = dateModified
+    || (schemaType === 'homepage' ? '2026-01-20T09:32:54+00:00' : null);
+
   // Build schema
   let schema = null;
   switch (schemaType) {
@@ -268,6 +272,7 @@ export default function SEO({
       <meta property="og:type" content={ogType} />
       <meta property="og:site_name" content={SITE_NAME} />
       <meta property="og:locale" content="en_US" />
+      {ogUpdatedTime && <meta property="og:updated_time" content={ogUpdatedTime} />}
       {ogImage && <meta property="og:image" content={ogImage} />}
       {ogImage && <meta property="og:image:secure_url" content={ogImage} />}
       {ogImage && <meta property="og:image:width" content="800" />}
