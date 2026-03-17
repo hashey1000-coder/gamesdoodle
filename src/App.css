@@ -1884,7 +1884,7 @@ html, body {
   }
 
   .games-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 12px;
   }
 
@@ -2033,7 +2033,7 @@ html, body {
 
 @media (max-width: 480px) {
   .games-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 8px;
   }
 
