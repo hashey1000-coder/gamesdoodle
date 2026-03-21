@@ -2417,13 +2417,6 @@ html, body {
   }
 }
 
-/* Genre grid responsive — between 1100px and 480px */
-@media (min-width: 481px) and (max-width: 1100px) {
-  .genre-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
 @media (max-width: 480px) {
   .games-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -2431,16 +2424,16 @@ html, body {
   }
 
   .genre-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
   }
 
   .genre-card {
-    padding: 18px 10px 14px;
+    padding: 14px 6px 12px;
   }
 
   .genre-card-emoji {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .game-card-body {
