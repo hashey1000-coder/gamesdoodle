@@ -24,6 +24,18 @@ const staticSlugs = ['about-us', 'privacy-policy', 'contact-us', 'editorial-poli
 // Tag slugs
 const tagSlugs = ['arcade', 'racing', 'shooter', 'puzzle', 'sports', 'io', 'word-and-trivia', 'strategy', 'music-and-creative', 'simulation', 'card-and-board', 'platformer'];
 
+// Collection slugs
+const collectionSlugs = [
+  'best-puzzle-games',
+  'best-arcade-games',
+  'best-sports-games',
+  'top-10-google-doodle-games',
+  'best-multiplayer-io-games',
+  'best-racing-games',
+  'best-google-easter-eggs',
+  'best-strategy-games',
+];
+
 // Count games per category for pagination
 const categoryCounts = {};
 catSlugs.forEach(cat => {
@@ -39,6 +51,10 @@ let urls = [];
 // Homepage - highest priority
 urls.push({ loc: `${SITE_URL}/`, priority: '1.0', changefreq: 'daily' });
 
+// Top Games & New Games pages
+urls.push({ loc: `${SITE_URL}/top-games/`, priority: '0.8', changefreq: 'daily' });
+urls.push({ loc: `${SITE_URL}/new-games/`, priority: '0.8', changefreq: 'daily' });
+
 // Category pages with pagination
 catSlugs.forEach(slug => {
   urls.push({ loc: `${SITE_URL}/${slug}/`, priority: '0.8', changefreq: 'weekly' });
@@ -52,6 +68,12 @@ catSlugs.forEach(slug => {
 // Tag pages
 tagSlugs.forEach(slug => {
   urls.push({ loc: `${SITE_URL}/tag/${slug}/`, priority: '0.7', changefreq: 'weekly' });
+});
+
+// Collections index + individual collection pages
+urls.push({ loc: `${SITE_URL}/collections/`, priority: '0.8', changefreq: 'weekly' });
+collectionSlugs.forEach(slug => {
+  urls.push({ loc: `${SITE_URL}/collection/${slug}/`, priority: '0.7', changefreq: 'weekly' });
 });
 
 // Static pages

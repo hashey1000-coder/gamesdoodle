@@ -9,6 +9,8 @@ export default function Footer() {
           <span className="footer-brand-text">Games Doodle</span>
         </div>
         <div className="footer-links">
+          <Link to="/top-games/">Top Games</Link>
+          <Link to="/new-games/">New Games</Link>
           <Link to="/about-us/">About Us</Link>
           <Link to="/privacy-policy/">Privacy Policy</Link>
           <Link to="/terms-of-service/">Terms of Service</Link>

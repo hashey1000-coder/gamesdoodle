@@ -4,7 +4,7 @@ import { isNewGame, getTagsForGame } from '../data/games';
 
 export default function GameCard({ game, isFavorite, onToggleFavorite }) {
   const [imgError, setImgError] = useState(false);
-  const shortTitle = game.title.split(/[–\-]/)[0].trim();
+  const shortTitle = game.title.split(' – ')[0].trim();
   const gameTags = getTagsForGame(game);
 
   return (

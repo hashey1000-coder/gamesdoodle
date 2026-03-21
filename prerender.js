@@ -37,6 +37,8 @@ const gameSlugs = allSlugs.filter(s => !CAT_SLUGS.includes(s));
 
 const routes = [
   '/',
+  '/top-games/',
+  '/new-games/',
   ...CAT_SLUGS.map(s => `/${s}/`),
   ...TAG_SLUGS.map(s => `/tag/${s}/`),
   ...STATIC_SLUGS.map(s => `/${s}/`),

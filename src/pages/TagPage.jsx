@@ -1,8 +1,9 @@
 import { useSearchParams, Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import GameCard from '../components/GameCard';
-import { getTagBySlug, getGamesByTag } from '../data/games';
+import { getTagBySlug, getGamesByTag, tags } from '../data/games';
 import { useFavorites } from '../hooks/useFavorites';
+import { COLLECTIONS } from './CollectionPage';
 
 const GAMES_PER_PAGE = 12;
 
@@ -80,6 +81,36 @@ export default function TagPage({ slug }) {
               </Link>
             )}
           </nav>
+        )}
+
+        {/* Related tags */}
+        <div className="related-tags-section">
+          <h3 className="related-tags-heading">Explore Other Game Types</h3>
+          <div className="related-tags-chips">
+            {tags.filter(t => t.slug !== slug).map(t => (
+              <Link key={t.slug} to={`/tag/${t.slug}/`} className="related-tag-chip">
+                {t.emoji} {t.name}
+              </Link>
+            ))}
+          </div>
+        </div>
+
+        {/* Related collections */}
+        {COLLECTIONS.filter(col => col.filter && col.slug.includes(slug.split('-')[0]) || COLLECTIONS.find(c => c.slug === `best-${slug}-games`)).length > 0 && (
+          <div className="related-tags-section" style={{ marginTop: 0 }}>
+            <h3 className="related-tags-heading">Curated {tag.name} Collections</h3>
+            <div className="related-tags-chips">
+              {COLLECTIONS.filter(col => {
+                // Show collections that match this tag's games
+                const tagGames = getGamesByTag(slug);
+                return tagGames.some(g => col.filter(g));
+              }).map(col => (
+                <Link key={col.slug} to={`/collection/${col.slug}/`} className="related-tag-chip related-tag-chip-collection">
+                  {col.emoji} {col.title}
+                </Link>
+              ))}
+            </div>
+          </div>
         )}
       </div>
     </>

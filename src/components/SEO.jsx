@@ -65,7 +65,7 @@ function homepageSchema({ title }) {
 }
 
 // Game page schema: Organization + WebSite + ImageObject + BreadcrumbList + WebPage + Person + BlogPosting
-function gamePageSchema({ title, description, slug, category, image, datePublished, dateModified, wordCount }) {
+function gamePageSchema({ title, description, slug, category, image, datePublished, dateModified, wordCount, faqItems }) {
   const pageUrl = `${SITE_URL}/${slug}/`;
   const imageUrl = image ? `${SITE_URL}${image}` : '';
   const graph = [...baseGraph(false)];
@@ -77,7 +77,7 @@ function gamePageSchema({ title, description, slug, category, image, datePublish
       url: imageUrl,
       width: '800',
       height: '400',
-      caption: title.split(/[–\-]/)[0].trim(),
+      caption: title.split(' – ')[0].trim(),
       inLanguage: 'en-US',
     });
   }
@@ -162,6 +162,40 @@ function gamePageSchema({ title, description, slug, category, image, datePublish
   }
 
   graph.push(blogPosting);
+
+  // SoftwareApplication schema for browser games — enables rich results
+  const appSchema = {
+    '@type': 'SoftwareApplication',
+    '@id': `${pageUrl}#app`,
+    name: title.split(' – ')[0].trim(),
+    url: pageUrl,
+    applicationCategory: 'Game',
+    operatingSystem: 'Web Browser',
+    offers: {
+      '@type': 'Offer',
+      price: '0',
+      priceCurrency: 'USD',
+    },
+    publisher: { '@id': `${SITE_URL}/#organization` },
+  };
+  if (imageUrl) appSchema.image = { '@id': imageUrl };
+  graph.push(appSchema);
+
+  // FAQPage schema (if FAQ items provided)
+  if (faqItems && faqItems.length > 0) {
+    graph.push({
+      '@type': 'FAQPage',
+      '@id': `${pageUrl}#faq`,
+      mainEntity: faqItems.map(item => ({
+        '@type': 'Question',
+        name: item.question,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: item.answer,
+        },
+      })),
+    });
+  }
 
   return { '@context': 'https://schema.org', '@graph': graph };
 }

@@ -1,8 +1,17 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import GameCard from '../components/GameCard';
-import { games, featuredGameSlugs, getGameBySlug } from '../data/games';
+import { games, tags, featuredGameSlugs, getGameBySlug } from '../data/games';
 import { useFavorites } from '../hooks/useFavorites';
+
+// Count games per tag (computed once at module level)
+const tagGameCounts = {};
+games.forEach(game => {
+  (game.tags || []).forEach(tagSlug => {
+    tagGameCounts[tagSlug] = (tagGameCounts[tagSlug] || 0) + 1;
+  });
+});
 
 function getRecentlyPlayed() {
   try {
@@ -18,7 +27,7 @@ function getRecentlyPlayed() {
 
 export default function HomePage() {
   const [recentGames, setRecentGames] = useState([]);
-  const { favorites, toggleFavorite, isFavorite } = useFavorites();
+  const { toggleFavorite, isFavorite } = useFavorites();
 
   useEffect(() => {
     setRecentGames(getRecentlyPlayed());
@@ -27,11 +36,6 @@ export default function HomePage() {
   const featuredGames = featuredGameSlugs
     .map(slug => games.find(g => g.slug === slug))
     .filter(Boolean);
-
-  const favoriteGames = favorites
-    .map(slug => getGameBySlug(slug))
-    .filter(Boolean)
-    .slice(0, 6);
 
   return (
     <>
@@ -49,11 +53,47 @@ export default function HomePage() {
           </h1>
         </section>
 
-        {/* Featured Games Grid - matches WP 13-game grid */}
+        {/* Continue Playing — for returning visitors */}
+        {recentGames.length > 0 && (
+          <section className="homepage-section">
+            <div className="homepage-section-header">
+              <h2 className="homepage-section-title">▶ Continue Playing</h2>
+              <span className="homepage-section-sub">Pick up where you left off</span>
+            </div>
+            <div className="games-grid">
+              {recentGames.map(game => (
+                <GameCard key={game.slug} game={game} isFavorite={isFavorite(game.slug)} onToggleFavorite={toggleFavorite} />
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Featured Games Grid */}
         <section className="homepage-section">
+          <div className="homepage-section-header">
+            <h2 className="homepage-section-title">⭐ Featured Games</h2>
+            <Link to="/google-doodle-games/" className="homepage-section-link">View all →</Link>
+          </div>
           <div className="games-grid">
             {featuredGames.map(game => (
               <GameCard key={game.slug} game={game} isFavorite={isFavorite(game.slug)} onToggleFavorite={toggleFavorite} />
+            ))}
+          </div>
+        </section>
+
+        {/* Browse by Genre */}
+        <section className="homepage-section">
+          <div className="homepage-section-header">
+            <h2 className="homepage-section-title">🎮 Browse by Genre</h2>
+            <span className="homepage-section-sub">Find your favourite type of game</span>
+          </div>
+          <div className="genre-grid">
+            {tags.map(tag => (
+              <Link key={tag.slug} to={`/tag/${tag.slug}/`} className="genre-card">
+                <span className="genre-card-emoji">{tag.emoji}</span>
+                <span className="genre-card-name">{tag.name}</span>
+                <span className="genre-card-count">{tagGameCounts[tag.slug] || 0} games</span>
+              </Link>
             ))}
           </div>
         </section>

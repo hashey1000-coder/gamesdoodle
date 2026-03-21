@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { games } from '../data/games';
+import { games, getTagsForGame, tags, categories } from '../data/games';
 
 export default function SearchBar({ onClose }) {
   const [query, setQuery] = useState('');
@@ -22,7 +22,11 @@ export default function SearchBar({ onClose }) {
     }
     const lower = term.toLowerCase();
     const matched = games
-      .filter(g => g.title.toLowerCase().includes(lower) || g.slug.includes(lower))
+      .filter(g =>
+        g.title.toLowerCase().includes(lower) ||
+        g.slug.includes(lower) ||
+        (g.tags && g.tags.some(t => t.includes(lower)))
+      )
       .slice(0, 8);
     setResults(matched);
     setSelectedIndex(-1);
@@ -93,32 +97,62 @@ export default function SearchBar({ onClose }) {
         </div>
         {results.length > 0 && (
           <ul className="search-results">
-            {results.map((game, i) => (
-              <li key={game.slug} className={i === selectedIndex ? 'selected' : ''}>
-                <Link to={`/${game.slug}/`} onClick={handleResultClick}>
-                  <img
-                    src={game.thumbnail}
-                    alt=""
-                    className="search-result-thumb"
-                    loading="lazy"
-                  />
-                  <div className="search-result-info">
-                    <span className="search-result-title">
-                      {game.title.split(/[–\-]/)[0].trim()}
-                    </span>
-                    <span className="search-result-cat">
-                      {game.category.replace(/-/g, ' ')}
-                    </span>
-                  </div>
-                  <span className="search-result-play">▶</span>
-                </Link>
-              </li>
-            ))}
+            {results.map((game, i) => {
+              const gameTags = getTagsForGame(game);
+              return (
+                <li key={game.slug} className={i === selectedIndex ? 'selected' : ''}>
+                  <Link to={`/${game.slug}/`} onClick={handleResultClick}>
+                    <img
+                      src={game.thumbnail}
+                      alt=""
+                      className="search-result-thumb"
+                      loading="lazy"
+                    />
+                    <div className="search-result-info">
+                      <span className="search-result-title">
+                        {game.title.split(' – ')[0].trim()}
+                      </span>
+                      <span className="search-result-meta">
+                        <span className="search-result-cat">
+                          {game.category.replace(/-/g, ' ')}
+                        </span>
+                        {gameTags.length > 0 && (
+                          <span className="search-result-tags">
+                            {gameTags.slice(0, 2).map(t => (
+                              <span key={t.slug} className="search-result-tag">{t.emoji}</span>
+                            ))}
+                          </span>
+                        )}
+                      </span>
+                    </div>
+                    <span className="search-result-play">▶</span>
+                  </Link>
+                </li>
+              );
+            })}
           </ul>
         )}
         {query.trim() && results.length === 0 && (
           <div className="search-no-results">
-            No games found for "{query}"
+            <p className="search-no-results-msg">No games found for "<strong>{query}</strong>"</p>
+            <div className="search-suggestions">
+              <span className="search-suggestions-label">Try these categories:</span>
+              <div className="search-suggestions-chips">
+                {categories.map(cat => (
+                  <Link key={cat.slug} to={`/${cat.slug}/`} className="search-suggestion-chip" onClick={onClose}>
+                    {cat.name}
+                  </Link>
+                ))}
+              </div>
+              <span className="search-suggestions-label" style={{ marginTop: 10 }}>Popular tags:</span>
+              <div className="search-suggestions-chips">
+                {tags.slice(0, 6).map(tag => (
+                  <Link key={tag.slug} to={`/tag/${tag.slug}/`} className="search-suggestion-chip search-suggestion-tag" onClick={onClose}>
+                    {tag.emoji} {tag.name}
+                  </Link>
+                ))}
+              </div>
+            </div>
           </div>
         )}
       </div>

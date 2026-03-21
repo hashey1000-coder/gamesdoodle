@@ -7,6 +7,8 @@ import CookieConsent from './components/CookieConsent';
 import HomePage from './pages/HomePage';
 import GamePage from './pages/GamePage';
 import TagPage from './pages/TagPage';
+import TopGamesPage from './pages/TopGamesPage';
+import NewGamesPage from './pages/NewGamesPage';
 import NotFoundPage from './pages/NotFoundPage';
 import ScrollToTop from './components/ScrollToTop';
 import { getTagBySlug } from './data/games';
@@ -28,6 +30,8 @@ function App() {
         <main className="site-main">
           <Routes>
             <Route path="/" element={<HomePage />} />
+            <Route path="/top-games" element={<TopGamesPage />} />
+            <Route path="/new-games" element={<NewGamesPage />} />
             <Route path="/tag/:tagSlug" element={<TagRoute />} />
             <Route path="/:slug" element={<GamePage />} />
             <Route path="/:slug/page/:page" element={<GamePage />} />

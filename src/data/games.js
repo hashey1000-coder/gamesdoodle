@@ -4141,7 +4141,7 @@ export const games = [
     metaDescription: 'Play Cluster Rush unblocked online and navigate through rotating clusters and obstacles. Enjoy fast-paced gameplay, precise controls in Cluster Rush game.',
     category: 'online-games',
     tags: ['arcade', 'platformer'],
-    embedUrl: 'https://html5.gamedistribution.com/rvvASMiM/e0a0c56a87c44a3c91c316b9c93f840c/index.html',
+    embedUrl: 'https://clusterrush.io',
     thumbnail: '/images/cluster-rush.webp',
     relatedSlugs: ['tanuki-sunset', 'bad-ice-cream', 'survival-race'],
     excerpt: 'Cluster Rush is an addictive and fast-paced game that tests your reflexes and strategy.',
@@ -6123,7 +6123,7 @@ export const games = [
     metaDescription: 'Play Master Chess online and challenge your strategic skills. Improve tactics, beat opponents, and become a true chessmaster in this master chess game.',
     category: 'online-games',
     tags: ['card-and-board', 'strategy'],
-    embedUrl: 'https://dnrweqffuwjtx.cloudfront.net/games/2023/code/master-chess/index.html',
+    embedUrl: 'https://ubg67.gitlab.io/master-chess/',
     thumbnail: '/images/master-chess.webp',
     relatedSlugs: ['diep-io', 'stick-war-legacy', 'cubes-2048'],
     excerpt: 'Master Chess is a challenging and strategic online game designed for both beginners and experienced players.',
@@ -12007,8 +12007,8 @@ export const games = [
   },
   {
     slug: 'eiji-tsuburaya-google-doodle',
-    title: 'Eiji Tsuburaya Google Doodle – Play the Tokusatsu Filmmaking Mini-Games',
-    metaDescription: 'Play the Eiji Tsuburaya Google Doodle in fullscreen. Direct a Tokusatsu monster movie through five mini-challenges — dress the actor, rig the harness, and destroy the city!',
+    title: 'Eiji Tsuburaya Google Doodle – Tokusatsu Filmmaking Game',
+    metaDescription: 'Play the Eiji Tsuburaya Google Doodle. Direct a Tokusatsu monster movie through five mini-challenges — dress the actor, rig the harness, and destroy the city!',
     category: 'google-doodle-games',
     tags: ['arcade', 'puzzle'],
     dateAdded: '2026-03-14',
@@ -12237,6 +12237,1327 @@ export const games = [
 <div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
 
 </div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'weddle',
+    datePublished: '2026-03-20T10:00:00+00:00',
+    dateModified: '2026-03-20T10:00:00+00:00',
+    dateAdded: '2026-03-20',
+    title: 'Weddle – The Daily NFL Player Guessing Game',
+    metaDescription: 'Play Weddle online — the NFL version of Wordle. Guess the mystery NFL player using team, position, and stat clues. Free daily puzzle for football fans.',
+    category: 'online-games',
+    tags: ['word-and-trivia', 'sports'],
+    embedUrl: 'https://weddlegame.com/',
+    thumbnail: '/images/weddle.webp',
+    relatedSlugs: ['word-master', 'google-feud', 'wordle-game'],
+    excerpt: 'Weddle is a daily guessing game where NFL fans try to identify a mystery football player using clues about their team, position, division, and physical attributes...',
+    content: `<p>Weddle is a daily guessing game where NFL fans try to identify a mystery football player using clues about their team, position, division, and physical attributes. Named after legendary safety Eric Weddle, the game has become a daily ritual for American football fans who want to test their knowledge of active NFL rosters.</p>
+
+<p>Each day presents a new mystery player. You start by guessing any active NFL player, and the game responds with colour-coded feedback for each attribute: green means an exact match, yellow means close (for example, same conference but different division), and grey means no match at all. The attributes tracked include team, division, position, height, age, and jersey number — giving you a grid of clues that narrows the field with every guess.</p>
+
+<p>The genius of Weddle lies in how it turns NFL roster knowledge into a deduction puzzle. Knowing that the mystery player is in the AFC West, plays defence, is over 6&#8217;2&#8221;, and wears a number in the 90s dramatically shrinks the pool of possibilities. Hardcore fans can often solve it in three or four guesses, while casual fans might need eight or more attempts. There&#8217;s no guess limit, which keeps it accessible for everyone.</p>
+
+<p>Since its launch, Weddle has expanded into multiple game modes. There&#8217;s the classic mode, a grid challenge where you match players to intersecting categories, and a silhouette mode where you identify players from their outline. The game updates daily and tracks your streak, making it perfect for that morning-coffee NFL fix during both the season and the offseason.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Weddle</strong></h2>
+
+<ul class="wp-block-list">
+<li>Type an active NFL player&#8217;s name into the search bar to make your first guess.</li>
+<li>Check the colour-coded feedback: green = exact match, yellow = close, grey = no match.</li>
+<li>Use attribute clues (team, position, division, height, age, number) to narrow your next guess.</li>
+<li>Keep guessing until you identify the mystery player — there&#8217;s no guess limit.</li>
+<li>A new mystery player appears every day at midnight.</li>
+<li>Share your results with friends using the share button.</li>
+</ul>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'house-of-hazards',
+    datePublished: '2026-03-20T10:00:00+00:00',
+    dateModified: '2026-03-20T10:00:00+00:00',
+    dateAdded: '2026-03-20',
+    title: 'House of Hazards – Play the Multiplayer Obstacle Game Free',
+    metaDescription: 'Play House of Hazards online free. A hilarious multiplayer obstacle game where you sabotage friends while completing household tasks. No download required.',
+    category: 'online-games',
+    tags: ['arcade', 'platformer'],
+    embedUrl: 'https://houseofhazards.gitlab.io/file/',
+    noSandbox: true,
+    thumbnail: '/images/house-of-hazards.webp',
+    relatedSlugs: ['g-switch-3', 'icy-purple-head', 'only-up'],
+    excerpt: 'House of Hazards is a chaotic multiplayer game where players race to complete simple household tasks while opponents trigger traps, hazards, and obstacles to stop them...',
+    content: `<p>House of Hazards is a chaotic multiplayer game where players race to complete simple household tasks while opponents trigger traps, hazards, and obstacles to stop them. Set inside an ordinary-looking house that&#8217;s anything but ordinary, the game turns everyday activities like making breakfast, watering plants, or watching TV into hilarious obstacle courses filled with falling objects, swinging doors, and surprise explosions.</p>
+
+<p>Developed by NewEichGames, House of Hazards supports 2-3 players on the same device, making it one of the best local multiplayer browser games available. While one player tries to walk through the house and complete their assigned tasks, the other players control the hazards — tapping or clicking triggers to launch objects, flip switches, slam doors, or activate any of dozens of traps hidden throughout each room. It&#8217;s part platformer, part party game, and entirely chaotic.</p>
+
+<p>The house is divided into multiple rooms, each with its own set of hazards and tasks. The kitchen has falling pots and slamming cabinet doors. The living room features a rogue ceiling fan and a TV that explodes. The bathroom has slippery floors and a bathtub that overflows. Each room feels like a Rube Goldberg machine designed by someone with a grudge against interior decorating. The variety keeps games unpredictable — you never know which hazards your opponents will trigger next.</p>
+
+<p>What makes House of Hazards especially fun is the role-swapping. After each round, players rotate between being the runner and controlling the hazards. This means everyone gets to experience both the frustration of being launched across the kitchen by a flying toaster and the satisfaction of being the one who triggered it. The game perfectly captures that same-couch, everyone-screaming energy that makes local multiplayer games so memorable.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play House of Hazards</strong></h2>
+
+<ul class="wp-block-list">
+<li>Player 1 uses WASD to move and Spacebar to interact with objects and complete tasks.</li>
+<li>Player 2 uses Arrow Keys to move and Enter to interact.</li>
+<li>When you&#8217;re the runner, navigate through rooms and complete all assigned tasks shown at the top of the screen.</li>
+<li>When controlling hazards, click or tap on highlighted traps to activate them and stop the runner.</li>
+<li>Complete all tasks before your opponents to win the round.</li>
+<li>Players rotate roles between rounds so everyone gets to run and sabotage.</li>
+</ul>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'tomb-of-the-mask',
+    datePublished: '2026-03-20T10:00:00+00:00',
+    dateModified: '2026-03-20T10:00:00+00:00',
+    dateAdded: '2026-03-20',
+    title: 'Tomb of the Mask – Play the Retro Arcade Maze Game Free',
+    metaDescription: 'Play Tomb of the Mask online free. Navigate neon mazes, dodge traps, and collect dots in this retro-styled arcade maze game. No download required.',
+    category: 'online-games',
+    tags: ['arcade', 'puzzle'],
+    embedUrl: 'https://23azostore.github.io/s8/tomb-of-the-mask/',
+    noSandbox: true,
+    thumbnail: '/images/tomb-of-the-mask.webp',
+    relatedSlugs: ['google-pacman', 'google-snake', 'icy-purple-head'],
+    excerpt: 'Tomb of the Mask is a retro-styled arcade game where you swipe to navigate through procedurally generated mazes filled with traps, power-ups, and collectible dots...',
+    content: `<p>Tomb of the Mask is a retro-styled arcade game where you swipe to navigate through procedurally generated mazes filled with traps, power-ups, and collectible dots. With its neon pixel-art aesthetic and relentless upward-scrolling mechanic, the game feels like Pac-Man met a vertical platformer and they decided to move at breakneck speed.</p>
+
+<p>Originally released as a mobile game by Playgendary in 2016, Tomb of the Mask became a massive hit thanks to its one-more-run addictiveness and perfectly tuned difficulty curve. The browser version brings the same core experience to desktop — you navigate a character through increasingly complex mazes by swiping (or pressing arrow keys) in four directions. Your character slides in the chosen direction until hitting a wall, so planning your path becomes crucial as traps multiply and the rising danger zone creeps ever upward.</p>
+
+<p>Each level is a vertically scrolling maze filled with dots to collect, stars to grab, and traps to avoid. Spikes line certain walls, moving enemies patrol corridors, and the ever-rising death zone at the bottom ensures you can never stop moving upward. Power-ups appear regularly — shields protect you from a single hit, magnets pull nearby dots toward you, and freeze power-ups temporarily slow the rising danger. Collecting all dots on a level earns a perfect score, but sometimes survival is the better strategy.</p>
+
+<p>The game features both an endless arcade mode with procedurally generated levels and a stage-based campaign with hand-crafted maze designs. The stage mode introduces new mechanics gradually — teleporters, conveyor belts, breakable walls, and increasingly devious trap combinations. The retro aesthetic, complete with CRT screen effects and chiptune music, gives everything a nostalgic arcade feel that perfectly matches the fast-paced gameplay.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Tomb of the Mask</strong></h2>
+
+<ul class="wp-block-list">
+<li>Use Arrow Keys or WASD to move in four directions — your character slides until hitting a wall.</li>
+<li>Collect dots and stars scattered throughout the maze for points.</li>
+<li>Avoid spikes, moving enemies, and the rising danger zone at the bottom of the screen.</li>
+<li>Grab power-ups like shields, magnets, and freeze to help you survive longer.</li>
+<li>Plan your path carefully — once you start sliding, you can&#8217;t stop until you hit something.</li>
+<li>Keep moving upward. If the rising zone catches you, it&#8217;s game over.</li>
+</ul>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'g-switch-3',
+    datePublished: '2026-03-20T10:00:00+00:00',
+    dateModified: '2026-03-20T10:00:00+00:00',
+    dateAdded: '2026-03-20',
+    title: 'G-Switch 3 – Play the Gravity-Flipping Runner Online Free',
+    metaDescription: 'Play G-Switch 3 online free. Flip gravity to run on ceilings and floors in this fast-paced multiplayer runner. Supports up to 8 players. No download needed.',
+    category: 'online-games',
+    tags: ['arcade', 'platformer'],
+    embedUrl: 'https://games.poki.com/487891/gswitch3',
+    noSandbox: true,
+    thumbnail: '/images/g-switch-3.webp',
+    relatedSlugs: ['house-of-hazards', 'icy-purple-head', 'only-up'],
+    excerpt: 'G-Switch 3 is a fast-paced auto-runner where you flip gravity with a single button to run on floors, ceilings, and walls while avoiding deadly gaps and obstacles...',
+    content: `<p>G-Switch 3 is a fast-paced auto-runner where you flip gravity with a single button to run on floors, ceilings, and walls while avoiding deadly gaps and obstacles. The third instalment in the beloved G-Switch series by Serius Games, it perfects the one-button formula and adds multiplayer chaos for up to eight players on a single keyboard.</p>
+
+<p>The concept is deceptively simple. Your robotic character runs automatically from left to right. Press any key (or click the mouse) to flip gravity, switching between running on the floor and running on the ceiling. That&#8217;s the only control you have, and it&#8217;s all you need. The challenge comes from the level design — gaps in the floor require you to flip to the ceiling, obstacles on the ceiling force you back down, and rotating platforms demand split-second timing that gets increasingly impossible as the speed ramps up.</p>
+
+<p>What sets G-Switch 3 apart from its predecessors is the expanded multiplayer. Up to eight players can compete simultaneously on a single keyboard, each assigned a different key. The screen scrolls at a fixed speed, and any player who falls behind or crashes into an obstacle is eliminated. Last player running wins. With eight people hunched over a keyboard, frantically pressing their assigned keys while watching eight characters flip gravity independently, the game becomes one of the most entertaining local multiplayer experiences in any browser game.</p>
+
+<p>The single-player campaign features 30 hand-designed levels across three difficulty tiers, plus an endless mode where the speed gradually increases until your reflexes simply can&#8217;t keep up. The level design is genuinely clever — later stages introduce moving platforms, gravity zones that auto-flip you, and sections where the environment itself rotates. The neon-tinged sci-fi aesthetic and pumping electronic soundtrack complete the package.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play G-Switch 3</strong></h2>
+
+<ul class="wp-block-list">
+<li>Click the mouse or press any key to flip gravity — that&#8217;s your only control.</li>
+<li>Your character runs automatically. Time your gravity flips to avoid gaps and obstacles.</li>
+<li>In multiplayer, each player is assigned a specific key on the keyboard.</li>
+<li>The screen keeps scrolling — fall behind and you&#8217;re eliminated.</li>
+<li>Complete all 30 campaign levels or try to survive as long as possible in endless mode.</li>
+<li>Watch for rotating platforms and gravity zones that change the rules mid-level.</li>
+</ul>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'icy-purple-head',
+    datePublished: '2026-03-20T10:00:00+00:00',
+    dateModified: '2026-03-20T10:00:00+00:00',
+    dateAdded: '2026-03-20',
+    title: 'Icy Purple Head – Play the Sliding Puzzle Platformer Free',
+    metaDescription: 'Play Icy Purple Head online free. Freeze yourself into an ice block and slide through physics-based puzzle levels. Fun, creative, and no download required.',
+    category: 'online-games',
+    tags: ['puzzle', 'platformer'],
+    embedUrl: 'https://jufik.com/html5/icy-purple-head-2/index.html',
+    noSandbox: true,
+    thumbnail: '/images/icy-purple-head.webp',
+    relatedSlugs: ['tomb-of-the-mask', 'g-switch-3', 'house-of-hazards'],
+    excerpt: 'Icy Purple Head is a creative physics puzzle game where you control a purple character who can freeze into a sliding ice block to navigate through tricky levels...',
+    content: `<p>Icy Purple Head is a creative physics puzzle game where you control a purple character who can freeze into a sliding ice block to navigate through tricky levels and reach the delivery basket. Part platformer, part physics puzzle, it&#8217;s one of those games that takes a single clever mechanic and builds an entire world of challenges around it.</p>
+
+<p>The core mechanic is brilliantly simple: click or tap to freeze. When frozen, your purple-headed character transforms into a solid ice block that slides frictionlessly across surfaces, bouncing off walls and flying off ramps. Release to unfreeze and you&#8217;re back to a normal character affected by standard gravity. The interplay between frozen sliding and unfrozen falling creates a surprisingly deep puzzle system where the solution to each level requires careful timing and spatial reasoning.</p>
+
+<p>Each level presents a puzzle box filled with ramps, platforms, spikes, moving obstacles, and the target basket you need to reach. Some levels require you to build momentum by freezing and sliding down a ramp, then unfreezing at the right moment to arc through the air. Others demand rapid freeze-unfreeze sequences to navigate tight corridors. The physics are consistent and predictable, which means every puzzle has a logical solution — even when it doesn&#8217;t look like it at first glance.</p>
+
+<p>The game spans multiple chapters with dozens of levels each, steadily introducing new elements like bouncy surfaces, conveyor belts, portals, and destructible blocks. The art style is cheerful and colourful, with the purple-headed protagonist&#8217;s expressions changing between confident determination (unfrozen) and rigid panic (frozen). Stars are scattered through each level for completionists, often requiring more complex routes than simply reaching the basket.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Icy Purple Head</strong></h2>
+
+<ul class="wp-block-list">
+<li>Click or tap to freeze your character into an ice block — you&#8217;ll slide frictionlessly.</li>
+<li>Release to unfreeze and return to normal gravity.</li>
+<li>Use momentum from frozen slides to launch off ramps and reach new platforms.</li>
+<li>Avoid spikes and hazards that destroy your character on contact.</li>
+<li>Reach the delivery basket at the end of each level to complete it.</li>
+<li>Collect stars scattered throughout levels for bonus points and perfect scores.</li>
+</ul>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'awesome-tanks-2',
+    datePublished: '2026-03-20T10:00:00+00:00',
+    dateModified: '2026-03-20T10:00:00+00:00',
+    dateAdded: '2026-03-20',
+    title: 'Awesome Tanks 2 – Play the Tank Shooter Game Free Online',
+    metaDescription: 'Play Awesome Tanks 2 online free. Blast through levels, upgrade your tank, and destroy enemies in this top-down tank shooter. No download required.',
+    category: 'online-games',
+    tags: ['shooter', 'arcade'],
+    embedUrl: 'https://hushygames.github.io/games/awesometanks2/game.html',
+    noSandbox: true,
+    thumbnail: '/images/awesome-tanks-2.webp',
+    relatedSlugs: ['house-of-hazards', 'g-switch-3', 'tomb-of-the-mask'],
+    excerpt: 'Awesome Tanks 2 is a top-down tank shooter where you blast through maze-like levels, destroy enemy tanks, collect coins, and upgrade your arsenal with devastating weapons...',
+    content: `<p>Awesome Tanks 2 is a top-down tank shooter where you blast through maze-like levels, destroy enemy tanks, collect coins, and upgrade your arsenal with increasingly devastating weapons. The sequel to the original Awesome Tanks, this second instalment adds more weapons, more enemies, more levels, and more explosive mayhem.</p>
+
+<p>Developed by Alexander Gette, Awesome Tanks 2 perfects the formula that made the original a browser gaming classic. You control a tank navigating through enclosed arena-style levels filled with enemy tanks, turrets, mines, and destructible walls. Each level is a puzzle of destruction — figure out the best path through, eliminate all enemies, and collect the coins they drop. The twin-stick control scheme (WASD to move, mouse to aim and shoot) feels tight and responsive, giving you precise control in chaotic firefights.</p>
+
+<p>The upgrade system is where the game truly shines. Between levels, you spend collected coins on new weapons and tank improvements. The weapon selection is gloriously excessive: machine guns, shotguns, railguns, flamethrowers, laser beams, homing missiles, and a minigun that turns your tank into a spinning death machine. Each weapon has unique properties — the shotgun spreads wide but lacks range, the railgun pierces through multiple enemies, and the flamethrower leaves burning patches on the ground. You can also upgrade your tank&#8217;s armour, speed, and mine resistance.</p>
+
+<p>Enemy variety keeps you on your toes across the game&#8217;s 15 campaign levels. Basic tanks patrol simple paths, but soon you&#8217;ll face fast-moving scouts, heavily armoured heavies, artillery tanks that lob shells over walls, and stationary turrets that lock onto your position. Boss encounters punctuate the campaign, throwing massive multi-weapon tanks at you that require genuine strategy to defeat. The destructible environments add another layer — blasting through walls opens new paths but can also expose you to crossfire.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Awesome Tanks 2</strong></h2>
+
+<ul class="wp-block-list">
+<li>Use WASD or Arrow Keys to move your tank around the arena.</li>
+<li>Aim with the mouse and click to fire your current weapon.</li>
+<li>Destroy all enemy tanks and turrets to complete each level.</li>
+<li>Collect coins dropped by enemies to spend on upgrades between levels.</li>
+<li>Buy new weapons and tank upgrades in the shop — try different loadouts for different levels.</li>
+<li>Watch for mines on the ground and artillery shells from off-screen enemies.</li>
+</ul>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'taylor-swift-2048',
+    datePublished: '2026-03-20T10:00:00+00:00',
+    dateModified: '2026-03-20T10:00:00+00:00',
+    dateAdded: '2026-03-20',
+    title: 'Taylor Swift 2048 – Play the Swiftie Puzzle Game Free',
+    metaDescription: 'Play Taylor Swift 2048 online free. Combine matching Taylor Swift era tiles to reach 2048 in this fan-favourite puzzle game. No download required.',
+    category: 'online-games',
+    tags: ['puzzle'],
+    embedUrl: 'https://callacarter.com/Taylor2048/',
+    thumbnail: '/images/taylor-swift-2048.webp',
+    relatedSlugs: ['google-minesweeper', 'google-solitaire', 'kakuro'],
+    excerpt: 'Taylor Swift 2048 is a fan-made twist on the classic 2048 puzzle game where numbered tiles are replaced with iconic Taylor Swift photos representing her different musical eras...',
+    content: `<p>Taylor Swift 2048 is a fan-made twist on the classic 2048 puzzle game where numbered tiles are replaced with iconic Taylor Swift photos representing her different musical eras. Slide matching tiles together to combine them, progressing from early career Taylor through each album era until you reach the coveted 2048 tile. It&#8217;s the perfect intersection of addictive puzzle mechanics and Swiftie fandom.</p>
+
+<p>The original 2048 was created by Gabriele Cirulli in 2014 and became one of the most viral puzzle games in internet history. The Taylor Swift version takes the same core mechanic — slide tiles on a 4×4 grid, matching identical tiles to combine them into higher values — and replaces the numbers with Taylor Swift images. Start with two matching debut-era Taylors, combine them to get Fearless Taylor, then Speak Now, Red, 1989, Reputation, Lover, Folklore, Evermore, Midnights, and finally the legendary 2048 tile.</p>
+
+<p>Strategy in 2048 is deeper than it appears. The key is keeping your highest-value tile locked in a corner and building a chain of descending values along one edge. Random new tiles spawn after every move, so careless sliding quickly fills the board and ends the game. Expert players develop specific patterns — the snake method, the corner strategy, the wall technique — each offering different risk-reward profiles. The Taylor Swift theming adds an extra motivation to keep going: every Swiftie wants to see which era appears next.</p>
+
+<p>The game has become a staple of Swiftie internet culture, shared widely on social media and TikTok. Players screenshot their highest tiles and share which eras they&#8217;ve reached, turning a solo puzzle game into a communal experience. Some versions feature album cover art, others use concert photos, and a few include surprise Eras Tour imagery for the final tiles.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Taylor Swift 2048</strong></h2>
+
+<ul class="wp-block-list">
+<li>Use Arrow Keys or swipe to slide all tiles in one direction (up, down, left, right).</li>
+<li>When two matching Taylor Swift tiles collide, they combine into the next era.</li>
+<li>After each move, a new tile appears randomly on the board.</li>
+<li>Try to keep your highest tile in a corner to maintain control of the board.</li>
+<li>Build chains of descending values along the edges for the best strategy.</li>
+<li>The game ends when no more moves are possible. Aim to reach the 2048 tile!</li>
+</ul>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'letter-boxed',
+    datePublished: '2026-03-20T10:00:00+00:00',
+    dateModified: '2026-03-20T10:00:00+00:00',
+    dateAdded: '2026-03-20',
+    title: 'Letter Boxed – Play the NYT Word Puzzle Game',
+    metaDescription: 'Play Letter Boxed from the New York Times. Form words using letters on the sides of a square, connecting every letter in as few words as possible.',
+    category: 'online-games',
+    tags: ['word-and-trivia', 'puzzle'],
+    embedUrl: 'https://azgames.io/game/letter-boxed/?mode=unlimited',
+    thumbnail: '/images/letter-boxed.webp',
+    relatedSlugs: ['word-master', 'weddle', 'kakuro'],
+    excerpt: 'Letter Boxed is an elegant daily word puzzle from the New York Times where twelve letters are arranged on the sides of a square, and your goal is to use every letter by forming connected words...',
+    content: `<p>Letter Boxed is an elegant daily word puzzle from the New York Times where twelve letters are arranged on the sides of a square, and your goal is to use every letter by forming connected words in as few words as possible. Each word must start with the last letter of the previous word, and consecutive letters in a word must come from different sides of the box. It&#8217;s simple to understand, surprisingly tricky to solve, and deeply satisfying when you crack it in just two or three words.</p>
+
+<p>Created by Sam Ezersky and launched as part of the NYT Games collection, Letter Boxed has become one of the most beloved daily puzzles alongside Wordle and Connections. The game presents a square with three letters on each side (twelve total). You form words by drawing lines between letters, but you can never use two consecutive letters from the same side of the square. This constraint is what transforms a simple word-finding exercise into a genuine puzzle — common words become impossible because their letter patterns don&#8217;t fit the box layout.</p>
+
+<p>The daily challenge is to use all twelve letters in five words or fewer, with each word starting where the previous one ended. Expert solvers aim for the elusive two-word solution, which exists for every puzzle but often requires obscure vocabulary or creative word choices. The community shares solutions and strategies daily, debating the merits of three-word versus two-word approaches and celebrating particularly elegant solutions.</p>
+
+<p>What makes Letter Boxed special is how it rewards vocabulary breadth over depth. You don&#8217;t need to know difficult words — you need to know the right words for each specific letter arrangement. A common seven-letter word might be useless if its letters cluster on one side of the box, while an unusual five-letter word might be the key to a two-word solve. The puzzle refreshes daily, ensuring a new challenge every morning.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Letter Boxed</strong></h2>
+
+<ul class="wp-block-list">
+<li>Click letters around the square to form words. Each word must use at least three letters.</li>
+<li>Consecutive letters in a word must come from different sides of the square.</li>
+<li>Each new word must start with the last letter of the previous word.</li>
+<li>Use every letter at least once to complete the puzzle. Letters can be reused across words.</li>
+<li>Try to solve it in five words or fewer — two words is the ultimate challenge.</li>
+<li>A new puzzle is available every day.</li>
+</ul>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'nyt-tiles',
+    datePublished: '2026-03-20T10:00:00+00:00',
+    dateModified: '2026-03-20T10:00:00+00:00',
+    dateAdded: '2026-03-20',
+    title: 'NYT Tiles – Play the Matching Puzzle Game Free',
+    metaDescription: 'Play NYT Tiles, the relaxing pattern-matching game from the New York Times. Match tiles by finding shared attributes in this beautiful, calming daily puzzle.',
+    category: 'online-games',
+    tags: ['puzzle'],
+    embedUrl: 'https://www.tilesgame.org/',
+    thumbnail: '/images/nyt-tiles.webp',
+    relatedSlugs: ['letter-boxed', 'kakuro', 'word-master'],
+    excerpt: 'NYT Tiles is a soothing visual matching game from the New York Times where you clear a board of patterned tiles by pairing ones that share design elements...',
+    content: `<p>NYT Tiles is a soothing visual matching game from the New York Times where you clear a board of patterned tiles by pairing ones that share design elements. Unlike word-based NYT games, Tiles is purely visual — you match tiles based on shared colours, shapes, or patterns, creating a meditative puzzle experience that&#8217;s equal parts relaxing and engaging.</p>
+
+<p>The game presents a grid of beautifully designed tiles, each featuring a unique combination of patterns — stripes, dots, geometric shapes, gradients, and colour combinations. Your task is to find and match pairs of tiles that share a common visual attribute. Tap two matching tiles to clear them from the board, working toward clearing the entire grid. The challenge lies in identifying which visual element connects two seemingly different tiles.</p>
+
+<p>What sets NYT Tiles apart from traditional matching games is its emphasis on pattern recognition over memory. The tiles remain visible throughout the game, so you&#8217;re not memorising positions — you&#8217;re analysing visual relationships. Two tiles might share the same background colour but have completely different foreground patterns, or they might have matching shapes in different colour schemes. The matching logic shifts between puzzles, keeping you engaged and preventing autopilot play.</p>
+
+<p>The aesthetic is deliberately calming. Soft colours, smooth animations, and gentle sound effects create a zen-like atmosphere that contrasts sharply with the frantic energy of most puzzle games. It&#8217;s designed as a daily palate cleanser — something to play during a coffee break without raising your heart rate. The daily format means each puzzle is carefully curated, with a thoughtful difficulty curve that starts accessible and builds to satisfying complexity.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play NYT Tiles</strong></h2>
+
+<ul class="wp-block-list">
+<li>Look at the grid of patterned tiles and identify pairs that share a visual attribute.</li>
+<li>Click or tap two tiles you believe match — they&#8217;ll be cleared if correct.</li>
+<li>Matches can be based on colour, shape, pattern, or other visual elements.</li>
+<li>Clear all tiles from the board to complete the puzzle.</li>
+<li>Pay attention to subtle differences — not all similar-looking tiles actually match.</li>
+<li>A new puzzle is available every day for a fresh challenge.</li>
+</ul>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'kakuro',
+    datePublished: '2026-03-20T10:00:00+00:00',
+    dateModified: '2026-03-20T10:00:00+00:00',
+    dateAdded: '2026-03-20',
+    title: 'Kakuro – Play the Number Crossword Puzzle Free Online',
+    metaDescription: 'Play Kakuro online free. The Japanese number crossword puzzle that combines logic and addition. Multiple difficulty levels, no download required.',
+    category: 'online-games',
+    tags: ['puzzle'],
+    embedUrl: 'https://www.kakuros.com/',
+    thumbnail: '/images/kakuro.webp',
+    relatedSlugs: ['google-minesweeper', 'taylor-swift-2048', 'letter-boxed'],
+    excerpt: 'Kakuro is a number crossword puzzle that combines the logic of Sudoku with the structure of a crossword. Fill in digits 1-9 so each group adds up to the given sum, with no repeats...',
+    content: `<p>Kakuro is a number crossword puzzle that combines the logic of Sudoku with the structure of a crossword. Often called &#8220;cross sums,&#8221; it&#8217;s one of the most popular logic puzzles in Japan and has been gaining worldwide popularity as puzzle enthusiasts discover its elegant blend of arithmetic and deduction. Fill in digits 1 through 9 so that each horizontal and vertical group of cells adds up to the given clue number — with no digit repeated within any group.</p>
+
+<p>The puzzle grid looks like a crossword, with white cells to fill and dark cells containing clue numbers. Each clue number sits in a divided dark cell: the number in the upper-right tells you the sum for the horizontal run of white cells to its right, and the number in the lower-left tells you the sum for the vertical run below. Your job is to figure out which combination of digits 1-9 produces each sum, then use the intersecting constraints to determine the exact placement.</p>
+
+<p>What makes Kakuro deeply satisfying is how arithmetic constraints create logical deductions. Consider a clue of 3 in a two-cell run — the only possibility is 1+2, so those cells must contain 1 and 2 in some order. A clue of 17 in a two-cell run must be 8+9. These definite combinations are your starting points. As you fill in confirmed digits, the intersecting runs provide additional constraints that cascade through the puzzle. Advanced techniques involve tracking possible digit sets for each run and finding contradictions — much like advanced Sudoku solving.</p>
+
+<p>The online version at kakuros.com offers puzzles in multiple sizes from 3×3 beginner grids to massive 30×30 expert challenges. Each puzzle has a unique solution that can be reached through pure logic — no guessing required. The clean interface lets you pencil-mark possible digits, highlight related cells, and check your progress. New puzzles are generated regularly, providing an endless supply of challenges at every difficulty level.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Kakuro</strong></h2>
+
+<ul class="wp-block-list">
+<li>Click an empty white cell and type a digit from 1 to 9.</li>
+<li>Each horizontal and vertical group of cells must add up to the clue number in the dark cell.</li>
+<li>No digit can repeat within a single horizontal or vertical group.</li>
+<li>Start with runs that have only one possible combination (like sum 3 in two cells = 1+2).</li>
+<li>Use intersecting constraints to narrow down possibilities for each cell.</li>
+<li>Choose your difficulty level — smaller grids are easier, larger ones are more challenging.</li>
+</ul>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'the-legend-of-zelda',
+    datePublished: '2026-03-20T10:00:00+00:00',
+    dateModified: '2026-03-20T10:00:00+00:00',
+    dateAdded: '2026-03-20',
+    title: 'The Legend of Zelda – Play the Classic NES Adventure Online',
+    metaDescription: 'Play The Legend of Zelda online free. The classic 1986 NES action-adventure game in your browser. Explore Hyrule, find the Triforce, and defeat Ganon.',
+    category: 'online-games',
+    tags: ['arcade', 'strategy'],
+    embedUrl: '/tools/legend-of-zelda.html',
+    noSandbox: true,
+    thumbnail: '/images/the-legend-of-zelda.webp',
+    relatedSlugs: ['google-pacman', 'doodle-champion-island-games', 'google-snake'],
+    excerpt: 'The Legend of Zelda is the legendary 1986 NES action-adventure that started one of gaming\'s most iconic franchises. Explore the vast overworld of Hyrule, conquer nine dungeons, and defeat the evil Ganon...',
+    content: `<p>The Legend of Zelda is the legendary 1986 NES action-adventure that started one of gaming&#8217;s most iconic franchises. Designed by Shigeru Miyamoto and Takashi Tezuka, it dropped players into the vast overworld of Hyrule with almost no instructions and challenged them to explore, fight, and puzzle their way through nine increasingly complex dungeons to reassemble the Triforce of Wisdom and defeat the evil Ganon.</p>
+
+<p>When it launched on the Famicom Disk System in February 1986 (and on the NES in North America in August 1987), it was revolutionary. While most games moved in one direction — left to right — Zelda offered an open world that scrolled in all four directions, with secrets hidden behind every bush and under every rock. The gold cartridge gleamed on store shelves, and the battery-backed save system meant you could actually preserve your progress, a luxury in an era of passwords and starting over.</p>
+
+<p>You play as Link, a young hero who finds an old man in a cave who gives you a wooden sword and the immortal words &#8220;It&#8217;s dangerous to go alone! Take this.&#8221; From there, you&#8217;re on your own. The overworld is a grid of interconnected screens teeming with Octoroks, Moblins, Tektites, and Lynels. Hidden throughout are cave entrances, shops, old men with cryptic advice, and the entrances to nine dungeons — each containing a piece of the Triforce.</p>
+
+<p>Each dungeon is a maze of rooms connected by locked doors, secret passages, and increasingly dangerous enemies. You&#8217;ll find essential items in each dungeon: the boomerang, bombs, the bow, the raft, the ladder, the magic wand, and more. Each item opens new areas of both the dungeon and the overworld, creating a metroidvania-like progression loop decades before that term existed. The dungeon bosses — Aquamentus, Dodongo, Manhandla, Gleeok, Digdogger, Gohma, and finally Ganon himself — remain some of the most memorable encounters in gaming history.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play The Legend of Zelda</strong></h2>
+
+<ul class="wp-block-list">
+<li>Use the Arrow Keys to move Link across the overworld and through dungeons.</li>
+<li>Press Z to swing your sword — this is the A button on the original NES controller.</li>
+<li>Press X to use your currently selected secondary item such as bombs, the boomerang, or the bow — this is the B button.</li>
+<li>Press Enter to open the Start menu where you can view the map and equip secondary items.</li>
+<li>Press Shift to access the Select function, used in some menus.</li>
+<li>Explore everywhere — secrets are hidden behind burnable bushes, bombable walls, and pushable rocks.</li>
+<li>Collect all nine Triforce pieces from the nine dungeons to unlock the final confrontation with Ganon.</li>
+</ul>
+
+<h2 class="wp-block-heading"><strong>Keyboard Controls</strong></h2>
+
+<ul class="wp-block-list">
+<li>Arrow Keys — D-Pad (movement)</li>
+<li>Z — Button A (swing sword / confirm action)</li>
+<li>X — Button B (use secondary item)</li>
+<li>Enter — Start</li>
+<li>Shift — Select</li>
+<li>Num 1 — Save state</li>
+<li>Num 2 — Load state</li>
+</ul>
+
+<h2 class="wp-block-heading"><strong>Emulator Options</strong></h2>
+
+<ul class="wp-block-list">
+<li>Right-click the game screen to open the context menu with additional options.</li>
+<li>Use the gear icon in the emulator toolbar to adjust video, audio, and core settings.</li>
+<li>Use the controller icon to view or remap your keyboard and gamepad bindings.</li>
+<li>Use the cheats icon to enter Game Genie or Pro Action Replay codes.</li>
+<li>Use the speaker icon to mute or unmute audio at any time.</li>
+<li>Use the fullscreen icon to expand the game to fill your screen.</li>
+</ul>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'word-master',
+    datePublished: '2026-03-20T10:00:00+00:00',
+    dateModified: '2026-03-20T10:00:00+00:00',
+    dateAdded: '2026-03-20',
+    title: 'Word Master – Play the Unlimited Wordle Game Free',
+    metaDescription: 'Play Word Master online free — an unlimited Wordle-style word game with no daily limit. Guess five-letter words with colour clues. Play as many rounds as you want.',
+    category: 'online-games',
+    tags: ['word-and-trivia'],
+    embedUrl: 'https://octokatherine.github.io/word-master/',
+    thumbnail: '/images/word-master.webp',
+    relatedSlugs: ['weddle', 'letter-boxed', 'google-feud'],
+    excerpt: 'Word Master is an open-source Wordle clone that lets you play unlimited rounds instead of being restricted to one puzzle per day. Same rules, same coloured clues, infinite games...',
+    content: `<p>Word Master is an open-source Wordle clone that lets you play unlimited rounds instead of being restricted to one puzzle per day. If you&#8217;ve ever finished your daily Wordle in two minutes and wished you could keep going, Word Master is the answer. Same rules, same green-yellow-grey feedback, same five-letter word format — but you can play again immediately after solving (or failing) each puzzle.</p>
+
+<p>Built by developer Katherine Peterson as an open-source project on GitHub, Word Master faithfully recreates the Wordle experience. You have six attempts to guess a five-letter word. After each guess, letters are coloured: green means the letter is correct and in the right position, yellow means the letter exists in the word but in a different position, and grey means the letter isn&#8217;t in the word at all. The on-screen keyboard updates to show which letters you&#8217;ve used and their status.</p>
+
+<p>What makes Word Master particularly appealing is the pace. Without the one-per-day restriction, you can practice strategies, test opening words, and genuinely improve your solving technique. Wordle enthusiasts debate endlessly about the best opening word — ADIEU, CRANE, SLATE, ARISE, STARE — and Word Master gives you the space to actually test these theories across dozens of games in a single sitting. You&#8217;ll quickly develop a feel for which second and third guesses extract the most information from the letter pool.</p>
+
+<p>The game uses a comprehensive five-letter word list that includes both common and obscure words, keeping you on your toes. The clean, minimal interface mirrors Wordle&#8217;s iconic design, with dark mode support and a distraction-free layout. Being open source means it&#8217;s free from ads, tracking, or any other annoyances — just pure word-guessing gameplay. It&#8217;s the Wordle experience that never makes you wait until tomorrow.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Word Master</strong></h2>
+
+<ul class="wp-block-list">
+<li>Type a five-letter word and press Enter to submit your guess.</li>
+<li>Green letters are correct and in the right position.</li>
+<li>Yellow letters are in the word but in the wrong position.</li>
+<li>Grey letters are not in the word at all.</li>
+<li>Use the colour feedback to narrow down possibilities for your next guess.</li>
+<li>You have six attempts to guess the word. After solving (or failing), start a new game immediately.</li>
+</ul>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'a-dance-of-fire-and-ice',
+    datePublished: '2026-03-20T10:00:00+00:00',
+    dateModified: '2026-03-20T10:00:00+00:00',
+    dateAdded: '2026-03-20',
+    title: 'A Dance of Fire and Ice – The One-Button Rhythm Game',
+    metaDescription: 'Play A Dance of Fire and Ice, the precision rhythm game where two orbiting planets dance along a winding path. Hit the beat perfectly to complete each level.',
+    category: 'online-games',
+    tags: ['music-and-creative', 'arcade'],
+    embedUrl: 'https://vaz63.github.io/g26/class-498/',
+    noSandbox: true,
+    thumbnail: '/images/a-dance-of-fire-and-ice.webp',
+    relatedSlugs: ['g-switch-3', 'tomb-of-the-mask', 'clara-rockmore-google-doodle'],
+    excerpt: 'A Dance of Fire and Ice is a minimalist rhythm game about pressing a single button in time with the beat as two orbiting planets trace a winding geometric path...',
+    content: `<p>A Dance of Fire and Ice is a minimalist rhythm game about pressing a single button in time with the beat as two orbiting planets trace a winding geometric path. Developed by 7th Beat Games, it strips the rhythm game genre down to its absolute essence — one button, one beat, pure timing. The result is a game that looks deceptively simple but demands pixel-perfect precision that will test even veteran rhythm game players.</p>
+
+<p>The core mechanic is elegant: a fire planet and an ice planet orbit each other, tracing a path along a series of tiles. Each tile represents a beat in the music. Press the button exactly when the active planet lands on the next tile, and the pair continues dancing forward. Miss the beat — even slightly — and the music stumbles, your accuracy drops, and the visual path fractures. The game demands you internalise the rhythm so completely that your button presses become an extension of the music itself.</p>
+
+<p>What starts as simple straight lines quickly evolves into curves, spirals, zigzags, and patterns that change tempo mid-level. The path twists through geometric landscapes that pulse and morph with the soundtrack, creating a synaesthetic experience where visuals, music, and input blur together. Some levels maintain a steady 4/4 beat, while others introduce swing rhythms, polyrhythms, and tempo changes that require you to genuinely listen rather than rely on visual timing cues.</p>
+
+<p>The game features a curated campaign of levels set to original compositions spanning multiple genres — from gentle piano pieces to driving electronic tracks to orchestral arrangements. Each level introduces new rhythmic concepts gradually, building your timing vocabulary. Beyond the campaign, a thriving community creates custom levels using the built-in editor, adding thousands of songs from pop hits to anime openings to classical masterpieces. The custom level scene has become one of the largest in any rhythm game community.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play A Dance of Fire and Ice</strong></h2>
+
+<ul class="wp-block-list">
+<li>Press any key or click the mouse exactly on the beat as the planets reach each tile.</li>
+<li>The timing must be precise — even small deviations affect your accuracy percentage.</li>
+<li>Listen to the music carefully. The rhythm tells you exactly when to press.</li>
+<li>The path will curve, spiral, and change direction — stay focused on the beat, not the visuals.</li>
+<li>Some levels change tempo mid-song. Listen for the new rhythm and adjust your timing.</li>
+<li>Aim for high accuracy to unlock harder levels and earn better rankings.</li>
+</ul>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'only-up',
+    datePublished: '2026-03-20T10:00:00+00:00',
+    dateModified: '2026-03-20T10:00:00+00:00',
+    dateAdded: '2026-03-20',
+    title: 'Only Up – Play the Climbing Platformer Game',
+    metaDescription: 'Play Only Up, the viral climbing platformer where you parkour upward through a surreal world of floating objects. One fall can send you back to the start.',
+    category: 'online-games',
+    tags: ['platformer', 'arcade'],
+    embedUrl: 'https://frivez.com/games/only-up/index.html',
+    thumbnail: '/images/only-up.webp',
+    relatedSlugs: ['g-switch-3', 'house-of-hazards', 'icy-purple-head'],
+    excerpt: 'Only Up is a viral 3D platformer where the only direction is up. Climb through a surreal world of floating objects, construction sites, and impossible architecture — one wrong step sends you plummeting...',
+    content: `<p>Only Up is a viral 3D platformer where the only direction is up. Released in 2023 by developer JEGG, the game became an internet sensation when streamers and content creators discovered that its punishing &#8220;no checkpoints&#8221; design created some of the most dramatic and heartbreaking moments in gaming. One wrong jump can send you plummeting from the clouds all the way back to the ground, losing hours of progress in seconds.</p>
+
+<p>You play as Jackie, a young boy from a run-down neighbourhood who begins climbing through an increasingly surreal vertical world. Starting at street level, you parkour your way upward through construction scaffolding, rooftops, floating cars, giant household objects, train tracks suspended in mid-air, and eventually into the clouds and beyond. The world is a fever dream of mismatched objects — a refrigerator balanced on a crane, a sofa floating next to a satellite dish, piano keys forming a staircase. Nothing makes logical sense, but every object is a potential platform.</p>
+
+<p>The game&#8217;s core tension comes from having zero safety nets. There are no checkpoints, no save points, and no second chances. If you fall, you fall — and gravity is merciless. A slip from near the top of the world can send you crashing through multiple layers of platforms back to the very beginning. This design choice is what made the game go viral. Streamers screaming after a two-hour climb ends with a single missed jump became some of the most-watched gaming clips of 2023.</p>
+
+<p>Despite (or perhaps because of) its frustration factor, Only Up taps into a primal satisfaction. Every metre of height you gain feels earned. Every new section of the surreal skyscape feels like a genuine discovery. The game doesn&#8217;t hold your hand, doesn&#8217;t explain its world, and doesn&#8217;t apologise for its difficulty. It simply points up and says &#8220;good luck.&#8221; The journey from the bottom to the top takes skilled players about 90 minutes, but most first attempts stretch to many hours of climbing, falling, and climbing again.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Only Up</strong></h2>
+
+<ul class="wp-block-list">
+<li>Use WASD to move Jackie and the mouse to control the camera.</li>
+<li>Press Spacebar to jump. Time your jumps carefully — there are no checkpoints.</li>
+<li>Look for climbable objects and platforms that lead upward. Everything is a potential path.</li>
+<li>Be patient on tricky sections. Rushing leads to falls, and falls are devastating.</li>
+<li>Look for routes that offer multiple landing spots in case you miss a jump.</li>
+<li>If you fall, stay calm. You know the route now — climb back faster than before.</li>
+</ul>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'chess-computer',
+    datePublished: '2026-03-20T10:00:00+00:00',
+    dateModified: '2026-03-20T10:00:00+00:00',
+    dateAdded: '2026-03-20',
+    title: 'Chess Computer – Play Chess Against AI Free Online',
+    metaDescription: 'Play chess against the computer online free. Multiple difficulty levels from beginner to expert. No sign-up required — start playing instantly.',
+    category: 'online-games',
+    tags: ['strategy', 'card-and-board'],
+    embedUrl: 'https://www.247chess.com/',
+    thumbnail: '/images/chess-computer.webp',
+    relatedSlugs: ['google-tic-tac-toe', 'the-legend-of-zelda', 'kakuro'],
+    excerpt: 'Chess against the computer lets you play the world\'s most famous strategy game at your own pace, with AI opponents ranging from absolute beginner to grandmaster strength...',
+    content: `<p>Chess against the computer lets you play the world&#8217;s most famous strategy game at your own pace, with AI opponents ranging from absolute beginner to grandmaster strength. Whether you&#8217;re learning the basics or sharpening your tactical skills, playing against an AI is the perfect way to practice without the pressure of a human opponent watching your every move.</p>
+
+<p>Chess has been played for over 1,500 years, evolving from the Indian game chaturanga through Persian shatranj to the modern game codified in Europe during the 15th century. It&#8217;s a two-player strategy game played on an 8×8 grid where each player commands 16 pieces: one king, one queen, two rooks, two bishops, two knights, and eight pawns. Each piece moves according to specific rules, and the objective is to checkmate your opponent&#8217;s king — placing it under attack with no legal escape.</p>
+
+<p>Playing against the computer offers unique advantages over human opponents. You can take as long as you want on each move without feeling pressured. You can undo moves to explore different lines. You can adjust the AI difficulty to match your current skill level, ensuring every game is challenging but not demoralising. Modern chess engines on platforms like Chess.com use sophisticated AI that can mimic different playing styles, from aggressive tactical play to solid positional strategy.</p>
+
+<p>For beginners, the computer serves as a patient teacher. Lower difficulty levels intentionally make sub-optimal moves, giving you opportunities to practice tactics like forks, pins, skewers, and discovered attacks. As you improve, you can gradually increase the difficulty until the AI starts playing genuinely strong moves that challenge your understanding of chess strategy. Many players use computer opponents to practice specific openings, test endgame techniques, or warm up before playing rated games against humans.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Chess Against Computer</strong></h2>
+
+<ul class="wp-block-list">
+<li>Click a piece to select it, then click its destination square to move it.</li>
+<li>Each piece type moves differently: pawns forward, rooks in straight lines, bishops diagonally, knights in L-shapes, queens in any direction, and kings one square in any direction.</li>
+<li>Capture opposing pieces by moving to their square.</li>
+<li>Castle by moving the king two squares toward a rook (special conditions apply).</li>
+<li>Your goal is checkmate — attack the opponent&#8217;s king so it cannot escape.</li>
+<li>Adjust the AI difficulty level to match your skill for the best practice experience.</li>
+</ul>
+<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
+
+</div>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'soccer-skills-world-cup',
+    datePublished: '2026-03-21T10:00:00+00:00',
+    dateModified: '2026-03-21T10:00:00+00:00',
+    dateAdded: '2026-03-21',
+    title: 'Soccer Skills World Cup – Play Football Game Online Free',
+    metaDescription: 'Play Soccer Skills World Cup online free. Dribble, shoot, and score goals in this fast-paced football game. Choose your team and compete for the cup.',
+    category: 'online-games',
+    tags: ['sports'],
+    embedUrl: 'https://classroom8.github.io/soccer-skills-world-cup/#topvaz',
+    thumbnail: '/images/soccer-skills-world-cup.webp',
+    relatedSlugs: ['top-speed-3d', 'temple-of-boom', 'iron-snout'],
+    excerpt: 'Soccer Skills World Cup is a fast-paced football game where you dribble past defenders and shoot for glory. Pick your national team and compete through tournament rounds to lift the cup.',
+    content: `<p>Soccer Skills World Cup is a fast-paced football game where you dribble past defenders and shoot for glory. Pick your national team and compete through tournament rounds to lift the World Cup trophy. The game captures the excitement of international football with smooth controls and satisfying gameplay that keeps you coming back for one more match.</p>
+
+<p>The controls are simple but the skill ceiling is high. You move your player around the pitch, dodge defenders, and time your shots to beat the goalkeeper. Each match gets progressively harder as you advance through the tournament, with opposing teams playing more aggressively and goalkeepers becoming harder to beat. The key is mastering your dribbling to create shooting angles and learning when to take your shot.</p>
+
+<p>With multiple national teams to choose from and a full tournament structure, Soccer Skills World Cup delivers a complete football gaming experience right in your browser. The colourful graphics and responsive controls make it accessible for casual players, while the increasing difficulty provides a genuine challenge for those aiming to win the entire competition.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Soccer Skills World Cup</strong></h2>
+
+<ul class="wp-block-list">
+<li>Use arrow keys or WASD to move your player around the pitch.</li>
+<li>Dribble past defenders by changing direction and using speed.</li>
+<li>Shoot towards the goal when you have a clear angle.</li>
+<li>Score more goals than the opposition to advance through the tournament.</li>
+<li>Win all matches to lift the World Cup trophy.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'raft-wars',
+    datePublished: '2026-03-21T10:00:00+00:00',
+    dateModified: '2026-03-21T10:00:00+00:00',
+    dateAdded: '2026-03-21',
+    title: 'Raft Wars – Play the Classic Shooting Game Online Free',
+    metaDescription: 'Play Raft Wars online free. Aim and shoot tennis balls from your raft to defeat enemies and protect your treasure. Classic browser game, no download needed.',
+    category: 'online-games',
+    tags: ['arcade', 'strategy'],
+    embedUrl: 'https://gameinclassroom.github.io/raft-wars-2/',
+    thumbnail: '/images/raft-wars.webp',
+    relatedSlugs: ['escaping-the-prison', 'bob-the-robber', 'temple-of-boom'],
+    excerpt: 'Raft Wars is the classic turn-based shooting game where baby Simon and his brother defend their treasure from pirates, vikings, and other enemies by launching tennis balls from their raft.',
+    content: `<p>Raft Wars is the classic turn-based shooting game where baby Simon and his brother defend their buried treasure from waves of enemies by launching projectiles from their raft. Originally created by Martijn Kunst and released as a Flash game, Raft Wars became one of the most popular browser games ever made, and this HTML5 version keeps the fun alive.</p>
+
+<p>The story begins when baby Simon discovers a treasure chest buried at the beach. But word gets out, and soon pirates, Vikings, castle guards, and other treasure hunters come to steal it. Armed with tennis balls and sitting on a makeshift raft, you must aim and fire at enemies to knock them into the water before they do the same to you.</p>
+
+<p>The gameplay is turn-based — you adjust your aim angle and power, then fire. Physics determine where your projectile lands, and hitting enemies knocks them back or off their platforms. Between levels, you earn money to upgrade your raft, buy better weapons, and add crew members. The progression system adds strategic depth to what starts as a simple aiming game.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Raft Wars</strong></h2>
+
+<ul class="wp-block-list">
+<li>Click and drag to aim your shot — adjust angle and power.</li>
+<li>Release to fire your projectile at the enemies.</li>
+<li>Knock all enemies into the water to complete each level.</li>
+<li>Earn money from victories to upgrade weapons and your raft.</li>
+<li>Progress through increasingly challenging waves of enemies.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'top-speed-3d',
+    datePublished: '2026-03-21T10:00:00+00:00',
+    dateModified: '2026-03-21T10:00:00+00:00',
+    dateAdded: '2026-03-21',
+    title: 'Top Speed 3D – Play Racing Game Online Free',
+    metaDescription: 'Play Top Speed 3D online free. Race high-speed cars through traffic, earn money, and unlock faster vehicles. 3D racing action in your browser.',
+    category: 'online-games',
+    tags: ['sports'],
+    embedUrl: 'https://sudoku-online.github.io/a3/top-speed-3d/',
+    thumbnail: '/images/top-speed-3d.webp',
+    relatedSlugs: ['crazy-cars', 'city-car-driving', 'tiger-simulator-3d'],
+    excerpt: 'Top Speed 3D is a high-octane racing game where you weave through traffic at breakneck speeds, earn cash, and unlock increasingly powerful supercars.',
+    content: `<p>Top Speed 3D is a high-octane racing game where you weave through traffic at breakneck speeds, earn cash, and unlock increasingly powerful supercars. The game puts you behind the wheel of some of the world&#8217;s fastest cars and challenges you to navigate through busy highways without crashing.</p>
+
+<p>The gameplay is straightforward but addictive — steer your car left and right to dodge traffic, and the longer you survive without crashing, the more money you earn. Use your earnings to buy faster, more exotic cars that handle differently and reach higher top speeds. The 3D graphics create an immersive sense of speed as the scenery blurs past you.</p>
+
+<p>Each car in the game has unique characteristics including top speed, acceleration, and handling. Starting with a basic car, you work your way up to supercars and hypercars that can reach insane speeds. The traffic density and speed increase as you progress, requiring faster reflexes and better anticipation to avoid collisions.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Top Speed 3D</strong></h2>
+
+<ul class="wp-block-list">
+<li>Use arrow keys or WASD to steer your car.</li>
+<li>Dodge traffic and obstacles on the highway.</li>
+<li>Drive as far as possible without crashing to earn money.</li>
+<li>Use earned money to unlock faster and better cars.</li>
+<li>Each car has different speed, acceleration, and handling stats.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'crazy-cars',
+    datePublished: '2026-03-21T10:00:00+00:00',
+    dateModified: '2026-03-21T10:00:00+00:00',
+    dateAdded: '2026-03-21',
+    title: 'Crazy Cars – Play Car Stunts Game Online Free',
+    metaDescription: 'Play Crazy Cars online free. Perform insane car stunts, flips, and jumps on extreme ramps and tracks. 3D stunt driving action in your browser.',
+    category: 'online-games',
+    tags: ['sports', 'arcade'],
+    embedUrl: 'https://ubg76.gitlab.io/crazy-cars/',
+    thumbnail: '/images/crazy-cars.webp',
+    relatedSlugs: ['top-speed-3d', 'city-car-driving', 'tiger-simulator-3d'],
+    excerpt: 'Crazy Cars is an extreme stunt driving game where you launch cars off massive ramps, perform mid-air flips and tricks, and try to land on increasingly impossible tracks.',
+    content: `<p>Crazy Cars is an extreme stunt driving game where you launch cars off massive ramps, perform mid-air flips and tricks, and try to land safely on increasingly impossible tracks. The game combines the thrill of high-speed driving with physics-based stunt mechanics that reward creative and daring driving.</p>
+
+<p>The tracks are designed to be outrageous — towering ramps, loop-the-loops, corkscrew sections, and gaps that require perfect speed and angle to clear. You earn points for successful stunts, and the more spectacular your aerial maneuvers, the higher your score. Flips, barrel rolls, and combinations multiply your points.</p>
+
+<p>Multiple vehicles are available, each with different weight, speed, and handling characteristics that affect how they perform stunts. Heavier cars are more stable on landing but harder to flip, while lighter cars spin easily but can be tricky to control. Finding the right car for each track is part of the strategy.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Crazy Cars</strong></h2>
+
+<ul class="wp-block-list">
+<li>Use arrow keys or WASD to drive and steer your car.</li>
+<li>Hit ramps at full speed to launch into the air.</li>
+<li>Tilt your car mid-air to perform flips and tricks.</li>
+<li>Land on all four wheels to complete stunts successfully.</li>
+<li>Earn points for stunts and unlock new vehicles and tracks.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'escaping-the-prison',
+    datePublished: '2026-03-21T10:00:00+00:00',
+    dateModified: '2026-03-21T10:00:00+00:00',
+    dateAdded: '2026-03-21',
+    title: 'Escaping the Prison – Play the Stickman Adventure Free',
+    metaDescription: 'Play Escaping the Prison online free. Help Henry Stickmin break out of prison in this hilarious choose-your-own-adventure stickman game.',
+    category: 'online-games',
+    tags: ['arcade'],
+    embedUrl: 'https://jufik.com/swf/game-swf.php?file=escaping_the_prison.swf',
+    thumbnail: '/images/escaping-the-prison.webp',
+    relatedSlugs: ['bob-the-robber', 'raft-wars', 'brain-test'],
+    excerpt: 'Escaping the Prison is the iconic Henry Stickmin choose-your-own-adventure game where you help the loveable stick figure break out of jail using creative and hilarious methods.',
+    content: `<p>Escaping the Prison is the iconic Henry Stickmin choose-your-own-adventure game created by PuffballsUnited. You play as Henry Stickmin, a loveable stick figure who&#8217;s been locked up in prison and needs to find a way out. The game presents you with choices at critical moments, and each decision leads to either a hilarious failure or one step closer to freedom.</p>
+
+<p>The brilliance of Escaping the Prison lies in its humour. Most choices lead to spectacular and funny failure animations — Henry might try to use a rocket launcher and blow himself up, attempt to dig a tunnel and end up in China, or try to disguise himself with hilariously poor results. Finding the correct path requires trial and error, and the failures are so entertaining that you&#8217;ll want to try every option.</p>
+
+<p>Originally released as a Flash game on Newgrounds, Escaping the Prison was part of the Henry Stickmin series that eventually led to the full game The Henry Stickmin Collection on Steam. This browser version preserves the classic experience with all its original charm and comedy. Multiple endings mean there&#8217;s more than one way to escape.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Escaping the Prison</strong></h2>
+
+<ul class="wp-block-list">
+<li>Watch the animated scenes as the story unfolds.</li>
+<li>When presented with choices, click on an option to see what happens.</li>
+<li>Most choices lead to funny failures — enjoy them!</li>
+<li>Find the correct sequence of choices to successfully escape the prison.</li>
+<li>Try every option to see all the hilarious failure animations.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'n-gon',
+    datePublished: '2026-03-21T10:00:00+00:00',
+    dateModified: '2026-03-21T10:00:00+00:00',
+    dateAdded: '2026-03-21',
+    title: 'N-Gon – Play the Physics Platformer Shooter Online Free',
+    metaDescription: 'Play N-Gon online free. A physics-based platformer shooter with roguelike upgrades. Fight enemies, collect power-ups, and survive procedurally generated levels.',
+    category: 'online-games',
+    tags: ['arcade', 'strategy'],
+    embedUrl: 'https://landgreen.github.io/n-gon/',
+    thumbnail: '/images/n-gon.webp',
+    relatedSlugs: ['temple-of-boom', 'iron-snout', 'stick-defenders'],
+    excerpt: 'N-Gon is a physics-based platformer shooter with roguelike elements. Fight through procedurally generated levels, collect powerful upgrades, and see how far you can survive.',
+    content: `<p>N-Gon is a physics-based platformer shooter with roguelike elements, created by developer Landgreen as an open-source project. You control a small polygon character armed with various weapons, fighting through procedurally generated levels filled with enemies, obstacles, and power-ups. The physics engine makes every interaction feel dynamic and unpredictable.</p>
+
+<p>What sets N-Gon apart is its deep upgrade system. After clearing groups of enemies, you can choose from a selection of power-ups that fundamentally change how you play. You might gain the ability to spawn drones, increase your bullet count, add explosive properties to your shots, or enhance your movement abilities. The combinations create wildly different playthroughs each time.</p>
+
+<p>The game&#8217;s minimalist vector graphics belie its complexity. Enemies come in many varieties, from simple chasers to shielded units, teleporters, and bosses with unique attack patterns. The procedural generation ensures no two runs are identical, and the roguelike structure means death sends you back to the beginning with your knowledge but without your upgrades. It&#8217;s endlessly replayable.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play N-Gon</strong></h2>
+
+<ul class="wp-block-list">
+<li>Use WASD or arrow keys to move your character.</li>
+<li>Aim with the mouse and click to shoot.</li>
+<li>Defeat enemies to earn upgrade choices.</li>
+<li>Choose upgrades that complement your playstyle.</li>
+<li>Survive as many levels as possible — death restarts your run.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'tiger-simulator-3d',
+    datePublished: '2026-03-21T10:00:00+00:00',
+    dateModified: '2026-03-21T10:00:00+00:00',
+    dateAdded: '2026-03-21',
+    title: 'Tiger Simulator 3D – Play Animal Simulation Game Online Free',
+    metaDescription: 'Play Tiger Simulator 3D online free. Roam a 3D open world as a tiger, hunt prey, explore the wilderness, and survive in this animal simulation game.',
+    category: 'online-games',
+    tags: ['arcade'],
+    embedUrl: 'https://jufik.com/html5/tiger-simulator-3d/index.html',
+    thumbnail: '/images/tiger-simulator-3d.webp',
+    relatedSlugs: ['city-car-driving', 'top-speed-3d', 'crazy-cars'],
+    excerpt: 'Tiger Simulator 3D lets you experience life as a wild tiger in a 3D open world. Hunt prey, explore diverse environments, and survive in this immersive animal simulation game.',
+    content: `<p>Tiger Simulator 3D lets you experience life as a wild tiger in a 3D open world. Hunt prey, explore diverse environments, raise a family, and survive against threats in this immersive animal simulation game. The game drops you into a vast wilderness where you must use your predatory instincts to thrive.</p>
+
+<p>As a tiger, you roam freely through forests, grasslands, and other natural habitats. Your primary objective is survival — you need to hunt animals for food, find water, and avoid dangers. The hunting mechanics are satisfying, requiring you to stalk prey, time your pounce, and take down animals ranging from rabbits to larger game.</p>
+
+<p>The 3D open world is surprisingly large for a browser game, with varied terrain and environments to explore. As you progress, you can grow stronger, unlock abilities, and even find a mate to start a family. The simulation aspects add depth beyond simple hunting, making it a genuinely engaging experience for fans of animal simulation games.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Tiger Simulator 3D</strong></h2>
+
+<ul class="wp-block-list">
+<li>Use WASD to move your tiger through the 3D world.</li>
+<li>Use the mouse to look around and control the camera.</li>
+<li>Click to attack prey and enemies.</li>
+<li>Hunt animals to maintain your hunger and health.</li>
+<li>Explore the open world to discover new areas and challenges.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'dreadhead-parkour',
+    datePublished: '2026-03-21T10:00:00+00:00',
+    dateModified: '2026-03-21T10:00:00+00:00',
+    dateAdded: '2026-03-21',
+    title: 'Dreadhead Parkour – Play Parkour Running Game Online Free',
+    metaDescription: 'Play Dreadhead Parkour online free. Run, jump, and flip through urban environments in this fast-paced parkour platformer. Master the moves and beat every level.',
+    category: 'online-games',
+    tags: ['arcade'],
+    embedUrl: 'https://gamesunblocked.gitlab.io/assets/dreadhead-parkour-online/',
+    thumbnail: '/images/dreadhead-parkour.webp',
+    relatedSlugs: ['temple-of-boom', 'iron-snout', 'n-gon'],
+    excerpt: 'Dreadhead Parkour is a fast-paced parkour platformer where you run, wall-jump, flip, and slide through challenging urban environments with fluid movement mechanics.',
+    content: `<p>Dreadhead Parkour is a fast-paced parkour platformer where you run, wall-jump, flip, and slide through challenging urban environments with fluid movement mechanics. The game captures the thrill of freerunning with responsive controls that let you chain together impressive moves as you navigate increasingly complex levels.</p>
+
+<p>Each level presents a series of obstacles — walls to climb, gaps to jump, rails to slide under, and platforms to leap between. The key is maintaining your momentum. A good parkour run flows smoothly from one move to the next without stopping, and the game rewards this with better completion times and scores. Wall jumps, double jumps, and slides can be combined into fluid chains.</p>
+
+<p>The level design progressively introduces new mechanics and challenges. Early levels teach you the basics of running and jumping, while later levels require precise timing, creative route-finding, and mastery of advanced moves like wall runs and consecutive wall jumps. The clean visual style keeps the focus on the gameplay, and the satisfying physics make every successful run feel great.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Dreadhead Parkour</strong></h2>
+
+<ul class="wp-block-list">
+<li>Use arrow keys or WASD to move and jump.</li>
+<li>Press Up or W to jump — press again near a wall to wall-jump.</li>
+<li>Press Down or S to slide under obstacles.</li>
+<li>Chain moves together to maintain momentum.</li>
+<li>Reach the end of each level as quickly as possible.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'brain-test',
+    datePublished: '2026-03-21T10:00:00+00:00',
+    dateModified: '2026-03-21T10:00:00+00:00',
+    dateAdded: '2026-03-21',
+    title: 'Brain Test: Tricky Puzzles – Play Brain Teaser Game Online Free',
+    metaDescription: 'Play Brain Test: Tricky Puzzles online free. Solve creative brain teasers that require thinking outside the box. Hundreds of tricky levels to challenge your mind.',
+    category: 'online-games',
+    tags: ['word-and-trivia', 'strategy'],
+    embedUrl: 'https://lnahtml.github.io/a2/brain-test-tricky-puzzles/',
+    thumbnail: '/images/brain-test.webp',
+    relatedSlugs: ['google-feud', 'kakuro', 'chess-computer'],
+    excerpt: 'Brain Test: Tricky Puzzles is a brain teaser game that challenges you with creative puzzles requiring outside-the-box thinking. Each level has an unexpected twist.',
+    content: `<p>Brain Test: Tricky Puzzles is a brain teaser game that challenges you with creative puzzles requiring outside-the-box thinking. Each level presents a seemingly simple question or scenario, but the answer is never what you&#8217;d expect. The game deliberately tricks you into thinking conventionally, then rewards creative and lateral thinking.</p>
+
+<p>The puzzles range from visual tricks and wordplay to interactive challenges where you need to manipulate elements on the screen in unexpected ways. You might need to move objects that don&#8217;t seem movable, tap things in a specific order, use the phone&#8217;s features creatively, or interpret the question in a completely different way than initially intended. The &#8220;aha!&#8221; moment when you figure out each puzzle is incredibly satisfying.</p>
+
+<p>With hundreds of levels, Brain Test provides hours of entertainment. The difficulty ramps up gradually, but even early puzzles can stump you if you&#8217;re not thinking creatively enough. There are hints available if you get truly stuck, but the real fun is in that moment when the unconventional solution clicks. It&#8217;s the perfect game for anyone who enjoys riddles, brain teasers, and thinking differently.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Brain Test</strong></h2>
+
+<ul class="wp-block-list">
+<li>Read each puzzle question carefully — but don&#8217;t take it at face value.</li>
+<li>Think outside the box — the obvious answer is usually wrong.</li>
+<li>Try interacting with different elements on the screen.</li>
+<li>Some puzzles require you to move, shake, or rotate elements.</li>
+<li>Use hints if you get stuck, but try to solve puzzles on your own first.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'city-car-driving',
+    datePublished: '2026-03-21T10:00:00+00:00',
+    dateModified: '2026-03-21T10:00:00+00:00',
+    dateAdded: '2026-03-21',
+    title: 'City Car Driving Simulator – Play Driving Game Online Free',
+    metaDescription: 'Play City Car Driving Simulator online free. Drive through a realistic 3D city, follow traffic rules or go wild. Open-world driving in your browser.',
+    category: 'online-games',
+    tags: ['sports'],
+    embedUrl: 'https://htmlxm.github.io/h4/city-car-driving-stunt-master/',
+    thumbnail: '/images/city-car-driving.webp',
+    relatedSlugs: ['top-speed-3d', 'crazy-cars', 'tiger-simulator-3d'],
+    excerpt: 'City Car Driving Simulator puts you behind the wheel in a realistic 3D city environment. Drive freely through streets, follow traffic rules, or test the limits of your vehicle.',
+    content: `<p>City Car Driving Simulator puts you behind the wheel in a realistic 3D city environment. Drive freely through urban streets, follow traffic lights and road rules, or ignore them entirely and see what happens. The open-world city is filled with traffic, pedestrians, and landmarks to explore at your own pace.</p>
+
+<p>Unlike racing games that focus purely on speed, City Car Driving Simulator emphasises the experience of driving in a city. You can practice parking, navigate roundabouts, deal with traffic jams, and explore back streets. The driving physics strike a balance between realistic and fun — cars handle plausibly but you won&#8217;t need a degree in automotive engineering to enjoy the game.</p>
+
+<p>Multiple vehicles are available, from compact city cars to sports cars and SUVs. Each vehicle handles differently, giving you varied experiences as you explore the same city. The day-night cycle and weather effects add atmosphere, and the large map ensures there&#8217;s always a new area to discover. It&#8217;s the perfect game for anyone who finds the simple act of driving relaxing and enjoyable.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play City Car Driving Simulator</strong></h2>
+
+<ul class="wp-block-list">
+<li>Use WASD or arrow keys to drive — W/Up to accelerate, S/Down to brake.</li>
+<li>A/D or Left/Right to steer.</li>
+<li>Use the mouse to look around while driving.</li>
+<li>Follow traffic rules or drive freely — it&#8217;s your choice.</li>
+<li>Explore the city and try different vehicles.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'gold-digger-frvr',
+    datePublished: '2026-03-21T10:00:00+00:00',
+    dateModified: '2026-03-21T10:00:00+00:00',
+    dateAdded: '2026-03-21',
+    title: 'Gold Digger FRVR – Play Mining Game Online Free',
+    metaDescription: 'Play Gold Digger FRVR online free. Dig deep underground, collect gold and gems, upgrade your equipment, and discover what lies beneath in this addictive mining game.',
+    category: 'online-games',
+    tags: ['arcade', 'strategy'],
+    embedUrl: 'https://ubg76.gitlab.io/gold-digger-frvr/',
+    thumbnail: '/images/gold-digger-frvr.webp',
+    relatedSlugs: ['raft-wars', 'brain-test', 'temple-of-boom'],
+    excerpt: 'Gold Digger FRVR is an addictive mining game where you dig through layers of earth to find gold, gems, and treasures. Upgrade your equipment to dig deeper and discover rare finds.',
+    content: `<p>Gold Digger FRVR is an addictive mining game where you dig through layers of earth to find gold, gems, and treasures buried deep underground. Starting with basic tools, you chip away at dirt and rock, collecting valuable minerals that you can sell to upgrade your equipment and dig even deeper.</p>
+
+<p>The gameplay loop is simple but incredibly satisfying. Each swing of your pickaxe breaks through a block of earth, occasionally revealing gold nuggets, diamonds, rubies, and other valuable items. As you dig deeper, the blocks become harder to break and the treasures become more valuable. Upgrading your pickaxe, drill, and other tools lets you mine more efficiently and reach the rarest items hidden in the deepest layers.</p>
+
+<p>FRVR (Forever) games are known for their polished, accessible design, and Gold Digger is no exception. The clean graphics, satisfying mining sounds, and steady progression create a &#8220;just one more dig&#8221; feeling that makes it hard to stop playing. The game perfectly captures the appeal of discovery — you never know what treasure might be hiding just one block away.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Gold Digger FRVR</strong></h2>
+
+<ul class="wp-block-list">
+<li>Click or tap to dig through blocks of earth.</li>
+<li>Collect gold, gems, and treasures as you find them.</li>
+<li>Sell collected items to earn money for upgrades.</li>
+<li>Upgrade your tools to dig faster and break harder blocks.</li>
+<li>Dig as deep as possible to find the rarest and most valuable items.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'swingo',
+    datePublished: '2026-03-21T10:00:00+00:00',
+    dateModified: '2026-03-21T10:00:00+00:00',
+    dateAdded: '2026-03-21',
+    title: 'Swingo – Play Swing Monkey Game Online Free',
+    metaDescription: 'Play Swingo online free. Swing from vine to vine as a monkey in this addictive physics-based game. Time your jumps perfectly to reach the finish.',
+    category: 'online-games',
+    tags: ['arcade'],
+    embedUrl: 'https://bitlifeonline.github.io/class12523/swingo/',
+    thumbnail: '/images/swingo.webp',
+    relatedSlugs: ['dreadhead-parkour', 'iron-snout', 'n-gon'],
+    excerpt: 'Swingo is a physics-based swinging game where you control a monkey swinging from vine to vine. Time your releases perfectly to build momentum and reach the finish line.',
+    content: `<p>Swingo is a physics-based swinging game where you control a monkey swinging from vine to vine through the jungle. The mechanics are deceptively simple — press to grab a vine, release to let go and fly through the air — but mastering the timing and momentum requires genuine skill and practice.</p>
+
+<p>The physics engine drives the entire experience. Your monkey swings on vines like a pendulum, and the angle and speed at which you release determine where you&#8217;ll fly next. Release too early and you won&#8217;t reach the next vine. Release too late and you&#8217;ll fly off in the wrong direction. The sweet spot creates a satisfying arc that carries you smoothly to the next swing point.</p>
+
+<p>Levels introduce various obstacles and challenges — gaps of different sizes, moving platforms, dangerous objects to avoid, and vines placed at tricky angles. The difficulty curve is well-designed, starting with simple straight swings and progressing to complex sequences that require precise timing and spatial awareness. The one-button control scheme makes it accessible to anyone, but the physics depth means there&#8217;s always room for improvement.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Swingo</strong></h2>
+
+<ul class="wp-block-list">
+<li>Click or press to grab onto a vine.</li>
+<li>Release to let go and fly through the air.</li>
+<li>Time your release to build momentum and reach the next vine.</li>
+<li>Avoid obstacles and gaps between platforms.</li>
+<li>Reach the finish line of each level to advance.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'stick-defenders',
+    datePublished: '2026-03-21T10:00:00+00:00',
+    dateModified: '2026-03-21T10:00:00+00:00',
+    dateAdded: '2026-03-21',
+    title: 'Stick Defenders – Play Stickman Tower Defense Online Free',
+    metaDescription: 'Play Stick Defenders online free. Build defenses, place stickman warriors, and protect your base from waves of enemies in this tower defense strategy game.',
+    category: 'online-games',
+    tags: ['strategy', 'arcade'],
+    embedUrl: 'https://stickdefenders.gitlab.io/file/',
+    thumbnail: '/images/stick-defenders.webp',
+    relatedSlugs: ['temple-of-boom', 'iron-snout', 'n-gon'],
+    excerpt: 'Stick Defenders is a stickman tower defense game where you place warriors and build defenses to protect your base from incoming waves of enemy stick figures.',
+    content: `<p>Stick Defenders is a stickman tower defense game where you place warriors and build defenses to protect your base from incoming waves of enemy stick figures. The game combines the strategic depth of tower defense with the visual charm of stickman games, creating an engaging experience that requires both quick thinking and long-term planning.</p>
+
+<p>Each wave brings different types of enemies — basic foot soldiers, fast runners, armoured tanks, and special units with unique abilities. You counter them by placing different types of defenders: archers for range, swordsmen for close combat, mages for area damage, and special units with powerful abilities. Positioning is crucial — a well-placed archer can cover a choke point, while a misplaced warrior wastes resources.</p>
+
+<p>Between waves, you earn resources to recruit more defenders, upgrade existing ones, and build fortifications. The upgrade system adds depth, letting you specialise your defenders in different ways. A fully upgraded archer might have explosive arrows, while a maxed-out swordsman could have a whirlwind attack that hits multiple enemies. Finding the right combination of units and upgrades for each level is key to victory.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Stick Defenders</strong></h2>
+
+<ul class="wp-block-list">
+<li>Place defenders at strategic positions along the path.</li>
+<li>Choose the right unit types to counter each wave of enemies.</li>
+<li>Earn resources from defeated enemies to recruit and upgrade.</li>
+<li>Upgrade defenders to make them more powerful.</li>
+<li>Survive all waves to complete each level.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'temple-of-boom',
+    datePublished: '2026-03-21T10:00:00+00:00',
+    dateModified: '2026-03-21T10:00:00+00:00',
+    dateAdded: '2026-03-21',
+    title: 'Temple of Boom – Play Action Platformer Online Free',
+    metaDescription: 'Play Temple of Boom online free. Blast through enemies with powerful weapons in this fast-paced action platformer. Multiple characters and weapons to unlock.',
+    category: 'online-games',
+    tags: ['arcade'],
+    embedUrl: 'https://aaravr10.github.io/templeofboom/',
+    thumbnail: '/images/temple-of-boom.webp',
+    relatedSlugs: ['iron-snout', 'n-gon', 'stick-defenders'],
+    excerpt: 'Temple of Boom is a fast-paced action platformer where you fight through hordes of enemies in a temple filled with deadly traps, powerful weapons, and epic boss battles.',
+    content: `<p>Temple of Boom is a fast-paced action platformer where you fight through hordes of enemies in a temple filled with deadly traps, powerful weapons, and epic boss battles. The game combines platforming mechanics with intense combat, creating a run-and-gun experience that keeps your adrenaline pumping from start to finish.</p>
+
+<p>You start with basic equipment and quickly find weapons scattered throughout the temple — shotguns, machine guns, rocket launchers, laser weapons, and more exotic armaments. Each weapon has distinct characteristics, and swapping between them mid-combat is essential for dealing with different enemy types. The weapon variety keeps combat fresh and exciting as you discover new firepower.</p>
+
+<p>The temple is filled with environmental hazards — spike traps, lava pits, swinging blades, and collapsing platforms add platforming challenge to the combat. Boss fights punctuate the action, pitting you against massive enemies with unique attack patterns that require strategy to defeat. Multiple playable characters with different abilities add replayability, and the co-op mode lets you tackle the temple with a friend.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Temple of Boom</strong></h2>
+
+<ul class="wp-block-list">
+<li>Use WASD or arrow keys to move and jump.</li>
+<li>Click or use keyboard shortcuts to shoot.</li>
+<li>Pick up weapons dropped by enemies and found in crates.</li>
+<li>Avoid traps and environmental hazards.</li>
+<li>Defeat bosses to progress deeper into the temple.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'iron-snout',
+    datePublished: '2026-03-21T10:00:00+00:00',
+    dateModified: '2026-03-21T10:00:00+00:00',
+    dateAdded: '2026-03-21',
+    title: 'Iron Snout – Play the Pig Fighting Game Online Free',
+    metaDescription: 'Play Iron Snout online free. Fight as a martial arts pig against waves of wolves in this hilarious and addictive beat-em-up action game.',
+    category: 'online-games',
+    tags: ['arcade'],
+    embedUrl: 'https://headballgame.com/games/iron-snout/index.html',
+    thumbnail: '/images/iron-snout.webp',
+    relatedSlugs: ['temple-of-boom', 'n-gon', 'stick-defenders'],
+    excerpt: 'Iron Snout is a hilarious beat-em-up where you play as a martial arts pig fighting endless waves of wolves. Punch, kick, and use the wolves\' own weapons against them.',
+    content: `<p>Iron Snout is a hilarious beat-em-up action game where you play as a martial arts pig fighting endless waves of wolves. Forget everything you know about the Three Little Pigs — this pig doesn&#8217;t need a brick house. Armed with lightning-fast punches and kicks, you stand your ground against an army of wolves attacking from both sides.</p>
+
+<p>The combat is fast, fluid, and incredibly satisfying. Wolves approach from left and right, and you use directional attacks to fight them off. Punches, kicks, uppercuts, and aerial attacks can be combined into devastating combos. But the real fun starts when you grab wolves&#8217; weapons — axes, chainsaws, rockets — and use them against the pack. Catching a thrown axe mid-air and sending it back is endlessly entertaining.</p>
+
+<p>The game features multiple stages with different themed enemies and settings. The classic forest stage has standard wolves, while other stages introduce new enemy types with unique attacks and weapons. The simple controls — just arrow keys and attack buttons — make it easy to pick up, but the depth of the combo system and the increasing enemy difficulty provide a genuine challenge. How many wolves can you defeat?</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Iron Snout</strong></h2>
+
+<ul class="wp-block-list">
+<li>Use arrow keys to attack in different directions.</li>
+<li>Up arrow for uppercuts and aerial attacks.</li>
+<li>Down arrow for low attacks and ground moves.</li>
+<li>Left and right arrows to attack enemies on each side.</li>
+<li>Catch and use enemy weapons for extra damage.</li>
+<li>Survive as long as possible against endless waves of wolves.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'fish-eat-fish',
+    datePublished: '2026-03-21T10:00:00+00:00',
+    dateModified: '2026-03-21T10:00:00+00:00',
+    dateAdded: '2026-03-21',
+    title: 'Fish Eat Fish – Play Multiplayer Fish Game Online Free',
+    metaDescription: 'Play Fish Eat Fish online free. Eat smaller fish to grow bigger in this fun multiplayer underwater game. Play solo or with up to 3 players on one keyboard.',
+    category: 'online-games',
+    tags: ['arcade'],
+    embedUrl: 'https://files.twoplayergames.org/files/games/o5/Fish_Eat_Fish/index.html',
+    thumbnail: '/images/fish-eat-fish.webp',
+    relatedSlugs: ['google-snake', 'iron-snout', 'swingo'],
+    excerpt: 'Fish Eat Fish is a fun multiplayer underwater game where you eat smaller fish to grow bigger while avoiding fish larger than you. Supports up to 3 players on one keyboard.',
+    content: `<p>Fish Eat Fish is a fun multiplayer underwater game where the simple rule &#8220;big fish eats small fish&#8221; drives all the action. You start as a tiny fish and must eat fish smaller than you to grow, while avoiding larger fish that can eat you. The twist? Up to three players can play simultaneously on the same keyboard, turning it into a competitive local multiplayer experience.</p>
+
+<p>The underwater arena is filled with fish of various sizes swimming around. Your fish grows each time you eat a smaller one, and the colour coding makes it easy to tell at a glance which fish you can eat and which to avoid. As you grow, more fish become potential prey, but the largest predators in the arena are always a threat. The balance between hunting and fleeing creates constant tension.</p>
+
+<p>The 3-player mode is where Fish Eat Fish really shines. Three friends sharing one keyboard, each controlling their fish with different key sets, creates hilarious moments of betrayal and competition. You can eat each other when you&#8217;re bigger, leading to dramatic size reversals and last-second escapes. The colourful underwater graphics and simple controls make it perfect for casual gaming sessions with friends.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Fish Eat Fish</strong></h2>
+
+<ul class="wp-block-list">
+<li>Player 1: WASD keys to move.</li>
+<li>Player 2: Arrow keys to move.</li>
+<li>Player 3: Mouse to move.</li>
+<li>Eat fish smaller than you to grow bigger.</li>
+<li>Avoid fish larger than you — they will eat you!</li>
+<li>Grow to become the biggest fish in the ocean.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'bob-the-robber',
+    datePublished: '2026-03-21T10:00:00+00:00',
+    dateModified: '2026-03-21T10:00:00+00:00',
+    dateAdded: '2026-03-21',
+    title: 'Bob the Robber – Play Stealth Puzzle Game Online Free',
+    metaDescription: 'Play Bob the Robber online free. Sneak through buildings, avoid guards, disable security, and steal treasure in this stealthy puzzle-platformer game.',
+    category: 'online-games',
+    tags: ['arcade', 'strategy'],
+    embedUrl: 'https://bobtherobber.org/g/41',
+    thumbnail: '/images/bob-the-robber.webp',
+    relatedSlugs: ['escaping-the-prison', 'raft-wars', 'brain-test'],
+    excerpt: 'Bob the Robber is a stealth puzzle game where you sneak through buildings, avoid guards and cameras, pick locks, and steal valuable loot without getting caught.',
+    content: `<p>Bob the Robber is a stealth puzzle game where you sneak through buildings, avoid guards and cameras, pick locks, and steal valuable loot without getting caught. Bob is a thief with a heart of gold — he only steals from bad guys, using his skills to take down corrupt organisations while pocketing their ill-gotten gains.</p>
+
+<p>Each level is a building filled with security systems, patrolling guards, locked doors, and hidden treasures. You must navigate through the building by hiding in shadows, timing your movements to avoid guard patrol routes, disabling cameras, picking locks with mini-games, and using gadgets to bypass security measures. The stealth mechanics are satisfying — ducking into a doorway just as a guard turns around never gets old.</p>
+
+<p>The puzzle aspect comes from figuring out the optimal route through each level. Guards have predictable patrol patterns that you can learn and exploit. Security cameras have blind spots. Locked doors require finding keys or picking them. Each level is a puzzle to be solved, and finding the route that lets you collect all the loot while avoiding detection is immensely satisfying. The charming art style and humorous cutscenes add personality to what&#8217;s already a very engaging game.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Bob the Robber</strong></h2>
+
+<ul class="wp-block-list">
+<li>Use arrow keys or WASD to move Bob through the building.</li>
+<li>Press Up near doors to hide in doorways and avoid guards.</li>
+<li>Press Up near locks to start the lock-picking mini-game.</li>
+<li>Stay in shadows and avoid guard sight lines and camera views.</li>
+<li>Collect all loot in the level and reach the exit without being caught.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'powerline',
+    datePublished: '2026-03-21T10:00:00+00:00',
+    dateModified: '2026-03-21T10:00:00+00:00',
+    dateAdded: '2026-03-21',
+    title: 'Powerline.io – Play Snake IO Game Online Free',
+    metaDescription: 'Play Powerline.io online free. Grow your power line, cut off opponents, and become the longest line in this fast-paced multiplayer snake IO game.',
+    category: 'online-games',
+    tags: ['io', 'arcade', 'multiplayer'],
+    embedUrl: 'https://powerline.io',
+    thumbnail: '/images/powerline.webp',
+    relatedSlugs: ['slither-io', 'paper-io', 'hole-io'],
+    excerpt: 'Powerline.io is a multiplayer snake IO game where you grow your electric power line and cut off opponents to eliminate them.',
+    content: `<p>Powerline.io is a multiplayer snake IO game with an electric twist. You control a glowing power line that grows longer as you collect energy orbs scattered across the arena. The goal is to become the longest line while using your tail to cut off and eliminate opponents.</p>
+
+<p>The core mechanic is deceptively simple but endlessly strategic. You can boost for a short burst of speed, which lets you dart in front of opponents and force them to crash into your line. However, boosting costs length, so you need to collect enough energy to sustain it. The risk-reward balance of boosting is what makes every match tense and exciting.</p>
+
+<p>As you grow longer, you become both more powerful and more vulnerable. Your tail takes up more space in the arena, making you harder to avoid — but also easier to trap yourself. Finding the right balance between aggressive play and careful positioning is the key to dominating the leaderboard. With real players from around the world, no two games are ever the same.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Powerline.io</strong></h2>
+
+<ul class="wp-block-list">
+<li>Move your power line with the mouse or arrow keys.</li>
+<li>Collect energy orbs to grow longer and score points.</li>
+<li>Press Space or left-click to boost for a speed burst — costs length.</li>
+<li>Cut across the path of opponents to make them crash into you.</li>
+<li>Avoid crashing into other players' lines or the arena border.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'vex-3',
+    datePublished: '2026-03-21T10:00:00+00:00',
+    dateModified: '2026-03-21T10:00:00+00:00',
+    dateAdded: '2026-03-21',
+    title: 'Vex 3 – Play Stickman Platformer Game Online Free',
+    metaDescription: 'Play Vex 3 online free. Run, jump, slide, and dodge deadly traps as a stickman in this challenging platformer with 10 acts and bonus challenge levels.',
+    category: 'online-games',
+    tags: ['arcade', 'platformer'],
+    embedUrl: 'https://ubg67.gitlab.io/vex3/',
+    thumbnail: '/images/vex-3.webp',
+    relatedSlugs: ['vex-4', 'vex-5', 'vex-6'],
+    excerpt: 'Vex 3 is a challenging stickman platformer where you run, jump, slide, and swim through obstacle-filled acts packed with deadly traps.',
+    content: `<p>Vex 3 is a fast-paced stickman platformer where you guide an agile stick figure through a series of increasingly brutal obstacle courses. Each act is a maze of moving platforms, spinning blades, spikes, water sections, and perfectly timed jumps that will test your reflexes to the limit.</p>
+
+<p>The controls are fluid and responsive, making each death feel like your own fault rather than the game's — which means you'll keep coming back to try again. The level design rewards players who take time to study each obstacle before committing to a move. Rushing leads to death; patience and precision lead to victory.</p>
+
+<p>Beyond the main 10 acts, Vex 3 includes challenge levels for players who want even more punishment. There are also achievement trophies to collect, giving completionists a reason to return. The minimalist art style keeps the focus entirely on the gameplay, making every obstacle clearly readable even in the most chaotic sections.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Vex 3</strong></h2>
+
+<ul class="wp-block-list">
+<li>Use WASD or arrow keys to run and jump.</li>
+<li>Press down/S to slide under obstacles.</li>
+<li>Hold against a wall to wall-slide and press jump to wall-jump.</li>
+<li>Reach the act statue at the end of each level to complete it.</li>
+<li>Checkpoints save your progress within each act.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'vex-4',
+    datePublished: '2026-03-21T10:00:00+00:00',
+    dateModified: '2026-03-21T10:00:00+00:00',
+    dateAdded: '2026-03-21',
+    title: 'Vex 4 – Play Stickman Platformer Game Online Free',
+    metaDescription: 'Play Vex 4 online free. Master new movement mechanics, dodge traps, and conquer 10 challenging acts in this stickman parkour platformer.',
+    category: 'online-games',
+    tags: ['arcade', 'platformer'],
+    embedUrl: 'https://ubg76.gitlab.io/vex-4/',
+    thumbnail: '/images/vex-4.webp',
+    relatedSlugs: ['vex-3', 'vex-5', 'vex-6'],
+    excerpt: 'Vex 4 builds on the classic formula with new mechanics, trickier traps, and more creative level design across 10 punishing acts.',
+    content: `<p>Vex 4 continues the beloved stickman platformer series with tougher challenges, smarter traps, and new movement mechanics that expand what you can do. Your agile stickman can run, jump, slide, swim, and wall-jump through 10 acts of increasingly devious obstacle design.</p>
+
+<p>What sets Vex 4 apart from its predecessors is the level design creativity. Traps are more varied and interact with each other in unexpected ways. You might dodge a swinging pendulum only to land on a moving platform heading toward a wall of spikes, forcing split-second decisions. Learning each act's rhythm and flow is deeply satisfying.</p>
+
+<p>The game also introduces new environmental hazards and mechanics not seen in earlier entries, keeping veteran players on their toes. Challenge rooms hidden within each act give skilled players something extra to hunt down. The clean, minimal art style keeps everything crisp and readable even in the most hectic moments.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Vex 4</strong></h2>
+
+<ul class="wp-block-list">
+<li>Use WASD or arrow keys to move your stickman.</li>
+<li>Jump with W or Up, slide with S or Down.</li>
+<li>Wall-jump by pressing jump while sliding against a wall.</li>
+<li>Reach the act statue to complete each level.</li>
+<li>Find hidden challenge portals for bonus content.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'vex-5',
+    datePublished: '2026-03-21T10:00:00+00:00',
+    dateModified: '2026-03-21T10:00:00+00:00',
+    dateAdded: '2026-03-21',
+    title: 'Vex 5 – Play Stickman Platformer Game Online Free',
+    metaDescription: 'Play Vex 5 online free. Face smarter traps, faster platforms, and more complex obstacle courses in the fifth instalment of the Vex stickman platformer series.',
+    category: 'online-games',
+    tags: ['arcade', 'platformer'],
+    embedUrl: 'https://vex5.gitlab.io/file/',
+    thumbnail: '/images/vex-5.webp',
+    relatedSlugs: ['vex-3', 'vex-4', 'vex-6'],
+    excerpt: 'Vex 5 delivers bigger challenges, faster traps, and more creative level design in the fifth entry of the classic stickman platformer series.',
+    content: `<p>Vex 5 is the fifth entry in the acclaimed stickman platformer series, and it's the most challenging yet. Your nimble stickman must navigate 10 acts packed with moving platforms, spinning blades, falling hazards, water sections, and timing-based puzzles that demand quick reflexes and careful thinking.</p>
+
+<p>The level design in Vex 5 is the most inventive in the series. Traps move faster, interact more dynamically, and are arranged in combinations that require you to think several steps ahead. Some sections feel almost like puzzle rooms — you need to understand the pattern before attempting the run. When you finally nail a difficult sequence, the satisfaction is immense.</p>
+
+<p>Vex 5 also expands the bonus challenge rooms, giving completionists more to work toward. The fluid controls that the series is known for remain unchanged, meaning deaths always feel earned rather than unfair. Whether you're a series veteran or playing your first Vex game, Vex 5 offers one of the best obstacle-course platformer experiences available online.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Vex 5</strong></h2>
+
+<ul class="wp-block-list">
+<li>Use WASD or arrow keys to run, jump, and slide.</li>
+<li>Wall-jump by pressing jump while against a wall.</li>
+<li>Use checkpoints within each act to save progress.</li>
+<li>Reach the act statue at the end to complete each level.</li>
+<li>Look for hidden challenge portals for bonus acts.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'vex-6',
+    datePublished: '2026-03-21T10:00:00+00:00',
+    dateModified: '2026-03-21T10:00:00+00:00',
+    dateAdded: '2026-03-21',
+    title: 'Vex 6 – Play Stickman Platformer Game Online Free',
+    metaDescription: 'Play Vex 6 online free. The latest Vex stickman platformer brings new mechanics, trickier acts, and the most creative obstacle design in the series.',
+    category: 'online-games',
+    tags: ['arcade', 'platformer'],
+    embedUrl: 'https://data.unblockedgamers.com/file/h5games/onlinegames/games/2022/q1/vex-6/index.html',
+    thumbnail: '/images/vex-6.webp',
+    relatedSlugs: ['vex-3', 'vex-4', 'vex-5'],
+    excerpt: 'Vex 6 is the latest instalment of the stickman platformer series, bringing new mechanics and the most creative trap design yet.',
+    content: `<p>Vex 6 is the latest and most polished entry in the legendary Vex stickman platformer series. Your agile stickman must conquer 10 acts of brilliantly designed obstacle courses featuring new mechanics, faster traps, and environmental hazards that push the series in exciting new directions.</p>
+
+<p>The new elements in Vex 6 feel fresh without abandoning what makes the series work. There are interactive environmental mechanics that change how you approach certain sections — some obstacles can be used to your advantage if you time things correctly. The level design team clearly studied every previous entry and used that knowledge to create the most inventive courses in the franchise.</p>
+
+<p>Vex 6 also features a refined visual style that's cleaner and more dynamic than earlier games, with smoother animations for your stickman and more expressive environments. The challenging difficulty remains — this is not a game for the faint-hearted — but the tight controls and fair checkpoint system ensure that progress always feels achievable with enough practice.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Vex 6</strong></h2>
+
+<ul class="wp-block-list">
+<li>Move with WASD or arrow keys.</li>
+<li>Jump with W or Up arrow, slide with S or Down arrow.</li>
+<li>Wall-jump by pressing jump while against a wall surface.</li>
+<li>Use in-act checkpoints to save your progress.</li>
+<li>Reach the act statue at the end to complete the level.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'whack-your-boss',
+    datePublished: '2026-03-21T10:00:00+00:00',
+    dateModified: '2026-03-21T10:00:00+00:00',
+    dateAdded: '2026-03-21',
+    title: 'Whack Your Boss – Play Stress Relief Game Online Free',
+    metaDescription: 'Play Whack Your Boss online free. Find all 24 hidden ways to get revenge on your infuriating boss in this classic Flash stress-relief game.',
+    category: 'online-games',
+    tags: ['arcade'],
+    embedUrl: 'https://www.silvergames.com/en/whack-your-boss/gameframe',
+    thumbnail: '/images/whack-your-boss.webp',
+    relatedSlugs: ['whack-your-boss-2', 'escaping-the-prison', 'bob-the-robber'],
+    excerpt: 'Whack Your Boss is a classic stress-relief game where you find 24 hilarious hidden ways to get revenge on your insufferable boss.',
+    content: `<p>Whack Your Boss is the ultimate stress-relief game that became a viral internet classic. You're sitting at your desk, enduring the most infuriating boss imaginable — and the entire point is to find every hidden clickable object in the office that triggers a hilariously over-the-top revenge fantasy.</p>
+
+<p>The game is all about exploration. Your office is filled with everyday objects — a stapler, a coffee mug, a computer monitor, a potted plant — and clicking on them triggers increasingly outrageous animations. There are 24 different ways to take revenge, each more creative and absurd than the last. Finding all of them is the challenge and the appeal.</p>
+
+<p>Whack Your Boss works because of its brilliant combination of relatable frustration and completely cartoonish violence. The animation style is deliberately exaggerated, making everything feel more like a stress-relieving fantasy than anything else. It's one of those games that was passed around offices and school computer labs for years, and it remains as satisfying as ever thanks to the Ruffle Flash player.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Whack Your Boss</strong></h2>
+
+<ul class="wp-block-list">
+<li>Click on objects around the office to trigger revenge animations.</li>
+<li>Find all 24 hidden interaction points to discover every method.</li>
+<li>Hover over the scene to spot subtle highlights on interactive objects.</li>
+<li>Each object triggers a unique and increasingly absurd animation.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'whack-your-boss-2',
+    datePublished: '2026-03-21T10:00:00+00:00',
+    dateModified: '2026-03-21T10:00:00+00:00',
+    dateAdded: '2026-03-21',
+    title: 'Whack Your Boss 2 – Play Stress Relief Game Online Free',
+    metaDescription: 'Play Whack Your Boss 2 online free. Find all new hidden ways to get revenge on your boss in this sequel to the classic viral stress-relief Flash game.',
+    category: 'online-games',
+    tags: ['arcade'],
+    embedUrl: 'https://www.silvergames.com/en/whack-your-boss-2/gameframe',
+    thumbnail: '/images/whack-your-boss-2.webp',
+    relatedSlugs: ['whack-your-boss', 'escaping-the-prison', 'bob-the-robber'],
+    excerpt: 'Whack Your Boss 2 brings a brand new office setting and fresh hidden interactions for even more stress-relieving revenge fantasies.',
+    content: `<p>Whack Your Boss 2 is the highly anticipated sequel to the viral stress-relief classic. The insufferable boss is back, and this time there are even more hidden objects and creative revenge scenarios waiting to be discovered in a brand new office setting.</p>
+
+<p>The sequel takes everything that worked in the original and expands on it. The new office environment has more items, more interactive zones, and more elaborate animations triggered by your discoveries. Each click reveals a different hilariously exaggerated scenario, and hunting down every single one gives the game significant replay value.</p>
+
+<p>Whack Your Boss 2 maintains the same irreverent humour and cartoon violence that made the original a workplace legend. The animation quality is noticeably improved, with smoother movements and more expressive characters. If you've already found all 24 ways in the first game and need more stress relief, this sequel delivers exactly what you're looking for.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Whack Your Boss 2</strong></h2>
+
+<ul class="wp-block-list">
+<li>Click on objects throughout the office scene to trigger animations.</li>
+<li>Explore every corner of the room to find all hidden interactions.</li>
+<li>Hover to find subtle highlights that indicate clickable objects.</li>
+<li>Discover all the hidden methods to complete the game.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'doge-miner',
+    datePublished: '2026-03-21T10:00:00+00:00',
+    dateModified: '2026-03-21T10:00:00+00:00',
+    dateAdded: '2026-03-21',
+    title: 'Doge Miner – Play Idle Clicker Game Online Free',
+    metaDescription: 'Play Doge Miner online free. Click to mine Dogecoin, buy upgrades and helpers, and mine your way to the Moon in this addictive idle clicker game.',
+    category: 'online-games',
+    tags: ['arcade', 'simulation'],
+    embedUrl: 'https://realben9.github.io/dm2sc/play/',
+    thumbnail: '/images/doge-miner.webp',
+    relatedSlugs: ['gold-digger-frvr', 'slither-io', 'diep-io'],
+    excerpt: 'Doge Miner is an addictive idle clicker game where you mine Dogecoin, buy upgrades and rocket boosters, and journey to the Moon.',
+    content: `<p>Doge Miner is a beloved idle clicker game built entirely around the iconic Doge meme. You start by clicking furiously to mine your first Dogecoins, then use your earnings to buy pickaxes, helpers, and upgrades that automate and accelerate your mining operation. The ultimate goal: save up enough Dogecoin to fund a rocket ship to the Moon.</p>
+
+<p>The progression system is wonderfully satisfying. Early on, every click feels meaningful as you watch your Dogecoin stack grow. As you unlock helpers — from simple pickaxe automatons to entire mining crews — the coins start rolling in passively, letting you focus on strategic upgrades. The game strikes a perfect balance between active clicking and passive accumulation that keeps you engaged.</p>
+
+<p>The Doge meme aesthetic is woven into every element of the game. Upgrades have names and descriptions in the classic broken-English meme style. The art is charming and deliberately lo-fi. Random "wow such mining" messages pop up to celebrate milestones. It's a game that knows exactly what it is and commits to the bit with genuine charm — and the lunar journey gives it a satisfying long-term goal to work toward.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Doge Miner</strong></h2>
+
+<ul class="wp-block-list">
+<li>Click the Dogecoin to mine coins manually.</li>
+<li>Buy pickaxes and helpers to mine automatically over time.</li>
+<li>Purchase upgrades to multiply your mining speed and earnings.</li>
+<li>Save up to buy rocket parts and eventually launch to the Moon.</li>
+<li>Prestige after reaching the Moon for bonus multipliers.</li>
+</ul>
 <!-- CONTENT END 1 -->`,
   },
 ];

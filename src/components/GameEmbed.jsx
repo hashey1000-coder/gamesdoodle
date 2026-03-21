@@ -12,14 +12,49 @@ export default function GameEmbed({ game }) {
   const handlePlay = useCallback(() => {
     setIsPlaying(true);
     setIsLoaded(false);
-  }, []);
+    // Save to recently played in localStorage
+    try {
+      const key = 'recentlyPlayed';
+      const prev = JSON.parse(localStorage.getItem(key) || '[]');
+      const updated = [game.slug, ...prev.filter(s => s !== game.slug)].slice(0, 12);
+      localStorage.setItem(key, JSON.stringify(updated));
+    } catch {
+      // localStorage unavailable — ignore
+    }
+  }, [game.slug]);
 
   const handleIframeLoad = useCallback(() => {
     setIsLoaded(true);
   }, []);
 
   const toggleFullscreen = useCallback(() => {
-    setIsFullscreen(prev => !prev);
+    const wrapper = document.querySelector('.game-embed-wrapper');
+    if (!isFullscreen) {
+      // Request fullscreen
+      if (wrapper?.requestFullscreen) {
+        wrapper.requestFullscreen().catch(err => {
+          console.warn('Fullscreen request failed:', err);
+          setIsFullscreen(true); // Fallback to CSS fullscreen
+        });
+      } else {
+        setIsFullscreen(true); // Fallback for browsers without Fullscreen API
+      }
+    } else {
+      // Exit fullscreen
+      if (document.fullscreenElement) {
+        document.exitFullscreen();
+      }
+      setIsFullscreen(false);
+    }
+  }, [isFullscreen]);
+
+  // Listen for fullscreen changes (entering and exiting, including Esc key)
+  useEffect(() => {
+    const handleFullscreenChange = () => {
+      setIsFullscreen(!!document.fullscreenElement);
+    };
+    document.addEventListener('fullscreenchange', handleFullscreenChange);
+    return () => document.removeEventListener('fullscreenchange', handleFullscreenChange);
   }, []);
 
   // Reset state when navigating to a different game
@@ -50,7 +85,7 @@ export default function GameEmbed({ game }) {
             {relatedGames.map(rg => (
               <Link key={rg.slug} to={`/${rg.slug}/`} className="quick-link">
                 <span className="quick-link-dot" />
-                {rg.title.split(/[–\-]/)[0].trim()}
+                {rg.title.split(' – ')[0].trim()}
               </Link>
             ))}
           </div>
@@ -107,10 +142,10 @@ export default function GameEmbed({ game }) {
               title={game.title}
               className={`game-iframe${isLoaded ? ' loaded' : ''}`}
               allowFullScreen
-              scrolling="no"
+              scrolling="auto"
               allow="autoplay; fullscreen; gamepad"
               onLoad={handleIframeLoad}
-              {...(!game.noSandbox && { sandbox: 'allow-scripts allow-same-origin allow-popups allow-forms allow-modals' })}
+              {...(!game.noSandbox && { sandbox: 'allow-scripts allow-same-origin allow-popups allow-forms allow-modals allow-pointer-lock' })}
             />
           </>
         )}

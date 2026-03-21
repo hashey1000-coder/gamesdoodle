@@ -1,19 +1,21 @@
 import { useState, useEffect } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, NavLink, useNavigate } from 'react-router-dom';
 import SearchBar from './SearchBar';
-import { games } from '../data/games';
+import { games, tags } from '../data/games';
 
 const navLinks = [
-  { to: '/', label: 'Home' },
   { to: '/google-doodle-games/', label: 'Doodle Games' },
   { to: '/online-games/', label: 'Online Games' },
   { to: '/google-tools/', label: 'Google Tools' },
   { to: '/google-easter-egg/', label: 'Easter Eggs' },
+  { to: '/top-games/', label: 'Top Games' },
+  { to: '/new-games/', label: 'New Games' },
 ];
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
+  const [genresOpen, setGenresOpen] = useState(false);
   const navigate = useNavigate();
 
   // Global keyboard shortcut: Ctrl/Cmd + K to open search
@@ -47,11 +49,45 @@ export default function Header() {
           <ul>
             {navLinks.map(link => (
               <li key={link.to}>
-                <Link to={link.to} onClick={() => setMobileOpen(false)}>
+                <NavLink
+                  to={link.to}
+                  className={({ isActive }) => isActive ? 'nav-active' : undefined}
+                  onClick={() => setMobileOpen(false)}
+                >
                   {link.label}
-                </Link>
+                </NavLink>
               </li>
             ))}
+            {/* Genres dropdown */}
+            <li
+              className="nav-genres-wrap"
+              onMouseEnter={() => { if (!mobileOpen) setGenresOpen(true); }}
+              onMouseLeave={() => { if (!mobileOpen) setGenresOpen(false); }}
+            >
+              <button
+                className={`nav-genres-btn${genresOpen ? ' open' : ''}`}
+                onClick={() => setGenresOpen(v => !v)}
+                aria-expanded={genresOpen}
+                aria-haspopup="true"
+              >
+                Genres <span className="nav-genres-chevron" aria-hidden="true">▾</span>
+              </button>
+              {genresOpen && (
+                <div className="nav-genres-panel" role="navigation" aria-label="Browse games by genre">
+                  {tags.map(tag => (
+                    <Link
+                      key={tag.slug}
+                      to={`/tag/${tag.slug}/`}
+                      className="nav-genres-link"
+                      onClick={() => { setGenresOpen(false); setMobileOpen(false); }}
+                    >
+                      <span className="nav-genres-emoji">{tag.emoji}</span>
+                      {tag.name}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </li>
           </ul>
         </nav>
         <div className="header-actions">
