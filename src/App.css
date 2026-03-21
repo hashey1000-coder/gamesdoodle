@@ -2345,19 +2345,17 @@ html, body {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  /* Genre grid: hidden by default on mobile, shown when expanded */
+  /* Genre grid: 3×3 by default on mobile, Show all reveals last row */
   .genre-toggle-btn {
     display: inline-block;
   }
 
-  .genre-grid {
+  .genre-grid .genre-card:nth-child(n+10) {
     display: none;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
   }
 
-  .genre-grid.genre-grid--expanded {
-    display: grid;
+  .genre-grid.genre-grid--expanded .genre-card:nth-child(n+10) {
+    display: flex;
   }
 
   /* Nav genres dropdown becomes inline list in mobile menu */
@@ -2423,17 +2421,23 @@ html, body {
     gap: 8px;
   }
 
-  .genre-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
-  }
-
   .genre-card {
-    padding: 14px 6px 12px;
+    padding: 12px 4px 10px;
+    gap: 6px;
   }
 
   .genre-card-emoji {
     font-size: 1.4rem;
+  }
+
+  .genre-card-name {
+    font-size: 0.68rem;
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .genre-card-count {
+    display: none;
   }
 
   .game-card-body {
@@ -2594,8 +2598,14 @@ html, body {
 /* ============ Genre Grid (Homepage) ============ */
 .genre-grid {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 16px;
+}
+
+@media (min-width: 1101px) {
+  .genre-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
 }
 
 .genre-card {
