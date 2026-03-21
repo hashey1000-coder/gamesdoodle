@@ -143,9 +143,9 @@ export default function GameEmbed({ game }) {
               className={`game-iframe${isLoaded ? ' loaded' : ''}`}
               allowFullScreen
               scrolling="auto"
-              allow="autoplay; fullscreen; gamepad"
+              allow="autoplay *; fullscreen *; gamepad; storage-access"
               onLoad={handleIframeLoad}
-              {...(!game.noSandbox && { sandbox: 'allow-scripts allow-same-origin allow-popups allow-forms allow-modals allow-pointer-lock' })}
+              {...(!game.noSandbox && { sandbox: 'allow-scripts allow-same-origin allow-popups allow-forms allow-modals allow-pointer-lock allow-presentation allow-orientation-lock' })}
             />
           </>
         )}

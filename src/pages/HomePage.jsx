@@ -27,6 +27,7 @@ function getRecentlyPlayed() {
 
 export default function HomePage() {
   const [recentGames, setRecentGames] = useState([]);
+  const [genreExpanded, setGenreExpanded] = useState(false);
   const { toggleFavorite, isFavorite } = useFavorites();
 
   useEffect(() => {
@@ -84,10 +85,16 @@ export default function HomePage() {
         {/* Browse by Genre */}
         <section className="homepage-section">
           <div className="homepage-section-header">
-            <h2 className="homepage-section-title">🎮 Browse by Genre</h2>
-            <span className="homepage-section-sub">Find your favourite type of game</span>
+            <h2 className="homepage-section-title">Browse by Genre</h2>
+            <button
+              className="genre-toggle-btn"
+              onClick={() => setGenreExpanded(v => !v)}
+              aria-expanded={genreExpanded}
+            >
+              {genreExpanded ? 'Hide ▲' : 'Show all ▼'}
+            </button>
           </div>
-          <div className="genre-grid">
+          <div className={`genre-grid${genreExpanded ? ' genre-grid--expanded' : ''}`}>
             {tags.map(tag => (
               <Link key={tag.slug} to={`/tag/${tag.slug}/`} className="genre-card">
                 <span className="genre-card-emoji">{tag.emoji}</span>
