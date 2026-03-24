@@ -878,7 +878,7 @@ html, body {
   font-size: 0.95rem;
   color: var(--text-secondary);
   line-height: 1.7;
-  max-width: 720px;
+  width: 100%;
   margin: 0 0 24px;
 }
 
