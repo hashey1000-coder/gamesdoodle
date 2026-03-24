@@ -56,6 +56,9 @@ export default function CategoryPage({ slug }) {
         {category.description && (
           <p className="category-description">{category.description}</p>
         )}
+        {currentPage === 1 && category.introContent && (
+          <p className="category-intro-content">{category.introContent}</p>
+        )}
         <div className="category-meta">
           🎯 {allGames.length} games available
         </div>

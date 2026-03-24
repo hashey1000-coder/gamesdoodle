@@ -258,11 +258,8 @@ export default function SEO({
   const fullCanonical = canonical ? `${SITE_URL}${canonical}` : SITE_URL;
   const ogImage = image ? `${SITE_URL}${image}` : '';
 
-  // Determine robots — match live site's Rank Math directives
-  const isStaticPage = schemaType === 'static';
-  const robotsContent = isStaticPage
-    ? 'follow, noindex, max-snippet:-1, max-video-preview:-1, max-image-preview:large'
-    : 'follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large';
+  // Determine robots — allow all pages to be indexed
+  const robotsContent = 'follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large';
 
   // Article meta tags for game pages
   const isArticle = ogType === 'article';

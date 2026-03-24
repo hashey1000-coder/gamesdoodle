@@ -44,6 +44,9 @@ export default function TagPage({ slug }) {
         {tag.description && (
           <p className="category-description">{tag.description}</p>
         )}
+        {currentPage === 1 && tag.introContent && (
+          <p className="category-intro-content">{tag.introContent}</p>
+        )}
         <div className="category-meta">
           🎯 {allGames.length} games available
         </div>

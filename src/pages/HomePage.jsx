@@ -106,9 +106,8 @@ export default function HomePage() {
         </section>
 
         <div className="homepage-seo-text">
-          <p>Google Games are widely known for their simple yet addictive gameplay, and many of the most popular titles come from interactive doodles released over the years. These google doodle games are designed to be fun, lightweight, and easy to play directly in a browser. From classic arcade-style challenges to creative puzzle experiences, they offer instant entertainment without downloads or complex setup.</p>
-          <p>A large collection of doodle games allows players to revisit iconic moments transformed into playable experiences. Sports challenges, brain teasers, rhythm-based games, and time-based adventures are all part of these google games free to play. Their minimal controls and smooth performance make them accessible for all ages, whether you're playing for a few minutes or spending longer sessions mastering each game.</p>
-          <p>By bringing together a wide range of google games, players can enjoy the best of google doodle games in one place. These google games free provide quick fun, nostalgia, and creativity, making them perfect for casual gaming anytime. With no installs required, doodle games remain one of the easiest and most enjoyable ways to play online.</p>
+          <p>Google Doodle games turn the search engine's iconic logo into playable interactive experiences, celebrating holidays, historic events, and cultural moments from around the world. From the Halloween-themed Great Ghoul Duel to the Olympic hurdles runner, each game offers a unique creative twist that blends art, music, and gameplay into something anyone can enjoy in seconds.</p>
+          <p>Games Doodle brings together these beloved browser-based experiences alongside other popular web games so you can discover, replay, and share them all in one place. Whether you're looking for a quick puzzle break, a nostalgic classic, or a brand-new challenge, every title runs directly in your browser with no downloads or sign-ups required.</p>
         </div>
       </div>
     </>

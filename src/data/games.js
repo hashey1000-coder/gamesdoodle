@@ -8,6 +8,7 @@ export const categories = [
     description: 'Discover exciting Google Doodle Games and relive past doodles with fun, interactive challenges. Play instantly online',
     metaTitle: 'Google Doodle Games – Play Free Online | Games Doodle',
     metaDescription: 'Discover exciting Google Doodle Games and relive past doodles with fun, interactive challenges. Play instantly online',
+    introContent: 'Google Doodle Games are interactive mini-games that originally appeared on Google\'s homepage to celebrate holidays, anniversaries, and cultural milestones. Each doodle offers a creative, bite-sized gaming experience you can enjoy in seconds—no downloads required.',
   },
   {
     slug: 'online-games',
@@ -15,6 +16,7 @@ export const categories = [
     description: 'Play the collection of all the online games at the once place. Scroll through the fun online games and play now.',
     metaTitle: 'Online Games – Play Free Browser Games | Games Doodle',
     metaDescription: 'Play the collection of all the online games at the once place. Scroll through the fun online games and play now.',
+    introContent: 'Browse hundreds of browser-based titles spanning every genre—from shooters and racing sims to puzzles and creative sandboxes. Every game loads instantly with no downloads or installs needed.',
   },
   {
     slug: 'google-tools',
@@ -22,6 +24,7 @@ export const categories = [
     description: 'Explore fun Google tools and interactive experiments. Try out creative Google features and hidden tools online.',
     metaTitle: 'Google Tools – Interactive Google Experiments | Games Doodle',
     metaDescription: 'Explore fun Google tools and interactive experiments. Try out creative Google features and hidden tools online.',
+    introContent: 'Google Tools go beyond search—interactive experiments, creative instruments, and playful utilities that showcase what modern web technology can do, all running directly in your browser.',
   },
   {
     slug: 'google-easter-egg',
@@ -29,22 +32,23 @@ export const categories = [
     description: 'Discover hidden Google Easter eggs, fun tricks, and secret browser experiments. Play them all for free online.',
     metaTitle: 'Google Easter Egg – Hidden Google Tricks & Games | Games Doodle',
     metaDescription: 'Discover hidden Google Easter eggs, fun tricks, and secret browser experiments. Play them all for free online.',
+    introContent: 'Google Easter Eggs are hidden surprises tucked into Google\'s products—type a special query or click the right spot and you\'ll discover anything from a barrel roll animation to a fully playable game.',
   },
 ];
 
 export const tags = [
-  { slug: 'arcade', name: 'Arcade', emoji: '👾', description: 'Fast-paced arcade games with classic action gameplay. Test your reflexes with endless runners, shooters, and retro-style challenges.' },
-  { slug: 'racing', name: 'Racing', emoji: '🏎️', description: 'Racing and driving games featuring cars, bikes, and stunts. Drift, race, and explore open roads in your browser.' },
-  { slug: 'shooter', name: 'Shooter', emoji: '🔫', description: 'Shooter games including FPS, battle royale, and space combat. Take aim and compete in intense online battles.' },
-  { slug: 'puzzle', name: 'Puzzle', emoji: '🧩', description: 'Brain-teasing puzzle games that challenge your logic, spatial reasoning, and problem-solving skills.' },
-  { slug: 'sports', name: 'Sports', emoji: '⚽', description: 'Sports games covering football, basketball, cricket, and more. Compete in your favourite sports right in the browser.' },
-  { slug: 'io', name: '.io Games', emoji: '🌐', description: 'Massively multiplayer .io games where you compete against players worldwide in real-time browser battles.' },
-  { slug: 'word-and-trivia', name: 'Word & Trivia', emoji: '📝', description: 'Word games, trivia quizzes, and daily brain challenges. Test your vocabulary and general knowledge.' },
-  { slug: 'strategy', name: 'Strategy', emoji: '♟️', description: 'Strategy and tower defense games requiring careful planning, resource management, and tactical thinking.' },
-  { slug: 'music-and-creative', name: 'Music & Creative', emoji: '🎵', description: 'Music-making tools, drawing games, and creative experiences. Express yourself through art and sound.' },
-  { slug: 'simulation', name: 'Simulation', emoji: '🎮', description: 'Simulation, idle, and clicker games. Build, manage, and watch your empire grow at your own pace.' },
-  { slug: 'card-and-board', name: 'Card & Board', emoji: '♠️', description: 'Classic card games, board games, and tabletop favourites. Play chess, solitaire, mahjong, and more online.' },
-  { slug: 'platformer', name: 'Platformer', emoji: '🦘', description: 'Side-scrolling and platformer games with jumping, running, and obstacle courses. Master precision movement.' },
+  { slug: 'arcade', name: 'Arcade', emoji: '👾', description: 'Fast-paced arcade games with classic action gameplay. Test your reflexes with endless runners, shooters, and retro-style challenges.', introContent: '<p>Arcade games are built around quick reflexes, high scores, and "one more try" energy. Whether you\'re dodging obstacles in an endless runner or racking up combos in a retro shooter, these browser-based titles capture the spirit of the classic arcade cabinet—instant fun with simple controls and escalating difficulty.</p>' },
+  { slug: 'racing', name: 'Racing', emoji: '🏎️', description: 'Racing and driving games featuring cars, bikes, and stunts. Drift, race, and explore open roads in your browser.', introContent: '<p>Hit the throttle in our collection of browser racing games covering everything from realistic highway sims to physics-based stunt courses. Each title lets you compete on tracks, pull off drifts, and chase lap records without downloading a thing—just pick a ride and go.</p>' },
+  { slug: 'shooter', name: 'Shooter', emoji: '🔫', description: 'Shooter games including FPS, battle royale, and space combat. Take aim and compete in intense online battles.', introContent: '<p>Our shooter collection ranges from first-person arena brawls and battle-royale survival matches to classic space invader–style games. All run directly in your browser so you can jump into fast-paced combat, sharpen your aim, and compete with players worldwide in seconds.</p>' },
+  { slug: 'puzzle', name: 'Puzzle', emoji: '🧩', description: 'Brain-teasing puzzle games that challenge your logic, spatial reasoning, and problem-solving skills.', introContent: '<p>Puzzle games reward patience, logic, and creative thinking. From sliding-block brain teasers and colour-matching challenges to physics-based contraptions, every title here is designed to stretch your mind and deliver that satisfying "aha!" moment when the solution clicks into place.</p>' },
+  { slug: 'sports', name: 'Sports', emoji: '⚽', description: 'Sports games covering football, basketball, cricket, and more. Compete in your favourite sports right in the browser.', introContent: '<p>Compete in football, basketball, cricket, boxing, and more—all from your browser. These sports games offer quick-play matches with intuitive controls, letting you score goals, sink baskets, and knock out opponents whenever you have a few minutes to spare.</p>' },
+  { slug: 'io', name: '.io Games', emoji: '🌐', description: 'Massively multiplayer .io games where you compete against players worldwide in real-time browser battles.', introContent: '<p>.io games drop you into massive multiplayer arenas where you grow, fight, and survive against real players from around the globe. With minimal setup and instant matchmaking, these lightweight titles deliver competitive thrills that keep you coming back for one more round.</p>' },
+  { slug: 'word-and-trivia', name: 'Word & Trivia', emoji: '📝', description: 'Word games, trivia quizzes, and daily brain challenges. Test your vocabulary and general knowledge.', introContent: '<p>Sharpen your vocabulary and test your general knowledge with word puzzles, daily challenges, and trivia quizzes. Whether you\'re solving anagrams, guessing hidden words, or answering rapid-fire questions, these games keep your brain engaged and your competitive streak alive.</p>' },
+  { slug: 'strategy', name: 'Strategy', emoji: '♟️', description: 'Strategy and tower defense games requiring careful planning, resource management, and tactical thinking.', introContent: '<p>Strategy games challenge you to think several moves ahead—build defences, manage resources, and outmanoeuvre opponents through careful planning rather than quick reflexes. From tower-defence classics to turn-based tactical battles, every decision counts.</p>' },
+  { slug: 'music-and-creative', name: 'Music & Creative', emoji: '🎵', description: 'Music-making tools, drawing games, and creative experiences. Express yourself through art and sound.', introContent: '<p>Express yourself through interactive music makers, collaborative drawing canvases, and creative sandbox tools. These experiences blur the line between game and instrument, letting you compose melodies, design artwork, and share your creations—all inside your browser.</p>' },
+  { slug: 'simulation', name: 'Simulation', emoji: '🎮', description: 'Simulation, idle, and clicker games. Build, manage, and watch your empire grow at your own pace.', introContent: '<p>Simulation and idle games let you build, manage, and watch systems grow at your own pace. Whether you\'re running a virtual city, launching rockets, or clicking your way to billions, these laid-back titles offer satisfying progression loops you can check in on throughout the day.</p>' },
+  { slug: 'card-and-board', name: 'Card & Board', emoji: '♠️', description: 'Classic card games, board games, and tabletop favourites. Play chess, solitaire, mahjong, and more online.', introContent: '<p>Enjoy timeless card and board games right in your browser—play solitaire to unwind, challenge the computer at chess, clear mahjong tiles, or roll dice in classic tabletop favourites. These digital versions preserve the strategy and charm of their real-world counterparts.</p>' },
+  { slug: 'platformer', name: 'Platformer', emoji: '🦘', description: 'Side-scrolling and platformer games with jumping, running, and obstacle courses. Master precision movement.', introContent: '<p>Platformer games are all about precise jumps, tricky obstacle courses, and pixel-perfect timing. Run, leap, and wall-jump your way through hand-crafted levels that reward practice and punish hesitation—classic side-scrolling fun delivered straight to your browser.</p>' },
 ];
 
 export const games = [

@@ -874,6 +874,14 @@ html, body {
   max-width: 720px;
 }
 
+.category-intro-content {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  max-width: 720px;
+  margin: 0 0 24px;
+}
+
 .category-meta {
   display: inline-flex;
   align-items: center;
