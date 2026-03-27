@@ -12932,6 +12932,8 @@ export const games = [
 <li>Land on all four wheels to complete stunts successfully.</li>
 <li>Earn points for stunts and unlock new vehicles and tracks.</li>
 </ul>
+
+<p>You can explore a full collection of fun and nostalgic <a href="https://googledoodlegames.org">Google Doodle games</a> all in one place, perfect for a quick break or a bit of casual gaming.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
