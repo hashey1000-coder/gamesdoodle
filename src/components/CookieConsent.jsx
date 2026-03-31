@@ -3,16 +3,6 @@ import { Link } from 'react-router-dom';
 
 const ADSENSE_PUB = 'ca-pub-4556514294983969';
 
-function grantConsent() {
-  if (typeof window.gtag !== 'function') return;
-  window.gtag('consent', 'update', {
-    analytics_storage: 'granted',
-    ad_storage: 'granted',
-    ad_user_data: 'granted',
-    ad_personalization: 'granted',
-  });
-}
-
 function loadAdSense() {
   const src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_PUB}`;
   if (document.querySelector(`script[src="${src}"]`)) return;
@@ -30,8 +20,6 @@ export default function CookieConsent() {
     if (typeof window === 'undefined') return;
     const consent = localStorage.getItem('cookie_consent');
     if (consent === 'accepted') {
-      // Returning visitor — upgrade consent immediately (GA4 already loaded)
-      grantConsent();
       loadAdSense();
       return;
     }
@@ -39,13 +27,11 @@ export default function CookieConsent() {
       const timer = setTimeout(() => setVisible(true), 1500);
       return () => clearTimeout(timer);
     }
-    // consent === 'declined' — stays at default denied
   }, []);
 
   const accept = () => {
     localStorage.setItem('cookie_consent', 'accepted');
     setVisible(false);
-    grantConsent();
     loadAdSense();
   };
 
