@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { getRelatedGames } from '../data/games';
 
@@ -74,7 +74,47 @@ export default function GameEmbed({ game }) {
     return () => { document.body.style.overflow = ''; };
   }, [isFullscreen]);
 
-  const showIframe = isPlaying && !isExternal;
+  const isSwf = game.embedUrl?.toLowerCase().endsWith('.swf');
+  const ruffleContainerRef = useRef(null);
+
+  // Load Ruffle Flash emulator for SWF games
+  useEffect(() => {
+    if (!isPlaying || !isSwf || !ruffleContainerRef.current) return;
+    const container = ruffleContainerRef.current;
+    container.innerHTML = '';
+
+    const initRuffle = () => {
+      const ruffle = window.RufflePlayer?.newest();
+      if (!ruffle) return;
+      const player = ruffle.createPlayer();
+      player.style.width = '100%';
+      player.style.height = '100%';
+      container.appendChild(player);
+      player.load({ url: game.embedUrl })
+        .then(() => setIsLoaded(true))
+        .catch(() => setIsLoaded(true));
+    };
+
+    if (window.RufflePlayer?.newest) {
+      initRuffle();
+    } else {
+      window.RufflePlayer = window.RufflePlayer || {};
+      const existing = document.querySelector('script[data-ruffle]');
+      if (existing) {
+        existing.addEventListener('load', initRuffle);
+      } else {
+        const script = document.createElement('script');
+        script.src = 'https://unpkg.com/@ruffle-rs/ruffle';
+        script.setAttribute('data-ruffle', 'true');
+        script.addEventListener('load', initRuffle);
+        document.head.appendChild(script);
+      }
+    }
+
+    return () => { container.innerHTML = ''; };
+  }, [isPlaying, isSwf, game.embedUrl]);
+
+  const showIframe = isPlaying && !isExternal && !isSwf;
 
   return (
     <div className={`game-embed-wrapper ${isFullscreen ? 'fullscreen' : ''}`}>
@@ -137,16 +177,23 @@ export default function GameEmbed({ game }) {
                 <span className="game-loading-text">Loading game…</span>
               </div>
             )}
-            <iframe
-              src={game.embedUrl}
-              title={game.title}
-              className={`game-iframe${isLoaded ? ' loaded' : ''}`}
-              allowFullScreen
-              scrolling="auto"
-              allow="autoplay *; fullscreen *; gamepad; storage-access"
-              onLoad={handleIframeLoad}
-              {...(!game.noSandbox && { sandbox: 'allow-scripts allow-same-origin allow-popups allow-forms allow-modals allow-pointer-lock allow-presentation allow-orientation-lock' })}
-            />
+            {isSwf ? (
+              <div
+                ref={ruffleContainerRef}
+                className={`game-iframe${isLoaded ? ' loaded' : ''}`}
+              />
+            ) : (
+              <iframe
+                src={game.embedUrl}
+                title={game.title}
+                className={`game-iframe${isLoaded ? ' loaded' : ''}`}
+                allowFullScreen
+                scrolling="auto"
+                allow="autoplay *; fullscreen *; gamepad; storage-access"
+                onLoad={handleIframeLoad}
+                {...(!game.noSandbox && { sandbox: 'allow-scripts allow-same-origin allow-popups allow-forms allow-modals allow-pointer-lock allow-presentation allow-orientation-lock' })}
+              />
+            )}
           </>
         )}
       </div>

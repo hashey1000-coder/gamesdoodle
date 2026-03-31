@@ -1,40 +1,26 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-const GA_ID = 'G-LW3QVZF18T';
 const ADSENSE_PUB = 'ca-pub-4556514294983969';
 
-function loadScript(src, attrs = {}) {
-  return new Promise((resolve, reject) => {
-    if (document.querySelector(`script[src="${src}"]`)) {
-      resolve();
-      return;
-    }
-    const s = document.createElement('script');
-    s.src = src;
-    s.async = true;
-    Object.entries(attrs).forEach(([k, v]) => s.setAttribute(k, v));
-    s.onload = resolve;
-    s.onerror = reject;
-    document.head.appendChild(s);
+function grantConsent() {
+  if (typeof window.gtag !== 'function') return;
+  window.gtag('consent', 'update', {
+    analytics_storage: 'granted',
+    ad_storage: 'granted',
+    ad_user_data: 'granted',
+    ad_personalization: 'granted',
   });
 }
 
-function loadTrackingScripts() {
-  // Google Analytics
-  loadScript(`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`).then(() => {
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { window.dataLayer.push(arguments); }
-    window.gtag = gtag;
-    gtag('js', new Date());
-    gtag('config', GA_ID);
-  });
-
-  // Google AdSense
-  loadScript(
-    `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_PUB}`,
-    { crossorigin: 'anonymous' }
-  );
+function loadAdSense() {
+  const src = `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_PUB}`;
+  if (document.querySelector(`script[src="${src}"]`)) return;
+  const s = document.createElement('script');
+  s.src = src;
+  s.async = true;
+  s.setAttribute('crossorigin', 'anonymous');
+  document.head.appendChild(s);
 }
 
 export default function CookieConsent() {
@@ -44,21 +30,23 @@ export default function CookieConsent() {
     if (typeof window === 'undefined') return;
     const consent = localStorage.getItem('cookie_consent');
     if (consent === 'accepted') {
-      // Returning visitor who already accepted — load scripts immediately
-      loadTrackingScripts();
+      // Returning visitor — upgrade consent immediately (GA4 already loaded)
+      grantConsent();
+      loadAdSense();
       return;
     }
     if (!consent) {
       const timer = setTimeout(() => setVisible(true), 1500);
       return () => clearTimeout(timer);
     }
-    // consent === 'declined' — do nothing
+    // consent === 'declined' — stays at default denied
   }, []);
 
   const accept = () => {
     localStorage.setItem('cookie_consent', 'accepted');
     setVisible(false);
-    loadTrackingScripts();
+    grantConsent();
+    loadAdSense();
   };
 
   const decline = () => {

@@ -13566,7 +13566,548 @@ export const games = [
 </ul>
 <!-- CONTENT END 1 -->`,
   },
+  {
+    slug: '2048-unicorn',
+    datePublished: '2026-03-29T10:00:00+00:00',
+    dateModified: '2026-03-29T10:00:00+00:00',
+    dateAdded: '2026-03-29',
+    title: '2048 Unicorn – Play the Magical Puzzle Game Online Free',
+    metaDescription: 'Play 2048 Unicorn online free. Slide and merge colorful unicorn tiles to reach the legendary 2048 unicorn in this magical twist on the classic number puzzle.',
+    category: 'online-games',
+    tags: ['puzzle'],
+    embedUrl: 'https://all2048.com/unicorn',
+    thumbnail: '/images/2048-unicorn.webp',
+    relatedSlugs: ['2048-game', '2048-cupcakes', 'infinity-craft'],
+    excerpt: '2048 Unicorn is a magical twist on the beloved 2048 puzzle game where you merge adorable unicorn tiles instead of plain numbers, sliding them across the board to create increasingly rare and powerful mythical creatures.',
+    content: `<p>2048 Unicorn is a magical twist on the beloved 2048 puzzle game where you merge adorable unicorn tiles instead of plain numbers. Each swipe slides every tile on the four-by-four grid, and when two matching unicorns collide they combine into a new, rarer creature. Your goal is to keep merging until you unlock the legendary 2048 unicorn — a shimmering, rainbow-maned masterpiece.</p>
+
+<p>The core mechanics are identical to the original 2048: swipe up, down, left, or right, and every tile on the board moves in that direction. A new tile spawns after each move, so the grid fills up fast. Strategic corner-stacking — keeping your highest tile locked in one corner while building chains toward it — is the most reliable path to high scores.</p>
+
+<p>What sets 2048 Unicorn apart is the visual charm. Watching cute pastel ponies evolve into majestic winged unicorns is far more satisfying than watching "256" turn into "512." Each tier introduces a new character design, giving players a sense of collection and discovery on top of the puzzle challenge. The soothing colour palette and gentle animations make it a perfect relaxation game.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play 2048 Unicorn</strong></h2>
+
+<ul class="wp-block-list">
+<li>Use arrow keys or swipe to slide all tiles in one direction.</li>
+<li>Two identical unicorn tiles merge into the next tier when they collide.</li>
+<li>Plan moves ahead — try to keep your highest tile in a corner.</li>
+<li>The game ends when the board is full and no more merges are possible.</li>
+<li>Aim for the 2048 unicorn tile to win, then keep going for an even higher score.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: '2v2-io',
+    datePublished: '2026-03-29T10:00:00+00:00',
+    dateModified: '2026-03-29T10:00:00+00:00',
+    dateAdded: '2026-03-29',
+    title: '2v2.io – Play the Online Multiplayer Battle Game Free',
+    metaDescription: 'Play 2v2.io online free. Team up with a partner in fast-paced 2v2 battles, build structures, and outshoot opponents in this competitive browser shooter.',
+    category: 'online-games',
+    tags: ['shooter', 'io'],
+    embedUrl: 'https://2v2.io/',
+    thumbnail: '/images/2v2-io.webp',
+    relatedSlugs: ['build-now-gg', 'rooftop-snipers', 'kour-io'],
+    excerpt: '2v2.io is a fast-paced multiplayer browser shooter where you team up with a partner to battle other duos in intense arena combat with building mechanics.',
+    content: `<p>2v2.io is a fast-paced multiplayer browser shooter where you team up with a partner to battle other duos in intense arena combat. Developed by LEGION GAMES, it combines building mechanics with third-person shooting, creating a competitive experience that rewards both aim and creative construction. Matches are quick and action-packed, making every round feel fresh and exciting.</p>
+
+<p>The building system lets you place walls, ramps, and platforms mid-fight, giving you cover and high-ground advantage. Quick builders can create defensive forts in seconds while aggressive players use ramp rushes to close the gap. Coordinating builds with your teammate is key — one player can lay cover while the other flanks from an unexpected angle.</p>
+
+<p>With WASD movement, mouse aiming, and hotkeys for building pieces, the controls feel responsive and intuitive. The game runs directly in your browser with no downloads, and matchmaking is instant. Whether you prefer sniping from a distance or getting into close-range shotgun battles, 2v2.io provides the tools and arena to test your skills against real opponents worldwide.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play 2v2.io</strong></h2>
+
+<ul class="wp-block-list">
+<li>WASD to move, mouse to aim and shoot.</li>
+<li>Right-click to aim down sights for better accuracy.</li>
+<li>Press Z, X, C, V to place different building pieces.</li>
+<li>R to reload, Space to jump, G to edit builds.</li>
+<li>Coordinate with your teammate to secure eliminations and win rounds.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: '3-foot-ninja-2',
+    datePublished: '2026-03-29T10:00:00+00:00',
+    dateModified: '2026-03-29T10:00:00+00:00',
+    dateAdded: '2026-03-29',
+    title: '3 Foot Ninja 2 – Play the Action Platformer Online Free',
+    metaDescription: 'Play 3 Foot Ninja 2 online free. Fight enemies, dodge traps, and master martial arts combos in this action-packed side-scrolling ninja adventure.',
+    category: 'online-games',
+    tags: ['arcade', 'platformer'],
+    embedUrl: 'https://data.gamechy.com/9118f867-f102-4e7f-94e9-7d736cb35032/index.html?noads=true/',
+    thumbnail: '/images/3-foot-ninja-2.webp',
+    relatedSlugs: ['run-3', 'vex-3', 'level-devil'],
+    excerpt: '3 Foot Ninja 2 is a side-scrolling action platformer where you play as a pint-sized warrior on a quest to recover stolen ancient relics from an evil demon lord.',
+    content: `<p>3 Foot Ninja 2 is a side-scrolling action platformer where you play as a pint-sized warrior on a quest to recover stolen ancient relics from an evil demon lord. Despite standing only three feet tall, this ninja packs a serious punch with a variety of martial arts moves, weapon combos, and special attacks that make every encounter feel dynamic and satisfying.</p>
+
+<p>Each level presents a mix of platforming challenges and combat encounters. You jump between ledges, dodge spike traps, and face off against waves of enemies ranging from basic foot soldiers to armoured bosses with unique attack patterns. Timing your blocks, dodges, and counter-attacks is essential — button-mashing will get you knocked out quickly on harder stages.</p>
+
+<p>The game features an upgrade system that lets you unlock new fighting moves and abilities as you progress. Collecting scrolls and defeating bosses earns you points to spend on stronger attacks, faster movement, and defensive maneuvers. The combination of tight combat, challenging platforming, and character progression gives 3 Foot Ninja 2 surprising depth for a browser game.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play 3 Foot Ninja 2</strong></h2>
+
+<ul class="wp-block-list">
+<li>Use arrow keys to move and jump through each level.</li>
+<li>Press A, S, D for light attacks, heavy attacks, and special moves.</li>
+<li>Block enemy strikes by pressing the block key at the right moment.</li>
+<li>Collect scrolls to upgrade your ninja's abilities between levels.</li>
+<li>Defeat bosses at the end of each chapter to progress the story.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: '3-marker-challenge',
+    datePublished: '2026-03-29T10:00:00+00:00',
+    dateModified: '2026-03-29T10:00:00+00:00',
+    dateAdded: '2026-03-29',
+    title: '3 Marker Challenge – Play the Drawing Game Online Free',
+    metaDescription: 'Play 3 Marker Challenge online free. Pick three random markers and try to color in drawings using only those colors in this creative art challenge game.',
+    category: 'online-games',
+    tags: ['music-and-creative', 'puzzle'],
+    embedUrl: 'https://html5.gamedistribution.com/edc929f5e21d461da465f03d5f261d67/',
+    thumbnail: '/images/3-marker-challenge.webp',
+    relatedSlugs: ['quick-draw', 'infinity-craft', 'memory-game'],
+    excerpt: '3 Marker Challenge is a creative drawing game inspired by the popular social media trend where you colour artwork using only three randomly chosen markers.',
+    content: `<p>3 Marker Challenge is a creative drawing game inspired by the popular social media trend where you colour in artwork using only three randomly selected markers. Each round presents you with a black-and-white outline and three colours chosen at random. Your job is to fill in the drawing as creatively as possible with just those limited options, turning constraints into artistic opportunities.</p>
+
+<p>The fun lies in working within limitations. Sometimes you get a perfect trio of colours that complement each other beautifully; other times you end up with three shades of brown and have to improvise. This randomness keeps every round fresh and challenges you to think creatively about colour placement, shading, and composition — skills that matter whether you are an experienced artist or a casual doodler.</p>
+
+<p>The game features dozens of different outlines ranging from simple cartoon characters to detailed landscapes. As you progress, the drawings become more complex, requiring more thoughtful use of your three markers. Your finished pieces are scored based on coverage, colour balance, and creativity, giving you a target to aim for on each attempt.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play 3 Marker Challenge</strong></h2>
+
+<ul class="wp-block-list">
+<li>Select a drawing template from the available options.</li>
+<li>You receive three random marker colours to work with.</li>
+<li>Click or tap to colour sections of the drawing with your chosen marker.</li>
+<li>Switch between your three markers to create the best colour combination.</li>
+<li>Complete the drawing and receive a score based on your creativity and coverage.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: '3d-championship-golf',
+    datePublished: '2026-03-29T10:00:00+00:00',
+    dateModified: '2026-03-29T10:00:00+00:00',
+    dateAdded: '2026-03-29',
+    title: '3D Championship Golf – Play the Golf Game Online Free',
+    metaDescription: 'Play 3D Championship Golf online free. Tee off on realistic 3D courses, adjust your swing, and compete for the lowest score in this browser golf simulation.',
+    category: 'online-games',
+    tags: ['sports'],
+    embedUrl: 'https://www.play-games.com/iframe/20684.html',
+    thumbnail: '/images/3d-championship-golf.webp',
+    relatedSlugs: ['a-small-world-cup', 'billiards', 'plinko'],
+    excerpt: '3D Championship Golf is a realistic browser-based golf simulation featuring full 3D courses, adjustable swing mechanics, and multiple championship tournaments.',
+    content: `<p>3D Championship Golf is a realistic browser-based golf simulation that brings the full golfing experience to your screen. Featuring beautifully rendered 3D courses with rolling fairways, sand bunkers, water hazards, and challenging greens, the game captures the strategic depth of real golf while keeping the controls accessible enough for anyone to pick up and play.</p>
+
+<p>The swing mechanic uses a classic power-bar system — click once to start your backswing, again to set the power, and a third time to control accuracy. Wind direction and speed affect every shot, so reading conditions and adjusting your aim becomes critical on later holes. Club selection matters too; choosing the right iron or wood for each distance separates casual players from low scorers.</p>
+
+<p>Multiple courses offer different challenges, from coastal links with strong crosswinds to tree-lined inland tracks where accuracy trumps distance. Each eighteen-hole round tests your consistency across a variety of par-three, par-four, and par-five holes. The game tracks your score against par, encouraging replay as you try to shave strokes off your personal best.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play 3D Championship Golf</strong></h2>
+
+<ul class="wp-block-list">
+<li>Select your club based on distance and terrain.</li>
+<li>Click to start your swing, click again to set power, click a third time for accuracy.</li>
+<li>Adjust your aim to account for wind direction and speed.</li>
+<li>Use irons for approach shots and your putter on the green.</li>
+<li>Complete all 18 holes with the lowest score possible.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: '3x3-obby',
+    datePublished: '2026-03-29T10:00:00+00:00',
+    dateModified: '2026-03-29T10:00:00+00:00',
+    dateAdded: '2026-03-29',
+    title: '3X3 Obby – Play the Obstacle Course Game Online Free',
+    metaDescription: 'Play 3X3 Obby online free. Jump, climb, and navigate through tricky 3D obstacle courses in this Roblox-style obby challenge that tests your platforming skills.',
+    category: 'online-games',
+    tags: ['platformer', 'arcade'],
+    embedUrl: 'https://www.tafeldiploma.nl/gf/obby/66/?language=nl&tables_until=10&nocache=51',
+    thumbnail: '/images/3x3-obby.webp',
+    relatedSlugs: ['run-3', 'vex-3', 'level-devil'],
+    excerpt: '3X3 Obby is a Roblox-style obstacle course game where you navigate through increasingly difficult 3D platforming challenges on a compact three-by-three grid layout.',
+    content: `<p>3X3 Obby is a Roblox-style obstacle course game where you navigate through increasingly difficult 3D platforming challenges on a compact three-by-three grid layout. Each stage presents a self-contained obstacle that you must clear before advancing to the next — think spinning platforms, disappearing blocks, lava jumps, and precision wall-runs packed into tight, focused arenas.</p>
+
+<p>The "3X3" format keeps every challenge short but intense. There is no filler — each room is a concentrated test of timing, spatial awareness, and movement control. Early stages introduce basic jumps and simple hazards, while later levels combine multiple mechanics into devious sequences that demand near-perfect execution. Respawns are instant, so the game encourages experimentation and persistence.</p>
+
+<p>The colourful blocky art style is clean and easy to read, which matters when you need to spot safe platforms at a glance. The game runs smoothly in any modern browser and the responsive controls make the difference between frustrating deaths and satisfying clears. Whether you are an obby veteran or trying the genre for the first time, 3X3 Obby delivers a steady climb in difficulty that keeps you coming back for one more attempt.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play 3X3 Obby</strong></h2>
+
+<ul class="wp-block-list">
+<li>Use WASD or arrow keys to move your character.</li>
+<li>Press Space to jump — hold for higher jumps where supported.</li>
+<li>Time your jumps carefully to avoid falling into hazards.</li>
+<li>Reach the end platform of each stage to advance to the next one.</li>
+<li>Respawns are instant, so keep trying until you clear each obstacle.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: '4th-and-goal-2022',
+    datePublished: '2026-03-29T10:00:00+00:00',
+    dateModified: '2026-03-29T10:00:00+00:00',
+    dateAdded: '2026-03-29',
+    title: '4th and Goal 2022 – Play the Football Game Online Free',
+    metaDescription: 'Play 4th and Goal 2022 online free. Pick plays, throw passes, and run the ball in this exciting American football game with updated rosters and improved gameplay.',
+    category: 'online-games',
+    tags: ['sports'],
+    embedUrl: 'https://classroom-6x-online.github.io/g1/4th-and-goal-2022/',
+    thumbnail: '/images/4th-and-goal-2022.webp',
+    relatedSlugs: ['a-small-world-cup', 'soccer-skills-world-cup', 'billiards'],
+    excerpt: '4th and Goal 2022 is the latest edition of the popular browser football series where you call plays, control your team, and compete in full American football games.',
+    content: `<p>4th and Goal 2022 is the latest edition of the popular browser football series where you call plays, control your team, and compete in full American football games. This updated version features improved animations, tighter controls, and balanced gameplay that makes both offence and defence feel rewarding. Choose your team, select from a playbook of runs, passes, and trick plays, then execute on the field.</p>
+
+<p>On offence, you pick a formation and play from your playbook, then take control of the quarterback. You can throw to open receivers by clicking on them, hand the ball off to a running back, or scramble with the QB if the pocket collapses. Reading the defence and making quick decisions is the key to moving down the field and scoring touchdowns.</p>
+
+<p>Defence is equally strategic. You choose your defensive formation, then control a player to pursue the ball carrier, swat passes, or blitz the quarterback. The AI opponents get smarter as you advance through the season, mixing up their play-calling to keep you guessing. The game offers single games and full season modes, giving you the choice between a quick match and a longer championship run.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play 4th and Goal 2022</strong></h2>
+
+<ul class="wp-block-list">
+<li>Select a play from your offensive or defensive playbook.</li>
+<li>On offence, use arrow keys to move and click to throw to receivers.</li>
+<li>On defence, control your player to tackle the ball carrier.</li>
+<li>Manage the clock, field position, and downs strategically.</li>
+<li>Win games to advance through the season and reach the championship.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: '4x4-soccer',
+    datePublished: '2026-03-29T10:00:00+00:00',
+    dateModified: '2026-03-29T10:00:00+00:00',
+    dateAdded: '2026-03-29',
+    title: '4X4 Soccer – Play the Mini Football Game Online Free',
+    metaDescription: 'Play 4X4 Soccer online free. Compete in fast-paced four-a-side football matches with simple controls, quick goals, and exciting multiplayer action.',
+    category: 'online-games',
+    tags: ['sports'],
+    embedUrl: 'https://html5.gamedistribution.com/c6867b465f364526a02edc6fa31abe7f/',
+    thumbnail: '/images/4x4-soccer.webp',
+    relatedSlugs: ['a-small-world-cup', 'soccer-skills-world-cup', 'soccer-bros'],
+    excerpt: '4X4 Soccer is a fast-paced mini football game featuring four-a-side matches on compact pitches where every touch counts and goals come thick and fast.',
+    content: `<p>4X4 Soccer is a fast-paced mini football game featuring four-a-side matches on compact pitches where every touch of the ball counts. With fewer players on the field, the action is non-stop — there is no hiding in midfield or waiting for teammates to create chances. You are constantly involved in both attack and defence, making split-second decisions that can swing the match.</p>
+
+<p>The controls are streamlined for quick pick-up-and-play sessions. Move your player, pass, and shoot with simple inputs while the AI handles your teammates' positioning. The small pitch means shots come from everywhere, and goalkeepers are kept busy with rapid-fire attempts. Games are typically short, making this perfect for a quick break or back-to-back tournaments.</p>
+
+<p>Despite its simplicity, 4X4 Soccer has depth in its positioning game. Learning when to press forward and when to drop back, when to pass and when to shoot, makes the difference between winning streaks and frustrating losses. The physics-based ball movement adds unpredictability — deflections and ricochets create highlight-reel goals that feel genuinely exciting.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play 4X4 Soccer</strong></h2>
+
+<ul class="wp-block-list">
+<li>Use arrow keys or WASD to move your player on the pitch.</li>
+<li>Press the shoot button to kick the ball toward goal.</li>
+<li>Pass to teammates to create scoring opportunities.</li>
+<li>Switch to defence when the opponent has possession.</li>
+<li>Score more goals than your opponent before time runs out.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: '67-clicker',
+    datePublished: '2026-03-29T10:00:00+00:00',
+    dateModified: '2026-03-29T10:00:00+00:00',
+    dateAdded: '2026-03-29',
+    title: '67 Clicker – Play the Idle Clicker Game Online Free',
+    metaDescription: 'Play 67 Clicker online free. Click, earn, and upgrade your way through this addictive idle clicker game with prestige mechanics and endless progression.',
+    category: 'online-games',
+    tags: ['simulation'],
+    embedUrl: 'https://2games.io/game/67-clicker/',
+    thumbnail: '/images/67-clicker.webp',
+    relatedSlugs: ['infinity-craft', 'plinko', 'memory-game'],
+    excerpt: '67 Clicker is an addictive idle clicker game where you tap to earn points, purchase upgrades, and unlock prestige tiers to multiply your earnings exponentially.',
+    content: `<p>67 Clicker is an addictive idle clicker game where you tap to earn points, purchase upgrades, and unlock prestige tiers to multiply your earnings exponentially. The loop is simple but irresistible — click the main button to earn currency, spend it on auto-clickers and multipliers, then watch your numbers grow. The satisfaction of watching your counter climb from hundreds to millions to billions keeps you coming back for more.</p>
+
+<p>The upgrade tree is where the strategy lives. Early on you buy basic auto-clickers that generate a few points per second. As you progress, more powerful upgrades become available — speed boosts, click multipliers, and passive generators that work even when you are not clicking. Deciding when to save for an expensive upgrade versus buying several cheap ones is the core decision-making loop.</p>
+
+<p>The prestige system adds a compelling meta-layer. Once you reach certain milestones, you can reset your progress in exchange for permanent multipliers that make your next run faster. Each prestige cycle lets you climb higher, unlocking new content and reaching numbers that were previously impossible. It is the kind of game where you tell yourself "just one more upgrade" and suddenly an hour has passed.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play 67 Clicker</strong></h2>
+
+<ul class="wp-block-list">
+<li>Click the main button to earn points.</li>
+<li>Spend points on upgrades to increase earnings per click.</li>
+<li>Buy auto-clickers to generate passive income.</li>
+<li>Unlock multipliers and boosts for exponential growth.</li>
+<li>Prestige when available to earn permanent bonuses for your next run.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: '99-nights-in-the-forest-playground',
+    datePublished: '2026-03-29T10:00:00+00:00',
+    dateModified: '2026-03-29T10:00:00+00:00',
+    dateAdded: '2026-03-29',
+    title: '99 Nights in the Forest Playground – Play Online Free',
+    metaDescription: 'Play 99 Nights in the Forest Playground online free. Explore the sandbox survival mode with creative building, free exploration, and no time limits.',
+    category: 'online-games',
+    tags: ['simulation'],
+    embedUrl: 'https://st.8games.net/7/8g/igra-99-nochej-v-lesu-101-original/',
+    thumbnail: '/images/99-nights-in-the-forest-playground.webp',
+    relatedSlugs: ['99-nights-in-the-forest', 'infinity-craft', 'solar-smash'],
+    excerpt: '99 Nights in the Forest Playground is the sandbox companion to the survival game, offering a creative mode where you can freely explore, build, and experiment without the pressure of nightly attacks.',
+    content: `<p>99 Nights in the Forest Playground is the sandbox companion to the popular survival game, offering a creative mode where you can freely explore, build, and experiment without the pressure of nightly attacks. All of the crafting recipes, building tools, and exploration mechanics from the main game are available, but the threat of enemies is removed so you can focus on creativity and discovery at your own pace.</p>
+
+<p>In Playground mode you have access to unlimited resources from the start, so you can build elaborate shelters, test defensive layouts, and experiment with crafting combinations that would take hours to unlock in the main game. It is an ideal space for learning the mechanics before tackling the full survival experience, or simply for players who prefer building over combat.</p>
+
+<p>The forest environment is fully explorable, with hidden areas, caves, and scenic spots that reward curiosity. You can place torches to illuminate paths, construct multi-level structures, and create custom camps anywhere on the map. The relaxed pace makes it a great companion piece to the tense survival mode, and many players use Playground to plan strategies they will execute in the main game.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play 99 Nights in the Forest Playground</strong></h2>
+
+<ul class="wp-block-list">
+<li>Explore the forest freely with no enemy threats.</li>
+<li>Gather resources and craft tools using the crafting menu.</li>
+<li>Build shelters, forts, and decorative structures anywhere on the map.</li>
+<li>Test crafting recipes and building layouts without resource limits.</li>
+<li>Use the sandbox to practice strategies for the main survival mode.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'a-difficult-game-about-climbing',
+    datePublished: '2026-03-29T10:00:00+00:00',
+    dateModified: '2026-03-29T10:00:00+00:00',
+    dateAdded: '2026-03-29',
+    title: 'A Difficult Game About Climbing – Play Online Free',
+    metaDescription: 'Play A Difficult Game About Climbing online free. Grip, pull, and swing your way up a treacherous mountain using realistic physics-based hand controls.',
+    category: 'online-games',
+    tags: ['arcade', 'platformer'],
+    embedUrl: 'https://g.vseigru.net/10/igra-a-difficult-game-about-climbing/game.html',
+    thumbnail: '/images/a-difficult-game-about-climbing.webp',
+    relatedSlugs: ['level-devil', 'vex-3', 'run-3'],
+    excerpt: 'A Difficult Game About Climbing is a physics-based rage game where you control two hands independently to grip surfaces and pull yourself up a mountain, one painful handhold at a time.',
+    content: `<p>A Difficult Game About Climbing is a physics-based rage game where you control two hands independently to grip surfaces and pull yourself up a mountain, one painful handhold at a time. Inspired by Getting Over It, the game features intentionally frustrating controls that make every inch of progress feel like a genuine achievement — and every fall feel absolutely devastating.</p>
+
+<p>You control each hand separately, clicking to grip a surface and dragging to pull your body upward. The physics are deliberately wobbly, so your character swings, flails, and slips in ways that are both infuriating and hilarious. One wrong move can send you tumbling back down past checkpoints you spent twenty minutes reaching. The mountain is dotted with tricky overhangs, slippery surfaces, and objects that spin when you grab them.</p>
+
+<p>What makes the game compelling despite the frustration is the pure satisfaction of mastering its mechanics. As you learn to read surfaces, time your grips, and manage your momentum, you begin to make consistent progress. The community of players sharing their rage moments and eventual victories adds to the experience — knowing others are suffering through the same climbs keeps you going when you want to quit.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play A Difficult Game About Climbing</strong></h2>
+
+<ul class="wp-block-list">
+<li>Click and hold to grip a surface with one hand.</li>
+<li>Drag to pull your body in that direction.</li>
+<li>Alternate hands to climb upward, maintaining momentum.</li>
+<li>Be careful on slippery or spinning surfaces — one slip can cost huge progress.</li>
+<li>Persistence is key — every fall is a lesson for the next attempt.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'a-koopas-revenge',
+    datePublished: '2026-03-29T10:00:00+00:00',
+    dateModified: '2026-03-29T10:00:00+00:00',
+    dateAdded: '2026-03-29',
+    title: 'A Koopa\'s Revenge – Play the Platformer Game Online Free',
+    metaDescription: 'Play A Koopa\'s Revenge online free. Play as a Koopa Troopa on a quest for revenge against Mario in this fan-made platformer with classic retro gameplay.',
+    category: 'online-games',
+    tags: ['platformer', 'arcade'],
+    embedUrl: '/roms/koopasrevenge.swf',
+    thumbnail: '/images/a-koopas-revenge.webp',
+    relatedSlugs: ['a-koopas-revenge-2', 'run-3', 'red-ball'],
+    excerpt: 'A Koopa\'s Revenge is a fan-made platformer that flips the Mario formula by letting you play as a Koopa Troopa seeking revenge against the plumber who stomped on your friends.',
+    content: `<p>A Koopa&#8217;s Revenge is a fan-made platformer that flips the classic Mario formula on its head by letting you play as a Koopa Troopa seeking revenge against the plumber who has stomped on your friends for decades. Instead of rescuing a princess, you are on a rampage through Mushroom Kingdom levels, stomping Toads, dodging familiar hazards, and taking the fight to Mario himself.</p>
+
+<p>The game plays like a classic 2D platformer with tight controls and responsive jumping. You run through colourful levels filled with pipes, blocks, and enemies — but from the villain&#8217;s perspective. Power-ups transform you into different Koopa variants with unique abilities, like a winged Koopa that can fly or a spiked version that damages enemies on contact. Each power-up opens new paths through the levels.</p>
+
+<p>The level design pays homage to the original Mario games while adding enough original twists to feel fresh. Secret areas, hidden power-ups, and multiple paths through each stage reward exploration. Boss fights at the end of each world pit you against familiar faces in creative encounters that test your platforming skills and pattern recognition.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play A Koopa&#8217;s Revenge</strong></h2>
+
+<ul class="wp-block-list">
+<li>Use arrow keys to move and jump through each level.</li>
+<li>Stomp on enemies from above to defeat them.</li>
+<li>Collect power-ups to transform into stronger Koopa variants.</li>
+<li>Find hidden areas and secret paths for bonus items.</li>
+<li>Defeat the boss at the end of each world to progress.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'a-koopas-revenge-2',
+    datePublished: '2026-03-29T10:00:00+00:00',
+    dateModified: '2026-03-29T10:00:00+00:00',
+    dateAdded: '2026-03-29',
+    title: 'A Koopa\'s Revenge 2 – Play the Platformer Game Online Free',
+    metaDescription: 'Play A Koopa\'s Revenge 2 online free. The sequel brings new power-ups, bigger worlds, and tougher bosses in this expanded fan-made Mario-inspired platformer.',
+    category: 'online-games',
+    tags: ['platformer', 'arcade'],
+    embedUrl: 'https://flashga.me/embed/a-koopa-s-revenge-2?toolbar=false&game=%7B%22id%22%3A62249%2C%22name%22%3A%22A+Koopa%27s+Revenge+2%22%2C%22slug%22%3A%22a-koopa-s-revenge-2%22%2C%22file%22%3A%22%5B%7B%5C%22download_link%5C%22%3A%5C%22games%5C%5C%5C%2FMay2023%5C%5C%5C%2Fa-koopa-s-revenge-2.swf%5C%22%2C%5C%22original_name%5C%22%3A%5C%22a-koopa-s-revenge-2.swf%5C%22%7D%5D%22%2C%22alt_file%22%3A%22https%3A%5C%2F%5C%2Fflashga.me%22%2C%22alt_game%22%3Anull%2C%22width%22%3A550%2C%22height%22%3A400%2C%22origin%22%3Anull%2C%22extension%22%3A%22SWF%22%2C%22flashversion%22%3Anull%2C%22image%22%3A%22games%5C%2FMay2023%5C%2FnIHuJqVeU3NvD8fnrKfR.jpg%22%2C%22playable%22%3A1%2C%22resizable%22%3A1%2C%22updatedAt%22%3Anull%2C%22avm%22%3A1%2C%22flashvars%22%3Anull%2C%22emulator%22%3A%22ruffle%22%2C%22orientation%22%3A%22landscape%22%2C%22embed_options%22%3A%22%7B%5C%22wmode%5C%22%3A%5C%22opaque%5C%22%2C+%5C%22allowNetworking%5C%22%3A+%5C%22internal%5C%22%2C+%5C%22allowScriptAccess%5C%22%3A+%5C%22no%5C%22%7D%22%2C%22name_mvkb%22%3A%22%7B%5Cr%5Cn%5C%22KeyA%5C%22%3A+%7B%5C%22name%5C%22%3A+%5C%22Attack%5C%22%2C+%5C%22class%5C%22%3A+%5C%22border%5C%22%2C+%5C%22title%5C%22%3A+%5C%22A%5C%22%7D%2C%5Cr%5Cn%5C%22KeyP%5C%22%3A+%7B%5C%22title%5C%22%3A+%5C%22Pause%5C%22%7D%2C%5Cr%5Cn%5C%22KeyF%5C%22%3A+%7B%5C%22title%5C%22%3A+%5C%22Item+box%5C%22%7D%2C%5Cr%5Cn%5C%22KeyS%5C%22%3A+%7B%5C%22title%5C%22%3A+%5C%22S%5C%22%2C+%5C%22class%5C%22%3A+%5C%22jumping%5C%22%7D%2C%5Cr%5Cn%5C%22rightRound%5C%22%3A+%7B%5Cr%5Cn++++++%5C%22KeyA%5C%22%3A%5B%5C%22ArrowDown%5C%22%2C+%5C%22ArrowUp%5C%22%2C+%5C%22KeyS%5C%22%2C+%5C%22KeyF%5C%22%2C+%5C%22KeyP%5C%22%5D%5Cr%5Cn+++++++++++++++++++++++++%7D%5Cr%5Cn%7D%22%2C%22style_mvkb%22%3Anull%2C%22left_mvkb%22%3A%22%5B%5C%22ARROWS%5C%22%5D%22%2C%22right_mvkb%22%3A%22%5B%5C%2238%5C%22%2C%5C%2240%5C%22%2C%5C%2265%5C%22%2C%5C%2270%5C%22%2C%5C%2280%5C%22%2C%5C%2283%5C%22%5D%22%2C%22category_slug%22%3A%22revenge%22%2C%22updated_at%22%3Anull%2C%22star_user%22%3A101%7D',
+    thumbnail: '/images/a-koopas-revenge-2.webp',
+    relatedSlugs: ['a-koopas-revenge', 'run-3', 'red-ball'],
+    excerpt: 'A Koopa\'s Revenge 2 is the expanded sequel that builds on the original with new power-ups, larger worlds, multiple playable characters, and significantly more challenging level designs.',
+    content: `<p>A Koopa&#8217;s Revenge 2 is the expanded sequel that builds on everything the original did well and adds substantially more content. The game features larger worlds, new power-ups, multiple playable characters, and significantly more challenging level designs. You can play as a Koopa, Goomba, or Shy Guy, each with distinct abilities that change how you approach every level.</p>
+
+<p>The power-up system is greatly expanded. Flower power lets you shoot fireballs, the Hammer Suit lets you throw hammers in an arc, and various shell transformations give you speed boosts or defensive abilities. Combining these power-ups with each character&#8217;s innate abilities creates a variety of play styles — the Goomba&#8217;s headbutt works differently from the Koopa&#8217;s shell dash, encouraging multiple playthroughs.</p>
+
+<p>Level design is where the sequel truly shines. Each world introduces distinct environments — underground caves, sky-high cloud platforms, underwater passages, and volcanic fortresses — with unique hazards and enemies. The difficulty curve is steeper than the first game, with later levels requiring precise platforming and quick reflexes. Boss battles are more elaborate, featuring multi-phase fights with creative attack patterns.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play A Koopa&#8217;s Revenge 2</strong></h2>
+
+<ul class="wp-block-list">
+<li>Choose your character: Koopa, Goomba, or Shy Guy.</li>
+<li>Use arrow keys to move, jump, and interact with the environment.</li>
+<li>Collect power-ups to gain new abilities and transformations.</li>
+<li>Explore hidden paths for secret items and bonus stages.</li>
+<li>Defeat world bosses to unlock new areas and progress the story.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'a-little-to-the-left',
+    datePublished: '2026-03-29T10:00:00+00:00',
+    dateModified: '2026-03-29T10:00:00+00:00',
+    dateAdded: '2026-03-29',
+    title: 'A Little to the Left – Play the Tidying Puzzle Game Online Free',
+    metaDescription: 'Play A Little to the Left online free. Sort, stack, and organize household objects in this cozy puzzle game that turns everyday tidying into satisfying brain teasers.',
+    category: 'online-games',
+    tags: ['puzzle'],
+    embedUrl: 'https://kdata1.com/2020/09/a-little-to-the-left/',
+    thumbnail: '/images/a-little-to-the-left.webp',
+    relatedSlugs: ['brain-test', 'infinity-craft', 'memory-game'],
+    excerpt: 'A Little to the Left is a cozy puzzle game where you sort, stack, and organize everyday household objects into satisfying arrangements, with a mischievous cat occasionally disrupting your work.',
+    content: `<p>A Little to the Left is a cozy puzzle game where you sort, stack, and organize everyday household objects into satisfying arrangements. Each level presents a messy scene — a jumbled cutlery drawer, scattered pencils, misaligned books, tangled yarn — and your job is to figure out the correct way to tidy everything up. Some solutions are obvious; others require creative thinking and a keen eye for patterns.</p>
+
+<p>The game&#8217;s charm lies in its attention to detail and the satisfying click when everything falls into place. Objects snap into position with gentle sounds, colours align in pleasing gradients, and the visual payoff of a perfectly organized shelf is surprisingly rewarding. A mischievous cat occasionally swats items off the table, adding a playful obstacle that keeps the experience lighthearted.</p>
+
+<p>Many puzzles have multiple valid solutions, encouraging you to think about organization in different ways. You might sort books by height, colour, or subject — each approach is accepted. This open-ended design makes the game accessible to all ages while still providing satisfying "aha" moments for puzzle enthusiasts. The hand-drawn art style and gentle soundtrack create a calming atmosphere perfect for unwinding.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play A Little to the Left</strong></h2>
+
+<ul class="wp-block-list">
+<li>Click and drag objects to rearrange them in each scene.</li>
+<li>Look for patterns — colour, size, shape, or type — to guide your sorting.</li>
+<li>Some puzzles have multiple valid solutions, so experiment freely.</li>
+<li>Watch out for the cat who may disrupt your careful arrangements.</li>
+<li>Complete each level to unlock new tidying challenges.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'a-shedletsky-pov',
+    datePublished: '2026-03-29T10:00:00+00:00',
+    dateModified: '2026-03-29T10:00:00+00:00',
+    dateAdded: '2026-03-29',
+    title: 'A Shedletsky POV – Play the Roblox-Style Game Online Free',
+    metaDescription: 'Play A Shedletsky POV online free. Experience a first-person adventure inspired by Roblox culture with platforming challenges, hidden secrets, and meme-filled environments.',
+    category: 'online-games',
+    tags: ['platformer', 'arcade'],
+    embedUrl: 'https://turbowarp.org/1192006075/embed',
+    thumbnail: '/images/a-shedletsky-pov.webp',
+    relatedSlugs: ['3x3-obby', 'run-3', 'level-devil'],
+    excerpt: 'A Shedletsky POV is a Roblox-inspired browser game that puts you in a first-person perspective through obstacle courses and meme-filled environments themed around Roblox culture.',
+    content: `<p>A Shedletsky POV is a Roblox-inspired browser game that puts you in a first-person perspective through obstacle courses and environments themed around Roblox culture. Named after the legendary Roblox developer Shedletsky (John Shedletsky), the game is packed with inside jokes, references, and challenges that Roblox fans will immediately recognise and appreciate.</p>
+
+<p>The gameplay combines first-person platforming with exploration and puzzle elements. You navigate through themed rooms, jump across gaps, avoid hazards, and discover hidden areas that reward curiosity. The blocky visual style mirrors the Roblox aesthetic, creating a familiar feel for players from that community while being accessible to newcomers through its straightforward controls.</p>
+
+<p>Each section of the game introduces different mechanics and challenges, from timed obstacle courses to maze-like environments. The meme-inspired humour and community references keep the tone lighthearted and entertaining. It is a love letter to Roblox culture that works as both a fun platformer for casual players and a nostalgia trip for longtime Roblox community members.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play A Shedletsky POV</strong></h2>
+
+<ul class="wp-block-list">
+<li>Use WASD to move through the 3D environments.</li>
+<li>Use the mouse to look around in first-person view.</li>
+<li>Jump with Space to navigate obstacles and platforms.</li>
+<li>Explore rooms for hidden secrets and Easter eggs.</li>
+<li>Complete each challenge area to progress through the game.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'abandoned-2-the-forest',
+    datePublished: '2026-03-29T10:00:00+00:00',
+    dateModified: '2026-03-29T10:00:00+00:00',
+    dateAdded: '2026-03-29',
+    title: 'Abandoned 2: The Forest – Play the Escape Game Online Free',
+    metaDescription: 'Play Abandoned 2: The Forest online free. Solve puzzles, find clues, and escape a mysterious forest in this atmospheric point-and-click adventure game.',
+    category: 'online-games',
+    tags: ['puzzle'],
+    embedUrl: 'https://st.8games.net/7/8g/igra-cherez-zabroshennyj-les-2/',
+    thumbnail: '/images/abandoned-2-the-forest.webp',
+    relatedSlugs: ['brain-test', 'bob-the-robber'],
+    excerpt: 'Abandoned 2: The Forest is an atmospheric point-and-click escape game where you wake up stranded in a dark forest and must solve puzzles to find your way out.',
+    content: `<p>Abandoned 2: The Forest is an atmospheric point-and-click escape game where you wake up stranded in a dark, mysterious forest with no memory of how you got there. Your only option is to explore the surroundings, collect items, and solve puzzles to piece together what happened and find a way back to civilization. The eerie ambient sounds and shadowy visuals create a genuinely unsettling atmosphere.</p>
+
+<p>The puzzles range from straightforward item combinations — using a key on a lock, combining objects in your inventory — to more complex logic puzzles involving codes, patterns, and environmental clues. Each solved puzzle opens a new area of the forest, gradually revealing the story of what led to your abandonment. Paying attention to notes, markings, and environmental details is crucial for progress.</p>
+
+<p>The forest itself is a character in the game. Strange structures, abandoned campsites, and cryptic symbols suggest you are not the first person to be lost here. The narrative unfolds through discovered items and journals, creating a compelling mystery that drives you forward. The sense of isolation is palpable, making each discovery feel significant and each solved puzzle a genuine relief.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Abandoned 2: The Forest</strong></h2>
+
+<ul class="wp-block-list">
+<li>Click on objects and areas to examine and interact with them.</li>
+<li>Collect items and store them in your inventory for later use.</li>
+<li>Combine items in your inventory to create useful tools.</li>
+<li>Solve environmental puzzles using clues found in the surroundings.</li>
+<li>Explore thoroughly — every clue brings you closer to escaping the forest.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'abergeny-but-is-sprinkle',
+    datePublished: '2026-03-29T10:00:00+00:00',
+    dateModified: '2026-03-29T10:00:00+00:00',
+    dateAdded: '2026-03-29',
+    title: 'Abergeny But Is Sprinkle – Play the Game Online Free',
+    metaDescription: 'Play Abergeny But Is Sprinkle online free. Navigate quirky levels with sprinkle-themed mechanics in this unique indie platformer with creative visual design.',
+    category: 'online-games',
+    tags: ['platformer', 'arcade'],
+    embedUrl: 'https://www.archive.play-games.com/games/archive/2/scratch/Abgernybutissprinkle/index.html',
+    thumbnail: '/images/abergeny-but-is-sprinkle.webp',
+    relatedSlugs: ['level-devil', 'run-3', 'vex-3'],
+    excerpt: 'Abergeny But Is Sprinkle is a quirky indie platformer that reimagines the Abergeny game with colourful sprinkle-themed visuals and unique level mechanics.',
+    content: `<p>Abergeny But Is Sprinkle is a quirky indie platformer that reimagines the Abergeny game with colourful sprinkle-themed visuals and unique level mechanics. The game takes the core platforming formula and adds a playful dessert aesthetic — platforms look like frosted cookies, hazards are gummy bears and chocolate spikes, and your character leaves a trail of rainbow sprinkles as they move through each level.</p>
+
+<p>Beneath the candy-coated surface lies a genuine platforming challenge. Levels are designed with precision jumping, timing-based obstacles, and hidden paths that reward thorough exploration. The sprinkle mechanic is not purely cosmetic — in some levels, the trail you leave behind can activate platforms or fill gaps, adding a strategic layer to your movement choices.</p>
+
+<p>The visual style is distinctive and charming, with bright pastel colours and playful animations that give the game a cheerful personality. Each world introduces new dessert-themed environments — ice cream mountains, cake fortresses, candy forests — with unique hazards and mechanics tied to the theme. It is a lighthearted platformer that does not take itself seriously but still delivers satisfying gameplay challenges.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Abergeny But Is Sprinkle</strong></h2>
+
+<ul class="wp-block-list">
+<li>Use arrow keys or WASD to move and jump.</li>
+<li>Navigate through sprinkle-themed levels, avoiding hazards.</li>
+<li>Collect items scattered throughout each stage for bonus points.</li>
+<li>Use the sprinkle trail mechanic to activate special platforms.</li>
+<li>Reach the end of each level to unlock the next challenge.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'ace-gangster',
+    datePublished: '2026-03-29T10:00:00+00:00',
+    dateModified: '2026-03-29T10:00:00+00:00',
+    dateAdded: '2026-03-29',
+    title: 'Ace Gangster – Play the Open-World Crime Game Online Free',
+    metaDescription: 'Play Ace Gangster online free. Explore a sprawling city, take on missions, drive vehicles, and rise through the criminal ranks in this GTA-inspired browser game.',
+    category: 'online-games',
+    tags: ['arcade', 'shooter'],
+    embedUrl: 'https://data.unblockedgamers.com/file/h5games/onlinegames/flash-files/flash-immulator/awayjs/index.html?g=ace_gangster',
+    thumbnail: '/images/ace-gangster.webp',
+    relatedSlugs: ['crazy-cars', 'escape-road-2', 'rooftop-snipers'],
+    excerpt: 'Ace Gangster is a GTA-inspired open-world browser game where you roam a sprawling city, take on criminal missions, steal vehicles, and build your reputation as the ultimate gangster.',
+    content: `<p>Ace Gangster is a GTA-inspired open-world browser game where you roam a sprawling city, take on criminal missions, steal vehicles, and build your reputation from street-level nobody to the most feared gangster in town. The game features a large explorable map with multiple districts, each offering different mission types, vehicles to steal, and dangers to navigate.</p>
+
+<p>Missions range from simple delivery jobs and car thefts to more complex heists and gang territory takeovers. Completing missions earns you cash that you can spend on weapons, clothing, and upgrades. The open-world design means you can tackle missions in any order or simply cruise around the city causing chaos — the choice is yours. Police will chase you if your wanted level gets too high, adding a risk-reward element to every criminal act.</p>
+
+<p>The driving mechanics let you commandeer any vehicle you find on the streets, from sports cars to trucks. Each vehicle handles differently, and high-speed chases through city traffic are some of the game&#8217;s most thrilling moments. Combined with on-foot combat, a variety of weapons, and a progression system that rewards both mission completion and free-roaming exploration, Ace Gangster delivers a surprisingly deep open-world experience for a browser game.</p>
+
+<h2 class="wp-block-heading"><strong>How To Play Ace Gangster</strong></h2>
+
+<ul class="wp-block-list">
+<li>Use WASD or arrow keys to move your character on foot.</li>
+<li>Approach vehicles and press Enter to steal and drive them.</li>
+<li>Accept missions from NPCs to earn cash and build your reputation.</li>
+<li>Purchase weapons and upgrades with earned money.</li>
+<li>Avoid or outrun the police when your wanted level is high.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
 ];
+
 export function getGameBySlug(slug) {
   return games.find(g => g.slug === slug);
 }

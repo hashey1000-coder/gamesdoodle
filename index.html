@@ -37,7 +37,26 @@
     <!-- AdSense account verification -->
     <meta name="google-adsense-account" content="ca-pub-4556514294983969" />
 
-    <!-- GA + AdSense are loaded dynamically by CookieConsent after user acceptance -->
+    <!-- Consent Mode v2: set defaults BEFORE GA loads — denied until user chooses -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('consent', 'default', {
+        analytics_storage: 'denied',
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+        wait_for_update: 500
+      });
+    </script>
+    <!-- GA4 loads for everyone; cookieless modelled data collected even without consent -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LW3QVZF18T"></script>
+    <script>
+      gtag('js', new Date());
+      gtag('config', 'G-LW3QVZF18T', { send_page_view: false });
+    </script>
+
+    <!-- AdSense is loaded after cookie consent acceptance -->
 
     <!-- Preconnect to common embed origins for performance -->
     <link rel="dns-prefetch" href="https://www.google.com" />

@@ -1,5 +1,17 @@
-import { Routes, Route, useParams } from 'react-router-dom';
+import { Routes, Route, useParams, useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 import { ToastProvider } from './components/Toast';
+
+function GATracker() {
+  const location = useLocation();
+  useEffect(() => {
+    if (typeof window.gtag !== 'function') return;
+    window.gtag('event', 'page_view', {
+      page_path: location.pathname + location.search,
+    });
+  }, [location]);
+  return null;
+}
 import Header from './components/Header';
 import Footer from './components/Footer';
 import BackToTop from './components/BackToTop';
@@ -24,6 +36,7 @@ function TagRoute() {
 function App() {
   return (
     <ToastProvider>
+      <GATracker />
       <ScrollToTop />
       <div className="site-wrapper">
         <Header />

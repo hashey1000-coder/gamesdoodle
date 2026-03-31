@@ -81,9 +81,24 @@ staticSlugs.forEach(slug => {
   urls.push({ loc: `${SITE_URL}/${slug}/`, priority: '0.3', changefreq: 'monthly' });
 });
 
-// Game pages
+// Game pages — use each game's own dateModified for lastmod
+const gameEntries = [...content.matchAll(/slug:\s*'([^']+)'[\s\S]*?dateModified:\s*'([^']+)'/g)];
+const gameDateMap = {};
+gameEntries.forEach(m => {
+  const slug = m[1];
+  const dateModified = m[2].split('T')[0]; // extract YYYY-MM-DD
+  if (!catSlugs.includes(slug)) {
+    gameDateMap[slug] = dateModified;
+  }
+});
+
 gameSlugs.forEach(slug => {
-  urls.push({ loc: `${SITE_URL}/${slug}/`, priority: '0.7', changefreq: 'monthly' });
+  urls.push({
+    loc: `${SITE_URL}/${slug}/`,
+    priority: '0.7',
+    changefreq: 'monthly',
+    lastmod: gameDateMap[slug] || today,
+  });
 });
 
 // Build XML
@@ -91,7 +106,7 @@ const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map(u => `  <url>
     <loc>${u.loc}</loc>
-    <lastmod>${today}</lastmod>
+    <lastmod>${u.lastmod || today}</lastmod>
     <changefreq>${u.changefreq}</changefreq>
     <priority>${u.priority}</priority>
   </url>`).join('\n')}
