@@ -13,7 +13,12 @@ function readFavorites() {
 }
 
 export function useFavorites() {
-  const [favorites, setFavorites] = useState(readFavorites);
+  const [favorites, setFavorites] = useState([]);
+
+  // Load from localStorage after hydration to match SSR output (avoids hydration mismatch)
+  useEffect(() => {
+    setFavorites(readFavorites());
+  }, []);
 
   // Sync across tabs
   useEffect(() => {
