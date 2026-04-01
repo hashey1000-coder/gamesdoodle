@@ -1,33 +1,46 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 export default function AdBanner() {
   const containerRef = useRef(null);
-  const injected = useRef(false);
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    if (injected.current || !containerRef.current) return;
-    injected.current = true;
+    setMounted(true);
+  }, []);
+
+  useEffect(() => {
+    if (!mounted || !containerRef.current) return;
 
     const container = containerRef.current;
 
-    // Script 1: atOptions config
-    const s1 = document.createElement('script');
-    s1.text = `
-      atOptions = {
-        'key' : '8da1dfffd9bae34b245bf6bb08476e8c',
-        'format' : 'iframe',
-        'height' : 90,
-        'width' : 728,
-        'params' : {}
-      };
-    `;
-    container.appendChild(s1);
+    // atOptions config
+    window.atOptions = {
+      'key': '8da1dfffd9bae34b245bf6bb08476e8c',
+      'format': 'iframe',
+      'height': 90,
+      'width': 728,
+      'params': {},
+    };
 
-    // Script 2: invoke.js — ad iframe renders right here
-    const s2 = document.createElement('script');
-    s2.src = 'https://bigotliquidate.com/8da1dfffd9bae34b245bf6bb08476e8c/invoke.js';
-    container.appendChild(s2);
-  }, []);
+    // invoke.js uses document.write() to inject the iframe.
+    // Intercept it so the output lands in our container instead of nowhere.
+    const originalWrite = document.write.bind(document);
+    document.write = (html) => {
+      container.innerHTML += html;
+    };
+
+    const s = document.createElement('script');
+    s.src = 'https://bigotliquidate.com/8da1dfffd9bae34b245bf6bb08476e8c/invoke.js';
+    s.onload = () => { document.write = originalWrite; };
+    s.onerror = () => { document.write = originalWrite; };
+    container.appendChild(s);
+
+    return () => {
+      document.write = originalWrite;
+    };
+  }, [mounted]);
+
+  if (!mounted) return null;
 
   return (
     <div
