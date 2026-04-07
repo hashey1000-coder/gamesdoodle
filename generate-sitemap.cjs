@@ -44,16 +44,17 @@ catSlugs.forEach(cat => {
   categoryCounts[cat] = matches ? matches.length : 0;
 });
 
-const GAMES_PER_PAGE = 12;
+const GAMES_PER_PAGE = 48;
 
 let urls = [];
 
 // Homepage - highest priority
 urls.push({ loc: `${SITE_URL}/`, priority: '1.0', changefreq: 'daily' });
 
-// Top Games & New Games pages
+// Top Games, New Games & All Games pages
 urls.push({ loc: `${SITE_URL}/top-games/`, priority: '0.8', changefreq: 'daily' });
 urls.push({ loc: `${SITE_URL}/new-games/`, priority: '0.8', changefreq: 'daily' });
+urls.push({ loc: `${SITE_URL}/all-games/`, priority: '0.9', changefreq: 'daily' });
 
 // Category pages with pagination
 catSlugs.forEach(slug => {

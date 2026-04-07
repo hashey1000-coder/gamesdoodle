@@ -39,6 +39,7 @@ const routes = [
   '/',
   '/top-games/',
   '/new-games/',
+  '/all-games/',
   ...CAT_SLUGS.map(s => `/${s}/`),
   ...TAG_SLUGS.map(s => `/tag/${s}/`),
   ...STATIC_SLUGS.map(s => `/${s}/`),

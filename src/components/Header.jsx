@@ -10,6 +10,7 @@ const navLinks = [
   { to: '/google-easter-egg/', label: 'Easter Eggs' },
   { to: '/top-games/', label: 'Top Games' },
   { to: '/new-games/', label: 'New Games' },
+  { to: '/all-games/', label: 'All Games' },
 ];
 
 export default function Header() {

@@ -5,7 +5,7 @@ import GameCard from '../components/GameCard';
 import { getCategoryBySlug, getGamesByCategory } from '../data/games';
 import { useFavorites } from '../hooks/useFavorites';
 
-const GAMES_PER_PAGE = 12;
+const GAMES_PER_PAGE = 48;
 
 export default function CategoryPage({ slug }) {
   const [searchParams] = useSearchParams();

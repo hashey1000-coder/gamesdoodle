@@ -11,6 +11,7 @@ export default function Footer() {
         <div className="footer-links">
           <Link to="/top-games/">Top Games</Link>
           <Link to="/new-games/">New Games</Link>
+          <Link to="/all-games/">All Games A–Z</Link>
           <Link to="/about-us/">About Us</Link>
           <Link to="/privacy-policy/">Privacy Policy</Link>
           <Link to="/terms-of-service/">Terms of Service</Link>

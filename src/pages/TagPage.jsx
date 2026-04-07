@@ -5,7 +5,7 @@ import { getTagBySlug, getGamesByTag, tags } from '../data/games';
 import { useFavorites } from '../hooks/useFavorites';
 import { COLLECTIONS } from './CollectionPage';
 
-const GAMES_PER_PAGE = 12;
+const GAMES_PER_PAGE = 48;
 
 export default function TagPage({ slug }) {
   const [searchParams] = useSearchParams();
