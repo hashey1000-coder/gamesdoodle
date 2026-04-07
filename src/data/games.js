@@ -14506,7 +14506,7 @@ export const games = [
     metaDescription: 'Play Agent Walker vs Skibidi Toilets online free. Battle Skibidi Toilets as a Cameraman agent with a Walker companion in this action-packed 3D shooter.',
     category: 'online-games',
     tags: ['shooter'],
-    embedUrl: 'https://html5.gamedistribution.com/fe27fd48297444f3bf71cb1eb7d905e7/?gd_sdk_referrer_url=https://gamesdoodle.org/agent-walker-vs-skibidi-toilets/',
+    embedUrl: 'https://ubgwtf.gitlab.io/agent-walker-vs-skibidi-toilets/',
     thumbnail: '/images/agent-walker-vs-skibidi-toilets.webp',
     relatedSlugs: ['rooftop-snipers', 'crazy-cars'],
     excerpt: 'Agent Walker vs Skibidi Toilets is a 3D action shooter where you play as a Cameraman agent battling Skibidi Toilets with machine guns, miniguns, and grenade launchers.',
