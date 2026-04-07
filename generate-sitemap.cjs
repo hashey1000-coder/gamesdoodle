@@ -37,15 +37,6 @@ const collectionSlugs = [
 ];
 
 // Count games per category for pagination
-const categoryCounts = {};
-catSlugs.forEach(cat => {
-  const regex = new RegExp(`category: '${cat}'`, 'g');
-  const matches = content.match(regex);
-  categoryCounts[cat] = matches ? matches.length : 0;
-});
-
-const GAMES_PER_PAGE = 48;
-
 let urls = [];
 
 // Homepage - highest priority
@@ -56,14 +47,9 @@ urls.push({ loc: `${SITE_URL}/top-games/`, priority: '0.8', changefreq: 'daily' 
 urls.push({ loc: `${SITE_URL}/new-games/`, priority: '0.8', changefreq: 'daily' });
 urls.push({ loc: `${SITE_URL}/all-games/`, priority: '0.9', changefreq: 'daily' });
 
-// Category pages with pagination
+// Category pages (no pagination in sitemap — wastes crawl budget)
 catSlugs.forEach(slug => {
   urls.push({ loc: `${SITE_URL}/${slug}/`, priority: '0.8', changefreq: 'weekly' });
-  
-  const totalPages = Math.ceil(categoryCounts[slug] / GAMES_PER_PAGE);
-  for (let page = 2; page <= totalPages; page++) {
-    urls.push({ loc: `${SITE_URL}/${slug}/?page=${page}`, priority: '0.5', changefreq: 'weekly' });
-  }
 });
 
 // Tag pages
@@ -93,11 +79,33 @@ gameEntries.forEach(m => {
   }
 });
 
+// High-priority games (featured + popular) get 0.9, pinned get 0.8, rest get 0.7
+const highPrioritySlugs = new Set([
+  // Featured
+  'dinosaur-game', 'google-cricket', 'quick-draw', 'flip-a-coin',
+  'google-pacman', 'google-tic-tac-toe', 'google-solitaire', 'google-feud',
+  'google-minesweeper', 'doodle-baseball', 'google-snake', 'memory-game', 'google-dreidel',
+  // Popular
+  'run-3', '1v1-lol', 'slope', 'subway-surfers', 'cookie-clicker',
+  'basketball-stars', 'paper-io-2', 'among-us', 'crossy-road', 'cut-the-rope',
+  'flappy-bird', 'geometry-dash', 'retro-bowl', 'smash-karts', 'moto-x3m',
+  'happy-wheels', 'bloxd-io', 'hole-io', 'drive-mad', 'temple-run-2',
+]);
+
+// Detect pinned games from source
+const pinnedSlugs = new Set(
+  [...content.matchAll(/slug:\s*'([^']+)'[\s\S]*?pinned:\s*true/g)].map(m => m[1])
+);
+
 gameSlugs.forEach(slug => {
+  let priority = '0.7';
+  if (highPrioritySlugs.has(slug)) priority = '0.9';
+  else if (pinnedSlugs.has(slug)) priority = '0.8';
+
   urls.push({
     loc: `${SITE_URL}/${slug}/`,
-    priority: '0.7',
-    changefreq: 'monthly',
+    priority,
+    changefreq: 'weekly',
     lastmod: gameDateMap[slug] || today,
   });
 });
@@ -125,7 +133,7 @@ if (fs.existsSync(path.join(__dirname, 'dist'))) {
 
 console.log(`Sitemap generated: ${urls.length} URLs`);
 console.log(`  - 1 homepage`);
-console.log(`  - ${catSlugs.length} category pages + pagination`);
+console.log(`  - ${catSlugs.length} category pages`);
 console.log(`  - ${tagSlugs.length} tag pages`);
 console.log(`  - ${gameSlugs.length} game pages`);
 console.log(`  Written to: ${publicPath}`);
