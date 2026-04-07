@@ -14106,6 +14106,449 @@ export const games = [
 </ul>
 <!-- CONTENT END 1 -->`,
   },
+  // ── New games added 2026-04-07 ──
+  {
+    slug: 'ace-gangster-2',
+    datePublished: '2026-04-07T10:00:00+00:00',
+    dateModified: '2026-04-07T10:00:00+00:00',
+    dateAdded: '2026-04-07',
+    title: 'Ace Gangster 2 – Play the Open-World Crime Game Online Free',
+    metaDescription: 'Play Ace Gangster 2 online free. Explore a sprawling city, complete criminal missions, hijack vehicles, and build your reputation in this GTA-inspired browser game.',
+    category: 'online-games',
+    tags: ['arcade', 'shooter'],
+    embedUrl: 'https://www.archive.play-games.com/games/waflash/?swf=AceGangsterTaxi.swf&name=Ace%20Gangster%20Taxi',
+    thumbnail: '/images/ace-gangster-2.webp',
+    relatedSlugs: ['ace-gangster', 'ace-gangster-taxi', 'crazy-cars'],
+    excerpt: 'Ace Gangster 2 is a GTA-inspired open-world crime game where you complete missions, steal vehicles, and dominate the city\'s criminal underworld.',
+    content: `<p>Ace Gangster 2 drops you back into a sprawling urban playground where crime pays — if you can survive long enough to enjoy the rewards. This sequel to the popular Ace Gangster expands on everything that made the original great, with a bigger city, more missions, and even more vehicles to commandeer as you climb the criminal ladder from street-level nobody to the most feared gangster in town.</p>
+<p>The game features a wide variety of missions including bank heists, vehicle pursuits, territory takeovers, and delivery runs. Each completed mission earns cash that you can spend on better weapons, flashy clothes, and vehicle upgrades. The open-world design gives you complete freedom — follow the mission path or simply cruise around causing chaos. Police will chase you if your wanted level spikes, adding genuine tension to every criminal act.</p>
+<p>With improved driving mechanics, a wider arsenal of weapons, and a deeper progression system, Ace Gangster 2 delivers one of the best GTA-style experiences available in a browser. The retro Flash art style gives the game its own personality, and the responsive controls make both on-foot and vehicular gameplay satisfying.</p>
+<h2 class="wp-block-heading"><strong>How To Play Ace Gangster 2</strong></h2>
+<ul class="wp-block-list">
+<li>Use WASD or arrow keys to move your character on foot.</li>
+<li>Press Enter near vehicles to hijack and drive them.</li>
+<li>Click to shoot — buy better weapons from the shop.</li>
+<li>Accept missions from NPCs marked on the mini-map.</li>
+<li>Manage your wanted level to avoid police chases.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'ace-gangster-taxi',
+    datePublished: '2026-04-07T10:00:00+00:00',
+    dateModified: '2026-04-07T10:00:00+00:00',
+    dateAdded: '2026-04-07',
+    title: 'Ace Gangster Taxi Metroville City – Play Free Online',
+    metaDescription: 'Play Ace Gangster Taxi Metroville City online free. Drive a taxi through a crime-filled city, pick up passengers, earn money, and navigate the dangerous streets.',
+    category: 'online-games',
+    tags: ['arcade', 'racing'],
+    embedUrl: 'https://unblockedgames.blogbucket.org/fplayer/part2/Ace-Gangster-Taxi.html',
+    thumbnail: '/images/Ace-Gangster-Taxi Metroville-City.webp',
+    relatedSlugs: ['ace-gangster', 'ace-gangster-2', 'crazy-cars'],
+    excerpt: 'Ace Gangster Taxi puts you behind the wheel of a cab in Metroville City. Pick up passengers, earn cash, dodge traffic, and survive in a crime-ridden metropolis.',
+    content: `<p>Ace Gangster Taxi Metroville City combines the open-world freedom of the Ace Gangster series with taxi-driving gameplay. You play as a cab driver navigating the crime-filled streets of Metroville, picking up passengers, racing against the clock to deliver them to their destinations, and earning cash to upgrade your vehicle and unlock new areas of the city.</p>
+<p>The city is alive with traffic, pedestrians, and hazards. You need to balance speed with safety — driving recklessly will damage your cab and cost you repair money, but driving too slowly means losing fares to rival taxis. The map is large and varied, featuring downtown districts, industrial zones, suburbs, and waterfront areas, each with their own challenges and passenger types.</p>
+<p>As you progress, you can purchase better vehicles with faster speeds and tighter handling. The game's economy rewards consistent play, with bonuses for perfect deliveries, chain fares, and discovering shortcut routes through the city. It's Crazy Taxi meets GTA in a fun, accessible browser package.</p>
+<h2 class="wp-block-heading"><strong>How To Play Ace Gangster Taxi</strong></h2>
+<ul class="wp-block-list">
+<li>Use WASD or arrow keys to drive your taxi.</li>
+<li>Stop near highlighted passengers to pick them up.</li>
+<li>Follow the arrow or mini-map to the drop-off location.</li>
+<li>Earn cash for quick, safe deliveries.</li>
+<li>Refuel at gas stations to keep driving.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'acid-factory',
+    datePublished: '2026-04-07T10:00:00+00:00',
+    dateModified: '2026-04-07T10:00:00+00:00',
+    dateAdded: '2026-04-07',
+    title: 'Acid Factory – Play the Platformer Escape Game Online Free',
+    metaDescription: 'Play Acid Factory online free. Navigate dangerous levels, avoid acid spills, gas leaks, and mutated workers as you escape the chemical plant disaster.',
+    category: 'online-games',
+    tags: ['platformer', 'puzzle'],
+    embedUrl: 'https://www.play-games.com/iframe/32546.html',
+    thumbnail: '/images/acid-factory.webp',
+    relatedSlugs: ['fireboy-and-watergirl', 'vex-3', 'run-3'],
+    excerpt: 'Acid Factory is a platformer where you guide Harry through a destroyed chemical plant, dodging acid spills, toxic gas, mutated workers, and malfunctioning robots.',
+    content: `<p>Acid Factory follows Harry, an ordinary employee at Toxichem Inc., after a catastrophic explosion rips through the chemical plant. The facility is now flooded with corrosive acid, leaking toxic gases, and overrun with mutated workers and haywire robots. Your job is simple: guide Harry through each level and get him out alive.</p>
+<p>Each level is a carefully designed puzzle-platformer challenge. You need to time your jumps over acid pools, duck under swinging hazards, collect batteries to power lifts and doors, and outrun rising acid levels in timed escape sequences. The pixel art style gives the game a retro charm, while the level design keeps the difficulty escalating at a satisfying pace.</p>
+<p>The game features multiple worlds with unique themes — from the factory floor to underground tunnels to the rooftop escape. Boss encounters pit you against massive mutated creatures that require pattern recognition and quick reflexes to defeat. With tight controls and creative obstacles, Acid Factory delivers a polished platforming experience.</p>
+<h2 class="wp-block-heading"><strong>How To Play Acid Factory</strong></h2>
+<ul class="wp-block-list">
+<li>Use arrow keys or WASD to move and jump.</li>
+<li>Collect batteries to power doors and elevators.</li>
+<li>Avoid acid pools, toxic gas clouds, and enemies.</li>
+<li>Time your jumps carefully on moving platforms.</li>
+<li>Reach the exit door before the acid level rises.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'adventure-capitalist',
+    datePublished: '2026-04-07T10:00:00+00:00',
+    dateModified: '2026-04-07T10:00:00+00:00',
+    dateAdded: '2026-04-07',
+    title: 'Adventure Capitalist – Play the Idle Business Tycoon Game Free',
+    metaDescription: 'Play Adventure Capitalist online free. Start with a lemonade stand, hire managers, attract angel investors, and build a business empire spanning Earth, Moon, and Mars.',
+    category: 'online-games',
+    tags: ['simulation'],
+    embedUrl: 'https://ubg76.gitlab.io/adventure-capitalist/',
+    thumbnail: '/images/adventure-capitalist.webp',
+    relatedSlugs: ['cookie-clicker', '2048', 'google-feud'],
+    excerpt: 'Adventure Capitalist is the world\'s greatest capitalism simulator. Start with a lemonade stand and build a business empire that spans planets.',
+    content: `<p>Adventure Capitalist is the idle clicker game that defined a genre. You start with a single lemonade stand and a dream. Click to earn your first dollars, then reinvest profits into upgrading your business. Before long, you own newspaper stands, car washes, pizza deliveries, donut shops, shrimp boats, hockey teams, movie studios, and banks — each generating income on its own timer.</p>
+<p>The genius of Adventure Capitalist lies in its progression loop. Hire managers to automate each business so income flows even when you're not clicking. Attract angel investors by resetting your progress for permanent multipliers that make your next run exponentially more profitable. The numbers grow from dollars to millions to billions to untrigintillions — and somehow it never stops feeling satisfying.</p>
+<p>Once you've conquered Earth's economy, expand to the Moon and Mars, each with their own unique businesses, managers, and upgrade paths. The game features regular events with limited-time businesses and exclusive rewards. Adventure Capitalist is the perfect idle game — deep enough to strategize, simple enough to check in on for a few minutes, and endlessly rewarding as the numbers climb ever higher.</p>
+<h2 class="wp-block-heading"><strong>How To Play Adventure Capitalist</strong></h2>
+<ul class="wp-block-list">
+<li>Click on businesses to earn money manually.</li>
+<li>Buy upgrades to increase profit per click.</li>
+<li>Hire managers to automate each business.</li>
+<li>Attract angel investors by resetting for permanent multipliers.</li>
+<li>Expand to the Moon and Mars for new business types.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'adventure-time-character-creator',
+    datePublished: '2026-04-07T10:00:00+00:00',
+    dateModified: '2026-04-07T10:00:00+00:00',
+    dateAdded: '2026-04-07',
+    title: 'Adventure Time Character Creator – Design Your Own Character Free',
+    metaDescription: 'Play Adventure Time Character Creator online free. Design your own Adventure Time character with custom outfits, hairstyles, accessories, and backgrounds.',
+    category: 'online-games',
+    tags: ['music-and-creative'],
+    embedUrl: '/roms/adventure_time_character_creator.swf',
+    thumbnail: '/images/adventure-time-character-creator.webp',
+    relatedSlugs: ['adventure-time-princess-maker', 'google-quick-draw'],
+    excerpt: 'Create your own Adventure Time character with custom outfits, hairstyles, accessories, and backgrounds in this Cartoon Network dress-up game.',
+    content: `<p>Adventure Time Character Creator lets you design your very own character in the iconic style of the beloved Cartoon Network show. Choose from a wide selection of body types, skin colours, hairstyles, outfits, accessories, weapons, and backgrounds to create a unique inhabitant of the Land of Ooo.</p>
+<p>The creator features dozens of clothing options inspired by characters from the show — Finn's hat, Jake's stretchy limbs, Princess Bubblegum's crown, Marceline's axe bass, and more. Mix and match items freely to create original characters or recreate your favourite heroes and villains from the series. The drag-and-drop interface makes it easy to experiment with different looks.</p>
+<p>Once you're happy with your creation, you can save a screenshot to share with friends. The art style perfectly captures the show's distinctive look, with clean lines, bold colours, and that signature Adventure Time charm. Whether you're a die-hard fan of the show or just enjoy creative dress-up games, this character creator provides a fun, relaxing creative outlet.</p>
+<h2 class="wp-block-heading"><strong>How To Play Adventure Time Character Creator</strong></h2>
+<ul class="wp-block-list">
+<li>Click through the category tabs to browse items.</li>
+<li>Click on items to add them to your character.</li>
+<li>Drag items to reposition them on the character.</li>
+<li>Use the colour picker to customise skin and hair colours.</li>
+<li>Take a screenshot to save your finished character.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'adventure-time-princess-maker',
+    datePublished: '2026-04-07T10:00:00+00:00',
+    dateModified: '2026-04-07T10:00:00+00:00',
+    dateAdded: '2026-04-07',
+    title: 'Adventure Time Princess Maker – Create Your Own Princess Free',
+    metaDescription: 'Play Adventure Time Princess Maker online free. Design your own magical princess with fantasy outfits, hairstyles, crowns, and accessories.',
+    category: 'online-games',
+    tags: ['music-and-creative'],
+    embedUrl: '/roms/9644-adventure-time-princess-maker.swf',
+    thumbnail: '/images/adventure-time-princess-maker.webp',
+    relatedSlugs: ['adventure-time-character-creator', 'google-quick-draw'],
+    excerpt: 'Design your own magical Adventure Time princess with fantasy skin tones, hairstyles, dresses, crowns, and accessories in this creative dress-up game.',
+    content: `<p>Adventure Time Princess Maker is a polished dress-up game set in the Land of Ooo. Create your own royal character using a huge collection of fantasy-themed items — from elegant ball gowns and battle armour to magical staffs and enchanted crowns. The game captures the whimsical art style of the show perfectly.</p>
+<p>Choose from a variety of fantasy skin tones including classic colours and magical shades like purple, blue, and green. Layer on hairstyles ranging from simple ponytails to elaborate fantasy updos, then dress your princess in dozens of outfit options. Accessories include wings, jewellery, pets, and magical items that give your princess a unique personality.</p>
+<p>The background selection lets you place your princess in iconic Adventure Time locations — the Candy Kingdom, the Ice Kingdom, the Grasslands, and more. The intuitive drag-and-drop interface makes designing easy, while the enormous item library means you can create hundreds of unique princess designs. Save your favourites and share them with friends.</p>
+<h2 class="wp-block-heading"><strong>How To Play Adventure Time Princess Maker</strong></h2>
+<ul class="wp-block-list">
+<li>Browse item categories using the tabs on the side.</li>
+<li>Click items to add them to your princess.</li>
+<li>Choose skin tones and hair colours from the palette.</li>
+<li>Select a background to complete the scene.</li>
+<li>Screenshot your creation to save and share it.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'adventures-in-ponyville',
+    datePublished: '2026-04-07T10:00:00+00:00',
+    dateModified: '2026-04-07T10:00:00+00:00',
+    dateAdded: '2026-04-07',
+    title: 'Adventures In Ponyville – Play the My Little Pony Game Free',
+    metaDescription: 'Play Adventures In Ponyville online free. Explore Ponyville, interact with pony characters, complete quests, and help prepare for the Summer Sun Celebration.',
+    category: 'online-games',
+    tags: ['simulation'],
+    embedUrl: 'https://cartoongames.io/embed/game/explore-ponyville',
+    thumbnail: '/images/adventures-in-ponyville.webp',
+    relatedSlugs: ['adventure-time-character-creator', 'adventure-time-princess-maker'],
+    excerpt: 'Adventures In Ponyville is a My Little Pony adventure game where you explore the town, interact with characters, and help prepare for the Summer Sun Celebration.',
+    content: `<p>Adventures In Ponyville is a fan recreation of the beloved My Little Pony Flash game originally hosted by Hasbro. Explore the colourful town of Ponyville, interact with iconic pony characters, and complete quests to help prepare for the grand Summer Sun Celebration.</p>
+<p>The game features a charming point-and-click adventure format where you visit different locations around Ponyville — Sweet Apple Acres, Sugarcube Corner, the Carousel Boutique, and more. Each location has its own mini-game or quest that rewards you with items needed for the celebration. The gentle gameplay and bright visuals make it perfect for younger players and fans of the franchise.</p>
+<p>Meet beloved characters including Twilight Sparkle, Rainbow Dash, Pinkie Pie, Applejack, Rarity, and Fluttershy — each with their own personality and quest line. The game captures the warmth and friendship themes of the show while providing enough interactive content to keep you engaged. This Scratch recreation preserves the magic of the original game that was taken offline when Hasbro retired it.</p>
+<h2 class="wp-block-heading"><strong>How To Play Adventures In Ponyville</strong></h2>
+<ul class="wp-block-list">
+<li>Click on locations to visit different areas of Ponyville.</li>
+<li>Talk to pony characters to receive quests.</li>
+<li>Complete mini-games to earn items and rewards.</li>
+<li>Collect everything needed for the Summer Sun Celebration.</li>
+<li>Explore all areas to discover hidden secrets.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'adventures-in-wonderland',
+    datePublished: '2026-04-07T10:00:00+00:00',
+    dateModified: '2026-04-07T10:00:00+00:00',
+    dateAdded: '2026-04-07',
+    title: 'Adventures In Wonderland – Play the Alice Puzzle Game Free',
+    metaDescription: 'Play Adventures In Wonderland online free. Guide Alice through Wonderland solving puzzles, navigating mazes, and meeting iconic characters from Lewis Carroll\'s world.',
+    category: 'online-games',
+    tags: ['puzzle', 'platformer'],
+    embedUrl: 'https://www.archive.play-games.com/games/ruffle/?swf=nick/WonderPets/wond_wonderland/WP_wonderland_main.swf&name=Wonder%20Pets%3A%20Adventures%20in%20Wonderland',
+    thumbnail: '/images/adventures-in-wonderland.webp',
+    relatedSlugs: ['fireboy-and-watergirl', 'run-3', 'acid-factory'],
+    excerpt: 'Adventures In Wonderland is an Alice-themed puzzle adventure game. Guide Alice through Wonderland, solve puzzles, and meet iconic characters from Lewis Carroll\'s classic.',
+    content: `<p>Adventures In Wonderland brings Lewis Carroll's timeless story to life as an interactive puzzle-adventure game. Follow Alice as she tumbles down the rabbit hole into a world of wonder, meeting the Cheshire Cat, the Mad Hatter, the Queen of Hearts, and other beloved characters along the way.</p>
+<p>Each chapter presents new environments and puzzle types — navigate the hedge maze of the Queen's garden, solve riddles at the Mad Hatter's tea party, play croquet with flamingos, and shrink or grow by consuming magical mushrooms and potions. The puzzles range from logic challenges to timed platforming sequences, keeping the gameplay varied and engaging.</p>
+<p>The game features beautiful illustrated environments that capture the surreal, dreamlike quality of Wonderland. The attention to detail in character design and scene composition creates an immersive experience that fans of the original story will appreciate. With multiple chapters and hidden collectibles, Adventures In Wonderland offers hours of whimsical puzzle-solving entertainment.</p>
+<h2 class="wp-block-heading"><strong>How To Play Adventures In Wonderland</strong></h2>
+<ul class="wp-block-list">
+<li>Use arrow keys or click to guide Alice through each scene.</li>
+<li>Interact with characters to receive clues and riddles.</li>
+<li>Solve puzzles to unlock new areas of Wonderland.</li>
+<li>Collect special items to progress through the story.</li>
+<li>Watch for hidden paths and secret areas.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'adventures-with-anxiety',
+    datePublished: '2026-04-07T10:00:00+00:00',
+    dateModified: '2026-04-07T10:00:00+00:00',
+    dateAdded: '2026-04-07',
+    title: 'Adventures With Anxiety – Play the Interactive Story Game Free',
+    metaDescription: 'Play Adventures With Anxiety online free. An interactive story about anxiety where you play as a wolf trying to protect your human through humorous branching choices.',
+    category: 'online-games',
+    tags: ['puzzle'],
+    embedUrl: 'https://ncase.me/anxiety/',
+    thumbnail: '/images/adventures-with-anxiety.webp',
+    relatedSlugs: ['google-feud', 'akinator'],
+    excerpt: 'Adventures With Anxiety is an interactive story game where you play as anxiety itself — a hyperactive wolf trying to protect your human through humorous branching choices.',
+    content: `<p>Adventures With Anxiety is a unique interactive story game by Nicky Case that explores how anxiety works — with humor, stick figures, and a hyperactive wolf. Instead of playing as a person dealing with anxiety, you play as the anxiety itself: a well-meaning but overprotective wolf who just wants to keep their human safe.</p>
+<p>The game presents branching dialogue choices where you decide how to "protect" your human in various social situations — a house party, a job interview, a relationship conversation. Your choices determine whether the human learns to manage their anxiety or spirals into avoidance. The writing is sharp, funny, and surprisingly insightful about the mechanics of anxiety disorders.</p>
+<p>Created by Nicky Case (known for interactive explainers like "The Evolution of Trust"), the game uses simple animations and a conversational tone to tackle heavy subject matter without being preachy. Multiple playthroughs reveal different endings and insights. It's a short experience (about 30 minutes) but one that resonates deeply with anyone who has dealt with anxiety. Content note: includes references to alcohol, relationships, and strong language.</p>
+<h2 class="wp-block-heading"><strong>How To Play Adventures With Anxiety</strong></h2>
+<ul class="wp-block-list">
+<li>Read the dialogue as the story unfolds.</li>
+<li>Choose from branching options to guide the wolf's behaviour.</li>
+<li>Your choices affect how the human responds to anxiety.</li>
+<li>Play through multiple times to see different endings.</li>
+<li>Reflect on the insights about how anxiety works.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'afton-nightmare',
+    datePublished: '2026-04-07T10:00:00+00:00',
+    dateModified: '2026-04-07T10:00:00+00:00',
+    dateAdded: '2026-04-07',
+    title: 'Afton Nightmare – Play the FNAF Horror Game Online Free',
+    metaDescription: 'Play Afton Nightmare online free. A Five Nights at Freddy\'s fan game featuring William Afton and nightmare animatronics in a terrifying horror rhythm experience.',
+    category: 'online-games',
+    tags: ['arcade'],
+    embedUrl: 'https://fngames.io/aftons-nightmare.embed',
+    thumbnail: '/images/afton-nightmare.webp',
+    relatedSlugs: ['friday-night-funkin', 'granny'],
+    excerpt: 'Afton Nightmare is a FNAF-inspired horror game featuring William Afton and nightmare animatronics. Survive the night in this terrifying fan-made experience.',
+    content: `<p>Afton Nightmare is a fan-made horror game inspired by the Five Nights at Freddy's universe, featuring the infamous William Afton and the terrifying Nightmare animatronics. Built on Scratch, this game captures the dread and tension of the FNAF franchise in an accessible browser format.</p>
+<p>The game combines elements from Friday Night Funkin' with FNAF lore, creating a unique rhythm-horror hybrid. Face off against nightmare versions of beloved animatronic characters in intense musical battles. Each opponent has their own song patterns and difficulty level, requiring you to hit notes precisely while the unsettling atmosphere builds around you.</p>
+<p>The pixel art and sprite work pay homage to both FNAF and FNF communities, with detailed character designs that capture the menacing presence of the Nightmare animatronics. The soundtrack features original compositions that blend catchy rhythms with eerie undertones. Multiple difficulty levels make the game accessible to newcomers while providing a genuine challenge for experienced rhythm game players.</p>
+<h2 class="wp-block-heading"><strong>How To Play Afton Nightmare</strong></h2>
+<ul class="wp-block-list">
+<li>Use the arrow keys to hit notes as they scroll across the screen.</li>
+<li>Match the rhythm pattern to outperform your opponent.</li>
+<li>Watch your health bar — missing too many notes means game over.</li>
+<li>Progress through different songs and opponents.</li>
+<li>Try higher difficulty modes for a greater challenge.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'agario-sigmally',
+    datePublished: '2026-04-07T10:00:00+00:00',
+    dateModified: '2026-04-07T10:00:00+00:00',
+    dateAdded: '2026-04-07',
+    title: 'Agario Sigmally – Play the Agar.io Alternative Online Free',
+    metaDescription: 'Play Agario Sigmally online free. A popular Agar.io alternative with custom skins, tournaments, and smooth multiplayer cell-eating gameplay.',
+    category: 'online-games',
+    tags: ['io'],
+    embedUrl: 'https://one.sigmally.com/',
+    thumbnail: '/images/agario-sigmally.webp',
+    relatedSlugs: ['agario', 'slither-io', 'hole-io'],
+    excerpt: 'Sigmally is a popular Agar.io alternative featuring custom skins, Google sign-in, tournaments, and smooth multiplayer cell-eating gameplay.',
+    content: `<p>Agario Sigmally is one of the most popular alternatives to the classic Agar.io, offering the same addictive cell-eating gameplay with modern features, custom skins, and a thriving competitive community. Enter the arena as a tiny cell and consume smaller cells to grow, while avoiding being eaten by larger players — it's the circle of life, browser-game style.</p>
+<p>What sets Sigmally apart from the original Agar.io is its feature set. Sign in with Google to save your progress, customize your cell with unique skins, compete in organized tournaments, and climb the global leaderboards. The game runs smoothly with minimal lag, and the servers handle hundreds of concurrent players across multiple regions.</p>
+<p>Advanced techniques like splitting, ejecting mass, and virus feeding add layers of strategy beyond simple eat-or-be-eaten gameplay. Experienced players use these mechanics to execute impressive takedowns of much larger opponents. The community is active with regular events and seasonal content. Whether you're a casual player looking for quick fun or a competitive gamer chasing leaderboard positions, Sigmally delivers a polished .io experience.</p>
+<h2 class="wp-block-heading"><strong>How To Play Agario Sigmally</strong></h2>
+<ul class="wp-block-list">
+<li>Move your mouse to control your cell's direction.</li>
+<li>Eat smaller cells and pellets to grow larger.</li>
+<li>Avoid larger cells — they can eat you.</li>
+<li>Press Space to split your cell for offensive plays.</li>
+<li>Press W to eject mass — use it to feed allies or viruses.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'age-of-defense-2',
+    datePublished: '2026-04-07T10:00:00+00:00',
+    dateModified: '2026-04-07T10:00:00+00:00',
+    dateAdded: '2026-04-07',
+    title: 'Age Of Defense 2 – Play the Strategy Tower Defense Game Free',
+    metaDescription: 'Play Age Of Defense 2 online free. Battle through 40 levels across 8 historical ages with 32 characters, 37 weapons, and powerful spells in this action-packed tower defense.',
+    category: 'online-games',
+    tags: ['strategy'],
+    embedUrl: 'https://www.play-games.com/iframe/4786.html',
+    thumbnail: '/images/age-of-defense-2.webp',
+    relatedSlugs: ['age-of-war', 'age-of-war-2-hacked', 'bloons-td'],
+    excerpt: 'Age Of Defense 2 is a strategy tower defense game where you battle through 40 levels across 8 ages with 32 characters, 37 weapons, and powerful spells.',
+    content: `<p>Age Of Defense 2 is an action-packed tower defense game that spans the entirety of human history — and beyond. Battle through 40 increasingly challenging levels across 8 different historical ages, from the prehistoric era with clubs and rocks to the futuristic age with laser guns and mechs. Each age introduces new units, weapons, and abilities.</p>
+<p>The game features 32 unique characters to recruit and upgrade, each with their own combat style and special abilities. Pair them with 37 different weapons ranging from primitive spears to futuristic energy blasters. Strategic spell usage adds another layer — rain fire on enemy waves, freeze advancing troops, or heal your defenders at critical moments. With 34 achievements to unlock, there's always a new goal to chase.</p>
+<p>The visual effects are impressive for a Flash game, with detailed character animations, dramatic spell effects, and satisfying destruction. The difficulty curve is well-tuned, introducing new enemy types and requiring different strategies as you progress through the ages. Each age feels genuinely distinct, with unique art, music, and gameplay challenges that keep the experience fresh across all 40 levels.</p>
+<h2 class="wp-block-heading"><strong>How To Play Age Of Defense 2</strong></h2>
+<ul class="wp-block-list">
+<li>Place defensive units along the path to stop enemy waves.</li>
+<li>Upgrade units between rounds with earned gold.</li>
+<li>Use spells strategically to turn the tide of battle.</li>
+<li>Advance through ages to unlock new units and weapons.</li>
+<li>Complete challenges to earn achievement badges.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'age-of-war-2-hacked',
+    datePublished: '2026-04-07T10:00:00+00:00',
+    dateModified: '2026-04-07T10:00:00+00:00',
+    dateAdded: '2026-04-07',
+    title: 'Age Of War 2 Hacked – Play With Unlimited Money Free',
+    metaDescription: 'Play Age Of War 2 Hacked online free. Enjoy the classic strategy game with unlimited money — build armies, evolve through ages, and crush the enemy base.',
+    category: 'online-games',
+    tags: ['strategy'],
+    embedUrl: 'https://www.archive.play-games.com/emulators/avm2/?swf=ageofwar/2.swf&name=Age%20of%20War%202',
+    thumbnail: '/images/age-of-war-2-hacked.webp',
+    relatedSlugs: ['age-of-war', 'age-of-defense-2', 'bloons-td'],
+    excerpt: 'Age Of War 2 Hacked lets you play the beloved strategy game with unlimited resources. Build massive armies, evolve through ages, and obliterate the enemy.',
+    content: `<p>Age Of War 2 Hacked gives you the full experience of the legendary strategy game with the added fun of unlimited money. Build turrets, spawn soldiers, evolve through different historical ages, and crush the enemy base before they destroy yours — all without worrying about resource management.</p>
+<p>The hacked version lets you experiment freely with unit compositions and strategies. Spawn armies of cavemen alongside futuristic mech warriors, build walls of turrets, and use special abilities without waiting for cooldowns. It's the perfect way to explore all the content the game has to offer, discover which units are the most powerful, and create hilariously overpowered armies.</p>
+<p>Age Of War 2 features improved graphics, more unit types, and deeper strategic options compared to the original. The evolution mechanic is the star — progress from the Stone Age through the Middle Ages, Industrial era, and into the future, with each age bringing new soldiers, turrets, and a devastating super attack. The hacked version turns an already great strategy game into an unbridled power fantasy.</p>
+<h2 class="wp-block-heading"><strong>How To Play Age Of War 2 Hacked</strong></h2>
+<ul class="wp-block-list">
+<li>Click unit icons to spawn soldiers that march toward the enemy base.</li>
+<li>Build and upgrade turrets to defend your base.</li>
+<li>Earn experience to evolve to the next age.</li>
+<li>Use your special attack when the meter is full.</li>
+<li>Destroy the enemy base while protecting your own.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'agent-p-rebel-spy',
+    datePublished: '2026-04-07T10:00:00+00:00',
+    dateModified: '2026-04-07T10:00:00+00:00',
+    dateAdded: '2026-04-07',
+    title: 'Agent P Rebel Spy – Play the Perry the Platypus Game Free',
+    metaDescription: 'Play Agent P Rebel Spy online free. Control Perry the Platypus on secret spy missions, battle Dr. Doofenshmirtz, and save the day in this Phineas and Ferb action game.',
+    category: 'online-games',
+    tags: ['arcade', 'platformer'],
+    embedUrl: 'https://play.disney.com/html5/phf_spl_plt_agentprebelspy/#false',
+    thumbnail: '/images/agent-p-rebel-spy.webp',
+    relatedSlugs: ['adventure-time-character-creator', 'run-3'],
+    excerpt: 'Agent P Rebel Spy puts you in control of Perry the Platypus on secret spy missions to stop Dr. Doofenshmirtz in this Phineas and Ferb action game.',
+    content: `<p>Agent P Rebel Spy is a Disney action game from the Phineas and Ferb franchise. Play as Agent P — Perry the Platypus — the seemingly ordinary pet who secretly works as a top agent for the O.W.C.A. (Organization Without a Cool Acronym). Your mission: stop Dr. Doofenshmirtz's latest evil scheme before it's too late.</p>
+<p>Navigate through multiple levels of the Doofenshmirtz Evil Incorporated building, using Agent P's spy gadgets and combat skills to defeat robot minions, dodge laser traps, and solve environmental puzzles. Each level introduces new obstacles and enemy types, keeping the gameplay fresh as you climb toward the final showdown with the bumbling evil scientist.</p>
+<p>The game captures the humor and charm of the TV show perfectly, with authentic character designs, witty dialogue, and that signature Phineas and Ferb art style. Perry's animations are fluid and fun to watch, from his signature hat-tip to his combat moves. It's a polished, family-friendly action game that fans of the show will love and newcomers will enjoy for its tight gameplay.</p>
+<h2 class="wp-block-heading"><strong>How To Play Agent P Rebel Spy</strong></h2>
+<ul class="wp-block-list">
+<li>Use arrow keys to move Agent P through each level.</li>
+<li>Press Space to attack enemies and break obstacles.</li>
+<li>Collect gadgets and power-ups along the way.</li>
+<li>Dodge lasers, traps, and enemy attacks.</li>
+<li>Defeat Dr. Doofenshmirtz in the final boss battle.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'agent-sprunkis',
+    datePublished: '2026-04-07T10:00:00+00:00',
+    dateModified: '2026-04-07T10:00:00+00:00',
+    dateAdded: '2026-04-07',
+    title: 'Agent Sprunkis – Play the Secret Agent Music Maker Game Free',
+    metaDescription: 'Play Agent Sprunkis online free. Create music by dragging spy-themed characters onto the stage in this secret agent themed Sprunki music mod.',
+    category: 'online-games',
+    tags: ['music-and-creative'],
+    embedUrl: 'https://scratch.mit.edu/projects/1108621293/embed',
+    thumbnail: '/images/agent-sprunkis.webp',
+    relatedSlugs: ['sprunki', 'incredibox'],
+    excerpt: 'Agent Sprunkis is a secret-agent themed Sprunki music mod where you create spy-inspired beats by dragging characters onto the stage.',
+    content: `<p>Agent Sprunkis is a creative music-making mod that combines the beloved Sprunki/Incredibox-style gameplay with a secret agent theme. Drag spy-themed characters onto the stage, each contributing their own unique loop — from stealthy bass lines and spy movie strings to gadget sound effects and dramatic vocal harmonies.</p>
+<p>Each character represents a different sound layer. The beauty of the Sprunki format is in experimentation — try different combinations of characters to discover unique musical arrangements. Some combinations trigger special animations and bonus sound effects. The spy theme gives every beat a cinematic quality, with tension-building rhythms and dramatic crescendos that make you feel like you're scoring a James Bond film.</p>
+<p>The game features vibrant character designs with a spy aesthetic — trench coats, sunglasses, gadgets, and mysterious silhouettes. The community on Scratch has embraced this mod with enthusiasm, and it's become one of the more popular Sprunki variations. Perfect for music lovers, creative minds, and anyone who enjoys the Incredibox-style drag-and-drop music creation format.</p>
+<h2 class="wp-block-heading"><strong>How To Play Agent Sprunkis</strong></h2>
+<ul class="wp-block-list">
+<li>Drag characters from the selection bar onto the stage.</li>
+<li>Each character adds a different sound loop to the mix.</li>
+<li>Experiment with combinations to find the best beats.</li>
+<li>Click a character to remove them from the stage.</li>
+<li>Discover hidden bonus animations and sounds.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'agent-walker-vs-skibidi-toilets',
+    datePublished: '2026-04-07T10:00:00+00:00',
+    dateModified: '2026-04-07T10:00:00+00:00',
+    dateAdded: '2026-04-07',
+    title: 'Agent Walker vs Skibidi Toilets – Play the Shooter Game Free',
+    metaDescription: 'Play Agent Walker vs Skibidi Toilets online free. Battle Skibidi Toilets as a Cameraman agent with a Walker companion in this action-packed 3D shooter.',
+    category: 'online-games',
+    tags: ['shooter'],
+    embedUrl: 'https://html5.gamedistribution.com/fe27fd48297444f3bf71cb1eb7d905e7/?gd_sdk_referrer_url=https://gamesdoodle.org/agent-walker-vs-skibidi-toilets/',
+    thumbnail: '/images/agent-walker-vs-skibidi-toilets.webp',
+    relatedSlugs: ['rooftop-snipers', 'crazy-cars'],
+    excerpt: 'Agent Walker vs Skibidi Toilets is a 3D action shooter where you play as a Cameraman agent battling Skibidi Toilets with machine guns, miniguns, and grenade launchers.',
+    content: `<p>Agent Walker vs Skibidi Toilets is an action-packed 3D first-person shooter that throws you into the absurd world of the Skibidi Toilet meme universe. You play as an agent Cameraman accompanied by a Walker — a massive mechanical companion equipped with four robotic arms, each capable of wielding devastating weaponry.</p>
+<p>Battle waves of Skibidi Toilets across multiple levels, using an arsenal that includes machine guns, miniguns, and grenade launchers. Each weapon handles differently — the machine gun is accurate at range, the minigun mows down groups, and the grenade launcher deals devastating area damage. Switch between weapons tactically to handle different enemy formations and boss encounters.</p>
+<p>The game features polished WebGL graphics with smooth animations, dynamic lighting, and satisfying explosion effects. Enemy Skibidi Toilets come in various sizes and types, from basic grunts to massive boss toilets that require sustained firepower to defeat. The action is fast-paced and relentless, with each level increasing in difficulty and enemy variety. It's ridiculous, it's fun, and it's surprisingly well-made for a meme-based game.</p>
+<h2 class="wp-block-heading"><strong>How To Play Agent Walker vs Skibidi Toilets</strong></h2>
+<ul class="wp-block-list">
+<li>Use WASD to move and Shift to sprint.</li>
+<li>Move the mouse to aim and left-click to shoot.</li>
+<li>Right-click and hold to aim down sights.</li>
+<li>Press R to reload and Space to jump.</li>
+<li>Switch weapons with the number keys or scroll wheel.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'air-warfare-3d',
+    datePublished: '2026-04-07T10:00:00+00:00',
+    dateModified: '2026-04-07T10:00:00+00:00',
+    dateAdded: '2026-04-07',
+    title: 'Air Warfare 3D – Play the Fighter Jet Combat Game Free',
+    metaDescription: 'Play Air Warfare 3D online free. Fly fighter jets, engage AI enemy aircraft with missiles and gunfire, and complete three intense aerial combat missions.',
+    category: 'online-games',
+    tags: ['shooter'],
+    embedUrl: 'https://html5.gamedistribution.com/51ccbeb4c46f4fd7a6f783ea634fd433/?gd_sdk_referrer_url=https://gamesdoodle.org/air-warfare-3d/',
+    thumbnail: '/images/air-warfare-3d.webp',
+    relatedSlugs: ['agent-walker-vs-skibidi-toilets', 'crazy-cars'],
+    excerpt: 'Air Warfare 3D is a 3D aerial combat game where you fly fighter jets, engage enemy aircraft with missiles and gunfire, and complete intense combat missions.',
+    content: `<p>Air Warfare 3D puts you in the cockpit of a fighter jet for intense aerial combat missions. Engage AI-controlled enemy aircraft in dogfights, lock on with missiles, strafe with your machine guns, and execute evasive manoeuvres to survive three challenging missions that test your piloting skills.</p>
+<p>The game features multiple weapons — heat-seeking missiles for long-range engagements and rapid-fire machine guns for close-quarters dogfights. Switching between targets is crucial as enemy formations try to flank and overwhelm you. The flight model balances arcade accessibility with enough realism to make manoeuvres feel impactful — barrel rolls, tight turns, and dive attacks all have their place in your tactical toolkit.</p>
+<p>Built with WebGL, the 3D graphics render smoothly in the browser with detailed aircraft models, dynamic cloud formations, and expansive sky environments. The mini-map helps you track enemy positions, and the target switching system keeps combat flowing smoothly. Each of the three missions increases in difficulty, with more enemies, tougher formations, and more aggressive AI. For browser-based aerial combat, Air Warfare 3D delivers an impressive experience.</p>
+<h2 class="wp-block-heading"><strong>How To Play Air Warfare 3D</strong></h2>
+<ul class="wp-block-list">
+<li>W/S to accelerate and decelerate, A/D to roll.</li>
+<li>I/K for pitch, J/L for yaw (or arrow keys).</li>
+<li>Left Shift to fire machine guns, Space to launch missiles.</li>
+<li>Q to switch missiles, E to switch targets.</li>
+<li>R to toggle mini-map, V to change camera view.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
 ];
 
 export function getGameBySlug(slug) {
