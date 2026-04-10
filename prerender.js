@@ -63,6 +63,12 @@ function buildPage(url) {
   const headTags = html.slice(0, splitIdx);
   let bodyContent = html.slice(splitIdx);
 
+  // react-helmet-async v3 SSR output omits the data-rh attribute, but the
+  // client-side code uses [data-rh] to find managed tags during hydration.
+  // Without it, Helmet adds a second set of title/meta/link → duplicates.
+  // Inject data-rh="true" on every Helmet-generated tag so hydration dedupes.
+  const markedHeadTags = headTags.replace(/<(title|meta|link)([\s>\/])/g, '<$1 data-rh="true"$2');
+
   // Extract JSON-LD <script> tags from inside the body and move them to <head>
   let jsonLd = '';
   bodyContent = bodyContent.replace(
@@ -79,9 +85,13 @@ function buildPage(url) {
   page = page.replace(/<link rel="canonical"[^>]*\/>/, '');
   page = page.replace(/<meta property="og:[^"]*"[^>]*\/>\s*\n?/g, '');
   page = page.replace(/<meta name="twitter:[^"]*"[^>]*\/>\s*\n?/g, '');
+  // Remove the now-empty default-tag comment blocks
+  page = page.replace(/\s*<!-- Default meta tags[^>]*-->\s*/g, '\n');
+  page = page.replace(/\s*<!-- Default Open Graph[^>]*-->\s*/g, '\n');
+  page = page.replace(/\s*<!-- Default Twitter Card[^>]*-->\s*/g, '\n');
 
   // Inject extracted Helmet head tags + JSON-LD before </head>
-  page = page.replace('</head>', `    ${headTags}\n    ${jsonLd}\n  </head>`);
+  page = page.replace('</head>', `    ${markedHeadTags}\n    ${jsonLd}\n  </head>`);
 
   // Inject rendered body content into the SSR outlet
   page = page.replace('<!--ssr-outlet-->', bodyContent);
