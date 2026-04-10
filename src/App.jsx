@@ -2,7 +2,6 @@ import { Routes, Route, useParams } from 'react-router-dom';
 import { ToastProvider } from './components/Toast';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import AdBanner from './components/AdBanner';
 import BackToTop from './components/BackToTop';
 import CookieConsent from './components/CookieConsent';
 import HomePage from './pages/HomePage';
@@ -41,7 +40,6 @@ function App() {
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </main>
-        <AdBanner />
         <Footer />
         <BackToTop />
         <CookieConsent />
