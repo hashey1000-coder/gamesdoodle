@@ -7715,7 +7715,7 @@ export const games = [
     metaDescription: 'Play Smash Karts unblocked! Race, battle, and collect power-ups in this fast-paced smashkarts game. Compete with friends for ultimate karting glory.',
     category: 'online-games',
     tags: ['racing', 'arcade'],
-    embedUrl: 'https://embed.gamesdoodle.org/smash-karts/',
+    embedUrl: 'https://schoolkarts.com/',
     thumbnail: '/images/smash-karts.webp',
     relatedSlugs: ['slope-2', 'slope-unblocked', 'drift-hunters'],
     excerpt: 'Smash Karts is a thrilling multiplayer racing and battle game that combines high-speed karting with intense combat action.',
