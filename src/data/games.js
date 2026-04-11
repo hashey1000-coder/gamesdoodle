@@ -100,34 +100,15 @@ export const games = [
     thumbnail: '/images/traffic-jam-3d.webp',
     relatedSlugs: ['basket-random-pro', 'madalin-stunt-cars-2', 'slitherio'],
     excerpt: 'Rush hour just became your playground. Traffic Jam 3D is a high-speed driving game that drops you onto busy highways and challenges you to weave through oncomin...',
-    content: `<p>Rush hour just became your playground. Traffic Jam 3D is a high-speed driving game that drops you onto busy highways and challenges you to weave through oncoming traffic at breakneck speeds. It&#8217;s part racing game, part reflex test, and entirely addictive — the kind of game where &#8220;just one more run&#8221; turns into an hour of white-knuckle driving.</p>
-
-<p>The premise is simple but intense. You&#8217;re behind the wheel of a sleek car, and the road ahead is packed with vehicles going both directions. Your job is to dodge, drift, and dash through the chaos while completing various objectives. The catch? One collision can end everything. Every near-miss raises your heart rate, and every successful maneuver feels like a small victory.</p>
-
-<p>What sets Traffic Jam 3D apart is its variety. The game offers four distinct modes that cater to different play styles. Career Mode takes you through 80 progressively challenging levels with specific missions — reach checkpoints before time runs out, hit a target score within 75 seconds, or cover a set distance without crashing. Infinite Mode strips away objectives and simply asks: how far can you go? Drive until you crash, pushing yourself to beat your personal best. Time Attack puts you against the clock for maximum pressure, while Free Mode lets you practice without consequences.</p>
-
-<p>The environments keep things fresh too. Race down highways, through desert landscapes, or weave through city streets. You can even customize the time of day — morning, sunset, or night driving each create different vibes and visibility challenges. One-way or two-way traffic options let you dial up the difficulty when you&#8217;re ready for more chaos.</p>
-
-<p>Earning in-game cash unlocks the real fun. There are 20 cars to collect, from everyday vehicles to supercar dreams like sports cars with ridiculous top speeds. But it&#8217;s not just about buying new rides — the upgrade system lets you improve your engine, brakes, handling, ground clearance, and camber settings. Higher career levels require minimum performance ratings, so you&#8217;ll need to invest wisely to progress.</p>
-
-<p>The scoring system rewards risky driving. Cruise in the opposite lane for bonus points. Thread the needle between two cars for near-miss bonuses. The game constantly tempts you to push harder, drive closer, and take bigger risks — which often ends in spectacular crashes that send you right back to the start.</p>
-
-<h2 class="wp-block-heading">How To Play Traffic Jam 3D</h2>
-
-<ul class="wp-block-list">
-<li><strong>W / Up Arrow</strong> — Accelerate</li>
-
-<li><strong>S / Down Arrow</strong> — Brake</li>
-
-<li><strong>A/D or Left/Right Arrows</strong> — Steer</li>
-
-<li><strong>N</strong> — Activate nitro boost</li>
-
-<li><strong>C</strong> — Change camera view (including first-person cockpit)</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Traffic Jam 3D is a challenging puzzle game where you must clear a path for your vehicle to escape a packed parking lot. Cars, trucks, and buses block the exit, and each vehicle can only move along its orientation, either forward and backward or left and right. The puzzle is to find the correct sequence of moves that clears enough space for your target vehicle to reach the exit, working through increasingly complex arrangements.</p>
+<p>The three-dimensional presentation adds visual depth to the classic sliding block puzzle format. Vehicles are rendered with realistic proportions and colours that make the crowded parking lot feel authentic. The camera can be rotated to view the puzzle from different angles, which helps spot movement opportunities that might be hidden from the default perspective.</p>
+<p>Each level increases in difficulty by adding more vehicles, larger blockers, and more constrained layouts. Early puzzles can be solved in a few moves, while advanced levels require dozens of precise movements in the exact right sequence. The satisfaction of finally solving a puzzle you have been staring at for several minutes is immense, especially when the solution involves an unintuitive first move.</p>
+<p>Playing Traffic Jam 3D online exercises your spatial reasoning and sequential planning abilities. Every puzzle has a solution, but finding it requires you to visualise how moving one vehicle opens or closes paths for others. The game rewards patient analysis over trial and error, making it an excellent mental exercise that improves your planning and spatial thinking skills over time.</p>
+<h2 class="wp-block-heading">How to Play Traffic Jam 3D Online</h2>
+<p>Click and drag vehicles to slide them along their allowed axis. Cars and trucks only move in the direction they face, so horizontal vehicles slide left and right while vertical vehicles slide up and down. Your target vehicle is typically highlighted and must reach the exit point on the edge of the grid to complete the level.</p>
+<p>Study the entire parking lot before making your first move. Identify which vehicles are directly blocking your path to the exit and trace backward to find what blocks those blockers. The solution usually involves creating a chain of moves that progressively clears space along the escape route.</p>
+<p>Work backward from the exit when planning your strategy. Determine what needs to move last to let your car through, then figure out what needs to move to allow that move, and continue backward until you reach a move you can make right now. This reverse-engineering approach is more efficient than randomly sliding vehicles and hoping a path appears.</p>
+<p>If you get stuck, try moving vehicles that seem unrelated to the direct path. Sometimes the key to solving a puzzle is moving a vehicle far from the exit to create space for a chain reaction of moves across the entire grid. The least obvious move is frequently the one that unlocks the entire puzzle, so explore all your options before giving up on a level.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -142,36 +123,15 @@ export const games = [
     thumbnail: '/images/sausage-flip.webp',
     relatedSlugs: ['basket-random-pro', 'madalin-stunt-cars-2', 'dino-swords'],
     excerpt: 'What if your lunch decided to make a break for it? That\'s the delightfully absurd premise of Sausage Flip — a physics-based arcade game where you help a googly-...',
-    content: `<p>What if your lunch decided to make a break for it? That&#8217;s the delightfully absurd premise of Sausage Flip — a physics-based arcade game where you help a googly-eyed sausage escape its fate by flipping, bouncing, and sticking its way through obstacle-filled levels. It&#8217;s silly, it&#8217;s challenging, and it&#8217;s way more addictive than any game about processed meat has any right to be.</p>
-
-<p>Developed by Madbox (the studio behind Stickman Hook and Parkour Race), Sausage Flip first launched on Android in February 2019 and quickly became a viral hit. The game&#8217;s combination of simple one-touch controls and genuinely tricky physics puzzles struck a chord with players, earning it a spot in the top 10 free games shortly after release. It&#8217;s now available on iOS, Android, web browsers, and even Steam.</p>
-
-<p>The gameplay is beautifully straightforward. You control a wobbly sausage by dragging backward to aim, then releasing to fling it forward. The sausage sticks to surfaces briefly, letting you chain together flips to climb walls and navigate around obstacles. Your goal is simple: reach the finish line without falling off the platform. But &#8220;simple&#8221; doesn&#8217;t mean &#8220;easy.&#8221;</p>
-
-<p>Each level throws new challenges at you. Rocket cars zoom across platforms. Spinning contraptions threaten to knock you off course. Soft blocks bounce you in unexpected directions. Moving platforms require perfect timing. The physics engine means every flip feels slightly different — sometimes your sausage lands perfectly, other times it tumbles hilariously off the edge. That unpredictability is part of the charm.</p>
-
-<p>With over 150 levels, the game offers plenty of content. Early stages teach you the basics, but difficulty ramps up as you progress through kitchens, gardens, and increasingly wacky obstacle courses. The level design encourages experimentation — there&#8217;s often more than one way to reach the finish line, and finding creative solutions is half the fun.</p>
-
-<p>Customization keeps things fresh. As you play, you unlock dozens of skins and costumes for your sausage: unicorns, medieval warriors, astronauts, chef hats, and plenty more ridiculous options. They&#8217;re purely cosmetic, but there&#8217;s something satisfying about conquering a tough level while dressed as a hot dog in a space suit.</p>
-
-<h2 class="wp-block-heading">How To Play Sausage Flip</h2>
-
-<ul class="wp-block-list">
-<li><strong>Drag backward</strong> with your mouse or finger to aim</li>
-
-<li><strong>Release</strong> to launch the sausage in the opposite direction</li>
-
-<li><strong>Stick to surfaces</strong> by landing on them — the sausage grips briefly before you flip again</li>
-
-<li><strong>Chain flips</strong> to climb walls and cross gaps</li>
-
-<li><strong>Avoid obstacles</strong> like spinning gears, rocket cars, and moving platforms</li>
-
-<li><strong>Reach the finish line</strong> without falling off the level</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Sausage Flip is a wildly entertaining physics puzzle game where you launch a floppy sausage character through obstacle-filled levels by flipping it end over end. The sausage flips with a satisfying rubbery motion, bouncing off surfaces and bending around obstacles in ways that are both hilarious and surprisingly strategic. The goal is to land the sausage on the target platform at the end of each level.</p>
+<p>The flip mechanic is simple to use but difficult to master. Click and drag to set the direction and power of each flip, then release to send the sausage tumbling through the air. The sausage bends and flexes on impact, meaning the same launch can produce different results depending on exactly how the sausage hits surfaces. This physical unpredictability keeps every attempt fresh and entertaining.</p>
+<p>Level designs grow increasingly creative with moving platforms, rotating blades, sticky surfaces, bouncy pads, and gravity-defying sections that exploit the sausage's floppy physics in devious ways. Some levels require precise single flips while others demand a chain of perfectly timed bounces across multiple platforms. The variety ensures you never know what creative challenge awaits in the next stage.</p>
+<p>Playing Sausage Flip online delivers pure physics-based fun with a character that never stops being amusing to watch. The combination of strategic planning and chaotic physics creates a game where calculated launches and lucky bounces coexist beautifully. Whether you solve a level through careful precision or a fortuitous series of bounces, the result is always entertaining to watch unfold.</p>
+<h2 class="wp-block-heading">How to Play Sausage Flip Online</h2>
+<p>Click on the sausage and drag in the opposite direction of where you want it to go, like pulling back a slingshot. The distance you drag determines the power of the flip, with longer drags producing more forceful launches. The direction of your drag sets the trajectory, so aim carefully before releasing to send your sausage toward the target.</p>
+<p>Account for the sausage's flexible body when planning your flips. Unlike a rigid ball, the sausage bends and wraps around edges, which can help you grip platforms you might otherwise bounce off. This flexibility is both a blessing and a curse, as it can save you from falling but also cause unexpected redirections on impact.</p>
+<p>Use environmental elements to your advantage. Bouncy surfaces multiply your momentum, sticky surfaces stop you in place for a controlled restart, and slopes redirect your trajectory. Reading each level's layout and identifying which surfaces to hit and which to avoid is the key strategic skill. The best solutions use the environment to do most of the work.</p>
+<p>Start with gentle flips and increase power as you learn each level's layout. Overpowered flips often send the sausage flying past the target or into hazards, while underpowered flips leave you short. Finding the right amount of force for each specific flip point is a skill that develops through experimentation. When stuck, try a completely different approach angle rather than repeating the same flip with minor adjustments.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -186,42 +146,15 @@ export const games = [
     thumbnail: '/images/madalin-stunt-cars-2.webp',
     relatedSlugs: ['basket-random-pro', 'chicken-invaders', 'dino-swords'],
     excerpt: 'Ever wanted to flip a Lamborghini off a giant loop ramp at 400 km/h? Madalin Stunt Cars 2 is the ultimate automotive playground where supercars meet insane stun...',
-    content: `<p>Ever wanted to flip a Lamborghini off a giant loop ramp at 400 km/h? Madalin Stunt Cars 2 is the ultimate automotive playground where supercars meet insane stunts, and there&#8217;s absolutely no one telling you to slow down. It&#8217;s pure, unrestricted driving chaos — and it&#8217;s completely free in your browser.</p>
-
-<p>Created by Romanian indie developer Madalin Stanciu and released in July 2015, this Unity WebGL-powered game became one of the most popular free driving games on the internet. The concept is refreshingly simple: here are some of the world&#8217;s most expensive cars, here are some ridiculous ramps and loops, now go have fun. No missions, no objectives, no unlocking content — every single car is available from the moment you start.</p>
-
-<p>And what a car selection it is. You&#8217;ve got over 30 vehicles to choose from, including the Bugatti Veyron (which tops out at a blistering 431 km/h), Lamborghini Aventador, Ferrari Enzo, Pagani Zonda, LaFerrari, Ford GT, and even a couple of police cruisers if you want to play cops and robbers with friends. Each car handles differently, and you can customize colors using sliders before hitting the track.</p>
-
-<p>Speaking of tracks, there are three massive open-world maps to explore. One is a stunt arena packed with gigantic loops, corkscrew ramps, and platforms designed for maximum airtime. Another features a highway perfect for top-speed runs. The third drops you into a city environment with tunnels and urban obstacles. All three are littered with ramps, jumps, and loose objects like giant balls you can knock around.</p>
-
-<p>The physics are what make everything click. Cars feel weighty and responsive, drifting requires actual technique, and landing a perfect jump after launching off a spiral ramp is genuinely satisfying. The nitro boost (activated with Shift) lets you push past normal speed limits, and mastering the timing of gear shifts keeps you at maximum velocity.</p>
-
-<p>But the real magic happens in multiplayer. Click the multiplayer button, join a server or create your own room, and suddenly you&#8217;re sharing the playground with other players from around the world. Race your friends down the highway, attempt synchronized stunts, or just cruise around showing off your latest drift technique.</p>
-
-<h2 class="wp-block-heading">How To Play Madalin Stunt Cars 2</h2>
-
-<ul class="wp-block-list">
-<li><strong>W / Up Arrow</strong> — Accelerate</li>
-
-<li><strong>S / Down Arrow</strong> — Brake / Reverse</li>
-
-<li><strong>A/D or Left/Right Arrows</strong> — Steer</li>
-
-<li><strong>Spacebar</strong> — Handbrake (essential for drifting)</li>
-
-<li><strong>Shift</strong> — Nitro boost</li>
-
-<li><strong>C</strong> — Change camera view</li>
-
-<li><strong>R</strong> — Respawn your car</li>
-
-<li><strong>T</strong> — Toggle minimap</li>
-</ul>
-
-<p>Discover a wide selection of entertaining <a href="https://doodlegameshub.com" target="_blank" rel="noreferrer noopener">doodle games</a> you can play instantly online, all gathered together for quick and easy access.</p>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Madalin Stunt Cars 2 is a high-octane open-world driving game featuring an impressive garage of supercars and a massive stunt playground filled with ramps, loops, and impossible structures. Choose from dozens of meticulously modelled sports cars and hypercars, then tear across a sprawling map designed to facilitate the most spectacular stunts imaginable. The combination of realistic car models and outrageous physics creates a uniquely thrilling driving experience.</p>
+<p>The car selection is outstanding, featuring real-world supercar designs rendered with impressive detail for a browser game. Each vehicle handles differently, with lighter cars offering more aerial agility and heavier muscle cars providing satisfying heft on the ground. Testing every car across the map's varied terrain and stunt structures is a rewarding experience that keeps you coming back to try new vehicles.</p>
+<p>The multiplayer mode lets you share the playground with other drivers in real time, turning solo stunting into a social experience. Watching other players attempt spectacular jumps, cruising together in a convoy, or setting up impromptu drag races adds a layer of spontaneous fun that single-player mode cannot match. The multiplayer community creates moments of shared spectacle that elevate the entire experience.</p>
+<p>Playing Madalin Stunt Cars 2 online delivers the ultimate supercar fantasy in a browser. The freedom to drive any car you want across a purpose-built stunt paradise with no restrictions creates pure automotive joy. Whether you spend your time perfecting barrel rolls off massive ramps or cruising peacefully through the map admiring your car, the game caters to every type of driving enthusiast.</p>
+<h2 class="wp-block-heading">How to Play Madalin Stunt Cars 2 Online</h2>
+<p>Use WASD or arrow keys to accelerate, brake, and steer your chosen vehicle. The controls are responsive and arcade-focused, making it easy to maintain control during high-speed runs and airborne stunts. Spacebar activates the handbrake for drifting around corners, which is both a practical tool and a spectacular way to navigate tight turns at speed.</p>
+<p>Select your car from the extensive garage before entering the map. Browse through the full collection to find vehicles that match your preferred driving style. Some cars excel at high-speed straightaways while others are better for technical stunt work requiring precise aerial control. Experiment with different vehicles to find your favourites for different activities.</p>
+<p>Explore the entire map to discover all the stunt structures, ramps, and secret areas. The map is enormous with ramps of varying sizes, loop-de-loops, half pipes, and elevated roadways scattered throughout. The most spectacular stunts often involve chaining together multiple structures in a single run, launching off one ramp and landing on another for continuous airborne action.</p>
+<p>Join a multiplayer lobby to share the experience with other players. Drive alongside others, follow them to discover new stunt spots, or compete informally to see who can land the most impressive jump. The multiplayer environment adds unpredictability and social interaction that transform a great solo driving game into an even better shared experience.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -236,36 +169,15 @@ export const games = [
     thumbnail: '/images/basket-random-pro.webp',
     relatedSlugs: ['pani-puri', 'chicken-invaders', 'dino-swords'],
     excerpt: 'What if basketball made absolutely no sense? That\'s the entire premise of Basket Random Pro — a hilariously chaotic sports game where ragdoll physics meet baske...',
-    content: `<p>What if basketball made absolutely no sense? That&#8217;s the entire premise of Basket Random Pro — a hilariously chaotic sports game where ragdoll physics meet basketball and the results are gloriously unpredictable. Your players flop, flip, and flail around the court while you desperately try to score baskets using just one button.</p>
-
-<p>Developed by RHM Interactive as part of their wildly popular &#8220;Random&#8221; sports series, Basket Random Pro first appeared online on April 21, 2020, and has since been played over 100 million times on the web alone. The game takes traditional basketball and throws every rule out the window. You control two wobbly stickman players simultaneously with a single button, and their movements are governed by ragdoll physics — meaning they&#8217;ll do almost anything except what you expect.</p>
-
-<p>The one-button control scheme is deceptively simple. Press your key and both your players jump, their long arms flailing toward the ball. Release at the right moment and they&#8217;ll shoot. But because of the physics engine, your perfectly timed shot might turn into a spectacular own goal, or your defensive jump could accidentally knock the ball into your own basket. It&#8217;s frustrating, hilarious, and absolutely addictive.</p>
-
-<p>What really keeps things fresh is the randomness that changes after every point scored. The court might shift from a city street to a beach to a snowy field where the ground becomes slippery. Your players&#8217; bodies change too — sometimes they&#8217;ll have comically long arms, other times tiny heads or massive bodies. Even the ball changes: there&#8217;s a heavy ball that barely bounces and moves slowly, a light ball that&#8217;s incredibly sensitive and bounces everywhere, and the coveted colorful ball that&#8217;s worth double points.</p>
-
-<p>You can play solo against the CPU or share the keyboard with a friend for local two-player matches. First to score 5 points wins. The pixel art style gives it retro charm, while the smooth animations make every chaotic tumble entertaining to watch.</p>
-
-<p>RHM Interactive, based in Estonia, built the game using Construct 3 and publishes it through their TwoPlayerGames platform. The same team created Soccer Random, Volley Random, and Boxing Random — all following the same delightfully absurd formula of ragdoll physics meeting sports.</p>
-
-<h2 class="wp-block-heading">How To Play Basket Random Pro</h2>
-
-<ul class="wp-block-list">
-<li><strong>Player 1</strong>: Press <strong>W</strong> to make both your players jump and interact with the ball</li>
-
-<li><strong>Player 2</strong>: Press <strong>Up Arrow</strong> to control your team</li>
-
-<li><strong>Hold</strong> the key to keep your players&#8217; arms raised (useful for defense and blocking)</li>
-
-<li><strong>Release</strong> the key when attacking to shoot the ball toward the basket</li>
-
-<li><strong>Mobile</strong>: Tap your side of the screen to control your players</li>
-
-<li><strong>Score 5 points</strong> before your opponent to win the match</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Basket Random Pro is a hilariously unpredictable two-player basketball game where the physics, court conditions, and player characteristics change randomly every possession. One moment you might be playing on a normal court with giant players, and the next you could be on an icy surface with tiny athletes. The constant randomness ensures no two games play alike and generates endless laugh-out-loud moments.</p>
+<p>The random modifiers affect every aspect of gameplay. Ball size, gravity, player speed, court surface, and even the height of the basket change without warning between plays. These modifiers force you to adapt your strategy constantly, as the technique that scored an easy basket one possession becomes completely ineffective the next when the physics change entirely.</p>
+<p>The two-button control scheme keeps the focus on adaptation and timing rather than complex inputs. Despite simple controls, the strategic depth comes from reading the current random conditions and adjusting your play style accordingly. High gravity demands different shot timing than low gravity, and icy courts require completely different movement approaches than sticky surfaces.</p>
+<p>Playing Basket Random Pro online is one of the most entertaining local multiplayer experiences available. The random elements level the playing field between experienced and novice players because nobody can master conditions that change every few seconds. The result is a game where anyone can win any match, creating genuine competitive tension mixed with constant laughter at the absurd situations the randomiser creates.</p>
+<h2 class="wp-block-heading">How to Play Basket Random Pro Online</h2>
+<p>Player one uses the W key and player two uses the up arrow to control their respective players. Each press makes your player jump and attempt to hit the ball toward the basket. The timing of your press relative to the ball's position determines the direction and force of your hit. Simple inputs produce complex outcomes as the random physics affect every interaction.</p>
+<p>Adapt quickly to each possession's random conditions. When you notice low gravity, time your jumps to hang in the air longer. When the court is slippery, anticipate sliding and time your jumps earlier. When players are oversized, use your extended reach to your advantage. Reading and adapting to conditions faster than your opponent is the primary competitive skill.</p>
+<p>Score baskets by knocking the ball into the opposing hoop. The ball physics change with each round, so sometimes a gentle tap is more effective than a powerful hit. Overshooting the basket is as common as undershooting, so calibrate your strength to the current conditions before committing to a full-power attempt.</p>
+<p>Play multiple matches to experience the full range of random modifiers the game offers. The variety of conditions creates emergent situations that you could never anticipate, from comically oversized balls that barely fit through the hoop to reversed gravity that turns everything upside down. Each match is a new adventure in adaptive basketball.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -280,36 +192,15 @@ export const games = [
     thumbnail: '/images/slitherio.webp',
     relatedSlugs: ['pani-puri', 'chicken-invaders', 'dino-swords'],
     excerpt: 'What happens when you take the classic Snake game that lived on every Nokia phone and throw it into a massive multiplayer arena with 500 other players? You get ...',
-    content: `<p>What happens when you take the classic Snake game that lived on every Nokia phone and throw it into a massive multiplayer arena with 500 other players? You get Slither.io — one of the most addictive browser games ever created and a phenomenon that took over the internet in 2016.</p>
-
-<p>The concept is deceptively simple. You control a snake that slithers around a giant arena, eating glowing orbs to grow longer. But here&#8217;s the twist: you&#8217;re sharing that arena with hundreds of real players doing the exact same thing. If your head touches another snake&#8217;s body, you explode into a pile of orbs for everyone else to feast on. But if someone crashes into you? They become your dinner.</p>
-
-<p>This creates beautifully chaotic gameplay where size isn&#8217;t everything. A tiny snake with good timing can take down the biggest player on the server just by cutting them off at the right moment. It&#8217;s the great equalizer — and it&#8217;s incredibly satisfying when you pull it off.</p>
-
-<p>Slither.io was created by Steve Howse, a self-taught developer from Michigan who was struggling financially when he built the game. Inspired by Agar.io and classic Snake, he spent six months developing servers that could handle 500 players simultaneously. The game launched on March 25, 2016, and exploded overnight. After PewDiePie featured it to his massive YouTube audience, Slither.io topped the App Store charts in the US and UK, becoming Google&#8217;s most searched game of 2016 in America. By 2017, it had been downloaded over 68 million times on mobile alone and was generating \$100,000 daily for Howse.</p>
-
-<p>The gameplay has surprising depth. You can boost by holding left-click, but this costs you mass and leaves a trail of orbs behind. Smart players use this strategically — dash ahead of an opponent and cut them off, or circle around smaller snakes to trap them with no escape. The coiling technique is essential: since you can&#8217;t die by hitting your own body, you can spiral around prey until they inevitably crash into you.</p>
-
-<p>Customization adds personality to the chaos. You can choose from various skins including national flags and YouTuber-themed designs, or create your own pattern. Your chosen nickname displays beneath your snake, letting you build a reputation as you climb the leaderboard.</p>
-
-<h2 class="wp-block-heading">How To Play Slither Snake Online</h2>
-
-<ul class="wp-block-list">
-<li><strong>Move</strong> your snake by moving your mouse cursor (or use arrow keys)</li>
-
-<li><strong>Boost</strong> by holding left-click or spacebar (consumes your mass)</li>
-
-<li><strong>Eat orbs</strong> scattered around the map to grow longer</li>
-
-<li><strong>Avoid</strong> crashing your head into other snakes&#8217; bodies</li>
-
-<li><strong>Eliminate opponents</strong> by making them crash into your body</li>
-
-<li><strong>Collect remains</strong> when other snakes die — bigger snakes leave more orbs</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Slither.io is a massively multiplayer online game where you control a snake-like creature competing against hundreds of other players on a shared server. Consume glowing orbs to grow longer while avoiding collisions with other snakes. The brilliance of the design is that size provides no direct advantage, meaning a tiny snake can defeat the largest player on the server through clever strategy and positioning.</p>
+<p>The core mechanic is elegantly simple. Running headfirst into any part of another snake eliminates you, causing your length to scatter as consumable orbs. However, other snakes running into your body eliminates them instead. This asymmetry creates a constant tactical dance where coiling around opponents, cutting off their path, and baiting them into collisions are more important than raw size.</p>
+<p>The boost mechanic adds a critical layer of strategy. Holding the boost button accelerates your snake but sheds length as glowing orbs behind you. Boosting is essential for cutting off opponents, escaping danger, and reaching scattered orbs before competitors. Managing when to boost and when to conserve length is a decision that separates top players from the rest of the field.</p>
+<p>Playing Slither.io online is an endlessly entertaining competitive experience where every session tells a different story. The shared server creates organic encounters where alliances, betrayals, and epic takedowns emerge naturally from player interactions. Growing from a tiny worm to a server-dominating serpent is satisfying, but the real joy is the moment-to-moment tactical gameplay that remains engaging regardless of your size.</p>
+<h2 class="wp-block-heading">How to Play Slither.io Online</h2>
+<p>Move your mouse to guide your snake in any direction. Your snake follows the cursor smoothly, allowing precise navigation through tight spaces and around other players. Click or hold the left mouse button to activate boost, which increases your speed at the cost of shedding length. The controls are intentionally minimal so you can focus entirely on strategy.</p>
+<p>Consume scattered orbs to grow your snake gradually and eat the remains of eliminated snakes for massive growth spurts. Staying near the action where other snakes are being eliminated provides the fastest growth, but it also puts you in the most danger. Balance risk and reward based on your current size and confidence level.</p>
+<p>Use the coiling technique to trap other snakes by circling them and tightening your loop until they have no escape route. This advanced tactic is the primary way large snakes eliminate others, but it requires significant length and patience. Start your coil wide enough that your target cannot boost through a gap, then gradually shrink the circle.</p>
+<p>Stay away from the map edges where manoeuvring space is limited and escape routes are fewer. The centre of the map offers the most freedom of movement and the most opportunities for encounters. When in danger, boost toward open space rather than toward other snakes, as running into traffic while fleeing is the most common way small snakes meet their end.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -324,36 +215,15 @@ export const games = [
     thumbnail: '/images/chicken-invaders.webp',
     relatedSlugs: ['pani-puri', 'google-birthday-pinata-doodle', 'dino-swords'],
     excerpt: 'Remember Space Invaders? Now imagine those alien invaders are chickens. Angry, revenge-seeking, egg-throwing chickens from outer space.',
-    content: `<p>Remember Space Invaders? Now imagine those alien invaders are chickens. Angry, revenge-seeking, egg-throwing chickens from outer space. That&#8217;s Chicken Invaders in a nutshell — a hilarious shoot &#8217;em up that&#8217;s been making gamers laugh (and frantically dodge eggs) since 1999.</p>
-
-<p>The premise is gloriously absurd. Extraterrestrial chickens have invaded Earth seeking revenge for humanity&#8217;s centuries of oppression against their earthly brethren. Your mission? Pilot a lone spacecraft and blast every last feathered invader out of the sky before they subjugate the planet. It&#8217;s essentially saving the world so we can keep eating omelettes.</p>
-
-<p>Created by Greek indie developer Konstantinos Prouskas and his studio InterAction Studios, Chicken Invaders started as a parody of the 1978 arcade classic. But what began as a simple joke became one of the longest-running video game franchises developed in Greece, spawning five main sequels and countless holiday editions over more than 25 years.</p>
-
-<p>The gameplay loop is beautifully addictive. Waves of chickens descend in various formations, dropping eggs as projectiles you&#8217;ll need to dodge. Blast them and they drop drumsticks — collect enough of these and you earn a screen-clearing missile for when things get too chaotic. Gift box power-ups let you upgrade your weapons through eight power levels, turning your basic peashooter into a devastating chicken-annihilating machine.</p>
-
-<p>Each level consists of 10 waves culminating in a boss fight. And these boss chickens mean business — they&#8217;re bigger, tougher, and significantly angrier than their minions. Beat them and you warp to a new system where everything moves faster and hits harder. The game technically never ends; it just keeps getting more difficult until you finally run out of lives.</p>
-
-<p>The sequels took the absurdity even further. &#8220;The Next Wave&#8221; had you clearing the entire Solar System. &#8220;Revenge of the Yolk&#8221; (yes, a Star Wars parody) introduced 4-player co-op. &#8220;Ultimate Omelette&#8221; featured a planet-sized egg cannon threatening to coat Earth in deadly omelette. And &#8220;Cluck of the Dark Side&#8221; — well, you can probably guess that reference.</p>
-
-<h2 class="wp-block-heading">How To Play Chicken Invaders</h2>
-
-<ul class="wp-block-list">
-<li><strong>Move</strong> your spacecraft using arrow keys, mouse, or gamepad</li>
-
-<li><strong>Shoot</strong> continuously to destroy incoming chickens</li>
-
-<li><strong>Dodge</strong> the eggs they drop — one hit and you lose a life</li>
-
-<li><strong>Collect drumsticks</strong> from defeated chickens to earn missiles</li>
-
-<li><strong>Grab gift boxes</strong> to upgrade your weapon&#8217;s power level</li>
-
-<li><strong>Survive</strong> increasingly difficult waves and defeat the boss to advance</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Chicken Invaders is a comedic space shooter that replaces alien threats with intergalactic chickens bent on revenge against humanity for centuries of being eaten. Pilot your spacecraft through waves of clucking invaders, dodging eggs instead of laser beams and collecting drumstick power-ups. The humorous twist on the classic shoot-em-up formula delivers genuine laughs alongside satisfying arcade action.</p>
+<p>The chicken enemies come in creative formations and varieties. Standard chickens march in classic space invader patterns, while armoured chickens absorb more damage, bomber chickens drop explosive eggs, and boss chickens tower over the battlefield with devastating attacks. The escalating variety ensures that combat stays engaging across all chapters of the interstellar poultry conflict.</p>
+<p>Power-up weapons transform your basic blaster into screen-clearing instruments of chicken destruction. Multi-directional shots, homing missiles, lightning bolts, and plasma beams each handle differently and suit different enemy patterns. Collecting the same weapon type upgrades it further, incentivising consistent collection over random grabbing. A fully upgraded weapon makes you feel genuinely powerful against the feathered hordes.</p>
+<p>Playing Chicken Invaders online delivers classic arcade shooting with a comedic personality that sets it apart from serious shooters. The absurd premise never gets old as increasingly ridiculous chicken formations and boss encounters push the humour further and further. Beneath the comedy lies a genuinely well-designed shooter with tight controls, satisfying progression, and enough challenge to test dedicated players.</p>
+<h2 class="wp-block-heading">How to Play Chicken Invaders Online</h2>
+<p>Move your spacecraft with the mouse or arrow keys and fire with the left mouse button or spacebar. Your ship follows your input smoothly, allowing precise positioning between falling eggs and diving chickens. Continuous fire is standard, so focus on positioning rather than clicking, keeping your ship where it can deal the most damage while avoiding the most threats.</p>
+<p>Prioritise collecting weapon power-ups that drop from defeated chickens. Each coloured power-up represents a different weapon type, and collecting multiples of the same type upgrades that weapon. Switching weapons by grabbing a different colour resets your upgrade level, so once you find a weapon you like, stick with that colour to maximise your firepower.</p>
+<p>Watch for falling eggs from above and drumstick drops from defeated chickens. Eggs damage your ship on contact, and some chickens drop multiple eggs in patterns that require careful dodging. Drumsticks serve as score bonuses and occasionally provide extra lives, making them worth collecting when safe but never worth risking damage to grab.</p>
+<p>Boss encounters require learning unique attack patterns and finding safe positions. Each boss chicken has specific vulnerable moments between attacks where you can deal maximum damage safely. Patience during boss fights pays off far better than aggressive positioning that puts you in the path of devastating attacks. Study the pattern, find the openings, and chip away safely for consistent victories.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -368,32 +238,15 @@ export const games = [
     thumbnail: '/images/pani-puri.webp',
     relatedSlugs: ['chinese-new-year-snake-google-doodle', 'google-birthday-pinata-doodle', 'dino-swords'],
     excerpt: 'Ever tried to eat a pani puri slowly? You can\'t — it\'ll get soggy and fall apart in your hands.',
-    content: `<p>Ever tried to eat a pani puri slowly? You can&#8217;t — it&#8217;ll get soggy and fall apart in your hands. That&#8217;s the magic of South Asia&#8217;s most beloved street food, and Google captured that frantic energy perfectly in its July 12, 2023 interactive Doodle. The game puts you behind the counter of a pani puri stall, frantically filling orders before time runs out. It&#8217;s basically Candy Crush meets street food chaos, and it&#8217;s surprisingly addictive.</p>
-
-<p>The Doodle commemorates July 12, 2015, when a restaurant called Indori Zayka in Indore, Madhya Pradesh, set a world record by serving 51 different flavors of pani puri under the guidance of Masterchef Neha Shah. That&#8217;s 51 variations of the same snack — crispy hollow puris stuffed with potatoes, chickpeas, sprouts, and various chutneys, then dunked in flavored water. The game features seven different fillings: hing (asafoetida), mint, tamarind, potato and onion, sev (fried chickpea noodles), garlic, and sprouts, each represented by a different colored puri on the grid.</p>
-
-<p>What makes pani puri fascinating is how it changes names and flavors across India. In Maharashtra and Andhra Pradesh, it&#8217;s pani puri with chickpeas and sprouts in tangy, spicy water. Head north to Delhi and Punjab, and it becomes gol gappa — potato and chickpea filling dunked in jaljeera-flavored water. In West Bengal, Bihar, and Jharkhand, they call it puchka or fuchka, with tamarind pulp as the star ingredient. Odisha, Chhattisgarh, and Telangana know it as gup chup. Some folks in Aligarh even call it padaka. Same concept, dozens of regional twists.</p>
-
-<p>According to legend, pani puri traces back to the Mahabharata. When Draupadi married the five Pandava brothers during their exile, her mother-in-law Kunti challenged her to feed all five men with just leftover potato vegetables and enough dough for one puri. Draupadi got creative, made bite-sized crispy shells, stuffed them with the filling, and invented what we now fight over at street corners. Kunti was so impressed she blessed the dish with immortality — which explains why it&#8217;s still everywhere thousands of years later.</p>
-
-<p>The game offers two modes: Timed (for the adrenaline junkies) and Relaxed (for those who just want to vibe). When you successfully match an order, the game rewards you with that satisfying crunch sound every pani puri lover knows.</p>
-
-<h2 class="wp-block-heading">How To Play Pani Puri Google Doodle</h2>
-
-<ul class="wp-block-list">
-<li>Click the Doodle and choose your mode — Timed for a challenge or Relaxed for stress-free play</li>
-
-<li>Look at the order at the top of the screen showing which flavor and how many puris the customer wants</li>
-
-<li>Tap or click on connected groups of matching pani puris on the grid to fill the order</li>
-
-<li>Remember that diagonally placed puris don&#8217;t count as connected — only horizontal and vertical groups work</li>
-
-<li>Move quickly in Timed mode, as each order has a countdown and letting it expire restarts the game</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Pani Puri is a delightful cooking game that brings the beloved South Asian street food experience to your screen. Prepare the iconic hollow crispy shells filled with tangy, spicy water and flavourful stuffings, serving customers who line up for this irresistible snack. The game captures the fast-paced energy of a street food stall where speed, accuracy, and customer satisfaction determine your success.</p>
+<p>The preparation process mirrors the real art of making pani puri. Crack open the delicate puri shells, fill them with the right combination of chickpeas, potatoes, onions, and chutneys, then add the signature flavoured water just before serving. Each customer has specific preferences for spice level and filling combinations, requiring you to pay attention to orders and customise each serving accordingly.</p>
+<p>The time management aspect creates exciting pressure as customers queue up with decreasing patience. Serving quickly earns better tips while slow service causes customers to leave unhappy. Balancing speed with accuracy, ensuring each pani puri has the right combination of ingredients without skipping steps, creates an engaging gameplay loop that gets more hectic as levels progress.</p>
+<p>Playing Pani Puri online is a charming celebration of one of the world's most beloved street foods. The game introduces players unfamiliar with pani puri to this iconic snack while giving fans a playful interactive experience with food they love. The colourful art style and cheerful atmosphere capture the joy and community spirit of street food culture beautifully.</p>
+<h2 class="wp-block-heading">How to Play Pani Puri Online</h2>
+<p>Follow the on-screen prompts to prepare each pani puri step by step. Click or tap to crack open shells, add fillings, pour the flavoured water, and serve the finished product to waiting customers. Each step requires timing and accuracy, with well-executed actions earning better scores and keeping customers satisfied.</p>
+<p>Read each customer's order carefully before starting preparation. Different customers request different spice levels, filling combinations, and serving styles. Mixing up orders results in unhappy customers and lost points. The orders become more varied and complex as you advance through levels, testing your memory and multitasking abilities.</p>
+<p>Manage your ingredient stations efficiently by preparing common components in advance during quiet moments. Having shells cracked and fillings ready before the rush hits lets you serve faster when the queue builds up. Good preparation during downtime is what separates high scores from average performances in the busier levels.</p>
+<p>Upgrade your stall and unlock new ingredients as you progress through levels and earn enough money. New ingredients let you serve more varied orders and satisfy pickier customers. Stall upgrades improve your serving speed and capacity, helping you handle the increasing customer flow in later levels. Invest strategically in upgrades that address your biggest bottleneck.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -408,30 +261,15 @@ export const games = [
     thumbnail: '/images/dino-swords.webp',
     relatedSlugs: ['chinese-new-year-snake-google-doodle', 'google-birthday-pinata-doodle', 'rise-of-the-half-moon'],
     excerpt: 'You know Chrome\'s little dinosaur game — the one that pops up when your internet dies? Now imagine that same T-Rex, except this time it\'s packing an AK-47, a li...',
-    content: `<p>You know Chrome&#8217;s little dinosaur game — the one that pops up when your internet dies? Now imagine that same T-Rex, except this time it&#8217;s packing an AK-47, a lightsaber, a portal gun, and 23 other weapons. That&#8217;s Dino Swords, a gloriously unhinged mod created by creative agency MSCHF and esports organization 100 Thieves in August 2020. It takes the beloved offline runner and turns it into absolute chaos.</p>
-
-<p>The original Chrome Dino game was created in 2014 by Google&#8217;s UX team (codenamed &#8220;Project Bolan&#8221; after T. Rex frontman Marc Bolan) as a cute distraction when you lose internet connection. It&#8217;s deceptively addictive — just run, jump over cacti, dodge pterodactyls, repeat. But MSCHF&#8217;s Daniel Greenberg and 100 Thieves founder Matthew &#8220;Nadeshot&#8221; Haag thought the dinosaur deserved more firepower. &#8220;We have all played the Dino game in Chrome, and I don&#8217;t know about you, but on our end, we always had these fun ideas of how you could mod it — so we just decided to do it,&#8221; Greenberg explained.</p>
-
-<p>The result is beautifully absurd. Each of the 26 weapons is mapped to a different keyboard key, and you collect them by jumping into floating power-up icons as you run. The arsenal pays homage to classic video game weapons: there&#8217;s a sword for slicing cacti, a handgun with 12 shots, a tank with the 100 Thieves logo, a laser beam that&#8217;s ridiculously overpowered, and even a portal gun that lets you teleport through obstacles. But not everything helps you survive. The double-edged sword has a 50/50 chance of beheading you instead of your enemy. The cigarette gradually turns your dino purple until you die of lung cancer. One pill speeds you up, another slows everything down. Some weapons are completely useless — and that&#8217;s part of the fun.</p>
-
-<p>Greenberg&#8217;s personal favorites? &#8220;The double-edged sword not only because it looks sick, but the fact that it can and will kill you, is just so funny to me. The second is the portal gun because it&#8217;s an insanely cool mechanism to have in a 2D game.&#8221; The game features daily and all-time global leaderboards, and there are hidden easter eggs that are notoriously hard to unlock. MSCHF even released a limited-edition Youtooz vinyl figure of the armed dinosaur that sold out in 51 minutes.</p>
-
-<h2 class="wp-block-heading">How To Play Dino Swords</h2>
-
-<ul class="wp-block-list">
-<li>Press spacebar or the up arrow to jump and start running, just like the original Chrome Dino game</li>
-
-<li>Collect weapons by jumping into the flashing icons that appear in the air — they cycle through different items, so time your jumps to grab specific ones</li>
-
-<li>Each weapon is assigned to a letter key on your keyboard (Q for sword, W for handgun, etc.) — press the corresponding key to use it</li>
-
-<li>Watch your ammo counts carefully since most weapons have limited uses, and be ready to switch when you run out</li>
-
-<li>Avoid the joke weapons like the cigarette and double-edged sword unless you&#8217;re feeling lucky — some items will kill you instead of helping</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Dino Swords transforms the beloved Chrome dinosaur runner into an action-packed experience where the T-Rex wields an arsenal of weapons against the cacti and pterodactyl obstacles. Instead of simply jumping over hazards, you slash through cacti with swords, blast pterodactyls with guns, and deploy shields to bulldoze through everything in your path. The familiar endless runner format becomes gloriously overpowered and endlessly entertaining.</p>
+<p>The weapon variety is impressively creative. A katana slices through cacti in satisfying arcs, a baseball bat sends them flying into the distance, nunchucks create a protective spinning barrier, and various firearms let you shoot down threats from a distance. Each weapon has unique strengths, effective ranges, and animations that make switching between them feel like playing a different game each time.</p>
+<p>Special abilities and power-ups expand the T-Rex's capabilities beyond simple weapon attacks. Temporary invincibility, magnetic fields that attract collectibles, and time-slowing effects give you superhero moments where obstacles become trivial. These power-ups are spaced to provide regular dopamine hits while the challenge between them keeps you engaged and alert.</p>
+<p>Playing Dino Swords online is a brilliant reimagining of one of the most recognisable games on the internet. The addition of weapons and powers to the Chrome dinosaur creates an experience that is simultaneously nostalgic and completely new. The original's charm is preserved while the expanded gameplay provides depth and variety that the simple jumping original could never offer.</p>
+<h2 class="wp-block-heading">How to Play Dino Swords Online</h2>
+<p>Use the spacebar to jump and the number keys or mouse to switch between available weapons. Each weapon has a different attack button or activates automatically when obstacles are in range. The jump mechanic from the original Chrome dinosaur game is preserved, so jumping remains your primary obstacle avoidance tool with weapons providing supplementary destruction.</p>
+<p>Collect weapon pickups that appear along the running path to add new tools to your arsenal. Some weapons are common while others are rare and powerful. Building a diverse weapon collection gives you options for every situation, from ranged attacks for distant pterodactyls to melee weapons for nearby cacti clusters.</p>
+<p>Use weapons proactively to clear paths rather than reactively after obstacles appear. Swinging your sword continuously through cactus fields or firing ahead to eliminate approaching pterodactyls is more effective than waiting until threats are immediate. Aggressive weapon use creates safe corridors that let you focus on collecting power-ups and maintaining your run.</p>
+<p>Combine jumping with weapon attacks for maximum effectiveness in crowded sections. Jump to avoid ground-level cacti while simultaneously slashing aerial threats, or use airborne weapon attacks to clear landing zones. The synergy between movement and combat creates a satisfying flow state where you feel unstoppable during peak performance moments.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -446,30 +284,15 @@ export const games = [
     thumbnail: '/images/google-birthday-pinata-doodle.webp',
     relatedSlugs: ['chinese-new-year-snake-google-doodle', 'pizza-google-doodle', 'rise-of-the-half-moon'],
     excerpt: 'What better way to celebrate a birthday than smashing a piñata? On September 27, 2013, Google turned 15 and marked the occasion with its first-ever playable bir...',
-    content: `<p>What better way to celebrate a birthday than smashing a piñata? On September 27, 2013, Google turned 15 and marked the occasion with its first-ever playable birthday Doodle — an addictive little game that had hundreds of millions of people whacking a virtual piñata instead of doing actual work. The candy wasn&#8217;t real, but the fun definitely was.</p>
-
-<p>The Doodle transforms the Google letters into bouncy animated characters watching the festivities. When you click play, a star-shaped piñata in Google&#8217;s signature colors drops down, and the lowercase &#8220;g&#8221; appears blindfolded and wielding a stick, ready to take swings. You get 10 attempts to smash that piñata and collect as much candy as possible. Timing matters — hit it right when it swings into range and you&#8217;ll knock out way more sweets than a mistimed flail. Music plays throughout to keep the party atmosphere going, and Google-colored candy wrappers pile up in the backyard scene as you rack up your score.</p>
-
-<p>Google&#8217;s birthday itself has a quirky history. The company was actually incorporated on September 4, 1998, the domain was registered on September 15, 1997, and Google officially launched on September 7, 1998. But since 2005, Google has celebrated on September 27 — and nobody&#8217;s entirely sure why. As Google themselves admitted in the Doodle description: &#8220;When&#8217;s Google&#8217;s birthday? I&#8217;m not sure even we know.&#8221; What we do know is that it all started in a garage in Menlo Park, California, where Stanford Ph.D. students Larry Page and Sergey Brin turned their research project (originally called &#8220;BackRub&#8221;) into a company that would change the internet forever. They named it after &#8220;googol,&#8221; the mathematical term for a one followed by a hundred zeros.</p>
-
-<p>The Doodle was built using HTML5, making it playable on smartphones and tablets as well as desktops. Google also released a fun Easter egg alongside the game — typing &#8220;Google in 1998&#8221; into the search bar transported you back to the clunky, chunky homepage design from the company&#8217;s early days, complete with the original blaring logo and simple blue links. On the same day, from that very same Menlo Park garage where it all began, Google announced its Hummingbird algorithm update — one of the biggest search overhauls in years. But let&#8217;s be honest, most people were too busy chasing high scores on that piñata game to notice.</p>
-
-<h2 class="wp-block-heading">How To Play Google Birthday Piñata Doodle</h2>
-
-<ul class="wp-block-list">
-<li>Click the play button on the birthday cake to start the game and drop the star-shaped piñata</li>
-
-<li>Press the spacebar or click your mouse to make the blindfolded &#8220;g&#8221; swing its stick at the piñata</li>
-
-<li>Time your swings carefully — hitting the piñata at the right moment releases more candy</li>
-
-<li>You have 10 attempts to score as many points as possible before the game ends</li>
-
-<li>After finishing, share your score on Google+ or hit play again to try and beat your record</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>The Google Birthday Piñata Doodle is an interactive celebration game released to mark one of Google's anniversary milestones. The Doodle transforms the classic party game of breaking a piñata into a delightful browser experience where you swing at a colourful piñata to release candy and prizes. The cheerful presentation captures the festive joy of a birthday celebration with bright colours, confetti, and rewarding animations.</p>
+<p>The gameplay is simple and immediately satisfying. Click or swipe to swing at the hanging piñata, and each hit releases a shower of candy, toys, and Google-themed collectibles. The piñata swings and spins with each impact, requiring you to time your swings to connect solidly. More powerful hits release bigger prizes, rewarding well-timed strikes over rapid clicking.</p>
+<p>The prizes inside the piñata reference Google's history and various Google products, making each hit a small trip through the company's evolution. Candy shaped like Google logos, miniature versions of past Doodle characters, and themed collectibles tumble out in a cascade of colour. Collecting everything creates a fun catalogue of Google milestones and memorable moments.</p>
+<p>Playing the Google Birthday Piñata Doodle online captures the universal joy of a birthday celebration in a quick, accessible format. The game requires no instructions or learning curve, making it instantly enjoyable for anyone of any age. The colourful explosions of candy and prizes trigger the same satisfaction as breaking a real piñata, delivering a burst of celebration whenever you need one.</p>
+<h2 class="wp-block-heading">How to Play Google Birthday Piñata Doodle Online</h2>
+<p>Click or tap the piñata to swing at it and release candy and prizes. Each successful hit sends candy flying across the screen and weakens the piñata further. The piñata swings back and forth after each hit, so time your next swing to connect when it reaches the centre of its arc for maximum impact.</p>
+<p>Aim for the centre of the piñata to deal the most effective hits. Glancing blows that catch the edges send the piñata spinning wildly but release fewer prizes. Solid centre hits crack the piñata open more efficiently and produce the most satisfying visual explosions of candy and confetti.</p>
+<p>Watch for special prizes and themed collectibles among the standard candy drops. These unique items often reference specific Google products, past Doodle games, or milestone moments in the company's history. Collecting these special items adds an extra layer of interest for Google enthusiasts who enjoy spotting the references.</p>
+<p>Keep swinging until the piñata breaks completely to trigger the final celebration sequence. The complete destruction unleashes the biggest prize cascade and a spectacular confetti animation that rewards your persistence. The final moment captures the triumphant feeling of breaking through a stubborn piñata at a real party, delivering a satisfying conclusion to the game.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -484,30 +307,15 @@ export const games = [
     thumbnail: '/images/rise-of-the-half-moon.webp',
     relatedSlugs: ['chinese-new-year-snake-google-doodle', 'pizza-google-doodle', 'beethoven-google-doodle'],
     excerpt: 'What if you could duel the moon itself in a card game? That\'s the premise behind Rise of the Half Moon, a recurring Google Doodle that first launched on October...',
-    content: `<p>What if you could duel the moon itself in a card game? That&#8217;s the premise behind Rise of the Half Moon, a recurring Google Doodle that first launched on October 24, 2024, and returns every month to coincide with the final half-moon phase. It&#8217;s one of Google&#8217;s most ambitious Doodles yet — a strategic card battler that teaches you the lunar cycle while you&#8217;re busy trying to outsmart a celestial AI opponent.</p>
-
-<p>The game was created by Google Doodle artists Nate Sandhart and Helene Leroux, and it transforms the eight phases of the moon into a deck of cards you&#8217;ll use to compete for points. You and the Half Moon take turns placing lunar phase cards on a grid, trying to create matches before your opponent does. There are three ways to score: Phase Pairs (placing two identical moon phases side by side for one point), Full Moon Pairs (combining opposite phases like Waxing Crescent and Waning Gibbous for two points), and Lunar Cycles (arranging three or more consecutive phases in order, earning one point per card). The catch? Your opponent can steal your Lunar Cycles by extending them with the correct phase, claiming all those cards for themselves.</p>
-
-<p>What makes this Doodle special is how it evolves. Each month brings a new themed edition corresponding to traditional moon names — October&#8217;s Hunter Moon, February&#8217;s Snow Moon, March&#8217;s Worm Moon, April&#8217;s Pink Moon, May&#8217;s Flower Moon. Each version features unique artwork, board configurations, and most importantly, a fresh set of four Wild Cards to unlock. These power-ups can devastate your opponent: the Hunter Moon card destroys all Half Moon cards on the board, the Super Moon doubles your Full Moon Pair points, and the Scorpio card blocks your opponent&#8217;s end-game bonus entirely. You unlock Wild Cards by winning three games in a row, and they persist even if you lose later — encouraging you to keep pushing for that lunar winning streak.</p>
-
-<p>The board starts as a simple 3&#215;3 grid but expands as you progress through nine increasingly difficult levels. Cards you claim are outlined in white, while the Half Moon&#8217;s cards turn black. At the end of each round, every claimed card earns a bonus point, making board control just as important as scoring matches. Here&#8217;s a fun fact that trips up many players: what we casually call a &#8220;half moon&#8221; is scientifically known as a Quarter Moon, because only a quarter of the moon&#8217;s surface is actually illuminated.</p>
-
-<h2 class="wp-block-heading">How To Play Rise of the Half Moon Google Doodle</h2>
-
-<ul class="wp-block-list">
-<li>Click on the Doodle when it appears on Google&#8217;s homepage during the monthly half-moon phase to start the game</li>
-
-<li>Each turn, choose one of three random moon phase cards from your hand and place it strategically on the board</li>
-
-<li>Create Phase Pairs (matching phases), Full Moon Pairs (opposite phases), or Lunar Cycles (three or more consecutive phases) to score points</li>
-
-<li>Play defense by blocking spots where the Half Moon could extend its own cycles or steal yours</li>
-
-<li>Win three games in a row to unlock powerful Wild Cards, and save them for the later, more difficult levels where expanded board configurations make winning trickier</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Rise of the Half Moon is an atmospheric puzzle game set in a beautifully rendered world where light and shadow are both the medium and the message. Navigate through increasingly complex shadow-based puzzles where the position of a celestial half moon determines which paths are illuminated and which are hidden in darkness. The interplay of light creates a mesmerising visual experience that turns puzzle-solving into an artistic journey.</p>
+<p>The core mechanic revolves around manipulating light sources to reveal hidden paths, activate mechanisms, and unlock passages through shadow-filled environments. Moving the half moon changes the angle of illumination, causing shadows to shift and reveal new possibilities. What appears to be a dead end in one lighting configuration becomes an open path when the light shifts, creating constantly evolving puzzle landscapes.</p>
+<p>The visual design is stunning, with carefully crafted environments that transform dramatically as light angles change. Architectural details emerge from shadows, patterns on walls become visible, and the entire mood of each scene shifts with the illumination. The artistic quality elevates the puzzle-solving into something that feels more like exploring an interactive art installation than playing a traditional game.</p>
+<p>Playing Rise of the Half Moon online is a contemplative and visually rewarding puzzle experience that stands apart from conventional brain teasers. The unique light-and-shadow mechanic creates puzzles that engage spatial reasoning in ways that feel genuinely novel. For players who appreciate games as artistic experiences, the combination of beautiful visuals and clever puzzle design makes this an unmissable experience.</p>
+<h2 class="wp-block-heading">How to Play Rise of the Half Moon Online</h2>
+<p>Interact with the moon and light sources to change the illumination of each puzzle scene. Click and drag the moon to different positions, watching how the shadows shift across the environment. Paths, platforms, and interactive elements may appear or disappear depending on the current lighting angle, so experiment with different moon positions to reveal the full puzzle layout.</p>
+<p>Observe how shadows interact with the environment before committing to a path. Some shadows create solid platforms you can walk on, while others hide dangerous gaps or obstacles. Understanding the relationship between light position and shadow formation is the fundamental skill for navigating each puzzle successfully and safely.</p>
+<p>Look for visual clues in the environment that indicate how the puzzle should be solved. Symbols, patterns, and architectural details often hint at the correct moon position or the order in which light sources should be activated. These clues reward careful observation and attention to artistic detail that might be overlooked during casual play.</p>
+<p>Take your time with each puzzle and enjoy the visual transformations that occur as you manipulate the light. The game is designed to be experienced at a contemplative pace, and rushing through levels means missing the subtle visual artistry that makes each scene special. The most satisfying solutions reveal themselves naturally when you take time to observe and experiment patiently.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -522,32 +330,15 @@ export const games = [
     thumbnail: '/images/chinese-new-year-snake-google-doodle.webp',
     relatedSlugs: ['johann-sebastian-bach-google-doodle', 'pizza-google-doodle', 'beethoven-google-doodle'],
     excerpt: 'Remember the Snake game you used to play on old Nokia phones? Google brought that nostalgic classic back with a cultural twist for the Year of the Snake, creati...',
-    content: `<p>Remember the Snake game you used to play on old Nokia phones? Google brought that nostalgic classic back with a cultural twist for the Year of the Snake, creating one of the most beloved Lunar New Year Doodles ever made. Originally released on February 10, 2013, this interactive game celebrated the Chinese zodiac&#8217;s snake year and proved so popular that Google revived it for the 2025 Year of the Snake, drawing over one million plays within its first 48 hours.</p>
-
-<p>The gameplay sticks to that timeless formula you know — guide your snake around the screen, collect items to grow longer, and avoid crashing into walls or your own tail. But Google wrapped it all in gorgeous Lunar New Year theming. The visual design draws inspiration from traditional Chinese paper-cutting (jiǎnzhǐ), a UNESCO-recognized art form, with bright reds and golds dominating the festive backdrop. You&#8217;ll see lanterns, firecrackers, and temple designs decorating the playfield, while the snake itself features scales with cloud motifs and flower accents inspired by folk art traditions.</p>
-
-<p>What makes this Doodle special is how it blends entertainment with cultural education. Instead of collecting generic dots, you&#8217;re gathering items loaded with symbolic meaning: red envelopes (hongbao) representing luck and blessings, dumplings symbolizing prosperity, mandarin oranges for good fortune, and gold coins for wealth. The 2025 version added customization options letting you modify your snake&#8217;s appearance with traditional patterns, plus a daily challenge mode for competitive players looking for extra difficulty.</p>
-
-<p>In Chinese astrology, the Snake represents wisdom, intuition, and transformation — qualities that actually translate nicely to the gameplay, where you need patience, planning, and the ability to adapt as your snake grows longer and the challenge intensifies. The soundtrack blends traditional Chinese percussion with modern chiptune elements, creating that perfect mix of cultural authenticity and retro gaming vibes. The coding team built it using HTML5, making it playable across desktop and mobile browsers without any downloads.</p>
-
-<p>Lunar New Year has been celebrated for over 3,000 years across many Asian countries, following a lunar calendar based on the moon&#8217;s 12 phases. The 15-day festival runs from the first new moon to the Lantern Festival, typically falling in late January or early February.</p>
-
-<h2 class="wp-block-heading">How To Play Chinese New Year Snake Google Doodle</h2>
-
-<ul class="wp-block-list">
-<li>Use the arrow keys on desktop or swipe gestures on mobile to control your snake&#8217;s direction (up, down, left, right)</li>
-
-<li>Collect red envelopes, dumplings, oranges, and other festive items to grow longer and increase your score</li>
-
-<li>Avoid hitting the walls or colliding with your own tail as you navigate the playing field</li>
-
-<li>Stick to the perimeter early on to build momentum, then plan your path carefully as your snake grows</li>
-
-<li>Try the daily challenge mode for a more competitive experience with unique objectives each day</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>The Chinese New Year Snake Google Doodle celebrates the Year of the Snake with an interactive game inspired by the traditional Chinese zodiac. This beautifully illustrated Doodle combines the classic snake game mechanic with festive Chinese New Year imagery, creating a colourful and culturally rich gaming experience. Red lanterns, fireworks, and traditional decorations frame the gameplay in a celebration of this important cultural event.</p>
+<p>The artwork draws deeply from Chinese artistic traditions, featuring intricate patterns, auspicious symbols, and the vibrant red and gold colour palette associated with Chinese New Year celebrations. The snake itself is rendered in a stylised Eastern dragon aesthetic that connects the gameplay to the zodiac animal being celebrated. Every visual element reinforces the cultural context while remaining playful and inviting.</p>
+<p>The gameplay builds on the beloved snake game format where you guide a growing serpent to collect items while avoiding collisions. The collected items are themed around Chinese New Year traditions, including tangerines for prosperity, red envelopes for good fortune, and traditional sweets associated with the holiday. Each collected item holds cultural significance explained within the Doodle.</p>
+<p>Playing the Chinese New Year Snake Google Doodle online is both a fun gaming experience and an educational introduction to Chinese New Year traditions. The Doodle respectfully presents cultural elements in a way that educates players about the significance of the holiday while providing genuine entertainment. It captures the spirit of celebration and renewal that defines the Chinese New Year festivities.</p>
+<h2 class="wp-block-heading">How to Play Chinese New Year Snake Google Doodle Online</h2>
+<p>Use the arrow keys or swipe gestures to guide your snake around the playing field. The snake moves continuously in the current direction and changes direction when you press a new arrow key. Navigate toward the collectible items scattered across the field while avoiding the edges and your own growing tail.</p>
+<p>Collect the festive items that appear on the playing field to earn points and grow your snake. Each item type has different point values and some trigger special animations or bonus effects. Prioritise higher-value items when multiple are available, but never risk a collision for a few extra points.</p>
+<p>Manage your growing length carefully as the snake gets longer with each collected item. A longer snake means more tail to avoid and less safe space on the playing field. Plan your path several moves ahead to ensure you do not trap yourself in a corner with no escape route as your snake grows.</p>
+<p>Enjoy the cultural animations and information that appear as you play, learning about Chinese New Year customs and the significance of the Year of the Snake in the Chinese zodiac. The educational elements are woven naturally into the gameplay, so you absorb cultural knowledge while focusing on achieving your best score and longest snake.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -562,32 +353,15 @@ export const games = [
     thumbnail: '/images/pizza-google-doodle.webp',
     relatedSlugs: ['johann-sebastian-bach-google-doodle', 'mbira-google-doodle', 'beethoven-google-doodle'],
     excerpt: 'Think slicing pizza is easy? This Doodle will make you reconsider.',
-    content: `<p>Think slicing pizza is easy? This Doodle will make you reconsider. Released on December 6, 2021, the Pizza Google Doodle celebrates one of the world&#8217;s most beloved foods with a deceptively tricky puzzle game that challenges you to slice pizzas according to very specific customer orders. It commemorates the anniversary of Neapolitan &#8220;Pizzaiuolo&#8221; being inscribed on the UNESCO Representative List of Intangible Cultural Heritage of Humanity back in 2007.</p>
-
-<p>The game starts simple enough — just cut a Margherita into the requested number of slices. But things escalate quickly. You&#8217;re not just dividing pizzas evenly; you need to ensure each slice contains exactly the right combination of toppings. The White Pizza level, for example, requires you to create six slices where three have only mushrooms and the other three have both mushrooms and broccoli. And you&#8217;re limited to just three cuts per pizza. By the time you reach the Paneer Tikka Pizza with its chaotic mix of paneer, capsicum, onion, and paprika spread across 11 required slices, you&#8217;ll realize this cute little game is actually testing your geometry and logic skills.</p>
-
-<p>The Doodle takes you on a world tour of pizza styles across 11 levels: classic Italian Margherita, American Pepperoni, Brazilian Calabresa with its distinctive sausage and black olives, Argentine Muzzarella, Hawaiian (yes, with pineapple), Hungarian Magyaros loaded with salami and bacon, Japanese Teriyaki Mayonnaise, Thai-inspired Tom Yum with shrimp and lime leaves, Indian Paneer Tikka, and finally a Dessert Pizza with &#8220;endless possibilities.&#8221; Each level includes a fun fact button you can click to learn about that pizza&#8217;s origins and cultural significance.</p>
-
-<p>What makes this Doodle so addictive is the scoring system. The more precisely you slice and distribute toppings, the more stars you earn (up to three per level). After you make your cuts, a charming animation shows hands — and sometimes paws — reaching in to grab slices. The final two levels are notoriously difficult to perfect, with toppings deliberately arranged to confuse your slicing strategy. The game was created by artist David Lu, with UX design by Anthony Irwin, production by Brenna Fallon, and music by Christel Veraart.</p>
-
-<p>Google notes that an estimated five billion pizzas are consumed globally each year — that&#8217;s 350 slices per second in the United States alone.</p>
-
-<h2 class="wp-block-heading">How To Play Pizza Google Doodle</h2>
-
-<ul class="wp-block-list">
-<li>Click the play button to start, then read the order in the top left corner showing how many slices are needed and which toppings each slice should contain</li>
-
-<li>Drag your mouse or finger across the pizza to make cuts — you&#8217;re limited to three cuts per pizza, so plan carefully</li>
-
-<li>Look for thin dividing lines between topping sections as hints for where to slice</li>
-
-<li>Aim for precision when cutting, as more accurate slices earn you more stars (up to three per level)</li>
-
-<li>Click the small pizza slice icon next to each pizza&#8217;s name to learn fun facts about that style&#8217;s history and origins</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>The Pizza Google Doodle celebrates the beloved food with an interactive pizza-making experience that turns you into a virtual pizzaiolo. The Doodle challenges you to slice pizzas according to specific customer orders, combining geometry with the universal joy of pizza. Each level presents a different slicing puzzle where you must divide the pizza to satisfy customer requests for specific numbers of slices and topping distributions.</p>
+<p>The slicing mechanic requires geometric thinking as you plan cuts that divide the pizza into the requested number of equal portions. Simple orders need straightforward cross cuts, while complex orders demand creative angled slices that divide toppings evenly. The visual feedback shows whether your slices are creating equal portions, letting you adjust your technique as you progress through increasingly demanding orders.</p>
+<p>As levels advance, the pizzas feature multiple toppings that must be distributed according to specific rules. One customer might want their slices to each contain pepperoni, while another wants vegetable toppings separated from meat. These topping constraints add a layer of puzzle complexity beyond simple geometry, requiring you to plan cuts that respect both portion size and ingredient distribution.</p>
+<p>Playing the Pizza Google Doodle online is a cheerful combination of geometry puzzles and culinary fun that appeals to pizza lovers and puzzle enthusiasts alike. The satisfying sound effects, appetising visuals, and increasingly clever cutting challenges create an experience that is both relaxing and mentally engaging. It proves that even the simplest food can inspire creative and educational game design.</p>
+<h2 class="wp-block-heading">How to Play Pizza Google Doodle Online</h2>
+<p>Click and drag across the pizza to make slicing cuts. Each cut divides the pizza along the line you draw, so aim for straight, precise cuts that create even portions. The number of required slices is displayed with each order, and your cuts must divide the pizza into exactly that many pieces to satisfy the customer.</p>
+<p>Plan your cuts before making them, especially for orders requiring many slices or specific topping distributions. Visualise where each cut will fall and how many pieces it will create in combination with previous cuts. A well-planned sequence of three or four cuts is more efficient than many corrective small cuts.</p>
+<p>Pay attention to topping placement when orders specify ingredient requirements for each slice. Some levels require every slice to contain a specific topping, while others want toppings isolated to certain slices. Let the topping layout guide your cutting angles, using the ingredients as visual markers for optimal cut placement.</p>
+<p>Aim for symmetrical cuts when creating equal portions, as the scoring rewards even slice sizes. Perfectly equal portions earn the best ratings, while uneven cuts that leave some slices larger than others reduce your score. Using the pizza's centre as a reference point for your cuts helps maintain symmetry and portion equality across all your slices.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -603,32 +377,15 @@ export const games = [
     thumbnail: '/images/mbira-google-doodle.webp',
     relatedSlugs: ['johann-sebastian-bach-google-doodle', 'savoy-ballroom-google-doodle', 'beethoven-google-doodle'],
     excerpt: 'Ever played Guitar Hero with a thousand-year-old African instrument? That\'s basically what the Mbira Google Doodle offers.',
-    content: `<p>Ever played Guitar Hero with a thousand-year-old African instrument? That&#8217;s basically what the Mbira Google Doodle offers. Released on May 21, 2020, to celebrate the beginning of Zimbabwe&#8217;s Culture Week, this interactive Doodle lets you learn and play Zimbabwe&#8217;s national instrument while following the heartwarming story of a young girl&#8217;s musical journey.</p>
-
-<p>The mbira (sometimes called a &#8220;thumb piano,&#8221; though Zimbabweans prefer the traditional name) is a handheld instrument that&#8217;s been central to Shona culture for over a millennium. It consists of a hardwood soundboard called a gwariva with thin metal keys attached, which you pluck with your thumbs and forefinger. A large hollow gourd called a deze amplifies the sound, and here&#8217;s the cool part — bottle caps or beads are often attached to create that signature buzzing, shimmering tone that makes mbira music so distinctive. The keys were originally smelted directly from iron ore, though modern makers use recycled steel from bed springs, bicycle spokes, and car seat springs.</p>
-
-<p>What makes this Doodle special is how deeply the Google team committed to authenticity. They actually traveled to Zimbabwe and worked closely with the Shona people, mbira experts, and cultural consultants throughout development. Musician Albert Chimedza, founder of The Mbira Centre, contributed to the project and noted that anyone who spends more than five minutes with Zimbabwean mbira can never forget the sound — describing it as a cross between water and air.</p>
-
-<p>The game tells the story of a girl who first encounters the mbira as a child when she stops to watch an elderly man playing. He notices her fascination and lets her touch the instrument. In the second chapter, a craftsman builds her a tiny mbira of her own (she helps by collecting bottle caps for the buzzers). By the final chapter, she&#8217;s grown up and performs with a full band to a large crowd — then hands the instrument down to a young boy, completing the cycle that&#8217;s preserved mbira traditions for generations. The four levels teach you traditional and modern songs: Nhemamusasa, Bangiza, Taireva, and Chemutengure.</p>
-
-<p>The gameplay follows that familiar rhythm-game format where notes scroll down and you hit them at the right moment. After completing all four levels, you unlock free play mode to create your own compositions. The Doodle was engineered by South African Doodler Jonathan Shneier, with art by Helene Leroux, game design by Lisa Takehana, and production by Colin Duffy.</p>
-
-<h2 class="wp-block-heading">How To Play Mbira Google Doodle</h2>
-
-<ul class="wp-block-list">
-<li>Click the play button on the Doodle&#8217;s homepage to begin the interactive story and tutorial</li>
-
-<li>Hover your mouse over the correct metal key when notes scroll down to the target zone, similar to Guitar Hero</li>
-
-<li>Progress through four chapters, each teaching you a different traditional or modern Zimbabwean song</li>
-
-<li>After completing all levels, access free play mode to experiment and create your own mbira melodies</li>
-
-<li>Use the replay option to revisit any chapter you&#8217;d like to practice, or click individual keys to explore the instrument&#8217;s range</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>The Mbira Google Doodle celebrates the ancient African musical instrument known as the mbira, a thumb piano whose resonant metallic tones have been central to Zimbabwean Shona culture for over a thousand years. This interactive Doodle lets you play a virtual mbira by clicking on its metal tines, producing the distinctive bell-like sounds that have accompanied spiritual ceremonies, storytelling, and celebrations across southern Africa for generations.</p>
+<p>The instrument is rendered with beautiful detail, showing the wooden soundboard, metal keys, and the bottle cap buzzers that give the mbira its characteristic vibrating timbre. Each tine produces a different pitch when clicked, and the resonance of the virtual instrument captures the warm, shimmering quality that makes the mbira's sound instantly recognisable. The visual design honours the craftsmanship of traditional mbira makers.</p>
+<p>Educational content woven into the Doodle explains the mbira's cultural significance in Shona tradition, where it is considered a sacred instrument that facilitates communication with ancestral spirits. The Doodle respectfully presents this cultural context, helping players understand that the sounds they are creating carry deep spiritual and cultural meaning for the people who have played this instrument for centuries.</p>
+<p>Playing the Mbira Google Doodle online is a moving experience that connects you to one of the world's oldest and most soulful musical traditions. The tactile sensation of clicking the tines and hearing the resonant responses creates an intimate musical moment. The Doodle serves as both an instrument and a gateway to understanding a musical tradition that deserves far wider recognition and appreciation.</p>
+<h2 class="wp-block-heading">How to Play Mbira Google Doodle Online</h2>
+<p>Click on the metal tines of the virtual mbira to produce notes. Each tine corresponds to a different pitch, with lower tones on the outside and higher tones toward the centre, mirroring the layout of a real instrument. The notes sustain and overlap naturally, creating the layered, rhythmic texture that characterises mbira music.</p>
+<p>Experiment with alternating between left and right tines to create interlocking rhythmic patterns. Traditional mbira music relies on two hands playing complementary patterns that weave together into complex polyrhythmic textures. Even simple alternating patterns on the virtual instrument produce surprisingly musical results that echo this traditional playing style.</p>
+<p>Listen to the guided musical examples provided in the Doodle to hear how traditional mbira patterns sound. These examples demonstrate the cyclical, meditative quality of mbira music where repeating patterns shift and evolve gradually. Try to recreate these patterns on the virtual instrument to develop a feel for the rhythmic language of the mbira.</p>
+<p>Explore all sections of the Doodle to learn about the mbira's history, construction, and cultural role. The educational content explains how different types of mbiras are used for different occasions and how the instrument's tuning system differs from Western musical scales. This cultural context enriches your playing experience by connecting the sounds you create to their deep historical and spiritual significance.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -643,32 +400,15 @@ export const games = [
     thumbnail: '/images/johann-sebastian-bach-google-doodle.webp',
     relatedSlugs: ['oskar-fischinger-google-doodle', 'savoy-ballroom-google-doodle', 'beethoven-google-doodle'],
     excerpt: 'Ever wondered what it would be like to collaborate with one of history\'s greatest composers? The Johann Sebastian Bach Google Doodle lets you do exactly that — ...',
-    content: `<p>Ever wondered what it would be like to collaborate with one of history&#8217;s greatest composers? The Johann Sebastian Bach Google Doodle lets you do exactly that — write your own melody and watch as artificial intelligence transforms it into something Bach himself might have written. Released on March 21, 2019, this was Google&#8217;s first-ever AI-powered Doodle, and it&#8217;s still one of the most impressive things they&#8217;ve ever built.</p>
-
-<p>The Doodle celebrates Bach&#8217;s 334th birthday (he was born in 1685 under the old Julian calendar). Bach came from a massive musical family in Eisenach, Germany — his father, uncles, and brothers were all professional musicians. Orphaned at 10, he was raised by his eldest brother, an organist who gave him his first keyboard lessons. Bach went on to become the greatest composer of the Baroque era, mastering counterpoint (the art of weaving multiple melodies together simultaneously) and producing over 1,000 works including the Brandenburg Concertos, The Well-Tempered Clavier, and the Mass in B Minor. He was primarily famous as an organist during his lifetime — he even knew how to build and repair pipe organs.</p>
-
-<p>What makes this Doodle special is the technology behind it. Google&#8217;s Magenta team developed a machine learning model called Coconet, which was trained on 306 of Bach&#8217;s chorale harmonizations. Bach&#8217;s chorales always feature four distinct voices, each carrying their own melodic line while creating rich harmonies together — a perfect structure for teaching AI. You compose a simple two-measure melody by clicking notes on a staff, then hit &#8220;Harmonize&#8221; and Coconet adds three additional voices in Bach&#8217;s style. The result sounds remarkably authentic.</p>
-
-<p>There&#8217;s even a hidden easter egg: click the amplifier icon in the corner to transform your composition into an 80s rock style, a nod to Wendy Carlos&#8217; groundbreaking 1968 album Switched-On Bach, which reimagined Bach&#8217;s music on Moog synthesizers. You can also click the sticky note with a sheep to hear a &#8220;Bachified&#8221; version of &#8220;Mary Had a Little Lamb.&#8221;</p>
-
-<h2 class="wp-block-heading">How To Play Johann Sebastian Bach Google Doodle</h2>
-
-<ul class="wp-block-list">
-<li>Click on the empty music staff to place notes — you can use quarter notes or eighth notes across two measures in the key of C</li>
-
-<li>Use the play button to preview your melody before harmonizing</li>
-
-<li>Press &#8220;Harmonize&#8221; and watch as the AI adds three additional voice parts in Bach&#8217;s signature style</li>
-
-<li>Click the star button to reveal a dial that changes the key of your composition</li>
-
-<li>Find the amplifier icon for an 80s synth-rock easter egg, or the sheep sticky note for a surprise Bach arrangement</li>
-
-<li>Download your creation as a MIDI file or share it on social media using the buttons provided</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>The Johann Sebastian Bach Google Doodle is an AI-powered interactive music experience that lets you compose a melody and have artificial intelligence harmonise it in the style of Bach. This groundbreaking Doodle was the first to use machine learning, trained on 306 of Bach's chorale compositions to understand his harmonic language. The result is a tool that makes the magic of Baroque composition accessible to everyone, regardless of musical training.</p>
+<p>The AI harmonisation is genuinely impressive and musically coherent. Enter a simple melody line and the machine learning model generates three additional voices that follow Bach's compositional rules for harmony, voice leading, and counterpoint. The harmonisations sound authentically Baroque, demonstrating how thoroughly the model absorbed Bach's musical language from the training data.</p>
+<p>The interface presents a staff where you click to place notes on a simple timeline. The process is intentionally accessible, requiring no knowledge of music theory or notation. Whether you create a careful melody or place notes randomly, the AI produces a musically coherent four-part harmonisation that sounds like it could have been written by a Baroque composer, making everyone feel like a musical genius.</p>
+<p>Playing the Bach Google Doodle online is a fascinating intersection of music, history, and artificial intelligence. The Doodle demonstrates how machine learning can capture and reproduce artistic patterns while simultaneously celebrating the genius of Bach whose music was structured enough to be learned by an algorithm. It is both a creative toy and a glimpse into the future of AI-assisted music composition.</p>
+<h2 class="wp-block-heading">How to Play Johann Sebastian Bach Google Doodle Online</h2>
+<p>Click on the musical staff to place notes and create your melody line. Each click adds a note at the chosen pitch and position in the timeline. You can place notes at different heights to create ascending, descending, or varied melodic contours. The interface shows standard musical notation that updates in real time as you compose.</p>
+<p>Press the harmonise button once your melody is complete to hear the AI generate three additional voices beneath your melody. The machine learning model analyses your note choices and creates soprano, alto, tenor, and bass parts that follow Baroque harmonic conventions. The result plays back immediately, letting you hear your simple melody transformed into a rich four-part composition.</p>
+<p>Experiment with different melodic patterns to hear how the AI responds. Stepwise melodies that move by small intervals produce smooth, flowing harmonisations, while melodies with larger jumps generate more dramatic harmonic shifts. Try both approaches to explore the range of Bach-style harmonisations the AI can produce from your input.</p>
+<p>Share your compositions using the provided sharing tools and listen to harmonisations created by other users worldwide. The social element transforms the Doodle from a solo experiment into a global collaborative exploration of music and AI. Comparing different melodies and their harmonisations reveals patterns in how the AI interprets different musical inputs and highlights the depth of Bach's harmonic language.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -683,30 +423,15 @@ export const games = [
     thumbnail: '/images/beethoven-google-doodle.webp',
     relatedSlugs: ['oskar-fischinger-google-doodle', 'savoy-ballroom-google-doodle', 'clara-rockmore-google-doodle'],
     excerpt: 'Can you piece together some of the most famous melodies in history? The Beethoven Google Doodle challenges you to reassemble the composer\'s scattered sheet musi...',
-    content: `<p>Can you piece together some of the most famous melodies in history? The Beethoven Google Doodle challenges you to reassemble the composer&#8217;s scattered sheet music in a charming puzzle game that&#8217;s equal parts frustrating and delightful. Released on December 17, 2015, this interactive Doodle celebrates the 245th anniversary of Ludwig van Beethoven&#8217;s baptism — his actual birth date remains unknown.</p>
-
-<p>The premise is simple: poor Beethoven is rushing to his big concert when disaster strikes. His sheet music gets jumbled up (at one point, a horse literally eats some of it), and you need to arrange the pieces in the correct order so he can perform. It&#8217;s a fitting tribute to a man whose life was full of setbacks. Beethoven was pulled out of school at age 10 by his alcoholic father who wanted to exploit his musical talents. He lost siblings prematurely, had to support his entire family as a teenager, suffered through unrequited love affairs, and most famously, began losing his hearing at the peak of his career.</p>
-
-<p>By around 1798, Beethoven noticed ringing and buzzing in his ears. The deafness progressed steadily — by 1814 he was completely deaf. Yet he kept composing. He&#8217;d pound on pianos so hard the strings would jangle, trying to feel the vibrations. His Ninth Symphony, featuring the iconic &#8220;Ode to Joy,&#8221; was written when he couldn&#8217;t hear a single note. At its premiere in 1824, Beethoven had to be turned around to see the audience&#8217;s thunderous applause because he couldn&#8217;t hear it.</p>
-
-<p>The Doodle features four levels, each using one of his most recognizable compositions: Symphony No. 5 (that famous &#8220;da-da-da-DUM&#8221;), Für Elise, Moonlight Sonata, and Ode to Joy. Even if you&#8217;ve never read sheet music, you&#8217;ll probably recognize these melodies instantly — they&#8217;ve appeared in countless movies, commercials, and ringtones for over two centuries. Each puzzle piece has a speaker icon so you can preview how it sounds before placing it. The difficulty increases as you progress, with more pieces to arrange in later levels.</p>
-
-<h2 class="wp-block-heading">How To Play Beethoven Google Doodle</h2>
-
-<ul class="wp-block-list">
-<li>Watch the animated intro showing Beethoven&#8217;s journey to the symphony hall and how his music gets scattered</li>
-
-<li>Click and drag the sheet music pieces to rearrange them in the correct order</li>
-
-<li>Use the speaker icon on each piece to hear how that section sounds — listen for which parts connect naturally</li>
-
-<li>When you think you&#8217;ve got the right order, the music will play through smoothly and Beethoven continues his journey</li>
-
-<li>Complete all four levels featuring Symphony No. 5, Für Elise, Moonlight Sonata, and Ode to Joy</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>The Beethoven Google Doodle is an interactive musical puzzle game celebrating the legendary composer Ludwig van Beethoven. Help Beethoven piece together his most famous compositions by arranging musical phrases in the correct order. Scattered pages of sheet music must be reassembled to recreate iconic works, combining puzzle-solving with an education in classical music that makes this one of the most creative and educational Google Doodles ever produced.</p>
+<p>Each level features a different Beethoven masterpiece broken into scrambled segments. You hear the correct melody as a reference and must drag musical fragments into the proper sequence. The music plays back your arrangement in real time, so you can hear immediately whether your ordering sounds right. Incorrect arrangements produce noticeably wrong-sounding music, while correct solutions reveal the brilliant compositions in their intended glory.</p>
+<p>The Doodle progresses through several of Beethoven's most recognisable works, from the thunderous opening of the Fifth Symphony to the joyful Ode to Joy from the Ninth. Each piece presents a different musical puzzle with varying difficulty based on the complexity and familiarity of the composition. Even people with no musical training can solve the puzzles by ear, as the correct arrangements simply sound better than incorrect ones.</p>
+<p>Playing the Beethoven Google Doodle online is a charming blend of gaming and musical appreciation that introduces players to classical music through interactive engagement rather than passive listening. The comic-book style animations of Beethoven rushing to his performances add delightful personality, and the satisfaction of correctly assembling a masterpiece provides a genuine emotional connection to music that might otherwise feel distant and academic.</p>
+<h2 class="wp-block-heading">How to Play Beethoven Google Doodle Online</h2>
+<p>Drag and drop the musical phrase tiles into the timeline at the bottom of the screen to arrange them in the correct order. Each tile represents a short segment of the composition, and your job is to determine the proper sequence that recreates Beethoven's original work. Listen carefully to the reference melody before starting to arrange pieces.</p>
+<p>Click the play button to hear your current arrangement and compare it to how the music should sound. If a section sounds jarring or out of place, that tile is likely in the wrong position. Use your ear to identify which transitions between tiles sound smooth and natural, as correct ordering produces seamless musical flow.</p>
+<p>Start by identifying the opening and closing phrases, which are often the most recognisable parts of each composition. Placing the beginning and ending correctly narrows down where the remaining middle sections must go. Work inward from both ends, filling in the middle sections based on musical flow and melodic logic.</p>
+<p>Do not worry if you lack formal musical knowledge. The puzzles are designed to be solvable by anyone with basic listening skills. Simply play different arrangements and listen for the one that sounds most complete and musical. Your natural sense of melody is a more effective tool than theoretical knowledge for these puzzles, and each solved level deepens your appreciation of Beethoven's genius.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -721,30 +446,15 @@ export const games = [
     thumbnail: '/images/savoy-ballroom-google-doodle.webp',
     relatedSlugs: ['oskar-fischinger-google-doodle', 'hip-hop-google-doodle', 'clara-rockmore-google-doodle'],
     excerpt: 'Think your rhythm is good enough for the dance floor? The Savoy Ballroom Google Doodle puts you to the test with a swing dancing rhythm game that\'ll have your f...',
-    content: `<p>Think your rhythm is good enough for the dance floor? The Savoy Ballroom Google Doodle puts you to the test with a swing dancing rhythm game that&#8217;ll have your fingers flying across the keyboard. Released on May 26, 2021, this interactive Doodle celebrates the legendary Harlem dance hall where the Lindy Hop was born and racial integration actually happened — decades before the Civil Rights Movement.</p>
-
-<p>The Savoy Ballroom opened its doors on March 12, 1926, with a strict no-discrimination policy that was revolutionary for its time. While other famous Harlem clubs like the Cotton Club only allowed white patrons (despite featuring Black performers), the Savoy welcomed everyone. As Lindy Hop legend Frankie Manning put it: &#8220;One night somebody came over and said, &#8216;Hey man, Clark Gable just walked in the house.&#8217; Somebody else said, &#8216;Oh, yeah, can he dance?&#8217; All they wanted to know when you came into the Savoy was, do you dance?&#8221;</p>
-
-<p>And dance they did. The ballroom featured a 10,000-square foot mahogany and maple dance floor stretching an entire city block, with twin bandstands so the music never stopped. Jazz legends like Chick Webb, Count Basie, and Ella Fitzgerald performed for crowds of thousands nightly — over 700,000 dancers passed through annually. The floor was so heavily used it had to be replaced every three years. The northeast corner, known as &#8220;Cat&#8217;s Corner,&#8221; was reserved for the elite dancers of Whitey&#8217;s Lindy Hoppers, who would later spread the dance worldwide through Broadway shows and Hollywood films like Hellzapoppin&#8217;.</p>
-
-<p>The Doodle captures this energy perfectly. It&#8217;s a DDR-style rhythm game where you hit keys (D, F, J, K) in time with classic swing tracks including Ella Fitzgerald and Louis Armstrong&#8217;s &#8220;Let&#8217;s Call the Whole Thing Off,&#8221; &#8220;Bei Mir Bist Du Schoen,&#8221; and &#8220;Solid as a Rock.&#8221; You can play solo or grab a friend for two-player mode, sharing the keyboard. The game even lets you choose the gender of both the lead and follow dancers — a nod to the Savoy&#8217;s inclusive spirit. Between songs, you&#8217;ll learn facts about the ballroom&#8217;s history and legacy.</p>
-
-<h2 class="wp-block-heading">How To Play The Savoy Ballroom Doodle</h2>
-
-<ul class="wp-block-list">
-<li>Press the corresponding keys (D, F, J, K) when the circles reach the target zone at the bottom of the screen</li>
-
-<li>Play solo using all four keys, or share the keyboard with a friend in two-player mode (one person takes D and F, the other takes J and K)</li>
-
-<li>Choose your dancers&#8217; appearances before starting — you can pick any combination of lead and follow</li>
-
-<li>Progress through increasingly difficult levels as the songs speed up and patterns get more complex</li>
-
-<li>Watch for fun facts about the Savoy Ballroom between each song</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>The Savoy Ballroom Google Doodle celebrates the legendary Harlem dance hall that became the home of swing dancing and a beacon of racial integration during the 1920s through 1960s. This interactive Doodle lets you experience the energy and joy of the Savoy Ballroom through animated dance sequences and historical storytelling. The vibrant artwork captures the elegance and excitement that made the Savoy the most famous ballroom in the world.</p>
+<p>The Doodle showcases the revolutionary dance styles that originated at the Savoy, including the Lindy Hop, which became the foundational swing dance that influenced virtually every partner dance that followed. Animated dancers demonstrate the acrobatic lifts, spins, and improvised moves that made Savoy dancers famous worldwide. The energy of the animations captures the joyful athleticism that defined Savoy dancing.</p>
+<p>Historical context is woven throughout the interactive experience, highlighting the Savoy's groundbreaking role as one of the first racially integrated public spaces in America. Black and white dancers shared the floor and competed together in dance battles that were judged purely on skill and creativity. The Doodle honours this legacy of equality and artistic excellence that preceded the civil rights movement by decades.</p>
+<p>Playing the Savoy Ballroom Google Doodle online is both entertaining and deeply educational, connecting interactive fun with an important chapter of American cultural history. The combination of stunning animation, historical significance, and musical celebration creates an experience that informs while it entertains. It serves as a wonderful introduction to the Savoy's legacy for people who may not know this remarkable story.</p>
+<h2 class="wp-block-heading">How to Play Savoy Ballroom Google Doodle Online</h2>
+<p>Click through the animated sequences to explore different aspects of the Savoy Ballroom experience. Each section features beautifully rendered dance animations set to swing music that captures the era's infectious energy. The interactive elements invite you to engage with the content rather than passively watching, making the historical journey feel personal and immersive.</p>
+<p>Watch the dance sequences carefully to appreciate the incredible athleticism and creativity of Savoy dancers. The animations faithfully recreate iconic moves like aerial lifts, floor slides, and synchronised routines that made the Savoy dancers world-famous. Each move is rendered with attention to the physicality and grace that characterised the real dancers.</p>
+<p>Read the historical information panels that accompany each interactive section. These panels provide context about the Savoy's founding, its cultural impact, and the dancers who made it legendary. Figures like Frankie Manning and Norma Miller are highlighted, connecting the interactive dance experience to real people whose artistry shaped American culture.</p>
+<p>Explore all sections of the Doodle to get the complete story, from the Savoy's opening night to its lasting influence on dance and music worldwide. The Doodle is structured as a narrative journey that builds understanding progressively, with each section adding layers to the story of how a Harlem ballroom became a crucible of cultural revolution and artistic innovation.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -759,30 +469,15 @@ export const games = [
     thumbnail: '/images/oskar-fischinger-google-doodle.webp',
     relatedSlugs: ['paris-games-2024', 'hip-hop-google-doodle', 'clara-rockmore-google-doodle'],
     excerpt: 'What if shapes could dance to music? The Oskar Fischinger Google Doodle lets you find out by creating your own "visual music" — clicking dots on a grid to compo...',
-    content: `<p>What if shapes could dance to music? The Oskar Fischinger Google Doodle lets you find out by creating your own &#8220;visual music&#8221; — clicking dots on a grid to compose looping animations that pulse and glow in sync with the sounds you make. Released on June 22, 2017, this interactive Doodle celebrates the 117th birthday of a man who invented the music video decades before MTV existed.</p>
-
-<p>Oskar Fischinger was born in Germany in 1900 and trained as a violinist and organ builder before discovering film. In 1921, he saw an abstract animation by Walter Ruttmann and immediately devoted his life to &#8220;absolute cinema&#8221; — films where geometric shapes, colors, and movement tell the story instead of characters. Long before computers existed, Fischinger spent months hand-drawing and painting every single frame, then syncing them perfectly to music. His &#8220;Studies&#8221; series from the late 1920s and early 1930s are considered the world&#8217;s first music videos — they even ran in theaters with credits advertising the record labels.</p>
-
-<p>When the Nazis labeled abstract art &#8220;degenerate&#8221; and denied him work permits, Fischinger fled to Hollywood in 1936. He worked on Disney&#8217;s Fantasia, designing the famous Bach &#8220;Toccata and Fugue in D Minor&#8221; sequence — but quit without credit when Disney altered his pure abstract designs to include representational images like violin bows. His 1947 film Motion Painting No. 1, where he photographed every single brushstroke as he painted, won the Grand Prix at the Brussels Experimental Film Competition and is now preserved in the U.S. Library of Congress. Pete Docter, director of Pixar&#8217;s Monsters Inc., called Fischinger&#8217;s work &#8220;a different language I didn&#8217;t know existed.&#8221;</p>
-
-<p>The Doodle captures his philosophy perfectly. You get an 11&#215;16 grid where each dot represents a musical note. Choose from four different instrument sounds, click dots to place them, and watch your composition loop endlessly as animated shapes dance across the screen. There&#8217;s even delay and bitcrush effects hidden in the settings. As Fischinger himself said: &#8220;Music is not limited to the world of sound. There exists a music of the visual world.&#8221;</p>
-
-<h2 class="wp-block-heading">How To Play Oskar Fischinger Doodle</h2>
-
-<ul class="wp-block-list">
-<li>Click any dot on the 11&#215;16 grid to add a note — each column plays in sequence from left to right, each row represents a different pitch</li>
-
-<li>Choose between four different instruments using the icons at the bottom of the screen</li>
-
-<li>Your composition loops continuously, so you can keep adding and removing notes as it plays</li>
-
-<li>Click the gear icon to access settings including tempo, effects (delay, bitcrush), and preset compositions for inspiration</li>
-
-<li>Share your creation using the share button — each composition gets a unique link you can send to friends</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>The Oskar Fischinger Google Doodle celebrates the pioneering visual artist and filmmaker who created some of the first abstract animated films synchronised to music. This interactive Doodle transforms you into a visual music composer, placing geometric shapes and colours on a timeline that generates both animation and sound. The tool captures Fischinger's vision of visual music where shapes, motion, and colour exist in perfect harmony with sound.</p>
+<p>The interface provides a canvas where you can place various geometric shapes at different positions and sizes. Each shape produces a different sound when the playback timeline reaches it, and the pitch and volume are determined by the shape's position and size on the canvas. Building a composition means thinking visually and musically simultaneously, just as Fischinger did in his revolutionary films.</p>
+<p>The visual aesthetic faithfully recreates Fischinger's distinctive style of bold geometric forms against dark backgrounds. Circles, triangles, rectangles, and lines in vivid colours create abstract animations that pulse and move in sync with the sounds they generate. The result is a direct connection to the art form Fischinger spent his life developing and perfecting.</p>
+<p>Playing the Oskar Fischinger Google Doodle online is a uniquely creative experience that bridges visual art and music in an accessible, playful format. No artistic or musical training is needed to create beautiful compositions, yet the tool has enough depth to reward sustained experimentation. It is a fitting tribute to an artist who believed that everyone could experience the profound connection between sight and sound.</p>
+<h2 class="wp-block-heading">How to Play Oskar Fischinger Google Doodle Online</h2>
+<p>Select a geometric shape from the palette and click on the canvas to place it. Each shape type produces a distinct sound character, from soft tones to percussive hits. The vertical position determines pitch with higher placement creating higher notes, while the horizontal position determines when the shape sounds during playback. Shape size affects volume and visual prominence.</p>
+<p>Press play to watch and hear your composition come to life as the timeline sweeps across the canvas. Shapes animate and produce sound as the playback marker reaches them, creating a synchronised audiovisual experience. Watch how different arrangements produce different rhythmic and melodic patterns, and adjust placements to refine your composition.</p>
+<p>Layer multiple shapes of different types to create richer, more complex compositions. Combining percussive shapes for rhythm with tonal shapes for melody creates surprisingly musical results. Experiment with clustering shapes together for dense passages and spreading them apart for sparser, more contemplative sections.</p>
+<p>Change the tempo and visual style settings to alter how your composition plays back. Faster tempos create energetic, driving pieces while slower speeds produce meditative ambient compositions. The style options change the visual rendering of your shapes, offering different aesthetic interpretations of the same musical arrangement. Save and share your favourite creations with the built-in sharing tools.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -797,30 +492,15 @@ export const games = [
     thumbnail: '/images/clara-rockmore-google-doodle.webp',
     relatedSlugs: ['paris-games-2024', 'hip-hop-google-doodle', 'google-hurdles'],
     excerpt: 'Ever wanted to play music without touching anything? The Clara Rockmore Google Doodle lets you try your hand at the theremin — the world\'s first electronic inst...',
-    content: `<p>Ever wanted to play music without touching anything? The Clara Rockmore Google Doodle lets you try your hand at the theremin — the world&#8217;s first electronic instrument and one of the strangest things you&#8217;ll ever play. Released on March 9, 2016, this interactive Doodle celebrates what would have been Rockmore&#8217;s 105th birthday, and it&#8217;s still one of the most elegant music Doodles Google has ever made.</p>
-
-<p>Clara Rockmore was born in Russia in 1911 and showed musical genius from an incredibly young age. She could pick out melodies on the piano at two years old, and by five she was accepted into the prestigious Saint Petersburg Conservatory to study violin under Leopold Auer (alongside future legends like Jascha Heifetz). But when tendinitis in her bow arm forced her to give up the violin as a teenager, she discovered something even more unusual. In 1920s New York, she met Léon Theremin, the Russian inventor who&#8217;d created a bizarre instrument you play by waving your hands through the air near two antennas — one controls pitch, the other volume.</p>
-
-<p>Rockmore didn&#8217;t just learn the theremin. She mastered it like nobody before or since and helped redesign it, convincing Theremin to expand the range from 3 octaves to 5 and make it more responsive to subtle hand movements. She developed her own &#8220;aerial fingering&#8221; technique that allowed her to play complex classical pieces with precision that seemed impossible on such a finicky instrument. By the 1930s, she was performing as a soloist with the New York Philharmonic, Philadelphia Orchestra, and Toronto Symphony. Her signature piece? Saint-Saëns&#8217; &#8220;The Swan&#8221; — which you actually learn in the Doodle.</p>
-
-<p>The game teaches you the first five notes of &#8220;The Swan&#8221; through guided lessons before setting you loose in a gorgeous Art Deco theater where an animated Clara performs alongside you. The designers even modeled the virtual theremin&#8217;s Bakelite knobs and wood textures after Rockmore&#8217;s actual custom-built RCA instrument. Bob Moog, who co-produced her only album in 1977, credited Rockmore as one of his inspirations for creating the synthesizer.</p>
-
-<h2 class="wp-block-heading">How To Play Clara Rockmore Doodle</h2>
-
-<ul class="wp-block-list">
-<li>Click play to start Lesson 1 — watch the glowing ball hit notes, then repeat the pattern by dragging your mouse or finger across the same notes</li>
-
-<li>Progress through the lessons learning the opening of &#8220;The Swan&#8221; — if you mess up, just try again</li>
-
-<li>After completing the tutorial, you&#8217;re taken to an Art Deco concert hall where you can play freely</li>
-
-<li>Click the gear icon (bottom left) to access settings — turn off &#8220;Easy Mode&#8221; for free-form playing without note guides, or change key, scale, octave, and waveform</li>
-
-<li>Move your cursor/finger smoothly between notes to create that signature theremin glide effect</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>The Clara Rockmore Google Doodle celebrates the greatest theremin virtuoso in history with an interactive instrument that lets you play this iconic electronic instrument yourself. Clara Rockmore transformed the theremin from a novelty into a legitimate concert instrument, and this Doodle honours her artistry by giving everyone the chance to experience the magical feeling of creating music through hand gestures in the air.</p>
+<p>The theremin interface responds to your cursor position, with horizontal movement controlling pitch and vertical movement controlling volume. Moving your hand across the screen produces the theremin's signature ethereal, wavering tone that sounds like nothing else in the musical world. The otherworldly sound immediately connects you to decades of science fiction soundtracks and avant-garde performances that featured this extraordinary instrument.</p>
+<p>Historical information about Clara Rockmore's life and artistry accompanies the interactive elements. Born in Lithuania and trained as a violinist before discovering the theremin, Rockmore developed a precise playing technique that allowed her to perform classical music on an instrument most people could barely control. Her story of transforming limitations into art is inspiring and beautifully told through the Doodle's narrative.</p>
+<p>Playing the Clara Rockmore Google Doodle online is a mesmerising experience that reveals why the theremin captivates audiences decades after its invention. The ability to create music simply by moving your hands through space feels genuinely magical, and understanding Clara Rockmore's mastery of this difficult instrument deepens your appreciation for both the technology and the artist who tamed it.</p>
+<h2 class="wp-block-heading">How to Play Clara Rockmore Google Doodle Online</h2>
+<p>Move your cursor horizontally across the screen to change the pitch of the theremin. Moving right produces higher notes while moving left produces lower notes. The pitch changes continuously like a violin rather than in discrete steps like a piano, which creates the theremin's characteristic swooping, gliding sound between notes.</p>
+<p>Control volume with the vertical position of your cursor. Moving the cursor higher increases volume while moving lower decreases it, mimicking the real theremin's volume antenna which responds to hand height. Combining horizontal pitch control with vertical volume control allows you to shape musical phrases with dynamics and expression.</p>
+<p>Try to play simple melodies by moving your cursor smoothly between pitch positions. Start with slow, deliberate movements to get a feel for where specific notes fall on the horizontal axis. The lack of physical keys or frets makes precise pitch control challenging, which helps you appreciate why Clara Rockmore's accurate technique was so remarkable.</p>
+<p>Explore the educational sections of the Doodle to learn about Clara Rockmore's techniques and the physics behind the theremin. Understanding how the real instrument uses electromagnetic fields to detect hand positions adds fascinating context to your virtual playing experience. The Doodle beautifully connects hands-on musical exploration with the science and history that make the theremin one of the most unique instruments ever invented.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -835,32 +515,15 @@ export const games = [
     thumbnail: '/images/hip-hop-google-doodle.webp',
     relatedSlugs: ['paris-games-2024', 'petanque-google-doodle-game', 'google-hurdles'],
     excerpt: 'Ever wanted to feel like a real DJ spinning records at a block party? The Hip Hop Google Doodle puts you behind the turntables and lets you mix classic breakbea...',
-    content: `<p>Ever wanted to feel like a real DJ spinning records at a block party? The Hip Hop Google Doodle puts you behind the turntables and lets you mix classic breakbeats that shaped an entire genre. Released on August 11, 2017, this interactive Doodle celebrates the 44th anniversary of hip hop&#8217;s birth — and it&#8217;s one of the most ambitious Doodles Google has ever made.</p>
-
-<p>The experience kicks off with an animated history lesson narrated by Fab 5 Freddy, the legendary host of Yo! MTV Raps. He takes you back to August 11, 1973, when an 18-year-old Jamaican-American DJ named Kool Herc threw a back-to-school party at 1520 Sedgwick Avenue in the Bronx. Instead of playing full songs, Herc did something nobody had done before — he used two turntables to loop just the instrumental &#8220;breaks&#8221; where the crowd went wildest. His friend Coke La Rock grabbed the mic to hype everyone up, and just like that, hip hop was born.</p>
-
-<p>After the intro, you&#8217;re handed the decks. You get two virtual turntables, a crossfader, and a crate stuffed with legendary samples. We&#8217;re talking Incredible Bongo Band&#8217;s &#8220;Apache&#8221; (sampled over 500 times), Billy Squier&#8217;s &#8220;The Big Beat&#8221; (used in everything from Run-DMC to Jay-Z&#8217;s &#8220;99 Problems&#8221;), The Isley Brothers&#8217; &#8220;Between the Sheets&#8221; (Biggie&#8217;s &#8220;Big Poppa&#8221;), and tracks from George Clinton, Zapp, Ohio Players, and DeBarge. There are even three exclusive beats from producer Prince Paul, known for his work with De La Soul.</p>
-
-<p>Completing different actions unlocks 10 achievements that reveal facts about hip hop pioneers and landmarks like Disco Fever club in the South Bronx. The graffiti-style logo was designed by Cey Adams, founding creative director of Def Jam Records. Google brought back this Doodle during COVID-19 in May 2020 as part of their &#8220;Stay and Play at Home&#8221; series.</p>
-
-<h2 class="wp-block-heading">How To Play Hip Hop Google Doodle</h2>
-
-<ul class="wp-block-list">
-<li>Watch the intro or skip to the turntables — Fab 5 Freddy&#8217;s tutorial shows you the basics of mixing</li>
-
-<li>Click the record crate icon (bottom right) to browse through classic sample records</li>
-
-<li>Drag records onto either turntable to load them up</li>
-
-<li>Slide the crossfader left or right to switch between decks or blend both together</li>
-
-<li>Click and drag on the records to scratch, adjust the BPM sliders to match tempos, or hit the sync button to auto-match beats</li>
-
-<li>Complete all 10 goals (scratching, changing records, playing two tracks in the same key) to unlock info cards about hip hop legends</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>The Hip Hop Google Doodle celebrates the birth of hip hop culture with an interactive turntable experience that lets you mix beats, scratch records, and create your own hip hop tracks. Released to honour the anniversary of the legendary party where DJ Kool Herc pioneered the breakbeat technique, this Doodle puts professional DJ tools at your fingertips and invites you to explore the foundations of one of the world's most influential music genres.</p>
+<p>The interactive turntable interface is remarkably detailed and functional. Two virtual turntables with crossfader control let you blend tracks, while scratch controls let you manipulate the vinyl in real time. The visual design captures the golden era of hip hop with graffiti art, boombox imagery, and authentic period styling that transports you to the culture's origins in the Bronx.</p>
+<p>A curated library of classic breakbeats and samples gives you authentic building blocks for your mixes. The tracks represent the foundational sounds that shaped hip hop, from funk breaks to soul samples that DJs like Kool Herc and Grandmaster Flash used to create the genre. Experimenting with these samples provides both a creative outlet and an education in hip hop's musical DNA.</p>
+<p>Playing the Hip Hop Google Doodle online is a genuinely creative experience that honours hip hop culture with respect and authenticity. Whether you spend five minutes clicking around or an hour perfecting a mix, the Doodle captures the innovative spirit of hip hop's pioneers who turned turntables into instruments and parties into cultural revolutions.</p>
+<h2 class="wp-block-heading">How to Play Hip Hop Google Doodle Online</h2>
+<p>Click on the turntable to start playing tracks and use the crossfader slider between the two decks to blend between them. Moving the crossfader left emphasises the left deck while moving it right emphasises the right deck. Centre position plays both equally, creating layered mixes that combine elements from both tracks simultaneously.</p>
+<p>Scratch the records by clicking and dragging on the vinyl surface. The scratch follows your mouse movement, creating authentic record-scratching sounds that respond to the speed and direction of your gestures. Quick back-and-forth movements produce classic scratch patterns that are staples of hip hop DJ performance.</p>
+<p>Explore the full sample library by clicking through the available tracks on each deck. Each track offers different rhythmic patterns, tempos, and musical styles from hip hop's foundational era. Experimenting with different track combinations reveals how DJs discover complementary sounds that work together in unexpected ways.</p>
+<p>Learn about hip hop history through the educational elements integrated into the Doodle. Information about key figures, events, and innovations appears alongside the interactive elements, connecting your creative exploration to the real cultural history that made hip hop possible. The Doodle serves as both an instrument and a history lesson about one of the most important cultural movements of the twentieth century.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -1567,32 +1230,15 @@ export const games = [
     thumbnail: '/images/marie-tharp-google-doodle.webp',
     relatedSlugs: ['google-earth-day-honeybees', 'coding-for-carrots', 'lake-xochimilco-google-doodle'],
     excerpt: 'The Marie Tharp Google Doodle is an interactive game celebrating the American geologist and oceanographic cartographer who co-published the first world map of the ocean floors.',
-    content: `<p>The Marie Tharp Google Doodle is an interactive game released on November 21, 2022, celebrating the life of one of the most important — and most overlooked — scientists of the 20th century. Marie Tharp was an American geologist and oceanographic cartographer who co-published the first comprehensive map of the ocean floor, providing crucial evidence that helped prove the theory of continental drift at a time when the scientific establishment dismissed it as nonsense.</p>
-
-<p>The Doodle takes you on a narrated journey through Tharp&#8217;s career, blending interactive puzzles with animated storytelling. You help plot data points on ocean floor maps, piece together geological evidence, and experience the moment when Tharp identified the rift valley running down the centre of the Mid-Atlantic Ridge — a discovery that fundamentally changed our understanding of how the Earth works. The game is voiced by three current female scientists: Becky Nesel, Dr. Tiara Moore, and Cate Larsen, who guide you through each stage.</p>
-
-<p>Born in 1920 in Ypsilanti, Michigan, Tharp earned degrees in English, music, geology, and mathematics. She joined Columbia University&#8217;s Lamont Geological Observatory in 1948, where she began working with geologist Bruce Heezen. Because women weren&#8217;t allowed on research vessels at the time, Tharp was tasked with plotting the sonar data that male scientists collected at sea. It was painstaking, detailed work — and it led to one of the greatest discoveries in earth science.</p>
-
-<p>While meticulously plotting thousands of sonar readings, Tharp noticed a V-shaped notch running consistently along the centre of the Mid-Atlantic Ridge. She recognised it as a rift valley — evidence that the ocean floor was spreading apart. When she showed Heezen, he initially dismissed it as &#8220;girl talk,&#8221; associating it with the widely ridiculed theory of continental drift. But when he plotted earthquake epicentres on Tharp&#8217;s map and found they aligned precisely with her rift valley, he was convinced. Their collaboration produced the first detailed map of the entire ocean floor, published in 1977, which became one of the most important scientific documents of the century.</p>
-
-<p>The Doodle was designed by Olivia Huynh and Alyssa Winans with UX by Anthony Irwin, and engineered by Gemma Nash, Jonathan Shneier, and Daniel Dovali. The art direction beautifully captures the mid-century scientific aesthetic — hand-drawn contour lines, period-appropriate instruments, and a warm colour palette that evokes the feel of vintage scientific illustrations. The music and sound design by Silas Hite complements the exploratory mood perfectly.</p>
-
-<h2 class="wp-block-heading">How To Play Marie Tharp Google Doodle</h2>
-
-<ul class="wp-block-list">
-<li>Click the Doodle to begin the interactive experience. You&#8217;ll be guided through Marie Tharp&#8217;s story by voice narration from three modern female scientists.</li>
-
-<li>Follow the on-screen prompts to interact with each scene — you&#8217;ll plot sonar data points on maps, connect geological features, and piece together evidence of the Mid-Atlantic Ridge.</li>
-
-<li>Pay attention to the narration between interactive segments to learn about Tharp&#8217;s challenges as a woman in science and how she overcame institutional barriers.</li>
-
-<li>Complete each mapping challenge to advance through the story, from Tharp&#8217;s early days at Columbia to the publication of her groundbreaking ocean floor map.</li>
-
-<li>The experience combines puzzle-solving with historical education — take your time to absorb the fascinating science behind plate tectonics and ocean floor cartography.</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>The Marie Tharp Google Doodle celebrates the pioneering geologist and oceanographic cartographer who created the first comprehensive map of the ocean floor. Her work proved the existence of the Mid-Atlantic Ridge and provided crucial evidence for the theory of continental drift, forever changing our understanding of how the Earth works. This interactive Doodle lets you explore her groundbreaking maps and discover the underwater landscapes she revealed to the world.</p>
+<p>The Doodle takes you on a visual journey across the ocean floor, revealing the mountains, valleys, and ridges that Tharp meticulously mapped from sonar data at a time when women were not allowed on research vessels. The interactive visualisations bring her detailed cartography to life, showing the dramatic topography hidden beneath miles of ocean water that most people never knew existed until her work made it visible.</p>
+<p>Historical context woven throughout the Doodle highlights the obstacles Tharp overcame in her career. Working in a male-dominated field during the 1950s and 1960s, she faced scepticism and dismissal of her findings that suggested the ocean floor was not flat but featured an enormous rift valley running along the Mid-Atlantic Ridge. Her persistence in defending her accurate observations ultimately revolutionised geology.</p>
+<p>Playing the Marie Tharp Google Doodle online is an inspiring journey through one of the most important scientific discoveries of the twentieth century. The interactive format makes geological concepts accessible and engaging, while Tharp's personal story of perseverance against institutional bias adds emotional depth. The Doodle beautifully demonstrates how one determined scientist's meticulous work can reshape humanity's understanding of the planet.</p>
+<h2 class="wp-block-heading">How to Play Marie Tharp Google Doodle Online</h2>
+<p>Click through the interactive scenes to follow Marie Tharp's journey from data collection to her revolutionary ocean floor maps. Each section presents a different aspect of her work, from processing sonar readings to the dramatic moment when her maps revealed the Mid-Atlantic Rift. Interactive elements let you explore the ocean floor features she discovered and understand their geological significance.</p>
+<p>Interact with the map visualisations to see how ocean floor topography relates to tectonic plate boundaries. The Doodle shows how the ridge and rift patterns Tharp mapped correspond to the edges of continental plates, providing the visual evidence that made plate tectonics undeniable. Clicking on different ocean regions reveals the unique underwater landscapes each area contains.</p>
+<p>Read the biographical elements that appear between interactive sections to understand the personal challenges Tharp faced. Her story of being denied passage on research vessels, having her conclusions initially dismissed, and ultimately being vindicated by scientific consensus adds powerful human context to the geological discoveries the Doodle presents.</p>
+<p>Explore all sections of the Doodle to see the complete scope of Tharp's contribution to earth science. From her early work processing data to the final publication of her comprehensive ocean floor maps, each section adds to the picture of how one person's careful, persistent work can fundamentally change scientific understanding. The Doodle rewards thorough exploration with details that casual clicking might miss.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -3205,24 +2851,15 @@ export const games = [
     thumbnail: '/images/life-stats-game.webp',
     relatedSlugs: ['absurd-trolley-problems', 'asteroid-launcher', 'baby-map'],
     excerpt: 'Life Stats is one of those simple Neal.fun experiences that makes you go "huh, that\'s wild" for a few minutes.',
-    content: `<p>Life Stats is one of those simple Neal.fun experiences that makes you go &#8220;huh, that&#8217;s wild&#8221; for a few minutes. You pop in your birthday, and it spits out a bunch of random stats about your life so far. That&#8217;s basically it. No gameplay, no challenges, just a bunch of numbers that make you think about how long you&#8217;ve actually been alive.</p>
-
-<p>The stats themselves are pretty fun to look at. It tells you stuff like how many times your heart has beaten since you were born, how many breaths you&#8217;ve taken, how far you&#8217;ve traveled around the sun, and even how much the stock market has gone up since you entered the world. Some of it is genuinely surprising. Like finding out you&#8217;ve spent thousands of days just sleeping hits different when you see the actual number staring back at you.</p>
-
-<p>There&#8217;s also stats about the world around you. How many people were born since you came into existence, how much the global population has changed, stuff like that. It puts your life into a bigger context without being preachy about it. The numbers just speak for themselves and you&#8217;re left to sit with whatever feelings come up.</p>
-
-<p>What makes Life Stats work is how simple it keeps things. There&#8217;s no flashy animations or complicated interface getting in the way. You put in your birthday, the stats appear, and you scroll through them at your own pace. It respects your time and doesn&#8217;t try to be more than it needs to be.</p>
-
-<h2 class="wp-block-heading"><strong>How To Use Life Stats</strong></h2>
-
-<p>There&#8217;s almost nothing to explain here. You go to the page, enter your birth date, and that&#8217;s it. The site does the rest. No tutorials, no instructions needed, no learning curve whatsoever.</p>
-
-<p>Once you put in when you were born, all the stats show up automatically. You just scroll through them and take in whatever catches your eye. Some people spend more time reading through everything while others just skim for the highlights. Both approaches work perfectly fine.</p>
-
-<p>No account needed, no sign up, nothing complicated. Life Stats is the kind of thing you check out once, maybe show a friend, and then forget about until someone mentions it again months later. Quick, simple, and weirdly satisfying in a way that&#8217;s hard to explain until you try it yourself.</p>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Life Stats Game presents a fascinating series of statistical questions about human life and behaviour, challenging you to guess real-world percentages and averages correctly. Each round reveals a surprising fact about how people live, what they believe, or what they have experienced, and your job is to estimate the correct statistic before the answer is revealed. It is an eye-opening game that constantly surprises you with how much or how little you know about the world.</p>
+<p>The questions span an incredible range of topics including health, relationships, technology usage, education, wealth, and daily habits. Some statistics confirm what you expected while others completely shatter your assumptions about normal human behaviour. The game reveals just how poorly most people estimate statistics, even about topics they consider themselves knowledgeable about.</p>
+<p>Scoring rewards accuracy in your estimates, with closer guesses earning more points. The scoring system encourages thoughtful consideration of each question rather than wild guessing. Over time, you develop a better intuition for statistical ranges and learn to calibrate your expectations against reality, which is a genuinely useful real-world skill.</p>
+<p>Playing Life Stats Game online is both entertaining and genuinely educational. The surprising answers spark conversations and challenge preconceptions about the world. Whether you play alone or discuss answers with friends, the game consistently delivers moments of genuine surprise and new understanding about how diverse and unexpected human life truly is.</p>
+<h2 class="wp-block-heading">How to Play Life Stats Game Online</h2>
+<p>Read each statistical question carefully and consider what you know about the topic before answering. The question might ask what percentage of people have experienced something, how many hours the average person spends on an activity, or which option is more common. Take a moment to think through your reasoning before committing to an answer.</p>
+<p>Use the slider or input field to submit your estimate for each question. Try to be as precise as possible since scoring rewards accuracy. Avoid defaulting to round numbers like fifty percent, as the correct answers are often surprisingly specific and rarely land on convenient round figures.</p>
+<p>After submitting your guess, the correct answer is revealed along with context explaining the statistic. Pay attention to these explanations, as they often provide fascinating background information that makes the number more meaningful. The learning component is what elevates this game beyond simple trivia.</p>
+<p>Track your score across multiple rounds to see if your statistical intuition improves over time. Most players find they become significantly better at estimating after playing several rounds, as they develop a calibrated sense for how statistics tend to distribute. Challenge friends to compare scores and see who has the best feel for real-world data.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -8201,22 +7838,15 @@ export const games = [
     thumbnail: '/images/eggy-car.webp',
     relatedSlugs: ['tic-tac-toe', 'smash-karts', 'drift-hunters'],
     excerpt: 'Eggy Car is a fun and challenging driving game where your main mission is to transport a fragile egg across tricky hills and bumpy roads.',
-    content: `<p>Eggy Car is a fun and challenging driving game where your main mission is to transport a fragile egg across tricky hills and bumpy roads. The twist is that the egg is placed in the car, and if it falls, the game ends instantly. This simple yet addictive concept makes the Eggy Car game one of the most popular online driving challenges.</p>
-
-<p>Players love Eggy Car online because it combines driving skills with balance and patience. Every bump and slope requires careful handling, as one wrong move can cause the egg to crack. The fun graphics and smooth controls make the game enjoyable for players of all ages.</p>
-
-<p>Whether you’re a casual gamer or looking for a quick challenge, Eggy Car is perfect for testing your reflexes and coordination. The more distance you cover, the higher your score, which keeps you coming back for one more try.</p>
-
-<h2 class="wp-block-heading">How to Play Eggy Car</h2>
-
-<p>To start playing Eggy Car, simply launch the game and place your focus on the car carrying the egg. The controls are straightforward—use the arrow keys or touch buttons to drive carefully across slopes. The key challenge is to move without letting the egg tumble out.</p>
-
-<p>The trick is balancing your speed. Going too fast makes the egg bounce, while going too slow makes climbing hills difficult. The Eggy Car game teaches you to control momentum and maintain stability on unpredictable terrains.</p>
-
-<p>As you progress, try collecting rewards along the track for bonus points. These boosts make the Eggy Car online experience even more engaging while you compete with yourself to beat previous high scores.</p>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Eggy Car is a physics-based driving game with one delicate objective: transport a wobbly egg on top of your car across hilly terrain without letting it fall off. The egg sits precariously on your vehicle's roof, bouncing and sliding with every bump and hill. Maintaining the right speed is a constant balancing act because driving too fast launches the egg skyward while driving too slow causes it to roll off on steep inclines.</p>
+<p>The terrain is procedurally generated, creating an endless course of hills, valleys, and slopes that test your throttle control. Each hill has a different gradient that requires a different approach. Gentle slopes need steady acceleration, steep climbs demand careful momentum management, and sharp descents threaten to bounce the egg clean off your car. Reading the terrain ahead becomes a critical survival skill.</p>
+<p>Vehicle upgrades add depth to the progression system. Earn coins based on distance travelled and spend them on new cars with different roof shapes, suspension characteristics, and speed capabilities. Some vehicles have flatter roofs that cradle the egg more securely, while faster cars cover more ground but make the egg harder to control. Finding the right vehicle for your skill level is part of the fun.</p>
+<p>Playing Eggy Car online is a uniquely entertaining physics experience that creates genuine tension from such a simple concept. The constant worry about the egg creates an emotional connection to your cargo that makes every metre of progress feel earned. It is the rare game that makes you care deeply about the wellbeing of a virtual egg, and dropping it feels like a genuine personal failure.</p>
+<h2 class="wp-block-heading">How to Play Eggy Car Online</h2>
+<p>Press the right arrow key or D to accelerate and the left arrow key or A to brake or reverse. There is no jump button because the terrain provides all the airtime you can handle. Focus entirely on speed management, accelerating gently on flat ground and easing off before hills to prevent the egg from bouncing.</p>
+<p>Approach hills with moderate speed. Too fast and you will launch off the crest, sending the egg flying. Too slow and you might not make it over, causing a rollback that sends the egg sliding off the back. Find the sweet spot where you crest each hill smoothly with minimal bounce for the longest runs.</p>
+<p>On downhill sections, resist the urge to accelerate and let gravity do the work. Applying the brakes lightly can prevent your car from bouncing at the bottom of valleys, which is one of the most common ways to lose the egg. Smooth, controlled descents preserve your egg far better than reckless speed.</p>
+<p>Watch the egg's position and movement to anticipate problems before they happen. If the egg starts sliding toward one edge, adjust your speed accordingly. The egg has its own physics that respond to your car's movements with a slight delay, so proactive driving that anticipates the egg's reaction is more effective than reactive corrections.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -8437,24 +8067,15 @@ export const games = [
     thumbnail: '/images/bullet-force.webp',
     relatedSlugs: ['pizza-tower', 'baldis-basics', 'bloxorz'],
     excerpt: 'Bullet Force is an action-packed first-person shooter that delivers high-intensity multiplayer combat.',
-    content: `<p>Bullet Force is an action-packed first-person shooter that delivers high-intensity multiplayer combat. Players can jump into thrilling gunfights featuring realistic graphics, modern weapons, and customizable loadouts. Whether you’re playing solo or teaming up with friends, the Bullet Force game offers an immersive FPS experience that rivals some of the best shooters out there.</p>
-
-<p>Developed with smooth gameplay and fast-paced mechanics, Bullet Force gives players complete control over their tactics and play style. You can choose from a wide selection of weapons — from assault rifles to sniper rifles — and personalize them with attachments and skins. Each battle feels unique and skill-driven, keeping the adrenaline high from start to finish.</p>
-
-<p>The maps in Bullet Force game are designed for both close-quarters combat and long-range engagements. Whether you prefer to rush head-on or take the stealthy sniper route, there’s always room to experiment with strategies. The fluid controls and dynamic gameplay make every match exciting and unpredictable.</p>
-
-<h2 class="wp-block-heading">How to Play Bullet Force</h2>
-
-<p>Getting started in Bullet Force is easy, but mastering it takes skill and precision. Use the WASD keys to move, your mouse to aim and shoot, and the number keys to switch between weapons. Reload quickly, stay alert, and always be aware of your surroundings to survive longer in intense firefights.</p>
-
-<p>In Bullet Force game, you can play multiple modes, including Team Deathmatch, Free-for-All, and Conquest. Each mode challenges your shooting accuracy and teamwork in different ways. Earning kills and victories grants credits, which can be used to unlock new weapons, gear, and skins.</p>
-
-<p>Communication and positioning are key to success. Use cover wisely and learn the map layouts to get the advantage over your opponents. The better you know your environment, the more tactical options you’ll have during matches.</p>
-
-<p>With Bullet Force unblocked, you can join multiplayer matches from school, work, or home without any restrictions. Dive into thrilling online battles, customize your loadouts, and prove your skills in this top-tier online shooting experience.</p>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Bullet Force is a fast-paced multiplayer first-person shooter that delivers console-quality combat in your browser. With detailed weapon models, smooth gunplay, and multiple game modes, it stands as one of the most polished FPS experiences available online. The arsenal includes assault rifles, sniper rifles, shotguns, SMGs, and pistols, each with authentic handling characteristics and customisable attachments.</p>
+<p>Multiple game modes provide variety for every type of FPS player. Team Deathmatch pits squads against each other in all-out warfare, Free-For-All is a test of individual skill, Gun Game cycles you through every weapon with each kill, and Conquest adds objective-based territory control. Each mode demands different tactics and rewards different playstyles, keeping the experience fresh across hundreds of matches.</p>
+<p>The weapon customisation system is impressively deep for a browser game. Unlock new weapons through gameplay progression and equip them with scopes, grips, barrel attachments, and camouflage patterns. Building a loadout that matches your preferred engagement range and playstyle gives you a meaningful advantage in matches and provides long-term progression goals.</p>
+<p>Playing Bullet Force online puts a competitive multiplayer shooter at your fingertips without any downloads or installations. The active player community means matches start quickly, and the skill-based gameplay rewards practice and tactical thinking. Whether you prefer sniping from a distance or rushing with a shotgun, there is a viable playstyle waiting for you.</p>
+<h2 class="wp-block-heading">How to Play Bullet Force Online</h2>
+<p>Use WASD to move, mouse to aim and shoot, R to reload, and space to jump. Shift enables sprinting for faster movement across the map. The controls mirror standard PC shooter conventions, so experienced FPS players will feel immediately comfortable with the handling and responsiveness.</p>
+<p>Choose your loadout before spawning based on the map and game mode. Long-range maps favour assault rifles and sniper rifles, while close-quarters maps reward shotguns and SMGs. Having multiple loadout presets saves time and lets you adapt mid-match as the situation evolves.</p>
+<p>Learn the map layouts to gain a tactical advantage over less experienced players. Knowing where enemies tend to spawn, which sightlines are dangerous, and where to find good cover turns map knowledge into a powerful weapon. Experienced players use map awareness to predict enemy movements and position themselves advantageously.</p>
+<p>Practice controlling recoil by firing in short bursts rather than holding the trigger continuously. Each weapon has a unique recoil pattern that pulls your aim upward and sideways during sustained fire. Learning to compensate for recoil while keeping your crosshair on target is the single most important skill for winning gunfights consistently.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -11427,22 +11048,15 @@ export const games = [
     thumbnail: '/images/tic-tac-toe.webp',
     relatedSlugs: ['slope-2', 'smash-karts', 'drift-hunters'],
     excerpt: 'Tic Tac Toe is one of the most popular and timeless puzzle games enjoyed by players of all ages.',
-    content: `<p>Tic Tac Toe is one of the most popular and timeless puzzle games enjoyed by players of all ages. The objective is simple: place three of your marks in a row—either horizontally, vertically, or diagonally—before your opponent does. Despite its simplicity, the tic tac toe game is a test of strategy, foresight, and quick thinking.</p>
-
-<p>This classic game has been around for centuries and remains a favorite because of its accessibility. Whether you’re playing on paper, in person, or digitally, the rules never change. Online versions add convenience by allowing players to enjoy tic tac toe online against AI opponents or real friends, making it even more engaging and competitive.</p>
-
-<p>Part of the charm of tic tac toe is how fast each round is, making it perfect for short breaks, classrooms, or casual fun. It sharpens logical thinking and planning, all while delivering simple yet addictive gameplay. Easy to pick up but challenging to master, it remains one of the most iconic games ever.</p>
-
-<h2 class="wp-block-heading">How to Play Tic Tac Toe</h2>
-
-<p>To play the tic tac toe game, start with an empty 3&#215;3 grid. One player takes “X” and the other “O.” Players alternate turns, placing their mark in an empty square, with the aim of forming a row of three.</p>
-
-<p>The key to winning lies in both offense and defense. Try to create multiple winning opportunities while blocking your opponent from completing their row. Tic tac toe online against AI is especially useful for practicing strategies and sharpening your skills.</p>
-
-<p>The game ends when one player gets three in a row or when all spaces are filled, resulting in a draw. Quick, easy, and endlessly replayable, tic tac toe is a perfect choice whether you want to challenge friends or enjoy a casual match in your free time.</p>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Tic Tac Toe is the timeless strategy game that has been played for thousands of years, and this digital version brings the classic three-in-a-row challenge to your browser with clean visuals and multiple play modes. Place your X or O on a three-by-three grid, trying to get three marks in a row horizontally, vertically, or diagonally before your opponent does the same. Simple rules hide surprising strategic depth.</p>
+<p>Despite its apparent simplicity, Tic Tac Toe contains genuine strategic principles that apply to more complex games. Opening moves, centre control, fork creation, and blocking threats are concepts that players discover naturally through repeated play. The game serves as a perfect introduction to turn-based strategic thinking and positional analysis.</p>
+<p>Multiple game modes expand the experience beyond basic two-player matches. Play against an AI opponent with adjustable difficulty levels, challenge a friend on the same device, or explore larger grid variants that add complexity and reduce the likelihood of draws. The AI opponents range from beginner-friendly to impossible to beat, catering to all skill levels.</p>
+<p>Playing Tic Tac Toe online is a wonderful way to enjoy one of humanity's oldest games in a convenient digital format. The instant setup and quick match times make it perfect for brief gaming sessions. It remains an excellent teaching tool for children learning about strategy and an enjoyable pastime for adults looking for a quick mental exercise between tasks.</p>
+<h2 class="wp-block-heading">How to Play Tic Tac Toe Online</h2>
+<p>Click on any empty square in the three-by-three grid to place your mark. Players alternate turns, with one playing X and the other playing O. Your goal is to place three of your marks in a horizontal, vertical, or diagonal line before your opponent achieves the same with their marks.</p>
+<p>Take the centre square when it is available, as it provides the most strategic flexibility. The centre position connects to every possible winning line, giving you the most options for building toward three in a row. If the centre is taken, corner squares are the next strongest positions.</p>
+<p>Always check for both offensive and defensive opportunities before making your move. Creating a fork where you have two ways to win forces your opponent into an impossible blocking situation. Equally, watch for your opponent attempting the same strategy and block their winning moves before they complete a line.</p>
+<p>Learn the common opening strategies and responses to improve your play against experienced opponents. With perfect play from both sides, Tic Tac Toe always ends in a draw, so victory comes from exploiting your opponent's mistakes. Pay attention to patterns in your opponent's play and use that knowledge to set traps they will not see coming.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -11457,22 +11071,15 @@ export const games = [
     thumbnail: '/images/rooftop-snipers.webp',
     relatedSlugs: ['password-game', 'bad-time-simulator', 'do-a-barrel-roll'],
     excerpt: 'Rooftop Snipers is a wacky two-player shooting game that combines simple controls with chaotic fun.',
-    content: `<p>Rooftop Snipers is a wacky two-player shooting game that combines simple controls with chaotic fun. Players battle it out on rooftops, trying to knock each other off using hilarious ragdoll physics and a variety of weapons. Whether you’re playing solo against the AI or challenging a friend, this game delivers non-stop action and laughter.</p>
-
-<p>The unpredictable physics and quirky animations make Rooftop Snipers game stand out from other browser shooters. Each duel is fast-paced and full of surprising twists, keeping every match exciting. With multiple settings and character skins, the game never feels repetitive, making it perfect for quick breaks or extended play sessions.</p>
-
-<p>For those at school or work, Rooftop Snipers unblocked ensures you can jump into the action without restrictions. It’s easy to pick up, but mastering the timing and movement takes skill—making every victory satisfying.</p>
-
-<h2 class="wp-block-heading">How to Play Rooftop Snipers</h2>
-
-<p>To start Rooftop Snipers, open the game on GamesDoodle and choose to play solo or in two-player mode. The objective is simple: shoot your opponent until they fall off the rooftop. Use the jump and shoot buttons strategically to outsmart your rival.</p>
-
-<p>In two-player mode, share your keyboard with a friend and compete head-to-head. Mastering the ragdoll physics is key—jumping too much can leave you vulnerable, while careful timing can give you the winning edge.</p>
-
-<p>Experiment with different rooftops and environments to keep the battles fresh. Rooftop Snipers unblocked provides endless entertainment, whether you’re aiming for quick fun or epic showdowns with friends.</p>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Rooftop Snipers is a chaotic two-player duelling game where you and an opponent face off on the edge of a rooftop, trying to knock each other off the building with well-aimed shots. The physics-based ragdoll characters stumble, flail, and tumble in hilarious ways as bullets connect. Each hit sends your opponent staggering closer to the edge, creating tense moments where one more shot could be the winning push.</p>
+<p>The deliberately awkward controls add comedy and unpredictability to every match. Characters wobble and lean with physics-based balance, making precise aiming more about timing and prediction than pinpoint accuracy. The resulting gunfights look hilariously clumsy while still requiring genuine skill to win consistently against a good opponent.</p>
+<p>Multiple weapon types rotate between rounds, keeping the gameplay varied. Pistols, shotguns, and rifles each handle differently and require different engagement strategies. Shotguns are devastating at close range but useless at distance, while rifles pick off opponents from afar but leave you vulnerable to rushdown tactics. Adapting to each round's weapon is a key skill.</p>
+<p>Playing Rooftop Snipers online is one of the best local two-player experiences available in a browser. The matches are quick, the physics are hilarious, and the competitive tension of both players teetering on the edge of a rooftop creates memorable moments every round. Grab a friend and share a keyboard for maximum entertainment value.</p>
+<h2 class="wp-block-heading">How to Play Rooftop Snipers Online</h2>
+<p>Player 1 uses the W key to jump and E to shoot. Player 2 uses the I key to jump and O to shoot. The two-button control scheme is deliberately simple, keeping the focus on timing and spatial awareness rather than complex input combinations. Jump to dodge incoming shots and close distance.</p>
+<p>Time your shots carefully to catch your opponent mid-air or while they are off-balance. Shots that connect when an opponent is already leaning toward the edge are most likely to score a knockout. Shooting wildly wastes opportunities, so pick your moments and make each shot count.</p>
+<p>Use jumping defensively to dodge shots and offensively to reposition yourself away from the edge. If you are dangerously close to falling off, jumping away from the edge can buy you space. Landing after a jump can be unpredictable though, so be prepared to adjust your position immediately.</p>
+<p>Win the majority of rounds in each match to claim victory. The first to win the required number of rounds takes the match. Each round is quick, so losing one is not devastating. Learn from each round how your opponent likes to play and adapt your timing to counter their favourite strategies. The best players are those who read their opponent and adjust round by round.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -11487,16 +11094,15 @@ export const games = [
     thumbnail: '/images/memory-game.webp',
     relatedSlugs: ['google-minesweeper', 'doodle-baseball', 'google-feud'],
     excerpt: 'Challenge your brain and sharpen your focus with this fun and engaging memory game! Designed to test your short-term memory skills, the game presents you with a...',
-    content: `<p>Challenge your brain and sharpen your focus with this fun and engaging memory game! Designed to test your short-term memory skills, the game presents you with a grid of cards that you must flip and match in pairs. The fewer moves you make, the better your score!</p>
-
-<p>The Google Memory Game is a perfect blend of simplicity and challenge. As you progress through the levels, the grid becomes larger and the difficulty increases. It&#8217;s a great way to improve concentration, visual recognition, and memory retention—all while having fun.</p>
-
-<p>This Google memory game free version is ideal for players of all ages. Whether you&#8217;re a child developing cognitive skills or an adult looking to keep your mind sharp, it&#8217;s a quick and enjoyable way to give your brain a workout. Plus, the colorful design and smooth gameplay make it even more addictive.</p>
-
-<p>Play alone to beat your own high score or take turns with a friend for a casual memory duel. No matter how you play, this memory game is a fantastic way to pass the time, build mental agility, and enjoy a satisfying puzzle experience.</p>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Challenge your brain and sharpen your focus with the Google Memory Game, one of the most polished card-matching experiences available in your browser. The game presents you with a grid of face-down cards featuring colorful ocean creatures. Flip two cards at a time and try to find matching pairs. Each successful match stays face-up, while mismatched cards flip back down, testing your ability to remember what you have already seen.</p>
+<p>What makes this memory game stand out is its charming visual design inspired by Google's signature playful aesthetic. Adorable sea creatures like octopuses, jellyfish, seahorses, and pufferfish make each card delightful to uncover. The smooth flip animations and cheerful sound effects create a satisfying sensory experience that keeps you engaged through multiple rounds.</p>
+<p>Memory games have been scientifically proven to improve short-term memory, concentration, and cognitive function. Playing regularly exercises your brain's ability to form and recall spatial memories. This particular version scales in difficulty, starting with a small grid and working up to larger boards with more pairs to find, ensuring a challenge for players of all ages and skill levels.</p>
+<p>Playing the Google Memory Game online is perfect for quick brain training sessions between tasks or as a fun activity to share with children. The simple click-to-flip interface requires no instructions and works beautifully on any device. Whether you are looking to kill a few minutes or genuinely want to exercise your memory, this game delivers a clean, enjoyable experience.</p>
+<h2 class="wp-block-heading">How to Play Google Memory Game Online</h2>
+<p>Click on any face-down card to flip it over and reveal the sea creature underneath. Then click a second card to see if it matches the first. If both cards show the same creature, they stay face-up and you earn a point. If they do not match, both cards flip back down after a brief moment.</p>
+<p>Pay close attention to the position of every card you flip, even when it is not a match. Building a mental map of where each creature is located becomes essential as the grid grows larger. The most effective strategy is to systematically scan the board rather than clicking randomly.</p>
+<p>Try to complete each round in as few moves as possible. The game tracks your number of flips, so fewer moves means a better score. Some players prefer to flip cards in a row or column pattern to build a structured memory map, while others scan the entire grid first before attempting matches.</p>
+<p>As you progress to larger grids, the challenge increases significantly. More cards mean more creatures to remember, and the mental load grows quickly. Take your time with each flip and focus on remembering at least the last few cards you have seen. With practice, you will find your memory improving noticeably both in the game and in daily life.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -11511,16 +11117,15 @@ export const games = [
     thumbnail: '/images/google-dreidel.webp',
     relatedSlugs: ['google-snake', 'google-tic-tac-toe', 'google-solitaire'],
     excerpt: 'Experience the timeless tradition of spinning the Google Dreidel right on your screen! Whether you\'re celebrating Hanukkah or just curious about the classic dre...',
-    content: `<p>Experience the timeless tradition of spinning the Google Dreidel right on your screen! Whether you&#8217;re celebrating Hanukkah or just curious about the classic dreidel game, this fun and interactive version brings the joy of spinning the dreidel to life with just a click. It&#8217;s easy to play, kid-friendly, and a perfect way to enjoy a few minutes of fun.</p>
-
-<p>The dreidel game has been part of Jewish holiday culture for centuries, played using a four-sided spinning top with Hebrew letters on each side. Each spin decides your next move — will you win it all, lose some, or stay in the game? This digital version keeps the same spirit alive with a fun twist, allowing anyone to spin and learn.</p>
-
-<p>Google introduced this online dreidel as a playful and educational tool. Now, you don’t need a physical top to enjoy it — just tap the spin button and watch the dreidel go. It’s perfect for classrooms, families, or anyone looking to enjoy a quick round of traditional fun.</p>
-
-<p>So go ahead, spin the Google Dreidel and see where it lands. It’s fast, fun, and totally free to play — right here above the content. No app or login required!</p>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Experience the timeless tradition of spinning the dreidel right on your screen with Google's beautifully crafted digital Dreidel game. Whether you are celebrating Hanukkah or simply curious about this centuries-old game of chance, this interactive experience brings the classic dreidel to life with stunning 3D graphics and authentic spinning physics that capture the real feel of the game.</p>
+<p>The dreidel is a four-sided spinning top, each side bearing a Hebrew letter: Nun, Gimel, He, and Shin. These letters stand for the phrase Nes Gadol Haya Sham meaning A great miracle happened there, referencing the Hanukkah story. Each letter determines what happens on your turn, whether you win the pot, take half, add to the pot, or do nothing. The simplicity of the rules belies the excitement of each spin.</p>
+<p>Google's digital version captures the warmth and festivity of Hanukkah celebrations. The dreidel spins with realistic physics, wobbling and tilting before settling on a letter. The warm lighting, festive decorations, and cheerful animations create an atmosphere that honours the cultural significance of the tradition while making it accessible and enjoyable for everyone.</p>
+<p>Playing the Google Dreidel online is a wonderful way to learn about Hanukkah traditions or share the experience with friends and family regardless of distance. The game requires nothing but a click to spin, making it perfect for all ages. It captures the essence of gathering around the dreidel during the festival of lights in a way that feels genuine and respectful.</p>
+<h2 class="wp-block-heading">How to Play Google Dreidel Online</h2>
+<p>Click the spin button to set the dreidel in motion. Watch as it spins with realistic physics before gradually slowing down and landing on one of the four Hebrew letters. Each letter determines a different outcome for your turn, just like in the traditional game played during Hanukkah celebrations around the world.</p>
+<p>Nun means nothing happens and the turn passes to the next player. Gimel means you win the entire pot of gelt or coins in the centre. He means you take half the pot. Shin means you must add one piece to the pot. Learning these four simple rules is all you need to play the game.</p>
+<p>In traditional dreidel, each player starts with an equal number of game pieces, usually chocolate coins called gelt. Before each round, everyone adds one piece to the pot. The game continues until one player has collected everything. While the Google version simplifies some rules, the core spinning mechanic and letter outcomes remain faithful to the centuries-old tradition.</p>
+<p>Enjoy multiple spins and watch how the dreidel lands differently each time thanks to the physics simulation. The game is perfect for teaching children about Hanukkah customs or simply enjoying a moment of festive fun during the holiday season. Share the experience with others and discover why the dreidel has remained a beloved tradition for generations.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -11671,24 +11276,15 @@ export const games = [
     thumbnail: '/images/moviedle.webp',
     relatedSlugs: ['swiftle', 'flaggle', 'squaredle'],
     excerpt: 'Think you know your movies? Moviedle challenges you to identify a daily film from progressively revealed clues — cast ages, director, genres, and release year...',
-    content: `<p>Think you know your movies? Moviedle challenges you to identify a daily film from progressively revealed clues — cast ages at the time of filming, the director&#8217;s name, genres, and release year comparisons. It&#8217;s a game for everyone who&#8217;s ever confidently said &#8220;I&#8217;ll watch anything&#8221; and genuinely means it, or who can identify a film from a single frame before the title card even appears.</p>
-
-<p>The game starts you off with almost nothing. Every identifying detail — cast photos, names, the director, genres — begins hidden or blurred. Wrong guesses progressively unlock more information, slowly piecing together the puzzle. A correct guess comes with the satisfying click of everything snapping into place. The daily challenge rotates across a huge range of films, from blockbuster franchises to indie darlings, keeping even the most dedicated cinephiles on their toes.</p>
-
-<p>What makes Moviedle more than just a trivia quiz is how it rewards genuine film knowledge rather than lucky guessing. Understanding that a particular actor was a certain age in the mid-90s, recognising a director&#8217;s recurring collaborators, or knowing that a specific combination of genres points to one studio era over another — these are the kinds of connections that separate the film fans from the film obsessives.</p>
-
-<p>Beyond the classic daily challenge, Moviedle offers several game modes to keep things fresh. Moviemoji tasks you with guessing a film purely from a string of emojis — a completely different and wonderfully chaotic kind of challenge. Fill The Grid and Twenty Questions add more variety for when one puzzle a day simply isn&#8217;t enough. A full archive of past games means new players have plenty of back catalogue to work through.</p>
-
-<h2 class="wp-block-heading">How To Play Moviedle</h2>
-
-<p>Type any movie title into the search bar to submit your first guess. The game will immediately show you how wrong (or right) you were, with directional arrows indicating whether the actual film&#8217;s release year is earlier or later than your guess. Each wrong answer unlocks another piece of information about the mystery film.</p>
-
-<p>The clues reveal in a set order: cast members (with ages blurred at first), then the director, then genres, then the release date window. Each wrong guess peels back another layer. Pay attention to the age indicators — if a cast member was listed as being in their early 30s and the release window narrows to the late 1990s, that&#8217;s a meaningful clue about when their career was at its peak.</p>
-
-<p>There&#8217;s no guess limit, but fewer guesses make for a better score to share. The real challenge is resisting the urge to start with a safe, easy-to-identify film and instead making educated guesses based on the clues. The more clues you need, the more the game will humble you — which is exactly why it&#8217;s so hard to stop playing.</p>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Moviedle is a daily movie guessing game that challenges your film knowledge through a unique visual format. The entire movie is compressed into a brief time-lapse that flashes through scenes at incredible speed, and you must identify the film from this rapid visual summary. Each incorrect guess reveals the movie at a slower speed, giving you progressively clearer looks at the scenes, actors, and settings that define the film.</p>
+<p>The initial compressed view creates a fascinating visual puzzle where colours, lighting, and general visual patterns become your primary identification tools. Action movies flash with explosions and rapid movement, while dramas feature more stable colour palettes and dialogue-heavy scenes. Experienced players develop an eye for recognising films from these macro visual characteristics before any individual scene becomes clear.</p>
+<p>The film selection spans decades of cinema, covering everything from recent blockbusters to classic films that every movie lover should know. This variety means some days are easy for fans of a particular genre while other days challenge even the most dedicated cinephiles. The unpredictability of each day's selection keeps the game consistently engaging and educational.</p>
+<p>Playing Moviedle online is a delightfully unique daily challenge for film enthusiasts that tests a completely different kind of knowledge than traditional trivia. Identifying a movie from its visual fingerprint rather than plot descriptions or quotes exercises visual memory and pattern recognition in ways that feel fresh and exciting. Sharing your daily result and comparing with friends adds a wonderful social dimension.</p>
+<h2 class="wp-block-heading">How to Play Moviedle Online</h2>
+<p>Watch the initial compressed movie playback and type your guess into the search field. The autocomplete helps you find the correct title format. If you recognise the film immediately from the speed-compressed version, submit your answer for the best possible score. Even a vague sense of which movie it might be is worth guessing early.</p>
+<p>After an incorrect guess, the movie plays back at a slower speed, revealing more detail with each attempt. Use each progressively slower version to identify specific actors, locations, costumes, and set designs. The additional detail with each guess transforms what started as a blur of colours into increasingly recognisable scenes.</p>
+<p>Pay attention to colour grading and cinematographic style, as these are often distinctive enough to identify a film even at high speed. Wes Anderson films have unmistakable colour palettes, Christopher Nolan films feature specific blue-grey tones, and horror films use distinctive lighting. These visual signatures are often visible even in the fastest compressed version.</p>
+<p>Use the era of the film as a narrowing tool. Older films have distinctly different visual qualities from modern productions, and the transition from film grain to digital clarity is visible even at high compression. Identifying the approximate decade of production can eliminate large portions of cinema history and help you focus on films from the correct era.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -11702,24 +11298,15 @@ export const games = [
     thumbnail: '/images/swiftle.webp',
     relatedSlugs: ['moviedle', 'flaggle', 'squaredle'],
     excerpt: 'Are you really a Swiftie? Swiftle puts your Taylor Swift knowledge to the ultimate test — one half-second clip at a time. Identify the song before the clues run out...',
-    content: `<p>Are you really a Swiftie? Swiftle puts your Taylor Swift knowledge to the ultimate test — one half-second clip at a time. Inspired by the wildly popular Heardle format, this daily music guessing game gives you just 0.5 seconds of audio and challenges you to name the track. Get it wrong or skip, and you earn a longer listen. But true fans shouldn&#8217;t need one.</p>
-
-<p>The game covers Taylor Swift&#8217;s entire discography — from <em>Taylor Swift</em> all the way through the Taylor&#8217;s Version re-recordings and every album era in between. That means deep cuts, B-sides, bonus tracks, and vault songs are all fair game alongside the singles everyone knows. Swiftle doesn&#8217;t give easy passes, and if you&#8217;ve claimed to know every word of every song, this is where you prove it.</p>
-
-<p>Each daily puzzle is the same for everyone worldwide, which turns Swiftle into a social experience just as much as a personal challenge. Sharing your result — how many clips you needed, whether you guessed correctly — has become a mini-ritual for fans on social media, especially around album releases and anniversaries. Getting it in one play immediately earns you the bragging rights you&#8217;ve been building since <em>Fearless</em>.</p>
-
-<p>The format works brilliantly because it tests a different kind of memory than trivia questions do. Recognising a song from half a second isn&#8217;t about knowing facts — it&#8217;s about having genuinely absorbed the music. The intro riff, the opening piano note, the first milliseconds of a vocal. Whether you&#8217;re a casual listener who only knows the big albums or someone who can hum every vault track from <em>1989</em>, Swiftle will find your limits and invite you back tomorrow to try again.</p>
-
-<h2 class="wp-block-heading">How To Play Swiftle</h2>
-
-<p>Press the play button to hear a 0.5-second clip of today&#8217;s Taylor Swift song. If you recognise it immediately, type the title into the search bar and submit your guess. If you&#8217;re not sure, click Skip or guess incorrectly to unlock a slightly longer audio clip — each wrong guess or skip reveals more of the track.</p>
-
-<p>You get five attempts in total. The clips get progressively longer with each guess: 0.5 seconds, then 1 second, 2 seconds, 4 seconds, and finally 7 seconds on your last attempt. Most dedicated fans should be able to identify a song before the final clip, but vault tracks and deep album cuts can trip up even the most dedicated listeners.</p>
-
-<p>Search for song titles as you type — the autocomplete shows matching tracks from across the discography, which also serves as a handy reminder of which songs exist when you&#8217;re blanking on a title you definitely know. Share your result when you&#8217;re done and come back tomorrow for a fresh challenge. The streak counter keeps track of your daily consistency — because Swifties don&#8217;t miss a day.</p>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Swiftle challenges Taylor Swift fans to identify her songs from brief audio clips in as few guesses as possible. Each round plays a short snippet of a Taylor Swift track, and you must select the correct song from her extensive discography. The clips start incredibly short and get progressively longer with each incorrect guess, rewarding fans with encyclopaedic knowledge of her music.</p>
+<p>The game spans Taylor Swift's entire catalogue, from her country debut through her pop evolution to her most recent releases. Deep cuts, bonus tracks, and album versions all make appearances alongside radio hits, ensuring that casual listeners and dedicated Swifties face very different challenges. Identifying a song from its first two seconds separates true superfans from everyone else.</p>
+<p>Each wrong guess extends the audio clip, giving you more of the song to work with. This progressive reveal system creates a satisfying solving experience where the answer gradually becomes clearer. Getting the answer on the shortest clip possible is the ultimate flex, while using all available guesses to finally identify a deep cut is its own kind of triumph.</p>
+<p>Playing Swiftle online is the ultimate test of Taylor Swift fandom. The daily format creates a shared experience where fans compare their scores and discuss which songs were easy or impossible to identify. For dedicated listeners who have played every album hundreds of times, the game validates their musical knowledge in a fun competitive format.</p>
+<h2 class="wp-block-heading">How to Play Swiftle Online</h2>
+<p>Press play to hear the audio clip, then type or select the song title you believe matches the snippet. The initial clip is very short, sometimes just a second or two, so listen carefully to the melody, instruments, and production style for identification clues. Each element of the audio can help narrow down the era and specific track.</p>
+<p>If your first guess is wrong, the clip extends and you hear more of the song. Use each additional listening opportunity to catch new details like vocal delivery, lyrical fragments, or chord progressions that distinguish one song from another. The extended clips gradually reveal enough information for even the trickiest deep cuts.</p>
+<p>Pay attention to production era cues. Taylor's country albums feature fiddles and acoustic guitars, her pop era uses heavy production and synthesisers, and her folk albums have stripped-back arrangements. Identifying the era immediately narrows your options from her full catalogue to a specific subset of albums and songs.</p>
+<p>Learn the distinctive openings of her most popular songs, as many tracks have unique intros that are identifiable within seconds. Guitar riffs, drum patterns, piano chords, and vocal runs that open songs are your most reliable early identification tools. Fans who actively study song openings consistently achieve better scores than those who rely on waiting for lyrics.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -11733,24 +11320,15 @@ export const games = [
     thumbnail: '/images/squaredle.webp',
     relatedSlugs: ['quordle', 'nerdle', 'moviedle'],
     excerpt: 'Squaredle is the word puzzle that rewards exploration over guessing. Instead of finding one mystery word, you hunt for every word hiding inside a grid of letters...',
-    content: `<p>Squaredle is the word puzzle that rewards exploration over guessing. Instead of finding one mystery word, you hunt for every word hiding inside a grid of letters — and there are a lot of them. Swipe or click through adjacent letters to form words, uncover all the required ones, and if you&#8217;re feeling ambitious, go hunting for the bonus words the game&#8217;s designers buried in there too. It&#8217;s the kind of puzzle you can finish in five minutes or spend half an hour in, depending on how deep you want to dig.</p>
-
-<p>Created by Joey Kan and launching in early 2022 during the peak of the daily puzzle boom, Squaredle distinguished itself from the Wordle pack by being genuinely different in format. While most variants kept the &#8220;guess one word&#8221; structure, Squaredle asks something harder: find all the words. The grid changes daily, the required words vary in length and difficulty, and the bonus list keeps competitive players chasing a perfect score long after the required words are done.</p>
-
-<p>Movement in the grid follows a simple rule — each letter must be adjacent to the previous one, including diagonals. That means every path through the grid is different, and the same letters can form multiple different words depending on which direction you travel. The puzzle rewards players who think spatially, who can see multiple paths at once, and who know their way around the less common corners of the English vocabulary.</p>
-
-<p>Words must be at least four letters long, and the required words span multiple lengths. Shorter required words are usually more familiar, while the longer ones test vocabulary properly. Bonus words push into more obscure territory — if you&#8217;re finding them all, you&#8217;re genuinely impressive. The game keeps track of which words you&#8217;ve found and which are still hiding, giving you that perfect nudge to keep going when you think you&#8217;re done.</p>
-
-<h2 class="wp-block-heading">How To Play Squaredle</h2>
-
-<p>Look at the grid of letters and swipe or click through adjacent tiles to form words. Letters must be connected — each new letter must be directly next to the previous one on the grid, including diagonals. You can&#8217;t skip over tiles or use the same tile twice in a single word.</p>
-
-<p>All words must be at least four letters long. As you find valid words, they&#8217;ll be added to your list and the tiles will briefly highlight. Required words are sorted by length — find all of them to complete the daily puzzle. Bonus words beyond the required list earn you extra points and bragging rights, but they&#8217;re optional.</p>
-
-<p>If you&#8217;re stuck, the hint system can point you toward words you&#8217;re missing. The daily puzzle resets at midnight, so you get one fresh grid every day. Your streak tracks how many consecutive days you&#8217;ve completed the required words, which gives you every reason to come back tomorrow and keep your record intact.</p>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Squaredle is a word puzzle game where you find as many words as possible by connecting adjacent letters in a square grid. Letters can be connected horizontally, vertically, or diagonally, and each letter in the grid can only be used once per word. The challenge is discovering all the hidden words, from common everyday terms to obscure vocabulary that pushes the boundaries of your lexicon.</p>
+<p>The daily grid is compact but hides a surprising number of words within its limited letters. Finding the obvious short words is just the beginning, as longer words weave through the grid in unexpected paths. The most satisfying discoveries are long words that snake through nearly every cell, using the grid's layout to create terms you might never have thought to look for.</p>
+<p>Words are categorised by rarity, with common words expected of all players and bonus words that reward exceptional vocabulary. The rarity system provides multiple achievement levels within each puzzle, giving casual players satisfaction from finding common words while challenging word experts to uncover every obscure term hidden in the grid.</p>
+<p>Playing Squaredle online is an addictive daily vocabulary challenge that rewards both breadth and depth of word knowledge. The spatial element of tracing paths through the grid adds a dimension that pure anagram games lack, and the daily format creates a shared experience where players compare word counts and celebrate rare finds. It is a word lover's dream puzzle.</p>
+<h2 class="wp-block-heading">How to Play Squaredle Online</h2>
+<p>Click and drag through adjacent letters in the grid to form words, or click letters individually to spell them out. Letters must be connected horizontally, vertically, or diagonally in a continuous path with no gaps. Each letter cell can only be used once per word, so paths cannot cross back over previously used cells.</p>
+<p>Start by scanning for common short words to build momentum and familiarise yourself with the available letters. Three and four-letter words are plentiful and help you internalise the grid layout. Once you have found the obvious short words, your brain naturally begins spotting longer patterns threading through familiar territory.</p>
+<p>Look for common prefixes and suffixes that might form longer words. If you spot the letters for UN, RE, or PRE at one edge of the grid, trace paths from there to see what words they might begin. Similarly, endings like ING, TION, or ED can anchor your search for longer words working backward through the grid.</p>
+<p>Use the word count indicator to gauge how many words remain undiscovered. When you plateau on finding new words, try approaching the grid from a different starting position or focusing on letter combinations you have not yet explored. Sometimes shifting your visual focus to a different corner of the grid reveals words that were hiding in plain sight all along.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -11764,24 +11342,15 @@ export const games = [
     thumbnail: '/images/flaggle.webp',
     relatedSlugs: ['tradle', 'moviedle', 'squaredle'],
     excerpt: 'You think you know your flags? Flaggle reveals a country\'s flag piece by piece and challenges you to name it before the whole thing is on screen...',
-    content: `<p>You think you know your flags? Flaggle reveals a country&#8217;s flag piece by piece and challenges you to name it before the whole thing is on screen. It&#8217;s a geography game, a vexillology test, and a daily exercise in humility — all in one. Even players who are confident about the major nations will find themselves stumped by the more obscure corners of the world map, especially when all they&#8217;ve got is a sliver of colour and an ambiguous symbol.</p>
-
-<p>The daily challenge gives everyone the same flag, which makes Flaggle a naturally social game. Sharing your result — whether you nailed it on the first reveal or needed every single hint — starts conversations about which country that shade of red actually belongs to, and why so many small island nations have suspiciously similar colour palettes. It&#8217;s the kind of game that makes you realise how many flags you thought you knew but absolutely didn&#8217;t.</p>
-
-<p>What separates great Flaggle players from casual ones is pattern recognition. Knowing that horizontal tricolours appear across dozens of countries, that certain shades of green appear almost exclusively in African nations, or that a particular coat of arms narrows things down to Central America — this kind of knowledge transforms the game from random guessing into something resembling genuine expertise. Every puzzle teaches you something, even when you get it wrong.</p>
-
-<p>The game covers the full range of sovereign nations, from the instantly recognisable to the genuinely obscure. Some flags are almost identical to neighbouring countries&#8217; designs, which creates its own specific frustration. But that frustration is precisely what keeps players coming back — the desire to finally nail that tricky flag they missed yesterday, and to one day reach the point where no reveal catches them cold.</p>
-
-<h2 class="wp-block-heading">How To Play Flaggle</h2>
-
-<p>Each round starts with a partially revealed flag — you&#8217;ll see a small cropped section and need to guess which country it belongs to. Type the country name into the search bar and submit your guess. Wrong answers reveal more of the flag, giving you progressively more to work with.</p>
-
-<p>Use what you can see strategically. Colours narrow things down significantly — a red, white, and blue combination is common, but the specific shades and arrangement point to specific regions. Symbols, emblems, or distinctive stripes can eliminate entire continents from consideration. If you see a crescent and star, you&#8217;re looking at a very different shortlist than if you see a cross or a shield.</p>
-
-<p>There&#8217;s no penalty for wrong guesses beyond seeing more of the flag, so don&#8217;t be afraid to make educated regional guesses early on. The built-in reference list lets you browse world flags, which is useful when you know roughly which region a flag belongs to but can&#8217;t quite land on the specific country. Come back daily and your geography knowledge will improve faster than any textbook could manage.</p>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Flaggle is a geography guessing game that tests your knowledge of world flags through a colour-coded feedback system. Each day presents a mystery country whose flag you must identify, with each incorrect guess providing clues about how similar the guessed flag is to the target flag. The visual comparison feedback helps you narrow down possibilities through flag design elements like colours, patterns, and symbols.</p>
+<p>The feedback system cleverly analyses flag similarity across multiple dimensions. After each guess, you receive information about shared colours, similar design elements, and geographic proximity. This multi-layered feedback means every guess teaches you something useful even when the answer is nowhere close, making the deduction process engaging rather than frustrating.</p>
+<p>Deep knowledge of world flags gives obvious advantages, but the game is designed so that logical deduction from feedback can overcome limited flag knowledge. Understanding common flag design conventions such as which colours are favoured in different regions and which symbols represent specific cultural elements helps you make informed guesses even for unfamiliar flags.</p>
+<p>Playing Flaggle online is a wonderful daily challenge for geography enthusiasts and a sneakily effective educational tool for everyone else. Each solved puzzle reinforces your knowledge of world flags, and over weeks of daily play, you develop an impressive familiarity with the flags of nations you might never have learned about otherwise. The game makes geography education genuinely enjoyable.</p>
+<h2 class="wp-block-heading">How to Play Flaggle Online</h2>
+<p>Type a country name and select it from the suggestions to submit your guess. The game displays the flag of your guessed country alongside feedback about how it compares to the target flag. Use this visual and coded feedback to refine your subsequent guesses, narrowing down the possible countries based on flag similarities and differences.</p>
+<p>Pay attention to colour feedback first, as it eliminates the most options quickly. If the target flag contains red and green but not blue, you can immediately exclude dozens of countries whose flags prominently feature blue. The colour palette of a flag is its most distinctive identifying characteristic and the fastest path to narrowing your options.</p>
+<p>Use geographic proximity hints to focus your guesses on specific regions. Flags in the same geographic area often share design elements, so once you know the general region, you can work through countries with flags that match the confirmed colours and patterns. Regional flag conventions like Pan-African colours or Scandinavian cross designs help identify the correct area.</p>
+<p>Learn to recognise common flag elements like crescents, stars, crosses, shields, and stripes, and know which countries feature them. These distinctive symbols are often the final clue that distinguishes between similar flags in the same region. Building a mental catalogue of flag design elements over multiple days of play significantly improves your solving speed and accuracy.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -11795,24 +11364,15 @@ export const games = [
     thumbnail: '/images/numberle.webp',
     relatedSlugs: ['nerdle', 'quordle', 'octordle'],
     excerpt: 'Numberle is the daily maths puzzle that asks one straightforward question: can you guess the hidden equation in six tries? Think Wordle, but replace letters with digits...',
-    content: `<p>Numberle is the daily maths puzzle that asks one straightforward question: can you guess the hidden equation in six tries? Think Wordle, but replace every letter with a digit or arithmetic symbol. It&#8217;s accessible enough for anyone who made it through secondary school maths, deep enough to genuinely challenge you every day, and short enough to fit into any commute, break, or five minutes of procrastination.</p>
-
-<p>Part of the wider wave of equation-guessing games that emerged alongside the Wordle explosion in early 2022, Numberle carves out its own identity with a clean, no-fuss interface and a daily puzzle format that feels consistent and fair. Every guess you make has to be a valid mathematical equation — no guessing random strings of numbers and hoping for the best. The game enforces real arithmetic, which keeps things honest and surprisingly educational.</p>
-
-<p>The colour feedback works just like the original Wordle system. Green means you&#8217;ve placed a digit or symbol in exactly the right position. Yellow (or brown, depending on your colour settings) means it appears somewhere in the equation but in the wrong spot. Grey means it doesn&#8217;t appear in the solution at all. Six guesses is more than enough to crack most equations with sensible play — but the pressure of the streak counter has a way of making those six attempts feel very finite indeed.</p>
-
-<p>There&#8217;s a satisfying mental shift that happens as you play Numberle regularly. You start approaching equations differently — thinking about which digit combinations produce clean results, which operators are most commonly used in short equations, and how to maximise the information gained from each guess. It&#8217;s the same kind of strategic thinking that makes Wordle so compelling, just wearing different clothes.</p>
-
-<h2 class="wp-block-heading">How To Play Numberle</h2>
-
-<p>Your goal is to guess the hidden mathematical equation in six attempts. Type any valid equation using the on-screen keypad — digits 0–9 and the operators <strong>+ − × ÷ =</strong> are available. The equation must be mathematically correct to submit, so make sure both sides of the equals sign actually balance.</p>
-
-<p>After each guess, the tiles change colour. <strong>Green</strong> means that digit or symbol is correct and in the right position. <strong>Yellow/brown</strong> means it&#8217;s part of the equation but positioned elsewhere. <strong>Grey</strong> means it doesn&#8217;t appear in the solution at all. Build on this information with each guess, systematically narrowing down the possibilities.</p>
-
-<p>Start with an equation that uses a variety of common digits and operators to gather as much information as possible from your first guess. Avoid repeating grey characters in subsequent guesses. The equals sign always separates the calculation from its result, with the result on the right — keep that structure in mind as you build each attempt. Six guesses sounds like plenty until the streak pressure kicks in.</p>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Numberle is a mathematical guessing game that applies the popular colour-coded feedback format to equations rather than words. Each puzzle presents a hidden equation using numbers and operators, and you must guess the complete equation within a limited number of attempts. The colour feedback tells you which numbers and operators are correct, misplaced, or absent, letting you deduce the hidden equation through mathematical reasoning.</p>
+<p>The puzzle format requires thinking about both mathematical validity and positional logic simultaneously. Every guess must be a valid equation that actually works mathematically, which constrains your options far more than a word game where any letter combination is possible. This dual constraint of mathematical accuracy and positional deduction creates a uniquely challenging puzzle experience.</p>
+<p>Understanding number relationships and operator properties gives you solving advantages. Multiplication and division produce specific result patterns that narrow possibilities quickly, while addition and subtraction are more flexible but less informative per guess. Strategic first guesses that test common operators and a range of digits provide the best foundation for subsequent deductions.</p>
+<p>Playing Numberle online is a refreshing twist on the daily puzzle format that exercises mathematical thinking alongside logical deduction. The daily puzzle creates a shared challenge for maths enthusiasts to compare strategies and celebrate solutions. For players who find word games too dependent on vocabulary, Numberle offers a purely logical alternative that rewards reasoning ability.</p>
+<h2 class="wp-block-heading">How to Play Numberle Online</h2>
+<p>Enter a complete valid equation using the number pad and operator buttons provided. Your equation must be mathematically correct to be accepted as a guess. After submitting, each position receives colour feedback indicating whether that digit or operator is correct and in the right place, present but misplaced, or not in the equation at all.</p>
+<p>Start with equations that use a variety of different digits and at least two different operators. A diverse first guess maximises the information you receive from the feedback, eliminating more possibilities than a guess that repeats digits or uses only one operator. Spread your initial guesses across the number range for broadest coverage.</p>
+<p>Use the mathematical constraints to your advantage. If you know certain digits are present, calculate which equations are mathematically possible using those digits. The requirement for mathematical validity often means that knowing three or four elements of the equation leaves only one or two possible solutions, unlike word games where many options might remain.</p>
+<p>Pay attention to the position feedback for operators as well as numbers. Knowing whether the equation uses addition, subtraction, multiplication, or division, and where those operators appear, dramatically narrows the solution space. The operator positions often reveal the equation's structure before the specific numbers are fully determined.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -11826,24 +11386,15 @@ export const games = [
     thumbnail: '/images/tradle.webp',
     relatedSlugs: ['flaggle', 'moviedle', 'quordle'],
     excerpt: 'Tradle shows you a colourful chart of a country\'s exports and asks: which country is this? It\'s geography, economics, and detective work rolled into one daily puzzle...',
-    content: `<p>Tradle shows you a colourful treemap chart of a country&#8217;s exports — oil, machinery, electronics, textiles, agriculture, all broken down by value and proportion — and asks a deceptively simple question: which country is this? It&#8217;s the Wordle variant for geography teachers, economics students, curious travellers, and anyone who has ever found themselves going down a Wikipedia rabbit hole about international trade flows at midnight.</p>
-
-<p>Created by the team behind the Observatory of Economic Complexity (OEC) — a world-leading data visualisation platform for global trade statistics — Tradle launched in early 2022 and quickly found a devoted audience among the puzzle and geography communities. It uses real trade data from the OEC&#8217;s extensive database, which means every puzzle is grounded in actual economic reality rather than invented scenarios. Learning what a country exports isn&#8217;t just useful for the game; it&#8217;s genuinely useful knowledge about how the world works.</p>
-
-<p>The game rewards a specific kind of knowledge that no other Wordle variant tests. Understanding that a treemap dominated by petroleum and natural gas narrows the field dramatically. Knowing that a country whose exports are mostly electronics and machinery suggests East Asia rather than Sub-Saharan Africa. Recognising the distinctive export profile of a small island nation versus a continental powerhouse. These economic fingerprints are unique to Tradle, and building fluency in reading them turns each session into a genuine learning experience.</p>
-
-<p>Wrong guesses provide directional feedback, telling you whether the correct country is geographically closer to the equator or the poles, and which direction to look on the map. Six guesses is enough to get systematic about it — eliminate entire continents, narrow down by region, then drill into specific countries based on what the export proportions tell you. It&#8217;s deeply satisfying when the pieces click into place.</p>
-
-<h2 class="wp-block-heading">How To Play Tradle</h2>
-
-<p>Study the treemap shown on screen. Each coloured block represents a category of exports, sized proportionally to its share of the country&#8217;s total export value. Larger blocks dominate the economy; smaller ones are secondary industries. The colour coding groups related product types together — look for patterns rather than individual details.</p>
-
-<p>Type any country name into the search bar and submit your guess. Wrong answers provide two pieces of feedback: a directional arrow showing which way on the map to look, and a distance indicator showing how far away the correct country is from your guess. Use this to eliminate regions systematically rather than guessing randomly.</p>
-
-<p>You have six guesses to identify the country. If you see a treemap dominated by crude oil, start with major petroleum exporters and use the directional clues to navigate from there. If it&#8217;s mostly agricultural goods, think about which regions export those crops at scale. The export profile is your primary clue — treat it like a fingerprint and trust what the data is telling you.</p>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Tradle is a geography and economics guessing game where you identify a mystery country based on its export profile. Each day presents a treemap visualisation showing the relative sizes of a country's major export categories, colour-coded by industry. Your task is to deduce which nation produces this specific combination of exports, using your knowledge of global trade, natural resources, and industrial specialisation to narrow down the possibilities.</p>
+<p>The treemap visualisation provides rich information for deduction. Large blocks of petroleum exports suggest Middle Eastern or OPEC nations, while significant electronics sectors point toward East Asian manufacturing powers. Agricultural dominance might indicate developing nations with fertile land, and diversified industrial exports suggest advanced economies. Reading the export composition tells a story about each nation's geography, resources, and economic development.</p>
+<p>Each incorrect guess provides geographic feedback showing how far and in which direction the target country lies. This distance and bearing information, combined with the export data, creates a two-pronged deduction system. You narrow options simultaneously through economic analysis and geographic triangulation, making each guess valuable even when incorrect.</p>
+<p>Playing Tradle online is a uniquely educational daily puzzle that teaches global economics through gameplay. Regular players develop an impressive understanding of which countries produce what, how geography shapes economic activity, and how trade flows connect the world. The puzzle format makes this complex subject matter accessible and genuinely enjoyable to learn about.</p>
+<h2 class="wp-block-heading">How to Play Tradle Online</h2>
+<p>Examine the treemap visualisation carefully before making your first guess. Note the dominant export categories, their relative sizes, and the specific products within each category. A country dominated by crude petroleum exports looks very different from one dominated by manufactured goods or agricultural products. Let the export profile guide your initial guess.</p>
+<p>Type a country name and submit your guess. After each attempt, the game shows the distance and direction from your guess to the target country, along with a proximity percentage. Use this geographic feedback alongside the export data to triangulate the target. A guess that is close geographically but wrong means the answer is likely a neighbouring country with a similar economic profile.</p>
+<p>Learn to recognise distinctive export profiles that uniquely identify certain countries. Some nations have such distinctive trade signatures that experienced players can identify them immediately. Major oil exporters, rare mineral producers, and nations with highly specialised industries each create unmistakable treemap patterns that serve as instant identification for knowledgeable players.</p>
+<p>Use the colour coding to distinguish between export categories quickly. Manufacturing, agriculture, minerals, and services each have distinct colours in the treemap. The relative proportions of these colour blocks give you an immediate overview of the country's economic structure before you even read the specific product labels. This visual pattern recognition speeds up identification significantly with practice.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -11857,24 +11408,15 @@ export const games = [
     thumbnail: '/images/duotrigordle.webp',
     relatedSlugs: ['quordle', 'octordle', 'nerdle'],
     excerpt: 'Quordle felt manageable. Octordle pushed you harder. Duotrigordle solves 32 Wordle boards simultaneously and asks if you have what it takes...',
-    content: `<p>Quordle felt manageable. Octordle pushed you harder. Duotrigordle is where sanity waves goodbye. The premise is the same as every multi-board Wordle variant — guess five-letter words using colour-coded clues — except here you&#8217;re solving thirty-two boards at once. Every single word you type applies to all 32 simultaneously, and you have 37 guesses to crack all of them before the game ends. It is, by any reasonable measure, completely ridiculous. It&#8217;s also brilliant.</p>
-
-<p>Built by developer thesilican and released in 2022, Duotrigordle is open source and has gathered a devoted following of puzzle masochists who consider Octordle a warm-up. The 32 boards are displayed in a scrollable grid, each one tracking its own independent colour feedback for every guess. You can scroll between them freely, which means part of the challenge is just mentally tracking where you are with each board and which letters you still need to crack. The sheer information density is overwhelming at first and deeply satisfying once you develop a system.</p>
-
-<p>The game offers three daily modes to match different kinds of madness. The standard mode shows all 32 boards at once from the start. Sequence mode unlocks boards one at a time — you only see the next board after solving the previous one, which demands a different approach entirely. Jumble mode randomises the first three target words, throwing another variable into the chaos. Practice mode removes the daily limit, letting you work through additional puzzles whenever you have time and energy to spare.</p>
-
-<p>Despite the seemingly impossible scale, the mathematics of 37 guesses across 32 boards is more forgiving than it sounds. Early guesses serve as broad reconnaissance, eliminating letters across all boards simultaneously. The real skill is recognising when a board is nearly solved and pivoting to prioritise it before running out of guesses, while keeping enough flexibility to finish the trickier boards. It&#8217;s multi-tasking taken to a logical extreme, and somehow it works.</p>
-
-<h2 class="wp-block-heading">How To Play Duotrigordle</h2>
-
-<p>Type any valid five-letter word and press Enter. That guess applies to every one of the 32 boards simultaneously. Each board shows its own colour feedback: <strong>green</strong> for correct letter in the correct position, <strong>yellow</strong> for correct letter in the wrong position, <strong>grey</strong> for letters that don&#8217;t appear in that board&#8217;s word. The keyboard at the bottom tracks the best result each letter has achieved across all boards.</p>
-
-<p>Start with information-gathering words that cover a wide spread of common letters — <strong>CRANE</strong>, <strong>SLOTH</strong>, <strong>WIPED</strong> are popular openers that eliminate large chunks of the alphabet quickly. Use your first few guesses to build a picture across all 32 boards before targeting specific words. Scroll through the grid regularly to check your progress and spot which boards are close to solved.</p>
-
-<p>You have 37 guesses to solve all 32 words. Prioritise boards where you&#8217;re close to a solution but don&#8217;t neglect the trickier ones — leaving difficult boards for last with few guesses remaining is how runs end. When you finish (or run out of guesses), share your result and see how your attempt compares to the rest of the daily leaderboard.</p>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Duotrigordle is the most ambitious word puzzle variant, challenging you to solve thirty-two five-letter word puzzles simultaneously with just thirty-seven shared guesses. Every word you type applies to all thirty-two boards at once, creating an unprecedented exercise in vocabulary management and strategic deduction. The massive scale transforms a familiar puzzle format into something entirely new and extraordinarily challenging.</p>
+<p>The interface displays all thirty-two boards in a grid, with colour feedback updating on every board after each guess. Tracking the state of thirty-two parallel puzzles requires exceptional cognitive organisation. Some boards solve quickly with common letters while others resist until very specific letter combinations are tested. Managing attention across this many simultaneous puzzles is a unique mental challenge.</p>
+<p>The guess limit of thirty-seven for thirty-two puzzles means you have very little margin for wasted guesses. Strategic opening words that cover the most common letters are essential, as every guess must extract maximum information across all boards. The efficiency of your early guesses determines whether you have enough remaining attempts to handle the stubborn final boards.</p>
+<p>Playing Duotrigordle online is the ultimate test for word puzzle enthusiasts who have mastered simpler variants. The sheer scale creates a satisfying marathon experience where solving all thirty-two boards feels like a major accomplishment. The daily puzzle format provides a consistent challenge that even the most dedicated word game players find genuinely difficult and rewarding.</p>
+<h2 class="wp-block-heading">How to Play Duotrigordle Online</h2>
+<p>Type a five-letter word and press enter to submit it to all thirty-two boards simultaneously. Each board processes the guess independently, showing green, yellow, and grey feedback for that specific word. Scroll through the board grid to check feedback on all thirty-two puzzles after each guess, or use the overview to spot which boards have the most progress.</p>
+<p>Start with four or five carefully chosen words that together test all twenty-six letters of the alphabet or as close to it as possible. These opening words establish a foundation of information across all boards that makes subsequent targeted guessing possible. Common opening sequences test vowels first, then high-frequency consonants, covering the most statistical ground with each guess.</p>
+<p>After your opening sequence, identify boards that are closest to being solved and target them with specific guesses. Solving boards early frees your mental capacity to focus on the remaining puzzles and confirms letters that might help other boards. The most efficient approach alternates between targeted solves and broad information-gathering guesses.</p>
+<p>Keep track of your remaining guesses relative to unsolved boards. If you have twenty guesses left for fifteen unsolved boards, you are in reasonable shape. If that ratio tightens, switch to pure information-gathering words that test multiple unknown letters simultaneously rather than attempting to solve specific boards. Resource management across thirty-two puzzles is the skill that determines success or failure.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -11888,24 +11430,15 @@ export const games = [
     thumbnail: '/images/quordle.webp',
     relatedSlugs: ['octordle', 'duotrigordle', 'nerdle'],
     excerpt: 'Wordle was the starter. Quordle is the main course. Solve four five-letter words simultaneously in just nine guesses — every word you type hits all four boards at once...',
-    content: `<p>Wordle was the starter. Quordle is the main course. The concept is elegantly brutal: four five-letter words, nine guesses, every word you type filling squares on all four boards at once. What sounds like a modest step up from the original turns out to require a fundamentally different approach — because strategies that work perfectly for one word fall apart completely when you need them to serve four boards simultaneously.</p>
-
-<p>Created by Freddie Meyer in January 2022 and later acquired by Merriam-Webster, Quordle became one of the most popular Wordle variants almost immediately. The Merriam-Webster partnership gives the game an official dictionary backing that both legitimises the word choices and provides access to the publisher&#8217;s deep vocabulary resources. It also means the game isn&#8217;t going anywhere — unlike some indie variants that appeared and disappeared during the puzzle boom, Quordle has an institutional home.</p>
-
-<p>The nine-guess limit is where the game&#8217;s tension lives. In standard Wordle you can afford to use early guesses for pure information gathering. In Quordle, every guess has to serve multiple boards, and by the time you&#8217;ve built a clear picture of all four words, you need to have enough guesses left to actually solve them. The maths is unforgiving — an inefficient opening puts you under pressure immediately, and pressure is exactly when five-letter words get harder to think of.</p>
-
-<p>Practice mode removes the daily limit and generates unlimited fresh puzzles, which is where most players do the work of developing their strategy. The daily puzzle syncs worldwide, so sharing results and comparing performances has become part of the experience. Quordle threads on social media fill up every morning with grids of coloured squares and commentary ranging from smug to mortified — which is precisely the kind of communal experience that made the whole genre explode in the first place.</p>
-
-<h2 class="wp-block-heading">How To Play Quordle</h2>
-
-<p>Type any valid five-letter word and press Enter. It fills in squares on all four boards at once. Each board gives independent colour feedback: <strong>green</strong> for the right letter in the right spot, <strong>yellow</strong> for a correct letter in the wrong position, <strong>grey</strong> for letters not present in that board&#8217;s word. The shared keyboard at the bottom shows the best result each letter has achieved across all four boards.</p>
-
-<p>You have nine guesses to solve all four words. Spend the first two or three guesses on information-gathering — choose words that cover a wide spread of common letters to build a picture of all four solutions simultaneously. After that, start targeting specific boards based on what you know, but always choose guesses that serve multiple boards where possible.</p>
-
-<p>The hardest part of Quordle is discipline. When you can almost see one solution, the temptation is to go straight for it and worry about the other boards later. Resist this — leaving a board mostly unsolved with limited guesses remaining is extremely dangerous. Focus on the boards with the fewest possibilities and methodically work through them all before your guesses run out. Practice mode is your best teacher.</p>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Quordle is the ultimate word puzzle challenge where you solve four five-letter word puzzles simultaneously with shared guesses. Every word you enter applies to all four boards at once, with independent colour feedback on each board. Managing four parallel deductions with a limited pool of shared guesses creates a strategic puzzle experience that is dramatically more complex and rewarding than solving a single word puzzle.</p>
+<p>The shared guess mechanic means every word choice involves strategic trade-offs between the four boards. A guess that perfectly narrows one board might provide no useful information for another. Balancing information gathering across all four puzzles while conserving your limited guesses requires a broader strategic perspective than single-board puzzles ever demand.</p>
+<p>The daily format presents the same four words to all players, creating a shared challenge where solving strategies can be compared and discussed. The satisfaction of cracking all four words is proportionally greater than a single puzzle, and the occasional devastating near-miss where you solve three boards but run out of guesses on the fourth creates memorable moments of tension and disappointment.</p>
+<p>Playing Quordle online is the natural evolution for word puzzle enthusiasts who find single-word puzzles too easily solved. The four-board format multiplies both the challenge and the satisfaction, creating a daily mental workout that tests vocabulary, deduction, and strategic resource management simultaneously. For word game veterans, this is where the real challenge begins.</p>
+<h2 class="wp-block-heading">How to Play Quordle Online</h2>
+<p>Type a five-letter word and press enter to submit a guess that applies to all four boards simultaneously. Each board provides independent colour feedback, with green indicating correct letters in position, yellow indicating present but misplaced letters, and grey indicating absent letters for that specific board. Track the feedback on all four boards after each guess.</p>
+<p>Use your early guesses to gather maximum information across all four boards. Words with common letters and no repeats spread useful information efficiently. Your first two guesses should ideally test ten different letters, covering a significant portion of the alphabet and providing substantial feedback on every board simultaneously.</p>
+<p>Prioritise boards that are closest to being solved when choosing your next guess. If one board has four green letters and just needs one more, solve it to remove it from consideration. However, do not waste a guess on a board you have already essentially solved if other boards are providing more urgent information needs.</p>
+<p>Keep a mental map of which letters are confirmed, possible, and eliminated for each individual board. The cognitive challenge of maintaining four separate deduction chains is Quordle's defining feature. When boards share common letters, a guess can advance multiple puzzles at once, and spotting these efficient dual-purpose words is the key skill that separates average players from experts.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -11919,24 +11452,15 @@ export const games = [
     thumbnail: '/images/octordle.webp',
     relatedSlugs: ['quordle', 'duotrigordle', 'nerdle'],
     excerpt: 'Eight boards. Thirteen guesses. One word applies to all of them. Octordle is where multi-board Wordle stops feeling manageable and starts feeling like a genuine feat...',
-    content: `<p>Eight boards. Thirteen guesses. One word you type applies to all of them at once. Octordle is where multi-board Wordle stops feeling manageable and starts feeling like a genuine feat of mental juggling. If Quordle introduced you to the chaos of solving multiple words simultaneously, Octordle doubles the board count and then gives you only four extra guesses to compensate. The result is one of the most satisfying puzzle challenges available anywhere online.</p>
-
-<p>Originally created as an independent game before being acquired and hosted on Britannica&#8217;s website, Octordle has found a permanent home alongside the encyclopaedia&#8217;s educational content — which feels appropriate, given how much vocabulary it quietly teaches. The Britannica hosting means it&#8217;s stable, well-supported, and backed by a serious publisher&#8217;s word resources. It also offers several difficulty tiers to match where you are in your Octordle journey.</p>
-
-<p>Classic mode gives you 13 guesses for 8 boards — the baseline challenge that most players start with. Chill mode is slightly more forgiving with 16 guesses and a gentler word list, making it a good starting point if you&#8217;re new to the format. Extreme mode reduces the guess count to 12 and pulls from a more demanding vocabulary, which is exactly as brutal as it sounds. Sequence mode unlocks each new board only after the previous one is solved, demanding a completely different strategic approach. Rescue mode pre-fills several starter words and asks you to salvage a win from the position — which requires a very different skill set entirely.</p>
-
-<p>What makes Octordle more than just a harder Quordle is how it changes your relationship with information. At four boards, you can track everything in your head. At eight, you have to develop a genuine system — knowing at a glance which boards are nearly done, which still need multiple letters identified, and which might be heading toward a difficult endgame. That meta-awareness is a skill in itself, and building it over dozens of sessions turns Octordle into something almost meditative.</p>
-
-<h2 class="wp-block-heading">How To Play Octordle</h2>
-
-<p>Type any valid five-letter word and press Enter — it applies to all eight boards simultaneously. Each board returns independent colour feedback: <strong>green</strong> for the correct letter in the right position, <strong>yellow</strong> for a correct letter in the wrong position, <strong>grey</strong> for a letter not present in that board&#8217;s word. The shared keyboard updates to show the best result each letter has achieved across all eight boards.</p>
-
-<p>You have 13 guesses to solve all eight words. Dedicate the first three or four to broad information gathering — high-frequency letter words that eliminate as much of the alphabet as possible across all boards simultaneously. After the opening phase, start reading each board individually. Identify which boards are closest to solved and which still have multiple unknowns, then balance your remaining guesses accordingly.</p>
-
-<p>The critical habit in Octordle is never fixating on a single board. It&#8217;s tempting to solve an easy one quickly and move on, but guesses spent on one board are spent on all eight — make every guess count for as many boards as possible. Scroll through all eight after each guess to reassess the picture. When two or three boards reach the endgame simultaneously, the final few guesses become a genuine test of prioritisation under pressure.</p>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Octordle challenges word puzzle enthusiasts to solve eight five-letter words simultaneously using just thirteen shared guesses. Each word you submit applies to all eight boards at once, producing independent colour-coded feedback on every board. The eight-board format hits a sweet spot of complexity that is substantially harder than quadruple variants while remaining solvable without requiring the extreme mental stamina of larger formats.</p>
+<p>The strategic depth comes from managing information flow across eight parallel puzzles with limited guesses. A word that provides crucial information for three boards might give nothing useful to the other five. Choosing guesses that generate productive feedback across the majority of boards is the fundamental strategic challenge that separates successful solvers from those who run out of guesses.</p>
+<p>The daily puzzle format ensures consistent difficulty and creates a shared community experience. Comparing your path to the solution with other players reveals the variety of approaches that can succeed, from systematic information gathering to inspired guesses that crack multiple boards at once. The daily leaderboard motivates efficiency and rewards both speed and accuracy.</p>
+<p>Playing Octordle online is the ideal step up for players who find four-board puzzles too easy but find the massive grid variants overwhelming. The eight-board format provides genuine challenge and satisfying complexity while remaining completable in a focused ten-minute session. The sense of accomplishment from clearing all eight boards with guesses to spare is one of the best feelings in daily puzzle gaming.</p>
+<h2 class="wp-block-heading">How to Play Octordle Online</h2>
+<p>Type a five-letter word and press enter to submit your guess across all eight boards. Each board provides independent green, yellow, and grey feedback indicating correct positions, present letters, and absent letters for that specific word. Review all eight boards after each guess to update your understanding of what letters and positions are confirmed or eliminated.</p>
+<p>Use your first three guesses to test as many different letters as possible. A common strategy uses three carefully chosen words that together cover fifteen different letters, providing extensive information across all eight boards before you begin targeted solving. Prioritise common consonants and all five vowels in your opening sequence for maximum coverage.</p>
+<p>After your opening sequence, scan all boards to identify which are closest to being solved. Boards with three or four green letters often need just one targeted guess to complete. Solve these easy boards first to reduce your cognitive load and free up attention for the more challenging remaining puzzles that need additional letter testing.</p>
+<p>Monitor your guess budget carefully throughout the puzzle. With thirteen guesses for eight words, you have an average of fewer than two guesses per board after your opening sequence. If you fall behind pace, switch to information-rich guesses that test uncertain letters across multiple boards simultaneously rather than focusing on solving any single board. Staying flexible with your strategy is essential when guesses are running short.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -12020,32 +11544,15 @@ export const games = [
     thumbnail: '/images/eiji-tsuburaya-google-doodle.webp',
     relatedSlugs: ['doodle-champion-island-games', 'great-ghoul-duel', 'magic-cat-academy'],
     excerpt: 'Before CGI, every monster movie required an army of clever technicians pulling wires, stitching costumes, and building miniature cities. The Eiji Tsuburaya Google Dood...',
-    content: `<p>Before CGI, every monster movie required an army of clever technicians pulling wires, stitching costumes, and building miniature cities. The Eiji Tsuburaya Google Doodle drops you into that world, putting you in the director&#8217;s chair for a series of rapid-fire Tokusatsu filmmaking challenges that are equal parts chaotic and charming. Released on July 7, 2015 — Tsuburaya&#8217;s 114th birthday — this interactive Doodle celebrates the man who created both Ultraman and the entire genre of Japanese monster films.</p>
-
-<p>Eiji Tsuburaya was born in 1901 in Sukagawa, Japan, and developed an obsession with aviation that eventually led him to cinema. He joined the Japanese film industry in the 1930s and developed groundbreaking special effects techniques during World War II. But his legacy was truly cemented in 1954, when he served as special effects director on the original Godzilla — a film that invented the concept of a man in a rubber suit stomping through a miniature city. Tsuburaya built every set by hand at carefully calculated scales, rigged every wire himself, and used forced perspective to make a man in a monster costume look genuinely terrifying. The illusion was so convincing that US military officials reportedly believed the film was using real wartime footage.</p>
-
-<p>In 1963, Tsuburaya founded Tsuburaya Productions and created what would become Japan&#8217;s other great monster franchise: Ultraman. The 1966 television series combined Tsuburaya&#8217;s signature miniature-destruction aesthetic with a superhero narrative, inventing a template for the &#8220;tokusatsu&#8221; (special filming) genre that has influenced everything from Power Rangers to Pacific Rim. Tsuburaya died in 1970, but his studio and techniques live on — Ultraman remains one of the most profitable entertainment franchises in Japanese history.</p>
-
-<p>The Google Doodle captures his process brilliantly. You work through five mini-game challenges that simulate what it actually took to make a Tokusatsu production in the 1960s. You dress an actor in the monster costume before the scene starts, connect electrical wires to rig the lighting, fasten the harness that will make the monster appear to fly, and then direct the actual monster attack — stomping through a meticulously built miniature city. The final challenge requires you to destroy buildings on cue, timing your destruction for maximum cinematic effect. It&#8217;s silly, fast, and surprisingly educational about a filmmaking craft that deserves far more recognition than it typically gets.</p>
-
-<h2 class="wp-block-heading">How To Play Eiji Tsuburaya Doodle</h2>
-
-<p>The Doodle runs you through five sequential mini-game challenges, each simulating a different stage of Tokusatsu filmmaking:</p>
-
-<ul class="wp-block-list">
-<li><strong>Dress the actor</strong> — drag costume pieces onto the actor before the timer runs out. Match each piece to the correct body position.</li>
-
-<li><strong>Connect the wires</strong> — draw lines to complete the electrical circuit, linking each pair of matching connectors on the lighting rig.</li>
-
-<li><strong>Connect the harness</strong> — attach the rigging cables to the correct attachment points on the monster costume so the actor can be lifted safely.</li>
-
-<li><strong>Destroy the buildings</strong> — time your clicks or taps to knock down miniature city blocks at the right moment as the monster charges through the set.</li>
-
-<li>Each challenge must be completed within a time limit — work quickly but accurately to move through all stages and complete the film.</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>The Eiji Tsuburaya Google Doodle honours the legendary Japanese special effects director who created Godzilla, Ultraman, and the entire tokusatsu genre of live-action special effects entertainment. This interactive Doodle transforms you into a special effects director creating your own monster movie scenes, placing miniature buildings, orchestrating monster attacks, and directing the action that Tsuburaya pioneered with practical effects and boundless creativity.</p>
+<p>The Doodle captures the charm of practical miniature effects that defined Tsuburaya's work. Buildings are rendered as obvious miniatures, explosions have the handcrafted quality of practical pyrotechnics, and the monsters move with the distinctive weight and personality of suit-based performers. This deliberate aesthetic choice celebrates the artistry of practical effects rather than trying to replicate modern digital alternatives.</p>
+<p>Multiple interactive scenes let you direct different types of monster encounters, from city-stomping rampages to heroic battles between monsters and defenders. Each scene offers different interactive elements and outcomes, encouraging multiple playthroughs to experience all the variations. The creative control makes you feel like you are sitting in Tsuburaya's director's chair, orchestrating spectacular destruction with a filmmaker's eye.</p>
+<p>Playing the Eiji Tsuburaya Google Doodle online is a joyful tribute to a visionary artist who proved that imagination and craftsmanship can create spectacle that rivals any amount of computer-generated effects. The Doodle captures the specific magic of tokusatsu, where the visible artistry of the effects is part of the charm rather than a limitation. For fans of monster movies and practical effects, this is a love letter to the genre's founding genius.</p>
+<h2 class="wp-block-heading">How to Play Eiji Tsuburaya Google Doodle Online</h2>
+<p>Click through the interactive scenes to direct different monster movie moments. Each scene presents choices about how the action unfolds, from which buildings the monster targets to how the hero responds. Your selections create different narrative outcomes, giving each playthrough a slightly different story within the tokusatsu framework.</p>
+<p>Interact with the miniature city sets by clicking on buildings and environmental elements. Some objects trigger special animations when activated, such as explosions, fleeing civilians, or defensive responses from military vehicles. Discovering all the interactive elements in each scene reveals the full scope of detail the Doodle's creators built into the miniature world.</p>
+<p>Watch for the educational information about Tsuburaya's techniques and career that appears between interactive scenes. The Doodle explains how he developed the miniature and suit techniques that made Godzilla and Ultraman possible, connecting your interactive experience to the real innovations that revolutionised Japanese entertainment and influenced filmmakers worldwide.</p>
+<p>Play through all available scenes to experience the full range of tokusatsu scenarios the Doodle offers. Each scene showcases a different aspect of Tsuburaya's work, from intimate character moments to massive city-wide destruction sequences. The variety of scenes demonstrates the breadth of storytelling possibilities that Tsuburaya unlocked through his pioneering practical effects techniques.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -12059,34 +11566,15 @@ export const games = [
     thumbnail: '/images/valentines-day-2022-google-doodle.webp',
     relatedSlugs: ['pangolin-love', 'doodle-champion-island-games', 'google-earth-day-honeybees'],
     excerpt: 'The Valentine\'s Day 2022 Google Doodle is an interactive 3D puzzle game where you piece together a path so two adorable hamsters can scamper into each other\'s arms.',
-    content: `<p>The Valentine&#8217;s Day 2022 Google Doodle is one of Google&#8217;s most charming interactive creations — an isometric 3D puzzle game where two smitten hamsters stand on opposite sides of a broken path, and it&#8217;s your job to piece the route together so they can finally reach each other. Released on February 14, 2022, it turned Google&#8217;s homepage into a miniature love story told entirely through clever spatial puzzles and adorable animations.</p>
-
-<p>The concept is deceptively simple: each level presents you with a gap-filled path between two hamsters. You need to slide, rotate, and place path tiles into the correct positions to create an unbroken route connecting the pair. As you progress through the levels, the puzzles become more complex — paths twist in multiple directions, platforms sit at different heights, and you&#8217;ll need to think in three dimensions to figure out how pieces fit together. It&#8217;s part jigsaw, part spatial reasoning, and entirely heartwarming.</p>
-
-<p>Google&#8217;s Doodle team described it as an &#8220;interactive 3-D Doodle&#8221; — a step up from many of their previous holiday games in terms of visual complexity. The isometric perspective gives the game a toy-like quality, as if you&#8217;re rearranging pieces on a tiny diorama. When you successfully connect a path, the hamsters scamper toward each other with an enthusiasm that makes the puzzle-solving feel genuinely rewarding. Each completed level ends with the two hamsters meeting in the middle, nuzzling or celebrating in some adorable way before the next challenge begins.</p>
-
-<p>The art direction was led by Kevin Laughlin and Celine You, who gave the hamsters expressive faces and bouncy animations that bring real personality to what could have been a sterile puzzle game. The engineering team — including Daniel Dovali, Conner Lane, and Mark Ivey — built the 3D engine that runs smoothly in a browser without any plugins or downloads. UX designer Winnie Ma ensured the controls felt intuitive whether you were playing on desktop or mobile.</p>
-
-<p>Valentine&#8217;s Day Doodles have a long history at Google. In 2017, they released the beloved Pangolin Love game, where you helped an endangered pangolin collect ingredients for chocolate-covered strawberries across four days of mini-games. The 2022 edition takes a different approach — instead of an action game, it&#8217;s a contemplative puzzle that rewards patience and careful observation. The hamster theme was a deliberate choice: hamsters are universally seen as cute, non-threatening, and endlessly entertaining to watch, making them perfect Valentine&#8217;s ambassadors.</p>
-
-<h2 class="wp-block-heading">How To Play Valentine&#8217;s Day 2022 Google Doodle</h2>
-
-<ul class="wp-block-list">
-<li>Click on the Doodle to start the first puzzle. Two hamsters appear on opposite sides of a broken 3D path.</li>
-
-<li>Examine the gaps in the path and the available path pieces. Click or tap a piece to select it, then place it in the correct position to bridge the gap.</li>
-
-<li>Some pieces may need to be rotated or flipped — use the on-screen controls or click multiple times to cycle through orientations.</li>
-
-<li>Once you&#8217;ve placed all pieces correctly and created an unbroken path, the hamsters will automatically scamper toward each other.</li>
-
-<li>Complete each level to unlock the next puzzle. Difficulty increases with more complex paths, multiple height levels, and trickier piece shapes.</li>
-
-<li>Enjoy the adorable reunion animations when the hamsters meet — each level has a unique celebration moment.</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>The Valentine's Day 2022 Google Doodle is a heartwarming interactive game about connection and love, featuring adorable characters who must find their way to each other across puzzle-filled landscapes. The Doodle tells a visual love story through gameplay, with each level representing a stage in a relationship's journey. The charming art style and emotional storytelling make this one of the most endearing Google Doodles ever created.</p>
+<p>The puzzle mechanics revolve around guiding two characters toward each other by manipulating the environment between them. Moving platforms, opening bridges, and clearing paths creates a satisfying metaphor for the effort and care that relationships require. The puzzles are gentle enough to be accessible while clever enough to provide genuine satisfaction when solved.</p>
+<p>The visual storytelling progresses through seasons and settings that mirror a relationship's evolution. Spring represents new beginnings, summer shows the joy of togetherness, autumn introduces challenges that test the bond, and winter brings the warmth of lasting commitment. This narrative arc gives the puzzle gameplay emotional weight that elevates it beyond a simple brain teaser.</p>
+<p>Playing the Valentine's Day 2022 Google Doodle online is a genuinely touching experience that uses game mechanics to tell a love story. The combination of sweet characters, thoughtful puzzles, and emotional progression creates something that feels more like an interactive greeting card than a traditional game. Perfect for playing with a partner or as a solo experience that celebrates the universal joy of connection.</p>
+<h2 class="wp-block-heading">How to Play Valentine's Day 2022 Google Doodle Online</h2>
+<p>Click on environmental elements to manipulate them and create a path between the two characters. Each level presents obstacles separating the pair, and you must figure out which elements to interact with and in what order to clear the way. The interactions are intuitive, with clickable elements usually highlighted or visually distinct from the static background.</p>
+<p>Solve each puzzle by working backward from where the characters need to meet. Identify the final connection point and trace back through the obstacles to determine which elements need to move first. This reverse-engineering approach is more efficient than clicking randomly and helps you appreciate how each puzzle piece contributes to the solution.</p>
+<p>Watch the animated sequences between puzzles that advance the love story. These moments of narrative give context to the next puzzle section and provide emotional motivation to keep helping the characters reach each other. The storytelling is wordless but universally understandable, using visual cues and music to convey emotions that transcend language.</p>
+<p>Play through the entire Doodle to experience the complete love story from beginning to end. Each section builds on the emotional and mechanical themes of previous sections, creating a cohesive experience that is most rewarding when experienced in full. The final scenes bring the narrative threads together in a way that feels earned by your puzzle-solving efforts throughout the journey.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -12100,30 +11588,15 @@ export const games = [
     thumbnail: '/images/lake-xochimilco-google-doodle.webp',
     relatedSlugs: ['google-earth-day-honeybees', 'pangolin-love', 'doodle-champion-island-games'],
     excerpt: 'Not all endangered species look fearsome. The axolotl — a permanently-smiling freshwater salamander that regenerates its own limbs and lives only in one Mexican lake — has bec...',
-    content: `<p>Not all endangered species look fearsome. The axolotl — a permanently-smiling freshwater salamander that regenerates its own limbs and lives only in one Mexican lake — has become one of the internet&#8217;s most beloved creatures. The Lake Xochimilco Google Doodle leans into that affection completely, putting you on a brightly painted trajinera boat and sending you out to photograph axolotls hiding in the reeds and chinampas. Released on May 20, 2023, it commemorates the 103rd anniversary of the Mexican government returning Lake Xochimilco to its local community.</p>
-
-<p>Lake Xochimilco sits about 20 kilometres south of Mexico City and was once the heart of the ancient Aztec civilisation. The Aztecs built a remarkable system of artificial floating gardens called chinampas — rectangular plots of fertile land raised above the water using interwoven branches, reeds, and soil — that allowed them to farm intensively in a lake environment. When Spanish colonists arrived in the 15th century, they redirected the lake for their own use, and the ecosystem suffered centuries of disruption. In 1920, the Mexican government formally returned the lake to its indigenous community, and in 1987 UNESCO designated it a World Heritage Site.</p>
-
-<p>The lake is now the last remaining native habitat on Earth for the axolotl. These extraordinary creatures&#8212;technically aquatic neotenic salamanders that never fully undergo metamorphosis&#8212;can regenerate lost limbs, damaged organs, and even portions of their brains and eyes. Their mouths curve permanently upward into a slight smile, giving them an expression of constant mild amusement. Despite their celebrity status online, they were listed as critically endangered in 2008. Pollution, invasive species, and urban drainage have destroyed most of their natural habitat, leaving Xochimilco as their final refuge.</p>
-
-<p>The Doodle was designed by artist Helene Leroux, who traveled to Mexico to research the lake firsthand. The game is a photography adventure: you drift through the canals on a colorful wooden trajinera, scanning the water and vegetation for axolotls that pop up briefly before disappearing again. The challenge is timing — you need to spot them quickly and snap your shot before they vanish. The vibrant visual style captures the real Xochimilco beautifully, right down to the painted trajinera boats that have become one of Mexico City&#8217;s most recognisable tourist experiences.</p>
-
-<h2 class="wp-block-heading">How To Play Lake Xochimilco Doodle</h2>
-
-<ul class="wp-block-list">
-<li>Click the Doodle to board your trajinera boat and begin gliding through the canals of Lake Xochimilco.</li>
-
-<li>Watch the water and the vegetation along the edges carefully — axolotls will appear briefly in the reeds, beneath lily pads, or in the shallows.</li>
-
-<li>Click on an axolotl the moment you spot one to snap a photograph. Timing is key: hesitate too long and they disappear back into the lake.</li>
-
-<li>Try to photograph as many axolotls as possible before your journey ends. Each successful photo adds to your collection.</li>
-
-<li>Read the facts that appear between scenes to learn about the axolotl&#8217;s remarkable biology and the conservation efforts protecting Lake Xochimilco today.</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>The Lake Xochimilco Google Doodle celebrates the extraordinary ecosystem of Mexico's ancient floating gardens and the critically endangered axolotl that calls these waters home. This interactive Doodle takes you on a visual journey through the canals of Xochimilco, a UNESCO World Heritage Site where Aztec-era agricultural techniques and unique aquatic life coexist in one of the world's most remarkable urban ecosystems.</p>
+<p>The Doodle features the axolotl prominently, the charismatic salamander that has become a symbol of both Xochimilco and conservation efforts in Mexico. Known for its permanent larval features, feathery external gills, and remarkable ability to regenerate limbs, the axolotl is one of nature's most fascinating creatures. The Doodle's artwork renders this beloved amphibian with charming detail that captures its unique appearance and gentle personality.</p>
+<p>The floating gardens, or chinampas, are presented through beautiful illustrations that show how this ancient agricultural system works. Created by the Aztecs on the shallow lake bed, chinampas are artificial islands built from layers of vegetation and mud that remain incredibly fertile. The Doodle shows how these gardens continue to produce food while supporting the delicate ecosystem that the axolotl depends on for survival.</p>
+<p>Playing the Lake Xochimilco Google Doodle online is an educational and visually stunning experience that raises awareness about one of the world's most unique and threatened ecosystems. The combination of ecological education, cultural history, and conservation messaging creates a Doodle that entertains while inspiring concern for the axolotl's future and the extraordinary habitat it represents.</p>
+<h2 class="wp-block-heading">How to Play Lake Xochimilco Google Doodle Online</h2>
+<p>Click through the interactive scenes to explore different aspects of the Xochimilco ecosystem. Each section reveals a new layer of the environment, from the canal waters teeming with aquatic life to the lush vegetation of the floating gardens above. Interactive elements invite you to discover hidden creatures and learn about the ecological relationships that sustain the ecosystem.</p>
+<p>Watch for the axolotl appearances throughout the Doodle and interact with them to learn fascinating facts about this unique species. The educational popups explain the axolotl's remarkable biology, including its regenerative abilities and neotenic development. Understanding why scientists study the axolotl adds appreciation for why its conservation matters beyond its undeniable cuteness.</p>
+<p>Explore the chinampa illustrations to understand how these floating gardens are constructed and maintained. The Doodle shows the traditional techniques used to build and cultivate chinampas, connecting modern agriculture in Xochimilco to methods developed by the Aztec civilisation centuries ago. This living agricultural heritage is as remarkable and worth preserving as the wildlife it supports.</p>
+<p>Learn about the conservation challenges facing Xochimilco through the Doodle's informational elements. Urbanisation, water pollution, and invasive species threaten both the chinampas and the axolotl population. Understanding these threats through the Doodle's engaging presentation transforms awareness into concern, encouraging players to care about an ecosystem they might never have known about otherwise.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -12174,32 +11647,15 @@ export const games = [
     thumbnail: '/images/flying-car-simulator.webp',
     relatedSlugs: ['moto-x3m', 'eggy-car', 'marble-run'],
     excerpt: 'Flying Car Simulator is a 3D driving game where you can switch between driving on roads and flying through the sky above a detailed city.',
-    content: `<p>Flying Car Simulator is a 3D open-world driving game developed by Blue Axis and released in June 2019. Unlike traditional driving games that keep you grounded, this one lets you take to the skies at the press of a button. Drive through a detailed city environment, then hit F to deploy your wings and soar above the rooftops like an airplane. It&#8217;s the best of both worlds — street racing and free flight in one seamless experience.</p>
-
-<p>The game is built with Unity WebGL and features a surprisingly large city map to explore. You can cruise through streets, weave between buildings, or climb to extreme altitudes and look down at the entire map below. The flying mechanics are smooth and responsive, giving you full control over pitch, roll, and altitude. When you&#8217;re ready to land, just press F again and your car transforms back for ground driving.</p>
-
-<p>Nitro boost adds an extra layer of excitement — hold Shift to blast forward at high speed whether you&#8217;re on the ground or in the air. The physics are arcade-style rather than realistic, which makes the game accessible and fun rather than frustrating. You don&#8217;t need to worry about fuel or damage — just enjoy the freedom of exploring the city from every angle.</p>
-
-<p>The graphics are solid for a browser game, with decent building models, road textures, and lighting effects. The city has highways, residential areas, and open spaces that all look distinct from above. Flying between skyscrapers at top speed with nitro engaged is genuinely thrilling.</p>
-
-<h2 class="wp-block-heading">How To Play Flying Car Simulator</h2>
-
-<ul class="wp-block-list">
-<li>Use WASD keys to steer and accelerate your car on the ground.</li>
-
-<li>Press F to switch between driving mode and flying mode — your car sprouts wings and takes off.</li>
-
-<li>Hold Shift to activate nitro boost for a burst of speed on the ground or in the air.</li>
-
-<li>Press Spacebar to brake when driving on the ground.</li>
-
-<li>While flying, use WASD to control pitch and direction. Explore the city from above and find interesting spots to land.</li>
-
-<li>There are no set objectives — it&#8217;s a sandbox experience. Drive, fly, and explore the open city at your own pace.</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Flying Car Simulator puts you behind the wheel of a futuristic vehicle that transitions seamlessly between driving on roads and soaring through the skies. Explore a vast open world from both the ground and the air, performing stunts, completing challenges, and pushing the boundaries of physics as you switch between car and flight modes at will. The dual-mode gameplay creates a uniquely liberating sandbox experience.</p>
+<p>The transition between driving and flying is the game's core thrill. Build up speed on the ground, hit a ramp or activate flight mode, and watch the cityscape shrink below as you take to the air. Flying offers a completely different perspective on the map, revealing shortcuts, hidden areas, and stunt opportunities that are invisible from ground level. Landing smoothly after a flight adds its own satisfying challenge.</p>
+<p>The open world is packed with ramps, loops, and stunt zones designed to exploit your vehicle's dual capabilities. Ground-level obstacle courses test your driving precision, while aerial challenges have you flying through rings and navigating between buildings. The best stunts combine both modes, launching off a ramp, flying over obstacles, and landing perfectly on a distant road.</p>
+<p>Playing Flying Car Simulator online delivers the childhood fantasy of a car that can fly in a polished, accessible package. The freedom to explore without restrictions, combined with responsive controls in both modes, creates an endlessly entertaining sandbox. Whether you spend your time performing aerial acrobatics or cruising city streets, the game rewards curiosity and creativity equally.</p>
+<h2 class="wp-block-heading">How to Play Flying Car Simulator Online</h2>
+<p>Use WASD or arrow keys to drive on the ground, with W for acceleration and S for braking. Steering is handled by A and D or the left and right arrows. The driving controls feel responsive and arcade-like, prioritising fun over strict realism. Drifting around corners is easy and satisfying once you get a feel for the handling.</p>
+<p>Activate flight mode using the designated key to lift off the ground and take to the air. Once airborne, your controls shift to handle pitch, roll, and altitude. Gain altitude to survey the map from above, or fly low between buildings for a thrilling navigation challenge. Switching back to ground mode before touching down ensures a smooth landing.</p>
+<p>Explore the entire map to discover hidden stunt zones and challenge markers scattered throughout the world. Some challenges are only accessible by air while others require precise ground driving. Completing challenges earns points and may unlock additional vehicles with different performance characteristics in each mode.</p>
+<p>Experiment with combining driving and flying for spectacular stunts. Use ground ramps to launch into flight mode at high speed, fly through aerial checkpoints, then land on a distant highway to continue driving. The game rewards creative use of mode switching, and the most impressive stunts chain together ground and air segments seamlessly.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -12213,34 +11669,15 @@ export const games = [
     thumbnail: '/images/x-trench-run.webp',
     relatedSlugs: ['solar-smash', 'voxiom', 'marble-run'],
     excerpt: 'X Trench Run is a fast-paced arcade space shooter where you pilot a fighter ship through enemy trenches, dodging obstacles and battling bosses.',
-    content: `<p>X Trench Run is a fast-paced arcade space shooter developed by MarketJS and released in August 2019. You play as the nation&#8217;s star cadet, piloting an X Fighter Wing on a critical mission deep into enemy territory. The gameplay is reminiscent of the iconic Death Star trench run — you fly through narrow corridors at high speed, dodging obstacles, disabling laser gates, and taking out enemy turrets along the way.</p>
-
-<p>The game features a simple but addictive gameplay loop. Each run sends you hurtling through a procedurally arranged trench filled with barriers, enemy turrets, and laser gates. You need quick reflexes to weave between obstacles while simultaneously shooting down threats. The controls are tight and responsive — arrow keys or WASD to manoeuvre, spacebar or left click to fire your weapons.</p>
-
-<p>Boss fights punctuate the action at regular intervals, providing a satisfying challenge. These larger enemies require sustained fire while you dodge their attack patterns. Defeating a boss lets you advance to the next section of the trench, where the difficulty ramps up with faster obstacles and more complex arrangements.</p>
-
-<p>Every run feels different thanks to the varied obstacle layouts, keeping the game fresh even after many attempts. The 3D graphics create a convincing sense of speed and depth as the trench walls blur past. Sound effects and a pumping soundtrack complete the arcade atmosphere.</p>
-
-<p>X Trench Run works on both desktop and mobile browsers, making it easy to pick up and play anywhere. The one-hand control scheme on mobile (tap and drag to move, auto-fire) is particularly well implemented.</p>
-
-<h2 class="wp-block-heading">How To Play X Trench Run</h2>
-
-<ul class="wp-block-list">
-<li>Use WASD or arrow keys to control your space fighter&#8217;s movement up, down, left, and right.</li>
-
-<li>Press Spacebar or left-click to fire your weapons at enemy turrets and obstacles ahead.</li>
-
-<li>Dodge barriers, laser gates, and incoming fire by weaving through the trench.</li>
-
-<li>Destroy enemy turrets to clear your path and earn points.</li>
-
-<li>Face off against bosses at the end of each section — keep firing while dodging their attacks.</li>
-
-<li>On mobile, tap and drag to move your fighter. Shooting is automatic.</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>X Trench Run is a thrilling space combat game inspired by the iconic trench run sequence from Star Wars. Pilot your starfighter through a narrow trench on an enemy space station, dodging obstacles, blasting turrets, and weaving through tight corridors at blistering speed. The combination of forward-scrolling action and precise dodging creates an intense, heart-pounding experience that captures the excitement of the original cinematic moment.</p>
+<p>The trench is filled with hazards that require split-second reactions. Laser barriers, closing blast doors, protruding structures, and enemy turrets all threaten to end your run prematurely. The obstacles come faster and more frequently as you progress deeper into the trench, creating a natural difficulty curve that constantly pushes your reflexes to their limit.</p>
+<p>Combat adds another layer to the dodging gameplay. Enemy fighters pursue you from behind while turrets line the trench walls ahead. Your ship's weapons let you blast obstacles and enemies out of your path, but firing accurately while simultaneously dodging at high speed requires impressive multitasking. Power-ups restore health and enhance your weapons temporarily.</p>
+<p>Playing X Trench Run online is an exhilarating experience that captures the essence of cinematic space combat in a fast-paced browser game. The speed, the tight corridors, and the constant threat of destruction create genuine excitement that keeps you coming back for one more run. Fans of space combat and endless runners will find the perfect combination of both genres here.</p>
+<h2 class="wp-block-heading">How to Play X Trench Run Online</h2>
+<p>Use the mouse or arrow keys to steer your starfighter within the trench. Your ship follows your input smoothly, allowing precise positioning between obstacles. The controls are intentionally simple so you can focus entirely on reading the trench ahead and reacting to incoming hazards at speed.</p>
+<p>Click or press the designated key to fire your weapons at obstacles and enemies ahead. Shooting destructible barriers before you reach them clears a safe path, but some obstacles are indestructible and must be dodged. Learning which obstacles can be destroyed and which require evasion is essential for achieving longer runs.</p>
+<p>Collect power-ups that appear in the trench to restore shields and upgrade your weapons temporarily. Enhanced weapons clear obstacles more efficiently, while shield repairs give you extra margin for error. Positioning yourself to collect power-ups while still dodging obstacles requires careful route planning through the trench.</p>
+<p>Focus on the centre of the trench and make small adjustments rather than sweeping movements. Staying centred gives you the most reaction time for obstacles approaching from either side. As speed increases in later sections, smaller movements become essential because oversteering at high speed sends you crashing into the trench walls.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -12256,27 +11693,15 @@ export const games = [
     thumbnail: '/images/weddle.webp',
     relatedSlugs: ['word-master', 'google-feud', 'wordle-game'],
     excerpt: 'Weddle is a daily guessing game where NFL fans try to identify a mystery football player using clues about their team, position, division, and physical attributes...',
-    content: `<p>Weddle is a daily guessing game where NFL fans try to identify a mystery football player using clues about their team, position, division, and physical attributes. Named after legendary safety Eric Weddle, the game has become a daily ritual for American football fans who want to test their knowledge of active NFL rosters.</p>
-
-<p>Each day presents a new mystery player. You start by guessing any active NFL player, and the game responds with colour-coded feedback for each attribute: green means an exact match, yellow means close (for example, same conference but different division), and grey means no match at all. The attributes tracked include team, division, position, height, age, and jersey number — giving you a grid of clues that narrows the field with every guess.</p>
-
-<p>The genius of Weddle lies in how it turns NFL roster knowledge into a deduction puzzle. Knowing that the mystery player is in the AFC West, plays defence, is over 6&#8217;2&#8221;, and wears a number in the 90s dramatically shrinks the pool of possibilities. Hardcore fans can often solve it in three or four guesses, while casual fans might need eight or more attempts. There&#8217;s no guess limit, which keeps it accessible for everyone.</p>
-
-<p>Since its launch, Weddle has expanded into multiple game modes. There&#8217;s the classic mode, a grid challenge where you match players to intersecting categories, and a silhouette mode where you identify players from their outline. The game updates daily and tracks your streak, making it perfect for that morning-coffee NFL fix during both the season and the offseason.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Weddle</strong></h2>
-
-<ul class="wp-block-list">
-<li>Type an active NFL player&#8217;s name into the search bar to make your first guess.</li>
-<li>Check the colour-coded feedback: green = exact match, yellow = close, grey = no match.</li>
-<li>Use attribute clues (team, position, division, height, age, number) to narrow your next guess.</li>
-<li>Keep guessing until you identify the mystery player — there&#8217;s no guess limit.</li>
-<li>A new mystery player appears every day at midnight.</li>
-<li>Share your results with friends using the share button.</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Weddle is a daily football guessing game that challenges your knowledge of NFL players. Each day you get a limited number of guesses to identify a mystery NFL player, with each incorrect guess providing clues about the target player's division, position, height, weight, age, and jersey number. The colour-coded feedback system narrows down possibilities with each attempt, turning player identification into a satisfying deductive puzzle.</p>
+<p>The clue system provides rich information with every guess. Green indicates an exact match for that category, yellow means close but not exact, and grey means far off. These graduated hints let you systematically eliminate large groups of players and hone in on the correct answer through logical deduction rather than random guessing.</p>
+<p>Deep NFL knowledge gives you a significant advantage, but the puzzle structure means even casual fans can solve it through careful reasoning. Knowing which divisions teams belong to, typical position attributes, and current rosters helps you make smarter guesses. Each solved puzzle teaches you something new about NFL players you might not have known before.</p>
+<p>Playing Weddle online is the perfect daily brain teaser for football enthusiasts. The once-per-day format creates a shared experience where fans compare their results and strategies. The challenge of identifying an NFL player from indirect clues exercises both your football knowledge and your logical reasoning abilities simultaneously.</p>
+<h2 class="wp-block-heading">How to Play Weddle Online</h2>
+<p>Type an NFL player's name into the search field and select from the autocomplete suggestions. Your first guess should be a player whose attributes span multiple common values, giving you the broadest possible information from the colour-coded feedback. Players from large-market teams with average physical attributes make effective opening guesses.</p>
+<p>Analyse the colour feedback after each guess to narrow your options. Green cells mean that attribute matches exactly, so lock those in for future guesses. Yellow cells indicate the correct answer is close in that category, while grey cells let you eliminate entire ranges. Use all the information together to triangulate the mystery player.</p>
+<p>Pay special attention to the division and position clues, as they narrow the field most dramatically. Once you know the correct division, you only need to consider players from those four teams. Combined with position information, you can often reduce the possibilities to a handful of candidates within two or three guesses.</p>
+<p>Use the height, weight, and age columns to distinguish between similar players on the same team. When you have narrowed it to a specific team and position group, these physical attributes become the deciding factors. Keeping a mental model of current NFL rosters helps you quickly identify which player fits all the confirmed criteria.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -12293,27 +11718,15 @@ export const games = [
     thumbnail: '/images/house-of-hazards.webp',
     relatedSlugs: ['g-switch-3', 'icy-purple-head', 'only-up'],
     excerpt: 'House of Hazards is a chaotic multiplayer game where players race to complete simple household tasks while opponents trigger traps, hazards, and obstacles to stop them...',
-    content: `<p>House of Hazards is a chaotic multiplayer game where players race to complete simple household tasks while opponents trigger traps, hazards, and obstacles to stop them. Set inside an ordinary-looking house that&#8217;s anything but ordinary, the game turns everyday activities like making breakfast, watering plants, or watching TV into hilarious obstacle courses filled with falling objects, swinging doors, and surprise explosions.</p>
-
-<p>Developed by NewEichGames, House of Hazards supports 2-3 players on the same device, making it one of the best local multiplayer browser games available. While one player tries to walk through the house and complete their assigned tasks, the other players control the hazards — tapping or clicking triggers to launch objects, flip switches, slam doors, or activate any of dozens of traps hidden throughout each room. It&#8217;s part platformer, part party game, and entirely chaotic.</p>
-
-<p>The house is divided into multiple rooms, each with its own set of hazards and tasks. The kitchen has falling pots and slamming cabinet doors. The living room features a rogue ceiling fan and a TV that explodes. The bathroom has slippery floors and a bathtub that overflows. Each room feels like a Rube Goldberg machine designed by someone with a grudge against interior decorating. The variety keeps games unpredictable — you never know which hazards your opponents will trigger next.</p>
-
-<p>What makes House of Hazards especially fun is the role-swapping. After each round, players rotate between being the runner and controlling the hazards. This means everyone gets to experience both the frustration of being launched across the kitchen by a flying toaster and the satisfaction of being the one who triggered it. The game perfectly captures that same-couch, everyone-screaming energy that makes local multiplayer games so memorable.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play House of Hazards</strong></h2>
-
-<ul class="wp-block-list">
-<li>Player 1 uses WASD to move and Spacebar to interact with objects and complete tasks.</li>
-<li>Player 2 uses Arrow Keys to move and Enter to interact.</li>
-<li>When you&#8217;re the runner, navigate through rooms and complete all assigned tasks shown at the top of the screen.</li>
-<li>When controlling hazards, click or tap on highlighted traps to activate them and stop the runner.</li>
-<li>Complete all tasks before your opponents to win the round.</li>
-<li>Players rotate roles between rounds so everyone gets to run and sabotage.</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>House of Hazards is a hilarious multiplayer party game where players compete to complete everyday household tasks while other players remotely trigger hazards to stop them. One player might be trying to make toast while another activates trap doors, falling objects, and slippery surfaces to prevent it. The result is pure chaotic fun that generates constant laughter and friendly competition.</p>
+<p>The hazard system is what makes every round unpredictable and entertaining. While the active player navigates through rooms completing objectives, other players watch through cameras and activate traps at the worst possible moments. A perfectly timed falling bookshelf just as someone reaches for a light switch creates the kind of memorable moments that party games thrive on.</p>
+<p>Each room in the house presents different tasks and hazards. The kitchen has oven explosions and slippery spills, the living room has collapsing furniture and projectile cushions, and the bathroom has flooding taps and electrified surfaces. Learning each room's hazard placements helps both the runner who must dodge them and the trappers who must time them perfectly.</p>
+<p>Playing House of Hazards online is one of the best multiplayer party experiences available in a browser. The game requires no complex controls or gaming experience, making it accessible to everyone at a gathering. The physical comedy of ragdoll characters being launched by household traps creates entertainment even for people watching who are not currently playing.</p>
+<h2 class="wp-block-heading">How to Play House of Hazards Online</h2>
+<p>The active player uses arrow keys or WASD to move through the house and interact with task objectives. Tasks include simple actions like turning on lights, sitting in chairs, or opening doors. The challenge is not the tasks themselves but completing them while other players actively try to sabotage your every step.</p>
+<p>When controlling hazards, click on trap icons that appear throughout the house to activate them when the active player approaches. Timing is everything because traps have cooldown periods after activation. Triggering a trap too early wastes it, while perfect timing catches the active player completely off guard for maximum disruption.</p>
+<p>As the active player, move unpredictably to throw off hazard operators. Pausing before doorways, changing direction suddenly, and baiting traps by approaching and retreating makes you harder to hit. The mind games between runner and trappers add a psychological layer beyond simple reflexes.</p>
+<p>Take turns between running and operating hazards to experience both sides of the gameplay. Running teaches you where traps are most dangerous, while operating traps teaches you how runners behave. This dual perspective makes you better at both roles and creates a deeper appreciation for the game's clever design.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -12330,27 +11743,15 @@ export const games = [
     thumbnail: '/images/tomb-of-the-mask.webp',
     relatedSlugs: ['google-pacman', 'google-snake', 'icy-purple-head'],
     excerpt: 'Tomb of the Mask is a retro-styled arcade game where you swipe to navigate through procedurally generated mazes filled with traps, power-ups, and collectible dots...',
-    content: `<p>Tomb of the Mask is a retro-styled arcade game where you swipe to navigate through procedurally generated mazes filled with traps, power-ups, and collectible dots. With its neon pixel-art aesthetic and relentless upward-scrolling mechanic, the game feels like Pac-Man met a vertical platformer and they decided to move at breakneck speed.</p>
-
-<p>Originally released as a mobile game by Playgendary in 2016, Tomb of the Mask became a massive hit thanks to its one-more-run addictiveness and perfectly tuned difficulty curve. The browser version brings the same core experience to desktop — you navigate a character through increasingly complex mazes by swiping (or pressing arrow keys) in four directions. Your character slides in the chosen direction until hitting a wall, so planning your path becomes crucial as traps multiply and the rising danger zone creeps ever upward.</p>
-
-<p>Each level is a vertically scrolling maze filled with dots to collect, stars to grab, and traps to avoid. Spikes line certain walls, moving enemies patrol corridors, and the ever-rising death zone at the bottom ensures you can never stop moving upward. Power-ups appear regularly — shields protect you from a single hit, magnets pull nearby dots toward you, and freeze power-ups temporarily slow the rising danger. Collecting all dots on a level earns a perfect score, but sometimes survival is the better strategy.</p>
-
-<p>The game features both an endless arcade mode with procedurally generated levels and a stage-based campaign with hand-crafted maze designs. The stage mode introduces new mechanics gradually — teleporters, conveyor belts, breakable walls, and increasingly devious trap combinations. The retro aesthetic, complete with CRT screen effects and chiptune music, gives everything a nostalgic arcade feel that perfectly matches the fast-paced gameplay.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Tomb of the Mask</strong></h2>
-
-<ul class="wp-block-list">
-<li>Use Arrow Keys or WASD to move in four directions — your character slides until hitting a wall.</li>
-<li>Collect dots and stars scattered throughout the maze for points.</li>
-<li>Avoid spikes, moving enemies, and the rising danger zone at the bottom of the screen.</li>
-<li>Grab power-ups like shields, magnets, and freeze to help you survive longer.</li>
-<li>Plan your path carefully — once you start sliding, you can&#8217;t stop until you hit something.</li>
-<li>Keep moving upward. If the rising zone catches you, it&#8217;s game over.</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Tomb of the Mask is a fast-paced arcade maze game where you swipe to launch your character in one direction until hitting a wall. Navigate through vertical tomb chambers filled with hazards, collectibles, and traps, all while an ominous rising danger pushes you ever upward. The simple swipe-to-move mechanic creates surprisingly deep gameplay as you plan routes through increasingly complex maze patterns.</p>
+<p>Speed is essential because the bottom of the screen constantly rises with a deadly threat that destroys everything it touches. Taking too long on any section means death, but moving too recklessly sends you straight into spikes, enemies, or dead ends. Finding the balance between speed and careful navigation is the core challenge that makes every run thrilling.</p>
+<p>The retro pixel art style pays homage to classic arcade games while the procedural level design ensures no two runs feel identical. Power-ups scattered throughout the tombs grant temporary abilities like shields, magnets for collecting dots, and speed boosts that help you survive particularly dangerous sections. Knowing when to grab a power-up versus when to prioritise a safe path is a key decision point.</p>
+<p>Playing Tomb of the Mask online delivers pure arcade adrenaline in a polished package that respects both your time and your skill. Each run lasts just minutes but packs in more excitement and split-second decisions than many longer games. The leaderboard competition and daily challenges add replay value beyond the already addictive core gameplay loop.</p>
+<h2 class="wp-block-heading">How to Play Tomb of the Mask Online</h2>
+<p>Swipe or press arrow keys to launch your character in that direction. Your character moves continuously until hitting a wall or obstacle, so think of each input as choosing a path rather than moving a specific distance. Understanding how far each swipe will carry you is fundamental to navigating safely through tight passages.</p>
+<p>Collect dots scattered throughout each level for points and bonus multipliers. While chasing every dot is tempting, prioritise staying ahead of the rising danger. A missed dot costs some points, but getting caught by the rising floor costs everything. Efficient routes that collect dots while maintaining upward progress are the hallmark of expert play.</p>
+<p>Watch for colour-coded hazards and learn what each one does. Spikes kill on contact, some blocks crumble after you pass over them, and enemies patrol set patterns that you must dodge. Recognising hazard types instantly lets you react appropriately without costly hesitation during fast-paced sections.</p>
+<p>Use walls strategically as stopping points to redirect your movement. Sometimes the fastest route upward requires bouncing off walls in a zigzag pattern rather than looking for a direct vertical path. The best players develop an intuition for wall-bouncing routes that maintain speed while avoiding hazards through seemingly chaotic movement patterns.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -12367,27 +11768,15 @@ export const games = [
     thumbnail: '/images/g-switch-3.webp',
     relatedSlugs: ['house-of-hazards', 'icy-purple-head', 'only-up'],
     excerpt: 'G-Switch 3 is a fast-paced auto-runner where you flip gravity with a single button to run on floors, ceilings, and walls while avoiding deadly gaps and obstacles...',
-    content: `<p>G-Switch 3 is a fast-paced auto-runner where you flip gravity with a single button to run on floors, ceilings, and walls while avoiding deadly gaps and obstacles. The third instalment in the beloved G-Switch series by Serius Games, it perfects the one-button formula and adds multiplayer chaos for up to eight players on a single keyboard.</p>
-
-<p>The concept is deceptively simple. Your robotic character runs automatically from left to right. Press any key (or click the mouse) to flip gravity, switching between running on the floor and running on the ceiling. That&#8217;s the only control you have, and it&#8217;s all you need. The challenge comes from the level design — gaps in the floor require you to flip to the ceiling, obstacles on the ceiling force you back down, and rotating platforms demand split-second timing that gets increasingly impossible as the speed ramps up.</p>
-
-<p>What sets G-Switch 3 apart from its predecessors is the expanded multiplayer. Up to eight players can compete simultaneously on a single keyboard, each assigned a different key. The screen scrolls at a fixed speed, and any player who falls behind or crashes into an obstacle is eliminated. Last player running wins. With eight people hunched over a keyboard, frantically pressing their assigned keys while watching eight characters flip gravity independently, the game becomes one of the most entertaining local multiplayer experiences in any browser game.</p>
-
-<p>The single-player campaign features 30 hand-designed levels across three difficulty tiers, plus an endless mode where the speed gradually increases until your reflexes simply can&#8217;t keep up. The level design is genuinely clever — later stages introduce moving platforms, gravity zones that auto-flip you, and sections where the environment itself rotates. The neon-tinged sci-fi aesthetic and pumping electronic soundtrack complete the package.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play G-Switch 3</strong></h2>
-
-<ul class="wp-block-list">
-<li>Click the mouse or press any key to flip gravity — that&#8217;s your only control.</li>
-<li>Your character runs automatically. Time your gravity flips to avoid gaps and obstacles.</li>
-<li>In multiplayer, each player is assigned a specific key on the keyboard.</li>
-<li>The screen keeps scrolling — fall behind and you&#8217;re eliminated.</li>
-<li>Complete all 30 campaign levels or try to survive as long as possible in endless mode.</li>
-<li>Watch for rotating platforms and gravity zones that change the rules mid-level.</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>G-Switch 3 is an exhilarating gravity-flipping runner where a single button controls whether you run on the floor or the ceiling. Your character sprints forward automatically through a futuristic obstacle course, and you must flip gravity at precisely the right moments to avoid walls, gaps, and hazards. The simplicity of one-button control belies the intense challenge of timing flips perfectly at high speed.</p>
+<p>The multiplayer mode supports up to eight players simultaneously on the same screen, creating absolute chaos as characters flip gravity independently and crash into obstacles at different moments. The split-screen multiplayer is the game's crown jewel, turning a solo timing challenge into a competitive party game where survival is victory and every elimination triggers celebration.</p>
+<p>Level design exploits the gravity mechanic brilliantly. Sections require rapid flip sequences where you bounce between floor and ceiling multiple times in seconds. Other segments feature moving platforms, rotating obstacles, and narrow corridors where the margin for error is measured in pixels. The pacing alternates between these intense sections and brief moments of relative calm.</p>
+<p>Playing G-Switch 3 online delivers one of the most intense one-button gaming experiences available. The immediate restart after failure keeps you in a perpetual state of flow, and the multiplayer mode creates the kind of shared excitement that makes players gather around a single screen shouting and laughing. It proves that brilliant game design needs only one button and perfect level crafting.</p>
+<h2 class="wp-block-heading">How to Play G-Switch 3 Online</h2>
+<p>Press any key, click, or tap to flip gravity. Your character runs automatically, so your only control is choosing when to switch between running on the floor and running on the ceiling. The timing of each flip determines whether you clear obstacles or crash into them, making every press a critical decision.</p>
+<p>Watch the upcoming terrain and plan your flips in advance rather than reacting at the last moment. At high speeds, reactive flipping is too slow. Anticipating obstacles and flipping early gives you a much better survival rate than waiting until you are about to hit something before switching gravity.</p>
+<p>In multiplayer, each player uses a different key assigned at the character select screen. All players share the same course but flip gravity independently, meaning one player might be on the ceiling while another is on the floor. Focus on your own character and ignore others to avoid being distracted by their movements.</p>
+<p>Learn the level patterns through repeated play. The course is the same each time, so memorising obstacle sequences gives you a significant advantage. Sections that seemed impossible on early attempts become routine once you know exactly when to flip. Muscle memory for the flip timing develops naturally with practice and is the key to reaching the final stages.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -12404,27 +11793,15 @@ export const games = [
     thumbnail: '/images/icy-purple-head.webp',
     relatedSlugs: ['tomb-of-the-mask', 'g-switch-3', 'house-of-hazards'],
     excerpt: 'Icy Purple Head is a creative physics puzzle game where you control a purple character who can freeze into a sliding ice block to navigate through tricky levels...',
-    content: `<p>Icy Purple Head is a creative physics puzzle game where you control a purple character who can freeze into a sliding ice block to navigate through tricky levels and reach the delivery basket. Part platformer, part physics puzzle, it&#8217;s one of those games that takes a single clever mechanic and builds an entire world of challenges around it.</p>
-
-<p>The core mechanic is brilliantly simple: click or tap to freeze. When frozen, your purple-headed character transforms into a solid ice block that slides frictionlessly across surfaces, bouncing off walls and flying off ramps. Release to unfreeze and you&#8217;re back to a normal character affected by standard gravity. The interplay between frozen sliding and unfrozen falling creates a surprisingly deep puzzle system where the solution to each level requires careful timing and spatial reasoning.</p>
-
-<p>Each level presents a puzzle box filled with ramps, platforms, spikes, moving obstacles, and the target basket you need to reach. Some levels require you to build momentum by freezing and sliding down a ramp, then unfreezing at the right moment to arc through the air. Others demand rapid freeze-unfreeze sequences to navigate tight corridors. The physics are consistent and predictable, which means every puzzle has a logical solution — even when it doesn&#8217;t look like it at first glance.</p>
-
-<p>The game spans multiple chapters with dozens of levels each, steadily introducing new elements like bouncy surfaces, conveyor belts, portals, and destructible blocks. The art style is cheerful and colourful, with the purple-headed protagonist&#8217;s expressions changing between confident determination (unfrozen) and rigid panic (frozen). Stars are scattered through each level for completionists, often requiring more complex routes than simply reaching the basket.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Icy Purple Head</strong></h2>
-
-<ul class="wp-block-list">
-<li>Click or tap to freeze your character into an ice block — you&#8217;ll slide frictionlessly.</li>
-<li>Release to unfreeze and return to normal gravity.</li>
-<li>Use momentum from frozen slides to launch off ramps and reach new platforms.</li>
-<li>Avoid spikes and hazards that destroy your character on contact.</li>
-<li>Reach the delivery basket at the end of each level to complete it.</li>
-<li>Collect stars scattered throughout levels for bonus points and perfect scores.</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Icy Purple Head is a creative physics puzzle game where you control a purple character who can freeze into a slippery ice block on command. The goal is to slide into a cardboard box at the end of each level, using the freeze mechanic to glide across surfaces, slip through gaps, and build momentum on slopes. Switching between normal and frozen states at the right moments is the key to solving every puzzle.</p>
+<p>The freeze mechanic transforms every surface into a potential slide. Freeze on a slope and you gain speed, freeze on a flat surface and you coast along with minimal friction, freeze near an edge and you slip off to reach lower platforms. The puzzles are designed around creative use of this single mechanic, proving that simple concepts can produce endlessly varied challenges.</p>
+<p>Level design is clever and varied, introducing new elements like moving platforms, breakable blocks, fans, and teleporters alongside the core freezing mechanic. Later levels require precise timing, chaining multiple freeze and unfreeze cycles together in quick succession to navigate complex obstacle courses. The difficulty ramp is smooth, with each new concept building on skills learned in earlier levels.</p>
+<p>Playing Icy Purple Head online is a charming and inventive puzzle experience with a mechanic you have never seen in another game. The satisfaction of solving a tricky level through creative use of the freeze ability is wonderful, and the cute art style keeps the mood lighthearted even when puzzles become genuinely challenging. Each level feels like a miniature brain teaser with a physical twist.</p>
+<h2 class="wp-block-heading">How to Play Icy Purple Head Online</h2>
+<p>Click or tap to toggle between normal and frozen states. In normal mode, your character stands still and can grip surfaces. In frozen mode, your character becomes a frictionless ice block that slides freely across any surface. Mastering the timing of this toggle is the entire game in a nutshell.</p>
+<p>Use slopes to build momentum while frozen. The steeper the slope, the more speed you gain. Chain together multiple slopes by unfreezing briefly at the top of each rise to maintain grip, then refreezing to slide down the next descent. Managing momentum through freeze timing is what separates good players from great ones.</p>
+<p>Study each level's layout before taking action, planning your route from start to the cardboard box target. Identify which surfaces you need to slide across, where you need to stop, and what obstacles require careful timing to pass. A clear plan makes execution much smoother than trial and error.</p>
+<p>Some levels require you to use the environment creatively, freezing to knock over blocks, trigger switches, or push objects into position. Look for interactive elements that respond to your frozen sliding and consider whether you need to manipulate the environment before attempting your final path to the box. The best solutions often involve setting up the level before making your final slide.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -12441,27 +11818,15 @@ export const games = [
     thumbnail: '/images/awesome-tanks-2.webp',
     relatedSlugs: ['house-of-hazards', 'g-switch-3', 'tomb-of-the-mask'],
     excerpt: 'Awesome Tanks 2 is a top-down tank shooter where you blast through maze-like levels, destroy enemy tanks, collect coins, and upgrade your arsenal with devastating weapons...',
-    content: `<p>Awesome Tanks 2 is a top-down tank shooter where you blast through maze-like levels, destroy enemy tanks, collect coins, and upgrade your arsenal with increasingly devastating weapons. The sequel to the original Awesome Tanks, this second instalment adds more weapons, more enemies, more levels, and more explosive mayhem.</p>
-
-<p>Developed by Alexander Gette, Awesome Tanks 2 perfects the formula that made the original a browser gaming classic. You control a tank navigating through enclosed arena-style levels filled with enemy tanks, turrets, mines, and destructible walls. Each level is a puzzle of destruction — figure out the best path through, eliminate all enemies, and collect the coins they drop. The twin-stick control scheme (WASD to move, mouse to aim and shoot) feels tight and responsive, giving you precise control in chaotic firefights.</p>
-
-<p>The upgrade system is where the game truly shines. Between levels, you spend collected coins on new weapons and tank improvements. The weapon selection is gloriously excessive: machine guns, shotguns, railguns, flamethrowers, laser beams, homing missiles, and a minigun that turns your tank into a spinning death machine. Each weapon has unique properties — the shotgun spreads wide but lacks range, the railgun pierces through multiple enemies, and the flamethrower leaves burning patches on the ground. You can also upgrade your tank&#8217;s armour, speed, and mine resistance.</p>
-
-<p>Enemy variety keeps you on your toes across the game&#8217;s 15 campaign levels. Basic tanks patrol simple paths, but soon you&#8217;ll face fast-moving scouts, heavily armoured heavies, artillery tanks that lob shells over walls, and stationary turrets that lock onto your position. Boss encounters punctuate the campaign, throwing massive multi-weapon tanks at you that require genuine strategy to defeat. The destructible environments add another layer — blasting through walls opens new paths but can also expose you to crossfire.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Awesome Tanks 2</strong></h2>
-
-<ul class="wp-block-list">
-<li>Use WASD or Arrow Keys to move your tank around the arena.</li>
-<li>Aim with the mouse and click to fire your current weapon.</li>
-<li>Destroy all enemy tanks and turrets to complete each level.</li>
-<li>Collect coins dropped by enemies to spend on upgrades between levels.</li>
-<li>Buy new weapons and tank upgrades in the shop — try different loadouts for different levels.</li>
-<li>Watch for mines on the ground and artillery shells from off-screen enemies.</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Awesome Tanks 2 is an action-packed top-down tank combat game that puts you in command of a fully upgradeable war machine. Battle through dozens of levels filled with enemy tanks, turrets, and fortifications, collecting coins and power-ups to transform your tank into an unstoppable force. The combination of shooting action and deep upgrade mechanics creates a compelling loop of combat and progression.</p>
+<p>The upgrade system is where the game truly shines. Earned coins purchase new weapons including machine guns, lasers, flamethrowers, rockets, and rail guns. Each weapon handles differently and excels in specific situations. You can also upgrade your tank's armour, speed, and special abilities, creating a customised war machine that matches your preferred combat style.</p>
+<p>Level design grows increasingly complex as you advance. Early levels feature simple rooms with a few enemies, while later stages introduce maze-like layouts, destructible walls, hidden rooms, and boss encounters. Environmental hazards like mines and lava add another dimension to combat, requiring spatial awareness alongside aiming skill. Secrets hidden in breakable walls reward thorough exploration.</p>
+<p>Playing Awesome Tanks 2 online delivers satisfying destruction and meaningful progression in a polished package. Each level feels like a small combat puzzle where choosing the right weapon and approach matters as much as aim. The gradual transformation of your starter tank into a heavily armed and armoured behemoth is one of the most satisfying progression arcs in browser gaming.</p>
+<h2 class="wp-block-heading">How to Play Awesome Tanks 2 Online</h2>
+<p>Move your tank with WASD or arrow keys and aim with the mouse. Click to fire your currently equipped weapon. The twin-stick style controls give you independent movement and aiming, allowing strafing manoeuvres and shooting while retreating. Master circle-strafing to deal damage while avoiding enemy fire.</p>
+<p>Destroy all enemies in each level to unlock the exit. Some enemies are hidden behind destructible walls that you must blast through to reach. Clear each room methodically, watching for enemy projectiles and turret firing arcs. Rushing into rooms without checking for ambushes is the most common way to lose health unnecessarily.</p>
+<p>Spend coins in the upgrade shop between levels to improve your tank and weapons. Prioritise one weapon tree initially rather than spreading upgrades thin across many weapons. A fully upgraded machine gun or laser deals far more effective damage than several partially upgraded alternatives. Add armour upgrades when enemy damage starts overwhelming your health pool.</p>
+<p>Explore every corner of each level for hidden coin caches and bonus items. Destructible walls sometimes conceal rooms filled with coins that significantly boost your upgrade budget. The extra resources from thorough exploration compound over many levels, giving completionist players noticeably better equipment than those who rush through stages.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -12477,27 +11842,15 @@ export const games = [
     thumbnail: '/images/taylor-swift-2048.webp',
     relatedSlugs: ['google-minesweeper', 'google-solitaire', 'kakuro'],
     excerpt: 'Taylor Swift 2048 is a fan-made twist on the classic 2048 puzzle game where numbered tiles are replaced with iconic Taylor Swift photos representing her different musical eras...',
-    content: `<p>Taylor Swift 2048 is a fan-made twist on the classic 2048 puzzle game where numbered tiles are replaced with iconic Taylor Swift photos representing her different musical eras. Slide matching tiles together to combine them, progressing from early career Taylor through each album era until you reach the coveted 2048 tile. It&#8217;s the perfect intersection of addictive puzzle mechanics and Swiftie fandom.</p>
-
-<p>The original 2048 was created by Gabriele Cirulli in 2014 and became one of the most viral puzzle games in internet history. The Taylor Swift version takes the same core mechanic — slide tiles on a 4×4 grid, matching identical tiles to combine them into higher values — and replaces the numbers with Taylor Swift images. Start with two matching debut-era Taylors, combine them to get Fearless Taylor, then Speak Now, Red, 1989, Reputation, Lover, Folklore, Evermore, Midnights, and finally the legendary 2048 tile.</p>
-
-<p>Strategy in 2048 is deeper than it appears. The key is keeping your highest-value tile locked in a corner and building a chain of descending values along one edge. Random new tiles spawn after every move, so careless sliding quickly fills the board and ends the game. Expert players develop specific patterns — the snake method, the corner strategy, the wall technique — each offering different risk-reward profiles. The Taylor Swift theming adds an extra motivation to keep going: every Swiftie wants to see which era appears next.</p>
-
-<p>The game has become a staple of Swiftie internet culture, shared widely on social media and TikTok. Players screenshot their highest tiles and share which eras they&#8217;ve reached, turning a solo puzzle game into a communal experience. Some versions feature album cover art, others use concert photos, and a few include surprise Eras Tour imagery for the final tiles.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Taylor Swift 2048</strong></h2>
-
-<ul class="wp-block-list">
-<li>Use Arrow Keys or swipe to slide all tiles in one direction (up, down, left, right).</li>
-<li>When two matching Taylor Swift tiles collide, they combine into the next era.</li>
-<li>After each move, a new tile appears randomly on the board.</li>
-<li>Try to keep your highest tile in a corner to maintain control of the board.</li>
-<li>Build chains of descending values along the edges for the best strategy.</li>
-<li>The game ends when no more moves are possible. Aim to reach the 2048 tile!</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Taylor Swift 2048 is a delightful mashup of the classic sliding number puzzle with Taylor Swift's iconic album eras. Instead of merging numbered tiles, you combine tiles featuring images from Taylor's album covers and music videos, progressing through her discography as you reach higher and higher combinations. It is the perfect game for Swifties who love both puzzles and pop music.</p>
+<p>Each tile represents a different Taylor Swift era, starting with her earliest work and progressing through her massive catalogue as you make successful merges. The visual progression through her albums adds a satisfying narrative element to the puzzle gameplay, making each new tile reveal a small celebration for fans who recognize every era and its significance.</p>
+<p>The core 2048 mechanics remain intact and challenging. Slide tiles in four directions, and matching tiles combine into the next level. The strategy of corner anchoring, maintaining tile order, and managing board space applies just as much here as in the original. Running out of moves ends the game, so careful planning is essential to reach the highest-level Taylor tiles.</p>
+<p>Playing Taylor Swift 2048 online combines fandom with genuine puzzle strategy in a way that enhances both experiences. Casual fans enjoy discovering which albums appear at each level, while dedicated puzzle players appreciate the classic 2048 challenge with a fresh visual theme. The game proves that themed variants can add real personality to proven puzzle formats.</p>
+<h2 class="wp-block-heading">How to Play Taylor Swift 2048 Online</h2>
+<p>Use the arrow keys or swipe gestures to slide all tiles in one direction. When two matching tiles collide, they merge into a single tile representing the next Taylor Swift era. After each move, a new low-level tile appears on the board, gradually filling the grid and increasing the challenge.</p>
+<p>Develop a corner strategy by keeping your highest-value tile anchored in one corner of the grid. Build a chain of descending values along one edge, feeding new matches into your highest tile. This prevents your best tile from getting trapped in the middle where it blocks movement and creates dead ends.</p>
+<p>Avoid moving in your anchor tile's opposite direction whenever possible. If your highest tile is in the top-left corner, avoid pressing down or right unless absolutely necessary. Every move that shifts your anchor tile away from the corner risks disrupting your carefully built chain and can quickly lead to a lost game.</p>
+<p>Plan two or three moves ahead rather than reacting to each new tile individually. Consider where new tiles will spawn and how your planned moves affect the entire board state. The best 2048 players think about board flow and tile positioning holistically rather than focusing on individual merges.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -12513,27 +11866,15 @@ export const games = [
     thumbnail: '/images/letter-boxed.webp',
     relatedSlugs: ['word-master', 'weddle', 'kakuro'],
     excerpt: 'Letter Boxed is an elegant daily word puzzle from the New York Times where twelve letters are arranged on the sides of a square, and your goal is to use every letter by forming connected words...',
-    content: `<p>Letter Boxed is an elegant daily word puzzle from the New York Times where twelve letters are arranged on the sides of a square, and your goal is to use every letter by forming connected words in as few words as possible. Each word must start with the last letter of the previous word, and consecutive letters in a word must come from different sides of the box. It&#8217;s simple to understand, surprisingly tricky to solve, and deeply satisfying when you crack it in just two or three words.</p>
-
-<p>Created by Sam Ezersky and launched as part of the NYT Games collection, Letter Boxed has become one of the most beloved daily puzzles alongside Wordle and Connections. The game presents a square with three letters on each side (twelve total). You form words by drawing lines between letters, but you can never use two consecutive letters from the same side of the square. This constraint is what transforms a simple word-finding exercise into a genuine puzzle — common words become impossible because their letter patterns don&#8217;t fit the box layout.</p>
-
-<p>The daily challenge is to use all twelve letters in five words or fewer, with each word starting where the previous one ended. Expert solvers aim for the elusive two-word solution, which exists for every puzzle but often requires obscure vocabulary or creative word choices. The community shares solutions and strategies daily, debating the merits of three-word versus two-word approaches and celebrating particularly elegant solutions.</p>
-
-<p>What makes Letter Boxed special is how it rewards vocabulary breadth over depth. You don&#8217;t need to know difficult words — you need to know the right words for each specific letter arrangement. A common seven-letter word might be useless if its letters cluster on one side of the box, while an unusual five-letter word might be the key to a two-word solve. The puzzle refreshes daily, ensuring a new challenge every morning.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Letter Boxed</strong></h2>
-
-<ul class="wp-block-list">
-<li>Click letters around the square to form words. Each word must use at least three letters.</li>
-<li>Consecutive letters in a word must come from different sides of the square.</li>
-<li>Each new word must start with the last letter of the previous word.</li>
-<li>Use every letter at least once to complete the puzzle. Letters can be reused across words.</li>
-<li>Try to solve it in five words or fewer — two words is the ultimate challenge.</li>
-<li>A new puzzle is available every day.</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Letter Boxed is an elegant word puzzle from the New York Times where twelve letters are arranged around the sides of a square, three per side. Your goal is to connect all twelve letters by spelling words where each word starts with the last letter of the previous word. The constraint that consecutive letters in a word cannot come from the same side of the square adds a spatial dimension to word formation that makes this puzzle uniquely challenging.</p>
+<p>The same-side restriction forces you to think about letter arrangement as well as vocabulary. Even if you know a word that uses the right letters, it only works if its consecutive letters alternate between different sides of the square. This geometric constraint transforms the puzzle from pure word knowledge into a hybrid of spatial reasoning and linguistic ability.</p>
+<p>The optimal solution uses the fewest words possible, with the ultimate goal being to solve the puzzle in just two words. Finding a two-word solution requires extensive vocabulary and creative word construction, as both words must be long enough to cover all twelve letters between them. Even experienced players often need three or four words, making a two-word solution a genuine achievement.</p>
+<p>Playing Letter Boxed online is a deeply satisfying daily puzzle that exercises parts of your brain most word games ignore. The spatial constraint makes you visualise letter connections physically, and the chaining requirement forces you to think several words ahead. It rewards both deep vocabulary knowledge and creative strategic planning in equal measure.</p>
+<h2 class="wp-block-heading">How to Play Letter Boxed Online</h2>
+<p>Click letters around the square to spell words, drawing lines between each letter. Each word must use letters from at least two different sides of the square, and consecutive letters in a word cannot come from the same side. Submit each valid word, and your next word must begin with the last letter of the word you just submitted.</p>
+<p>Start by scanning all four sides for common letter combinations that span multiple sides. Look for prefixes and suffixes that naturally alternate between sides, as these form the backbone of viable words. Identifying these building blocks before attempting full words saves significant time and reduces dead ends.</p>
+<p>Aim for longer words that use as many unique letters as possible. Every letter you cover in one word is a letter you do not need to account for in subsequent words. Prioritise words that include difficult or uncommon letters that might be hard to incorporate into later words, saving the more flexible letters for your final connecting words.</p>
+<p>Plan your chain by considering which ending letter gives you the best starting options for the next word. Some letters offer many word-starting possibilities while others are quite limiting. Ending a word on a versatile letter like S, T, or R gives you far more options than ending on X or Z. This forward planning is what separates quick solvers from those who struggle with the chain requirement.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -12549,27 +11890,15 @@ export const games = [
     thumbnail: '/images/nyt-tiles.webp',
     relatedSlugs: ['letter-boxed', 'kakuro', 'word-master'],
     excerpt: 'NYT Tiles is a soothing visual matching game from the New York Times where you clear a board of patterned tiles by pairing ones that share design elements...',
-    content: `<p>NYT Tiles is a soothing visual matching game from the New York Times where you clear a board of patterned tiles by pairing ones that share design elements. Unlike word-based NYT games, Tiles is purely visual — you match tiles based on shared colours, shapes, or patterns, creating a meditative puzzle experience that&#8217;s equal parts relaxing and engaging.</p>
-
-<p>The game presents a grid of beautifully designed tiles, each featuring a unique combination of patterns — stripes, dots, geometric shapes, gradients, and colour combinations. Your task is to find and match pairs of tiles that share a common visual attribute. Tap two matching tiles to clear them from the board, working toward clearing the entire grid. The challenge lies in identifying which visual element connects two seemingly different tiles.</p>
-
-<p>What sets NYT Tiles apart from traditional matching games is its emphasis on pattern recognition over memory. The tiles remain visible throughout the game, so you&#8217;re not memorising positions — you&#8217;re analysing visual relationships. Two tiles might share the same background colour but have completely different foreground patterns, or they might have matching shapes in different colour schemes. The matching logic shifts between puzzles, keeping you engaged and preventing autopilot play.</p>
-
-<p>The aesthetic is deliberately calming. Soft colours, smooth animations, and gentle sound effects create a zen-like atmosphere that contrasts sharply with the frantic energy of most puzzle games. It&#8217;s designed as a daily palate cleanser — something to play during a coffee break without raising your heart rate. The daily format means each puzzle is carefully curated, with a thoughtful difficulty curve that starts accessible and builds to satisfying complexity.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play NYT Tiles</strong></h2>
-
-<ul class="wp-block-list">
-<li>Look at the grid of patterned tiles and identify pairs that share a visual attribute.</li>
-<li>Click or tap two tiles you believe match — they&#8217;ll be cleared if correct.</li>
-<li>Matches can be based on colour, shape, pattern, or other visual elements.</li>
-<li>Clear all tiles from the board to complete the puzzle.</li>
-<li>Pay attention to subtle differences — not all similar-looking tiles actually match.</li>
-<li>A new puzzle is available every day for a fresh challenge.</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>NYT Tiles is a captivating word puzzle game inspired by the New York Times Connections format where you must sort sixteen tiles into four groups of four based on hidden connections. Each group shares a common theme that links its four members, but the themes are designed to be tricky with intentional overlaps and red herrings that make identification challenging. Figuring out the connecting thread between seemingly unrelated items is deeply satisfying.</p>
+<p>The difficulty lies in the deliberate ambiguity of the tile connections. Many tiles could plausibly belong to multiple groups, and the puzzle designers exploit this ambiguity to create false paths that lead you astray. A word might seem to fit perfectly in one category until you realise it actually belongs in another, forcing you to rethink your entire approach and reconsider connections you thought were certain.</p>
+<p>The four groups are colour-coded by difficulty from easiest to hardest. Identifying the easiest group first is a sound strategy because it removes four tiles from consideration and simplifies the remaining choices. The hardest group often relies on the most obscure or unexpected connection, frequently requiring knowledge of wordplay, double meanings, or cultural references.</p>
+<p>Playing NYT Tiles online is a wonderful daily mental exercise that combines vocabulary knowledge with lateral thinking. The shared daily puzzle creates a community experience where players compare strategies and share their triumphant or agonising moments. Each puzzle teaches you something new and trains your brain to spot unexpected connections between disparate concepts.</p>
+<h2 class="wp-block-heading">How to Play NYT Tiles Online</h2>
+<p>Examine all sixteen tiles before making any selections. Look for obvious groupings first, but be aware that the most obvious connections are sometimes traps designed to mislead you. Read each tile carefully and consider multiple possible meanings for every word before committing to a group.</p>
+<p>Select four tiles that you believe share a common connection and submit your guess. If correct, those tiles are removed and colour-coded by difficulty level. If incorrect, you lose one of your limited attempts. The mistake limit means you cannot simply guess randomly and must be reasonably confident before submitting.</p>
+<p>When stuck, try a different approach to finding connections. Instead of looking for what tiles have in common, consider what makes certain tiles different from the rest. Sometimes identifying which tiles definitely do not belong together is more productive than finding which ones do.</p>
+<p>Save your guesses for the groups you are most confident about and work through them systematically. Starting with the group you feel surest about reduces the total number of tiles and often makes the remaining groups clearer by elimination. If you have identified three of the four groups confidently, the last group solves itself automatically.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -12585,27 +11914,15 @@ export const games = [
     thumbnail: '/images/kakuro.webp',
     relatedSlugs: ['google-minesweeper', 'taylor-swift-2048', 'letter-boxed'],
     excerpt: 'Kakuro is a number crossword puzzle that combines the logic of Sudoku with the structure of a crossword. Fill in digits 1-9 so each group adds up to the given sum, with no repeats...',
-    content: `<p>Kakuro is a number crossword puzzle that combines the logic of Sudoku with the structure of a crossword. Often called &#8220;cross sums,&#8221; it&#8217;s one of the most popular logic puzzles in Japan and has been gaining worldwide popularity as puzzle enthusiasts discover its elegant blend of arithmetic and deduction. Fill in digits 1 through 9 so that each horizontal and vertical group of cells adds up to the given clue number — with no digit repeated within any group.</p>
-
-<p>The puzzle grid looks like a crossword, with white cells to fill and dark cells containing clue numbers. Each clue number sits in a divided dark cell: the number in the upper-right tells you the sum for the horizontal run of white cells to its right, and the number in the lower-left tells you the sum for the vertical run below. Your job is to figure out which combination of digits 1-9 produces each sum, then use the intersecting constraints to determine the exact placement.</p>
-
-<p>What makes Kakuro deeply satisfying is how arithmetic constraints create logical deductions. Consider a clue of 3 in a two-cell run — the only possibility is 1+2, so those cells must contain 1 and 2 in some order. A clue of 17 in a two-cell run must be 8+9. These definite combinations are your starting points. As you fill in confirmed digits, the intersecting runs provide additional constraints that cascade through the puzzle. Advanced techniques involve tracking possible digit sets for each run and finding contradictions — much like advanced Sudoku solving.</p>
-
-<p>The online version at kakuros.com offers puzzles in multiple sizes from 3×3 beginner grids to massive 30×30 expert challenges. Each puzzle has a unique solution that can be reached through pure logic — no guessing required. The clean interface lets you pencil-mark possible digits, highlight related cells, and check your progress. New puzzles are generated regularly, providing an endless supply of challenges at every difficulty level.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Kakuro</strong></h2>
-
-<ul class="wp-block-list">
-<li>Click an empty white cell and type a digit from 1 to 9.</li>
-<li>Each horizontal and vertical group of cells must add up to the clue number in the dark cell.</li>
-<li>No digit can repeat within a single horizontal or vertical group.</li>
-<li>Start with runs that have only one possible combination (like sum 3 in two cells = 1+2).</li>
-<li>Use intersecting constraints to narrow down possibilities for each cell.</li>
-<li>Choose your difficulty level — smaller grids are easier, larger ones are more challenging.</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Kakuro is a logic-based number puzzle often described as a mathematical crossword. The grid contains blank cells grouped into horizontal and vertical runs, each with a target sum displayed in a clue cell. Your task is to fill in digits one through nine so that each run adds up to its target sum, with no digit repeated within the same run. The rules are simple but the logic required to solve them can be deeply satisfying.</p>
+<p>Unlike Sudoku which uses a fixed nine-by-nine grid, Kakuro puzzles come in many different sizes and shapes. Each puzzle's unique grid layout creates different logical dependencies and solving paths. Some runs have only one possible combination of digits, providing guaranteed starting points, while others have many valid combinations that must be narrowed down through intersecting constraints.</p>
+<p>The mathematical element adds a dimension that pure logic puzzles lack. Knowing which combinations of digits sum to specific totals is essential knowledge for efficient solving. A run of two cells summing to three can only be one and two, while a run of two cells summing to seventeen must be eight and nine. These forced combinations are the foundation upon which more complex deductions are built.</p>
+<p>Playing Kakuro online provides an endlessly renewable challenge for logic puzzle enthusiasts who want something beyond standard Sudoku. Each puzzle exercises both mathematical reasoning and constraint logic simultaneously. The difficulty range spans from gentle introductory grids to fiendishly complex puzzles that challenge even veteran solvers, ensuring there is always a satisfying challenge waiting.</p>
+<h2 class="wp-block-heading">How to Play Kakuro Online</h2>
+<p>Click on an empty cell and enter a digit from one to nine. The digit must contribute to satisfying the sum clues for both its horizontal and vertical runs. Each run's clue number tells you what the digits in that run must add up to, and no digit can repeat within a single run. Valid placements satisfy both constraints simultaneously.</p>
+<p>Start by identifying forced combinations where only one set of digits can produce the required sum for the given run length. Short runs with extreme sums have the fewest possibilities and provide the most certain starting information. A two-cell run summing to sixteen must contain seven and nine, giving you guaranteed placements.</p>
+<p>Use intersections between horizontal and vertical runs to narrow down possibilities. When a cell belongs to two runs, it must satisfy both constraints simultaneously. The digits that appear in the valid combinations for both runs are the only candidates for that cell. Cross-referencing constraints is the primary solving technique for medium and hard puzzles.</p>
+<p>Work outward from confirmed cells, using each placement to constrain neighbouring runs. Every digit you place removes that digit from consideration in its runs and changes what remains possible in intersecting runs. The puzzle gradually unlocks as confirmed digits cascade through the constraint network, revealing the unique solution through pure logical deduction.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -12622,51 +11939,15 @@ export const games = [
     thumbnail: '/images/the-legend-of-zelda.webp',
     relatedSlugs: ['google-pacman', 'doodle-champion-island-games', 'google-snake'],
     excerpt: 'The Legend of Zelda is the legendary 1986 NES action-adventure that started one of gaming\'s most iconic franchises. Explore the vast overworld of Hyrule, conquer nine dungeons, and defeat the evil Ganon...',
-    content: `<p>The Legend of Zelda is the legendary 1986 NES action-adventure that started one of gaming&#8217;s most iconic franchises. Designed by Shigeru Miyamoto and Takashi Tezuka, it dropped players into the vast overworld of Hyrule with almost no instructions and challenged them to explore, fight, and puzzle their way through nine increasingly complex dungeons to reassemble the Triforce of Wisdom and defeat the evil Ganon.</p>
-
-<p>When it launched on the Famicom Disk System in February 1986 (and on the NES in North America in August 1987), it was revolutionary. While most games moved in one direction — left to right — Zelda offered an open world that scrolled in all four directions, with secrets hidden behind every bush and under every rock. The gold cartridge gleamed on store shelves, and the battery-backed save system meant you could actually preserve your progress, a luxury in an era of passwords and starting over.</p>
-
-<p>You play as Link, a young hero who finds an old man in a cave who gives you a wooden sword and the immortal words &#8220;It&#8217;s dangerous to go alone! Take this.&#8221; From there, you&#8217;re on your own. The overworld is a grid of interconnected screens teeming with Octoroks, Moblins, Tektites, and Lynels. Hidden throughout are cave entrances, shops, old men with cryptic advice, and the entrances to nine dungeons — each containing a piece of the Triforce.</p>
-
-<p>Each dungeon is a maze of rooms connected by locked doors, secret passages, and increasingly dangerous enemies. You&#8217;ll find essential items in each dungeon: the boomerang, bombs, the bow, the raft, the ladder, the magic wand, and more. Each item opens new areas of both the dungeon and the overworld, creating a metroidvania-like progression loop decades before that term existed. The dungeon bosses — Aquamentus, Dodongo, Manhandla, Gleeok, Digdogger, Gohma, and finally Ganon himself — remain some of the most memorable encounters in gaming history.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play The Legend of Zelda</strong></h2>
-
-<ul class="wp-block-list">
-<li>Use the Arrow Keys to move Link across the overworld and through dungeons.</li>
-<li>Press Z to swing your sword — this is the A button on the original NES controller.</li>
-<li>Press X to use your currently selected secondary item such as bombs, the boomerang, or the bow — this is the B button.</li>
-<li>Press Enter to open the Start menu where you can view the map and equip secondary items.</li>
-<li>Press Shift to access the Select function, used in some menus.</li>
-<li>Explore everywhere — secrets are hidden behind burnable bushes, bombable walls, and pushable rocks.</li>
-<li>Collect all nine Triforce pieces from the nine dungeons to unlock the final confrontation with Ganon.</li>
-</ul>
-
-<h2 class="wp-block-heading"><strong>Keyboard Controls</strong></h2>
-
-<ul class="wp-block-list">
-<li>Arrow Keys — D-Pad (movement)</li>
-<li>Z — Button A (swing sword / confirm action)</li>
-<li>X — Button B (use secondary item)</li>
-<li>Enter — Start</li>
-<li>Shift — Select</li>
-<li>Num 1 — Save state</li>
-<li>Num 2 — Load state</li>
-</ul>
-
-<h2 class="wp-block-heading"><strong>Emulator Options</strong></h2>
-
-<ul class="wp-block-list">
-<li>Right-click the game screen to open the context menu with additional options.</li>
-<li>Use the gear icon in the emulator toolbar to adjust video, audio, and core settings.</li>
-<li>Use the controller icon to view or remap your keyboard and gamepad bindings.</li>
-<li>Use the cheats icon to enter Game Genie or Pro Action Replay codes.</li>
-<li>Use the speaker icon to mute or unmute audio at any time.</li>
-<li>Use the fullscreen icon to expand the game to fill your screen.</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>The Legend of Zelda fan game brings the iconic adventure series to your browser, letting you explore dungeons, solve puzzles, and battle monsters in the style that defined action-adventure gaming. Navigate through a fantasy world filled with secrets, treasures, and dangerous creatures as you quest to save the kingdom from evil forces. The gameplay captures the exploration-driven magic that has made Zelda one of the most beloved franchises in gaming history.</p>
+<p>Exploration is the heart of the experience, with interconnected areas hiding secrets behind every pushable block, beneath every destroyable bush, and inside every suspicious cave entrance. The world rewards curiosity and experimentation, with optional items and upgrades tucked away in locations that only observant and thorough players discover. Every screen potentially holds something worth finding.</p>
+<p>Dungeon design challenges both your combat skills and your puzzle-solving abilities. Each dungeon introduces new mechanics and obstacles that build on what you have learned. Locked doors require finding keys, block puzzles reveal hidden passages, and boss encounters test whether you have mastered the dungeon's specific mechanics. The progression from confused explorer to confident dungeon master is deeply satisfying.</p>
+<p>Playing The Legend of Zelda online captures the sense of adventure and discovery that the series is famous for. The combination of combat, exploration, and puzzle-solving creates a balanced gameplay experience that appeals to many different types of players. Whether you enjoy methodical exploration, challenging combat, or clever puzzle design, the Zelda formula delivers all three in equal measure.</p>
+<h2 class="wp-block-heading">How to Play The Legend of Zelda Online</h2>
+<p>Use the arrow keys or WASD to move your character through the overworld and dungeons. The attack button swings your sword at nearby enemies, while secondary items can be equipped and used with a separate button. The controls are straightforward and responsive, letting you focus on exploration and combat strategy rather than wrestling with inputs.</p>
+<p>Explore every area thoroughly before moving on. The game hides essential items, health upgrades, and useful tools in locations that are easy to miss. Check behind every wall, try bombing suspicious surfaces, and talk to every character you meet. The most powerful items in the game are hidden in optional locations that reward completionist exploration.</p>
+<p>Approach each dungeon methodically by mapping the rooms in your head as you explore them. Dungeons often loop back on themselves, and understanding the layout helps you navigate efficiently and locate rooms you may have missed. The dungeon map item, when found, reveals the full layout and shows which rooms contain undiscovered treasures.</p>
+<p>Learn enemy attack patterns to defeat them efficiently without taking unnecessary damage. Each enemy type has specific behaviours and vulnerabilities that become predictable with experience. Bosses require recognising their attack cycle and striking during vulnerable moments. Patience and pattern recognition are more effective than aggressive rushing in every combat encounter.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -12682,27 +11963,15 @@ export const games = [
     thumbnail: '/images/word-master.webp',
     relatedSlugs: ['weddle', 'letter-boxed', 'google-feud'],
     excerpt: 'Word Master is an open-source Wordle clone that lets you play unlimited rounds instead of being restricted to one puzzle per day. Same rules, same coloured clues, infinite games...',
-    content: `<p>Word Master is an open-source Wordle clone that lets you play unlimited rounds instead of being restricted to one puzzle per day. If you&#8217;ve ever finished your daily Wordle in two minutes and wished you could keep going, Word Master is the answer. Same rules, same green-yellow-grey feedback, same five-letter word format — but you can play again immediately after solving (or failing) each puzzle.</p>
-
-<p>Built by developer Katherine Peterson as an open-source project on GitHub, Word Master faithfully recreates the Wordle experience. You have six attempts to guess a five-letter word. After each guess, letters are coloured: green means the letter is correct and in the right position, yellow means the letter exists in the word but in a different position, and grey means the letter isn&#8217;t in the word at all. The on-screen keyboard updates to show which letters you&#8217;ve used and their status.</p>
-
-<p>What makes Word Master particularly appealing is the pace. Without the one-per-day restriction, you can practice strategies, test opening words, and genuinely improve your solving technique. Wordle enthusiasts debate endlessly about the best opening word — ADIEU, CRANE, SLATE, ARISE, STARE — and Word Master gives you the space to actually test these theories across dozens of games in a single sitting. You&#8217;ll quickly develop a feel for which second and third guesses extract the most information from the letter pool.</p>
-
-<p>The game uses a comprehensive five-letter word list that includes both common and obscure words, keeping you on your toes. The clean, minimal interface mirrors Wordle&#8217;s iconic design, with dark mode support and a distraction-free layout. Being open source means it&#8217;s free from ads, tracking, or any other annoyances — just pure word-guessing gameplay. It&#8217;s the Wordle experience that never makes you wait until tomorrow.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Word Master</strong></h2>
-
-<ul class="wp-block-list">
-<li>Type a five-letter word and press Enter to submit your guess.</li>
-<li>Green letters are correct and in the right position.</li>
-<li>Yellow letters are in the word but in the wrong position.</li>
-<li>Grey letters are not in the word at all.</li>
-<li>Use the colour feedback to narrow down possibilities for your next guess.</li>
-<li>You have six attempts to guess the word. After solving (or failing), start a new game immediately.</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Word Master is a challenging word-guessing game that tests your vocabulary and deduction skills across multiple rounds of five-letter word puzzles. Each round gives you six attempts to identify a hidden word, with colour-coded feedback after every guess revealing which letters are correct, misplaced, or absent. The addictive loop of narrowing possibilities through logic and language knowledge keeps players returning for one more puzzle.</p>
+<p>The colour feedback system is your primary tool for cracking each word. Green letters are in the correct position, yellow letters appear in the word but belong elsewhere, and grey letters are not in the word at all. Skilled players use this information systematically, eliminating large groups of possibilities with strategically chosen guesses rather than hoping for lucky matches.</p>
+<p>Unlike single-puzzle daily games, Word Master offers unlimited play, letting you sharpen your skills across as many puzzles as you want in one session. This unlimited format makes it perfect for players who crave the word-guessing experience without waiting for daily resets. The more you play, the better your opening strategies and letter-frequency intuition become.</p>
+<p>Playing Word Master online is an excellent way to build vocabulary and practice logical deduction simultaneously. The game rewards knowledge of common English letter patterns, unusual words, and strategic thinking under constraint. Whether you solve puzzles in two guesses or need all six, each round provides a satisfying mental workout that improves your word game abilities.</p>
+<h2 class="wp-block-heading">How to Play Word Master Online</h2>
+<p>Type a valid five-letter word and press enter to submit each guess. The game only accepts real English words, so you cannot submit random letter combinations to test individual letters. This constraint forces every guess to serve double duty as both a test of specific letters and a valid word attempt.</p>
+<p>Start with words that contain common vowels and consonants to maximise information from your first guess. Words like CRANE, STARE, or AUDIO test frequently used letters and give you the best chance of early green and yellow results. Avoid starting with obscure words that use rare letters.</p>
+<p>Use the process of elimination rigorously after each guess. Grey letters should never appear in subsequent guesses. Yellow letters must be placed in different positions from where they appeared. Green letters should remain locked in place. Following these rules strictly prevents wasted guesses and ensures steady progress toward the answer.</p>
+<p>Think about common word patterns and letter combinations when you have partial information. English words follow predictable patterns with certain consonant clusters, vowel placements, and ending combinations appearing far more frequently than others. Recognising patterns like -IGHT, -TION, or -OUND helps you generate candidate words that fit the available clues efficiently.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -12719,27 +11988,15 @@ export const games = [
     thumbnail: '/images/a-dance-of-fire-and-ice.webp',
     relatedSlugs: ['g-switch-3', 'tomb-of-the-mask', 'clara-rockmore-google-doodle'],
     excerpt: 'A Dance of Fire and Ice is a minimalist rhythm game about pressing a single button in time with the beat as two orbiting planets trace a winding geometric path...',
-    content: `<p>A Dance of Fire and Ice is a minimalist rhythm game about pressing a single button in time with the beat as two orbiting planets trace a winding geometric path. Developed by 7th Beat Games, it strips the rhythm game genre down to its absolute essence — one button, one beat, pure timing. The result is a game that looks deceptively simple but demands pixel-perfect precision that will test even veteran rhythm game players.</p>
-
-<p>The core mechanic is elegant: a fire planet and an ice planet orbit each other, tracing a path along a series of tiles. Each tile represents a beat in the music. Press the button exactly when the active planet lands on the next tile, and the pair continues dancing forward. Miss the beat — even slightly — and the music stumbles, your accuracy drops, and the visual path fractures. The game demands you internalise the rhythm so completely that your button presses become an extension of the music itself.</p>
-
-<p>What starts as simple straight lines quickly evolves into curves, spirals, zigzags, and patterns that change tempo mid-level. The path twists through geometric landscapes that pulse and morph with the soundtrack, creating a synaesthetic experience where visuals, music, and input blur together. Some levels maintain a steady 4/4 beat, while others introduce swing rhythms, polyrhythms, and tempo changes that require you to genuinely listen rather than rely on visual timing cues.</p>
-
-<p>The game features a curated campaign of levels set to original compositions spanning multiple genres — from gentle piano pieces to driving electronic tracks to orchestral arrangements. Each level introduces new rhythmic concepts gradually, building your timing vocabulary. Beyond the campaign, a thriving community creates custom levels using the built-in editor, adding thousands of songs from pop hits to anime openings to classical masterpieces. The custom level scene has become one of the largest in any rhythm game community.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play A Dance of Fire and Ice</strong></h2>
-
-<ul class="wp-block-list">
-<li>Press any key or click the mouse exactly on the beat as the planets reach each tile.</li>
-<li>The timing must be precise — even small deviations affect your accuracy percentage.</li>
-<li>Listen to the music carefully. The rhythm tells you exactly when to press.</li>
-<li>The path will curve, spiral, and change direction — stay focused on the beat, not the visuals.</li>
-<li>Some levels change tempo mid-song. Listen for the new rhythm and adjust your timing.</li>
-<li>Aim for high accuracy to unlock harder levels and earn better rankings.</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>A Dance of Fire and Ice is a precise rhythm game where two orbiting planets must hit markers along a winding path in perfect time with the music. Each planet orbits the other in a constant rhythm, and you tap on every other beat to keep them moving along the path. The elegant simplicity of the one-button mechanic creates a meditative flow state when everything clicks, and intense frustration when your timing slips even slightly.</p>
+<p>The music and visual design are intertwined beautifully. Each level features a unique track that ranges from gentle piano melodies to intense electronic compositions. The path you follow winds, turns, and spirals in patterns that mirror the music's rhythm and mood. When you are in sync, the visual and auditory feedback combines into a deeply satisfying sensory experience unlike anything else in gaming.</p>
+<p>Difficulty escalates through tempo changes, path complexity, and rhythmic variations that challenge even experienced rhythm game players. Some levels introduce swing rhythms, triplets, and syncopated patterns that break your established timing expectations. The most advanced levels demand near-perfect accuracy over sustained sections, testing both your sense of rhythm and your ability to maintain concentration.</p>
+<p>Playing A Dance of Fire and Ice online is a transcendent rhythm experience for players who appreciate musical precision. The game strips rhythm gaming to its purest essence with one button and one objective, yet produces incredible depth through level design and musical variety. Completing a difficult level in this game delivers a rush of accomplishment that few other rhythm games can match.</p>
+<h2 class="wp-block-heading">How to Play A Dance of Fire and Ice Online</h2>
+<p>Press any key or click on every other beat to keep the planets moving along the path. The timing must be precise because early or late taps throw off the orbit and cause the planets to deviate from the path. Listen to the music and let the beat guide your inputs rather than watching the visual cues alone, as audio timing is generally more reliable than visual reaction.</p>
+<p>Focus on feeling the rhythm rather than thinking about individual taps. The best performance comes from entering a flow state where your taps become automatic responses to the beat. Overthinking each input creates hesitation and timing errors that compound quickly through the rest of the section.</p>
+<p>When the path curves or changes direction, maintain your rhythm without adjusting your timing. The visual change can trick your brain into tapping faster or slower, but the underlying beat remains consistent. Trusting the rhythm through visual transitions is one of the most important skills to develop for advanced levels.</p>
+<p>Practice difficult sections by listening to the music without playing to internalise the rhythm before attempting it. Understanding the musical structure of a tricky passage removes the surprise element and lets your muscle memory focus purely on maintaining accurate timing. Many levels become significantly easier once you know exactly what rhythmic patterns to expect.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -12755,27 +12012,15 @@ export const games = [
     thumbnail: '/images/only-up.webp',
     relatedSlugs: ['g-switch-3', 'house-of-hazards', 'icy-purple-head'],
     excerpt: 'Only Up is a viral 3D platformer where the only direction is up. Climb through a surreal world of floating objects, construction sites, and impossible architecture — one wrong step sends you plummeting...',
-    content: `<p>Only Up is a viral 3D platformer where the only direction is up. Released in 2023 by developer JEGG, the game became an internet sensation when streamers and content creators discovered that its punishing &#8220;no checkpoints&#8221; design created some of the most dramatic and heartbreaking moments in gaming. One wrong jump can send you plummeting from the clouds all the way back to the ground, losing hours of progress in seconds.</p>
-
-<p>You play as Jackie, a young boy from a run-down neighbourhood who begins climbing through an increasingly surreal vertical world. Starting at street level, you parkour your way upward through construction scaffolding, rooftops, floating cars, giant household objects, train tracks suspended in mid-air, and eventually into the clouds and beyond. The world is a fever dream of mismatched objects — a refrigerator balanced on a crane, a sofa floating next to a satellite dish, piano keys forming a staircase. Nothing makes logical sense, but every object is a potential platform.</p>
-
-<p>The game&#8217;s core tension comes from having zero safety nets. There are no checkpoints, no save points, and no second chances. If you fall, you fall — and gravity is merciless. A slip from near the top of the world can send you crashing through multiple layers of platforms back to the very beginning. This design choice is what made the game go viral. Streamers screaming after a two-hour climb ends with a single missed jump became some of the most-watched gaming clips of 2023.</p>
-
-<p>Despite (or perhaps because of) its frustration factor, Only Up taps into a primal satisfaction. Every metre of height you gain feels earned. Every new section of the surreal skyscape feels like a genuine discovery. The game doesn&#8217;t hold your hand, doesn&#8217;t explain its world, and doesn&#8217;t apologise for its difficulty. It simply points up and says &#8220;good luck.&#8221; The journey from the bottom to the top takes skilled players about 90 minutes, but most first attempts stretch to many hours of climbing, falling, and climbing again.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Only Up</strong></h2>
-
-<ul class="wp-block-list">
-<li>Use WASD to move Jackie and the mouse to control the camera.</li>
-<li>Press Spacebar to jump. Time your jumps carefully — there are no checkpoints.</li>
-<li>Look for climbable objects and platforms that lead upward. Everything is a potential path.</li>
-<li>Be patient on tricky sections. Rushing leads to falls, and falls are devastating.</li>
-<li>Look for routes that offer multiple landing spots in case you miss a jump.</li>
-<li>If you fall, stay calm. You know the route now — climb back faster than before.</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Only Up is a challenging vertical platformer where the sole objective is to climb higher and higher through an enormous, surreal world filled with giant everyday objects and dreamlike architecture. Starting from ground level in a gritty neighbourhood, you ascend through clouds, floating islands, and impossible structures, with every fall threatening to send you crashing back down to the beginning. The stakes of each jump create genuine anxiety that few platformers can match.</p>
+<p>The world design is deliberately disorienting and visually stunning. Giant furniture, oversized food items, floating vehicles, and abstract geometric shapes serve as platforms in an environment that feels like a fever dream. The surreal aesthetic keeps you constantly wondering what bizarre sight awaits above, providing motivation to push higher even when the climbing gets treacherous.</p>
+<p>There are no checkpoints, which is both the game's defining feature and its most controversial one. A single mistimed jump near the top can erase thirty minutes of careful climbing, creating emotional stakes that are rarely found in modern games. The absence of a safety net transforms every platform into a high-wire act and every successful section into a hard-earned triumph.</p>
+<p>Playing Only Up online tests not just your platforming skill but your mental resilience and patience. The game deliberately provokes frustration through its no-checkpoint design, and overcoming that frustration to reach new heights is the true challenge. Players who reach the top have demonstrated not just skill but an extraordinary level of determination that makes the achievement genuinely meaningful.</p>
+<h2 class="wp-block-heading">How to Play Only Up Online</h2>
+<p>Use WASD to move and space bar to jump. The camera is controlled with the mouse, and managing your camera angle is crucial for judging distances and spotting the next platform. Always adjust your view before attempting a jump so you can see exactly where you need to land, as blind jumps are the most common cause of catastrophic falls.</p>
+<p>Move carefully and deliberately rather than rushing. Every platform you reach safely is progress you cannot afford to lose. Walk instead of running near edges, take time to line up jumps precisely, and never attempt a risky shortcut when a safer route exists. Patience is your most valuable tool in a game with no checkpoints.</p>
+<p>Identify stable platforms where you can pause and collect yourself. Some platforms are large and flat enough to serve as informal rest points where you can assess the next section without danger. Use these safe spots to plan your route upward, calm your nerves after a close call, and prepare mentally for the next challenging segment.</p>
+<p>Learn from every fall by noting exactly where and why you failed. Was the jump too short, too far, or poorly aimed? Did the camera angle deceive you about the distance? Each fall contains a lesson, and players who analyse their mistakes improve much faster than those who simply retry with the same approach. The climb teaches you its secrets one fall at a time.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -12791,27 +12036,15 @@ export const games = [
     thumbnail: '/images/chess-computer.webp',
     relatedSlugs: ['google-tic-tac-toe', 'the-legend-of-zelda', 'kakuro'],
     excerpt: 'Chess against the computer lets you play the world\'s most famous strategy game at your own pace, with AI opponents ranging from absolute beginner to grandmaster strength...',
-    content: `<p>Chess against the computer lets you play the world&#8217;s most famous strategy game at your own pace, with AI opponents ranging from absolute beginner to grandmaster strength. Whether you&#8217;re learning the basics or sharpening your tactical skills, playing against an AI is the perfect way to practice without the pressure of a human opponent watching your every move.</p>
-
-<p>Chess has been played for over 1,500 years, evolving from the Indian game chaturanga through Persian shatranj to the modern game codified in Europe during the 15th century. It&#8217;s a two-player strategy game played on an 8×8 grid where each player commands 16 pieces: one king, one queen, two rooks, two bishops, two knights, and eight pawns. Each piece moves according to specific rules, and the objective is to checkmate your opponent&#8217;s king — placing it under attack with no legal escape.</p>
-
-<p>Playing against the computer offers unique advantages over human opponents. You can take as long as you want on each move without feeling pressured. You can undo moves to explore different lines. You can adjust the AI difficulty to match your current skill level, ensuring every game is challenging but not demoralising. Modern chess engines on platforms like Chess.com use sophisticated AI that can mimic different playing styles, from aggressive tactical play to solid positional strategy.</p>
-
-<p>For beginners, the computer serves as a patient teacher. Lower difficulty levels intentionally make sub-optimal moves, giving you opportunities to practice tactics like forks, pins, skewers, and discovered attacks. As you improve, you can gradually increase the difficulty until the AI starts playing genuinely strong moves that challenge your understanding of chess strategy. Many players use computer opponents to practice specific openings, test endgame techniques, or warm up before playing rated games against humans.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Chess Against Computer</strong></h2>
-
-<ul class="wp-block-list">
-<li>Click a piece to select it, then click its destination square to move it.</li>
-<li>Each piece type moves differently: pawns forward, rooks in straight lines, bishops diagonally, knights in L-shapes, queens in any direction, and kings one square in any direction.</li>
-<li>Capture opposing pieces by moving to their square.</li>
-<li>Castle by moving the king two squares toward a rook (special conditions apply).</li>
-<li>Your goal is checkmate — attack the opponent&#8217;s king so it cannot escape.</li>
-<li>Adjust the AI difficulty level to match your skill for the best practice experience.</li>
-</ul>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
+    content: `<p>Chess Computer offers the timeless game of chess against an artificial intelligence opponent with adjustable difficulty levels. From beginner-friendly settings that make occasional mistakes to grandmaster-level play that challenges even experienced players, the AI adapts to your skill level and provides a consistently engaging opponent. Practice openings, study tactics, and improve your endgame without needing a human partner.</p>
+<p>The adjustable difficulty is the game's most valuable feature for improvement. Playing against an opponent slightly above your current level is the most effective way to learn, as you face challenges that stretch your abilities without being overwhelmingly difficult. As your skills improve, increasing the AI difficulty ensures you always have a worthy opponent pushing you to play better.</p>
+<p>The clean interface presents the board clearly with intuitive piece movement and helpful features like legal move highlighting. This removes the mechanical barriers that can frustrate beginners and lets you focus entirely on strategy and tactics. Move history and position analysis features help you review games and understand where your strategy succeeded or fell apart.</p>
+<p>Playing Chess Computer online is an excellent way to practice and improve your chess skills at any time. The instant availability means you can fit in a quick game during a break or settle in for a longer strategic battle when time allows. For chess learners and enthusiasts alike, having a reliable AI opponent available on demand is an invaluable training resource.</p>
+<h2 class="wp-block-heading">How to Play Chess Computer Online</h2>
+<p>Click a piece to select it, then click a legal destination square to move. The game follows all standard chess rules including castling, en passant, and pawn promotion. Legal moves are typically highlighted when you select a piece, making it easy to see your options without memorising every movement pattern.</p>
+<p>Control the centre of the board in the opening by developing knights and bishops to active squares and placing pawns on central squares. Centre control gives your pieces maximum mobility and restricts your opponent's options. Follow basic opening principles: develop pieces, castle early for king safety, and avoid moving the same piece twice unnecessarily.</p>
+<p>Look for tactical opportunities like forks, pins, and skewers that win material. A fork attacks two pieces simultaneously with one piece, forcing your opponent to lose one. Pins trap valuable pieces behind less valuable ones, and skewers attack a valuable piece that must move, exposing a piece behind it. Recognising these patterns wins more games than any other single skill.</p>
+<p>Think about your opponent's threats before every move. The most common mistake in chess is focusing entirely on your own plans without considering what your opponent is threatening. After each of the AI's moves, pause to ask what that move attacks and whether any of your pieces are now in danger. This defensive awareness prevents the majority of avoidable losses.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -12827,21 +12060,15 @@ export const games = [
     thumbnail: '/images/soccer-skills-world-cup.webp',
     relatedSlugs: ['top-speed-3d', 'temple-of-boom', 'iron-snout'],
     excerpt: 'Soccer Skills World Cup is a fast-paced football game where you dribble past defenders and shoot for glory. Pick your national team and compete through tournament rounds to lift the cup.',
-    content: `<p>Soccer Skills World Cup is a fast-paced football game where you dribble past defenders and shoot for glory. Pick your national team and compete through tournament rounds to lift the World Cup trophy. The game captures the excitement of international football with smooth controls and satisfying gameplay that keeps you coming back for one more match.</p>
-
-<p>The controls are simple but the skill ceiling is high. You move your player around the pitch, dodge defenders, and time your shots to beat the goalkeeper. Each match gets progressively harder as you advance through the tournament, with opposing teams playing more aggressively and goalkeepers becoming harder to beat. The key is mastering your dribbling to create shooting angles and learning when to take your shot.</p>
-
-<p>With multiple national teams to choose from and a full tournament structure, Soccer Skills World Cup delivers a complete football gaming experience right in your browser. The colourful graphics and responsive controls make it accessible for casual players, while the increasing difficulty provides a genuine challenge for those aiming to win the entire competition.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Soccer Skills World Cup</strong></h2>
-
-<ul class="wp-block-list">
-<li>Use arrow keys or WASD to move your player around the pitch.</li>
-<li>Dribble past defenders by changing direction and using speed.</li>
-<li>Shoot towards the goal when you have a clear angle.</li>
-<li>Score more goals than the opposition to advance through the tournament.</li>
-<li>Win all matches to lift the World Cup trophy.</li>
-</ul>
+    content: `<p>Soccer Skills World Cup puts your football abilities to the test in a tournament-style competition where you represent your chosen national team through the stages of the World Cup. From group matches to knockout rounds, every game matters as you dribble, pass, and shoot your way toward lifting the trophy. The arcade-style gameplay makes every match exciting from start to finish.</p>
+<p>The controls are designed to be accessible while still rewarding skilled play. Simple inputs produce satisfying results, from curving shots into the top corner to threading through-balls that split the defense. Advanced players can master skill moves, rainbow flicks, and bicycle kicks that add flair to their gameplay and catch opponents off guard.</p>
+<p>The tournament structure creates natural drama and stakes. Group stage matches let you experiment with your playstyle, but once the knockouts begin, every goal and every save becomes crucial. The single-elimination format means one bad performance sends you home, creating genuine tension in every match from the quarter-finals onward.</p>
+<p>Playing Soccer Skills World Cup online captures the excitement of the world's biggest football tournament in a quick, accessible format. Each match takes just a few minutes, making the entire tournament completable in a single sitting. The variety of national teams, the escalating difficulty, and the tournament atmosphere combine to create a compelling football experience.</p>
+<h2 class="wp-block-heading">How to Play Soccer Skills World Cup Online</h2>
+<p>Use the arrow keys or WASD to control your player on the pitch. Movement is responsive and allows for quick direction changes that are essential for dribbling past defenders. Sprint by holding the shift key when you need an extra burst of speed on a breakaway or when tracking back on defense.</p>
+<p>Press the shoot button to take a shot on goal. The direction and power of your shot depend on your player's position and movement at the time of the shot. Shots taken while running produce more power, while stationary shots offer more accuracy. Learn to balance these factors for the most effective finishing.</p>
+<p>Pass to teammates using the pass button to move the ball quickly around the pitch. Quick one-touch passing can create openings in tight defenses and is more effective than trying to dribble through multiple opponents. Use passes to draw defenders out of position before exploiting the space they leave behind.</p>
+<p>On defense, position yourself between the ball and your goal to intercept passes and block shots. Tackle by pressing the tackle button when close to an opponent with the ball, but time it carefully because a missed tackle leaves you out of position. Good defensive positioning and patience prevent more goals than aggressive tackling alone.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -12857,21 +12084,15 @@ export const games = [
     thumbnail: '/images/raft-wars.webp',
     relatedSlugs: ['escaping-the-prison', 'bob-the-robber', 'temple-of-boom'],
     excerpt: 'Raft Wars is the classic turn-based shooting game where baby Simon and his brother defend their treasure from pirates, vikings, and other enemies by launching tennis balls from their raft.',
-    content: `<p>Raft Wars is the classic turn-based shooting game where baby Simon and his brother defend their buried treasure from waves of enemies by launching projectiles from their raft. Originally created by Martijn Kunst and released as a Flash game, Raft Wars became one of the most popular browser games ever made, and this HTML5 version keeps the fun alive.</p>
-
-<p>The story begins when baby Simon discovers a treasure chest buried at the beach. But word gets out, and soon pirates, Vikings, castle guards, and other treasure hunters come to steal it. Armed with tennis balls and sitting on a makeshift raft, you must aim and fire at enemies to knock them into the water before they do the same to you.</p>
-
-<p>The gameplay is turn-based — you adjust your aim angle and power, then fire. Physics determine where your projectile lands, and hitting enemies knocks them back or off their platforms. Between levels, you earn money to upgrade your raft, buy better weapons, and add crew members. The progression system adds strategic depth to what starts as a simple aiming game.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Raft Wars</strong></h2>
-
-<ul class="wp-block-list">
-<li>Click and drag to aim your shot — adjust angle and power.</li>
-<li>Release to fire your projectile at the enemies.</li>
-<li>Knock all enemies into the water to complete each level.</li>
-<li>Earn money from victories to upgrade weapons and your raft.</li>
-<li>Progress through increasingly challenging waves of enemies.</li>
-</ul>
+    content: `<p>Raft Wars is a beloved turn-based artillery game where two brothers defend their treasure buried on the beach from waves of enemies. Armed with nothing but a tennis ball and a small raft, you must aim and shoot at enemies on opposing platforms, knocking them into the water to protect your hard-won fortune. The simple premise hides a surprisingly strategic and addictive game.</p>
+<p>As you defeat enemies and progress through levels, you earn money to upgrade your arsenal and raft. Better weapons deal more damage and have different trajectories, while raft upgrades improve your durability against enemy attacks. The upgrade system provides a satisfying progression loop where each level makes your raft a more formidable floating fortress.</p>
+<p>The physics-based shooting mechanic requires you to account for trajectory, wind, and distance when aiming. Lining up the perfect shot that knocks an enemy off their platform in one hit is deeply satisfying, especially when the angle seemed impossible at first glance. The game rewards both precision aiming and creative shot angles that exploit the environment.</p>
+<p>Playing Raft Wars online is a charming and addictive experience that appeals to players of all ages. The cute cartoon art style and humorous story contrast nicely with the strategic depth of the turn-based combat. Each level introduces new enemy types and environmental challenges that keep the gameplay evolving through the entire campaign.</p>
+<h2 class="wp-block-heading">How to Play Raft Wars Online</h2>
+<p>Aim your shot by clicking and dragging to set the angle and power. A dotted line shows the approximate trajectory of your projectile. Release to fire at the enemy. The physics feel natural and intuitive, so you will quickly develop a feel for how different angles and power levels affect your shot.</p>
+<p>Take turns exchanging shots with the enemy. Each side fires one projectile per turn, and the goal is to knock all enemies off their platforms or into the water. Direct hits deal maximum damage and knockback, while near misses still do splash damage. Position your shots to exploit weak points in the enemy formation.</p>
+<p>Earn money from each victory and spend it on weapon upgrades and raft improvements between levels. Shotguns spread damage across multiple enemies, rockets deal area damage, and grenades arc over obstacles. Upgrading your raft adds shields and extra hit points that help you survive tougher encounters in later levels.</p>
+<p>Later levels introduce enemies with better weapons, protective structures, and tricky positions that require creative shooting angles. Some enemies hide behind cover that you must destroy first, while others stand on elevated platforms that need precision arced shots. Adapt your strategy and weapon choice to each new challenge for the best results.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -12887,21 +12108,15 @@ export const games = [
     thumbnail: '/images/top-speed-3d.webp',
     relatedSlugs: ['crazy-cars', 'city-car-driving', 'tiger-simulator-3d'],
     excerpt: 'Top Speed 3D is a high-octane racing game where you weave through traffic at breakneck speeds, earn cash, and unlock increasingly powerful supercars.',
-    content: `<p>Top Speed 3D is a high-octane racing game where you weave through traffic at breakneck speeds, earn cash, and unlock increasingly powerful supercars. The game puts you behind the wheel of some of the world&#8217;s fastest cars and challenges you to navigate through busy highways without crashing.</p>
-
-<p>The gameplay is straightforward but addictive — steer your car left and right to dodge traffic, and the longer you survive without crashing, the more money you earn. Use your earnings to buy faster, more exotic cars that handle differently and reach higher top speeds. The 3D graphics create an immersive sense of speed as the scenery blurs past you.</p>
-
-<p>Each car in the game has unique characteristics including top speed, acceleration, and handling. Starting with a basic car, you work your way up to supercars and hypercars that can reach insane speeds. The traffic density and speed increase as you progress, requiring faster reflexes and better anticipation to avoid collisions.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Top Speed 3D</strong></h2>
-
-<ul class="wp-block-list">
-<li>Use arrow keys or WASD to steer your car.</li>
-<li>Dodge traffic and obstacles on the highway.</li>
-<li>Drive as far as possible without crashing to earn money.</li>
-<li>Use earned money to unlock faster and better cars.</li>
-<li>Each car has different speed, acceleration, and handling stats.</li>
-</ul>
+    content: `<p>Top Speed 3D is a high-octane racing game where you weave through traffic at breakneck speeds, earn cash, and unlock increasingly powerful supercars. The game puts you behind the wheel of some of the fastest machines on the road and challenges you to navigate through dense highway traffic without crashing. Every near miss rewards you with bonus points, encouraging risky overtakes and hair-raising lane changes.</p>
+<p>The car collection is the main draw beyond the racing itself. Starting with a modest hatchback, you earn money from each run based on distance travelled and near misses achieved. That cash goes toward purchasing dream cars like Lamborghinis, Ferraris, and Bugattis, each with distinct handling characteristics and top speeds that fundamentally change how the game feels at high velocity.</p>
+<p>The traffic patterns are procedurally generated, meaning every run presents different challenges and opportunities. Sometimes the road ahead is relatively clear for high-speed stretches, other times traffic bunches up and forces split-second decisions about which gap to thread through. The unpredictability keeps every run exciting and ensures you can never fully memorise a safe path.</p>
+<p>Playing Top Speed 3D online delivers an adrenaline rush that rivals dedicated racing games. The 3D graphics create a genuine sense of speed as the world blurs past your windshield, and the satisfying feeling of threading a perfect line between two trucks at maximum velocity never gets old. Whether you are a car enthusiast or just love the thrill of speed, this game delivers.</p>
+<h2 class="wp-block-heading">How to Play Top Speed 3D Online</h2>
+<p>Use the arrow keys or WASD to steer your car through traffic. Left and right change lanes, while up accelerates and down brakes. The controls are responsive enough for last-second dodges, but at higher speeds you need to plan your moves further ahead as your reaction time window shrinks dramatically.</p>
+<p>Drive as close to other vehicles as possible without hitting them to earn near-miss bonuses that multiply your earnings. These bonuses add up significantly over a long run, making risky driving more rewarding than playing it safe. Chain multiple near misses together for combo multipliers that send your cash earnings skyrocketing.</p>
+<p>Earn cash from each run and spend it in the garage on new vehicles with better performance stats. Each car has different ratings for speed, acceleration, and handling. Faster cars earn more money per run but are harder to control in dense traffic. Find the balance between raw speed and maneuverability that matches your driving style.</p>
+<p>Crashing into any vehicle ends your run immediately, so stay alert and keep scanning the road ahead at all times. Watch for slower-moving trucks that block your view and fast-moving sports cars that appear suddenly in adjacent lanes. The key to long runs is maintaining a steady pace and only taking calculated risks when you have a clear escape route available.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -12917,23 +12132,15 @@ export const games = [
     thumbnail: '/images/crazy-cars.webp',
     relatedSlugs: ['top-speed-3d', 'city-car-driving', 'tiger-simulator-3d'],
     excerpt: 'Crazy Cars is an extreme stunt driving game where you launch cars off massive ramps, perform mid-air flips and tricks, and try to land on increasingly impossible tracks.',
-    content: `<p>Crazy Cars is an extreme stunt driving game where you launch cars off massive ramps, perform mid-air flips and tricks, and try to land safely on increasingly impossible tracks. The game combines the thrill of high-speed driving with physics-based stunt mechanics that reward creative and daring driving.</p>
-
-<p>The tracks are designed to be outrageous — towering ramps, loop-the-loops, corkscrew sections, and gaps that require perfect speed and angle to clear. You earn points for successful stunts, and the more spectacular your aerial maneuvers, the higher your score. Flips, barrel rolls, and combinations multiply your points.</p>
-
-<p>Multiple vehicles are available, each with different weight, speed, and handling characteristics that affect how they perform stunts. Heavier cars are more stable on landing but harder to flip, while lighter cars spin easily but can be tricky to control. Finding the right car for each track is part of the strategy.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Crazy Cars</strong></h2>
-
-<ul class="wp-block-list">
-<li>Use arrow keys or WASD to drive and steer your car.</li>
-<li>Hit ramps at full speed to launch into the air.</li>
-<li>Tilt your car mid-air to perform flips and tricks.</li>
-<li>Land on all four wheels to complete stunts successfully.</li>
-<li>Earn points for stunts and unlock new vehicles and tracks.</li>
-</ul>
-
-<p>You can explore a full collection of fun and nostalgic <a href="https://googledoodlegames.org">Google Doodle games</a> all in one place, perfect for a quick break or a bit of casual gaming.</p>
+    content: `<p>Crazy Cars is an adrenaline-pumping racing game where you push exotic supercars to their absolute limits on tracks designed for pure speed and spectacle. The courses feature impossible ramps, loop-the-loops, corkscrews, and aerial sections that send your car flying through the air before landing on the next stretch of tarmac. Realistic physics would ruin the fun, so the game embraces arcade mayhem instead.</p>
+<p>The car selection features a dream garage of performance machines, from sleek sports cars to muscular hypercars. Each vehicle handles differently, with some favouring top speed on long straights while others excel at the tight turns and aerial maneuvers that the crazier tracks demand. Finding the right car for each track is part of the strategy.</p>
+<p>Track design is the true star of the game. Each course pushes the boundaries of what a racing track can be, with sections that would be physically impossible in real life but feel incredible to drive in the game. Floating track pieces, vertical drops, and spiral sections create moments of pure exhilaration that keep you laughing and gasping in equal measure.</p>
+<p>Playing Crazy Cars online delivers the kind of over-the-top racing experience that arcade fans love. The emphasis is on spectacle and fun rather than simulation accuracy, making it accessible to everyone while still rewarding skilled driving. The variety of tracks and cars provides plenty of content to explore across many racing sessions.</p>
+<h2 class="wp-block-heading">How to Play Crazy Cars Online</h2>
+<p>Use the arrow keys or WASD to control your car. Up accelerates, down brakes, and left and right steer. The controls are tuned for arcade fun rather than simulation realism, so your car responds quickly and recovers from mistakes forgivingly. Focus on maintaining speed through turns rather than braking heavily.</p>
+<p>Hit boost pads on the track for bursts of extra speed that can launch you further off ramps and through aerial sections. Timing your approach to boost pads so you hit them at the right angle maximises their effectiveness. Missing a boost pad on a critical section can cost you valuable seconds.</p>
+<p>Use the nitro boost ability for an on-demand speed increase during crucial moments. Nitro is limited, so save it for long straights where the extra speed has the biggest impact, or use it to recover after slowing down in a difficult section. Managing your nitro usage across the entire race is an important tactical consideration.</p>
+<p>Learn each track's layout through practice laps before racing competitively. Knowing where the big jumps, tight turns, and speed sections are lets you prepare in advance rather than reacting at the last second. The craziest track sections are the most rewarding once you learn to navigate them at full speed without hesitation.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -12949,21 +12156,15 @@ export const games = [
     thumbnail: '/images/escaping-the-prison.webp',
     relatedSlugs: ['bob-the-robber', 'raft-wars', 'brain-test'],
     excerpt: 'Escaping the Prison is the iconic Henry Stickmin choose-your-own-adventure game where you help the loveable stick figure break out of jail using creative and hilarious methods.',
-    content: `<p>Escaping the Prison is the iconic Henry Stickmin choose-your-own-adventure game created by PuffballsUnited. You play as Henry Stickmin, a loveable stick figure who&#8217;s been locked up in prison and needs to find a way out. The game presents you with choices at critical moments, and each decision leads to either a hilarious failure or one step closer to freedom.</p>
-
-<p>The brilliance of Escaping the Prison lies in its humour. Most choices lead to spectacular and funny failure animations — Henry might try to use a rocket launcher and blow himself up, attempt to dig a tunnel and end up in China, or try to disguise himself with hilariously poor results. Finding the correct path requires trial and error, and the failures are so entertaining that you&#8217;ll want to try every option.</p>
-
-<p>Originally released as a Flash game on Newgrounds, Escaping the Prison was part of the Henry Stickmin series that eventually led to the full game The Henry Stickmin Collection on Steam. This browser version preserves the classic experience with all its original charm and comedy. Multiple endings mean there&#8217;s more than one way to escape.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Escaping the Prison</strong></h2>
-
-<ul class="wp-block-list">
-<li>Watch the animated scenes as the story unfolds.</li>
-<li>When presented with choices, click on an option to see what happens.</li>
-<li>Most choices lead to funny failures — enjoy them!</li>
-<li>Find the correct sequence of choices to successfully escape the prison.</li>
-<li>Try every option to see all the hilarious failure animations.</li>
-</ul>
+    content: `<p>Escaping the Prison is the second entry in the hilarious Henry Stickmin series of interactive adventures. After his botched bank heist in Breaking the Bank, Henry finds himself behind bars. A mysterious package arrives containing a cake with tools hidden inside, and you must choose how to use them to orchestrate your escape. Most choices end in spectacular failure, but finding the right ones leads to freedom.</p>
+<p>The game expands significantly on its predecessor with longer paths, more decision points, and three distinct endings that each represent a different escape approach. The Government Supported Private Investigator path plays it clever, the Badass Bust Out goes full action hero, and the Sneaky Escapist requires stealth and cunning. Each ending plays out entirely differently.</p>
+<p>The humor elevates the experience from a simple choose-your-own-adventure to something truly memorable. Pop culture references, visual gags, and absurd scenarios fill every path. The fail states are often funnier than the successes, with Henry's botched escape attempts featuring elaborate cartoon violence and clever parodies that reward watching every single option.</p>
+<p>Playing Escaping the Prison online is essential for Henry Stickmin fans and anyone who enjoys interactive comedy. The expanded format over Breaking the Bank shows the series finding its voice, with longer animated sequences, more creative choices, and the multiple ending structure that would define every subsequent entry. It is short, sweet, and endlessly rewatchable.</p>
+<h2 class="wp-block-heading">How to Play Escaping the Prison Online</h2>
+<p>Choose from the items in the cake to determine your initial escape approach. Each item leads to a completely different storyline with unique scenes, characters, and challenges. There is no wrong first choice because all paths are entertaining and worth experiencing.</p>
+<p>Click on options at decision points to advance the story. Watch carefully because some choices trigger quick-time events that require fast clicking. Missing a quick-time event results in a fail state, but the fail animations are so entertaining that failure feels like its own reward.</p>
+<p>Explore every option and watch every fail animation to get the full experience. The developers packed an impressive amount of content into each branching path, including hidden references and visual jokes that only appear in specific fail states. Completionists will want to see every possible outcome.</p>
+<p>After finding all three endings, you will have experienced the full range of Henry's escape skills, from clever gadget use to brute force to pure stealth. Each ending leaves Henry in a different situation that sets up future entries in the series, making Escaping the Prison an essential chapter in the ongoing saga.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -12979,21 +12180,15 @@ export const games = [
     thumbnail: '/images/n-gon.webp',
     relatedSlugs: ['temple-of-boom', 'iron-snout', 'stick-defenders'],
     excerpt: 'N-Gon is a physics-based platformer shooter with roguelike elements. Fight through procedurally generated levels, collect powerful upgrades, and see how far you can survive.',
-    content: `<p>N-Gon is a physics-based platformer shooter with roguelike elements, created by developer Landgreen as an open-source project. You control a small polygon character armed with various weapons, fighting through procedurally generated levels filled with enemies, obstacles, and power-ups. The physics engine makes every interaction feel dynamic and unpredictable.</p>
-
-<p>What sets N-Gon apart is its deep upgrade system. After clearing groups of enemies, you can choose from a selection of power-ups that fundamentally change how you play. You might gain the ability to spawn drones, increase your bullet count, add explosive properties to your shots, or enhance your movement abilities. The combinations create wildly different playthroughs each time.</p>
-
-<p>The game&#8217;s minimalist vector graphics belie its complexity. Enemies come in many varieties, from simple chasers to shielded units, teleporters, and bosses with unique attack patterns. The procedural generation ensures no two runs are identical, and the roguelike structure means death sends you back to the beginning with your knowledge but without your upgrades. It&#8217;s endlessly replayable.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play N-Gon</strong></h2>
-
-<ul class="wp-block-list">
-<li>Use WASD or arrow keys to move your character.</li>
-<li>Aim with the mouse and click to shoot.</li>
-<li>Defeat enemies to earn upgrade choices.</li>
-<li>Choose upgrades that complement your playstyle.</li>
-<li>Survive as many levels as possible — death restarts your run.</li>
-</ul>
+    content: `<p>N-Gon is a physics-based roguelike arena shooter where you control a humble polygon fighting for survival against waves of hostile shapes. What begins as a simple shooting gallery quickly escalates into a chaotic bullet storm as enemy types multiply and your chosen upgrades transform your little polygon into a devastating combat machine. The procedurally generated upgrade paths ensure no two runs play the same way.</p>
+<p>The upgrade system is where N-Gon truly shines. After clearing each wave, you choose from randomly offered enhancements that dramatically alter your abilities. One run might give you rapid-fire bullets and speed boosts, turning you into a mobile gunner. Another might stack area-of-effect explosions and health regeneration for a tank-like build. The combinations feel nearly infinite.</p>
+<p>The physics engine adds a layer of chaotic fun to every encounter. Enemies bounce, shatter, and collide in satisfying ways, and your own momentum plays a role in combat. Knockback effects send enemies flying into each other, creating chain reactions that clear entire waves in spectacular fashion. The interplay between physics and combat makes every fight dynamic and unpredictable.</p>
+<p>Playing N-Gon online delivers one of the deepest roguelike shooter experiences available in a browser. The tight controls, deep build variety, and excellent replayability have earned it a devoted following among fans of the genre. Each run takes just minutes but the variety keeps you starting new ones for hours as you discover new upgrade synergies.</p>
+<h2 class="wp-block-heading">How to Play N-Gon Online</h2>
+<p>Move with WASD or arrow keys while aiming and shooting with the mouse. Your polygon automatically fires in the direction of your cursor, so focus on positioning and dodging while keeping your crosshair on priority targets. The dual-input control scheme feels natural and responsive after a few minutes of practice.</p>
+<p>After clearing each wave, choose from the offered upgrade options carefully. Some upgrades synergize powerfully with others, like combining increased projectile count with piercing shots to create devastating spread attacks. Read each option and think about how it fits your current build before committing.</p>
+<p>Prioritise dodging over dealing damage in the early waves while your build is still developing. A dead polygon deals no damage regardless of upgrades. Use the arena space to kite enemies in circles, creating distance when overwhelmed and closing in when the crowd thins out.</p>
+<p>As waves progress, enemy variety and density increase dramatically. Flying enemies, shielded brutes, and fast-moving swarms each require different tactics. Adapt your movement patterns and target priority based on the current wave composition. The best runs come from players who stay flexible and adjust their strategy on the fly rather than relying on one approach.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13009,21 +12204,15 @@ export const games = [
     thumbnail: '/images/tiger-simulator-3d.webp',
     relatedSlugs: ['city-car-driving', 'top-speed-3d', 'crazy-cars'],
     excerpt: 'Tiger Simulator 3D lets you experience life as a wild tiger in a 3D open world. Hunt prey, explore diverse environments, and survive in this immersive animal simulation game.',
-    content: `<p>Tiger Simulator 3D lets you experience life as a wild tiger in a 3D open world. Hunt prey, explore diverse environments, raise a family, and survive against threats in this immersive animal simulation game. The game drops you into a vast wilderness where you must use your predatory instincts to thrive.</p>
-
-<p>As a tiger, you roam freely through forests, grasslands, and other natural habitats. Your primary objective is survival — you need to hunt animals for food, find water, and avoid dangers. The hunting mechanics are satisfying, requiring you to stalk prey, time your pounce, and take down animals ranging from rabbits to larger game.</p>
-
-<p>The 3D open world is surprisingly large for a browser game, with varied terrain and environments to explore. As you progress, you can grow stronger, unlock abilities, and even find a mate to start a family. The simulation aspects add depth beyond simple hunting, making it a genuinely engaging experience for fans of animal simulation games.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Tiger Simulator 3D</strong></h2>
-
-<ul class="wp-block-list">
-<li>Use WASD to move your tiger through the 3D world.</li>
-<li>Use the mouse to look around and control the camera.</li>
-<li>Click to attack prey and enemies.</li>
-<li>Hunt animals to maintain your hunger and health.</li>
-<li>Explore the open world to discover new areas and challenges.</li>
-</ul>
+    content: `<p>Tiger Simulator 3D lets you experience life as a wild tiger in a fully explorable 3D open world. Hunt prey, explore diverse environments, raise a family of cubs, and survive against threats in this immersive animal simulation game. The game drops you into a sprawling wilderness where you must master the art of the hunt to keep your tiger healthy and thriving in the wild.</p>
+<p>The open world is filled with different prey animals, each with their own behaviours and difficulty levels. Rabbits are easy catches for building your skills, deer require more strategic stalking, and larger animals put up a real fight. Your tiger has health, hunger, and energy stats that you must manage by hunting regularly and resting between hunts to stay in peak condition.</p>
+<p>As you progress, you can find a mate and raise tiger cubs that follow you through the wilderness. Protecting your family from threats while keeping everyone fed adds a layer of responsibility that makes the simulation feel more meaningful than a simple hunting game. The family mechanic gives you long-term goals beyond basic survival.</p>
+<p>Playing Tiger Simulator 3D online is a unique experience for anyone fascinated by wildlife or who simply wants to see the world through a predator's eyes. The 3D environments are surprisingly varied, featuring forests, plains, mountains, and rivers that each offer different hunting opportunities and visual scenery to enjoy as you roam freely.</p>
+<h2 class="wp-block-heading">How to Play Tiger Simulator 3D Online</h2>
+<p>Use WASD or arrow keys to move your tiger through the 3D environment. The left shift key lets you sprint for short bursts, which is essential during hunts when prey tries to flee. Sprinting drains energy quickly, so use it strategically rather than running everywhere at full speed.</p>
+<p>Approach prey animals carefully using the environment for cover when possible. When you are close enough, sprint toward your target and press the attack button to pounce. Larger prey may require multiple attacks to bring down, so stay persistent and avoid taking too much damage from their defensive kicks and charges.</p>
+<p>Monitor your tiger's hunger bar and eat regularly to maintain your health and energy levels. After a successful hunt, approach the downed prey to feed and recover your stats. Your energy regenerates while resting, so find a safe spot to recover between hunts. Managing the balance between hunting, eating, and resting is the key to long-term survival.</p>
+<p>Explore the entire map to discover new areas with different prey species and environmental challenges. Water sources attract groups of animals, making them excellent hunting grounds for efficient feeding. As your tiger grows stronger and you start building a family, you will need to range further to find enough food for everyone and claim new territory as your own.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13039,21 +12228,15 @@ export const games = [
     thumbnail: '/images/dreadhead-parkour.webp',
     relatedSlugs: ['temple-of-boom', 'iron-snout', 'n-gon'],
     excerpt: 'Dreadhead Parkour is a fast-paced parkour platformer where you run, wall-jump, flip, and slide through challenging urban environments with fluid movement mechanics.',
-    content: `<p>Dreadhead Parkour is a fast-paced parkour platformer where you run, wall-jump, flip, and slide through challenging urban environments with fluid movement mechanics. The game captures the thrill of freerunning with responsive controls that let you chain together impressive moves as you navigate increasingly complex levels.</p>
-
-<p>Each level presents a series of obstacles — walls to climb, gaps to jump, rails to slide under, and platforms to leap between. The key is maintaining your momentum. A good parkour run flows smoothly from one move to the next without stopping, and the game rewards this with better completion times and scores. Wall jumps, double jumps, and slides can be combined into fluid chains.</p>
-
-<p>The level design progressively introduces new mechanics and challenges. Early levels teach you the basics of running and jumping, while later levels require precise timing, creative route-finding, and mastery of advanced moves like wall runs and consecutive wall jumps. The clean visual style keeps the focus on the gameplay, and the satisfying physics make every successful run feel great.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Dreadhead Parkour</strong></h2>
-
-<ul class="wp-block-list">
-<li>Use arrow keys or WASD to move and jump.</li>
-<li>Press Up or W to jump — press again near a wall to wall-jump.</li>
-<li>Press Down or S to slide under obstacles.</li>
-<li>Chain moves together to maintain momentum.</li>
-<li>Reach the end of each level as quickly as possible.</li>
-</ul>
+    content: `<p>Dreadhead Parkour is a high-energy first-person running game where you sprint, jump, and vault across rooftops and urban environments with fluid freerunning moves. Your character moves with incredible momentum, chaining wall runs, slides, and precision jumps together into seamless parkour sequences. The first-person perspective makes every leap feel visceral and every near-miss heart-pounding.</p>
+<p>The level design encourages creative movement through multiple paths and hidden shortcuts. While there is usually an obvious route through each level, skilled players discover faster lines by chaining advanced moves together. Wall-running into a backflip over a gap, sliding under a barrier and immediately vaulting over the next obstacle — the game rewards players who push the movement system to its limits.</p>
+<p>The sense of speed is exhilarating. As you chain moves together without stopping, your character builds momentum that makes subsequent jumps longer and faster. Breaking this chain with a stumble or bad landing resets your speed, creating a satisfying skill loop where maintaining flow is its own reward on top of faster completion times.</p>
+<p>Playing Dreadhead Parkour online brings the thrill of urban freerunning to your browser without any of the real-world danger. The smooth controls and responsive movement system make it one of the best parkour games available, and the first-person perspective creates an immersive sense of speed and height that third-person games cannot match.</p>
+<h2 class="wp-block-heading">How to Play Dreadhead Parkour Online</h2>
+<p>Use WASD to move and the mouse to look around. Press spacebar to jump and hold shift to slide. The basic controls are simple but combining them at speed creates complex parkour sequences. Start slow and gradually increase your speed as you learn each level's layout and obstacles.</p>
+<p>Run toward walls at an angle and jump to initiate a wall run. Wall runs let you reach higher platforms and cross gaps that normal jumps cannot cover. The timing and angle of your approach determine how far and high you can wall run, so experiment to find the sweet spots.</p>
+<p>Chain moves together without stopping to build and maintain momentum. A wall run into a jump into a slide into another jump creates a flow state that carries you through levels at incredible speed. Breaking the chain resets your momentum, so focus on smooth transitions between moves.</p>
+<p>Each level can be completed in multiple ways, and the fastest route is rarely the most obvious one. Look for alternative paths along walls, over rooftops, and through shortcuts that save precious seconds. Replay levels to find faster routes and improve your completion times. The satisfaction of finding a perfect line through a complex level is what makes parkour games so compelling.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13069,21 +12252,15 @@ export const games = [
     thumbnail: '/images/brain-test.webp',
     relatedSlugs: ['google-feud', 'kakuro', 'chess-computer'],
     excerpt: 'Brain Test: Tricky Puzzles is a brain teaser game that challenges you with creative puzzles requiring outside-the-box thinking. Each level has an unexpected twist.',
-    content: `<p>Brain Test: Tricky Puzzles is a brain teaser game that challenges you with creative puzzles requiring outside-the-box thinking. Each level presents a seemingly simple question or scenario, but the answer is never what you&#8217;d expect. The game deliberately tricks you into thinking conventionally, then rewards creative and lateral thinking.</p>
-
-<p>The puzzles range from visual tricks and wordplay to interactive challenges where you need to manipulate elements on the screen in unexpected ways. You might need to move objects that don&#8217;t seem movable, tap things in a specific order, use the phone&#8217;s features creatively, or interpret the question in a completely different way than initially intended. The &#8220;aha!&#8221; moment when you figure out each puzzle is incredibly satisfying.</p>
-
-<p>With hundreds of levels, Brain Test provides hours of entertainment. The difficulty ramps up gradually, but even early puzzles can stump you if you&#8217;re not thinking creatively enough. There are hints available if you get truly stuck, but the real fun is in that moment when the unconventional solution clicks. It&#8217;s the perfect game for anyone who enjoys riddles, brain teasers, and thinking differently.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Brain Test</strong></h2>
-
-<ul class="wp-block-list">
-<li>Read each puzzle question carefully — but don&#8217;t take it at face value.</li>
-<li>Think outside the box — the obvious answer is usually wrong.</li>
-<li>Try interacting with different elements on the screen.</li>
-<li>Some puzzles require you to move, shake, or rotate elements.</li>
-<li>Use hints if you get stuck, but try to solve puzzles on your own first.</li>
-</ul>
+    content: `<p>Brain Test is a tricky puzzle game that delights in subverting your expectations. Each level presents what appears to be a straightforward question or challenge, but the obvious answer is almost never the correct one. The solutions require lateral thinking, creative interaction with the screen, and a willingness to try the absurd. It is a game that rewards thinking outside every box imaginable.</p>
+<p>The puzzles range from clever wordplay to physical manipulation of the game interface itself. One level might ask you to find the biggest number, but the answer is to physically drag and enlarge a number on screen. Another might ask you to put an elephant in a fridge, requiring you to resize the elephant or the fridge. The solutions are always logical in hindsight but rarely obvious in the moment.</p>
+<p>With hundreds of levels, the game maintains freshness by constantly introducing new puzzle types and mechanics. Just when you think you understand the game's logic, it introduces a new twist that makes you rethink everything. The difficulty is in overcoming your own assumptions rather than any technical skill requirement.</p>
+<p>Playing Brain Test online is a delightfully mind-bending experience that will make you feel both brilliant and foolish in rapid succession. The humor in the puzzle solutions keeps the mood light even when you are stuck, and the moment of realisation when you finally understand a tricky answer is genuinely satisfying. Perfect for sharing with friends and comparing who figured out each puzzle first.</p>
+<h2 class="wp-block-heading">How to Play Brain Test Online</h2>
+<p>Read each question or prompt carefully, but remember that the obvious interpretation is usually wrong. The game loves to play with words, visual expectations, and common assumptions. Approach each puzzle with the mindset that the answer will surprise you, and you will be better prepared.</p>
+<p>Interact with the screen in creative ways. Drag objects, shake your device or screen, tilt elements, and try clicking on things that do not look interactive. Many solutions involve manipulating the puzzle elements physically rather than answering the question as stated. The screen itself is often part of the puzzle.</p>
+<p>If you are stuck, try the most ridiculous solution you can think of. Brain Test rewards absurd thinking and creative approaches. The answer that seems too silly to work is often exactly what the game wants you to do. Abandoning conventional logic is surprisingly effective.</p>
+<p>Use the hint system sparingly when truly stuck, but give each puzzle a genuine attempt first. The satisfaction of solving a tricky puzzle independently far exceeds getting the answer from a hint. Some puzzles have multiple valid approaches, so even if your first creative idea does not work, keep experimenting with different interactions.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13099,21 +12276,15 @@ export const games = [
     thumbnail: '/images/city-car-driving.webp',
     relatedSlugs: ['top-speed-3d', 'crazy-cars', 'tiger-simulator-3d'],
     excerpt: 'City Car Driving Simulator puts you behind the wheel in a realistic 3D city environment. Drive freely through streets, follow traffic rules, or test the limits of your vehicle.',
-    content: `<p>City Car Driving Simulator puts you behind the wheel in a realistic 3D city environment. Drive freely through urban streets, follow traffic lights and road rules, or ignore them entirely and see what happens. The open-world city is filled with traffic, pedestrians, and landmarks to explore at your own pace.</p>
-
-<p>Unlike racing games that focus purely on speed, City Car Driving Simulator emphasises the experience of driving in a city. You can practice parking, navigate roundabouts, deal with traffic jams, and explore back streets. The driving physics strike a balance between realistic and fun — cars handle plausibly but you won&#8217;t need a degree in automotive engineering to enjoy the game.</p>
-
-<p>Multiple vehicles are available, from compact city cars to sports cars and SUVs. Each vehicle handles differently, giving you varied experiences as you explore the same city. The day-night cycle and weather effects add atmosphere, and the large map ensures there&#8217;s always a new area to discover. It&#8217;s the perfect game for anyone who finds the simple act of driving relaxing and enjoyable.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play City Car Driving Simulator</strong></h2>
-
-<ul class="wp-block-list">
-<li>Use WASD or arrow keys to drive — W/Up to accelerate, S/Down to brake.</li>
-<li>A/D or Left/Right to steer.</li>
-<li>Use the mouse to look around while driving.</li>
-<li>Follow traffic rules or drive freely — it&#8217;s your choice.</li>
-<li>Explore the city and try different vehicles.</li>
-</ul>
+    content: `<p>City Car Driving is a realistic urban driving simulator that puts you behind the wheel on busy city streets. Unlike arcade racing games, this simulator focuses on proper driving technique, traffic law compliance, and navigating real-world driving scenarios. Traffic lights, speed limits, pedestrian crossings, and intersection rules all apply, creating a uniquely educational yet entertaining experience.</p>
+<p>The city environment is richly detailed with multi-lane roads, roundabouts, parking structures, and residential streets that each present different driving challenges. Rush-hour traffic creates dense conditions where patience and lane discipline are essential, while quieter periods let you practice specific maneuvers like parallel parking and three-point turns.</p>
+<p>The vehicle physics feel grounded and realistic. Cars accelerate, brake, and turn with weight and momentum that reward smooth inputs over aggressive jerking of the controls. Different weather conditions affect road grip and visibility, adding another layer of challenge for drivers who want to test their skills in adverse conditions.</p>
+<p>Playing City Car Driving online is valuable for new drivers looking to practice in a safe environment and experienced drivers who enjoy the meditative quality of focused, rules-based driving. The simulator provides a surprisingly relaxing experience when you embrace the pace and focus on driving well rather than fast.</p>
+<h2 class="wp-block-heading">How to Play City Car Driving Online</h2>
+<p>Use the arrow keys or WASD to control your vehicle. Up accelerates, down brakes, and left and right steer. The steering is designed to feel realistic, so gentle inputs produce smooth lane changes while sharp inputs can cause your car to slide, especially on wet roads.</p>
+<p>Obey traffic rules for the best experience and score. Stop at red lights, yield at intersections, maintain the speed limit, and use your turn signals when changing lanes. The game monitors your driving behaviour and penalises infractions, encouraging you to develop good habits.</p>
+<p>Navigate to waypoints marked on your minimap to complete driving missions. Missions range from simple point-to-point deliveries to complex routes that test your knowledge of intersection rules and multi-lane navigation. Each completed mission earns you progress toward unlocking new vehicles and city areas.</p>
+<p>Practice specific driving skills in the designated areas. Parking lots let you work on parallel and perpendicular parking, highway sections test your merging and lane-changing abilities, and residential areas require awareness of pedestrians and cyclists. Each area focuses on a different aspect of driving that contributes to your overall skill development.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13129,21 +12300,15 @@ export const games = [
     thumbnail: '/images/gold-digger-frvr.webp',
     relatedSlugs: ['raft-wars', 'brain-test', 'temple-of-boom'],
     excerpt: 'Gold Digger FRVR is an addictive mining game where you dig through layers of earth to find gold, gems, and treasures. Upgrade your equipment to dig deeper and discover rare finds.',
-    content: `<p>Gold Digger FRVR is an addictive mining game where you dig through layers of earth to find gold, gems, and treasures buried deep underground. Starting with basic tools, you chip away at dirt and rock, collecting valuable minerals that you can sell to upgrade your equipment and dig even deeper.</p>
-
-<p>The gameplay loop is simple but incredibly satisfying. Each swing of your pickaxe breaks through a block of earth, occasionally revealing gold nuggets, diamonds, rubies, and other valuable items. As you dig deeper, the blocks become harder to break and the treasures become more valuable. Upgrading your pickaxe, drill, and other tools lets you mine more efficiently and reach the rarest items hidden in the deepest layers.</p>
-
-<p>FRVR (Forever) games are known for their polished, accessible design, and Gold Digger is no exception. The clean graphics, satisfying mining sounds, and steady progression create a &#8220;just one more dig&#8221; feeling that makes it hard to stop playing. The game perfectly captures the appeal of discovery — you never know what treasure might be hiding just one block away.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Gold Digger FRVR</strong></h2>
-
-<ul class="wp-block-list">
-<li>Click or tap to dig through blocks of earth.</li>
-<li>Collect gold, gems, and treasures as you find them.</li>
-<li>Sell collected items to earn money for upgrades.</li>
-<li>Upgrade your tools to dig faster and break harder blocks.</li>
-<li>Dig as deep as possible to find the rarest and most valuable items.</li>
-</ul>
+    content: `<p>Gold Digger FRVR sends you underground on a mining adventure where you dig through layers of earth to collect gold nuggets, gems, and valuable minerals. Your miner descends into procedurally generated caverns, using a pickaxe to carve paths through dirt and rock while avoiding hazards like underground rivers, gas pockets, and collapsing tunnels. The deeper you dig, the richer the rewards but the greater the dangers.</p>
+<p>The digging mechanic is deeply satisfying. Each swing of the pickaxe carves through terrain with chunky, tactile feedback. Different soil types require different numbers of hits, from soft dirt that crumbles in one strike to hard rock that takes sustained effort. Planning your route to maximise valuable finds while minimising wasted effort on empty rock is the strategic heart of the game.</p>
+<p>Treasure is distributed with increasing rarity as you dig deeper. Surface layers yield common minerals worth modest amounts, while deep caverns hide gold veins, diamond clusters, and rare artifacts worth fortunes. The risk-reward calculation of pushing deeper versus returning to the surface with your current haul creates genuine tension on every mining expedition.</p>
+<p>Playing Gold Digger FRVR online is a relaxing yet engaging mining experience that appeals to players who enjoy progression and exploration. The simple controls and satisfying digging feedback make it perfect for casual sessions, while the depth-based reward system provides motivation for longer excavation runs. It is mining at its most pure and enjoyable.</p>
+<h2 class="wp-block-heading">How to Play Gold Digger FRVR Online</h2>
+<p>Use the arrow keys or click to direct your miner and dig through the underground terrain. Moving into a block of dirt or rock automatically mines it. Gravity affects your miner, so digging straight down is easy but climbing back up requires finding or creating a navigable path.</p>
+<p>Collect gold nuggets, gems, and other valuables as you encounter them underground. Each item has a different value that adds to your total haul. Fill your inventory with the highest-value items you can find before returning to the surface to sell your loot and fund upgrades for your next expedition.</p>
+<p>Upgrade your pickaxe, lantern, and inventory capacity between digs using the money you earn. A better pickaxe breaks rock faster, a brighter lantern reveals more of the underground, and a larger inventory lets you carry more treasure per trip. Balance your upgrades to match your preferred play depth and style.</p>
+<p>Watch for hazards as you dig deeper. Underground water can flood tunnels, unstable ceilings can collapse, and certain rock formations indicate dangerous areas. Learn to read the terrain and plan safe routes that avoid natural hazards while still reaching the richest deposits. A careful miner lives to dig another day and keeps all their hard-earned treasure.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13159,21 +12324,15 @@ export const games = [
     thumbnail: '/images/swingo.webp',
     relatedSlugs: ['dreadhead-parkour', 'iron-snout', 'n-gon'],
     excerpt: 'Swingo is a physics-based swinging game where you control a monkey swinging from vine to vine. Time your releases perfectly to build momentum and reach the finish line.',
-    content: `<p>Swingo is a physics-based swinging game where you control a monkey swinging from vine to vine through the jungle. The mechanics are deceptively simple — press to grab a vine, release to let go and fly through the air — but mastering the timing and momentum requires genuine skill and practice.</p>
-
-<p>The physics engine drives the entire experience. Your monkey swings on vines like a pendulum, and the angle and speed at which you release determine where you&#8217;ll fly next. Release too early and you won&#8217;t reach the next vine. Release too late and you&#8217;ll fly off in the wrong direction. The sweet spot creates a satisfying arc that carries you smoothly to the next swing point.</p>
-
-<p>Levels introduce various obstacles and challenges — gaps of different sizes, moving platforms, dangerous objects to avoid, and vines placed at tricky angles. The difficulty curve is well-designed, starting with simple straight swings and progressing to complex sequences that require precise timing and spatial awareness. The one-button control scheme makes it accessible to anyone, but the physics depth means there&#8217;s always room for improvement.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Swingo</strong></h2>
-
-<ul class="wp-block-list">
-<li>Click or press to grab onto a vine.</li>
-<li>Release to let go and fly through the air.</li>
-<li>Time your release to build momentum and reach the next vine.</li>
-<li>Avoid obstacles and gaps between platforms.</li>
-<li>Reach the finish line of each level to advance.</li>
-</ul>
+    content: `<p>Swingo is a physics-based swinging game where you launch a character from pendulum to pendulum across a colourful obstacle course. The simple one-button mechanic of releasing your grip at the right moment creates surprisingly deep gameplay, as the angle, timing, and speed of your release determine your trajectory through increasingly complex courses.</p>
+<p>The physics feel natural and satisfying. Your character swings with realistic momentum, building speed on downswings and slowing at the apex. Releasing at the bottom of a swing sends you forward with maximum horizontal speed, while releasing near the top provides more vertical lift. Mastering these physics fundamentals is the key to clearing longer gaps and reaching higher platforms.</p>
+<p>Level design starts simple with straightforward swing points and gradually introduces complications. Moving anchors, disappearing ropes, wind gusts, and precision landing zones transform the game from a casual swinger to a challenging puzzle platformer. Each new obstacle type forces you to reconsider your timing and approach.</p>
+<p>Playing Swingo online is a delightfully addictive experience with a gameplay loop that is easy to understand but difficult to master. The one-button control scheme means anyone can play, but the physics depth ensures that skilled players achieve significantly better results. It is the perfect game for quick sessions where you want to test your timing skills.</p>
+<h2 class="wp-block-heading">How to Play Swingo Online</h2>
+<p>Click or press spacebar to grab onto swing points as your character passes near them. Your character automatically swings once attached, building momentum with each pendulum arc. The longer you swing, the more speed you build, but waiting too long wastes time and may cause you to overshoot your target.</p>
+<p>Release your grip by clicking again or pressing spacebar at the optimal moment. For maximum forward distance, release at the lowest point of your swing when horizontal speed peaks. For maximum height, release slightly before the apex of your forward swing to convert momentum into upward trajectory.</p>
+<p>Time your grabs and releases to chain swings smoothly. The best runs maintain continuous momentum through multiple swing points without pausing. Each transition between swings should feel fluid, with the release of one swing leading naturally into the catch of the next.</p>
+<p>Watch for special swing points and obstacles that modify the standard physics. Some points rotate on their own, requiring you to time your grab carefully. Others have elastic ropes that stretch and snap you forward with extra speed. Learning how each special element affects your trajectory lets you use them to your advantage rather than being caught off guard.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13189,21 +12348,15 @@ export const games = [
     thumbnail: '/images/stick-defenders.webp',
     relatedSlugs: ['temple-of-boom', 'iron-snout', 'n-gon'],
     excerpt: 'Stick Defenders is a stickman tower defense game where you place warriors and build defenses to protect your base from incoming waves of enemy stick figures.',
-    content: `<p>Stick Defenders is a stickman tower defense game where you place warriors and build defenses to protect your base from incoming waves of enemy stick figures. The game combines the strategic depth of tower defense with the visual charm of stickman games, creating an engaging experience that requires both quick thinking and long-term planning.</p>
-
-<p>Each wave brings different types of enemies — basic foot soldiers, fast runners, armoured tanks, and special units with unique abilities. You counter them by placing different types of defenders: archers for range, swordsmen for close combat, mages for area damage, and special units with powerful abilities. Positioning is crucial — a well-placed archer can cover a choke point, while a misplaced warrior wastes resources.</p>
-
-<p>Between waves, you earn resources to recruit more defenders, upgrade existing ones, and build fortifications. The upgrade system adds depth, letting you specialise your defenders in different ways. A fully upgraded archer might have explosive arrows, while a maxed-out swordsman could have a whirlwind attack that hits multiple enemies. Finding the right combination of units and upgrades for each level is key to victory.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Stick Defenders</strong></h2>
-
-<ul class="wp-block-list">
-<li>Place defenders at strategic positions along the path.</li>
-<li>Choose the right unit types to counter each wave of enemies.</li>
-<li>Earn resources from defeated enemies to recruit and upgrade.</li>
-<li>Upgrade defenders to make them more powerful.</li>
-<li>Survive all waves to complete each level.</li>
-</ul>
+    content: `<p>Stick Defenders is a fast-paced defense game where you command an army of stick figure warriors to protect your base from relentless waves of enemy attackers. Deploy different unit types with unique combat roles, upgrade your defenses, and develop strategies to survive increasingly challenging assaults. The stick figure art style keeps the action clear and readable even during the most chaotic battles.</p>
+<p>Unit variety is key to success. Basic swordsmen hold the front line, archers rain damage from behind, mages cast devastating spells on enemy groups, and specialised units provide buffs, healing, or crowd control. Building balanced armies that cover each other's weaknesses is more effective than stacking a single powerful unit type.</p>
+<p>The wave-based structure creates a natural rhythm of combat and preparation. Between waves, you spend earned gold on new units, upgrades, and base improvements. Each wave introduces tougher enemies with new abilities that force you to adapt your strategy. The escalating difficulty means complacency is punished and constant tactical evolution is rewarded.</p>
+<p>Playing Stick Defenders online delivers satisfying strategic defense gameplay with charming stick figure visuals. The balance between unit management, resource allocation, and tactical positioning creates engaging decisions every round. It is the kind of game that seems simple at first but reveals surprising depth as the difficulty ramps up.</p>
+<h2 class="wp-block-heading">How to Play Stick Defenders Online</h2>
+<p>Click on unit icons to select a unit type and click on the battlefield to deploy them. Each unit costs gold, so manage your resources carefully. Position melee units in front to absorb damage and ranged units behind them to deal damage safely. Formation and positioning are as important as unit selection.</p>
+<p>Upgrade units between waves to improve their stats and unlock special abilities. Upgraded swordsmen gain shields for extra durability, upgraded archers fire faster, and upgraded mages learn more powerful spells. Decide whether to spread upgrades across many units or focus on creating a few elite warriors.</p>
+<p>Build and upgrade base defenses to supplement your army. Walls slow enemy advances, towers provide persistent ranged damage, and traps deal damage to enemies who reach your base perimeter. A well-designed defensive layout can compensate for army losses and buy time for reinforcements.</p>
+<p>Pay attention to the enemy composition preview shown before each wave begins. If the next wave features armoured enemies, prepare anti-armour units. If fast enemies are incoming, deploy crowd control units that can slow them down. Adapting your strategy to each wave's specific threat is the key to surviving the most difficult challenges.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13219,21 +12372,15 @@ export const games = [
     thumbnail: '/images/temple-of-boom.webp',
     relatedSlugs: ['iron-snout', 'n-gon', 'stick-defenders'],
     excerpt: 'Temple of Boom is a fast-paced action platformer where you fight through hordes of enemies in a temple filled with deadly traps, powerful weapons, and epic boss battles.',
-    content: `<p>Temple of Boom is a fast-paced action platformer where you fight through hordes of enemies in a temple filled with deadly traps, powerful weapons, and epic boss battles. The game combines platforming mechanics with intense combat, creating a run-and-gun experience that keeps your adrenaline pumping from start to finish.</p>
-
-<p>You start with basic equipment and quickly find weapons scattered throughout the temple — shotguns, machine guns, rocket launchers, laser weapons, and more exotic armaments. Each weapon has distinct characteristics, and swapping between them mid-combat is essential for dealing with different enemy types. The weapon variety keeps combat fresh and exciting as you discover new firepower.</p>
-
-<p>The temple is filled with environmental hazards — spike traps, lava pits, swinging blades, and collapsing platforms add platforming challenge to the combat. Boss fights punctuate the action, pitting you against massive enemies with unique attack patterns that require strategy to defeat. Multiple playable characters with different abilities add replayability, and the co-op mode lets you tackle the temple with a friend.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Temple of Boom</strong></h2>
-
-<ul class="wp-block-list">
-<li>Use WASD or arrow keys to move and jump.</li>
-<li>Click or use keyboard shortcuts to shoot.</li>
-<li>Pick up weapons dropped by enemies and found in crates.</li>
-<li>Avoid traps and environmental hazards.</li>
-<li>Defeat bosses to progress deeper into the temple.</li>
-</ul>
+    content: `<p>Temple of Boom is an action-packed dungeon crawler where you blast your way through rooms filled with enemies, traps, and treasure. Armed with an ever-growing arsenal of guns, you descend deeper into a mysterious temple, facing tougher enemies and deadlier hazards with each floor. The combination of platforming, shooting, and loot collection creates a compulsive gameplay loop.</p>
+<p>The weapon variety is outstanding. From pistols and shotguns to exotic sci-fi weapons and magical artifacts, each gun handles differently and suits different playstyles. Dual wielding lets you combine weapons for devastating combos, like pairing a close-range shotgun with a long-range rifle for complete coverage across all engagement distances.</p>
+<p>Enemy designs scale in creativity as you descend deeper into the temple. Early floors feature simple melee attackers, but soon you face shielded enemies, flying creatures, ranged shooters, and massive bosses that fill the screen. Each enemy type requires a different approach, and rooms that combine multiple types create chaotic battles that test your multitasking ability.</p>
+<p>Playing Temple of Boom online delivers fast-paced dungeon-crawling action that scratches the same itch as roguelike shooters. The local multiplayer option lets you team up with a friend on the same keyboard for cooperative dungeon clearing, which adds a whole new dimension of fun. The game is easy to pick up but has enough depth to keep you coming back.</p>
+<h2 class="wp-block-heading">How to Play Temple of Boom Online</h2>
+<p>Use WASD to move and jump through the temple rooms. Press W to jump and combine it with directional movement to reach higher platforms and dodge enemy attacks. The platforming controls are tight and responsive, letting you navigate combat arenas with precision.</p>
+<p>Aim and shoot with the mouse. Left click fires your primary weapon and right click throws grenades for area damage. Switch between collected weapons using the number keys or scroll wheel. Having the right weapon ready for each encounter makes a significant difference in your combat effectiveness.</p>
+<p>Collect coins from defeated enemies and open chests scattered throughout the temple. Spend coins at shops between floors to buy new weapons, health restores, and upgrades. Prioritise weapon purchases that complement your existing loadout and health items when you are running low.</p>
+<p>Clear every enemy in a room to unlock the exit and proceed deeper into the temple. Some rooms have multiple exits leading to different paths, and exploring optional side rooms often reveals better loot. Boss rooms appear at regular intervals and require you to learn attack patterns and find safe openings to deal damage.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13249,22 +12396,15 @@ export const games = [
     thumbnail: '/images/iron-snout.webp',
     relatedSlugs: ['temple-of-boom', 'n-gon', 'stick-defenders'],
     excerpt: 'Iron Snout is a hilarious beat-em-up where you play as a martial arts pig fighting endless waves of wolves. Punch, kick, and use the wolves\' own weapons against them.',
-    content: `<p>Iron Snout is a hilarious beat-em-up action game where you play as a martial arts pig fighting endless waves of wolves. Forget everything you know about the Three Little Pigs — this pig doesn&#8217;t need a brick house. Armed with lightning-fast punches and kicks, you stand your ground against an army of wolves attacking from both sides.</p>
-
-<p>The combat is fast, fluid, and incredibly satisfying. Wolves approach from left and right, and you use directional attacks to fight them off. Punches, kicks, uppercuts, and aerial attacks can be combined into devastating combos. But the real fun starts when you grab wolves&#8217; weapons — axes, chainsaws, rockets — and use them against the pack. Catching a thrown axe mid-air and sending it back is endlessly entertaining.</p>
-
-<p>The game features multiple stages with different themed enemies and settings. The classic forest stage has standard wolves, while other stages introduce new enemy types with unique attacks and weapons. The simple controls — just arrow keys and attack buttons — make it easy to pick up, but the depth of the combo system and the increasing enemy difficulty provide a genuine challenge. How many wolves can you defeat?</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Iron Snout</strong></h2>
-
-<ul class="wp-block-list">
-<li>Use arrow keys to attack in different directions.</li>
-<li>Up arrow for uppercuts and aerial attacks.</li>
-<li>Down arrow for low attacks and ground moves.</li>
-<li>Left and right arrows to attack enemies on each side.</li>
-<li>Catch and use enemy weapons for extra damage.</li>
-<li>Survive as long as possible against endless waves of wolves.</li>
-</ul>
+    content: `<p>Iron Snout puts you in control of a tough little pig who refuses to be huffed, puffed, or blown down by the big bad wolves. Standing your ground in the centre of the screen, you fight off endless waves of attacking wolves using nothing but your bare hooves and whatever weapons the wolves accidentally provide. The combat is fast, funny, and deceptively deep for a game with such a simple premise.</p>
+<p>The controls are brilliantly minimalist. Directional inputs alone control everything from basic punches and kicks to grabbing weapons mid-air and performing devastating combos. Wolves attack from both sides, and you need to switch directions rapidly to handle threats on multiple fronts. The simplicity of the inputs contrasts with the complexity of what you can accomplish with them.</p>
+<p>Weapon variety comes from the wolves themselves. Some carry axes, others throw rockets, and you can snatch any weapon from the air and use it against its original owner. Even defeated wolves become projectiles when you kick them into their comrades. The improvised combat creates hilarious chain reactions and satisfying multi-kills that keep every fight entertaining.</p>
+<p>Playing Iron Snout online is a pure arcade delight that anyone can enjoy instantly. The combination of adorable character design, fluid combat animation, and increasingly chaotic wolf waves creates an experience that is impossible to put down. High score chasing becomes addictive as you discover new combat techniques and weapon combinations with each attempt.</p>
+<h2 class="wp-block-heading">How to Play Iron Snout Online</h2>
+<p>Use the arrow keys to attack in different directions. Press left to punch or kick wolves approaching from the left side, and right for wolves from the right. Press up to perform an uppercut that launches enemies skyward, and down to duck under attacks or perform a low sweep.</p>
+<p>Grab weapons and projectiles from the air by pressing the direction they are coming from at the right moment. Catching an axe mid-swing or snatching a rocket from the air before it hits you feels incredible and turns the enemy's weapon against them for massive damage.</p>
+<p>Chain attacks together to build combos that increase your score multiplier. Alternating between directions, mixing grounded attacks with aerial moves, and incorporating weapon grabs into your combo strings produces the highest scores. The combo counter rewards continuous aggression, so stay on the offensive.</p>
+<p>Pay attention to the different wolf types and their unique attack patterns. Basic wolves walk in and swing, but later wolves charge, throw projectiles, or attack from the air. Each type requires slightly different timing and positioning to counter effectively. Survival depends on reading the incoming threats and prioritising the most dangerous ones first.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13280,22 +12420,15 @@ export const games = [
     thumbnail: '/images/fish-eat-fish.webp',
     relatedSlugs: ['google-snake', 'iron-snout', 'swingo'],
     excerpt: 'Fish Eat Fish is a fun multiplayer underwater game where you eat smaller fish to grow bigger while avoiding fish larger than you. Supports up to 3 players on one keyboard.',
-    content: `<p>Fish Eat Fish is a fun multiplayer underwater game where the simple rule &#8220;big fish eats small fish&#8221; drives all the action. You start as a tiny fish and must eat fish smaller than you to grow, while avoiding larger fish that can eat you. The twist? Up to three players can play simultaneously on the same keyboard, turning it into a competitive local multiplayer experience.</p>
-
-<p>The underwater arena is filled with fish of various sizes swimming around. Your fish grows each time you eat a smaller one, and the colour coding makes it easy to tell at a glance which fish you can eat and which to avoid. As you grow, more fish become potential prey, but the largest predators in the arena are always a threat. The balance between hunting and fleeing creates constant tension.</p>
-
-<p>The 3-player mode is where Fish Eat Fish really shines. Three friends sharing one keyboard, each controlling their fish with different key sets, creates hilarious moments of betrayal and competition. You can eat each other when you&#8217;re bigger, leading to dramatic size reversals and last-second escapes. The colourful underwater graphics and simple controls make it perfect for casual gaming sessions with friends.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Fish Eat Fish</strong></h2>
-
-<ul class="wp-block-list">
-<li>Player 1: WASD keys to move.</li>
-<li>Player 2: Arrow keys to move.</li>
-<li>Player 3: Mouse to move.</li>
-<li>Eat fish smaller than you to grow bigger.</li>
-<li>Avoid fish larger than you — they will eat you!</li>
-<li>Grow to become the biggest fish in the ocean.</li>
-</ul>
+    content: `<p>Fish Eat Fish drops you into an underwater world where survival depends on one simple rule: eat fish smaller than you and avoid fish bigger than you. Starting as a tiny fry, you navigate vibrant ocean environments consuming smaller sea creatures to grow larger. As you grow, fish that were once threats become food, and the ocean hierarchy shifts in your favour.</p>
+<p>The ocean environment is richly populated with fish of varying sizes, speeds, and behaviours. Some fish swim in predictable patterns while others dart erratically, making them harder to catch or harder to dodge depending on their size relative to yours. Schools of tiny fish provide quick growth spurts, while solitary large fish represent both opportunities and dangers.</p>
+<p>Growth is not just about size. As you eat and evolve, your fish gains speed, becomes more agile, and may develop special abilities depending on the game mode. The sense of progression from helpless minnow to apex predator is deeply satisfying and creates a clear narrative arc within each play session.</p>
+<p>Playing Fish Eat Fish online is an intuitive and addictive experience that appeals to players of all ages. The simple eat-or-be-eaten concept requires no explanation, yet the emergent gameplay creates tense moments and satisfying triumphs. It is the kind of game where every session tells its own story of survival and growth in the deep blue sea.</p>
+<h2 class="wp-block-heading">How to Play Fish Eat Fish Online</h2>
+<p>Control your fish using the arrow keys or mouse to swim through the ocean environment. Your fish follows your input smoothly, and precise movement control is essential for chasing prey and evading predators. Quick direction changes can help you escape tight situations with larger fish.</p>
+<p>Swim into fish that are smaller than you to eat them and grow larger. A visual indicator shows which fish are safe to eat and which are still too large. When you are unsure about a fish's size relative to yours, err on the side of caution and avoid it until you have grown a bit more.</p>
+<p>Avoid larger fish at all costs. Being consumed by a bigger fish ends your run and resets your size back to the starting point. Stay near the edges of the playing area where you can retreat quickly, and avoid the center where large predators tend to congregate.</p>
+<p>Focus on eating the most efficient food sources available to you. Groups of small fish provide rapid growth with minimal risk, while individual medium-sized fish offer more growth per catch but require more effort. As you approach the size of the largest fish in the area, you become virtually unstoppable but should still watch for any remaining threats.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13311,21 +12444,15 @@ export const games = [
     thumbnail: '/images/bob-the-robber.webp',
     relatedSlugs: ['escaping-the-prison', 'raft-wars', 'brain-test'],
     excerpt: 'Bob the Robber is a stealth puzzle game where you sneak through buildings, avoid guards and cameras, pick locks, and steal valuable loot without getting caught.',
-    content: `<p>Bob the Robber is a stealth puzzle game where you sneak through buildings, avoid guards and cameras, pick locks, and steal valuable loot without getting caught. Bob is a thief with a heart of gold — he only steals from bad guys, using his skills to take down corrupt organisations while pocketing their ill-gotten gains.</p>
-
-<p>Each level is a building filled with security systems, patrolling guards, locked doors, and hidden treasures. You must navigate through the building by hiding in shadows, timing your movements to avoid guard patrol routes, disabling cameras, picking locks with mini-games, and using gadgets to bypass security measures. The stealth mechanics are satisfying — ducking into a doorway just as a guard turns around never gets old.</p>
-
-<p>The puzzle aspect comes from figuring out the optimal route through each level. Guards have predictable patrol patterns that you can learn and exploit. Security cameras have blind spots. Locked doors require finding keys or picking them. Each level is a puzzle to be solved, and finding the route that lets you collect all the loot while avoiding detection is immensely satisfying. The charming art style and humorous cutscenes add personality to what&#8217;s already a very engaging game.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Bob the Robber</strong></h2>
-
-<ul class="wp-block-list">
-<li>Use arrow keys or WASD to move Bob through the building.</li>
-<li>Press Up near doors to hide in doorways and avoid guards.</li>
-<li>Press Up near locks to start the lock-picking mini-game.</li>
-<li>Stay in shadows and avoid guard sight lines and camera views.</li>
-<li>Collect all loot in the level and reach the exit without being caught.</li>
-</ul>
+    content: `<p>Bob the Robber is a stealth-action game that puts you in the shoes of a skilled thief navigating through buildings filled with security systems, guards, and locked safes. Despite being a criminal, Bob is a Robin Hood figure who steals from corrupt organisations to help the less fortunate. Each level is a carefully designed heist that requires patience, timing, and clever use of your thieving tools.</p>
+<p>The stealth mechanics reward careful observation and timing over brute force. Guards patrol set routes, security cameras sweep specific areas, and alarm systems trigger if you move carelessly. Studying patrol patterns, timing your movements to gaps in surveillance, and disabling security systems in the right order creates a satisfying puzzle-like approach to each heist.</p>
+<p>Your toolkit expands as you progress through the game. Lockpicks open doors quietly, hacking devices disable electronics, and disguises let you pass certain checkpoints unchallenged. Knowing which tool to use in each situation and managing your limited supplies adds strategic depth to every mission. The best heists leave no trace that Bob was ever there.</p>
+<p>Playing Bob the Robber online is a charming stealth experience that combines accessible gameplay with genuine strategic depth. The cartoon art style and lighthearted tone make it family-friendly despite the criminal premise, and the level design strikes a perfect balance between challenging and solvable. Each completed heist feels like a masterfully executed plan coming together.</p>
+<h2 class="wp-block-heading">How to Play Bob the Robber Online</h2>
+<p>Use the arrow keys to move Bob through each building. Press up near doors to enter them and interact with objects. Move quietly past guards by timing your movements to their patrol patterns, and hide in shadowy areas or behind objects when a guard looks your way.</p>
+<p>Approach security cameras from their blind spots and disable them using your tools. Each camera has a sweep pattern with predictable gaps that you can exploit. Alternatively, find the security room and disable the camera system entirely if you can reach it without being detected.</p>
+<p>Pick locks and crack safes using timing-based mini-games. Follow the on-screen prompts to pick locks quickly, and solve combination puzzles to open safes. Getting faster at these mini-games reduces the time you spend vulnerable in open areas, lowering your chance of detection.</p>
+<p>Collect all the loot in each level for maximum score, but prioritise the main objective to complete the mission. Optional treasures are often placed in riskier locations that require more advanced stealth techniques to reach safely. Complete missions cleanly without being detected for the best ratings and to unlock bonus content.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13341,21 +12468,15 @@ export const games = [
     thumbnail: '/images/powerline.webp',
     relatedSlugs: ['slither-io', 'paper-io', 'hole-io'],
     excerpt: 'Powerline.io is a multiplayer snake IO game where you grow your electric power line and cut off opponents to eliminate them.',
-    content: `<p>Powerline.io is a multiplayer snake IO game with an electric twist. You control a glowing power line that grows longer as you collect energy orbs scattered across the arena. The goal is to become the longest line while using your tail to cut off and eliminate opponents.</p>
-
-<p>The core mechanic is deceptively simple but endlessly strategic. You can boost for a short burst of speed, which lets you dart in front of opponents and force them to crash into your line. However, boosting costs length, so you need to collect enough energy to sustain it. The risk-reward balance of boosting is what makes every match tense and exciting.</p>
-
-<p>As you grow longer, you become both more powerful and more vulnerable. Your tail takes up more space in the arena, making you harder to avoid — but also easier to trap yourself. Finding the right balance between aggressive play and careful positioning is the key to dominating the leaderboard. With real players from around the world, no two games are ever the same.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Powerline.io</strong></h2>
-
-<ul class="wp-block-list">
-<li>Move your power line with the mouse or arrow keys.</li>
-<li>Collect energy orbs to grow longer and score points.</li>
-<li>Press Space or left-click to boost for a speed burst — costs length.</li>
-<li>Cut across the path of opponents to make them crash into you.</li>
-<li>Avoid crashing into other players' lines or the arena border.</li>
-</ul>
+    content: `<p>Powerline is a modern multiplayer take on the classic snake game where you control a glowing line of energy on a shared playing field. Grow your line by collecting power orbs scattered across the map, and eliminate other players by forcing them to crash into your trail. The neon aesthetic and competitive multiplayer create an electric atmosphere that keeps every round exciting.</p>
+<p>Strategy in Powerline goes far beyond simply collecting orbs. Positioning is everything. Cutting off other players by boxing them in with your trail is the most effective way to eliminate opponents and absorb their energy. Longer lines are more powerful but also harder to maneuver, creating a natural risk-reward balance that rewards skilled play.</p>
+<p>The multiplayer environment means every round plays differently. Human opponents are unpredictable, forming temporary alliances, setting traps, and making desperate moves when cornered. The social dynamics of the game add a layer of depth that AI opponents cannot replicate. Learning to read other players' intentions based on their movement patterns is a skill that develops over time.</p>
+<p>Playing Powerline online drops you into a fast-paced competitive arena that captures the essence of classic snake while adding modern multiplayer thrills. The neon visual style is eye-catching and keeps the action readable even in crowded matches. Rounds are quick enough for casual sessions but strategically deep enough for competitive players seeking to dominate the leaderboard.</p>
+<h2 class="wp-block-heading">How to Play Powerline Online</h2>
+<p>Use the arrow keys or WASD to steer your line around the playing field. Your line moves continuously in the direction you are facing, so planning your turns ahead of time is essential. Sharp turns can trap you in corners, while wide sweeping movements give you more options for escape.</p>
+<p>Collect glowing orbs scattered across the map to grow your line longer and increase your score. Longer lines are harder to avoid, making you more dangerous to other players. However, a longer line also means more trail behind you that you yourself can crash into, so manage your length carefully.</p>
+<p>Eliminate other players by cutting them off so they have no choice but to crash into your trail. The most effective technique is to circle around a smaller player, gradually tightening the loop until they run out of space. Timing your encirclement so they cannot escape requires practice and spatial awareness.</p>
+<p>Stay away from the edges of the map where your movement options are limited. The centre of the playing field offers the most room to maneuver and the most opportunities to encounter orbs and other players. When being chased, use quick direction changes to create distance and find open space to continue growing safely.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13371,21 +12492,15 @@ export const games = [
     thumbnail: '/images/vex-3.webp',
     relatedSlugs: ['vex-4', 'vex-5', 'vex-6'],
     excerpt: 'Vex 3 is a challenging stickman platformer where you run, jump, slide, and swim through obstacle-filled acts packed with deadly traps.',
-    content: `<p>Vex 3 is a fast-paced stickman platformer where you guide an agile stick figure through a series of increasingly brutal obstacle courses. Each act is a maze of moving platforms, spinning blades, spikes, water sections, and perfectly timed jumps that will test your reflexes to the limit.</p>
-
-<p>The controls are fluid and responsive, making each death feel like your own fault rather than the game's — which means you'll keep coming back to try again. The level design rewards players who take time to study each obstacle before committing to a move. Rushing leads to death; patience and precision lead to victory.</p>
-
-<p>Beyond the main 10 acts, Vex 3 includes challenge levels for players who want even more punishment. There are also achievement trophies to collect, giving completionists a reason to return. The minimalist art style keeps the focus entirely on the gameplay, making every obstacle clearly readable even in the most chaotic sections.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Vex 3</strong></h2>
-
-<ul class="wp-block-list">
-<li>Use WASD or arrow keys to run and jump.</li>
-<li>Press down/S to slide under obstacles.</li>
-<li>Hold against a wall to wall-slide and press jump to wall-jump.</li>
-<li>Reach the act statue at the end of each level to complete it.</li>
-<li>Checkpoints save your progress within each act.</li>
-</ul>
+    content: `<p>Vex 3 is a fast-paced stickman platformer where you guide an agile stick figure through a series of increasingly brutal obstacle courses. Each act is a maze of moving platforms, spinning blades, spike traps, and deadly drops that require precise timing and quick reflexes to survive. The controls are tight and responsive, giving you the accuracy needed to make pixel-perfect jumps and last-second dodges.</p>
+<p>The game builds on its predecessors with more complex level designs and new hazard types. Underwater sections add swimming mechanics, icy surfaces create slippery platforming challenges, and gravity-defying segments turn the entire level upside down. Each act introduces something new, keeping the gameplay fresh through all nine main stages and the bonus content beyond.</p>
+<p>What makes Vex 3 special in the crowded platformer genre is its commitment to fair difficulty. Every death teaches you something about the obstacle ahead, and the instant respawn ensures frustration never builds too high. The game respects your time while still providing a genuine challenge that rewards persistence and consistent skill improvement over every session.</p>
+<p>Playing Vex 3 online gives you access to one of the most refined stickman platformers ever created. The minimalist visual style keeps the action clear and readable even during the most chaotic sequences, while the smooth animations give your stickman a satisfying sense of weight and momentum. It is the perfect game for players who love tough-but-fair platforming.</p>
+<h2 class="wp-block-heading">How to Play Vex 3 Online</h2>
+<p>Use WASD or arrow keys to control your stickman. Press W or up to jump, and combine jumps with wall contact to perform wall jumps that let you scale vertical surfaces. Wall jumping is the core advanced technique you need to master early, as nearly every act requires it for progression through harder sections.</p>
+<p>Press S or down while moving to slide under obstacles. Sliding is crucial for avoiding sawblades, lasers, and other hazards that block your path at standing height. Time your slides carefully, as starting too early or too late will result in a collision with the obstacle you are trying to avoid.</p>
+<p>Green flags serve as checkpoints throughout each act. Touch them to activate and save your progress within that level. When you inevitably die, you respawn at the last checkpoint instead of restarting the entire act. Plan your routes between checkpoints and focus on reaching the next one safely before attempting risky moves.</p>
+<p>Beyond the nine main acts, Vex 3 includes bonus challenge stages and collectible stars hidden in hard-to-reach locations. These extras provide additional content for players who master the main campaign. The star challenges require creative movement combinations and intimate knowledge of the physics engine to reach their concealed positions throughout every level.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13401,21 +12516,15 @@ export const games = [
     thumbnail: '/images/vex-4.webp',
     relatedSlugs: ['vex-3', 'vex-5', 'vex-6'],
     excerpt: 'Vex 4 builds on the classic formula with new mechanics, trickier traps, and more creative level design across 10 punishing acts.',
-    content: `<p>Vex 4 continues the beloved stickman platformer series with tougher challenges, smarter traps, and new movement mechanics that expand what you can do. Your agile stickman can run, jump, slide, swim, and wall-jump through 10 acts of increasingly devious obstacle design.</p>
-
-<p>What sets Vex 4 apart from its predecessors is the level design creativity. Traps are more varied and interact with each other in unexpected ways. You might dodge a swinging pendulum only to land on a moving platform heading toward a wall of spikes, forcing split-second decisions. Learning each act's rhythm and flow is deeply satisfying.</p>
-
-<p>The game also introduces new environmental hazards and mechanics not seen in earlier entries, keeping veteran players on their toes. Challenge rooms hidden within each act give skilled players something extra to hunt down. The clean, minimal art style keeps everything crisp and readable even in the most hectic moments.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Vex 4</strong></h2>
-
-<ul class="wp-block-list">
-<li>Use WASD or arrow keys to move your stickman.</li>
-<li>Jump with W or Up, slide with S or Down.</li>
-<li>Wall-jump by pressing jump while sliding against a wall.</li>
-<li>Reach the act statue to complete each level.</li>
-<li>Find hidden challenge portals for bonus content.</li>
-</ul>
+    content: `<p>Vex 4 continues the beloved stickman platformer series with tougher challenges, smarter traps, and new movement mechanics that expand what you can do. Your agile stickman can run, jump, slide, swim, and wall-climb through dozens of acts filled with deadly obstacles. Each act is a gauntlet of spinning blades, crumbling platforms, spike pits, and moving hazards that demand pixel-perfect precision and split-second timing.</p>
+<p>The level design in Vex 4 represents the series at its creative peak. Each act introduces new obstacle combinations that force you to rethink your approach. One moment you are sliding under a row of sawblades, the next you are wall-jumping between narrow shafts while lasers sweep below. The variety keeps every act feeling fresh, and the difficulty curve is expertly tuned to push your skills without feeling unfair.</p>
+<p>New to Vex 4 are additional movement abilities and interactive elements that add depth to the platforming. Swimming sections with underwater currents, zip-lines that launch you across gaps, and gravity-shifting platforms add layers of complexity. The stickman's responsive controls make these new mechanics feel natural, building on the tight movement system the series is known for.</p>
+<p>Playing Vex 4 online delivers one of the best hardcore platforming experiences available in a browser. The clean stickman aesthetic keeps the focus on gameplay, and the instant respawn after death means you are always right back in the action. With dozens of acts to complete and hidden stars to collect in each one, there is enough content here to keep you challenged for hours.</p>
+<h2 class="wp-block-heading">How to Play Vex 4 Online</h2>
+<p>Use the arrow keys or WASD to move your stickman through each act. Press up or W to jump, and press it again while next to a wall to perform a wall jump. Wall jumping is essential for navigating vertical sections and reaching platforms that standard jumps cannot reach. Master the timing of chaining multiple wall jumps to ascend quickly.</p>
+<p>Press down or S while running to slide through tight gaps and under low-hanging obstacles. Sliding maintains your momentum and is often required to pass under spinning blades or through narrow passages. Learning when to slide versus jump is key to surviving the trickier acts in the later stages.</p>
+<p>Each act has checkpoints marked by flags that save your progress within that level. Reach a checkpoint and you will respawn there instead of at the start when you die. Explore carefully to find all checkpoints, especially in longer acts where starting over from the beginning would be extremely punishing.</p>
+<p>Look for hidden stars scattered throughout each act for an extra layer of challenge. These collectibles are often placed in hard-to-reach locations that require creative use of your movement abilities. Collecting all stars across every act is the ultimate test of Vex 4 mastery and will push even experienced platformer players to their absolute limits.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13431,21 +12540,15 @@ export const games = [
     thumbnail: '/images/vex-5.webp',
     relatedSlugs: ['vex-3', 'vex-4', 'vex-6'],
     excerpt: 'Vex 5 delivers bigger challenges, faster traps, and more creative level design in the fifth entry of the classic stickman platformer series.',
-    content: `<p>Vex 5 is the fifth entry in the acclaimed stickman platformer series, and it's the most challenging yet. Your nimble stickman must navigate 10 acts packed with moving platforms, spinning blades, falling hazards, water sections, and timing-based puzzles that demand quick reflexes and careful thinking.</p>
-
-<p>The level design in Vex 5 is the most inventive in the series. Traps move faster, interact more dynamically, and are arranged in combinations that require you to think several steps ahead. Some sections feel almost like puzzle rooms — you need to understand the pattern before attempting the run. When you finally nail a difficult sequence, the satisfaction is immense.</p>
-
-<p>Vex 5 also expands the bonus challenge rooms, giving completionists more to work toward. The fluid controls that the series is known for remain unchanged, meaning deaths always feel earned rather than unfair. Whether you're a series veteran or playing your first Vex game, Vex 5 offers one of the best obstacle-course platformer experiences available online.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Vex 5</strong></h2>
-
-<ul class="wp-block-list">
-<li>Use WASD or arrow keys to run, jump, and slide.</li>
-<li>Wall-jump by pressing jump while against a wall.</li>
-<li>Use checkpoints within each act to save progress.</li>
-<li>Reach the act statue at the end to complete each level.</li>
-<li>Look for hidden challenge portals for bonus acts.</li>
-</ul>
+    content: `<p>Vex 5 raises the bar for the stickman platformer series with its most polished level design, tightest controls, and widest variety of obstacles yet. Each act presents a carefully crafted sequence of traps, jumps, and timing puzzles that demand mastery of every movement technique in your arsenal. The stickman moves with fluid precision, making even the most difficult maneuvers feel achievable with practice.</p>
+<p>New mechanics set Vex 5 apart from its predecessors. Grappling points let you swing across chasms, while boost pads launch you at high speed through obstacle-filled corridors. These additions layer on top of the established wall-jumping, sliding, and swimming mechanics to create the most diverse movement system in the series. Every act finds new ways to combine these tools into fresh challenges.</p>
+<p>The presentation has been refined with smoother animations, more detailed environments, and better visual feedback for hazards. You can instantly tell which surfaces are safe, which will crumble, and which are lethal. This clarity is essential given the split-second decisions the game demands, and it ensures deaths always feel like your mistake rather than the game being unclear.</p>
+<p>Playing Vex 5 online delivers the definitive stickman platforming experience. The series has been refined across five entries into something that rivals dedicated platformers in terms of game feel and level design quality. Whether you are a series veteran or jumping in for the first time, Vex 5 offers hundreds of challenges that will test your skills thoroughly.</p>
+<h2 class="wp-block-heading">How to Play Vex 5 Online</h2>
+<p>Use WASD or arrow keys to move and jump. Press up or W to jump, and press jump again while touching a wall to wall-jump in the opposite direction. Chain wall jumps between parallel surfaces to climb vertical shafts quickly. The timing window for wall jumps is generous, making them reliable once you understand the rhythm.</p>
+<p>Press down or S while running to slide under low obstacles and through tight passages. Sliding preserves your momentum and is often faster than stopping and crouching. Use slides to transition smoothly between platforming sections and maintain the flow of your movement through each act.</p>
+<p>New grappling points appear as glowing circles in certain acts. Jump toward them and your stickman automatically grabs on, letting you swing across gaps. Release at the right moment to launch yourself in the desired direction. Mastering the grapple timing is essential for the acts that feature them prominently.</p>
+<p>Collect hidden stars and complete acts quickly to earn the best rankings on each level. Some stars require discovering secret paths that branch off from the main route. The challenge of finding every star while also improving your completion time gives each act significant replay value beyond simply reaching the exit.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13461,21 +12564,15 @@ export const games = [
     thumbnail: '/images/vex-6.webp',
     relatedSlugs: ['vex-3', 'vex-4', 'vex-5'],
     excerpt: 'Vex 6 is the latest instalment of the stickman platformer series, bringing new mechanics and the most creative trap design yet.',
-    content: `<p>Vex 6 is the latest and most polished entry in the legendary Vex stickman platformer series. Your agile stickman must conquer 10 acts of brilliantly designed obstacle courses featuring new mechanics, faster traps, and environmental hazards that push the series in exciting new directions.</p>
-
-<p>The new elements in Vex 6 feel fresh without abandoning what makes the series work. There are interactive environmental mechanics that change how you approach certain sections — some obstacles can be used to your advantage if you time things correctly. The level design team clearly studied every previous entry and used that knowledge to create the most inventive courses in the franchise.</p>
-
-<p>Vex 6 also features a refined visual style that's cleaner and more dynamic than earlier games, with smoother animations for your stickman and more expressive environments. The challenging difficulty remains — this is not a game for the faint-hearted — but the tight controls and fair checkpoint system ensure that progress always feels achievable with enough practice.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Vex 6</strong></h2>
-
-<ul class="wp-block-list">
-<li>Move with WASD or arrow keys.</li>
-<li>Jump with W or Up arrow, slide with S or Down arrow.</li>
-<li>Wall-jump by pressing jump while against a wall surface.</li>
-<li>Use in-act checkpoints to save your progress.</li>
-<li>Reach the act statue at the end to complete the level.</li>
-</ul>
+    content: `<p>Vex 6 pushes the legendary stickman platformer series to new heights with expanded levels, creative new obstacles, and refined mechanics that make it the most ambitious entry yet. Your stickman can now interact with a wider range of environmental elements, including bouncing surfaces, rotating machinery, and magnetic fields that pull or push you through complex obstacle courses.</p>
+<p>The acts in Vex 6 are larger and more intricate than ever before. Multi-path level design lets you choose between different routes, each offering distinct challenges and hidden collectibles. Some paths favour speed and reflexes while others reward careful timing and precise jumps. This design philosophy gives every player a route that suits their strengths.</p>
+<p>Visual improvements make Vex 6 the best-looking game in the series. Enhanced lighting effects, more detailed hazard animations, and smoother character movement create a more immersive experience. The improved visuals also serve a gameplay purpose, making it easier to read complex obstacle patterns and react appropriately during intense sequences.</p>
+<p>Playing Vex 6 online gives you the newest and most content-rich stickman platformer available in a browser. The developers have clearly learned from the entire series history, combining the best elements of every previous entry while adding enough new ideas to keep the formula feeling fresh. It is a must-play for fans of precision platformers.</p>
+<h2 class="wp-block-heading">How to Play Vex 6 Online</h2>
+<p>Move with WASD or arrow keys and jump with W or up. The core controls remain consistent with previous Vex games, so series veterans will feel right at home. Wall jumping, sliding, and swimming all return with the same responsive feel, letting you focus on the new challenges rather than relearning basics.</p>
+<p>Interact with new environmental elements by approaching them and using the appropriate movement. Bouncing surfaces automatically launch you upward, rotating platforms require you to time your jumps carefully, and magnetic fields affect your trajectory mid-air. Each new element is introduced gradually before being combined with others.</p>
+<p>Explore branching paths within each act to find hidden stars and bonus areas. The level design rewards curiosity, with secret passages often hidden behind destructible walls or accessible only through tricky platforming sequences. Finding every collectible in an act requires multiple playthroughs using different routes.</p>
+<p>Use checkpoints strategically to break difficult sections into manageable segments. Some checkpoints are positioned just before the hardest obstacles, giving you a safe restart point for practicing tough sequences. Focus on reaching each checkpoint rather than trying to complete an entire act in one perfect run.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13491,20 +12588,15 @@ export const games = [
     thumbnail: '/images/whack-your-boss.webp',
     relatedSlugs: ['whack-your-boss-2', 'escaping-the-prison', 'bob-the-robber'],
     excerpt: 'Whack Your Boss is a classic stress-relief game where you find 24 hilarious hidden ways to get revenge on your insufferable boss.',
-    content: `<p>Whack Your Boss is the ultimate stress-relief game that became a viral internet classic. You're sitting at your desk, enduring the most infuriating boss imaginable — and the entire point is to find every hidden clickable object in the office that triggers a hilariously over-the-top revenge fantasy.</p>
-
-<p>The game is all about exploration. Your office is filled with everyday objects — a stapler, a coffee mug, a computer monitor, a potted plant — and clicking on them triggers increasingly outrageous animations. There are 24 different ways to take revenge, each more creative and absurd than the last. Finding all of them is the challenge and the appeal.</p>
-
-<p>Whack Your Boss works because of its brilliant combination of relatable frustration and completely cartoonish violence. The animation style is deliberately exaggerated, making everything feel more like a stress-relieving fantasy than anything else. It's one of those games that was passed around offices and school computer labs for years, and it remains as satisfying as ever thanks to the Ruffle Flash player.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Whack Your Boss</strong></h2>
-
-<ul class="wp-block-list">
-<li>Click on objects around the office to trigger revenge animations.</li>
-<li>Find all 24 hidden interaction points to discover every method.</li>
-<li>Hover over the scene to spot subtle highlights on interactive objects.</li>
-<li>Each object triggers a unique and increasingly absurd animation.</li>
-</ul>
+    content: `<p>Whack Your Boss is the original stress-relief classic that became a viral sensation across the internet. You are stuck in an office with the most insufferable boss imaginable, and the only way to deal with the frustration is to find hidden interactive objects in the environment and use them for hilariously over-the-top revenge animations. Each discovery triggers a unique cartoon sequence that turns mundane office items into tools of comedic justice.</p>
+<p>The genius of the game lies in its simplicity and relatability. Everyone has experienced workplace frustration at some point, and this game channels that universal feeling into harmless cartoon comedy. The office setting is instantly recognisable, making the absurd revenge scenarios even funnier because they start from such a mundane environment. A stapler, a water cooler, a pencil — nothing is safe from creative repurposing.</p>
+<p>Each interactive object triggers a self-contained animated sequence with its own setup, escalation, and comedic payoff. The animation quality is remarkably high for a browser game, with fluid motion and creative choreography that makes every discovery genuinely entertaining to watch. Some scenarios are short and punchy while others build to elaborate crescendos.</p>
+<p>Playing Whack Your Boss online has been a go-to stress relief activity for millions of players worldwide. The game requires nothing more than a mouse and a bad day to enjoy. Its enduring popularity spawned multiple sequels and imitators, but the original remains a perfectly crafted piece of interactive comedy that delivers exactly what it promises.</p>
+<h2 class="wp-block-heading">How to Play Whack Your Boss Online</h2>
+<p>Scan the office scene carefully and click on objects that you think might be interactive. The game does not highlight clickable items, making the search part of the fun. Move your cursor slowly across the screen and try clicking on anything that catches your eye, from obvious desk items to less apparent background elements.</p>
+<p>Each clickable object triggers a unique revenge animation. Watch the full sequence to enjoy the comedic payoff before returning to the office scene to find the next one. The game tracks your progress, showing how many of the hidden interactions you have discovered out of the total available.</p>
+<p>Think beyond the obvious when searching for interactive objects. While desk supplies are easy targets, some of the funniest animations are triggered by objects you might not initially consider. Background decorations, architectural features, and seemingly innocent items can all hold surprises that reward thorough exploration.</p>
+<p>Try to find every single interactive object to complete the game fully. Discuss your discoveries with friends to compare notes, as different people tend to spot different items first. The satisfaction of finding the last hidden interaction after a thorough search makes the complete discovery especially rewarding for persistent players.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13520,20 +12612,15 @@ export const games = [
     thumbnail: '/images/whack-your-boss-2.webp',
     relatedSlugs: ['whack-your-boss', 'escaping-the-prison', 'bob-the-robber'],
     excerpt: 'Whack Your Boss 2 brings a brand new office setting and fresh hidden interactions for even more stress-relieving revenge fantasies.',
-    content: `<p>Whack Your Boss 2 is the highly anticipated sequel to the viral stress-relief classic. The insufferable boss is back, and this time there are even more hidden objects and creative revenge scenarios waiting to be discovered in a brand new office setting.</p>
-
-<p>The sequel takes everything that worked in the original and expands on it. The new office environment has more items, more interactive zones, and more elaborate animations triggered by your discoveries. Each click reveals a different hilariously exaggerated scenario, and hunting down every single one gives the game significant replay value.</p>
-
-<p>Whack Your Boss 2 maintains the same irreverent humour and cartoon violence that made the original a workplace legend. The animation quality is noticeably improved, with smoother movements and more expressive characters. If you've already found all 24 ways in the first game and need more stress relief, this sequel delivers exactly what you're looking for.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Whack Your Boss 2</strong></h2>
-
-<ul class="wp-block-list">
-<li>Click on objects throughout the office scene to trigger animations.</li>
-<li>Explore every corner of the room to find all hidden interactions.</li>
-<li>Hover to find subtle highlights that indicate clickable objects.</li>
-<li>Discover all the hidden methods to complete the game.</li>
-</ul>
+    content: `<p>Whack Your Boss 2 is the highly anticipated sequel to the viral stress-relief classic. The insufferable boss is back, and this time there are even more hidden objects and creative revenge scenarios to discover. Your boss is yelling, belittling, and generally making your virtual work life miserable, and the only solution is to find all the interactive objects in the office and use them in spectacularly over-the-top ways.</p>
+<p>The game features beautifully animated revenge sequences that are as creative as they are cathartic. Each clickable object triggers a unique cartoon-style animation where your character finally snaps and delivers poetic justice using whatever is at hand. From office supplies to unexpected items hiding in plain sight, every discovery brings a new hilarious scenario that you did not see coming.</p>
+<p>Finding all the interactive objects is the core puzzle element. The office scene looks ordinary at first glance, but dozens of items are clickable, each triggering its own unique animation. Some are obvious while others require keen observation to spot. The satisfaction of finding the last hidden interaction after searching the entire scene is genuinely rewarding for completionists.</p>
+<p>Playing Whack Your Boss 2 online is the perfect way to blow off steam after a tough day. The exaggerated cartoon violence is played entirely for comedy, and the creative animations make each discovery laugh-out-loud funny. Share it with coworkers who understand the universal frustration of dealing with a difficult boss, and compare notes on which revenge scenarios you found first.</p>
+<h2 class="wp-block-heading">How to Play Whack Your Boss 2 Online</h2>
+<p>Look around the office scene and click on any object that might be interactive. The game does not tell you which objects are clickable, so experimentation is key. Move your mouse across the screen and watch for subtle hover effects or cursor changes that indicate something can be clicked.</p>
+<p>Each clickable object triggers a unique animated revenge sequence. Watch the full animation to enjoy the creative payoff, then return to the office scene to search for more items. The game tracks how many scenarios you have discovered out of the total available, giving you a clear goal to work toward.</p>
+<p>Some interactive objects are hidden in less obvious locations. Check the desk drawers, the background decorations, the ceiling, and even items that seem purely decorative. The developers hid interactions in clever spots, so think beyond the obvious office supplies and look at the entire environment carefully.</p>
+<p>Try to find every single interactive object to complete the game at one hundred percent. Comparing your discoveries with friends adds a social element, as different players tend to find different objects first. The sequel has more hidden interactions than the original, so expect a thorough search to take some time and yield plenty of satisfying discoveries along the way.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13549,21 +12636,15 @@ export const games = [
     thumbnail: '/images/doge-miner.webp',
     relatedSlugs: ['gold-digger-frvr', 'slither-io', 'diep-io'],
     excerpt: 'Doge Miner is an addictive idle clicker game where you mine Dogecoin, buy upgrades and rocket boosters, and journey to the Moon.',
-    content: `<p>Doge Miner is a beloved idle clicker game built entirely around the iconic Doge meme. You start by clicking furiously to mine your first Dogecoins, then use your earnings to buy pickaxes, helpers, and upgrades that automate and accelerate your mining operation. The ultimate goal: save up enough Dogecoin to fund a rocket ship to the Moon.</p>
-
-<p>The progression system is wonderfully satisfying. Early on, every click feels meaningful as you watch your Dogecoin stack grow. As you unlock helpers — from simple pickaxe automatons to entire mining crews — the coins start rolling in passively, letting you focus on strategic upgrades. The game strikes a perfect balance between active clicking and passive accumulation that keeps you engaged.</p>
-
-<p>The Doge meme aesthetic is woven into every element of the game. Upgrades have names and descriptions in the classic broken-English meme style. The art is charming and deliberately lo-fi. Random "wow such mining" messages pop up to celebrate milestones. It's a game that knows exactly what it is and commits to the bit with genuine charm — and the lunar journey gives it a satisfying long-term goal to work toward.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Doge Miner</strong></h2>
-
-<ul class="wp-block-list">
-<li>Click the Dogecoin to mine coins manually.</li>
-<li>Buy pickaxes and helpers to mine automatically over time.</li>
-<li>Purchase upgrades to multiply your mining speed and earnings.</li>
-<li>Save up to buy rocket parts and eventually launch to the Moon.</li>
-<li>Prestige after reaching the Moon for bonus multipliers.</li>
-</ul>
+    content: `<p>Doge Miner is an incremental clicker game where you help an adorable Shiba Inu mine its way from Earth to the Moon and beyond. Click to mine Dogecoin, invest your earnings in mining upgrades, and watch as your operation grows from a single pickaxe-wielding doge to an interplanetary mining empire. The meme-inspired theme adds charm to an already addictive progression loop.</p>
+<p>The upgrade tree is surprisingly deep for a meme game. Starting with basic pickaxes and mining carts, you eventually unlock automated drills, mining robots, and even rocket ships that take your operation to space. Each upgrade tier dramatically increases your mining output, creating satisfying jumps in productivity that fuel the desire to reach the next milestone.</p>
+<p>Idle mechanics let the game work for you when you are away. Your automated mining equipment continues generating Dogecoin while you focus on other things, and returning to find a massive pile of unspent coins ready for investment is one of the game's simple pleasures. The balance between active clicking and idle accumulation keeps both play styles viable.</p>
+<p>Playing Doge Miner online combines internet meme culture with genuinely solid idle game design. The Shiba Inu theme gives every upgrade and milestone a comedic twist, while the underlying progression system is as polished as any dedicated idle clicker. It is the perfect background game that rewards both active attention and patient waiting.</p>
+<h2 class="wp-block-heading">How to Play Doge Miner Online</h2>
+<p>Click on the mining area to generate Dogecoin with each click. Each click produces coins based on your current click power, which increases with upgrades. In the early game, clicking is your primary income source, so click frequently to build up your initial capital for purchases.</p>
+<p>Spend your Dogecoin on upgrades from the shop panel. Pickaxe upgrades increase your click output, while automated miners generate coins without any clicking required. Prioritise automated miners early to establish a passive income stream that works even when you are not actively clicking.</p>
+<p>As your earnings grow, invest in increasingly expensive but powerful upgrades that multiply your entire operation's output. Each tier of upgrade represents a significant jump in scale, from surface mining to underground operations to space exploration. The satisfaction of reaching each new tier drives the progression forward.</p>
+<p>Set long-term goals like reaching the Moon or unlocking specific prestige upgrades. The game features multiple prestige layers that reset your progress but provide permanent multipliers for faster advancement on subsequent runs. Each prestige cycle lets you reach further faster, creating a compelling long-term progression arc.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13579,21 +12660,15 @@ export const games = [
     thumbnail: '/images/2048-unicorn.webp',
     relatedSlugs: ['2048-game', '2048-cupcakes', 'infinity-craft'],
     excerpt: '2048 Unicorn is a magical twist on the beloved 2048 puzzle game where you merge adorable unicorn tiles instead of plain numbers, sliding them across the board to create increasingly rare and powerful mythical creatures.',
-    content: `<p>2048 Unicorn is a magical twist on the beloved 2048 puzzle game where you merge adorable unicorn tiles instead of plain numbers. Each swipe slides every tile on the four-by-four grid, and when two matching unicorns collide they combine into a new, rarer creature. Your goal is to keep merging until you unlock the legendary 2048 unicorn — a shimmering, rainbow-maned masterpiece.</p>
-
-<p>The core mechanics are identical to the original 2048: swipe up, down, left, or right, and every tile on the board moves in that direction. A new tile spawns after each move, so the grid fills up fast. Strategic corner-stacking — keeping your highest tile locked in one corner while building chains toward it — is the most reliable path to high scores.</p>
-
-<p>What sets 2048 Unicorn apart is the visual charm. Watching cute pastel ponies evolve into majestic winged unicorns is far more satisfying than watching "256" turn into "512." Each tier introduces a new character design, giving players a sense of collection and discovery on top of the puzzle challenge. The soothing colour palette and gentle animations make it a perfect relaxation game.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play 2048 Unicorn</strong></h2>
-
-<ul class="wp-block-list">
-<li>Use arrow keys or swipe to slide all tiles in one direction.</li>
-<li>Two identical unicorn tiles merge into the next tier when they collide.</li>
-<li>Plan moves ahead — try to keep your highest tile in a corner.</li>
-<li>The game ends when the board is full and no more merges are possible.</li>
-<li>Aim for the 2048 unicorn tile to win, then keep going for an even higher score.</li>
-</ul>
+    content: `<p>2048 Unicorn adds magical flair to the classic sliding number puzzle by replacing numbers with adorable unicorn characters that evolve as they merge. Slide tiles on a four-by-four grid to combine matching unicorns, watching them transform into increasingly majestic creatures with each merge. The goal is to reach the legendary final unicorn by making strategic moves that keep the board manageable.</p>
+<p>The core puzzle mechanics are identical to the original 2048 but the visual charm of watching unicorns evolve makes every merge more satisfying. Starting with basic baby unicorns, your creatures grow wings, gain rainbow manes, and develop magical auras as they level up. The visual progression provides a stronger sense of achievement than plain numbers ever could.</p>
+<p>Strategy in 2048 Unicorn requires forward thinking. Every move affects the entire board, and careless slides can scatter your unicorns away from potential merges. Experienced players develop techniques like keeping their highest-level unicorn in a corner and building a chain toward it, ensuring efficient merges that minimise wasted moves.</p>
+<p>Playing 2048 Unicorn online is the cutest way to enjoy one of the most popular puzzle games ever created. The unicorn theme appeals to players who want a more visually engaging experience than the standard number version, while the underlying puzzle is just as challenging and addictive. It is a perfect game for casual puzzle sessions that exercise your spatial reasoning.</p>
+<h2 class="wp-block-heading">How to Play 2048 Unicorn Online</h2>
+<p>Use the arrow keys to slide all tiles on the board in one direction. When two identical unicorns collide, they merge into the next evolution level. After each move, a new basic unicorn appears in a random empty space. Plan each slide to create merges while keeping the board from filling up completely.</p>
+<p>Keep your highest-level unicorn in one corner of the board and build toward it with a chain of descending levels. This strategy prevents your big unicorn from getting stuck in the middle where it blocks efficient merging. Consistently building from one corner is the most reliable path to high scores.</p>
+<p>Avoid making moves that scatter your unicorns away from each other. The most common mistake is making an unnecessary slide in a direction that separates unicorns that were about to merge. Before each move, check whether the slide will break any potential merges on the current board.</p>
+<p>The game ends when the board fills up and no more merges are possible. To delay this, maintain at least a few empty spaces at all times and focus on efficient merges that clear tiles rather than just moving them around. With practice, you will develop an intuition for which moves maintain board health and which lead to gridlock.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13609,21 +12684,15 @@ export const games = [
     thumbnail: '/images/2v2-io.webp',
     relatedSlugs: ['build-now-gg', 'rooftop-snipers', 'kour-io'],
     excerpt: '2v2.io is a fast-paced multiplayer browser shooter where you team up with a partner to battle other duos in intense arena combat with building mechanics.',
-    content: `<p>2v2.io is a fast-paced multiplayer browser shooter where you team up with a partner to battle other duos in intense arena combat. Developed by LEGION GAMES, it combines building mechanics with third-person shooting, creating a competitive experience that rewards both aim and creative construction. Matches are quick and action-packed, making every round feel fresh and exciting.</p>
-
-<p>The building system lets you place walls, ramps, and platforms mid-fight, giving you cover and high-ground advantage. Quick builders can create defensive forts in seconds while aggressive players use ramp rushes to close the gap. Coordinating builds with your teammate is key — one player can lay cover while the other flanks from an unexpected angle.</p>
-
-<p>With WASD movement, mouse aiming, and hotkeys for building pieces, the controls feel responsive and intuitive. The game runs directly in your browser with no downloads, and matchmaking is instant. Whether you prefer sniping from a distance or getting into close-range shotgun battles, 2v2.io provides the tools and arena to test your skills against real opponents worldwide.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play 2v2.io</strong></h2>
-
-<ul class="wp-block-list">
-<li>WASD to move, mouse to aim and shoot.</li>
-<li>Right-click to aim down sights for better accuracy.</li>
-<li>Press Z, X, C, V to place different building pieces.</li>
-<li>R to reload, Space to jump, G to edit builds.</li>
-<li>Coordinate with your teammate to secure eliminations and win rounds.</li>
-</ul>
+    content: `<p>2v2 io is a fast-paced multiplayer arena game where teams of two battle it out in intense real-time matches. Team up with a partner and face off against rival duos in quick competitive rounds that test your coordination, strategy, and individual skill. The team dynamic adds a layer of depth that solo io games cannot match, rewarding communication and complementary playstyles.</p>
+<p>The arena-based combat keeps matches short and action-packed. There is no downtime between fights because the small maps ensure you are always within striking distance of your opponents. Power-ups spawn at regular intervals across the map, and controlling these spawns while pressuring the enemy team is the key to gaining an advantage.</p>
+<p>Character abilities vary between different classes, letting you and your partner choose complementary roles. A tanky frontline fighter paired with a ranged damage dealer creates a classic combo, while two aggressive rushdown characters can overwhelm opponents before they can react. Finding the team composition that matches your combined playstyle is part of the fun.</p>
+<p>Playing 2v2 io online connects you with players around the world for instant competitive matches. The small team size means every player's contribution matters significantly, and carrying your weight as a teammate feels genuinely rewarding. Matches are quick enough for short gaming sessions but competitive enough to keep you queuing for one more round.</p>
+<h2 class="wp-block-heading">How to Play 2v2 io Online</h2>
+<p>Use WASD or arrow keys to move your character around the arena. Mouse aiming controls your attacks and abilities. The controls are responsive and easy to learn, letting you focus on teamwork and positioning rather than struggling with the interface.</p>
+<p>Coordinate with your teammate to focus fire on one opponent at a time. Eliminating one enemy quickly creates a two-on-one advantage that is very difficult for the remaining opponent to overcome. Call out targets and time your attacks together for maximum effectiveness.</p>
+<p>Control power-up spawns by positioning yourself near them before they appear. Power-ups can provide health restoration, damage boosts, speed increases, and other advantages. Denying these pickups from the enemy team while securing them for yourself creates a compounding advantage over multiple spawn cycles.</p>
+<p>Learn the strengths and weaknesses of each available class so you can counter the enemy team's composition. If they pick two close-range fighters, stay at distance and kite them. If they pick ranged characters, close the gap quickly and pressure them in melee. Adapting your strategy to the matchup is essential for consistent wins at higher skill levels.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13639,21 +12708,15 @@ export const games = [
     thumbnail: '/images/3-foot-ninja-2.webp',
     relatedSlugs: ['run-3', 'vex-3', 'level-devil'],
     excerpt: '3 Foot Ninja 2 is a side-scrolling action platformer where you play as a pint-sized warrior on a quest to recover stolen ancient relics from an evil demon lord.',
-    content: `<p>3 Foot Ninja 2 is a side-scrolling action platformer where you play as a pint-sized warrior on a quest to recover stolen ancient relics from an evil demon lord. Despite standing only three feet tall, this ninja packs a serious punch with a variety of martial arts moves, weapon combos, and special attacks that make every encounter feel dynamic and satisfying.</p>
-
-<p>Each level presents a mix of platforming challenges and combat encounters. You jump between ledges, dodge spike traps, and face off against waves of enemies ranging from basic foot soldiers to armoured bosses with unique attack patterns. Timing your blocks, dodges, and counter-attacks is essential — button-mashing will get you knocked out quickly on harder stages.</p>
-
-<p>The game features an upgrade system that lets you unlock new fighting moves and abilities as you progress. Collecting scrolls and defeating bosses earns you points to spend on stronger attacks, faster movement, and defensive maneuvers. The combination of tight combat, challenging platforming, and character progression gives 3 Foot Ninja 2 surprising depth for a browser game.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play 3 Foot Ninja 2</strong></h2>
-
-<ul class="wp-block-list">
-<li>Use arrow keys to move and jump through each level.</li>
-<li>Press A, S, D for light attacks, heavy attacks, and special moves.</li>
-<li>Block enemy strikes by pressing the block key at the right moment.</li>
-<li>Collect scrolls to upgrade your ninja's abilities between levels.</li>
-<li>Defeat bosses at the end of each chapter to progress the story.</li>
-</ul>
+    content: `<p>3 Foot Ninja 2 continues the action-packed beat-em-up adventure of the diminutive warrior on a quest to recover stolen sacred scrolls. Despite being only three feet tall, this ninja packs devastating combat skills, fluid movement, and an arsenal of special attacks that make short work of enemies twice his size. The combination of platforming and melee combat creates engaging moment-to-moment gameplay.</p>
+<p>The combat system is deeper than it first appears. Beyond basic slashes, you can chain combos, perform aerial attacks, and unleash powerful special moves that clear groups of enemies. Each encounter rewards aggressive play tempered with defensive awareness, as enemies attack from multiple directions and require different strategies to defeat efficiently.</p>
+<p>Level design alternates between combat arenas and platforming sections, keeping the pace varied and engaging. One moment you are battling waves of enemies in a dojo, the next you are leaping across rooftops and avoiding traps in a castle. The variety prevents any single gameplay element from wearing out its welcome.</p>
+<p>Playing 3 Foot Ninja 2 online delivers satisfying beat-em-up action with a charming protagonist and polished combat mechanics. The game improves on the original in every way with better animations, more diverse enemies, and expanded combo possibilities. It is one of the best browser-based action games for fans of the genre.</p>
+<h2 class="wp-block-heading">How to Play 3 Foot Ninja 2 Online</h2>
+<p>Use the arrow keys to move your ninja through each level. Press the attack button to slash with your sword, and combine direction inputs with attacks for different combo moves. A quick downward strike while airborne performs a devastating ground slam, while forward attacks close distance quickly.</p>
+<p>Block enemy attacks by pressing the defense button when you see an incoming strike. Timing your blocks perfectly triggers a parry that leaves the attacker vulnerable to a counter-strike. The parry system rewards skilled defensive play and creates satisfying combat exchanges.</p>
+<p>Special moves consume energy that builds as you land attacks and defeat enemies. When your energy bar is full, unleash a powerful special attack that deals massive damage to all nearby enemies. Save special moves for tough enemy groups or boss encounters where the burst damage is most impactful.</p>
+<p>Explore each level thoroughly to find hidden health pickups and power-ups that give you temporary combat advantages. Some areas contain optional challenges that reward skilled play with bonus items. The game tracks your performance in each level, so returning to previous stages to improve your rating adds replay value beyond the initial completion.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13669,21 +12732,15 @@ export const games = [
     thumbnail: '/images/3-marker-challenge.webp',
     relatedSlugs: ['quick-draw', 'infinity-craft', 'memory-game'],
     excerpt: '3 Marker Challenge is a creative drawing game inspired by the popular social media trend where you colour artwork using only three randomly chosen markers.',
-    content: `<p>3 Marker Challenge is a creative drawing game inspired by the popular social media trend where you colour in artwork using only three randomly selected markers. Each round presents you with a black-and-white outline and three colours chosen at random. Your job is to fill in the drawing as creatively as possible with just those limited options, turning constraints into artistic opportunities.</p>
-
-<p>The fun lies in working within limitations. Sometimes you get a perfect trio of colours that complement each other beautifully; other times you end up with three shades of brown and have to improvise. This randomness keeps every round fresh and challenges you to think creatively about colour placement, shading, and composition — skills that matter whether you are an experienced artist or a casual doodler.</p>
-
-<p>The game features dozens of different outlines ranging from simple cartoon characters to detailed landscapes. As you progress, the drawings become more complex, requiring more thoughtful use of your three markers. Your finished pieces are scored based on coverage, colour balance, and creativity, giving you a target to aim for on each attempt.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play 3 Marker Challenge</strong></h2>
-
-<ul class="wp-block-list">
-<li>Select a drawing template from the available options.</li>
-<li>You receive three random marker colours to work with.</li>
-<li>Click or tap to colour sections of the drawing with your chosen marker.</li>
-<li>Switch between your three markers to create the best colour combination.</li>
-<li>Complete the drawing and receive a score based on your creativity and coverage.</li>
-</ul>
+    content: `<p>3 Marker Challenge is a creative drawing game that puts your artistic skills to the test with a fun twist: you can only use three randomly selected colours to complete each drawing prompt. The constraint forces you to think creatively about colour mixing, shading, and composition in ways that unrestricted drawing never requires. It turns every prompt into a puzzle as much as an art project.</p>
+<p>Each round gives you a new drawing subject and three random marker colours to work with. Sometimes you get lucky with complementary colours, other times you end up with an absurd combination that requires genuine creativity to make work. The randomness ensures that no two rounds play the same way and that you are constantly challenged to adapt your approach.</p>
+<p>The drawing tools feel responsive and natural, with pressure sensitivity and smooth line rendering that make creating art enjoyable even on less-than-ideal input devices. The interface stays out of the way, letting you focus on the creative challenge of making something beautiful, funny, or impressively close to the prompt with your limited colour palette.</p>
+<p>Playing 3 Marker Challenge online is a wonderfully creative experience that appeals to artists and non-artists alike. The constraint of three colours levels the playing field, making it more about creative problem-solving than pure technical skill. Share your creations with friends and compare how different colour combinations led to wildly different interpretations of the same prompt.</p>
+<h2 class="wp-block-heading">How to Play 3 Marker Challenge Online</h2>
+<p>Start by selecting or accepting a random drawing prompt. You are then assigned three random marker colours that will be your only tools for this round. Take a moment to consider how your available colours relate to the prompt before you start drawing.</p>
+<p>Use the mouse to draw on the canvas. Click and drag to create strokes, and switch between your three available colours using the colour selector or keyboard shortcuts. Adjust the brush size to alternate between thick fills and fine details as needed for different parts of your drawing.</p>
+<p>Layer colours strategically to create the illusion of additional shades. Drawing one colour lightly over another can suggest a third colour, effectively expanding your limited palette. This technique is especially useful when your three colours do not include an obvious match for parts of the prompt.</p>
+<p>When finished, compare your creation to the original prompt and see how your constrained palette affected the result. The most impressive drawings are those that work within the colour limitations rather than fighting against them. Try the challenge multiple times to see how different colour combinations inspire different creative approaches to the same subjects.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13699,21 +12756,15 @@ export const games = [
     thumbnail: '/images/3d-championship-golf.webp',
     relatedSlugs: ['a-small-world-cup', 'billiards', 'plinko'],
     excerpt: '3D Championship Golf is a realistic browser-based golf simulation featuring full 3D courses, adjustable swing mechanics, and multiple championship tournaments.',
-    content: `<p>3D Championship Golf is a realistic browser-based golf simulation that brings the full golfing experience to your screen. Featuring beautifully rendered 3D courses with rolling fairways, sand bunkers, water hazards, and challenging greens, the game captures the strategic depth of real golf while keeping the controls accessible enough for anyone to pick up and play.</p>
-
-<p>The swing mechanic uses a classic power-bar system — click once to start your backswing, again to set the power, and a third time to control accuracy. Wind direction and speed affect every shot, so reading conditions and adjusting your aim becomes critical on later holes. Club selection matters too; choosing the right iron or wood for each distance separates casual players from low scorers.</p>
-
-<p>Multiple courses offer different challenges, from coastal links with strong crosswinds to tree-lined inland tracks where accuracy trumps distance. Each eighteen-hole round tests your consistency across a variety of par-three, par-four, and par-five holes. The game tracks your score against par, encouraging replay as you try to shave strokes off your personal best.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play 3D Championship Golf</strong></h2>
-
-<ul class="wp-block-list">
-<li>Select your club based on distance and terrain.</li>
-<li>Click to start your swing, click again to set power, click a third time for accuracy.</li>
-<li>Adjust your aim to account for wind direction and speed.</li>
-<li>Use irons for approach shots and your putter on the green.</li>
-<li>Complete all 18 holes with the lowest score possible.</li>
-</ul>
+    content: `<p>3D Championship Golf brings the beauty and challenge of professional golf to your browser with realistic 3D courses and authentic gameplay mechanics. Tee off on meticulously designed holes that feature rolling fairways, strategic bunker placement, water hazards, and undulating greens that test every aspect of your golfing skill. The 3D perspective provides a genuine sense of being on the course.</p>
+<p>The physics model captures the nuances of real golf. Wind speed and direction affect ball flight, different clubs produce distinct trajectories, and spin control lets you shape shots around obstacles. Reading the green for putts requires attention to subtle slope indicators, and the satisfaction of sinking a long putt after careful analysis is immensely rewarding.</p>
+<p>Multiple course designs provide variety and escalating challenge. Each course features eighteen holes with unique layouts that test different shot types. Par-three holes demand accurate iron play, long par-fives reward powerful driving, and dogleg holes require strategic course management and shot shaping to score well.</p>
+<p>Playing 3D Championship Golf online is the most accessible way to enjoy a full golf simulation directly in your browser. The presentation is impressive for a browser game, with detailed course environments and smooth ball physics that make each shot feel consequential. Whether you are a golf enthusiast or new to the sport, the intuitive controls make it easy to start playing.</p>
+<h2 class="wp-block-heading">How to Play 3D Championship Golf Online</h2>
+<p>Select your club based on the distance to the hole and the type of shot required. Drivers hit far but are less accurate, irons provide precision at medium range, and wedges handle short approach shots and bunker escapes. The game suggests a club for each shot, but experienced players will want to choose their own.</p>
+<p>Aim your shot by adjusting the target marker on the course. Account for wind direction and speed shown in the indicator, adjusting your aim upwind to compensate for drift. On approach shots, target the flattest part of the green to give yourself the easiest putt.</p>
+<p>Use the power meter to control shot strength. Click once to start the meter, click again to set power, and click a third time to set accuracy. Stopping the accuracy marker in the centre produces a straight shot, while hitting left or right adds hook or slice spin that curves the ball off line.</p>
+<p>On the green, read the grid lines that show the slope and break of the putting surface. Aim your putt to account for the slope, and adjust power based on distance and whether you are putting uphill or downhill. Uphill putts need more power, while downhill putts require a gentle touch to avoid rolling past the hole.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13729,21 +12780,15 @@ export const games = [
     thumbnail: '/images/3x3-obby.webp',
     relatedSlugs: ['run-3', 'vex-3', 'level-devil'],
     excerpt: '3X3 Obby is a Roblox-style obstacle course game where you navigate through increasingly difficult 3D platforming challenges on a compact three-by-three grid layout.',
-    content: `<p>3X3 Obby is a Roblox-style obstacle course game where you navigate through increasingly difficult 3D platforming challenges on a compact three-by-three grid layout. Each stage presents a self-contained obstacle that you must clear before advancing to the next — think spinning platforms, disappearing blocks, lava jumps, and precision wall-runs packed into tight, focused arenas.</p>
-
-<p>The "3X3" format keeps every challenge short but intense. There is no filler — each room is a concentrated test of timing, spatial awareness, and movement control. Early stages introduce basic jumps and simple hazards, while later levels combine multiple mechanics into devious sequences that demand near-perfect execution. Respawns are instant, so the game encourages experimentation and persistence.</p>
-
-<p>The colourful blocky art style is clean and easy to read, which matters when you need to spot safe platforms at a glance. The game runs smoothly in any modern browser and the responsive controls make the difference between frustrating deaths and satisfying clears. Whether you are an obby veteran or trying the genre for the first time, 3X3 Obby delivers a steady climb in difficulty that keeps you coming back for one more attempt.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play 3X3 Obby</strong></h2>
-
-<ul class="wp-block-list">
-<li>Use WASD or arrow keys to move your character.</li>
-<li>Press Space to jump — hold for higher jumps where supported.</li>
-<li>Time your jumps carefully to avoid falling into hazards.</li>
-<li>Reach the end platform of each stage to advance to the next one.</li>
-<li>Respawns are instant, so keep trying until you clear each obstacle.</li>
-</ul>
+    content: `<p>3x3 Obby is a compact yet challenging obstacle course game where you navigate through a series of precision platforming challenges within a tight three-by-three grid format. The constrained space forces creative obstacle design that tests your jumping accuracy, timing, and spatial awareness in ways that larger levels cannot. Every jump matters because there is no room for error in such a compact arena.</p>
+<p>The obstacle variety within the small format is impressive. Disappearing platforms, moving obstacles, precise gap jumps, and timed challenges all appear within the tiny playing field. The developers squeeze maximum challenge from minimum space, creating levels that look simple but require expert-level execution to complete consistently.</p>
+<p>The difficulty ramps up steadily, with early levels teaching basic movement and jumping skills before later levels demand frame-perfect timing and advanced techniques. Each completed level provides a genuine sense of accomplishment because the compact format makes success feel hard-won rather than inevitable.</p>
+<p>Playing 3x3 Obby online is a focused platforming experience that strips the genre down to its purest form. Without sprawling levels to explore or collectibles to hunt, every moment is spent on the core challenge of getting from start to finish alive. It is the ideal game for players who want concentrated platforming difficulty without any filler.</p>
+<h2 class="wp-block-heading">How to Play 3x3 Obby Online</h2>
+<p>Use WASD or arrow keys to move your character through each obstacle course section. Press spacebar to jump, and combine movement with jumping to clear gaps and reach elevated platforms. The controls are responsive and precise, which is essential given how tight the margins are in many levels.</p>
+<p>Study each obstacle before attempting it. In such a small space, knowing what comes next lets you plan your jumps and timing in advance rather than reacting on the fly. Take a moment at each checkpoint to observe the upcoming challenge before committing to your approach.</p>
+<p>Time your jumps carefully for moving platforms and disappearing blocks. Many obstacles operate on cycles, so watching the pattern for a full rotation before jumping helps you identify the safe window. Patience beats impatience in most timed challenges, even though the compact format tempts you to rush.</p>
+<p>Practice individual sections that give you trouble rather than starting from the beginning each time. The checkpoint system saves your progress, so you can focus your practice on the specific obstacle that is blocking your progress. With each attempt, your timing and muscle memory improve until the section becomes manageable.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13759,21 +12804,15 @@ export const games = [
     thumbnail: '/images/4th-and-goal-2022.webp',
     relatedSlugs: ['a-small-world-cup', 'soccer-skills-world-cup', 'billiards'],
     excerpt: '4th and Goal 2022 is the latest edition of the popular browser football series where you call plays, control your team, and compete in full American football games.',
-    content: `<p>4th and Goal 2022 is the latest edition of the popular browser football series where you call plays, control your team, and compete in full American football games. This updated version features improved animations, tighter controls, and balanced gameplay that makes both offence and defence feel rewarding. Choose your team, select from a playbook of runs, passes, and trick plays, then execute on the field.</p>
-
-<p>On offence, you pick a formation and play from your playbook, then take control of the quarterback. You can throw to open receivers by clicking on them, hand the ball off to a running back, or scramble with the QB if the pocket collapses. Reading the defence and making quick decisions is the key to moving down the field and scoring touchdowns.</p>
-
-<p>Defence is equally strategic. You choose your defensive formation, then control a player to pursue the ball carrier, swat passes, or blitz the quarterback. The AI opponents get smarter as you advance through the season, mixing up their play-calling to keep you guessing. The game offers single games and full season modes, giving you the choice between a quick match and a longer championship run.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play 4th and Goal 2022</strong></h2>
-
-<ul class="wp-block-list">
-<li>Select a play from your offensive or defensive playbook.</li>
-<li>On offence, use arrow keys to move and click to throw to receivers.</li>
-<li>On defence, control your player to tackle the ball carrier.</li>
-<li>Manage the clock, field position, and downs strategically.</li>
-<li>Win games to advance through the season and reach the championship.</li>
-</ul>
+    content: `<p>4th and Goal 2022 is the latest edition of the beloved American football arcade series that distills the excitement of gridiron action into quick, accessible matches. Choose your team, call plays from a varied playbook, and execute them on the field with intuitive controls that capture the thrill of touchdowns, interceptions, and game-winning drives without the complexity of full simulation football.</p>
+<p>The playbook offers a satisfying range of offensive and defensive options. On offense, choose from running plays, short passes, deep bombs, and trick plays that catch the defense off guard. On defense, select formations that counter what you think the offense will try. The rock-paper-scissors dynamic between play calls creates engaging strategic decisions before every snap.</p>
+<p>On-field execution matters just as much as play calling. Juke moves help runners avoid tackles, leading receivers with well-timed passes creates big plays, and switching to the right defender at the right moment can produce a game-changing interception. The arcade controls make these moments accessible while still rewarding skilled timing.</p>
+<p>Playing 4th and Goal 2022 online is the best way to enjoy American football in your browser. Each game takes just a few minutes, making it perfect for quick sessions. The updated roster reflects current teams, and the polished gameplay makes this the most refined entry in the long-running series. Whether you are a football fan or just enjoy competitive sports games, this delivers.</p>
+<h2 class="wp-block-heading">How to Play 4th and Goal 2022 Online</h2>
+<p>Start each play by selecting a formation from your playbook. The play diagram shows each player's route and responsibility, helping you make an informed choice. Mix up your play calls to keep the opposition guessing, as predictable patterns are easy to defend against.</p>
+<p>On offense, control the ball carrier after the snap. Use the arrow keys to run and dodge, and press the pass button to throw to an open receiver. Time your passes to hit receivers in stride for maximum yardage after the catch. Running plays require quick reflexes to find holes in the defensive line.</p>
+<p>On defense, you control one defender and the AI manages the rest. Switch between defenders using the switch button to take control of whoever is in the best position to make a play. Position yourself in passing lanes for interceptions or pursue the ball carrier to make tackles before they gain too many yards.</p>
+<p>Manage the clock and your timeouts strategically, especially in close games. Running plays burn more clock than passing plays, so run the ball when you have the lead and pass when you need to score quickly. Timeout management in the final minutes can make the difference between a dramatic comeback victory and a heartbreaking defeat.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13789,21 +12828,15 @@ export const games = [
     thumbnail: '/images/4x4-soccer.webp',
     relatedSlugs: ['a-small-world-cup', 'soccer-skills-world-cup', 'soccer-bros'],
     excerpt: '4X4 Soccer is a fast-paced mini football game featuring four-a-side matches on compact pitches where every touch counts and goals come thick and fast.',
-    content: `<p>4X4 Soccer is a fast-paced mini football game featuring four-a-side matches on compact pitches where every touch of the ball counts. With fewer players on the field, the action is non-stop — there is no hiding in midfield or waiting for teammates to create chances. You are constantly involved in both attack and defence, making split-second decisions that can swing the match.</p>
-
-<p>The controls are streamlined for quick pick-up-and-play sessions. Move your player, pass, and shoot with simple inputs while the AI handles your teammates' positioning. The small pitch means shots come from everywhere, and goalkeepers are kept busy with rapid-fire attempts. Games are typically short, making this perfect for a quick break or back-to-back tournaments.</p>
-
-<p>Despite its simplicity, 4X4 Soccer has depth in its positioning game. Learning when to press forward and when to drop back, when to pass and when to shoot, makes the difference between winning streaks and frustrating losses. The physics-based ball movement adds unpredictability — deflections and ricochets create highlight-reel goals that feel genuinely exciting.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play 4X4 Soccer</strong></h2>
-
-<ul class="wp-block-list">
-<li>Use arrow keys or WASD to move your player on the pitch.</li>
-<li>Press the shoot button to kick the ball toward goal.</li>
-<li>Pass to teammates to create scoring opportunities.</li>
-<li>Switch to defence when the opponent has possession.</li>
-<li>Score more goals than your opponent before time runs out.</li>
-</ul>
+    content: `<p>4x4 Soccer brings fast-paced football action to your browser with small-sided matches that keep the ball constantly in play. With only four players on each team, every player is directly involved in both attack and defense, creating non-stop action from kickoff to final whistle. The smaller pitch means goals come frequently and momentum shifts happen in seconds.</p>
+<p>The simplified team size makes the game accessible while maintaining tactical depth. You control one player directly while AI teammates handle basic positioning and movement. Calling for passes, making runs, and choosing when to shoot versus when to dribble creates meaningful decisions every time you have the ball at your feet.</p>
+<p>The physics-based ball movement feels satisfying, with power shots, curved crosses, and delicate chips all possible depending on your input. Mastering the shooting mechanics lets you score from impressive angles and distances, while defensive positioning and well-timed tackles prevent the opposition from doing the same to you.</p>
+<p>Playing 4x4 Soccer online is perfect for quick competitive football matches that cut out the slow moments of full-sized games. Every match is packed with action, goals, and dramatic moments. The small team format means you are always in the thick of the action rather than watching from a distance, making every moment exciting.</p>
+<h2 class="wp-block-heading">How to Play 4x4 Soccer Online</h2>
+<p>Use the arrow keys or WASD to control your active player's movement on the pitch. Press the spacebar or designated kick button to pass or shoot depending on the context. Holding the kick button longer produces a more powerful shot, while tapping it quickly makes a short pass to a nearby teammate.</p>
+<p>Switch to the nearest player to the ball automatically when on defense, or press the switch button to manually select a different teammate. Good defensive play requires anticipating where the ball is going and positioning yourself to intercept passes or block shots before they reach the goal.</p>
+<p>On offense, use quick passes to move the ball up the pitch and create shooting opportunities. With only four players per side, space opens up quickly after a good pass. Look for gaps in the defense and time your runs to arrive in scoring position just as the ball does for the best chance at goal.</p>
+<p>Master the different shot types to score from various positions on the pitch. Power shots from distance can catch the goalkeeper off guard, while placed shots from inside the box are harder to save. Learning when to shoot versus when to make one more pass is the difference between winning and losing close matches.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13819,21 +12852,15 @@ export const games = [
     thumbnail: '/images/67-clicker.webp',
     relatedSlugs: ['infinity-craft', 'plinko', 'memory-game'],
     excerpt: '67 Clicker is an addictive idle clicker game where you tap to earn points, purchase upgrades, and unlock prestige tiers to multiply your earnings exponentially.',
-    content: `<p>67 Clicker is an addictive idle clicker game where you tap to earn points, purchase upgrades, and unlock prestige tiers to multiply your earnings exponentially. The loop is simple but irresistible — click the main button to earn currency, spend it on auto-clickers and multipliers, then watch your numbers grow. The satisfaction of watching your counter climb from hundreds to millions to billions keeps you coming back for more.</p>
-
-<p>The upgrade tree is where the strategy lives. Early on you buy basic auto-clickers that generate a few points per second. As you progress, more powerful upgrades become available — speed boosts, click multipliers, and passive generators that work even when you are not clicking. Deciding when to save for an expensive upgrade versus buying several cheap ones is the core decision-making loop.</p>
-
-<p>The prestige system adds a compelling meta-layer. Once you reach certain milestones, you can reset your progress in exchange for permanent multipliers that make your next run faster. Each prestige cycle lets you climb higher, unlocking new content and reaching numbers that were previously impossible. It is the kind of game where you tell yourself "just one more upgrade" and suddenly an hour has passed.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play 67 Clicker</strong></h2>
-
-<ul class="wp-block-list">
-<li>Click the main button to earn points.</li>
-<li>Spend points on upgrades to increase earnings per click.</li>
-<li>Buy auto-clickers to generate passive income.</li>
-<li>Unlock multipliers and boosts for exponential growth.</li>
-<li>Prestige when available to earn permanent bonuses for your next run.</li>
-</ul>
+    content: `<p>67 Clicker is a casual idle clicking game where your goal is reaching the number 67 through a series of clicks and upgrades. What starts as a simple click counter evolves into a surprisingly engaging progression system as you unlock multipliers, automated clickers, and bonus mechanics that accelerate your journey toward the target. The minimalist concept hides a well-crafted idle experience.</p>
+<p>The upgrade system gives purpose to every click. Early clicks earn basic increments, but purchasing upgrades multiplies your output exponentially. Auto-clickers generate passive income, click multipliers make each manual click more valuable, and special bonuses provide massive point bursts. Managing which upgrades to buy and when creates meaningful strategic decisions.</p>
+<p>The game's charm lies in its stripped-down simplicity. There are no flashy graphics or complex narratives, just the pure satisfaction of watching a number grow toward your target. This minimalism makes it perfect for background play or quick sessions where you want to see progress without committing to a complex game system.</p>
+<p>Playing 67 Clicker online is a relaxing idle experience that proves you do not need complexity to create an engaging game. The clean interface and smooth progression keep you clicking just a little longer each time. It is the kind of game that fits perfectly into short breaks and rewards both active clicking and patient idling.</p>
+<h2 class="wp-block-heading">How to Play 67 Clicker Online</h2>
+<p>Click the main button to generate points toward your goal. Each click adds to your total based on your current click power, which starts at one and increases with upgrades. In the early game, rapid clicking is your primary way to accumulate points for that first crucial upgrade purchase.</p>
+<p>Spend your accumulated points on upgrades that increase your earning rate. Click power upgrades make each manual click worth more, while auto-click upgrades generate points automatically over time. Prioritise auto-clickers early to establish passive income that works while you are away.</p>
+<p>Watch for special bonus events that appear periodically. These time-limited opportunities offer massive point boosts if you click during the active window. Staying attentive to bonus events while letting auto-clickers handle the baseline income is the most efficient path to reaching your target quickly.</p>
+<p>Track your progress toward 67 and adjust your strategy based on how close you are. When nearing the goal, consider whether a final burst of manual clicking or one more upgrade purchase will get you there faster. The satisfaction of finally reaching 67 after building up your clicking empire from nothing makes the journey worthwhile.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13849,21 +12876,15 @@ export const games = [
     thumbnail: '/images/99-nights-in-the-forest-playground.webp',
     relatedSlugs: ['99-nights-in-the-forest', 'infinity-craft', 'solar-smash'],
     excerpt: '99 Nights in the Forest Playground is the sandbox companion to the survival game, offering a creative mode where you can freely explore, build, and experiment without the pressure of nightly attacks.',
-    content: `<p>99 Nights in the Forest Playground is the sandbox companion to the popular survival game, offering a creative mode where you can freely explore, build, and experiment without the pressure of nightly attacks. All of the crafting recipes, building tools, and exploration mechanics from the main game are available, but the threat of enemies is removed so you can focus on creativity and discovery at your own pace.</p>
-
-<p>In Playground mode you have access to unlimited resources from the start, so you can build elaborate shelters, test defensive layouts, and experiment with crafting combinations that would take hours to unlock in the main game. It is an ideal space for learning the mechanics before tackling the full survival experience, or simply for players who prefer building over combat.</p>
-
-<p>The forest environment is fully explorable, with hidden areas, caves, and scenic spots that reward curiosity. You can place torches to illuminate paths, construct multi-level structures, and create custom camps anywhere on the map. The relaxed pace makes it a great companion piece to the tense survival mode, and many players use Playground to plan strategies they will execute in the main game.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play 99 Nights in the Forest Playground</strong></h2>
-
-<ul class="wp-block-list">
-<li>Explore the forest freely with no enemy threats.</li>
-<li>Gather resources and craft tools using the crafting menu.</li>
-<li>Build shelters, forts, and decorative structures anywhere on the map.</li>
-<li>Test crafting recipes and building layouts without resource limits.</li>
-<li>Use the sandbox to practice strategies for the main survival mode.</li>
-</ul>
+    content: `<p>99 Nights in the Forest Playground is an atmospheric horror game that drops you into a seemingly innocent playground surrounded by dark forest. What begins as a quiet exploration quickly turns unsettling as the environment changes around you and strange events occur with increasing frequency. The game uses psychological tension rather than constant jump scares to create genuine unease.</p>
+<p>The playground setting is masterfully subverted from a place of childhood joy into something deeply unsettling. Familiar playground equipment takes on menacing qualities under dim lighting and shifting shadows. The swing moves on its own, the merry-go-round creaks in the silence, and the slide seems to lead somewhere different each time you approach it. The contrast between expected innocence and experienced dread is powerfully effective.</p>
+<p>Sound design carries much of the horror experience. Distant footsteps, whispering voices, and ambient forest sounds create a constantly tense atmosphere. The absence of a musical score makes every unexpected sound feel immediate and real, keeping you on edge throughout the entire experience without ever feeling artificially amplified.</p>
+<p>Playing 99 Nights in the Forest Playground online is a compelling horror experience for players who appreciate atmospheric tension over cheap scares. The game demonstrates how a well-crafted environment and sound design can be more frightening than any monster or gore. Best played at night with headphones for the full immersive effect.</p>
+<h2 class="wp-block-heading">How to Play 99 Nights in the Forest Playground Online</h2>
+<p>Use WASD to move and the mouse to look around the playground environment. Your movement speed is deliberately slow, contributing to the feeling of vulnerability that pervades the experience. Press shift to sprint briefly when you feel the need to escape from something.</p>
+<p>Interact with playground equipment and objects by clicking on them when prompted. Some interactions trigger events that advance the experience, while others reveal hidden details about the story. Not everything needs to be interacted with, but thorough exploration rewards you with a deeper understanding of what is happening.</p>
+<p>Pay attention to changes in the environment. Objects may move between visits, new elements may appear in previously empty areas, and the lighting conditions shift in ways that affect what you can and cannot see. These subtle changes are part of the experience and noticing them adds to the building tension.</p>
+<p>Listen carefully to every sound in the environment. Audio cues often provide warnings about events that are about to occur or indicate the direction of something you should investigate or avoid. The spatial audio design means that sound direction matters, so wearing headphones helps you pinpoint where noises are coming from in the three-dimensional space.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13879,21 +12900,15 @@ export const games = [
     thumbnail: '/images/a-difficult-game-about-climbing.webp',
     relatedSlugs: ['level-devil', 'vex-3', 'run-3'],
     excerpt: 'A Difficult Game About Climbing is a physics-based rage game where you control two hands independently to grip surfaces and pull yourself up a mountain, one painful handhold at a time.',
-    content: `<p>A Difficult Game About Climbing is a physics-based rage game where you control two hands independently to grip surfaces and pull yourself up a mountain, one painful handhold at a time. Inspired by Getting Over It, the game features intentionally frustrating controls that make every inch of progress feel like a genuine achievement — and every fall feel absolutely devastating.</p>
-
-<p>You control each hand separately, clicking to grip a surface and dragging to pull your body upward. The physics are deliberately wobbly, so your character swings, flails, and slips in ways that are both infuriating and hilarious. One wrong move can send you tumbling back down past checkpoints you spent twenty minutes reaching. The mountain is dotted with tricky overhangs, slippery surfaces, and objects that spin when you grab them.</p>
-
-<p>What makes the game compelling despite the frustration is the pure satisfaction of mastering its mechanics. As you learn to read surfaces, time your grips, and manage your momentum, you begin to make consistent progress. The community of players sharing their rage moments and eventual victories adds to the experience — knowing others are suffering through the same climbs keeps you going when you want to quit.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play A Difficult Game About Climbing</strong></h2>
-
-<ul class="wp-block-list">
-<li>Click and hold to grip a surface with one hand.</li>
-<li>Drag to pull your body in that direction.</li>
-<li>Alternate hands to climb upward, maintaining momentum.</li>
-<li>Be careful on slippery or spinning surfaces — one slip can cost huge progress.</li>
-<li>Persistence is key — every fall is a lesson for the next attempt.</li>
-</ul>
+    content: `<p>A Difficult Game About Climbing is a brutally challenging physics-based climbing game that tests your patience, coordination, and determination in equal measure. You control a character's two hands independently, gripping onto surfaces and pulling yourself upward through an increasingly treacherous vertical course. One wrong move sends you tumbling back down, potentially losing minutes or hours of progress.</p>
+<p>The dual-hand control scheme is the source of both the challenge and the satisfaction. Each hand grips and releases independently, and you must coordinate them carefully to maintain your hold while reaching for the next grip point. The physics are deliberately unforgiving, creating moments of genuine tension as you stretch for a distant ledge while your other hand slowly loses its grip.</p>
+<p>The course is designed to maximise frustration and triumph in equal measure. Easy sections lull you into confidence before a particularly devious obstacle sends you plummeting. There are no checkpoints, so every fall carries real stakes. The emotional journey from despair to elation when you finally overcome a section that defeated you dozens of times is what makes the game unforgettable.</p>
+<p>Playing A Difficult Game About Climbing online joins a proud lineage of intentionally frustrating games like Getting Over It. The game is not unfair, just uncompromising. Every fall is your fault, every success is your achievement, and the complete absence of safety nets makes reaching the top a genuinely meaningful accomplishment that few players ever achieve.</p>
+<h2 class="wp-block-heading">How to Play A Difficult Game About Climbing Online</h2>
+<p>Control each hand using separate key bindings. Typically one hand uses the mouse while the other uses keyboard keys. Click or press to grip a surface, and move to pull yourself in that direction. Release to let go and reach for the next handhold. Coordinating both hands smoothly is the fundamental skill you need to develop.</p>
+<p>Always maintain at least one solid grip before reaching with your other hand. Letting go with both hands simultaneously means falling, and falling in this game often means losing significant progress. Patience is more valuable than speed at every stage of the climb.</p>
+<p>Read the terrain ahead before committing to a move. Some surfaces look climbable but are actually slippery or angled in ways that will not support your weight. Planning your route two or three moves ahead prevents you from reaching a dead end where no viable grip points exist within reach.</p>
+<p>Accept that failure is part of the experience and try to maintain composure when you fall. Emotional reactions lead to rushed attempts that cause more falls. The players who reach the top are not necessarily the most skilled but the most persistent and calm under pressure. Every fall teaches you something about the route that makes your next attempt slightly better.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13909,21 +12924,15 @@ export const games = [
     thumbnail: '/images/a-koopas-revenge.webp',
     relatedSlugs: ['a-koopas-revenge-2', 'run-3', 'red-ball'],
     excerpt: 'A Koopa\'s Revenge is a fan-made platformer that flips the Mario formula by letting you play as a Koopa Troopa seeking revenge against the plumber who stomped on your friends.',
-    content: `<p>A Koopa&#8217;s Revenge is a fan-made platformer that flips the classic Mario formula on its head by letting you play as a Koopa Troopa seeking revenge against the plumber who has stomped on your friends for decades. Instead of rescuing a princess, you are on a rampage through Mushroom Kingdom levels, stomping Toads, dodging familiar hazards, and taking the fight to Mario himself.</p>
-
-<p>The game plays like a classic 2D platformer with tight controls and responsive jumping. You run through colourful levels filled with pipes, blocks, and enemies — but from the villain&#8217;s perspective. Power-ups transform you into different Koopa variants with unique abilities, like a winged Koopa that can fly or a spiked version that damages enemies on contact. Each power-up opens new paths through the levels.</p>
-
-<p>The level design pays homage to the original Mario games while adding enough original twists to feel fresh. Secret areas, hidden power-ups, and multiple paths through each stage reward exploration. Boss fights at the end of each world pit you against familiar faces in creative encounters that test your platforming skills and pattern recognition.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play A Koopa&#8217;s Revenge</strong></h2>
-
-<ul class="wp-block-list">
-<li>Use arrow keys to move and jump through each level.</li>
-<li>Stomp on enemies from above to defeat them.</li>
-<li>Collect power-ups to transform into stronger Koopa variants.</li>
-<li>Find hidden areas and secret paths for bonus items.</li>
-<li>Defeat the boss at the end of each world to progress.</li>
-</ul>
+    content: `<p>A Koopa's Revenge flips the Super Mario formula on its head by putting you in control of a Koopa Troopa seeking vengeance against Mario. Instead of stomping enemies, you are the one fighting back against the plumber and his allies. The familiar platforming mechanics take on a completely different flavour when you are playing the villain, exploring Mushroom Kingdom from the other side of the conflict.</p>
+<p>The level design pays loving homage to classic Mario games while subverting expectations at every turn. Familiar visual themes like grassy plains, underground caves, and castle stages appear, but the challenges within are designed around the Koopa's unique abilities. Shell attacks, ground pounds, and special power-ups give you a moveset that feels distinct from the hero you are used to playing.</p>
+<p>Power-ups transform your Koopa into different forms with unique abilities, much like mushrooms and flowers do for Mario. Each form opens up new ways to interact with the environment and defeat enemies. Discovering all the power-ups and learning their applications adds depth to what might initially seem like a simple parody.</p>
+<p>Playing A Koopa's Revenge online is a treat for anyone who grew up with Mario games and wondered what life was like for the bad guys. The game is surprisingly well-crafted with tight controls, creative level design, and enough content to rival the classics it parodies. It stands on its own as an excellent platformer, not just a novelty.</p>
+<h2 class="wp-block-heading">How to Play A Koopa's Revenge Online</h2>
+<p>Use the arrow keys to move your Koopa Troopa through each level. Press the spacebar or designated jump button to leap over obstacles and stomp on enemies from above. The platforming controls are deliberately reminiscent of classic Mario games, so the muscle memory transfers directly.</p>
+<p>Use your shell attack by pressing the attack button while moving. Your Koopa retreats into its shell and slides forward, plowing through enemies and breaking blocks. The shell attack is your signature move and is essential for clearing paths and defeating tougher enemies that resist normal stomps.</p>
+<p>Collect power-ups hidden in blocks and secret areas throughout each level. Each power-up changes your Koopa's appearance and abilities, giving you new ways to tackle challenges. Experiment with different power-ups to discover which ones work best for specific level types and enemy encounters.</p>
+<p>Explore every corner of each level to find hidden areas, bonus rooms, and secret exits that lead to alternative paths on the world map. The game rewards thorough exploration with shortcuts and bonus content that casual players might miss entirely. Some of the best power-ups and most creative level designs are hidden behind secret passages.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13939,21 +12948,15 @@ export const games = [
     thumbnail: '/images/a-koopas-revenge-2.webp',
     relatedSlugs: ['a-koopas-revenge', 'run-3', 'red-ball'],
     excerpt: 'A Koopa\'s Revenge 2 is the expanded sequel that builds on the original with new power-ups, larger worlds, multiple playable characters, and significantly more challenging level designs.',
-    content: `<p>A Koopa&#8217;s Revenge 2 is the expanded sequel that builds on everything the original did well and adds substantially more content. The game features larger worlds, new power-ups, multiple playable characters, and significantly more challenging level designs. You can play as a Koopa, Goomba, or Shy Guy, each with distinct abilities that change how you approach every level.</p>
-
-<p>The power-up system is greatly expanded. Flower power lets you shoot fireballs, the Hammer Suit lets you throw hammers in an arc, and various shell transformations give you speed boosts or defensive abilities. Combining these power-ups with each character&#8217;s innate abilities creates a variety of play styles — the Goomba&#8217;s headbutt works differently from the Koopa&#8217;s shell dash, encouraging multiple playthroughs.</p>
-
-<p>Level design is where the sequel truly shines. Each world introduces distinct environments — underground caves, sky-high cloud platforms, underwater passages, and volcanic fortresses — with unique hazards and enemies. The difficulty curve is steeper than the first game, with later levels requiring precise platforming and quick reflexes. Boss battles are more elaborate, featuring multi-phase fights with creative attack patterns.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play A Koopa&#8217;s Revenge 2</strong></h2>
-
-<ul class="wp-block-list">
-<li>Choose your character: Koopa, Goomba, or Shy Guy.</li>
-<li>Use arrow keys to move, jump, and interact with the environment.</li>
-<li>Collect power-ups to gain new abilities and transformations.</li>
-<li>Explore hidden paths for secret items and bonus stages.</li>
-<li>Defeat world bosses to unlock new areas and progress the story.</li>
-</ul>
+    content: `<p>A Koopa's Revenge 2 builds massively on the original fan-made platformer, delivering a full-length adventure that rivals the games it parodies. Return as the vengeful Koopa Troopa with an expanded moveset, dozens of new levels, multiple power-ups, and a world map that would feel at home in any classic Mario game. The sequel transforms from novelty into a genuinely excellent platformer in its own right.</p>
+<p>The level variety is outstanding. Forest stages, underground caverns, sky castles, desert zones, and water worlds each bring unique challenges and visual themes. Hidden exits in many levels open secret paths on the world map, leading to bonus stages and shortcuts. The exploration element adds significant replay value beyond the main campaign's already substantial length.</p>
+<p>Power-ups give the Koopa devastating new abilities. Fire flowers, hammer suits, and unique Koopa-specific transformations each change how you approach levels. Some areas are only accessible with specific power-ups, encouraging revisits to earlier levels with newly acquired abilities. The power-up system makes the Koopa feel like a real protagonist rather than a reskinned Mario.</p>
+<p>Playing A Koopa's Revenge 2 online is essential for fans of classic platformers. The level design, music, and gameplay polish rival commercially released games, making it one of the best fan-made platformers ever created. It proves that playing the villain can be just as entertaining as playing the hero, if not more so.</p>
+<h2 class="wp-block-heading">How to Play A Koopa's Revenge 2 Online</h2>
+<p>Use the arrow keys to move and jump through each level. The controls deliberately mirror classic Mario games, with running, jumping, and ground-pounding all available from the start. The Koopa's shell attack is performed by pressing the attack button while moving, letting you slide through enemies and breakable blocks.</p>
+<p>Collect coins scattered throughout levels and hidden in blocks for extra lives and bonus points. Some blocks contain power-ups that transform your Koopa and grant new abilities. Hit every suspicious-looking block from below to check for hidden items, as the best power-ups are often tucked away in unexpected locations.</p>
+<p>Search for hidden exits in levels marked with special indicators on the world map. These secret exits lead to new paths, bonus stages, and shortcuts that bypass difficult sections. Finding all secret exits requires thorough exploration and creative use of power-ups to reach hidden areas.</p>
+<p>Boss battles appear at the end of each world and require learning attack patterns to defeat. Each boss has unique abilities and vulnerabilities, and discovering the correct strategy makes the fight manageable. Use power-ups wisely during boss encounters, as entering with the right ability can make a significant difference in difficulty.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13969,21 +12972,15 @@ export const games = [
     thumbnail: '/images/a-little-to-the-left.webp',
     relatedSlugs: ['brain-test', 'infinity-craft', 'memory-game'],
     excerpt: 'A Little to the Left is a cozy puzzle game where you sort, stack, and organize everyday household objects into satisfying arrangements, with a mischievous cat occasionally disrupting your work.',
-    content: `<p>A Little to the Left is a cozy puzzle game where you sort, stack, and organize everyday household objects into satisfying arrangements. Each level presents a messy scene — a jumbled cutlery drawer, scattered pencils, misaligned books, tangled yarn — and your job is to figure out the correct way to tidy everything up. Some solutions are obvious; others require creative thinking and a keen eye for patterns.</p>
-
-<p>The game&#8217;s charm lies in its attention to detail and the satisfying click when everything falls into place. Objects snap into position with gentle sounds, colours align in pleasing gradients, and the visual payoff of a perfectly organized shelf is surprisingly rewarding. A mischievous cat occasionally swats items off the table, adding a playful obstacle that keeps the experience lighthearted.</p>
-
-<p>Many puzzles have multiple valid solutions, encouraging you to think about organization in different ways. You might sort books by height, colour, or subject — each approach is accepted. This open-ended design makes the game accessible to all ages while still providing satisfying "aha" moments for puzzle enthusiasts. The hand-drawn art style and gentle soundtrack create a calming atmosphere perfect for unwinding.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play A Little to the Left</strong></h2>
-
-<ul class="wp-block-list">
-<li>Click and drag objects to rearrange them in each scene.</li>
-<li>Look for patterns — colour, size, shape, or type — to guide your sorting.</li>
-<li>Some puzzles have multiple valid solutions, so experiment freely.</li>
-<li>Watch out for the cat who may disrupt your careful arrangements.</li>
-<li>Complete each level to unlock new tidying challenges.</li>
-</ul>
+    content: `<p>A Little to the Left is a cozy puzzle game about tidying up household objects into satisfying arrangements. Each level presents a collection of everyday items in disarray, and you must figure out the intended organisation by sorting, stacking, aligning, and arranging them just right. The puzzles tap into the universal satisfaction of putting things in order and creating visual harmony from chaos.</p>
+<p>The household items featured in the puzzles are charmingly rendered with a hand-drawn art style that gives everything a warm, personal feeling. Buttons, pencils, books, kitchen utensils, and decorative objects all appear as puzzle subjects. The attention to detail in the artwork makes arranging items feel like interacting with real, tangible objects rather than abstract puzzle pieces.</p>
+<p>Most puzzles have multiple valid solutions, reflecting the reality that there is more than one way to organise a junk drawer or arrange books on a shelf. The game accepts various logical arrangements, whether you sort by size, colour, shape, or pattern. This flexibility encourages creative thinking and means players rarely feel stuck on a single correct answer.</p>
+<p>Playing A Little to the Left online is a soothing, meditative experience that provides satisfaction without stress. There are no timers, scores, or fail states, just the gentle pleasure of bringing order to small corners of a virtual household. A mischievous cat occasionally disrupts your careful arrangements, adding a touch of playful chaos to the calm proceedings.</p>
+<h2 class="wp-block-heading">How to Play A Little to the Left Online</h2>
+<p>Click and drag items to move them into position on the puzzle surface. Most puzzles involve arranging objects into rows, stacks, or patterns based on a shared characteristic. Look for visual clues in the items themselves: size gradients, colour groupings, shape similarities, and matching patterns all suggest possible arrangements.</p>
+<p>Experiment with different organisations if your first attempt does not register as correct. Try sorting by different criteria such as size from smallest to largest, colour from lightest to darkest, or grouping items by category. The game's multiple valid solutions mean your arrangement just needs to follow some logical principle.</p>
+<p>Watch for the cat that occasionally appears to knock items around. The cat adds a charming obstacle that forces you to re-tidy your work. Embrace the interruption as part of the game's personality rather than a frustration, and re-arrange your items with the cat's interference in mind.</p>
+<p>Take your time with each puzzle and enjoy the process of figuring out the solution. The game is designed to be relaxing, so rushing defeats the purpose. Some puzzles reveal their logic instantly while others require quiet contemplation. The satisfaction of finally understanding what arrangement a puzzle wants is one of the game's greatest pleasures.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -13999,21 +12996,15 @@ export const games = [
     thumbnail: '/images/a-shedletsky-pov.webp',
     relatedSlugs: ['3x3-obby', 'run-3', 'level-devil'],
     excerpt: 'A Shedletsky POV is a Roblox-inspired browser game that puts you in a first-person perspective through obstacle courses and meme-filled environments themed around Roblox culture.',
-    content: `<p>A Shedletsky POV is a Roblox-inspired browser game that puts you in a first-person perspective through obstacle courses and environments themed around Roblox culture. Named after the legendary Roblox developer Shedletsky (John Shedletsky), the game is packed with inside jokes, references, and challenges that Roblox fans will immediately recognise and appreciate.</p>
-
-<p>The gameplay combines first-person platforming with exploration and puzzle elements. You navigate through themed rooms, jump across gaps, avoid hazards, and discover hidden areas that reward curiosity. The blocky visual style mirrors the Roblox aesthetic, creating a familiar feel for players from that community while being accessible to newcomers through its straightforward controls.</p>
-
-<p>Each section of the game introduces different mechanics and challenges, from timed obstacle courses to maze-like environments. The meme-inspired humour and community references keep the tone lighthearted and entertaining. It is a love letter to Roblox culture that works as both a fun platformer for casual players and a nostalgia trip for longtime Roblox community members.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play A Shedletsky POV</strong></h2>
-
-<ul class="wp-block-list">
-<li>Use WASD to move through the 3D environments.</li>
-<li>Use the mouse to look around in first-person view.</li>
-<li>Jump with Space to navigate obstacles and platforms.</li>
-<li>Explore rooms for hidden secrets and Easter eggs.</li>
-<li>Complete each challenge area to progress through the game.</li>
-</ul>
+    content: `<p>A Shedletsky POV is a unique first-person experience inspired by Roblox culture and the legendary game developer Shedletsky. Navigate through a series of challenge rooms and obstacle courses from a first-person perspective, encountering references, jokes, and situations that Roblox community members will instantly recognise. The game is a love letter to the platform's history and community.</p>
+<p>Each room presents a different challenge that ranges from platforming precision tests to puzzle solving and exploration. The first-person perspective adds immersion and difficulty compared to the typical third-person Roblox experience, making familiar obstacle types feel fresh and more intense when you cannot see your character's feet.</p>
+<p>The humor and community references are woven throughout the experience. Easter eggs reward players who are deeply familiar with Roblox history, while the gameplay stands on its own for those less versed in the platform's lore. The combination of challenging gameplay and community-specific humor creates something that appeals on multiple levels.</p>
+<p>Playing A Shedletsky POV online is a must for Roblox enthusiasts who appreciate the platform's history and culture. The first-person format creates an intimate, immersive experience that stands apart from typical browser games. Whether you get every reference or simply enjoy the challenging gameplay, there is plenty here to engage with and enjoy.</p>
+<h2 class="wp-block-heading">How to Play A Shedletsky POV Online</h2>
+<p>Use WASD to move and the mouse to look around in the first-person environment. The controls follow standard first-person conventions, so players familiar with FPS games will feel immediately comfortable. Press spacebar to jump, which is essential for the platforming sections that make up much of the gameplay.</p>
+<p>Navigate through each room by finding the exit, which may require solving puzzles, completing platforming challenges, or discovering hidden switches. Some rooms are straightforward while others require exploration and experimentation to figure out how to proceed. Take your time to examine your surroundings carefully.</p>
+<p>Look for easter eggs and hidden references throughout each room. Some are visual gags placed in the environment, while others are interactive elements that trigger special events or dialogue. Thoroughness is rewarded with bonus content that adds to the overall experience.</p>
+<p>Some rooms feature timed challenges or precision platforming that require multiple attempts to complete. The first-person perspective makes judging distances trickier than in third person, so give yourself extra margin on jumps until you calibrate your sense of distance. Persistence pays off, and completing the tougher challenges is especially satisfying.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -14029,21 +13020,15 @@ export const games = [
     thumbnail: '/images/abandoned-2-the-forest.webp',
     relatedSlugs: ['brain-test', 'bob-the-robber'],
     excerpt: 'Abandoned 2: The Forest is an atmospheric point-and-click escape game where you wake up stranded in a dark forest and must solve puzzles to find your way out.',
-    content: `<p>Abandoned 2: The Forest is an atmospheric point-and-click escape game where you wake up stranded in a dark, mysterious forest with no memory of how you got there. Your only option is to explore the surroundings, collect items, and solve puzzles to piece together what happened and find a way back to civilization. The eerie ambient sounds and shadowy visuals create a genuinely unsettling atmosphere.</p>
-
-<p>The puzzles range from straightforward item combinations — using a key on a lock, combining objects in your inventory — to more complex logic puzzles involving codes, patterns, and environmental clues. Each solved puzzle opens a new area of the forest, gradually revealing the story of what led to your abandonment. Paying attention to notes, markings, and environmental details is crucial for progress.</p>
-
-<p>The forest itself is a character in the game. Strange structures, abandoned campsites, and cryptic symbols suggest you are not the first person to be lost here. The narrative unfolds through discovered items and journals, creating a compelling mystery that drives you forward. The sense of isolation is palpable, making each discovery feel significant and each solved puzzle a genuine relief.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Abandoned 2: The Forest</strong></h2>
-
-<ul class="wp-block-list">
-<li>Click on objects and areas to examine and interact with them.</li>
-<li>Collect items and store them in your inventory for later use.</li>
-<li>Combine items in your inventory to create useful tools.</li>
-<li>Solve environmental puzzles using clues found in the surroundings.</li>
-<li>Explore thoroughly — every clue brings you closer to escaping the forest.</li>
-</ul>
+    content: `<p>Abandoned 2 The Forest is a suspenseful point-and-click escape adventure that strands you in a dense, mysterious forest with nothing but your wits to guide you out. The sequel expands on the original with more complex puzzles, richer environments, and a deeper narrative that gradually reveals why you are lost in these woods and what is watching you from between the trees.</p>
+<p>The forest environment is beautifully rendered with detailed hand-drawn scenes that create an atmosphere of isolation and mystery. Each location within the forest presents unique visual details that serve double duty as atmospheric set dressing and potential puzzle components. A peculiar arrangement of stones might be a clue, a broken branch might indicate a path, and symbols carved into trees might unlock something hidden.</p>
+<p>Puzzle design builds on classic escape room logic adapted to the outdoor setting. Instead of locked rooms and combination safes, you face natural obstacles, wildlife encounters, and forest mysteries that require environmental observation and creative thinking to solve. Items found in one area often have uses in another, encouraging thorough exploration and careful item management.</p>
+<p>Playing Abandoned 2 The Forest online delivers a compelling escape adventure that combines beautiful environments with clever puzzle design. The forest setting provides a refreshing change from the typical room escape format, and the gradually unfolding narrative gives meaning to every puzzle you solve. It is a thoughtful, immersive experience that rewards patient and observant players.</p>
+<h2 class="wp-block-heading">How to Play Abandoned 2 The Forest Online</h2>
+<p>Click on areas of the screen to move between locations and examine objects more closely. The cursor changes when hovering over interactive elements, indicating items you can pick up, examine, or manipulate. Explore each scene thoroughly by clicking on anything that catches your attention before moving on.</p>
+<p>Collect items and add them to your inventory for later use. Click on inventory items to select them, then click on objects in the environment to try using them. Some items combine with each other in your inventory to create new tools. If an item does not work in a location, it may be needed elsewhere.</p>
+<p>Read any notes, signs, or markings you find carefully, as they often contain codes, clues, or story elements that help solve puzzles elsewhere in the forest. Keep a mental note of any numbers, symbols, or patterns you encounter, as they frequently become relevant in unexpected ways later in the game.</p>
+<p>If you get stuck, revisit earlier locations with fresh eyes. New items in your inventory may reveal interactions that were not available before, and your understanding of the story may help you interpret clues differently. The game is designed to be solvable without external help, so every solution uses logic and observation skills that the game teaches you naturally.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -14059,21 +13044,15 @@ export const games = [
     thumbnail: '/images/abergeny-but-is-sprinkle.webp',
     relatedSlugs: ['level-devil', 'run-3', 'vex-3'],
     excerpt: 'Abergeny But Is Sprinkle is a quirky indie platformer that reimagines the Abergeny game with colourful sprinkle-themed visuals and unique level mechanics.',
-    content: `<p>Abergeny But Is Sprinkle is a quirky indie platformer that reimagines the Abergeny game with colourful sprinkle-themed visuals and unique level mechanics. The game takes the core platforming formula and adds a playful dessert aesthetic — platforms look like frosted cookies, hazards are gummy bears and chocolate spikes, and your character leaves a trail of rainbow sprinkles as they move through each level.</p>
-
-<p>Beneath the candy-coated surface lies a genuine platforming challenge. Levels are designed with precision jumping, timing-based obstacles, and hidden paths that reward thorough exploration. The sprinkle mechanic is not purely cosmetic — in some levels, the trail you leave behind can activate platforms or fill gaps, adding a strategic layer to your movement choices.</p>
-
-<p>The visual style is distinctive and charming, with bright pastel colours and playful animations that give the game a cheerful personality. Each world introduces new dessert-themed environments — ice cream mountains, cake fortresses, candy forests — with unique hazards and mechanics tied to the theme. It is a lighthearted platformer that does not take itself seriously but still delivers satisfying gameplay challenges.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Abergeny But Is Sprinkle</strong></h2>
-
-<ul class="wp-block-list">
-<li>Use arrow keys or WASD to move and jump.</li>
-<li>Navigate through sprinkle-themed levels, avoiding hazards.</li>
-<li>Collect items scattered throughout each stage for bonus points.</li>
-<li>Use the sprinkle trail mechanic to activate special platforms.</li>
-<li>Reach the end of each level to unlock the next challenge.</li>
-</ul>
+    content: `<p>Abergeny But Is Sprinkle is a creative twist on the popular Sprunki music-making format, reimagining familiar characters with a colourful sprinkle aesthetic. Layer different sprinkle-themed characters onto the stage, each contributing a unique sound loop to your musical composition. The visual transformation of standard characters into sprinkle-covered versions adds a playful charm that makes the creative process even more enjoyable.</p>
+<p>The music creation system is intuitive and accessible. Drag characters onto active slots to add their sounds to the mix, and remove them to silence individual layers. Each character contributes a different instrument or vocal element, from bass lines and drum patterns to melodic hooks and atmospheric effects. The way these layers combine creates surprisingly professional-sounding compositions.</p>
+<p>The sprinkle visual theme extends beyond mere character reskins. The entire interface sparkles with colourful particle effects, and each character's animation reflects their sprinkle-inspired design. The combination of creative audio design and whimsical visuals creates an experience that is as fun to watch as it is to listen to and play with.</p>
+<p>Playing Abergeny But Is Sprinkle online is a delightful creative outlet for music enthusiasts and casual players alike. The low barrier to entry means anyone can create something that sounds good within minutes, while the depth of layering options gives experienced players room to craft intricate compositions. It is pure creative fun with a uniquely sweet visual twist.</p>
+<h2 class="wp-block-heading">How to Play Abergeny But Is Sprinkle Online</h2>
+<p>Drag sprinkle-themed characters from the selection panel onto the active slots on the stage. Each character immediately begins playing their unique sound loop when placed, adding their layer to the overall composition. Position multiple characters to build up a complex, layered musical piece.</p>
+<p>Remove characters by dragging them off the stage or clicking to deactivate their slot. This lets you experiment with different combinations by adding and removing layers in real time. Listen to how each addition or removal changes the overall feel of your composition.</p>
+<p>Experiment with different character combinations to discover which sounds complement each other best. Some characters provide rhythmic foundations that other melodic characters can build upon, while certain combinations create unexpected harmonies. There are no wrong combinations, only different musical moods to explore.</p>
+<p>Try building your composition gradually, starting with a rhythmic base and layering additional elements one at a time. This approach lets you hear how each new layer contributes to the whole and helps you develop an understanding of musical arrangement. Save your favourite combinations mentally and try to recreate or improve upon them in future sessions.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -14089,21 +13068,15 @@ export const games = [
     thumbnail: '/images/ace-gangster.webp',
     relatedSlugs: ['crazy-cars', 'escape-road-2', 'rooftop-snipers'],
     excerpt: 'Ace Gangster is a GTA-inspired open-world browser game where you roam a sprawling city, take on criminal missions, steal vehicles, and build your reputation as the ultimate gangster.',
-    content: `<p>Ace Gangster is a GTA-inspired open-world browser game where you roam a sprawling city, take on criminal missions, steal vehicles, and build your reputation from street-level nobody to the most feared gangster in town. The game features a large explorable map with multiple districts, each offering different mission types, vehicles to steal, and dangers to navigate.</p>
-
-<p>Missions range from simple delivery jobs and car thefts to more complex heists and gang territory takeovers. Completing missions earns you cash that you can spend on weapons, clothing, and upgrades. The open-world design means you can tackle missions in any order or simply cruise around the city causing chaos — the choice is yours. Police will chase you if your wanted level gets too high, adding a risk-reward element to every criminal act.</p>
-
-<p>The driving mechanics let you commandeer any vehicle you find on the streets, from sports cars to trucks. Each vehicle handles differently, and high-speed chases through city traffic are some of the game&#8217;s most thrilling moments. Combined with on-foot combat, a variety of weapons, and a progression system that rewards both mission completion and free-roaming exploration, Ace Gangster delivers a surprisingly deep open-world experience for a browser game.</p>
-
-<h2 class="wp-block-heading"><strong>How To Play Ace Gangster</strong></h2>
-
-<ul class="wp-block-list">
-<li>Use WASD or arrow keys to move your character on foot.</li>
-<li>Approach vehicles and press Enter to steal and drive them.</li>
-<li>Accept missions from NPCs to earn cash and build your reputation.</li>
-<li>Purchase weapons and upgrades with earned money.</li>
-<li>Avoid or outrun the police when your wanted level is high.</li>
-</ul>
+    content: `<p>Ace Gangster is an open-world crime adventure where you start as a small-time crook and work your way up the criminal ladder in a sprawling city. Rob stores, steal cars, complete missions for crime bosses, and build your reputation as the most feared gangster in town. The sandbox gameplay gives you the freedom to approach your criminal career however you choose.</p>
+<p>The city is open for exploration from the start, with different districts offering varying levels of risk and reward. Wealthy neighbourhoods have better loot but heavier police presence, while rougher areas offer easier targets with smaller payoffs. Learning the city layout and knowing where to find quick cash, safe hideouts, and escape routes gives experienced players a significant advantage.</p>
+<p>Mission variety keeps the gameplay engaging throughout your criminal career. Some missions are straightforward smash-and-grab heists, while others require careful planning, car chases, or gunfights. The escalating stakes as you rise through the ranks provide a natural difficulty progression that matches your growing wealth and weapon arsenal.</p>
+<p>Playing Ace Gangster online delivers an ambitious open-world experience in your browser. The combination of free-roaming exploration, mission-based progression, and criminal empire building creates a compelling gameplay loop. For fans of sandbox crime games, it captures the essential power fantasy of rising from nothing to running the entire underworld.</p>
+<h2 class="wp-block-heading">How to Play Ace Gangster Online</h2>
+<p>Move on foot with WASD or arrow keys and interact with the world using the designated action buttons. Approach vehicles to steal them, enter buildings to rob them, and talk to NPCs to receive missions. The controls are straightforward and let you focus on the gameplay rather than learning complex input schemes.</p>
+<p>Accept missions from various NPCs around the city to earn money and build your reputation. Mission markers appear on the minimap, and each mission giver offers different types of jobs with varying difficulty and payout. Start with easier missions to build up cash before tackling the high-risk, high-reward jobs.</p>
+<p>Manage your wanted level by avoiding police attention during and after criminal activities. Committing crimes in view of civilians or officers raises your heat, bringing patrol cars and eventually more aggressive responses. Use alleys, side streets, and safe houses to evade pursuit when your wanted level gets too high.</p>
+<p>Invest your earnings in better weapons, vehicles, and equipment from shops scattered around the city. Upgrading your arsenal makes harder missions feasible and gives you an edge in gunfights. The best equipment is expensive but pays for itself by enabling higher-paying missions that would otherwise be too difficult to complete.</p>
 <!-- CONTENT END 1 -->`,
   },
   // ── New games added 2026-04-07 ──
@@ -14120,17 +13093,15 @@ export const games = [
     thumbnail: '/images/ace-gangster-2.webp',
     relatedSlugs: ['ace-gangster', 'ace-gangster-taxi', 'crazy-cars'],
     excerpt: 'Ace Gangster 2 is a GTA-inspired open-world crime game where you complete missions, steal vehicles, and dominate the city\'s criminal underworld.',
-    content: `<p>Ace Gangster 2 drops you back into a sprawling urban playground where crime pays — if you can survive long enough to enjoy the rewards. This sequel to the popular Ace Gangster expands on everything that made the original great, with a bigger city, more missions, and even more vehicles to commandeer as you climb the criminal ladder from street-level nobody to the most feared gangster in town.</p>
-<p>The game features a wide variety of missions including bank heists, vehicle pursuits, territory takeovers, and delivery runs. Each completed mission earns cash that you can spend on better weapons, flashy clothes, and vehicle upgrades. The open-world design gives you complete freedom — follow the mission path or simply cruise around causing chaos. Police will chase you if your wanted level spikes, adding genuine tension to every criminal act.</p>
-<p>With improved driving mechanics, a wider arsenal of weapons, and a deeper progression system, Ace Gangster 2 delivers one of the best GTA-style experiences available in a browser. The retro Flash art style gives the game its own personality, and the responsive controls make both on-foot and vehicular gameplay satisfying.</p>
-<h2 class="wp-block-heading"><strong>How To Play Ace Gangster 2</strong></h2>
-<ul class="wp-block-list">
-<li>Use WASD or arrow keys to move your character on foot.</li>
-<li>Press Enter near vehicles to hijack and drive them.</li>
-<li>Click to shoot — buy better weapons from the shop.</li>
-<li>Accept missions from NPCs marked on the mini-map.</li>
-<li>Manage your wanted level to avoid police chases.</li>
-</ul>
+    content: `<p>Ace Gangster 2 expands the open-world crime experience with a larger city, more missions, and deeper gameplay systems. You are an aspiring gangster working your way up from street-level crimes to running an entire criminal empire. The city is your playground, filled with opportunities for legitimate work, shady dealings, and everything in between.</p>
+<p>The mission structure offers genuine variety. One moment you are racing through traffic to deliver a package before the timer expires, the next you are engaging in a rooftop gunfight with a rival gang. Vehicle theft, property acquisition, and reputation management add layers of strategy beyond the moment-to-moment action gameplay.</p>
+<p>The progression from nobody to crime boss is satisfying and well-paced. Early missions pay modestly and involve low-risk tasks, while later missions offer massive payouts but pit you against better-armed opponents and increased police attention. Investing your earnings wisely in weapons, vehicles, and properties accelerates your rise through the criminal hierarchy.</p>
+<p>Playing Ace Gangster 2 online delivers an ambitious open-world experience that punches well above its weight for a browser game. The combination of driving, shooting, and strategic empire building creates a compelling gameplay loop. If you enjoy sandbox crime games, this captures the essential thrills of the genre in an accessible browser format.</p>
+<h2 class="wp-block-heading">How to Play Ace Gangster 2 Online</h2>
+<p>Move on foot using WASD or arrow keys and interact with vehicles, NPCs, and objects using the designated action key. The city is open for exploration from the start, letting you wander freely or head directly to mission markers depending on your preference.</p>
+<p>Accept missions from NPCs scattered around the city. Mission markers appear on your minimap, and speaking to the mission giver reveals the objectives and potential rewards. Choose missions that match your current equipment and skill level, as some are significantly harder than others.</p>
+<p>Drive vehicles by approaching them and pressing the enter key. Cars handle differently based on their type, with sports cars being fast but fragile and trucks being slow but durable. Learning to drive well is essential, as many missions involve time-sensitive driving objectives and police chases.</p>
+<p>Manage your wanted level carefully. Committing crimes in front of witnesses or police raises your heat, which brings increasingly aggressive law enforcement responses. Lay low after high-profile jobs, use back alleys to avoid patrols, and invest in safe houses where you can wait for your wanted level to decrease. Smart criminals work quietly and save aggression for when it counts.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -14146,17 +13117,15 @@ export const games = [
     thumbnail: '/images/Ace-Gangster-Taxi Metroville-City.webp',
     relatedSlugs: ['ace-gangster', 'ace-gangster-2', 'crazy-cars'],
     excerpt: 'Ace Gangster Taxi puts you behind the wheel of a cab in Metroville City. Pick up passengers, earn cash, dodge traffic, and survive in a crime-ridden metropolis.',
-    content: `<p>Ace Gangster Taxi Metroville City combines the open-world freedom of the Ace Gangster series with taxi-driving gameplay. You play as a cab driver navigating the crime-filled streets of Metroville, picking up passengers, racing against the clock to deliver them to their destinations, and earning cash to upgrade your vehicle and unlock new areas of the city.</p>
-<p>The city is alive with traffic, pedestrians, and hazards. You need to balance speed with safety — driving recklessly will damage your cab and cost you repair money, but driving too slowly means losing fares to rival taxis. The map is large and varied, featuring downtown districts, industrial zones, suburbs, and waterfront areas, each with their own challenges and passenger types.</p>
-<p>As you progress, you can purchase better vehicles with faster speeds and tighter handling. The game's economy rewards consistent play, with bonuses for perfect deliveries, chain fares, and discovering shortcut routes through the city. It's Crazy Taxi meets GTA in a fun, accessible browser package.</p>
-<h2 class="wp-block-heading"><strong>How To Play Ace Gangster Taxi</strong></h2>
-<ul class="wp-block-list">
-<li>Use WASD or arrow keys to drive your taxi.</li>
-<li>Stop near highlighted passengers to pick them up.</li>
-<li>Follow the arrow or mini-map to the drop-off location.</li>
-<li>Earn cash for quick, safe deliveries.</li>
-<li>Refuel at gas stations to keep driving.</li>
-</ul>
+    content: `<p>Ace Gangster Taxi puts you in the driver's seat of a criminal underworld taxi service. Pick up shady passengers, complete illegal deliveries, and outrun the police across a sprawling city. The game blends open-world driving with mission-based gameplay, giving you the freedom to explore the city streets between jobs while building your reputation as the most reliable getaway driver in town.</p>
+<p>The city itself is a character in the game, with distinct districts that each present different challenges. Downtown streets are narrow and packed with traffic, suburban roads offer higher speeds but longer distances, and industrial areas hide shortcuts that experienced drivers use to shave seconds off tight deadlines. Learning the map is as important as mastering the driving mechanics.</p>
+<p>Each mission pushes you to balance speed with caution. Drive too recklessly and you attract police attention, leading to chases that can end your run. Drive too carefully and you miss your deadline, losing the fare and your reputation. The tension between these competing pressures makes every job feel exciting, whether it is a simple passenger pickup or a high-stakes delivery.</p>
+<p>Playing Ace Gangster Taxi online delivers a satisfying open-world driving experience directly in your browser. The mission variety keeps things fresh, and the progression from small-time driver to criminal kingpin provides long-term motivation. If you enjoy games that combine driving skill with strategic decision-making, this is a perfect fit for quick sessions or extended play.</p>
+<h2 class="wp-block-heading">How to Play Ace Gangster Taxi Online</h2>
+<p>Use the arrow keys to drive your taxi through the city streets. Up accelerates, down brakes or reverses, and left and right steer. The handling feels responsive at low speeds but becomes more challenging as you push the car faster, rewarding careful throttle control during tight turns and busy intersections.</p>
+<p>Accept missions by driving to marked locations on the map. Each mission gives you a destination, a time limit, and a payout. Delivering passengers or packages on time earns you cash and reputation, while failing missions reduces your standing. Focus on nearby jobs first to build up cash before tackling longer, higher-paying runs.</p>
+<p>Watch your wanted level indicator at all times. Hitting pedestrians, crashing into police cars, or driving on the wrong side of the road increases police attention. If your wanted level gets too high, police will actively chase you and can end your run if they catch you. Keep a low profile between missions to avoid unnecessary heat.</p>
+<p>Earn enough cash and you can upgrade to faster vehicles with better handling and durability. Better cars make harder missions possible and give you an edge when outrunning the law. Invest in upgrades early to make the mid-game missions more manageable, and save up for the best vehicles to tackle the most challenging late-game content.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -14172,17 +13141,15 @@ export const games = [
     thumbnail: '/images/acid-factory.webp',
     relatedSlugs: ['fireboy-and-watergirl', 'vex-3', 'run-3'],
     excerpt: 'Acid Factory is a platformer where you guide Harry through a destroyed chemical plant, dodging acid spills, toxic gas, mutated workers, and malfunctioning robots.',
-    content: `<p>Acid Factory follows Harry, an ordinary employee at Toxichem Inc., after a catastrophic explosion rips through the chemical plant. The facility is now flooded with corrosive acid, leaking toxic gases, and overrun with mutated workers and haywire robots. Your job is simple: guide Harry through each level and get him out alive.</p>
-<p>Each level is a carefully designed puzzle-platformer challenge. You need to time your jumps over acid pools, duck under swinging hazards, collect batteries to power lifts and doors, and outrun rising acid levels in timed escape sequences. The pixel art style gives the game a retro charm, while the level design keeps the difficulty escalating at a satisfying pace.</p>
-<p>The game features multiple worlds with unique themes — from the factory floor to underground tunnels to the rooftop escape. Boss encounters pit you against massive mutated creatures that require pattern recognition and quick reflexes to defeat. With tight controls and creative obstacles, Acid Factory delivers a polished platforming experience.</p>
-<h2 class="wp-block-heading"><strong>How To Play Acid Factory</strong></h2>
-<ul class="wp-block-list">
-<li>Use arrow keys or WASD to move and jump.</li>
-<li>Collect batteries to power doors and elevators.</li>
-<li>Avoid acid pools, toxic gas clouds, and enemies.</li>
-<li>Time your jumps carefully on moving platforms.</li>
-<li>Reach the exit door before the acid level rises.</li>
-</ul>
+    content: `<p>Acid Factory is a pulse-pounding arcade game where you must escape a factory that is flooding with deadly acid from below. Your character stands on platforms that slowly dissolve as the green acid rises, and you must jump from platform to platform, climbing ever higher to avoid a toxic demise. The premise is simple but the execution creates genuine tension.</p>
+<p>The factory is procedurally generated, meaning the platform layout changes with every attempt. Some runs give you a clear path upward, while others force desperate leaps across wide gaps with the acid nipping at your heels. Power-ups appear randomly to help your escape, offering temporary shields, speed boosts, or platform-stabilising effects that can save a run.</p>
+<p>The rising acid creates a constant sense of urgency that few browser games match. There is no time to plan the perfect route because hesitation means death. You must read the platforms above you, make split-second decisions about which direction to jump, and commit fully. The game trains your reflexes and decision-making under pressure in an incredibly addictive way.</p>
+<p>Playing Acid Factory online is an intense arcade experience that keeps you coming back for one more attempt. The short run format makes it perfect for quick gaming sessions, while the procedural generation ensures no two runs feel identical. Chasing your high score becomes compulsive once you understand the rhythm of jumping and climbing.</p>
+<h2 class="wp-block-heading">How to Play Acid Factory Online</h2>
+<p>Use the arrow keys to move left and right, and press the up arrow or spacebar to jump. Your character can also wall-jump by pressing jump while sliding against a vertical surface, which is essential for reaching platforms that are otherwise out of direct jumping range.</p>
+<p>Keep moving upward at all times. The acid rises at a steady pace that gradually increases as you climb higher. Staying on one platform too long is dangerous because the acid will eventually reach you. Even if you cannot see a perfect path, keep jumping upward and adjust your course as new platforms come into view.</p>
+<p>Collect power-ups whenever they appear but do not go out of your way for them if it means losing altitude. A shield can save you from one acid touch, while a speed boost lets you cover ground faster. These items can be the difference between setting a new high score and falling short of your personal best.</p>
+<p>Watch the platform colours and types carefully. Some platforms crumble after you stand on them, others bounce you higher than normal, and a few move horizontally to carry you across gaps. Learning how each platform type behaves lets you react instantly instead of being surprised, giving you the edge needed to climb higher than ever before.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -14198,17 +13165,15 @@ export const games = [
     thumbnail: '/images/adventure-capitalist.webp',
     relatedSlugs: ['cookie-clicker', '2048', 'google-feud'],
     excerpt: 'Adventure Capitalist is the world\'s greatest capitalism simulator. Start with a lemonade stand and build a business empire that spans planets.',
-    content: `<p>Adventure Capitalist is the idle clicker game that defined a genre. You start with a single lemonade stand and a dream. Click to earn your first dollars, then reinvest profits into upgrading your business. Before long, you own newspaper stands, car washes, pizza deliveries, donut shops, shrimp boats, hockey teams, movie studios, and banks — each generating income on its own timer.</p>
-<p>The genius of Adventure Capitalist lies in its progression loop. Hire managers to automate each business so income flows even when you're not clicking. Attract angel investors by resetting your progress for permanent multipliers that make your next run exponentially more profitable. The numbers grow from dollars to millions to billions to untrigintillions — and somehow it never stops feeling satisfying.</p>
-<p>Once you've conquered Earth's economy, expand to the Moon and Mars, each with their own unique businesses, managers, and upgrade paths. The game features regular events with limited-time businesses and exclusive rewards. Adventure Capitalist is the perfect idle game — deep enough to strategize, simple enough to check in on for a few minutes, and endlessly rewarding as the numbers climb ever higher.</p>
-<h2 class="wp-block-heading"><strong>How To Play Adventure Capitalist</strong></h2>
-<ul class="wp-block-list">
-<li>Click on businesses to earn money manually.</li>
-<li>Buy upgrades to increase profit per click.</li>
-<li>Hire managers to automate each business.</li>
-<li>Attract angel investors by resetting for permanent multipliers.</li>
-<li>Expand to the Moon and Mars for new business types.</li>
-</ul>
+    content: `<p>Adventure Capitalist is the iconic idle business simulation where you start with a humble lemonade stand and build your way to a multi-trillion dollar business empire. Click to earn your first dollars, invest in increasingly profitable ventures, and hire managers to automate your income streams. The game perfectly captures the dopamine rush of exponential growth and the fantasy of unlimited financial success.</p>
+<p>The business progression starts modestly but escalates rapidly. From lemonade stands you expand into pizza delivery, donut shops, shrimp boats, hockey teams, and movie studios. Each business type has its own revenue curve and upgrade path, and the interplay between multiple income streams creates interesting decisions about where to invest next for maximum returns.</p>
+<p>Angel investors provide the prestige mechanic that drives long-term progression. Resetting your businesses to claim angel investors gives you permanent multipliers that make each subsequent playthrough dramatically faster. The strategic calculation of when to prestige versus when to keep growing adds depth to what might otherwise be a pure idle experience.</p>
+<p>Playing Adventure Capitalist online is the definitive idle business game experience. The polished presentation, satisfying number growth, and well-balanced progression have made it one of the most played browser games of all time. It runs perfectly in the background while you work or study, rewarding you with astronomical profits whenever you check back in.</p>
+<h2 class="wp-block-heading">How to Play Adventure Capitalist Online</h2>
+<p>Click on your lemonade stand to earn your first dollars manually. Each click produces revenue based on your current upgrade level. Reinvest your earnings to buy more lemonade stands or upgrade their profitability. In the early game, active clicking is the fastest way to accumulate starting capital.</p>
+<p>Purchase new business types as they become affordable. Each new business generates its own income stream independent of the others. Diversifying your portfolio across multiple business types creates a more robust income that grows faster than focusing on a single venture.</p>
+<p>Hire managers for each business to automate income generation. Once a manager is hired, that business produces revenue automatically without any clicking required. Prioritise managers for your highest-earning businesses first, as their automation provides the biggest time-saving and income-boosting benefit.</p>
+<p>Track your angel investor count and consider resetting when the bonus they provide would significantly boost your overall earning rate. Each angel investor provides a percentage boost to all earnings, and accumulating large numbers through resets accelerates your progression dramatically. The timing of resets is the most important strategic decision in the game.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -14224,17 +13189,15 @@ export const games = [
     thumbnail: '/images/adventure-time-character-creator.webp',
     relatedSlugs: ['adventure-time-princess-maker', 'google-quick-draw'],
     excerpt: 'Create your own Adventure Time character with custom outfits, hairstyles, accessories, and backgrounds in this Cartoon Network dress-up game.',
-    content: `<p>Adventure Time Character Creator lets you design your very own character in the iconic style of the beloved Cartoon Network show. Choose from a wide selection of body types, skin colours, hairstyles, outfits, accessories, weapons, and backgrounds to create a unique inhabitant of the Land of Ooo.</p>
-<p>The creator features dozens of clothing options inspired by characters from the show — Finn's hat, Jake's stretchy limbs, Princess Bubblegum's crown, Marceline's axe bass, and more. Mix and match items freely to create original characters or recreate your favourite heroes and villains from the series. The drag-and-drop interface makes it easy to experiment with different looks.</p>
-<p>Once you're happy with your creation, you can save a screenshot to share with friends. The art style perfectly captures the show's distinctive look, with clean lines, bold colours, and that signature Adventure Time charm. Whether you're a die-hard fan of the show or just enjoy creative dress-up games, this character creator provides a fun, relaxing creative outlet.</p>
-<h2 class="wp-block-heading"><strong>How To Play Adventure Time Character Creator</strong></h2>
-<ul class="wp-block-list">
-<li>Click through the category tabs to browse items.</li>
-<li>Click on items to add them to your character.</li>
-<li>Drag items to reposition them on the character.</li>
-<li>Use the colour picker to customise skin and hair colours.</li>
-<li>Take a screenshot to save your finished character.</li>
-</ul>
+    content: `<p>Adventure Time Character Creator lets you design your own original character in the beloved art style of the hit animated series. Build a unique citizen of Ooo by combining an extensive library of body types, facial features, hairstyles, clothing, and accessories. Every option is drawn in the show's distinctive style, ensuring your creation looks like it belongs in the Land of Ooo alongside Finn, Jake, and the rest of the cast.</p>
+<p>The customisation depth is impressive, with categories covering everything from basic body shape to intricate accessories and background details. Layer different clothing items, adjust colours with a full palette picker, and mix features from various character types in the show. Want a vampire candy person with robot arms? The creator makes it possible with surprising flexibility.</p>
+<p>Part of the fun is the discovery process. Scrolling through the options reveals items and styles inspired by deep-cut references from across the show's many seasons. Fans will recognise signature looks from their favourite characters, which can be remixed and combined to create something entirely new. The creator serves as both a game and a love letter to Adventure Time's visual identity.</p>
+<p>Playing Adventure Time Character Creator online is a relaxing creative outlet for fans of the show. There is no time pressure, no scoring, and no wrong answers. Just pure creative freedom to design characters that express your imagination within the wonderful world of Adventure Time. Share your creations with friends or use them as inspiration for fan art and stories.</p>
+<h2 class="wp-block-heading">How to Play Adventure Time Character Creator Online</h2>
+<p>Browse through the customisation categories using the tabs or arrows at the top of the screen. Each category contains dozens of options for different features. Click on any item to apply it to your character, and the preview updates in real time so you can see every change immediately.</p>
+<p>Use the colour picker to customise the colour of individual elements. Hair, skin, clothing, and accessories can each be assigned unique colours. Experiment with different colour combinations to achieve a cohesive look or go wild with clashing colours for a more chaotic Ooo-style character.</p>
+<p>Layer multiple items from the same category to create complex outfits and looks. Some items can be combined in unexpected ways, producing results that neither item achieves alone. Try placing accessories on top of clothing items or combining hairstyles with hats for creative combinations.</p>
+<p>Once your character is complete, you can save or screenshot your creation. Try building characters based on your favourite Adventure Time characters with a twist, or create entirely original personalities for the Land of Ooo. The open-ended nature of the creator means you can return anytime to design a new character from scratch or refine a previous design.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -14250,17 +13213,15 @@ export const games = [
     thumbnail: '/images/adventure-time-princess-maker.webp',
     relatedSlugs: ['adventure-time-character-creator', 'google-quick-draw'],
     excerpt: 'Design your own magical Adventure Time princess with fantasy skin tones, hairstyles, dresses, crowns, and accessories in this creative dress-up game.',
-    content: `<p>Adventure Time Princess Maker is a polished dress-up game set in the Land of Ooo. Create your own royal character using a huge collection of fantasy-themed items — from elegant ball gowns and battle armour to magical staffs and enchanted crowns. The game captures the whimsical art style of the show perfectly.</p>
-<p>Choose from a variety of fantasy skin tones including classic colours and magical shades like purple, blue, and green. Layer on hairstyles ranging from simple ponytails to elaborate fantasy updos, then dress your princess in dozens of outfit options. Accessories include wings, jewellery, pets, and magical items that give your princess a unique personality.</p>
-<p>The background selection lets you place your princess in iconic Adventure Time locations — the Candy Kingdom, the Ice Kingdom, the Grasslands, and more. The intuitive drag-and-drop interface makes designing easy, while the enormous item library means you can create hundreds of unique princess designs. Save your favourites and share them with friends.</p>
-<h2 class="wp-block-heading"><strong>How To Play Adventure Time Princess Maker</strong></h2>
-<ul class="wp-block-list">
-<li>Browse item categories using the tabs on the side.</li>
-<li>Click items to add them to your princess.</li>
-<li>Choose skin tones and hair colours from the palette.</li>
-<li>Select a background to complete the scene.</li>
-<li>Screenshot your creation to save and share it.</li>
-</ul>
+    content: `<p>Adventure Time Princess Maker lets you create your own custom princess in the wonderful Land of Ooo. Using an extensive character creator, you design everything from hairstyles and facial features to outfits and accessories, all rendered in the signature Adventure Time art style. The result is a unique princess that looks like she belongs right alongside Princess Bubblegum and Flame Princess.</p>
+<p>The character customisation options are impressively deep for a browser game. Choose from dozens of hairstyles, skin colours, eye shapes, mouth styles, and body types. Layer clothing items, crowns, jewelry, and magical accessories to create exactly the princess you envision. Every combination produces a character that feels authentically Adventure Time in its visual style.</p>
+<p>Beyond the visual creator, the game lets you place your princess in different scenes from the show. Set backgrounds featuring iconic locations like the Candy Kingdom, Ice King's castle, the Treehouse, and the Nightosphere. Add companion characters and props to create your own Adventure Time scenes and stories using your custom creation.</p>
+<p>Playing Adventure Time Princess Maker online is a must for fans of the show and anyone who enjoys creative character design games. The faithful recreation of the show's distinctive art style means every creation looks professional and authentic. It is a relaxing, creative experience that lets you spend as much or as little time as you want perfecting your royal creation.</p>
+<h2 class="wp-block-heading">How to Play Adventure Time Princess Maker Online</h2>
+<p>Start by selecting a base body type for your princess from the options presented on screen. Use the navigation arrows or tabs to browse through the different customisation categories. Each category offers dozens of choices that you can mix and match freely to build your unique character.</p>
+<p>Cycle through hairstyles, facial features, and accessories using the arrow buttons within each category. Click on an item to apply it to your princess and see how it looks in real time. If you do not like a choice, simply click a different option or remove it entirely. The preview updates instantly so you always see exactly what your princess looks like.</p>
+<p>Choose colours for each element using the colour picker. Hair, skin, clothing, and accessories can each be individually coloured, letting you create cohesive colour schemes or wild rainbow combinations. Matching your princess's colour palette to a specific Adventure Time aesthetic is part of the creative fun.</p>
+<p>Once you are happy with your princess design, select a background scene to place her in. The scene options feature iconic Adventure Time locations that complement your character. Save or screenshot your creation to share with friends and fellow Adventure Time fans, then start over and design an entirely different princess to explore new creative directions.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -14276,17 +13237,15 @@ export const games = [
     thumbnail: '/images/adventures-in-ponyville.webp',
     relatedSlugs: ['adventure-time-character-creator', 'adventure-time-princess-maker'],
     excerpt: 'Adventures In Ponyville is a My Little Pony adventure game where you explore the town, interact with characters, and help prepare for the Summer Sun Celebration.',
-    content: `<p>Adventures In Ponyville is a fan recreation of the beloved My Little Pony Flash game originally hosted by Hasbro. Explore the colourful town of Ponyville, interact with iconic pony characters, and complete quests to help prepare for the grand Summer Sun Celebration.</p>
-<p>The game features a charming point-and-click adventure format where you visit different locations around Ponyville — Sweet Apple Acres, Sugarcube Corner, the Carousel Boutique, and more. Each location has its own mini-game or quest that rewards you with items needed for the celebration. The gentle gameplay and bright visuals make it perfect for younger players and fans of the franchise.</p>
-<p>Meet beloved characters including Twilight Sparkle, Rainbow Dash, Pinkie Pie, Applejack, Rarity, and Fluttershy — each with their own personality and quest line. The game captures the warmth and friendship themes of the show while providing enough interactive content to keep you engaged. This Scratch recreation preserves the magic of the original game that was taken offline when Hasbro retired it.</p>
-<h2 class="wp-block-heading"><strong>How To Play Adventures In Ponyville</strong></h2>
-<ul class="wp-block-list">
-<li>Click on locations to visit different areas of Ponyville.</li>
-<li>Talk to pony characters to receive quests.</li>
-<li>Complete mini-games to earn items and rewards.</li>
-<li>Collect everything needed for the Summer Sun Celebration.</li>
-<li>Explore all areas to discover hidden secrets.</li>
-</ul>
+    content: `<p>Adventures in Ponyville invites you to explore the charming world of Ponyville through a series of mini-games and quests that capture the magic and friendship themes beloved by fans. Help the ponies prepare for a celebration by completing tasks around town, each presented as a unique mini-game with its own mechanics and challenges. The bright, colorful world is a joy to explore.</p>
+<p>Each area of Ponyville features a different pony character who needs your help. Visit Sweet Apple Acres for apple-catching challenges, help Rarity find gems in her boutique, assist Rainbow Dash with weather tasks, or join Pinkie Pie in party preparations. The variety of mini-games ensures that gameplay stays fresh and engaging throughout the entire experience.</p>
+<p>The game strikes a wonderful balance between accessibility and engagement. Young players can enjoy the simple mechanics and colorful world, while older fans appreciate the faithful recreation of the Ponyville setting and character personalities. Each mini-game can be replayed for better scores, adding replay value for players who want to master every challenge.</p>
+<p>Playing Adventures in Ponyville online is a heartwarming experience that captures the spirit of friendship and adventure that defines the franchise. The cheerful music, vibrant colours, and gentle gameplay make it perfect for relaxing play sessions. It is a game designed to make you smile, and it succeeds beautifully at creating a welcoming, positive gaming experience.</p>
+<h2 class="wp-block-heading">How to Play Adventures in Ponyville Online</h2>
+<p>Navigate around Ponyville using your mouse to click on locations and characters. The map screen shows all available areas, and clicking on a location takes you directly there. Each location features a pony who will explain what help they need before starting the associated mini-game.</p>
+<p>Each mini-game has simple controls explained before it begins. Some require clicking or dragging items, others need timed button presses, and a few test your memory or pattern recognition. Listen to the instructions carefully before each game starts, as the mechanics vary significantly between different activities.</p>
+<p>Complete mini-games to earn stars or points that contribute to the overall celebration progress. Better performance in each game earns higher scores, so replay activities to improve your results. The celebration meter at the top of the screen shows how close you are to completing all the preparations.</p>
+<p>Visit every area of Ponyville to find all the mini-games and help every pony with their tasks. Some areas unlock after you complete certain challenges elsewhere, creating a natural progression through the town. Take your time exploring and enjoy the interactions with each character as you work toward making the celebration a success.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -14302,17 +13261,15 @@ export const games = [
     thumbnail: '/images/adventures-in-wonderland.webp',
     relatedSlugs: ['fireboy-and-watergirl', 'run-3', 'acid-factory'],
     excerpt: 'Adventures In Wonderland is an Alice-themed puzzle adventure game. Guide Alice through Wonderland, solve puzzles, and meet iconic characters from Lewis Carroll\'s classic.',
-    content: `<p>Adventures In Wonderland brings Lewis Carroll's timeless story to life as an interactive puzzle-adventure game. Follow Alice as she tumbles down the rabbit hole into a world of wonder, meeting the Cheshire Cat, the Mad Hatter, the Queen of Hearts, and other beloved characters along the way.</p>
-<p>Each chapter presents new environments and puzzle types — navigate the hedge maze of the Queen's garden, solve riddles at the Mad Hatter's tea party, play croquet with flamingos, and shrink or grow by consuming magical mushrooms and potions. The puzzles range from logic challenges to timed platforming sequences, keeping the gameplay varied and engaging.</p>
-<p>The game features beautiful illustrated environments that capture the surreal, dreamlike quality of Wonderland. The attention to detail in character design and scene composition creates an immersive experience that fans of the original story will appreciate. With multiple chapters and hidden collectibles, Adventures In Wonderland offers hours of whimsical puzzle-solving entertainment.</p>
-<h2 class="wp-block-heading"><strong>How To Play Adventures In Wonderland</strong></h2>
-<ul class="wp-block-list">
-<li>Use arrow keys or click to guide Alice through each scene.</li>
-<li>Interact with characters to receive clues and riddles.</li>
-<li>Solve puzzles to unlock new areas of Wonderland.</li>
-<li>Collect special items to progress through the story.</li>
-<li>Watch for hidden paths and secret areas.</li>
-</ul>
+    content: `<p>Adventures in Wonderland takes you down the rabbit hole into a whimsical world inspired by Lewis Carroll's timeless classic. Navigate through fantastical landscapes filled with peculiar characters, mind-bending puzzles, and hidden secrets that bring Wonderland to life in your browser. The game captures the surreal, dreamlike quality of the source material with colorful visuals and imaginative level design.</p>
+<p>Each area of Wonderland presents distinct challenges that mirror the absurd logic of the original story. One level might shrink you down to navigate a miniature garden, while another grows you to enormous size to overcome obstacles that were previously insurmountable. The size-changing mechanic adds a unique puzzle element that keeps gameplay fresh and unpredictable.</p>
+<p>Familiar characters appear throughout your journey, from the enigmatic Cheshire Cat to the tyrannical Queen of Hearts. Each encounter offers dialogue choices and puzzles that test your wit rather than just your reflexes. The writing captures the playful wordplay and logical absurdity that makes Wonderland such an enduring setting for adventure games.</p>
+<p>Playing Adventures in Wonderland online is a delightful experience for fans of the classic story and puzzle adventure enthusiasts alike. The vibrant art direction and creative puzzle design make every new area exciting to explore. It is a game that rewards curiosity and creative thinking, inviting you to embrace the impossible logic of Wonderland.</p>
+<h2 class="wp-block-heading">How to Play Adventures in Wonderland Online</h2>
+<p>Use the arrow keys or WASD to move your character through the various areas of Wonderland. Interact with objects and characters by clicking on them or pressing the action button when prompted. The controls are simple and intuitive, letting you focus on solving puzzles and exploring the strange and beautiful world.</p>
+<p>Pay attention to dialogue from the characters you meet, as their riddles and hints often contain clues for solving upcoming puzzles. The Cheshire Cat in particular offers cryptic guidance that becomes clear once you encounter the relevant challenge. Taking note of what characters say can save you from getting stuck later.</p>
+<p>Collect items as you explore and use them to solve environmental puzzles. Some items have obvious uses while others require creative thinking to figure out where they belong. The game follows Wonderland logic rather than real-world logic, so think about what would make sense in a world where anything is possible.</p>
+<p>Explore every corner of each area thoroughly before moving on. Hidden passages, bonus collectibles, and optional interactions are tucked away in places you might overlook on a casual playthrough. The game rewards thorough exploration with additional story content and achievements that enrich the overall experience.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -14328,17 +13285,15 @@ export const games = [
     thumbnail: '/images/adventures-with-anxiety.webp',
     relatedSlugs: ['google-feud', 'akinator'],
     excerpt: 'Adventures With Anxiety is an interactive story game where you play as anxiety itself — a hyperactive wolf trying to protect your human through humorous branching choices.',
-    content: `<p>Adventures With Anxiety is a unique interactive story game by Nicky Case that explores how anxiety works — with humor, stick figures, and a hyperactive wolf. Instead of playing as a person dealing with anxiety, you play as the anxiety itself: a well-meaning but overprotective wolf who just wants to keep their human safe.</p>
-<p>The game presents branching dialogue choices where you decide how to "protect" your human in various social situations — a house party, a job interview, a relationship conversation. Your choices determine whether the human learns to manage their anxiety or spirals into avoidance. The writing is sharp, funny, and surprisingly insightful about the mechanics of anxiety disorders.</p>
-<p>Created by Nicky Case (known for interactive explainers like "The Evolution of Trust"), the game uses simple animations and a conversational tone to tackle heavy subject matter without being preachy. Multiple playthroughs reveal different endings and insights. It's a short experience (about 30 minutes) but one that resonates deeply with anyone who has dealt with anxiety. Content note: includes references to alcohol, relationships, and strong language.</p>
-<h2 class="wp-block-heading"><strong>How To Play Adventures With Anxiety</strong></h2>
-<ul class="wp-block-list">
-<li>Read the dialogue as the story unfolds.</li>
-<li>Choose from branching options to guide the wolf's behaviour.</li>
-<li>Your choices affect how the human responds to anxiety.</li>
-<li>Play through multiple times to see different endings.</li>
-<li>Reflect on the insights about how anxiety works.</li>
-</ul>
+    content: `<p>Adventures with Anxiety is a deeply personal interactive story that puts you in the unexpected role of anxiety itself. Rather than playing as a person dealing with anxiety, you are the anxiety, choosing how to influence and interact with your human host. This innovative perspective flip creates a powerful narrative experience that helps players understand anxiety from the inside out.</p>
+<p>The story unfolds through dialogue choices where you decide how anxiety manifests in your host's life. Will you be a protective force that warns of genuine dangers, or an overwhelming presence that turns every situation into a crisis? The choices you make shape the narrative and lead to different outcomes that explore anxiety's complex relationship with the people it affects.</p>
+<p>The writing is remarkably insightful, drawing on real psychological concepts while remaining accessible and often genuinely funny. The game does not trivialise anxiety or treat it as simply negative. Instead, it explores how anxiety evolved as a survival mechanism and how it can become counterproductive when unchecked. The nuanced perspective resonates deeply with players who experience anxiety.</p>
+<p>Playing Adventures with Anxiety online is a meaningful experience that combines interactive storytelling with genuine psychological insight. Created by Nicky Case, it represents the best of what browser games can achieve as a medium for empathy and understanding. Whether you deal with anxiety personally or want to understand someone who does, this game offers valuable perspective.</p>
+<h2 class="wp-block-heading">How to Play Adventures with Anxiety Online</h2>
+<p>Read the dialogue presented on screen and click on your chosen response at each decision point. As anxiety, your choices determine how you interact with your human host and how the story develops. There are no wrong answers, only different paths that each reveal something meaningful about anxiety's nature.</p>
+<p>Pay attention to the evolving relationship between you as anxiety and your human host. Your choices affect how the host perceives and responds to you, creating a dynamic that shifts throughout the story. The narrative tracks these changes and reflects them in later dialogue and scenarios.</p>
+<p>The story has multiple branching paths and endings that depend on the pattern of choices you make. Some endings are more positive than others, but all of them convey important messages about mental health and self-understanding. Play through multiple times to see how different approaches change the outcome.</p>
+<p>Take your time with each choice and reflect on what each option represents. The game is designed to be thought-provoking rather than rushed, and the insights it offers are most impactful when you engage with them genuinely. Many players find that the experience changes how they think about their own anxiety or the anxiety of people close to them.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -14354,17 +13309,15 @@ export const games = [
     thumbnail: '/images/afton-nightmare.webp',
     relatedSlugs: ['friday-night-funkin', 'granny'],
     excerpt: 'Afton Nightmare is a FNAF-inspired horror game featuring William Afton and nightmare animatronics. Survive the night in this terrifying fan-made experience.',
-    content: `<p>Afton Nightmare is a fan-made horror game inspired by the Five Nights at Freddy's universe, featuring the infamous William Afton and the terrifying Nightmare animatronics. Built on Scratch, this game captures the dread and tension of the FNAF franchise in an accessible browser format.</p>
-<p>The game combines elements from Friday Night Funkin' with FNAF lore, creating a unique rhythm-horror hybrid. Face off against nightmare versions of beloved animatronic characters in intense musical battles. Each opponent has their own song patterns and difficulty level, requiring you to hit notes precisely while the unsettling atmosphere builds around you.</p>
-<p>The pixel art and sprite work pay homage to both FNAF and FNF communities, with detailed character designs that capture the menacing presence of the Nightmare animatronics. The soundtrack features original compositions that blend catchy rhythms with eerie undertones. Multiple difficulty levels make the game accessible to newcomers while providing a genuine challenge for experienced rhythm game players.</p>
-<h2 class="wp-block-heading"><strong>How To Play Afton Nightmare</strong></h2>
-<ul class="wp-block-list">
-<li>Use the arrow keys to hit notes as they scroll across the screen.</li>
-<li>Match the rhythm pattern to outperform your opponent.</li>
-<li>Watch your health bar — missing too many notes means game over.</li>
-<li>Progress through different songs and opponents.</li>
-<li>Try higher difficulty modes for a greater challenge.</li>
-</ul>
+    content: `<p>Afton Nightmare plunges you into a dark and terrifying Five Nights at Freddy's inspired horror experience. Navigate through shadowy corridors and abandoned rooms while avoiding the animatronic horrors lurking in the darkness. The game creates a genuinely unsettling atmosphere through clever sound design, limited visibility, and the constant threat of something terrible waiting just around the next corner.</p>
+<p>The tension builds masterfully as you explore the environment. Flickering lights cast moving shadows that play tricks on your eyes. Distant mechanical sounds suggest movement just out of sight. Every closed door could hide a jump scare or a crucial item needed for your escape. The pacing keeps you on edge without relying solely on cheap scares.</p>
+<p>Survival depends on resource management and careful exploration. Flashlight batteries are limited, forcing you to choose between illuminating dark areas and conserving power for when you really need it. Key items and clues are scattered throughout the environment, requiring thorough exploration of areas you would rather avoid. The tension between needing to explore and wanting to hide is the core of the experience.</p>
+<p>Playing Afton Nightmare online is an intense horror experience for fans of Five Nights at Freddy's and survival horror games. The atmosphere is genuinely creepy, the scares are effective, and the gameplay loop of exploring, collecting, and surviving keeps you engaged even when every instinct tells you to stop playing. Best experienced with headphones in a dark room.</p>
+<h2 class="wp-block-heading">How to Play Afton Nightmare Online</h2>
+<p>Use WASD or arrow keys to move through the environment and the mouse to look around. Your movement speed is deliberately measured to maintain tension, so you cannot simply sprint past dangers. Every step forward requires commitment and awareness of your surroundings.</p>
+<p>Press F or click to use your flashlight, which illuminates dark areas but has limited battery life. Use it sparingly by toggling it on only when you need to check a dark corner or find an item. The battery indicator shows your remaining power, and running out in a dark area can be fatal.</p>
+<p>Search rooms and corridors for key items needed to progress and ultimately escape. Items glow faintly in the darkness to help you spot them, but you still need to explore thoroughly. Check desks, shelves, and hidden corners for anything useful. Some items are well-hidden and require careful observation to find.</p>
+<p>Listen carefully for audio cues that warn you of nearby animatronic threats. Mechanical sounds, footsteps, and music box melodies indicate how close danger is. When you hear these warning sounds, find a hiding spot immediately or change your route. Learning to read the audio cues is essential for surviving the nightmare and making it out alive.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -14380,17 +13333,15 @@ export const games = [
     thumbnail: '/images/agario-sigmally.webp',
     relatedSlugs: ['agario', 'slither-io', 'hole-io'],
     excerpt: 'Sigmally is a popular Agar.io alternative featuring custom skins, Google sign-in, tournaments, and smooth multiplayer cell-eating gameplay.',
-    content: `<p>Agario Sigmally is one of the most popular alternatives to the classic Agar.io, offering the same addictive cell-eating gameplay with modern features, custom skins, and a thriving competitive community. Enter the arena as a tiny cell and consume smaller cells to grow, while avoiding being eaten by larger players — it's the circle of life, browser-game style.</p>
-<p>What sets Sigmally apart from the original Agar.io is its feature set. Sign in with Google to save your progress, customize your cell with unique skins, compete in organized tournaments, and climb the global leaderboards. The game runs smoothly with minimal lag, and the servers handle hundreds of concurrent players across multiple regions.</p>
-<p>Advanced techniques like splitting, ejecting mass, and virus feeding add layers of strategy beyond simple eat-or-be-eaten gameplay. Experienced players use these mechanics to execute impressive takedowns of much larger opponents. The community is active with regular events and seasonal content. Whether you're a casual player looking for quick fun or a competitive gamer chasing leaderboard positions, Sigmally delivers a polished .io experience.</p>
-<h2 class="wp-block-heading"><strong>How To Play Agario Sigmally</strong></h2>
-<ul class="wp-block-list">
-<li>Move your mouse to control your cell's direction.</li>
-<li>Eat smaller cells and pellets to grow larger.</li>
-<li>Avoid larger cells — they can eat you.</li>
-<li>Press Space to split your cell for offensive plays.</li>
-<li>Press W to eject mass — use it to feed allies or viruses.</li>
-</ul>
+    content: `<p>Agar.io Sigmally is an enhanced version of the legendary multiplayer cell game where you start as a tiny cell and grow by consuming smaller cells and food pellets scattered across a massive shared arena. The core gameplay is simple but endlessly engaging: eat to grow, avoid being eaten, and compete to become the largest cell on the server. Sigmally adds quality-of-life improvements and customisation options to the classic formula.</p>
+<p>The multiplayer dynamics create emergent gameplay that no AI can replicate. Larger cells hunt smaller ones, medium cells form temporary alliances against giants, and skilled players use splitting and virus mechanics to outplay opponents twice their size. The social ecosystem of each server is constantly shifting as players grow, shrink, get eaten, and respawn.</p>
+<p>Advanced techniques separate casual players from experts. Splitting your cell into pieces launches half your mass forward to engulf a distant target, but it also makes you vulnerable while recombining. Feeding viruses causes them to split, which can be used as weapons against larger cells. These mechanics add layers of strategy beyond simple size-based dominance.</p>
+<p>Playing Agar.io Sigmally online connects you to a vibrant community of players competing for leaderboard supremacy in real time. The enhanced client offers skin customisation, performance improvements, and additional features that make the experience smoother than the original. It remains one of the most addictive multiplayer browser games ever created.</p>
+<h2 class="wp-block-heading">How to Play Agar.io Sigmally Online</h2>
+<p>Move your cell by moving your mouse cursor. Your cell follows the cursor at a speed inversely proportional to your size, meaning smaller cells are faster and more agile than large ones. Use this speed advantage when small to dodge larger threats and collect food efficiently.</p>
+<p>Press spacebar to split your cell, launching half your mass in the direction of your cursor. Use this to quickly consume cells that are slightly smaller than you but trying to flee. Be cautious when splitting, as your smaller pieces are vulnerable to being eaten by cells that were previously too small to threaten you.</p>
+<p>Press W to eject a small amount of mass in the direction of your cursor. Ejected mass can be used to feed teammates in team modes, bait smaller cells into range, or feed viruses to split larger opponents. Mass ejection is a versatile tool that enables advanced strategies beyond simple consumption.</p>
+<p>Avoid the green spiked viruses that float around the map. If your cell is large enough and touches a virus, you split into many small pieces that are vulnerable to nearby predators. However, you can use viruses offensively by feeding them until they split and fire a new virus toward a large opponent, forcibly splitting them.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -14406,17 +13357,15 @@ export const games = [
     thumbnail: '/images/age-of-defense-2.webp',
     relatedSlugs: ['age-of-war', 'age-of-war-2-hacked', 'bloons-td'],
     excerpt: 'Age Of Defense 2 is a strategy tower defense game where you battle through 40 levels across 8 ages with 32 characters, 37 weapons, and powerful spells.',
-    content: `<p>Age Of Defense 2 is an action-packed tower defense game that spans the entirety of human history — and beyond. Battle through 40 increasingly challenging levels across 8 different historical ages, from the prehistoric era with clubs and rocks to the futuristic age with laser guns and mechs. Each age introduces new units, weapons, and abilities.</p>
-<p>The game features 32 unique characters to recruit and upgrade, each with their own combat style and special abilities. Pair them with 37 different weapons ranging from primitive spears to futuristic energy blasters. Strategic spell usage adds another layer — rain fire on enemy waves, freeze advancing troops, or heal your defenders at critical moments. With 34 achievements to unlock, there's always a new goal to chase.</p>
-<p>The visual effects are impressive for a Flash game, with detailed character animations, dramatic spell effects, and satisfying destruction. The difficulty curve is well-tuned, introducing new enemy types and requiring different strategies as you progress through the ages. Each age feels genuinely distinct, with unique art, music, and gameplay challenges that keep the experience fresh across all 40 levels.</p>
-<h2 class="wp-block-heading"><strong>How To Play Age Of Defense 2</strong></h2>
-<ul class="wp-block-list">
-<li>Place defensive units along the path to stop enemy waves.</li>
-<li>Upgrade units between rounds with earned gold.</li>
-<li>Use spells strategically to turn the tide of battle.</li>
-<li>Advance through ages to unlock new units and weapons.</li>
-<li>Complete challenges to earn achievement badges.</li>
-</ul>
+    content: `<p>Age of Defense 2 is a strategic tower defense game that spans the entire arc of human history. Build defensive structures and deploy warriors from the Stone Age through Medieval times and into the Modern era, adapting your strategy as technology evolves and enemy forces become increasingly sophisticated. Each age brings new units, towers, and challenges that fundamentally change how you approach defense.</p>
+<p>The age progression system is the game's defining feature. Starting with primitive cavemen and stone walls, you earn experience through combat to unlock subsequent eras. The jump from medieval archers to modern riflemen is dramatic, and timing your evolution between ages creates interesting strategic decisions. Evolve too early and you waste resources, too late and you risk being overwhelmed.</p>
+<p>Enemy waves match your technological level with their own era-appropriate forces, creating balanced encounters that require tactical thinking rather than brute force. Cavalry charges need different counter-strategies than infantry rushes, and aerial threats in later ages demand entirely new defensive approaches. The evolving challenge keeps the gameplay fresh from start to finish.</p>
+<p>Playing Age of Defense 2 online delivers a polished tower defense experience with the unique twist of historical progression. Watching your defenses evolve from primitive fortifications to modern military installations is deeply satisfying, and the strategic depth increases with each new age. It is a must-play for tower defense enthusiasts seeking something beyond the standard formula.</p>
+<h2 class="wp-block-heading">How to Play Age of Defense 2 Online</h2>
+<p>Place defensive units and structures along the path that enemies travel. Click on unit icons to select them, then click on valid positions to deploy. Each unit type has different range, damage, and special abilities that make them effective against specific enemy types.</p>
+<p>Earn gold from defeating enemies and spend it on additional units, upgrades, and tower improvements. Balancing immediate defensive needs with long-term investment in upgrades is crucial for surviving later waves when enemy forces become overwhelming without proper preparation.</p>
+<p>Gain experience from combat victories to unlock the next historical age. Each age transition gives you access to more powerful units and structures. Plan your evolution timing carefully, as the transition period temporarily prevents new deployments while your base upgrades to the new era.</p>
+<p>Adapt your defensive strategy based on the current wave composition. Use melee units to block and slow enemy advances while ranged units deal damage from safety. Position area-of-effect units at choke points for maximum efficiency, and keep a reserve of resources for emergency deployments when unexpected threats break through your lines.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -14432,17 +13381,15 @@ export const games = [
     thumbnail: '/images/age-of-war-2-hacked.webp',
     relatedSlugs: ['age-of-war', 'age-of-defense-2', 'bloons-td'],
     excerpt: 'Age Of War 2 Hacked lets you play the beloved strategy game with unlimited resources. Build massive armies, evolve through ages, and obliterate the enemy.',
-    content: `<p>Age Of War 2 Hacked gives you the full experience of the legendary strategy game with the added fun of unlimited money. Build turrets, spawn soldiers, evolve through different historical ages, and crush the enemy base before they destroy yours — all without worrying about resource management.</p>
-<p>The hacked version lets you experiment freely with unit compositions and strategies. Spawn armies of cavemen alongside futuristic mech warriors, build walls of turrets, and use special abilities without waiting for cooldowns. It's the perfect way to explore all the content the game has to offer, discover which units are the most powerful, and create hilariously overpowered armies.</p>
-<p>Age Of War 2 features improved graphics, more unit types, and deeper strategic options compared to the original. The evolution mechanic is the star — progress from the Stone Age through the Middle Ages, Industrial era, and into the future, with each age bringing new soldiers, turrets, and a devastating super attack. The hacked version turns an already great strategy game into an unbridled power fantasy.</p>
-<h2 class="wp-block-heading"><strong>How To Play Age Of War 2 Hacked</strong></h2>
-<ul class="wp-block-list">
-<li>Click unit icons to spawn soldiers that march toward the enemy base.</li>
-<li>Build and upgrade turrets to defend your base.</li>
-<li>Earn experience to evolve to the next age.</li>
-<li>Use your special attack when the meter is full.</li>
-<li>Destroy the enemy base while protecting your own.</li>
-</ul>
+    content: `<p>Age of War 2 Hacked gives you the full strategic warfare experience with unlimited resources, letting you focus purely on the fun of building armies and crushing enemies across the ages of human civilisation. Starting in the Stone Age and advancing through Medieval, Renaissance, and Modern eras, you recruit units, build turrets, and evolve your base to outlast a relentless AI opponent.</p>
+<p>The hacked version removes the resource grind, letting you experiment freely with different unit compositions and strategies. Want to rush the enemy with a swarm of cavemen? Go for it. Prefer to turtle behind turrets until you can unleash tanks and jets? That works too. The freedom to try anything makes this version perfect for discovering all the game's content without the usual slow buildup.</p>
+<p>Each era brings dramatically different units with unique strengths and weaknesses. Stone Age clubs give way to medieval swords, then muskets, and finally modern military hardware. The visual progression from primitive warfare to high-tech combat is genuinely impressive, and watching your base evolve from a cave to a fortress to a military compound adds a satisfying sense of advancement.</p>
+<p>Playing Age of War 2 Hacked online is the best way to experience everything this strategy classic has to offer. Without resource limitations, you can focus on mastering unit combinations and base defense strategies. The fast-paced warfare and era progression create an epic feeling of commanding armies through the entire span of human history.</p>
+<h2 class="wp-block-heading">How to Play Age of War 2 Hacked Online</h2>
+<p>Click on unit icons at the bottom of the screen to train soldiers that automatically march toward the enemy base. Each unit type has different health, damage, speed, and cost. With unlimited resources in the hacked version, you can spam powerful units freely, but strategic composition still matters for efficiency.</p>
+<p>Build defensive turrets on your base to help repel enemy attacks. Turrets provide steady damage output that complements your marching units. Position different turret types to create overlapping fields of fire that make it difficult for enemies to reach your base walls.</p>
+<p>Earn enough experience through combat to evolve to the next age. Each evolution dramatically changes your available units and turrets, giving you access to more powerful options. Time your evolution carefully, as the transition period leaves you temporarily vulnerable while your base transforms.</p>
+<p>Pay attention to the enemy's unit composition and counter accordingly. Fast units can overwhelm slow heavy hitters, ranged units pick off melee fighters before they arrive, and special units have unique abilities that can turn the tide. Even with unlimited resources, smart unit selection wins battles faster and more decisively than mindless spam.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -14458,17 +13405,15 @@ export const games = [
     thumbnail: '/images/agent-p-rebel-spy.webp',
     relatedSlugs: ['adventure-time-character-creator', 'run-3'],
     excerpt: 'Agent P Rebel Spy puts you in control of Perry the Platypus on secret spy missions to stop Dr. Doofenshmirtz in this Phineas and Ferb action game.',
-    content: `<p>Agent P Rebel Spy is a Disney action game from the Phineas and Ferb franchise. Play as Agent P — Perry the Platypus — the seemingly ordinary pet who secretly works as a top agent for the O.W.C.A. (Organization Without a Cool Acronym). Your mission: stop Dr. Doofenshmirtz's latest evil scheme before it's too late.</p>
-<p>Navigate through multiple levels of the Doofenshmirtz Evil Incorporated building, using Agent P's spy gadgets and combat skills to defeat robot minions, dodge laser traps, and solve environmental puzzles. Each level introduces new obstacles and enemy types, keeping the gameplay fresh as you climb toward the final showdown with the bumbling evil scientist.</p>
-<p>The game captures the humor and charm of the TV show perfectly, with authentic character designs, witty dialogue, and that signature Phineas and Ferb art style. Perry's animations are fluid and fun to watch, from his signature hat-tip to his combat moves. It's a polished, family-friendly action game that fans of the show will love and newcomers will enjoy for its tight gameplay.</p>
-<h2 class="wp-block-heading"><strong>How To Play Agent P Rebel Spy</strong></h2>
-<ul class="wp-block-list">
-<li>Use arrow keys to move Agent P through each level.</li>
-<li>Press Space to attack enemies and break obstacles.</li>
-<li>Collect gadgets and power-ups along the way.</li>
-<li>Dodge lasers, traps, and enemy attacks.</li>
-<li>Defeat Dr. Doofenshmirtz in the final boss battle.</li>
-</ul>
+    content: `<p>Agent P Rebel Spy puts you in control of Perry the Platypus from Phineas and Ferb in a thrilling stealth espionage adventure. As Agent P, you must infiltrate enemy bases, avoid detection by guards and security systems, and complete missions to thwart the evil plans of the villainous organization. The game captures the charm and humor of the beloved animated series perfectly.</p>
+<p>Each mission takes place in a different location with unique layout challenges and security configurations. Guards patrol set routes, security cameras sweep designated areas, and laser grids block critical passages. You must observe patterns, time your movements, and use Agent P's gadgets to slip through undetected. Getting caught means restarting the section.</p>
+<p>The stealth mechanics are well-designed for a browser game, striking a balance between challenge and accessibility. Guard vision cones are clearly displayed, giving you the information you need to plan your approach. Agent P can hide behind objects, crawl through vents, and use special abilities to bypass security measures that would otherwise be impassable.</p>
+<p>Playing Agent P Rebel Spy online is a treat for Phineas and Ferb fans and stealth game enthusiasts alike. The cartoon art style is faithful to the show, the gameplay is engaging without being frustrating, and the missions offer enough variety to keep you entertained through the entire campaign. It is one of the best licensed browser games available.</p>
+<h2 class="wp-block-heading">How to Play Agent P Rebel Spy Online</h2>
+<p>Use the arrow keys to move Agent P through each mission area. Move carefully and watch the patrol patterns of guards before committing to a path. Guards follow set routes that repeat on a timer, so patience and observation are rewarded more than rushing through the level.</p>
+<p>Hide behind objects and walls to avoid detection when guards pass nearby. Press against cover and wait for the guard to move past before continuing. Security cameras also follow patterns, sweeping back and forth across their coverage area. Time your movements to pass through when the camera is pointed away.</p>
+<p>Use Agent P's special gadgets at designated points to disable security systems or create distractions. Each gadget has a specific use, so look for visual clues in the environment that suggest where and when to deploy them. The right gadget at the right time can open up shortcuts through otherwise heavily guarded areas.</p>
+<p>Complete all objectives within each mission to progress to the next stage. Objectives range from collecting intelligence documents to sabotaging equipment and reaching extraction points. Some missions have optional bonus objectives that reward thorough exploration and skilled play. Take your time to plan each section and you will find that stealth is more rewarding than rushing.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -14484,17 +13429,15 @@ export const games = [
     thumbnail: '/images/agent-sprunkis.webp',
     relatedSlugs: ['sprunki', 'incredibox'],
     excerpt: 'Agent Sprunkis is a secret-agent themed Sprunki music mod where you create spy-inspired beats by dragging characters onto the stage.',
-    content: `<p>Agent Sprunkis is a creative music-making mod that combines the beloved Sprunki/Incredibox-style gameplay with a secret agent theme. Drag spy-themed characters onto the stage, each contributing their own unique loop — from stealthy bass lines and spy movie strings to gadget sound effects and dramatic vocal harmonies.</p>
-<p>Each character represents a different sound layer. The beauty of the Sprunki format is in experimentation — try different combinations of characters to discover unique musical arrangements. Some combinations trigger special animations and bonus sound effects. The spy theme gives every beat a cinematic quality, with tension-building rhythms and dramatic crescendos that make you feel like you're scoring a James Bond film.</p>
-<p>The game features vibrant character designs with a spy aesthetic — trench coats, sunglasses, gadgets, and mysterious silhouettes. The community on Scratch has embraced this mod with enthusiasm, and it's become one of the more popular Sprunki variations. Perfect for music lovers, creative minds, and anyone who enjoys the Incredibox-style drag-and-drop music creation format.</p>
-<h2 class="wp-block-heading"><strong>How To Play Agent Sprunkis</strong></h2>
-<ul class="wp-block-list">
-<li>Drag characters from the selection bar onto the stage.</li>
-<li>Each character adds a different sound loop to the mix.</li>
-<li>Experiment with combinations to find the best beats.</li>
-<li>Click a character to remove them from the stage.</li>
-<li>Discover hidden bonus animations and sounds.</li>
-</ul>
+    content: `<p>Agent Sprunkis is an action-packed stealth adventure where you control a special agent on missions to infiltrate enemy strongholds and complete covert objectives. Combining stealth mechanics with fast-paced combat, the game lets you choose between sneaking past guards undetected and going in guns blazing. Each approach has its advantages, and the best agents know when to use each one.</p>
+<p>The levels are designed with multiple paths that cater to different playstyles. Ventilation ducts and shadows provide routes for stealth players, while weapon caches and destructible cover support aggressive approaches. This flexibility means you can replay levels using entirely different strategies and discover content you missed on previous runs.</p>
+<p>Gadgets and equipment add depth to your tactical options. Smoke grenades create cover for escapes, hacking tools disable security systems, and disguises let you walk past guards in plain sight. Managing your limited gadget supply adds a resource management element that makes you think carefully about when to use each tool for maximum impact.</p>
+<p>Playing Agent Sprunkis online delivers a solid stealth-action experience directly in your browser. The blend of infiltration and combat gives you constant choices about how to handle each situation, keeping the gameplay dynamic and replayable. Whether you prefer the satisfaction of a clean stealth run or the excitement of action-packed combat, this game accommodates both.</p>
+<h2 class="wp-block-heading">How to Play Agent Sprunkis Online</h2>
+<p>Use WASD to move your agent through each level. Press shift to crouch and move silently, which is essential for avoiding guard detection. Crouching also lets you hide behind low cover and move through crawl spaces that standing agents cannot access.</p>
+<p>Press E to interact with objects, hack terminals, and use gadgets. The interaction system is context-sensitive, automatically selecting the appropriate action based on what you are near. Security cameras can be disabled, locked doors can be picked, and computers can be hacked for useful intelligence.</p>
+<p>Left click to attack or shoot when detected. Combat is risky because it alerts nearby guards and can quickly escalate into a firefight you are not prepared for. If stealth fails, fight quickly and move to a new area before reinforcements arrive. Sometimes the best response to being detected is to run and hide rather than fight.</p>
+<p>Complete primary objectives to finish each mission and look for optional secondary objectives that provide bonus rewards. Secondary objectives often require more thorough exploration and skillful play to accomplish. Achieving all objectives in a single run earns the highest rating and unlocks bonus content for dedicated agents.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -14510,17 +13453,15 @@ export const games = [
     thumbnail: '/images/agent-walker-vs-skibidi-toilets.webp',
     relatedSlugs: ['rooftop-snipers', 'crazy-cars'],
     excerpt: 'Agent Walker vs Skibidi Toilets is a 3D action shooter where you play as a Cameraman agent battling Skibidi Toilets with machine guns, miniguns, and grenade launchers.',
-    content: `<p>Agent Walker vs Skibidi Toilets is an action-packed 3D first-person shooter that throws you into the absurd world of the Skibidi Toilet meme universe. You play as an agent Cameraman accompanied by a Walker — a massive mechanical companion equipped with four robotic arms, each capable of wielding devastating weaponry.</p>
-<p>Battle waves of Skibidi Toilets across multiple levels, using an arsenal that includes machine guns, miniguns, and grenade launchers. Each weapon handles differently — the machine gun is accurate at range, the minigun mows down groups, and the grenade launcher deals devastating area damage. Switch between weapons tactically to handle different enemy formations and boss encounters.</p>
-<p>The game features polished WebGL graphics with smooth animations, dynamic lighting, and satisfying explosion effects. Enemy Skibidi Toilets come in various sizes and types, from basic grunts to massive boss toilets that require sustained firepower to defeat. The action is fast-paced and relentless, with each level increasing in difficulty and enemy variety. It's ridiculous, it's fun, and it's surprisingly well-made for a meme-based game.</p>
-<h2 class="wp-block-heading"><strong>How To Play Agent Walker vs Skibidi Toilets</strong></h2>
-<ul class="wp-block-list">
-<li>Use WASD to move and Shift to sprint.</li>
-<li>Move the mouse to aim and left-click to shoot.</li>
-<li>Right-click and hold to aim down sights.</li>
-<li>Press R to reload and Space to jump.</li>
-<li>Switch weapons with the number keys or scroll wheel.</li>
-</ul>
+    content: `<p>Agent Walker vs Skibidi Toilets drops you into a bizarre action-packed world where a special operative must fight off an invasion of the internet's most infamous meme enemies. Armed with an arsenal of weapons, you navigate through urban environments overrun by Skibidi Toilets of various sizes and abilities. The absurd premise is played completely straight, which only makes it funnier.</p>
+<p>The combat is fast and responsive, with each weapon offering distinct advantages against different enemy types. Small Skibidi Toilets go down quickly with pistol fire, but larger variants require heavier ordnance like shotguns and explosives. Boss encounters feature massive Skibidi Toilets with unique attack patterns that test your dodging and shooting skills simultaneously.</p>
+<p>Level design mixes linear combat corridors with open arenas that give you room to maneuver. Environmental hazards like explosive barrels and collapsing structures can be used against enemies if you position yourself cleverly. The destructible environments add tactical depth to what might otherwise be a straightforward run-and-gun experience.</p>
+<p>Playing Agent Walker vs Skibidi Toilets online is peak internet culture gaming. The meme-inspired setting combined with genuinely solid shooter mechanics creates something that is both hilarious and engaging. Whether you are a Skibidi Toilet meme fan or just enjoy a good action game with an absurd twist, this delivers on both fronts.</p>
+<h2 class="wp-block-heading">How to Play Agent Walker vs Skibidi Toilets Online</h2>
+<p>Use WASD to move your agent through each level and the mouse to aim and shoot. Left click fires your current weapon while the scroll wheel or number keys switch between available guns. Movement and aiming feel smooth and responsive, making the combat satisfying from the first shot.</p>
+<p>Pick up new weapons and ammunition scattered throughout each level. Ammo is limited for powerful weapons, so use them wisely against tough enemies and conserve your basic pistol ammo for weaker targets. Managing your ammunition across different weapons is essential for surviving longer levels.</p>
+<p>Watch for enemy attack patterns, especially during boss fights. Larger Skibidi Toilets telegraph their attacks with visual and audio cues that give you time to dodge. Learning these patterns and finding safe windows to deal damage is the key to defeating the toughest encounters without taking excessive damage.</p>
+<p>Use the environment to your advantage whenever possible. Explosive objects deal massive area damage when shot, and narrow corridors can funnel enemies into kill zones where your weapons are most effective. Think tactically about positioning before engaging groups of enemies to maximise your efficiency and minimise the damage you take.</p>
 <!-- CONTENT END 1 -->`,
   },
   {
@@ -14536,517 +13477,495 @@ export const games = [
     thumbnail: '/images/air-warfare-3d.webp',
     relatedSlugs: ['agent-walker-vs-skibidi-toilets', 'crazy-cars'],
     excerpt: 'Air Warfare 3D is a 3D aerial combat game where you fly fighter jets, engage enemy aircraft with missiles and gunfire, and complete intense combat missions.',
-    content: `<p>Air Warfare 3D puts you in the cockpit of a fighter jet for intense aerial combat missions. Engage AI-controlled enemy aircraft in dogfights, lock on with missiles, strafe with your machine guns, and execute evasive manoeuvres to survive three challenging missions that test your piloting skills.</p>
-<p>The game features multiple weapons — heat-seeking missiles for long-range engagements and rapid-fire machine guns for close-quarters dogfights. Switching between targets is crucial as enemy formations try to flank and overwhelm you. The flight model balances arcade accessibility with enough realism to make manoeuvres feel impactful — barrel rolls, tight turns, and dive attacks all have their place in your tactical toolkit.</p>
-<p>Built with WebGL, the 3D graphics render smoothly in the browser with detailed aircraft models, dynamic cloud formations, and expansive sky environments. The mini-map helps you track enemy positions, and the target switching system keeps combat flowing smoothly. Each of the three missions increases in difficulty, with more enemies, tougher formations, and more aggressive AI. For browser-based aerial combat, Air Warfare 3D delivers an impressive experience.</p>
-<h2 class="wp-block-heading"><strong>How To Play Air Warfare 3D</strong></h2>
-<ul class="wp-block-list">
-<li>W/S to accelerate and decelerate, A/D to roll.</li>
-<li>I/K for pitch, J/L for yaw (or arrow keys).</li>
-<li>Left Shift to fire machine guns, Space to launch missiles.</li>
-<li>Q to switch missiles, E to switch targets.</li>
-<li>R to toggle mini-map, V to change camera view.</li>
-</ul>
+    content: `<p>Air Warfare 3D puts you in the cockpit of advanced military aircraft for intense aerial combat missions. Take to the skies and engage enemy fighters in thrilling dogfights, bomb ground targets, and protect allied forces across diverse battlefields. The 3D flight model provides a visceral sense of speed and maneuverability as you bank, roll, and dive through combat zones.</p>
+<p>The aircraft selection offers different combat roles, from nimble interceptors designed for dogfighting to heavy bombers capable of devastating ground strikes. Each plane handles distinctly, with different speed, turning radius, and weapon loadout characteristics. Choosing the right aircraft for each mission type is a strategic decision that affects your chances of success.</p>
+<p>Missions range from straightforward air superiority battles to complex objectives requiring precision bombing, escort duty, and multi-stage operations. The variety keeps the gameplay fresh and tests different aspects of your piloting abilities. Some missions reward aggressive flying while others require patience and tactical awareness to complete successfully.</p>
+<p>Playing Air Warfare 3D online brings the excitement of aerial combat to your browser with impressive 3D graphics and smooth flight physics. The sense of speed when diving toward a target and pulling up at the last moment is genuinely thrilling. Whether you are a flight game enthusiast or new to the genre, the accessible controls make it easy to jump in and start flying.</p>
+<h2 class="wp-block-heading">How to Play Air Warfare 3D Online</h2>
+<p>Use WASD or arrow keys to control your aircraft's pitch and roll. W pulls the nose up, S pushes it down, and A and D bank left and right respectively. The flight controls are simplified for accessibility while still providing enough depth for satisfying aerial maneuvering during combat.</p>
+<p>Press the spacebar or left click to fire your primary weapons at enemy aircraft and ground targets. A targeting reticle helps you aim, and leading your shots ahead of moving targets is essential for hitting enemy planes. Missiles lock on to targets automatically when you keep them in your sights long enough.</p>
+<p>Manage your speed carefully during dogfights. Throttling back during turns tightens your turning radius, while accelerating on straights helps you close distance or disengage from unfavourable fights. The interplay between speed and maneuverability is the core skill of aerial combat.</p>
+<p>Complete mission objectives marked on your heads-up display to progress through the campaign. Some objectives are time-sensitive while others require destroying specific targets or protecting allied units. Prioritise objectives based on urgency and use your radar to maintain awareness of threats approaching from all directions.</p>
 <!-- CONTENT END 1 -->`,
   },
 {
-    slug: 'airport-madness-4',
-    datePublished: '2026-06-10T10:00:00+00:00',
-    dateModified: '2026-06-10T10:00:00+00:00',
-    dateAdded: '2026-06-10',
-    title: 'Airport Madness 4 – Play the Air Traffic Control Game Free',
-    metaDescription: 'Play Airport Madness 4 online free. Direct planes on taxiways and runways, prevent collisions, and manage busy airport traffic in this addictive simulation game.',
+    slug: 'bloons-td-5',
+    datePublished: '2026-06-11T10:00:00+00:00',
+    dateModified: '2026-06-11T10:00:00+00:00',
+    dateAdded: '2026-06-11',
+    title: 'Bloons TD 5 – Play the Tower Defense Game Free Online',
+    metaDescription: 'Play Bloons TD 5 online free. Place monkey towers, pop bloons, and survive endless waves in the most popular tower defense game ever made.',
     category: 'online-games',
-    tags: ['simulation', 'strategy'],
-    embedUrl: 'https://www.play-games.com/iframe/38826.html',
-    thumbnail: '/images/airport-madness-4.webp',
-    relatedSlugs: ['air-warfare-3d', 'among-cars', 'amuse-park'],
-    excerpt: 'Airport Madness 4 is an air traffic control simulation where you direct aircraft on taxiways, runways, and through the sky to prevent collisions at a busy airport.',
-    content: `<p>Airport Madness 4 puts you in the hot seat as an air traffic controller managing one of the busiest airports in the series. Your job is to guide arriving and departing aircraft safely — taxi planes to gates, clear them for takeoff, sequence landings, and keep everything moving without a single collision. It sounds simple until three planes converge on the same runway at once.</p>
-<p>Each level ramps up the complexity with more simultaneous flights, tighter spacing, and challenging weather conditions. You click aircraft to issue commands — hold, taxi, take off, land, or change altitude — and juggle dozens of decisions per minute. The satisfaction of clearing a packed runway sequence cleanly is surprisingly addictive, while a single mistake can trigger a chain reaction of near-misses.</p>
-<p>The fourth instalment adds improved graphics, more realistic airport layouts, and additional aircraft types ranging from small propeller planes to wide-body jets. The risk-reward tension is constant: do you rush a departure to clear the runway for an incoming flight, or play it safe and stack up the arrivals? Airport Madness 4 is the perfect game for anyone who thinks they could do a better job than real air traffic controllers.</p>
-<h2 class="wp-block-heading"><strong>How To Play Airport Madness 4</strong></h2>
-<ul class="wp-block-list">
-<li>Click on aircraft to select them and issue commands.</li>
-<li>Direct planes to taxi, hold, take off, or land using the control panel.</li>
-<li>Manage runway spacing to prevent collisions between arriving and departing flights.</li>
-<li>Clear levels by safely handling all scheduled flights without incidents.</li>
-</ul>
+    tags: ['strategy'],
+    embedUrl: 'https://kdata1.com/RS/game.php?r=https://kdata1.com/2024/03/bloons-td5.swf&w=775&h=600&warnsupport=true',
+    thumbnail: '/images/bloons-td-5.webp',
+    relatedSlugs: ['bloons-td-4', 'learn-to-fly', 'clicker-heroes'],
+    excerpt: 'Bloons TD 5 is the iconic tower defense game where you place monkey towers with unique abilities to pop waves of bloons before they reach the exit.',
+    content: `<p>Bloons TD 5 is the gold standard of tower defense gaming. Place an army of monkey towers along a path and use their unique popping abilities to destroy every last bloon before it reaches the exit. From dart-throwing monkeys to bomb towers, ice monkeys, and super monkeys with laser vision, the variety of towers and upgrade paths creates an almost infinite number of strategic combinations that keep every playthrough feeling fresh.</p>
+<p>Each track presents a new layout challenge — some have a single winding path, others split into multiple lanes that force you to spread your defenses thin. As waves progress, tougher bloon types appear: lead bloons that resist sharp projectiles, camo bloons that slip past most towers unseen, and the dreaded M.O.A.B. class bloons that take massive firepower to bring down. Choosing the right tower mix and upgrade timing is crucial to surviving the later rounds.</p>
+<p>The fifth instalment adds new towers, maps, special agents, and game modes that keep the experience fresh for hundreds of hours. Freeplay mode lets you push your defenses to the absolute limit against increasingly impossible waves. Bloons TD 5 is one of the most addictive and replayable browser games ever created — just one more round is never really just one more round. Playing Bloons TD 5 online means instant access with no downloads required.</p>
+<p>Whether you are a newcomer trying your first tower defense game or a seasoned veteran chasing high rounds, Bloons TD 5 delivers. The colourful visuals, satisfying pop sounds, and constant sense of escalation make every session engaging. With dozens of maps across multiple difficulty levels, you will find challenges that match your skill level perfectly.</p>
+<h2 class="wp-block-heading">How to Play Bloons TD 5 Online</h2>
+<p>Getting started with Bloons TD 5 is simple but mastering it takes real strategy. Select a map and difficulty level, then place your first tower near the bloon path. Dart monkeys are cheap and effective early on, so start with a couple to handle the first few waves. As you earn money from popping bloons, invest in stronger towers and upgrades.</p>
+<p>Each tower has two upgrade paths with four tiers each, letting you specialise towers for different roles. A fully upgraded sniper monkey can take out lead bloons from across the map, while a maxed-out super monkey shreds everything in its radius. Experiment with different combinations to find synergies that handle every bloon type.</p>
+<p>Special agents add another strategic layer — deployable allies with unique abilities that complement your tower setup. Use banana farmers to auto-collect income, or deploy a Monkey Engineer to create sentries that fill gaps in your defense. Timing your agent deployment can make the difference between surviving and losing.</p>
+<p>For the best results, plan your tower placement around choke points where bloons are forced to travel slowly. Combine slow-down towers like ice monkeys and glue gunners with high-damage towers for maximum efficiency. As you progress, you will unlock new towers and upgrades that open up even more strategic possibilities for tackling the toughest tracks.</p>
 <!-- CONTENT END 1 -->`,
   },
-  {
-    slug: 'akinator',
-    datePublished: '2026-06-10T10:00:00+00:00',
-    dateModified: '2026-06-10T10:00:00+00:00',
-    dateAdded: '2026-06-10',
-    title: 'Akinator – Play the Mind-Reading Genie Game Free Online',
-    metaDescription: 'Play Akinator online free. Think of any real or fictional character and the genie will guess who you are thinking of by asking yes-or-no questions.',
+{
+    slug: 'bloons-td-4',
+    datePublished: '2026-06-11T10:00:00+00:00',
+    dateModified: '2026-06-11T10:00:00+00:00',
+    dateAdded: '2026-06-11',
+    title: 'Bloons TD 4 – Play the Classic Tower Defense Game Free',
+    metaDescription: 'Play Bloons TD 4 online free. Build monkey towers and pop bloons across dozens of maps in this beloved tower defense classic.',
     category: 'online-games',
-    tags: ['puzzle', 'word-and-trivia'],
-    embedUrl: 'https://www.play-games.com/iframe/38659.html',
-    thumbnail: '/images/akinator.webp',
-    relatedSlugs: ['adventure-capitalist', 'among-us-detecting-the-real-imposter', 'anime-battle-4-3'],
-    excerpt: 'Akinator is the famous mind-reading genie game where you think of any character — real or fictional — and the AI guesses who it is using yes-or-no questions.',
-    content: `<p>Akinator is the legendary web genie that can read your mind — or at least it feels that way. Think of any real or fictional character, answer a series of yes-or-no questions, and watch in disbelief as the turban-wearing genie narrows down millions of possibilities to guess exactly who you are thinking of. It works with celebrities, cartoon characters, video game heroes, historical figures, and even obscure internet personalities.</p>
-<p>The AI behind Akinator uses a decision-tree algorithm trained on millions of player sessions. Each question strategically eliminates large groups of characters, and the system learns from every game played. The more people play, the smarter it gets. Try to stump it with an obscure character and you will be shocked at how often it wins — though beating the genie with a truly niche pick is deeply satisfying.</p>
-<p>The game is endlessly replayable because the challenge changes every time. Think of your favourite anime character one round, a historical scientist the next, then a minor character from an old sitcom. Akinator adapts its questioning strategy based on your answers, making each session feel like a unique battle of wits between you and the machine. It is one of the most impressive demonstrations of AI in a casual browser game.</p>
-<h2 class="wp-block-heading"><strong>How To Play Akinator</strong></h2>
-<ul class="wp-block-list">
-<li>Think of any real or fictional character before starting.</li>
-<li>Answer each question with Yes, No, Probably Yes, Probably No, or Don't Know.</li>
-<li>The genie will make a guess after enough questions — confirm or deny it.</li>
-<li>If Akinator is wrong, you can continue answering or add your character to the database.</li>
-</ul>
+    tags: ['strategy'],
+    embedUrl: 'https://selenite-cc.github.io/selenite-old/btd4/',
+    thumbnail: '/images/bloons-td-4.webp',
+    relatedSlugs: ['bloons-td-5', 'learn-to-fly', 'clicker-heroes'],
+    excerpt: 'Bloons TD 4 is a classic tower defense game where you build and upgrade monkey towers to pop endless waves of colorful bloons across varied maps.',
+    content: `<p>Bloons TD 4 is the entry that cemented the Bloons Tower Defense series as the king of the genre. Place monkey towers along winding paths and upgrade them to handle increasingly tough waves of bloons. The core loop — place, upgrade, survive — is simple to grasp but incredibly difficult to master when M.O.A.B. class bloons start rolling in during later rounds.</p>
+<p>The game features dozens of unique maps ranging from beginner-friendly single-path tracks to expert-level multi-path nightmares. Each tower type serves a distinct role: dart monkeys are cheap early-game defenders, boomerang throwers clear grouped bloons, and the devastating Sun God obliterates everything in sight. Finding the perfect combination for each map is the heart of the strategy.</p>
+<p>BTD4 introduced several features that became series staples, including the beloved road spikes and pineapple items for emergency bloon control. The difficulty curve is expertly tuned — easy modes let newcomers enjoy the game while hard and impoppable modes challenge even veteran players. It is pure tower defense perfection that you can play directly in your browser.</p>
+<p>Playing Bloons TD 4 online gives you instant access to one of the most polished tower defense experiences ever made. The bright, cheerful art style makes it easy to track the action even during the most chaotic rounds, and the satisfying pop effects when bloons burst never get old no matter how many hours you sink into it.</p>
+<h2 class="wp-block-heading">How to Play Bloons TD 4 Online</h2>
+<p>Start by selecting a map and difficulty setting. Place your initial towers near the path where bloons will travel. Dart monkeys are the cheapest option and work well for early rounds. As you pop bloons and earn money, upgrade your existing towers or purchase new ones to handle tougher waves.</p>
+<p>Each tower can be upgraded multiple times to increase its range, speed, and popping power. Tack shooters are great for covering intersections, while bomb towers deal area damage to groups of bloons. Learning which towers work best on each map is essential for beating the harder difficulty levels.</p>
+<p>Road spikes and pineapples are consumable items you can place directly on the path as a last line of defense. Use them strategically during tough rounds when your towers are struggling to keep up. They can save a run that looks hopeless, but they cost money so use them wisely.</p>
+<p>The key to mastering Bloons TD 4 is understanding bloon types. Regular bloons pop easily, but ceramic bloons take many hits, lead bloons are immune to sharp objects, and camo bloons are invisible to most towers without upgrades. Build a diverse defense that can handle every type, and you will be ready for whatever the game throws at you.</p>
 <!-- CONTENT END 1 -->`,
   },
-  {
-    slug: 'alex-world',
-    datePublished: '2026-06-10T10:00:00+00:00',
-    dateModified: '2026-06-10T10:00:00+00:00',
-    dateAdded: '2026-06-10',
-    title: 'Alex World – Play the Platformer Adventure Game Free Online',
-    metaDescription: 'Play Alex World online free. Run, jump, and explore colorful levels in this classic side-scrolling platformer inspired by retro adventure games.',
+{
+    slug: 'learn-to-fly',
+    datePublished: '2026-06-11T10:00:00+00:00',
+    dateModified: '2026-06-11T10:00:00+00:00',
+    dateAdded: '2026-06-11',
+    title: 'Learn to Fly – Play the Penguin Launch Game Free Online',
+    metaDescription: 'Play Learn to Fly online free. Help a determined penguin build a ramp, buy upgrades, and launch further each day to prove penguins can fly.',
     category: 'online-games',
-    tags: ['platformer', 'arcade'],
-    embedUrl: 'https://www.play-games.com/iframe/34999.html',
-    thumbnail: '/images/alex-world.webp',
-    relatedSlugs: ['a-koopas-revenge', 'amy-rose-in-sonic-the-hedgehog-2', 'a-koopas-revenge-2'],
-    excerpt: 'Alex World is a colorful side-scrolling platformer where you run, jump, and collect items across vibrant levels filled with enemies and obstacles.',
-    content: `<p>Alex World is a cheerful side-scrolling platformer that channels the spirit of classic adventure games. Guide Alex through vibrant, hand-crafted levels filled with platforms to jump across, enemies to stomp or dodge, and collectibles scattered throughout every stage. The controls are tight and responsive, making each jump and landing feel precise.</p>
-<p>Each level introduces new obstacles and enemy patterns that keep the gameplay fresh. Moving platforms, disappearing blocks, and tricky enemy placements require you to think on your feet while maintaining momentum. Coins and power-ups reward exploration — venture off the beaten path and you will discover hidden areas with bonus items that help you tackle tougher stages ahead.</p>
-<p>The game features colourful pixel-art graphics and a catchy soundtrack that perfectly complement the upbeat platforming action. Boss encounters punctuate the adventure at regular intervals, testing your pattern recognition and reflexes. Alex World captures that nostalgic feeling of discovering a great platformer for the first time, wrapped in a browser-friendly package that runs smoothly without any downloads.</p>
-<h2 class="wp-block-heading"><strong>How To Play Alex World</strong></h2>
-<ul class="wp-block-list">
-<li>Arrow keys or WASD to move and jump.</li>
-<li>Jump on enemies to defeat them — avoid touching them from the side.</li>
-<li>Collect coins and power-ups for extra points and abilities.</li>
-<li>Reach the flag at the end of each level to advance.</li>
-</ul>
+    tags: ['arcade'],
+    embedUrl: 'https://selenite-cc.github.io/selenite-old/learntofly/',
+    thumbnail: '/images/learn-to-fly.webp',
+    relatedSlugs: ['learn-to-fly-2', 'burrito-bison', 'jetpack-joyride'],
+    excerpt: 'Learn to Fly is a launch game where a stubborn penguin builds a ramp and buys upgrades to fly further each day, determined to prove that penguins can fly.',
+    content: `<p>Learn to Fly stars a penguin who read a study claiming penguins cannot fly — and took it personally. Your mission is to help this determined bird prove science wrong by launching off a ramp and soaring as far as possible. Each launch earns money based on distance and altitude, which you invest in better ramps, gliders, rockets, and other upgrades for the next attempt.</p>
+<p>The progression loop is brilliantly addictive. Early launches barely clear a few metres, but as you stack upgrades your penguin rockets across the sky, bouncing off obstacles and riding air currents. The physics feel satisfying — adjusting your angle mid-flight and timing boost activations makes each launch feel skillful rather than purely stat-based.</p>
+<p>The game perfectly balances idle progression with active gameplay. You can grind launches for incremental gains or save up for a big upgrade that dramatically changes your flight performance. Watching your distance counter jump from hundreds to thousands of metres after a key purchase is deeply satisfying. Learn to Fly is one of the most beloved launch games ever made.</p>
+<p>Playing Learn to Fly online brings back the classic Flash-era charm that made it a viral sensation. The simple art style, catchy music, and satisfying sense of progress have kept players coming back for over a decade. Whether you are revisiting a childhood favourite or discovering it for the first time, this penguin's journey never gets old.</p>
+<h2 class="wp-block-heading">How to Play Learn to Fly Online</h2>
+<p>Start each day by adjusting your launch angle on the ramp using the mouse. A steeper angle gives more height but less initial distance, while a shallow angle sends you further horizontally. Finding the right balance depends on your current equipment and upgrade levels.</p>
+<p>During flight, press Space or click to activate boosts like rockets and fuel. Timing your boosts is crucial — using them at the right moment can dramatically extend your flight distance. Save your fuel for when you start losing altitude to squeeze out every extra metre.</p>
+<p>After each launch, spend your earnings in the upgrade shop. Focus on improving your ramp first to build launch speed, then invest in better gliders for sustained flight. Rockets provide the biggest distance boosts but are expensive, so balance your upgrade path based on your current needs.</p>
+<p>The game tracks your progress over multiple days, with each day representing one launch attempt. As your equipment improves, you will smash through distance milestones that seemed impossible just a few launches ago. Keep upgrading and experimenting with your angle to achieve maximum flight distance and prove that penguins really can fly.</p>
 <!-- CONTENT END 1 -->`,
   },
-  {
-    slug: 'alien-device',
-    datePublished: '2026-06-10T10:00:00+00:00',
-    dateModified: '2026-06-10T10:00:00+00:00',
-    dateAdded: '2026-06-10',
-    title: 'Alien Device – Play the Sci-Fi Puzzle Game Free Online',
-    metaDescription: 'Play Alien Device online free. Solve mysterious alien puzzles by manipulating strange devices and uncovering the secrets of an extraterrestrial machine.',
+{
+    slug: 'learn-to-fly-2',
+    datePublished: '2026-06-11T10:00:00+00:00',
+    dateModified: '2026-06-11T10:00:00+00:00',
+    dateAdded: '2026-06-11',
+    title: 'Learn to Fly 2 – Play the Penguin Launch Sequel Free',
+    metaDescription: 'Play Learn to Fly 2 online free. The penguin returns with more upgrades, new stages, and bonus game modes in this beloved launch game sequel.',
     category: 'online-games',
-    tags: ['puzzle', 'strategy'],
-    embedUrl: 'https://www.play-games.com/iframe/6430.html',
-    thumbnail: '/images/alien-device.webp',
-    relatedSlugs: ['akinator', 'amateur-surgeon', 'abandoned-2-the-forest'],
-    excerpt: 'Alien Device is a sci-fi puzzle game where you interact with mysterious extraterrestrial technology, solving intricate puzzles to unlock the secrets of an alien machine.',
-    content: `<p>Alien Device drops you in front of a mysterious piece of extraterrestrial technology with zero instructions. Your job is to figure out how it works by clicking, dragging, and experimenting with its strange components. Each interaction reveals a new layer of the puzzle, and the device gradually comes alive as you unlock its secrets. It is pure exploration-driven puzzle solving at its finest.</p>
-<p>The puzzle design is clever and layered — early interactions teach you the basic mechanics, while later stages combine those mechanics in unexpected ways. Lights flash, gears turn, and energy pulses through circuits as you connect the right components. There are no hints or tutorials, so every discovery feels genuinely earned. The sense of accomplishment when a complex mechanism suddenly clicks into place is immensely satisfying.</p>
-<p>The atmospheric sci-fi presentation enhances the mystery. Ambient sound effects and a dark, metallic aesthetic make you feel like you are genuinely tinkering with alien technology. Alien Device is a short but memorable experience that rewards curiosity and lateral thinking over brute-force trial and error.</p>
-<h2 class="wp-block-heading"><strong>How To Play Alien Device</strong></h2>
-<ul class="wp-block-list">
-<li>Click and drag components on the alien device to interact with them.</li>
-<li>Observe how each interaction affects other parts of the machine.</li>
-<li>Combine discoveries to unlock new mechanisms and progress.</li>
-<li>There are no hints — experiment freely and pay attention to visual and audio cues.</li>
-</ul>
+    tags: ['arcade'],
+    embedUrl: 'https://selenite-cc.github.io/selenite-old/learntofly2/',
+    thumbnail: '/images/learn-to-fly-2.webp',
+    relatedSlugs: ['learn-to-fly', 'burrito-bison', 'jetpack-joyride'],
+    excerpt: 'Learn to Fly 2 is the sequel to the beloved penguin launch game, featuring new upgrades, stages, game modes, and even more ridiculous ways to take flight.',
+    content: `<p>Learn to Fly 2 takes everything great about the original and launches it into orbit — literally. The penguin is back with a bigger budget, more upgrade categories, and multiple game modes that add replay value far beyond the original. Story mode, classic mode, and bonus challenge modes each offer distinct objectives and progression paths.</p>
+<p>The upgrade system is significantly expanded with new payload types, body modifications, and boost stages. You can now equip multiple boost stages that activate sequentially, creating elaborate multi-stage rocket launches. Watching your penguin go from a stumbling waddle to a supersonic blur trailing fire across the sky is the definition of satisfying progression.</p>
+<p>New obstacles and bonus targets scattered through the air give you mid-flight objectives beyond pure distance. Hit them for extra cash or avoid hazards that cut your flight short. The medal system provides long-term goals for completionists, while the sardine currency adds a secondary progression layer that rewards skilled play.</p>
+<p>Playing Learn to Fly 2 online delivers one of the best launch game experiences available in a browser. The sequel improves on the original in every way — more content, smoother physics, better progression, and a wicked sense of humour that keeps you entertained through hundreds of launches. It is the definitive penguin flight simulator.</p>
+<h2 class="wp-block-heading">How to Play Learn to Fly 2 Online</h2>
+<p>Launch from the ramp and control your angle with the arrow keys. Unlike the original, you now have much more control over your flight trajectory. Tilt up to gain altitude or down to build speed, depending on your current equipment and objectives.</p>
+<p>Activate boost stages with the Space bar for extra speed and height. With multiple boost stages equipped, timing becomes important — fire each stage when the previous one runs out to maintain momentum. The right timing can mean the difference between a mediocre flight and a record-breaking launch.</p>
+<p>Earn cash and sardines to buy upgrades and equipment in the shop. Cash buys standard upgrades while sardines unlock premium items. Focus on building a balanced loadout that maximises both launch power and sustained flight capability for the best results.</p>
+<p>Complete challenges and earn medals across multiple game modes to unlock everything the game has to offer. Each mode presents different objectives that require different strategies and equipment loadouts. Experiment with different combinations and keep pushing your limits — there is always another medal to earn or record to break.</p>
 <!-- CONTENT END 1 -->`,
   },
-  {
-    slug: 'amateur-surgeon',
-    datePublished: '2026-06-10T10:00:00+00:00',
-    dateModified: '2026-06-10T10:00:00+00:00',
-    dateAdded: '2026-06-10',
-    title: 'Amateur Surgeon – Play the Wacky Surgery Game Free Online',
-    metaDescription: 'Play Amateur Surgeon online free. Perform hilarious back-alley surgeries using pizza cutters, lighters, and staple guns in this darkly comedic operation game.',
+{
+    slug: 'little-alchemy',
+    datePublished: '2026-06-11T10:00:00+00:00',
+    dateModified: '2026-06-11T10:00:00+00:00',
+    dateAdded: '2026-06-11',
+    title: 'Little Alchemy – Play the Element Combining Game Free',
+    metaDescription: 'Play Little Alchemy online free. Start with four basic elements and combine them to discover over 500 items in this relaxing puzzle crafting game.',
+    category: 'online-games',
+    tags: ['puzzle'],
+    embedUrl: 'https://selenite-cc.github.io/selenite-old/littlealchemy/',
+    thumbnail: '/images/little-alchemy.webp',
+    relatedSlugs: ['clicker-heroes', 'there-is-no-game', 'line-rider'],
+    excerpt: 'Little Alchemy is a crafting puzzle game where you start with four basic elements — earth, water, fire, air — and combine them to discover over 500 items.',
+    content: `<p>Little Alchemy is the ultimate crafting puzzle game that starts with the simplest premise: combine things to make new things. You begin with just four basic elements — earth, water, fire, and air — and drag them together to create new items. Earth plus water makes mud. Fire plus earth makes lava. Lava plus water makes stone. Each discovery opens up new combination possibilities in a branching tree of over 500 items.</p>
+<p>The beauty of Little Alchemy is its gentle pace and open-ended nature. There is no timer, no score, no way to fail. You simply experiment, combining elements in every possible pairing until you stumble upon something new. The moment you discover life, or create a human, or figure out how to make the internet feels genuinely magical — like being a scientist making breakthroughs in a miniature universe.</p>
+<p>As your element library grows, the combinations become more creative and humorous. Combine a human with a horse and you get a centaur. Mix time with a plant and you get a tree. The game rewards lateral thinking and curiosity, making it perfect for players who enjoy the process of discovery rather than competition.</p>
+<p>Playing Little Alchemy online is the perfect way to unwind. The clean interface and relaxing gameplay make it ideal for quick sessions or long explorations. Little Alchemy has been played by millions worldwide and remains one of the most satisfying browser games ever made, appealing to players of all ages who enjoy creative problem-solving.</p>
+<h2 class="wp-block-heading">How to Play Little Alchemy Online</h2>
+<p>Start with the four basic elements displayed in your panel: earth, water, fire, and air. Drag one element on top of another to try combining them. If the combination works, a new element appears and is added to your collection. If it does not work, nothing happens and you can try a different pairing.</p>
+<p>New discoveries are added to your element panel for further combinations. As your library grows, the number of possible pairings increases dramatically. Keep track of what you have tried using the built-in encyclopedia, which shows your total discoveries and helps you identify gaps.</p>
+<p>Think creatively about real-world relationships between things. Water plus fire makes steam. Steam plus earth makes a geyser. The game follows an intuitive logic that mirrors how things work in the real world, so trust your instincts when trying new combinations.</p>
+<p>There are over 500 items to discover, ranging from simple natural elements to complex concepts like the internet, philosophy, and even Yoda. Some of the rarest items require long chains of combinations to create. Experiment freely and enjoy the process — there are no penalties for failed combinations, and every discovery brings you closer to completing the full collection.</p>
+<!-- CONTENT END 1 -->`,
+  },
+{
+    slug: 'super-hot',
+    datePublished: '2026-06-11T10:00:00+00:00',
+    dateModified: '2026-06-11T10:00:00+00:00',
+    dateAdded: '2026-06-11',
+    title: 'SUPERHOT – Play the Time-Bending Shooter Game Free',
+    metaDescription: 'Play SUPERHOT online free. Time only moves when you move in this revolutionary FPS where strategy matters more than reflexes.',
+    category: 'online-games',
+    tags: ['shooter'],
+    embedUrl: 'https://selenite-cc.github.io/selenite-old/superhot/',
+    thumbnail: '/images/super-hot.webp',
+    relatedSlugs: ['gun-mayhem-2', 'celeste', 'hextris'],
+    excerpt: 'SUPERHOT is the innovative FPS where time only moves when you move, turning every encounter into a strategic puzzle of dodging bullets and eliminating enemies.',
+    content: `<p>SUPERHOT rewrites the rules of first-person shooters with one brilliant mechanic: time only moves when you move. Stand still and the world freezes — bullets hang in mid-air, enemies pause mid-swing, and you have all the time in the world to plan your next move. Take a step and everything lurches forward in a burst of real-time action.</p>
+<p>This simple twist transforms every encounter from a twitch-reflex test into a strategic puzzle. You can see a bullet heading for your face, sidestep it in slow motion, grab a bottle from a table, throw it at the shooter to disarm them, catch their gun mid-air, and use it to take out two more enemies — all in a sequence that looks like an action movie when replayed at full speed.</p>
+<p>The minimalist red-and-white art style keeps the focus on gameplay. Red crystalline enemies shatter satisfyingly when hit, while the stark white environments ensure threats are always visible. Each level is a puzzle with multiple solutions — do you rush in with melee attacks, snipe from distance, or use thrown objects to disarm before engaging?</p>
+<p>Playing SUPERHOT online lets you experience one of the most innovative shooters ever made directly in your browser. The clean visual design runs smoothly on virtually any computer, and the time-manipulation mechanic is so unique that it has inspired countless imitators. Once you play SUPERHOT, regular shooters will never feel the same again.</p>
+<h2 class="wp-block-heading">How to Play SUPERHOT Online</h2>
+<p>Use WASD to move through each level. Remember that time only advances when you move, so standing still gives you unlimited time to survey the situation and plan your approach. Use this to your advantage by scanning for threats before committing to any action.</p>
+<p>Left-click to shoot or punch when close to enemies. Right-click to throw whatever you are holding — guns, bottles, or other objects. Thrown objects can stun or kill enemies, and throwing an empty gun at someone forces them to drop their weapon, which you can then grab mid-air.</p>
+<p>Each level starts you unarmed, so your first priority is finding a weapon. Look for objects on tables, shelves, or in the hands of nearby enemies. Melee attacks work at close range, but guns give you the ability to eliminate threats from a distance. Plan your route through each level to maximise your weapon access.</p>
+<p>After completing each level, the game replays your actions in real-time, turning your careful strategic moves into a fluid action sequence. These replays are incredibly satisfying and showcase just how cinematic your gameplay actually was. Master each level to create the most impressive replays possible and experience SUPERHOT at its absolute best.</p>
+<!-- CONTENT END 1 -->`,
+  },
+{
+    slug: 'celeste',
+    datePublished: '2026-06-11T10:00:00+00:00',
+    dateModified: '2026-06-11T10:00:00+00:00',
+    dateAdded: '2026-06-11',
+    title: 'Celeste – Play the Precision Platformer Game Free Online',
+    metaDescription: 'Play Celeste online free. Scale Celeste Mountain in this challenging precision platformer with tight controls and a heartfelt story about perseverance.',
+    category: 'online-games',
+    tags: ['platformer'],
+    embedUrl: 'https://selenite-cc.github.io/selenite-old/celeste/',
+    thumbnail: '/images/celeste.webp',
+    relatedSlugs: ['fancy-pants-adventures', 'fancy-pants-adventures-2', 'super-hot'],
+    excerpt: 'Celeste is an award-winning precision platformer where you help Madeline climb Celeste Mountain through challenging levels with tight, responsive controls.',
+    content: `<p>Celeste is a precision platformer that combines punishing difficulty with genuine heart. You play as Madeline, a young woman determined to reach the summit of Celeste Mountain. The journey is a metaphor for overcoming personal struggles — anxiety, self-doubt, depression — delivered through beautiful pixel art and some of the tightest platforming controls ever designed.</p>
+<p>The core mechanics are simple but deep: you can jump, dash in eight directions, and climb walls until your stamina runs out. These three abilities combine with fiendishly clever level design to create challenges that seem impossible at first glance but become achievable through practice and persistence. Each screen is a self-contained puzzle, and death respawns you instantly with no loading screens.</p>
+<p>The game's difficulty is legendary but fair. Every death is your fault, and every success feels earned. Hidden strawberries reward exploration and mastery, while B-side and C-side chapters offer brutally hard remixes for players who crave the ultimate challenge. The soundtrack by Lena Raine perfectly matches the emotional journey.</p>
+<p>Playing Celeste online brings one of the most acclaimed indie games of all time to your browser. The pixel art looks stunning at any resolution, and the tight controls translate perfectly to keyboard play. Whether you are a platformer veteran or new to the genre, Celeste offers an experience that is as emotionally resonant as it is mechanically satisfying.</p>
+<h2 class="wp-block-heading">How to Play Celeste Online</h2>
+<p>Use arrow keys or WASD to move Madeline through each screen. Press C or Z to jump — you can hold the button longer for a higher jump. Movement feels incredibly responsive, so even the smallest adjustments are possible once you get comfortable with the controls.</p>
+<p>Press X to dash in any of eight directions. Your dash recharges when you touch the ground or grab a wall. Dashing is essential for crossing gaps, dodging hazards, and reaching platforms that seem out of reach. Mastering the dash is the key to progressing through later chapters.</p>
+<p>Grab walls by pressing toward them while airborne. Madeline will cling to the wall and slowly climb, but her stamina is limited. Watch the visual indicator showing her remaining grip strength and plan your wall climbs accordingly. Drop off before stamina runs out to avoid a fatal fall.</p>
+<p>Each chapter introduces new mechanics like moving platforms, wind currents, and dream blocks that change how you navigate. Collect strawberries scattered throughout levels for extra challenges and explore every corner for hidden paths. Do not be discouraged by your death count — even experienced players die hundreds of times. The instant respawn means every death is just another step toward mastery.</p>
+<!-- CONTENT END 1 -->`,
+  },
+{
+    slug: 'there-is-no-game',
+    datePublished: '2026-06-11T10:00:00+00:00',
+    dateModified: '2026-06-11T10:00:00+00:00',
+    dateAdded: '2026-06-11',
+    title: 'There Is No Game – Play the Anti-Game Puzzle Free Online',
+    metaDescription: 'Play There Is No Game online free. A narrator insists there is no game to play — ignore him and click everything to discover the game hidden within.',
+    category: 'online-games',
+    tags: ['puzzle'],
+    embedUrl: 'https://4yqt7wrhtx-ship-it.github.io/strategy-games/there-is-no-game/',
+    thumbnail: '/images/there-is-no-game.webp',
+    relatedSlugs: ['little-alchemy', 'line-rider', 'breaking-the-bank'],
+    excerpt: 'There Is No Game is a hilarious meta-puzzle where a narrator desperately tries to convince you that there is no game — but there definitely is one hidden within.',
+    content: `<p>There Is No Game opens with a narrator firmly telling you that there is no game here. Go away. Nothing to see. But of course, the game is figuring out that the narrator is wrong — or rather, finding the game he is desperately trying to hide from you. Click on things. Break things. Ignore instructions. The less you listen to the narrator, the more game you discover.</p>
+<p>This meta-puzzle experience plays with your expectations brilliantly. The title screen itself is a puzzle. The narrator's protests become increasingly frantic as you deconstruct the game world around him. Every element on screen — buttons, text, background objects — might be clickable, draggable, or breakable. The humor comes from the contrast between the narrator's insistence and the chaos you create.</p>
+<p>The game is short but incredibly memorable, filled with clever fourth-wall-breaking moments that make you laugh out loud. It spawned a full sequel that expanded the concept into a multi-genre adventure, but the original remains a perfect bite-sized experience. If you enjoy games that subvert expectations and mess with the very idea of what a game is, this is an absolute must-play.</p>
+<p>Playing There Is No Game online is the perfect way to spend a few minutes of pure comedic brilliance. The game works entirely with mouse clicks and drags, making it accessible to everyone. Share it with friends for guaranteed laughs — watching someone else try to figure out the puzzles while the narrator protests is almost as entertaining as playing it yourself.</p>
+<h2 class="wp-block-heading">How to Play There Is No Game Online</h2>
+<p>Your primary tool is curiosity. Click on everything you see on screen, especially things the narrator explicitly tells you not to touch. If something looks interactive — a button, a piece of text, a background element — try clicking it. The narrator will react to your actions and his reactions often hint at what to do next.</p>
+<p>Drag objects around the screen to discover hidden interactions. Some puzzles require you to move elements from one part of the screen to another, or to combine objects in unexpected ways. The game rewards experimentation, so do not be afraid to try anything that seems possible.</p>
+<p>Listen carefully to the narrator. While he insists there is no game, his protests and warnings often contain clues about what you should be doing. When he says "definitely do not click that," you know exactly what your next move should be. His increasingly panicked reactions confirm you are on the right track.</p>
+<p>Think outside the box — the puzzles in There Is No Game often require you to interact with the game interface itself, not just objects within the game world. Title text, close buttons, volume controls, and other interface elements might all be part of the solution. The game constantly challenges your assumptions about what is and is not part of the playable experience.</p>
+<!-- CONTENT END 1 -->`,
+  },
+{
+    slug: 'jetpack-joyride',
+    datePublished: '2026-06-11T10:00:00+00:00',
+    dateModified: '2026-06-11T10:00:00+00:00',
+    dateAdded: '2026-06-11',
+    title: 'Jetpack Joyride – Play the Endless Runner Game Free',
+    metaDescription: 'Play Jetpack Joyride online free. Strap on a bullet-powered jetpack, dodge lasers and missiles, and collect coins in this classic endless runner.',
+    category: 'online-games',
+    tags: ['arcade'],
+    embedUrl: 'https://selenite-cc.github.io/selenite-old/jetpackjoyride/',
+    thumbnail: '/images/jetpack-joyride.webp',
+    relatedSlugs: ['learn-to-fly', 'burrito-bison', 'learn-to-fly-2'],
+    excerpt: 'Jetpack Joyride is the classic endless runner where you fly through a lab on a bullet-powered jetpack, dodging obstacles and collecting coins and power-ups.',
+    content: `<p>Jetpack Joyride puts you in the shoes of Barry Steakfries, a regular guy who steals a bullet-powered jetpack from a secret laboratory and makes a run for it. Hold to fly, release to fall — the one-button control scheme is brilliantly simple, but dodging the lab's increasingly intense defenses requires real skill and quick reflexes to master.</p>
+<p>Lasers, electric fields, missiles, and spinning zappers fill the corridors as you rocket through procedurally generated lab sections. Power-up vehicles add variety — hop into a mech suit, ride a dragon, or pilot a gravity-defying bird, each with unique physics and abilities. Coins collected during runs fuel a deep upgrade shop with gadgets that modify gameplay in creative ways.</p>
+<p>The mission system provides constant short-term goals that keep each run feeling purposeful. Complete three missions simultaneously to level up and earn bonus rewards. The slot machine at the end of each run adds a gambling element with second chances, coin multipliers, and explosive head starts that keep every attempt exciting.</p>
+<p>Playing Jetpack Joyride online captures the magic of one of mobile gaming's greatest hits directly in your browser. The simple controls work perfectly with just a mouse click or spacebar, and the addictive gameplay loop has you constantly saying "just one more run." It is the perfect game for quick sessions or extended play sessions alike.</p>
+<h2 class="wp-block-heading">How to Play Jetpack Joyride Online</h2>
+<p>Click and hold or press the spacebar to fire the jetpack and fly upward. Release to fall back down. Your height is controlled entirely by the rhythm of your tapping — quick taps keep you at mid-height, while holding flies you to the ceiling. Mastering this rhythm is essential for navigating obstacles.</p>
+<p>Dodge three types of hazards: red laser beams that activate in patterns, spinning electric zappers that move through the corridors, and homing missiles that lock onto your position. Each hazard requires different dodging techniques, and they appear in increasingly complex combinations as your run progresses.</p>
+<p>Collect coins scattered throughout the lab to spend on upgrades and gadgets. The gadget system lets you equip items that modify your gameplay — coin magnets, head starts, and final blasts that give you extra distance when you crash. Choose gadgets that complement your playstyle for the best results.</p>
+<p>Power-up vehicles are the highlight of each run. When you grab a vehicle pickup, you transform into a powerful machine that protects you from one hit. Each vehicle has unique controls and abilities, so learn how they handle to maximise your distance. Completing missions is the fastest way to progress through the ranks and unlock everything the game has to offer.</p>
+<!-- CONTENT END 1 -->`,
+  },
+{
+    slug: 'burrito-bison',
+    datePublished: '2026-06-11T10:00:00+00:00',
+    dateModified: '2026-06-11T10:00:00+00:00',
+    dateAdded: '2026-06-11',
+    title: 'Burrito Bison – Play the Wrestling Launch Game Free',
+    metaDescription: 'Play Burrito Bison online free. Launch a luchador wrestler out of the ring and bounce off gummy bears to escape Candy Land in this addictive launch game.',
+    category: 'online-games',
+    tags: ['arcade'],
+    embedUrl: 'https://selenite-cc.github.io/selenite-old/burritobison/',
+    thumbnail: '/images/burrito-bison.webp',
+    relatedSlugs: ['learn-to-fly', 'learn-to-fly-2', 'jetpack-joyride'],
+    excerpt: 'Burrito Bison is a launch game where you wrestle a gummy bear to launch yourself out of the ring, then bounce off candy creatures to escape Candy Land.',
+    content: `<p>Burrito Bison starts with one of the most absurd premises in gaming: you are a luchador wrestler who gets sucked into Candy Land and must body-slam your way to freedom. Launch yourself from the wrestling ring by timing your slam on a giant gummy bear, then bounce off candy creatures, rockets, and power-ups to travel as far as possible before gravity wins.</p>
+<p>The bounce physics are supremely satisfying. Each gummy bear you land on squishes and pops, sending you ricocheting in unpredictable directions. Special candy creatures provide explosive boosts, speed dashes, and massive altitude gains. The randomness of each run combines with skill-based timing to create that perfect launch game formula where every attempt feels different.</p>
+<p>Money earned from each launch buys permanent upgrades: better launch power, higher bounces, more special candies, and devastating abilities that let you smash through obstacles. The progression from barely clearing the first zone to rocketing across the entire Candy Land map is immensely satisfying and keeps you coming back for more.</p>
+<p>Playing Burrito Bison online brings a genre-defining launch game to your browser with incredible style and humor. The vibrant candy-themed art style is a feast for the eyes, and the increasingly over-the-top physics create moments of genuine hilarity. Whether you are a fan of launch games or trying one for the first time, Burrito Bison sets the standard.</p>
+<h2 class="wp-block-heading">How to Play Burrito Bison Online</h2>
+<p>Start each run by timing your body-slam on the giant gummy bear in the wrestling ring. Click at the exact right moment when the slam indicator is at its peak for maximum launch power. A well-timed slam sends you soaring further, giving you a significant head start on your escape from Candy Land.</p>
+<p>Once airborne, click to slam downward onto gummy bears and candy creatures below. Landing on regular gummies gives you small bounces, while hitting special creatures triggers powerful effects. Rocket gummies blast you forward, bouncy gummies send you sky-high, and golden gummies drop bonus coins.</p>
+<p>Between runs, visit the upgrade shop to spend your earnings. Prioritise launch power and bounce height early on, as these have the biggest impact on your overall distance. Later, invest in special abilities like the ground pound and speed boost that help you push through the final barriers.</p>
+<p>The game is divided into zones separated by barriers that you need enough speed to break through. Each zone introduces new candy creatures and obstacles. Keep upgrading and refining your timing to build enough momentum to smash through all the barriers and achieve the ultimate escape from Candy Land.</p>
+<!-- CONTENT END 1 -->`,
+  },
+{
+    slug: 'clicker-heroes',
+    datePublished: '2026-06-11T10:00:00+00:00',
+    dateModified: '2026-06-11T10:00:00+00:00',
+    dateAdded: '2026-06-11',
+    title: 'Clicker Heroes – Play the Idle RPG Clicker Game Free',
+    metaDescription: 'Play Clicker Heroes online free. Click monsters, hire heroes, and progress through zones in this legendary idle RPG that plays itself while you are away.',
+    category: 'online-games',
+    tags: ['strategy'],
+    embedUrl: 'https://selenite-cc.github.io/selenite-old/clickerheroes/',
+    thumbnail: '/images/clicker-heroes.webp',
+    relatedSlugs: ['little-alchemy', 'bloons-td-5', 'bloons-td-4'],
+    excerpt: 'Clicker Heroes is the legendary idle RPG where you click to defeat monsters, recruit heroes, and progress through thousands of zones with ever-increasing power.',
+    content: `<p>Clicker Heroes is one of the games that defined the idle clicker genre. Click on monsters to deal damage, collect gold from their defeat, and use that gold to hire heroes who deal automatic damage per second. As your DPS grows, you progress through zones filled with increasingly powerful monsters — and the numbers just keep getting bigger.</p>
+<p>The genius of Clicker Heroes is its layered progression system. Heroes can be leveled up and upgraded with special abilities. Ancient artifacts provide permanent multipliers that persist through ascensions. Ascension itself is a prestige mechanic that resets your progress but grants Hero Souls — a premium currency that powers exponential growth.</p>
+<p>The game excels at the idle formula: leave it running and your heroes fight automatically, but active clicking with the right abilities activated can push you through tough boss zones. The dopamine hit of watching your damage numbers go from hundreds to millions to billions to incomprehensible scientific notation is uniquely addictive.</p>
+<p>Playing Clicker Heroes online means you can check in anytime to see your progress and make strategic decisions about upgrades. The game runs in the background, accumulating gold and defeating monsters while you focus on other things. It is the perfect companion game that rewards both active play and patient waiting.</p>
+<h2 class="wp-block-heading">How to Play Clicker Heroes Online</h2>
+<p>Start by clicking on the monster displayed on the right side of the screen. Each click deals damage based on your click damage stat. Defeated monsters drop gold that you can spend on hiring and upgrading heroes from the panel on the left side of the screen.</p>
+<p>Heroes deal automatic DPS that increases as you level them up. Each hero also has special upgrades that unlock at certain levels, boosting either their own damage or the damage of all heroes. Focus on leveling your highest-DPS hero first, then distribute upgrades across your team for maximum efficiency.</p>
+<p>Every five zones features a boss monster with a health bar and a time limit. You must defeat the boss within 30 seconds or you fail and stay on the current zone. If your DPS is not high enough, farm the previous zones to build up gold and upgrade your heroes before attempting the boss again.</p>
+<p>Once your progress slows down, consider ascending. This resets your heroes and zones but awards Hero Souls based on how far you got. Hero Souls can be spent on Ancients — powerful permanent upgrades that dramatically increase your power on future runs. Each ascension makes you stronger, creating a satisfying loop of progress that can last for weeks or months.</p>
+<!-- CONTENT END 1 -->`,
+  },
+{
+    slug: 'line-rider',
+    datePublished: '2026-06-11T10:00:00+00:00',
+    dateModified: '2026-06-11T10:00:00+00:00',
+    dateAdded: '2026-06-11',
+    title: 'Line Rider – Play the Drawing Physics Game Free Online',
+    metaDescription: 'Play Line Rider online free. Draw lines to create tracks and watch a tiny sledder ride your creation using realistic physics in this classic sandbox game.',
     category: 'online-games',
     tags: ['puzzle', 'simulation'],
-    embedUrl: 'https://www.play-games.com/iframe/32927.html',
-    thumbnail: '/images/amateur-surgeon.webp',
-    relatedSlugs: ['akinator', 'alien-device', 'amuse-park'],
-    excerpt: 'Amateur Surgeon is a darkly comedic surgery simulation where you operate on patients using unconventional tools like pizza cutters, lighters, and staple guns.',
-    content: `<p>Amateur Surgeon is a brilliantly twisted take on the surgery simulation genre. Instead of a sterile operating room and proper medical instruments, you perform life-saving operations in a back alley using a pizza cutter for incisions, a lighter to cauterise wounds, a staple gun to close cuts, and other hilariously inappropriate tools. The patients are equally absurd — each one arrives with bizarre injuries and objects lodged inside their bodies.</p>
-<p>The gameplay combines precision clicking with time pressure. Each surgery follows a sequence: cut open the patient, remove foreign objects (sometimes including things like car batteries and live animals), stop bleeding, stitch up wounds, and close the incision before the patient's health bar runs out. The difficulty ramps up steadily, with later patients requiring faster reactions and more complex multi-step procedures.</p>
-<p>Originally created by Adult Swim Games, Amateur Surgeon became a cult classic for its perfect blend of gross-out humour and genuinely engaging gameplay. The story follows Alan Probe, a pizza delivery guy who dreams of becoming a surgeon but lacks any formal training — so he improvises. Each chapter introduces new characters and increasingly ridiculous medical emergencies that keep the comedy and challenge escalating throughout.</p>
-<h2 class="wp-block-heading"><strong>How To Play Amateur Surgeon</strong></h2>
-<ul class="wp-block-list">
-<li>Use the pizza cutter to make incisions where indicated.</li>
-<li>Use the lighter to cauterise small wounds and the staple gun to close cuts.</li>
-<li>Extract foreign objects carefully with the tongs.</li>
-<li>Monitor the patient's heart rate — work quickly but precisely to keep them alive.</li>
-</ul>
+    embedUrl: 'https://bagelcomics.com/games/html/lineriderundo.html',
+    thumbnail: '/images/line-rider.webp',
+    relatedSlugs: ['there-is-no-game', 'little-alchemy', 'hextris'],
+    excerpt: 'Line Rider is the classic physics sandbox where you draw lines to create tracks, then press play and watch a tiny sledder ride your creation with realistic physics.',
+    content: `<p>Line Rider is the original drawing physics game that took the internet by storm. The concept is beautifully simple: draw lines on a blank canvas, press play, and watch a tiny person on a sled ride along your creation. The sled follows realistic physics — gravity pulls it down slopes, momentum carries it over gaps, and sharp angles can send the rider tumbling.</p>
+<p>The magic of Line Rider is that it is equal parts creative tool and puzzle game. You can build gentle roller coasters, impossible loop-de-loops, massive jumps, or intricate courses that flow like poetry in motion. The community has created astonishing works — track art synchronized to music, gravity-defying courses, and impossibly smooth runs that look choreographed despite being pure physics.</p>
+<p>Drawing tools range from basic pencil lines to smooth curves, acceleration lines, and scenery lines that add visual detail without affecting the sled. The undo system and eraser let you iterate quickly on your designs. There is no win condition — Line Rider is a pure sandbox where the only goal is the satisfaction of watching your rider complete a run.</p>
+<p>Playing Line Rider online lets you experience one of the internet's most beloved creative tools directly in your browser. The simple interface hides incredible depth — skilled players have spent hundreds of hours crafting elaborate tracks that rival professional animations. Whether you want to doodle for five minutes or create a masterpiece, Line Rider accommodates both.</p>
+<h2 class="wp-block-heading">How to Play Line Rider Online</h2>
+<p>Select the pencil tool and draw lines on the canvas by clicking and dragging. These lines become the track that your rider will follow. Blue lines are the standard rideable surface, while green acceleration lines boost the rider's speed and red scenery lines are purely decorative.</p>
+<p>Press the play button to watch the rider traverse your creation. If the rider falls off or crashes, press stop, undo the problem section, and redraw it with adjustments. The key to smooth tracks is using gentle curves rather than sharp angles, which can cause the rider to tumble.</p>
+<p>Experiment with slopes and gravity to create exciting moments. Steep downhill sections build speed for jumps and loops. Uphill sections slow the rider down, which can be useful for controlling pace. The interaction between speed and slope angle creates natural-feeling roller coaster dynamics.</p>
+<p>For advanced creations, use the zoom tool to add fine detail and the smooth line tool for perfectly curved sections. Many famous Line Rider tracks use precise geometric calculations to create seemingly impossible maneuvers. Start simple and gradually increase complexity as you develop an intuition for how the physics engine behaves.</p>
 <!-- CONTENT END 1 -->`,
   },
-  {
-    slug: 'amazing-strange-rope-police-vice-spider',
-    datePublished: '2026-06-10T10:00:00+00:00',
-    dateModified: '2026-06-10T10:00:00+00:00',
-    dateAdded: '2026-06-10',
-    title: 'Amazing Strange Rope Police Vice Spider – Play Free Online',
-    metaDescription: 'Play Amazing Strange Rope Police Vice Spider online free. Swing through a 3D city as a spider-powered hero, fight crime, and explore an open-world sandbox.',
-    category: 'online-games',
-    tags: ['arcade', 'shooter'],
-    embedUrl: 'https://www.play-games.com/iframe/26342.html',
-    thumbnail: '/images/amazing-strange-rope-police-vice-spider.webp',
-    relatedSlugs: ['among-shooter-2', 'among-u-red-imposter', 'ace-gangster'],
-    excerpt: 'Amazing Strange Rope Police Vice Spider is an open-world action game where you swing through a 3D city as a spider-powered hero fighting crime and causing chaos.',
-    content: `<p>Amazing Strange Rope Police Vice Spider is an action-packed open-world game that combines spider-hero rope-swinging with sandbox city chaos. You play as a super-powered hero with the ability to shoot ropes, swing between skyscrapers, and fight criminals across a sprawling 3D city. Think of it as a browser-based superhero playground where you are free to patrol the streets or just enjoy the physics of swinging through the skyline.</p>
-<p>The rope-swinging mechanic is the star of the show. Aim at buildings, fire your rope, and launch yourself across the city with satisfying momentum. The physics are intentionally loose and fun, encouraging wild stunts and death-defying swings between rooftops. Combat involves punching and kicking enemies, and the open-world design means you can pick fights, complete missions, or simply explore at your own pace.</p>
-<p>The 3D city environment is surprisingly detailed for a browser game, with vehicles driving along roads, pedestrians walking the sidewalks, and various districts to explore. Missions range from stopping robberies to chasing down vehicles, and the freedom to approach each objective using your rope-swinging abilities makes every encounter feel dynamic. It is pure superhero sandbox fun.</p>
-<h2 class="wp-block-heading"><strong>How To Play Amazing Strange Rope Police Vice Spider</strong></h2>
-<ul class="wp-block-list">
-<li>WASD to move, mouse to look around.</li>
-<li>Left click to shoot rope and swing, right click to attack.</li>
-<li>Explore the open city and complete missions marked on the map.</li>
-<li>Use rope-swinging creatively to reach rooftops and travel quickly.</li>
-</ul>
-<!-- CONTENT END 1 -->`,
-  },
-  {
-    slug: 'american-dad-vs-family-guy-kung-fu',
-    datePublished: '2026-06-10T10:00:00+00:00',
-    dateModified: '2026-06-10T10:00:00+00:00',
-    dateAdded: '2026-06-10',
-    title: 'American Dad vs Family Guy Kung Fu – Play the Fighting Game Free',
-    metaDescription: 'Play American Dad vs Family Guy Kung Fu online free. Choose iconic characters from both shows and battle in fast-paced kung fu fighting matches.',
-    category: 'online-games',
-    tags: ['arcade', 'sports'],
-    embedUrl: 'https://www.play-games.com/iframe/17738.html',
-    thumbnail: '/images/american-dad-vs-family-guy-kung-fu.webp',
-    relatedSlugs: ['anime-battle-4-3', 'among-shooter-2', 'ace-gangster-2'],
-    excerpt: 'American Dad vs Family Guy Kung Fu is a fighting game featuring characters from both animated shows battling in fast-paced kung fu combat.',
-    content: `<p>American Dad vs Family Guy Kung Fu finally settles the debate: which animated family would win in a fight? This side-scrolling fighting game pits beloved characters from both shows against each other in fast-paced kung fu battles. Pick your favourite fighter from the roster — including Stan Smith, Peter Griffin, Roger the Alien, and more — then duke it out in one-on-one combat.</p>
-<p>Each character has unique moves and fighting styles that reflect their personality from the shows. The combat system is accessible but offers enough depth for competitive matches, with punch combos, special attacks, and blocking mechanics. The animations are smooth and the character sprites capture the look of the original cartoons, making every fight feel like a crossover episode you always wanted to see.</p>
-<p>The game supports two-player local multiplayer, making it perfect for settling arguments with friends about which show has tougher characters. Single-player mode lets you fight through the roster in arcade fashion, with increasing difficulty and the occasional surprise encounter. It is a fun, lighthearted fighter that fans of either show will enjoy.</p>
-<h2 class="wp-block-heading"><strong>How To Play American Dad vs Family Guy Kung Fu</strong></h2>
-<ul class="wp-block-list">
-<li>Player 1: WASD to move, G to punch, H to kick, J for special attack.</li>
-<li>Player 2: Arrow keys to move, numpad keys to attack.</li>
-<li>Block by holding back while standing or crouching.</li>
-<li>Deplete your opponent's health bar to win the round.</li>
-</ul>
-<!-- CONTENT END 1 -->`,
-  },
-  {
-    slug: 'among-cars',
-    datePublished: '2026-06-10T10:00:00+00:00',
-    dateModified: '2026-06-10T10:00:00+00:00',
-    dateAdded: '2026-06-10',
-    title: 'Among Cars – Play the Impostor Racing Game Free Online',
-    metaDescription: 'Play Among Cars online free. Race Among Us-themed cars through obstacle courses, dodge traps, and reach the finish line first in this fun racing game.',
-    category: 'online-games',
-    tags: ['racing', 'arcade'],
-    embedUrl: 'https://www.play-games.com/iframe/29059.html',
-    thumbnail: '/images/among-cars.webp',
-    relatedSlugs: ['among-shooter-2', 'among-u-red-imposter', 'among-us-detecting-the-real-imposter'],
-    excerpt: 'Among Cars is a fun racing game featuring Among Us-themed vehicles racing through obstacle-filled tracks with traps and surprises at every turn.',
-    content: `<p>Among Cars takes the iconic Among Us character design and puts it on wheels. Race adorable crewmate-shaped cars through colourful obstacle courses filled with ramps, barriers, moving platforms, and impostor traps. The goal is simple — reach the finish line first — but the chaotic track design makes every race unpredictable and entertaining.</p>
-<p>The tracks are packed with hazards inspired by the Among Us universe. Vent-shaped speed boosts launch you forward, while sabotage zones slow you down or send you flying off course. The physics are deliberately bouncy and fun, meaning crashes and wipeouts are as entertaining as winning. Each course has multiple routes, rewarding exploration and risk-taking with shortcuts that can either save you precious seconds or send you tumbling.</p>
-<p>With bright, cheerful graphics and responsive controls, Among Cars is easy to pick up and hard to put down. The combination of Among Us nostalgia and arcade racing creates a uniquely fun experience that works whether you are a fan of the original game or just enjoy lighthearted racing action.</p>
-<h2 class="wp-block-heading"><strong>How To Play Among Cars</strong></h2>
-<ul class="wp-block-list">
-<li>Arrow keys or WASD to steer and accelerate.</li>
-<li>Spacebar for handbrake or boost (depending on the track).</li>
-<li>Dodge obstacles and use shortcuts to gain an advantage.</li>
-<li>Reach the finish line before your opponents to win.</li>
-</ul>
-<!-- CONTENT END 1 -->`,
-  },
-  {
-    slug: 'among-shooter-2',
-    datePublished: '2026-06-10T10:00:00+00:00',
-    dateModified: '2026-06-10T10:00:00+00:00',
-    dateAdded: '2026-06-10',
-    title: 'Among Shooter 2 – Play the Impostor Shooting Game Free Online',
-    metaDescription: 'Play Among Shooter 2 online free. Battle impostors in fast-paced shooting action with Among Us-themed characters across multiple challenging levels.',
+{
+    slug: 'gun-mayhem-2',
+    datePublished: '2026-06-11T10:00:00+00:00',
+    dateModified: '2026-06-11T10:00:00+00:00',
+    dateAdded: '2026-06-11',
+    title: 'Gun Mayhem 2 – Play the Platform Shooter Game Free',
+    metaDescription: 'Play Gun Mayhem 2 online free. Blast opponents off platforms with an arsenal of weapons in this fast-paced multiplayer platform shooter.',
     category: 'online-games',
     tags: ['shooter', 'arcade'],
-    embedUrl: 'https://www.play-games.com/iframe/27318.html',
-    thumbnail: '/images/among-shooter-2.webp',
-    relatedSlugs: ['among-u-red-imposter', 'among-us-detecting-the-real-imposter', 'among-cars'],
-    excerpt: 'Among Shooter 2 is an action-packed shooting game featuring Among Us characters in intense battles against impostors across multiple challenging levels.',
-    content: `<p>Among Shooter 2 drops you into a fast-paced shooting game starring Among Us-inspired characters. The crewmates have had enough of the impostors and are fighting back with an arsenal of weapons. Navigate through levels filled with hostile impostors, aim carefully, and eliminate every threat before they get you first. The sequel improves on the original with more weapons, better level design, and smoother combat.</p>
-<p>Each level presents a different combat scenario — some pit you against waves of impostors in confined spaces, while others require careful movement through corridors and open areas. You collect new weapons and ammunition as you progress, upgrading from basic pistols to shotguns, rifles, and explosive weaponry. Headshots deal extra damage, rewarding accurate aim over spray-and-pray tactics.</p>
-<p>The Among Us visual style gives the game a unique charm that sets it apart from typical browser shooters. The chunky character designs, colourful environments, and satisfying hit effects create an experience that is violent enough to be exciting but lighthearted enough to keep the mood fun. Among Shooter 2 is perfect for quick shooting sessions when you want action without complexity.</p>
-<h2 class="wp-block-heading"><strong>How To Play Among Shooter 2</strong></h2>
-<ul class="wp-block-list">
-<li>WASD to move, mouse to aim and shoot.</li>
-<li>R to reload, number keys or scroll wheel to switch weapons.</li>
-<li>Eliminate all impostors in each level to progress.</li>
-<li>Collect ammo and health pickups to stay alive.</li>
-</ul>
+    embedUrl: 'https://selenite-cc.github.io/selenite-old/gunmayhem2/',
+    thumbnail: '/images/gun-mayhem-2.webp',
+    relatedSlugs: ['super-hot', 'fleeing-the-complex', 'burrito-bison'],
+    excerpt: 'Gun Mayhem 2 is a fast-paced platform shooter where you blast opponents off the stage with a huge arsenal of weapons, power-ups, and custom perks.',
+    content: `<p>Gun Mayhem 2 is a frantic platform shooter where the goal is not to kill your opponents but to knock them off the stage. Each hit pushes enemies further, and the more damage they have taken, the further they fly. It plays like a more accessible Super Smash Bros with guns — fast, chaotic, and incredibly fun with friends or against bots.</p>
+<p>The weapon variety is outstanding. Shotguns for close-range blasts, sniper rifles for precision knockbacks, rocket launchers for area devastation, and dozens more weapons that drop randomly during matches. Power-ups add another layer of chaos — shields, speed boosts, and screen-clearing explosions can turn a losing fight around in an instant.</p>
+<p>Campaign mode offers a series of increasingly challenging bot fights with unique stage hazards, while custom game lets you tweak every rule for chaotic local multiplayer. The perk system lets you equip loadouts that modify your character's abilities — extra jumps, stronger knockback resistance, or faster movement speed.</p>
+<p>Playing Gun Mayhem 2 online is the perfect way to enjoy fast-paced arena combat directly in your browser. The colourful pixel art style runs smoothly on any computer, and matches are quick enough for short breaks yet deep enough for extended sessions. Up to four players can battle on a single keyboard, making it ideal for playing with friends.</p>
+<h2 class="wp-block-heading">How to Play Gun Mayhem 2 Online</h2>
+<p>Player 1 uses arrow keys to move and jump, with M to shoot and N to throw grenades. Player 2 uses WASD for movement and Q and E for attacks. The controls are responsive and easy to learn, letting you focus on the action rather than wrestling with the keyboard.</p>
+<p>Pick up weapon drops that appear during matches for new guns with different knockback properties and fire rates. Some weapons are better at close range while others excel at long distance. Adapting your playstyle to whatever weapon you pick up is essential for success in competitive matches.</p>
+<p>Knock opponents off the platform by dealing enough damage to launch them past the stage boundaries. The more hits an opponent has taken, the further each subsequent hit sends them. Focus on racking up damage first, then deliver a powerful finishing blow to send them flying off screen.</p>
+<p>Before each match, equip perks to customize your playstyle. Triple jump lets you reach higher platforms and dodge more effectively. Knockback resistance keeps you grounded under pressure. Experiment with different perk combinations to find the loadout that matches your preferred combat style and gives you an edge against tough opponents.</p>
 <!-- CONTENT END 1 -->`,
   },
-  {
-    slug: 'among-u-red-imposter',
-    datePublished: '2026-06-10T10:00:00+00:00',
-    dateModified: '2026-06-10T10:00:00+00:00',
-    dateAdded: '2026-06-10',
-    title: 'Among U Red Imposter – Play the Stealth Action Game Free Online',
-    metaDescription: 'Play Among U Red Imposter online free. Sneak through the spaceship as the red impostor, eliminate crewmates, sabotage systems, and avoid getting caught.',
+{
+    slug: 'fleeing-the-complex',
+    datePublished: '2026-06-11T10:00:00+00:00',
+    dateModified: '2026-06-11T10:00:00+00:00',
+    dateAdded: '2026-06-11',
+    title: 'Fleeing the Complex – Play the Stickman Escape Game Free',
+    metaDescription: 'Play Fleeing the Complex online free. Make choices to help Henry Stickmin escape a maximum-security prison in this hilarious interactive adventure.',
     category: 'online-games',
-    tags: ['arcade', 'strategy'],
-    embedUrl: 'https://www.play-games.com/iframe/26569.html',
-    thumbnail: '/images/among-u-red-imposter.webp',
-    relatedSlugs: ['among-shooter-2', 'among-us-detecting-the-real-imposter', 'among-cars'],
-    excerpt: 'Among U Red Imposter lets you play as the impostor, sneaking through a spaceship to eliminate crewmates and sabotage systems without getting caught.',
-    content: `<p>Among U Red Imposter flips the Among Us formula — instead of finding the impostor, you ARE the impostor. Play as the notorious red crewmate and sneak through the spaceship eliminating other crew members one by one. Timing is everything: strike when no one is watching, use vents to escape, and blend in with the remaining crewmates to avoid suspicion.</p>
-<p>Each level presents a different section of the spaceship with patrolling crewmates who follow set routes. Study their movement patterns, find blind spots, and execute your eliminations cleanly. Get spotted and the alarm triggers, forcing you to hide or escape through the vent system. The stealth mechanics add genuine tension to every encounter — one wrong move and the whole ship is on alert.</p>
-<p>The game captures the paranoia and deception that made Among Us so popular, but from the other side. Sabotaging systems creates distractions that draw crewmates away from their routes, opening up opportunities for stealthy kills. With multiple levels of increasing difficulty and tighter security, Among U Red Imposter delivers a satisfying stealth experience wrapped in the beloved Among Us aesthetic.</p>
-<h2 class="wp-block-heading"><strong>How To Play Among U Red Imposter</strong></h2>
-<ul class="wp-block-list">
-<li>WASD or arrow keys to move through the spaceship.</li>
-<li>Click or press Space near a crewmate to eliminate them.</li>
-<li>Use vents to travel quickly and escape after eliminations.</li>
-<li>Sabotage systems to create distractions and lure crewmates away.</li>
-</ul>
+    tags: ['puzzle'],
+    embedUrl: 'https://selenite-cc.github.io/selenite-old/fleeingthecomplex/',
+    thumbnail: '/images/fleeing-the-complex.webp',
+    relatedSlugs: ['infiltrating-the-airship', 'stealing-the-diamond', 'breaking-the-bank'],
+    excerpt: 'Fleeing the Complex is a hilarious choose-your-own-adventure game where you help Henry Stickmin escape a heavily guarded prison through absurd choices.',
+    content: `<p>Fleeing the Complex is the fifth and most ambitious entry in the Henry Stickmin series of interactive adventures. You have been captured and locked in The Wall — the world's most secure prison complex. Your mission is to escape by making choices at critical moments, but most choices lead to spectacular and hilarious failure animations before you find the path to freedom.</p>
+<p>The humor is the star of the show. Choosing to fight a guard might result in Henry trying an anime power-up that backfires spectacularly. Choosing stealth might trigger a Metal Gear Solid reference that goes wrong in the funniest way possible. The game is packed with pop culture references, memes, and fourth-wall-breaking gags that reward repeat playthroughs.</p>
+<p>Multiple endings and branching paths give the game significant replay value. Each successful path offers a different escape route with unique scenes and jokes. The animation quality is surprisingly high for a browser game, with smooth action sequences that rival professional cartoons in their timing and execution.</p>
+<p>Playing Fleeing the Complex online is the best way to experience the peak of the Henry Stickmin series. The interactive format works perfectly in a browser, and the short runtime means you can see every ending and fail state in a single sitting. It is the kind of game you play once, then immediately share with friends so you can watch them try it.</p>
+<h2 class="wp-block-heading">How to Play Fleeing the Complex Online</h2>
+<p>The game presents you with choices at key moments during the story. Click on one of the available options to decide what Henry does next. Some choices lead to success while most lead to hilarious failure animations that are worth watching in full before retrying.</p>
+<p>Pay attention to the fail screens — they are often the funniest part of the game. Each wrong choice triggers a unique animation with clever jokes, pop culture references, and absurd scenarios. The developers put as much effort into the failures as the successes, so try every option at least once.</p>
+<p>Quick-time events appear during certain sequences and require fast clicking to succeed. Keep your mouse ready and watch for on-screen prompts. Missing a quick-time event results in a fail, but like all failures in the game, these come with their own entertaining animations.</p>
+<p>To find all endings, replay the game and make different choices at each branching point. The story splits early on and each path leads to a completely different sequence of events. Some endings are straightforward while others require specific combinations of choices to unlock. Experiment with every option to discover all the hidden content.</p>
 <!-- CONTENT END 1 -->`,
   },
-  {
-    slug: 'among-us-detecting-the-real-imposter',
-    datePublished: '2026-06-10T10:00:00+00:00',
-    dateModified: '2026-06-10T10:00:00+00:00',
-    dateAdded: '2026-06-10',
-    title: 'Among Us Detecting The Real Imposter – Play Free Online',
-    metaDescription: 'Play Among Us Detecting The Real Imposter online free. Use detective skills to observe clues, analyse behaviour, and identify the hidden impostor among crewmates.',
+{
+    slug: 'infiltrating-the-airship',
+    datePublished: '2026-06-11T10:00:00+00:00',
+    dateModified: '2026-06-11T10:00:00+00:00',
+    dateAdded: '2026-06-11',
+    title: 'Infiltrating the Airship – Play the Stickman Adventure Free',
+    metaDescription: 'Play Infiltrating the Airship online free. Help Henry Stickmin sneak aboard an airship in this hilarious choose-your-own-adventure stickman game.',
     category: 'online-games',
-    tags: ['puzzle', 'strategy'],
-    embedUrl: 'https://www.play-games.com/iframe/26715.html',
-    thumbnail: '/images/among-us-detecting-the-real-imposter.webp',
-    relatedSlugs: ['among-u-red-imposter', 'among-shooter-2', 'akinator'],
-    excerpt: 'Among Us Detecting The Real Imposter is a detective puzzle game where you analyse clues and observe crewmate behaviour to identify the hidden impostor.',
-    content: `<p>Among Us Detecting The Real Imposter turns the social deduction of Among Us into a single-player detective experience. Observe a group of crewmates, spot the subtle differences in behaviour, analyse the evidence, and identify which one is the impostor before it is too late. Each round presents a new scenario with different clues to uncover.</p>
-<p>The detective gameplay requires sharp observation. Watch how crewmates interact with tasks, notice who moves suspiciously, and examine the evidence left at crime scenes. Some clues are obvious — a crewmate standing near a vent — while others require careful attention to timing and positioning. The game rewards patience and analytical thinking over quick reflexes.</p>
-<p>Each level increases the challenge by adding more suspects, more complex scenarios, and red herrings designed to throw you off track. The Among Us art style is faithfully recreated, and the tension of making your accusation — knowing you only get one shot — captures the heart-pounding moment of calling an emergency meeting in the original game. If you loved the detective side of Among Us, this game lets you practice your impostor-catching skills solo.</p>
-<h2 class="wp-block-heading"><strong>How To Play Among Us Detecting The Real Imposter</strong></h2>
-<ul class="wp-block-list">
-<li>Observe all crewmates and look for suspicious behaviour.</li>
-<li>Click on clues and evidence to gather information.</li>
-<li>Analyse movement patterns and task interactions.</li>
-<li>Select the crewmate you believe is the impostor to make your accusation.</li>
-</ul>
+    tags: ['puzzle'],
+    embedUrl: 'https://selenite-cc.github.io/selenite-old/infiltratingtheairship/',
+    thumbnail: '/images/infiltrating-the-airship.webp',
+    relatedSlugs: ['fleeing-the-complex', 'stealing-the-diamond', 'breaking-the-bank'],
+    excerpt: 'Infiltrating the Airship is a hilarious interactive adventure where Henry Stickmin must board and sabotage the Toppat Clan’s airship through absurd choices.',
+    content: `<p>Infiltrating the Airship is the fourth entry in the beloved Henry Stickmin series. The government has given you a deal: infiltrate the Toppat Clan's airship and bring them down, and your criminal record gets wiped clean. How you get aboard and what you do once inside is entirely up to your choices — most of which end in spectacular, hilarious failure.</p>
+<p>The game opens with four distinct approaches to boarding the airship, each leading to a completely different adventure path with unique scenes, characters, and jokes. The Earpiece route turns the game into a spy thriller parody. The Cannonball approach is exactly as ridiculous as it sounds. Each path is packed with pop culture references and memes.</p>
+<p>Four unique endings provide excellent replay value, each locking in a different status for Henry that carries over into Fleeing the Complex. The writing is sharp, the animation is fluid, and the comedic timing on the fail states is impeccable throughout every route and every possible choice.</p>
+<p>Playing Infiltrating the Airship online is a must for fans of interactive comedy. The game represents the Henry Stickmin series hitting its stride with longer paths, more complex branching, and higher production values than the earlier entries. Each playthrough takes just a few minutes, making it easy to explore every path and ending.</p>
+<h2 class="wp-block-heading">How to Play Infiltrating the Airship Online</h2>
+<p>Choose your infiltration approach at the very start of the game. You are presented with four distinct methods for boarding the Toppat Clan's airship, and each one leads to a completely separate storyline. There is no wrong first choice — all four paths are entertaining and worth playing through.</p>
+<p>Click on options at decision points to progress the story. As with all Henry Stickmin games, most options lead to creative failure animations. Do not rush past these — they are often funnier than the correct choices and contain some of the game's best jokes and references.</p>
+<p>Quick-time events pop up during action sequences. Click fast when prompted to keep Henry alive and progressing. Missing a quick-time event results in a fail state, but the fail animations for these are particularly well-crafted and worth experiencing at least once before succeeding.</p>
+<p>Replay the game multiple times to discover all four unique endings. Each ending gives Henry a different title and status that affects the story in Fleeing the Complex. Some endings are heroic, others are villainous, and one is particularly chaotic. Finding them all gives you the complete picture of Henry's infiltration mission.</p>
 <!-- CONTENT END 1 -->`,
   },
-  {
-    slug: 'amphibia-locust-pocus',
-    datePublished: '2026-06-10T10:00:00+00:00',
-    dateModified: '2026-06-10T10:00:00+00:00',
-    dateAdded: '2026-06-10',
-    title: 'Amphibia Locust Pocus – Play the Disney Arcade Game Free Online',
-    metaDescription: 'Play Amphibia Locust Pocus online free. Help Anne and friends catch locusts and protect Wartwood in this fun Disney Channel arcade game based on the Amphibia series.',
+{
+    slug: 'stealing-the-diamond',
+    datePublished: '2026-06-11T10:00:00+00:00',
+    dateModified: '2026-06-11T10:00:00+00:00',
+    dateAdded: '2026-06-11',
+    title: 'Stealing the Diamond – Play the Stickman Heist Game Free',
+    metaDescription: 'Play Stealing the Diamond online free. Help Henry Stickmin steal the Tunisian Diamond from a museum in this hilarious choose-your-own-adventure game.',
     category: 'online-games',
-    tags: ['arcade', 'platformer'],
-    embedUrl: 'https://www.play-games.com/iframe/24867.html',
-    thumbnail: '/images/amphibia-locust-pocus.webp',
-    relatedSlugs: ['alex-world', 'angelina-ballerina-dress-up', 'adventures-in-wonderland'],
-    excerpt: 'Amphibia Locust Pocus is a Disney Channel arcade game where you help Anne catch swarms of locusts to protect the town of Wartwood from the Amphibia series.',
-    content: `<p>Amphibia Locust Pocus is an official Disney Channel game based on the popular animated series Amphibia. A massive swarm of locusts is threatening Wartwood, and it is up to Anne Boonchuy and her frog friends to catch them all before they devour everything in sight. Swing your net, time your catches, and rack up combos to save the town.</p>
-<p>The gameplay is fast-paced arcade action — locusts fly across the screen in waves, and you need quick reflexes to catch them before they escape. Different locust types require different strategies: some fly in predictable patterns, others zigzag unpredictably, and boss locusts take multiple hits. Power-ups and special abilities from the Amphibia characters help you deal with the increasingly chaotic swarms.</p>
-<p>The game faithfully captures the colourful art style and humour of the Amphibia series. Familiar locations from Wartwood serve as backgrounds, and character animations are full of personality. Fans of the show will appreciate the references and character interactions, while newcomers will enjoy the accessible, pick-up-and-play arcade gameplay. It is a charming, well-made licensed game that is genuinely fun to play.</p>
-<h2 class="wp-block-heading"><strong>How To Play Amphibia Locust Pocus</strong></h2>
-<ul class="wp-block-list">
-<li>Move your character with arrow keys or WASD.</li>
-<li>Click or press Space to swing your net and catch locusts.</li>
-<li>Catch multiple locusts in quick succession for combo bonuses.</li>
-<li>Use power-ups to clear large groups and deal with boss locusts.</li>
-</ul>
+    tags: ['puzzle'],
+    embedUrl: 'https://selenite-cc.github.io/selenite-old/stealingthediamond/',
+    thumbnail: '/images/stealing-the-diamond.webp',
+    relatedSlugs: ['fleeing-the-complex', 'infiltrating-the-airship', 'breaking-the-bank'],
+    excerpt: 'Stealing the Diamond is a hilarious interactive adventure where Henry Stickmin attempts to steal a priceless diamond from a museum through absurd methods.',
+    content: `<p>Stealing the Diamond is the third Henry Stickmin adventure, and it is where the series really found its comedic voice. The Tunisian Diamond is on display at a museum, and Henry wants it. You choose between sneaking in stealthily, charging in aggressively, or taking a more creative approach — each option leading to a unique adventure path filled with hilarious outcomes.</p>
+<p>The three branching paths — Aggressive, Sneaky, and Epic — each offer distinct gameplay experiences. The Aggressive path is pure action chaos. The Sneaky path requires more careful choices. The Epic path is the most absurd and reference-heavy of the three. Wrong choices result in some of the funniest fail animations in the series.</p>
+<p>Three unique endings give you reason to replay and explore every option. The game's humor ranges from subtle visual gags to elaborate setpieces that parody everything from Indiana Jones to The Matrix. Every fail state is hand-crafted with its own unique animation and joke, making exploration rewarding.</p>
+<p>Playing Stealing the Diamond online is the perfect entry point to the Henry Stickmin series. It is short enough for a quick session, funny enough to replay multiple times, and clever enough to surprise you with each new choice. The improved animation quality over the earlier games shows the series maturing into something truly special.</p>
+<h2 class="wp-block-heading">How to Play Stealing the Diamond Online</h2>
+<p>Start by choosing your approach to stealing the diamond: Aggressive, Sneaky, or Epic. Each option launches an entirely different storyline with unique scenes, choices, and endings. There is no best path — all three are entertaining and worth completing.</p>
+<p>Click on options at decision points to advance the story. Most choices lead to comedic failure animations that are worth watching before retrying. The game autosaves at each decision point, so you never lose progress when you make a wrong choice.</p>
+<p>Watch for quick-time events during action sequences that require fast clicking or key presses. These moments add excitement to the interactive story and their failure animations are often some of the most elaborate in the game.</p>
+<p>To see everything the game has to offer, play through all three paths and find every ending. Some fail animations contain hidden references and easter eggs that reward careful observation. Share the game with friends and compare which endings you found first — it is a great conversation starter.</p>
 <!-- CONTENT END 1 -->`,
   },
-  {
-    slug: 'amuse-park',
-    datePublished: '2026-06-10T10:00:00+00:00',
-    dateModified: '2026-06-10T10:00:00+00:00',
-    dateAdded: '2026-06-10',
-    title: 'Amuse Park – Play the Theme Park Puzzle Game Free Online',
-    metaDescription: 'Play Amuse Park online free. Build and manage your own amusement park by solving puzzles, placing rides, and keeping visitors happy in this creative puzzle game.',
+{
+    slug: 'breaking-the-bank',
+    datePublished: '2026-06-11T10:00:00+00:00',
+    dateModified: '2026-06-11T10:00:00+00:00',
+    dateAdded: '2026-06-11',
+    title: 'Breaking the Bank – Play the Stickman Heist Game Free',
+    metaDescription: 'Play Breaking the Bank online free. The original Henry Stickmin adventure where you try to break into a bank vault using hilariously creative methods.',
     category: 'online-games',
-    tags: ['puzzle', 'simulation'],
-    embedUrl: 'https://www.play-games.com/iframe/4815.html',
-    thumbnail: '/images/amuse-park.webp',
-    relatedSlugs: ['airport-madness-4', 'adventure-capitalist', 'amateur-surgeon'],
-    excerpt: 'Amuse Park is a creative puzzle game where you build your own amusement park by placing rides, solving challenges, and keeping park visitors entertained and happy.',
-    content: `<p>Amuse Park combines puzzle-solving with amusement park management in a delightful package. Your goal is to build the ultimate theme park by strategically placing rides, attractions, and facilities to keep visitors happy. Each level presents a puzzle — limited space, specific visitor demands, and budget constraints force you to think creatively about where every ride and concession stand goes.</p>
-<p>The park-building mechanics are intuitive but offer genuine depth. Different rides attract different types of visitors, and placement matters — putting a roller coaster next to a food stand creates synergies, while cramming too many thrill rides together overwhelms guests. You need to balance excitement with comfort, ensuring there are enough rest areas, bathrooms, and gentle rides to keep everyone satisfied.</p>
-<p>As you progress through levels, new ride types unlock and the puzzles become more complex. Some levels challenge you to maximise profit, others focus on guest satisfaction, and special scenarios introduce unique constraints like weather events or VIP visitors with specific demands. The cheerful graphics and satisfying feedback when your park comes alive with happy visitors make Amuse Park a genuinely enjoyable puzzle experience.</p>
-<h2 class="wp-block-heading"><strong>How To Play Amuse Park</strong></h2>
-<ul class="wp-block-list">
-<li>Click and drag rides and attractions onto the park grid.</li>
-<li>Place facilities strategically to maximise visitor satisfaction.</li>
-<li>Balance your budget — rides cost money but generate income from visitors.</li>
-<li>Meet the level objectives (profit, satisfaction, or visitor count) to advance.</li>
-</ul>
+    tags: ['puzzle'],
+    embedUrl: 'https://selenite-cc.github.io/selenite-old/breakingthebank/',
+    thumbnail: '/images/breaking-the-bank.webp',
+    relatedSlugs: ['stealing-the-diamond', 'infiltrating-the-airship', 'fleeing-the-complex'],
+    excerpt: 'Breaking the Bank is the original Henry Stickmin game where you try every absurd method imaginable to break into a bank vault, with hilarious results.',
+    content: `<p>Breaking the Bank is where the Henry Stickmin legend began. This short but sweet interactive adventure presents you with a single challenge: break into a bank vault. You are given several options — disguise yourself, tunnel in, use explosives, sneak through the front door, or try something more creative. Almost every choice fails in a hilarious way, but one leads to a surprising conclusion.</p>
+<p>The charm of Breaking the Bank lies in its simplicity and humor. Each option plays out as a brief animated sequence with snappy comedic timing. The fail states are so entertaining that finding the correct answer almost feels secondary to watching Henry botch every other attempt. A wrecking ball, a laser drill, a teleporter — nothing goes according to plan.</p>
+<p>As the first game in what became a beloved five-part series, Breaking the Bank establishes the tone and format that made Henry Stickmin a browser game icon. It takes only a few minutes to see every option, making it the perfect bite-sized comedy experience that you can enjoy during a quick break.</p>
+<p>Playing Breaking the Bank online is where every Henry Stickmin fan should start their journey. Despite being the shortest entry in the series, it perfectly captures the humor and charm that defines every game that follows. Play it first, then work your way through the entire series to Fleeing the Complex for the full experience.</p>
+<h2 class="wp-block-heading">How to Play Breaking the Bank Online</h2>
+<p>Click on the available options presented on screen to choose how Henry attempts to break into the bank. Each option triggers a unique animated sequence showing the results of your choice. Most options end in comedic failure, but that is half the fun.</p>
+<p>Watch each fail animation in full before retrying — they are short but packed with visual humor and clever details. The developers put genuine effort into making every failure entertaining, and some of the best jokes in the game are hidden in the wrong answers.</p>
+<p>Try every option to see all the funny scenarios the game has to offer. The correct answer might surprise you, as the game often subverts expectations about which approach should logically work. Think creatively and do not assume the most obvious choice is the right one.</p>
+<p>Once you have found the successful method and completed the game, move on to Escaping the Prison to continue Henry's story. Each sequel builds on the previous game's format with more options, longer paths, and increasingly elaborate animations. Breaking the Bank is just the beginning of an amazing adventure.</p>
 <!-- CONTENT END 1 -->`,
   },
-  {
-    slug: 'amy-rose-in-sonic-the-hedgehog-2',
-    datePublished: '2026-06-10T10:00:00+00:00',
-    dateModified: '2026-06-10T10:00:00+00:00',
-    dateAdded: '2026-06-10',
-    title: 'Amy Rose in Sonic The Hedgehog 2 – Play the ROM Hack Free Online',
-    metaDescription: 'Play Amy Rose in Sonic The Hedgehog 2 online free. Experience the classic Sonic 2 as Amy Rose with her unique hammer abilities in this popular fan-made ROM hack.',
+{
+    slug: 'fancy-pants-adventures',
+    datePublished: '2026-06-11T10:00:00+00:00',
+    dateModified: '2026-06-11T10:00:00+00:00',
+    dateAdded: '2026-06-11',
+    title: 'Fancy Pants Adventures – Play the Stickman Platformer Free',
+    metaDescription: 'Play Fancy Pants Adventures online free. Run, jump, and wall-slide through hand-drawn levels in this beloved stickman platformer with fluid animations.',
     category: 'online-games',
     tags: ['platformer', 'arcade'],
-    embedUrl: 'https://www.play-games.com/iframe/30902.html',
-    thumbnail: '/images/amy-rose-in-sonic-the-hedgehog-2.webp',
-    relatedSlugs: ['a-koopas-revenge', 'alex-world', 'a-koopas-revenge-2'],
-    excerpt: 'Amy Rose in Sonic The Hedgehog 2 is a ROM hack that lets you play through the classic Sonic 2 as Amy Rose, complete with her signature hammer attacks and unique moveset.',
-    content: `<p>Amy Rose in Sonic The Hedgehog 2 is a fan-made ROM hack that replaces Sonic with Amy Rose in the classic Sega Genesis masterpiece. Amy brings her own unique moveset — including her iconic Piko Piko Hammer — which fundamentally changes how you approach every zone. Without Sonic's spin dash, you need to master Amy's hammer attacks and different momentum mechanics to blast through Emerald Hill, Chemical Plant, and all the beloved stages.</p>
-<p>The hack is impressively polished. Amy's sprite work is detailed and expressive, with smooth animations for her hammer swing, jump, and running states. The level design of Sonic 2 takes on new life when played with a different character — sections that were trivial with Sonic's abilities become genuine challenges with Amy, while her hammer opens up alternative strategies for dealing with enemies and obstacles.</p>
-<p>For Sonic fans, this hack offers a fresh perspective on a game many have memorised inside out. The familiar zones feel new again when your toolkit changes, and discovering how Amy's abilities interact with classic Sonic 2 level design is a joy. Boss fights require different strategies, special stages feel different with Amy's physics, and the overall experience is a love letter to both Amy Rose as a character and Sonic 2 as a platforming classic.</p>
-<h2 class="wp-block-heading"><strong>How To Play Amy Rose in Sonic The Hedgehog 2</strong></h2>
-<ul class="wp-block-list">
-<li>Arrow keys to move, Z or Space to jump.</li>
-<li>Press the attack button while jumping to use Amy's hammer.</li>
-<li>Collect rings for protection — getting hit with zero rings means losing a life.</li>
-<li>Reach the end of each zone and defeat bosses to progress through the game.</li>
-</ul>
+    embedUrl: 'https://selenite-cc.github.io/selenite-old/fancypantsadventures/',
+    thumbnail: '/images/fancy-pants-adventures.webp',
+    relatedSlugs: ['fancy-pants-adventures-2', 'celeste', 'learn-to-fly'],
+    excerpt: 'Fancy Pants Adventures is the beloved stickman platformer known for its fluid animations, responsive controls, and hand-drawn art style across creative levels.',
+    content: `<p>Fancy Pants Adventures stars a stick figure in orange pants with the smoothest moves in browser gaming. The game is a side-scrolling platformer that prioritizes momentum and flow — running builds speed, slopes launch you into the air, and wall jumps chain together into acrobatic sequences that feel amazing when executed cleanly.</p>
+<p>The hand-drawn art style gives every level a charming sketchbook aesthetic. Pencil-drawn platforms, curvy hills, and looping tunnels create a playground that begs to be explored at top speed. Secret rooms and hidden areas reward players who experiment with the physics — bouncing off walls in unexpected directions often reveals bonus content.</p>
+<p>What sets Fancy Pants apart from other platformers is the emphasis on style over completion. You can rush through levels, but the real joy is in flowing through them — linking jumps, slides, and wall bounces into seamless runs. The physics engine supports an incredible range of movement that makes every playthrough feel uniquely expressive.</p>
+<p>Playing Fancy Pants Adventures online lets you experience one of the most fluid platformers ever created directly in your browser. Created by Brad Borne, this game proved that browser-based games could compete with console titles in terms of game feel. The controls are tight, the levels are creative, and the sense of speed is unmatched.</p>
+<h2 class="wp-block-heading">How to Play Fancy Pants Adventures Online</h2>
+<p>Use the arrow keys to move and jump. Fancy Pants Man builds momentum as he runs, so holding a direction for longer makes him faster. This speed carries into jumps, letting you clear gaps and reach platforms that are impossible from a standing start.</p>
+<p>Press the down arrow while running to slide through tight spaces and under obstacles. Sliding also maintains your momentum, making it useful for transitioning between fast-paced sections. Combine sliding with jumping for smooth, flowing movement through the levels.</p>
+<p>Jump into walls to perform wall jumps, which let you climb vertical sections and reach hidden areas. You can chain multiple wall jumps between parallel walls to ascend quickly. Mastering wall jumps is essential for finding all the secret rooms and collectibles hidden throughout each level.</p>
+<p>Explore every corner of each level to discover hidden rooms, bonus areas, and collectible items. The levels are much larger than they first appear, with multiple paths and secret passages tucked away behind breakable walls and hard-to-reach platforms. Take your time and experiment with the physics to find everything the game has to offer.</p>
 <!-- CONTENT END 1 -->`,
   },
-  {
-    slug: 'andy-golf-2',
-    datePublished: '2026-06-10T10:00:00+00:00',
-    dateModified: '2026-06-10T10:00:00+00:00',
-    dateAdded: '2026-06-10',
-    title: 'Andy Golf 2 – Play the Mini Golf Puzzle Game Free Online',
-    metaDescription: 'Play Andy Golf 2 online free. Aim, set power, and putt your way through creative mini golf courses with obstacles, slopes, and trick shots in this addictive golf puzzle game.',
+{
+    slug: 'fancy-pants-adventures-2',
+    datePublished: '2026-06-11T10:00:00+00:00',
+    dateModified: '2026-06-11T10:00:00+00:00',
+    dateAdded: '2026-06-11',
+    title: 'Fancy Pants Adventures 2 – Play the Platformer Sequel Free',
+    metaDescription: 'Play Fancy Pants Adventures 2 online free. More levels, smoother moves, and new abilities in the sequel to the beloved stickman platformer.',
     category: 'online-games',
-    tags: ['sports', 'puzzle'],
-    embedUrl: 'https://www.play-games.com/iframe/14355.html',
-    thumbnail: '/images/andy-golf-2.webp',
-    relatedSlugs: ['amuse-park', 'airport-madness-4', 'among-cars'],
-    excerpt: 'Andy Golf 2 is a mini golf puzzle game where you aim and putt through creative courses filled with obstacles, slopes, moving platforms, and trick-shot opportunities.',
-    content: `<p>Andy Golf 2 is a physics-based mini golf game that turns putting into a puzzle-solving experience. Each hole is a carefully designed challenge featuring ramps, moving obstacles, teleporters, and tricky slopes that require you to think several shots ahead. Aim your putter, set the power, and watch your ball navigate through increasingly creative courses that test both your golf skills and your problem-solving abilities.</p>
-<p>The level design is where Andy Golf 2 shines. Early holes teach you the basics — simple angles and straightforward putts — before introducing mechanics like bouncing walls, speed boosts, and gravity-defying loops. Later stages combine multiple mechanics into elaborate Rube Goldberg-style challenges where a single well-aimed shot can trigger a chain of events that guides your ball into the hole. Finding the optimal path and nailing the execution is deeply satisfying.</p>
-<p>The clean, minimalist art style keeps the focus on the puzzles, and the physics engine delivers consistent, predictable ball behaviour that rewards precision. A star rating system encourages you to replay holes and find lower-stroke solutions, adding significant replay value. Andy Golf 2 is the perfect game for short sessions — each hole takes just a minute or two, but the "one more hole" factor makes it easy to lose track of time.</p>
-<h2 class="wp-block-heading"><strong>How To Play Andy Golf 2</strong></h2>
-<ul class="wp-block-list">
-<li>Click and drag from the ball to set direction and power.</li>
-<li>Release to putt — the longer the drag, the harder the hit.</li>
-<li>Get the ball in the hole in as few strokes as possible.</li>
-<li>Earn stars by completing holes under the target stroke count.</li>
-</ul>
+    tags: ['platformer', 'arcade'],
+    embedUrl: 'https://selenite-cc.github.io/selenite-old/fancypantsadventures2/',
+    thumbnail: '/images/fancy-pants-adventures-2.webp',
+    relatedSlugs: ['fancy-pants-adventures', 'celeste', 'learn-to-fly-2'],
+    excerpt: 'Fancy Pants Adventures 2 expands on the original with new levels, enemies, abilities, and even smoother animations in this beloved stickman platformer sequel.',
+    content: `<p>Fancy Pants Adventures 2 takes everything that made the original great and amplifies it. The levels are bigger, the physics are smoother, the secrets are more elaborate, and our orange-panted hero has new moves including a powerful kick attack for dealing with the expanded enemy roster. The hand-drawn art style is more detailed while retaining its signature sketchbook charm.</p>
+<p>Combat is the biggest addition to the sequel. Enemies now populate the levels, and you can stomp them Mario-style, kick them into each other, or simply outrun them with your superior speed. Boss battles punctuate the adventure with creative encounters that test both your platforming skills and combat timing.</p>
+<p>The level design is masterful, with multiple paths through each stage that cater to different playstyles. Speedrunners can blast through the main path, while explorers can spend ages uncovering every hidden room and collectible. The momentum-based physics are even more refined, allowing for longer, more fluid runs that look absolutely spectacular.</p>
+<p>Playing Fancy Pants Adventures 2 online delivers one of the finest browser platformers ever created. The improved level design, added combat mechanics, and expanded scope make it a significant upgrade over the original while keeping everything that made the first game special. It is the rare sequel that surpasses its predecessor in every way.</p>
+<h2 class="wp-block-heading">How to Play Fancy Pants Adventures 2 Online</h2>
+<p>Use the arrow keys to move and jump with the same momentum-based physics from the original game. Running builds speed over time, and that speed translates into longer jumps and faster traversal. The controls feel even more responsive than the first game, giving you precise control at any speed.</p>
+<p>Press the S key to kick enemies, objects, and doors. Kicking is your primary combat move and can also be used to interact with environmental objects. Kick enemies into each other for bonus points, or punt objects at distant targets to solve environmental puzzles.</p>
+<p>Press the down arrow on slopes to slide and build speed. Sliding is even more important in the sequel thanks to the larger levels and more complex terrain. Use slopes to build momentum for big jumps and chain slides together for smooth, fast-paced sections.</p>
+<p>Explore every corner of each level to find hidden trophies, secret rooms, and shortcut passages. The sequel hides far more content than the original, with entire bonus levels accessible only through well-hidden entrances. Collect trophies scattered throughout the game to unlock bonus content and prove your exploration mastery.</p>
 <!-- CONTENT END 1 -->`,
   },
-  {
-    slug: 'angelina-ballerina-dress-up',
-    datePublished: '2026-06-10T10:00:00+00:00',
-    dateModified: '2026-06-10T10:00:00+00:00',
-    dateAdded: '2026-06-10',
-    title: 'Angelina Ballerina Dress Up – Play the Fashion Game Free Online',
-    metaDescription: 'Play Angelina Ballerina Dress Up online free. Design outfits for Angelina the dancing mouse with tutus, accessories, and ballet costumes in this fun dress-up game.',
+{
+    slug: 'hextris',
+    datePublished: '2026-06-11T10:00:00+00:00',
+    dateModified: '2026-06-11T10:00:00+00:00',
+    dateAdded: '2026-06-11',
+    title: 'Hextris – Play the Hexagonal Puzzle Game Free Online',
+    metaDescription: 'Play Hextris online free. Rotate a hexagon to catch falling blocks and match colors in this fast-paced geometric twist on the classic Tetris formula.',
     category: 'online-games',
-    tags: ['music-and-creative', 'simulation'],
-    embedUrl: 'https://www.play-games.com/iframe/2962.html',
-    thumbnail: '/images/angelina-ballerina-dress-up.webp',
-    relatedSlugs: ['amphibia-locust-pocus', 'adventures-in-ponyville', 'adventure-time-character-creator'],
-    excerpt: 'Angelina Ballerina Dress Up lets you create beautiful ballet outfits for Angelina the dancing mouse with a variety of tutus, costumes, and accessories.',
-    content: `<p>Angelina Ballerina Dress Up is a charming fashion game based on the beloved children's character Angelina Mouseling. Mix and match ballet tutus, shoes, tiaras, and accessories to create the perfect outfit for Angelina before her big dance performance. The game features dozens of clothing items in various colours and styles, giving you creative freedom to design unique looks.</p>
-<p>The dress-up interface is simple and intuitive — click on items to try them on, drag accessories into position, and swap pieces until you find the perfect combination. Different categories include ballet outfits, casual wear, performance costumes, and seasonal clothing. Each item is drawn in the soft, watercolour-inspired art style of the Angelina Ballerina series, maintaining the gentle, artistic feel that fans love.</p>
-<p>Beyond just dressing up, you can choose backgrounds that set the scene — a ballet stage, a dance studio, a garden party, or Angelina's bedroom. The combination of outfit and setting lets you create complete scenes and stories. It is a relaxing, creative experience that encourages imagination and self-expression, perfect for young fans of the Angelina Ballerina series or anyone who enjoys fashion games.</p>
-<h2 class="wp-block-heading"><strong>How To Play Angelina Ballerina Dress Up</strong></h2>
-<ul class="wp-block-list">
-<li>Click on clothing items in the menu to try them on Angelina.</li>
-<li>Browse different categories: outfits, shoes, accessories, and hairstyles.</li>
-<li>Click an item again to remove it or try a different piece.</li>
-<li>Choose a background scene to complete your design.</li>
-</ul>
-<!-- CONTENT END 1 -->`,
-  },
-  {
-    slug: 'angry-ducks',
-    datePublished: '2026-06-10T10:00:00+00:00',
-    dateModified: '2026-06-10T10:00:00+00:00',
-    dateAdded: '2026-06-10',
-    title: 'Angry Ducks – Play the Slingshot Physics Game Free Online',
-    metaDescription: 'Play Angry Ducks online free. Launch ducks from a slingshot to destroy structures and defeat enemies in this fun physics-based demolition game.',
-    category: 'online-games',
-    tags: ['arcade', 'puzzle'],
-    embedUrl: 'https://www.play-games.com/iframe/30252.html',
-    thumbnail: '/images/angry-ducks.webp',
-    relatedSlugs: ['angry-gran-toss', 'andy-golf-2', 'amuse-park'],
-    excerpt: 'Angry Ducks is a slingshot physics game where you launch furious ducks to demolish structures and defeat enemies across dozens of creative levels.',
-    content: `<p>Angry Ducks takes the classic slingshot-and-physics formula and gives it a feathery twist. Your ducks are furious, and the only way to calm them down is to launch them at rickety structures sheltering their enemies. Pull back the slingshot, aim carefully, and release to send your duck flying across the screen in a satisfying arc of destruction. Wood splinters, stone crumbles, and enemies tumble as your well-aimed shots bring entire structures crashing down.</p>
-<p>Each level is a physics puzzle in disguise. The structures are built from different materials — wood breaks easily, stone is tougher, and ice shatters on impact — so you need to identify weak points and plan your shots accordingly. Different duck types have special abilities: some split into multiple projectiles, others drop explosive eggs, and a few are simply heavy enough to smash through anything in their path.</p>
-<p>The level design starts simple and ramps up beautifully. Early stages teach you about angles, power, and material physics, while later levels combine all these elements into complex puzzles where the optimal destruction sequence requires real thought. The three-star rating system on each level provides excellent replay value, challenging you to find the most efficient demolition strategy. It is pure physics-based fun that is easy to understand and surprisingly hard to master.</p>
-<h2 class="wp-block-heading"><strong>How To Play Angry Ducks</strong></h2>
-<ul class="wp-block-list">
-<li>Click and drag the duck on the slingshot to aim — pull further for more power.</li>
-<li>Release to launch the duck at the target structure.</li>
-<li>Tap or click while the duck is in flight to activate its special ability.</li>
-<li>Destroy all enemies using as few ducks as possible for the best score.</li>
-</ul>
-<!-- CONTENT END 1 -->`,
-  },
-  {
-    slug: 'angry-gran-toss',
-    datePublished: '2026-06-10T10:00:00+00:00',
-    dateModified: '2026-06-10T10:00:00+00:00',
-    dateAdded: '2026-06-10',
-    title: 'Angry Gran Toss – Play the Ragdoll Launch Game Free Online',
-    metaDescription: 'Play Angry Gran Toss online free. Launch the angry grandmother as far as possible using gadgets, boosts, and upgrades in this hilarious ragdoll distance game.',
-    category: 'online-games',
-    tags: ['arcade', 'simulation'],
-    embedUrl: 'https://www.play-games.com/iframe/2630.html',
-    thumbnail: '/images/angry-gran-toss.webp',
-    relatedSlugs: ['angry-ducks', 'animal-transform-race', 'amuse-park'],
-    excerpt: 'Angry Gran Toss is a hilarious ragdoll launch game where you fling an angry grandmother as far as possible using gadgets, boosts, and upgradeable equipment.',
-    content: `<p>Angry Gran Toss is a hilariously chaotic launch game where your goal is to fling a furious grandmother as far as humanly possible. Use a giant catapult to send Gran sailing through the air, then watch as she bounces off trampolines, gets propelled by rockets, and crashes through obstacles in a ragdoll physics extravaganza. The further she flies, the more coins you earn to buy upgrades that send her even further next time.</p>
-<p>The upgrade system is the heart of the game's addictive loop. Spend your hard-earned coins on better launchers, bouncier trampolines, jet packs, and special abilities that extend Gran's flight. Each upgrade makes a noticeable difference, and the satisfaction of watching your distance counter climb higher with every improvement keeps you coming back for "just one more launch." The progression from barely reaching 100 metres to soaring past 10,000 is incredibly satisfying.</p>
-<p>The ragdoll physics make every launch unique and entertaining. Gran flails, tumbles, and bounces in unpredictable ways, and the random placement of boost items means no two flights are identical. Power-ups scattered along the flight path can give you extra speed, height, or special effects that dramatically extend your distance. It is the perfect idle game for short sessions — launch, upgrade, repeat, and watch the numbers go up.</p>
-<h2 class="wp-block-heading"><strong>How To Play Angry Gran Toss</strong></h2>
-<ul class="wp-block-list">
-<li>Click or tap to set the launch angle, then click again to set power.</li>
-<li>Use boost buttons during flight to activate special abilities.</li>
-<li>Collect coins during the flight to spend on upgrades.</li>
-<li>Upgrade your launcher, boosts, and equipment between launches to increase distance.</li>
-</ul>
-<!-- CONTENT END 1 -->`,
-  },
-  {
-    slug: 'animal-transform-race',
-    datePublished: '2026-06-10T10:00:00+00:00',
-    dateModified: '2026-06-10T10:00:00+00:00',
-    dateAdded: '2026-06-10',
-    title: 'Animal Transform Race – Play the Shape-Shifting Racing Game Free',
-    metaDescription: 'Play Animal Transform Race online free. Transform between different animals mid-race to overcome obstacles — fly as a bird, swim as a fish, and run as a cheetah.',
-    category: 'online-games',
-    tags: ['racing', 'arcade'],
-    embedUrl: 'https://www.play-games.com/iframe/38039.html',
-    thumbnail: '/images/animal-transform-race.webp',
-    relatedSlugs: ['among-cars', 'angry-gran-toss', 'angry-ducks'],
-    excerpt: 'Animal Transform Race is a shape-shifting racing game where you transform between different animals mid-race to fly, swim, run, and overcome diverse obstacles.',
-    content: `<p>Animal Transform Race is a unique racing game where the key to victory is not just speed — it is knowing which animal to become. Transform between different creatures mid-race to tackle whatever obstacle lies ahead. Hit a lake? Become a fish. Face a cliff? Transform into a bird and fly over it. Need raw speed on flat ground? Shift into a cheetah and sprint ahead of the competition. The transformation mechanic turns every race into a strategic puzzle.</p>
-<p>The courses are cleverly designed around the transformation system. Each track features a mix of terrain types — water sections, aerial gaps, underground tunnels, and open sprints — that require you to constantly switch between animal forms. The timing of your transformations matters: shifting too early wastes time, while shifting too late means crashing into obstacles. Mastering the rhythm of form-switching is what separates the winners from the rest.</p>
-<p>With bright, colourful 3D graphics and a roster of unlockable animal forms, the game has strong replay value. Each animal has different stats for speed, agility, and special abilities. Some tracks favour certain animal combinations, encouraging you to experiment with different transformation strategies. The competitive element of racing against AI opponents keeps the pressure on, making Animal Transform Race an exciting blend of racing action and quick-thinking strategy.</p>
-<h2 class="wp-block-heading"><strong>How To Play Animal Transform Race</strong></h2>
-<ul class="wp-block-list">
-<li>Your character runs automatically — focus on timing your transformations.</li>
-<li>Click or tap the animal icons to transform when approaching different terrain.</li>
-<li>Match the right animal to the terrain: fish for water, bird for air, cheetah for land.</li>
-<li>Transform quickly and accurately to maintain speed and beat your opponents.</li>
-</ul>
-<!-- CONTENT END 1 -->`,
-  },
-  {
-    slug: 'anime-battle-4-3',
-    datePublished: '2026-06-10T10:00:00+00:00',
-    dateModified: '2026-06-10T10:00:00+00:00',
-    dateAdded: '2026-06-10',
-    title: 'Anime Battle 4.3 – Play the Anime Fighting Game Free Online',
-    metaDescription: 'Play Anime Battle 4.3 online free. Choose from a massive roster of anime characters including Naruto, Goku, Luffy, and more in epic 2D fighting battles.',
-    category: 'online-games',
-    tags: ['arcade', 'sports'],
-    embedUrl: 'https://www.play-games.com/iframe/26861.html',
-    thumbnail: '/images/anime-battle-4-3.webp',
-    relatedSlugs: ['american-dad-vs-family-guy-kung-fu', 'among-shooter-2', 'a-koopas-revenge'],
-    excerpt: 'Anime Battle 4.3 is a 2D fighting game featuring a massive roster of iconic anime characters from Naruto, Dragon Ball, One Piece, Bleach, and more popular series.',
-    content: `<p>Anime Battle 4.3 is the ultimate crossover fighting game for anime fans. Choose from a massive roster of characters spanning Dragon Ball, Naruto, One Piece, Bleach, Fairy Tail, and more — then battle it out in fast-paced 2D combat. Each fighter comes with signature moves and special attacks pulled straight from their respective anime series, making every match feel like a dream episode where your favourite characters finally clash.</p>
-<p>The fighting system combines accessibility with depth. Basic combos are easy to execute, but mastering each character's full moveset — including transformation states and ultimate abilities — takes practice. Goku can go Super Saiyan for a power boost, Naruto activates Sage Mode, and Luffy stretches into Gear Fourth. These transformations are not just visual — they change your character's speed, power, and available moves, adding a strategic layer to every fight.</p>
-<p>Version 4.3 brings the largest character roster in the series along with balance updates and new stages. The pixel-art sprites are surprisingly detailed, with fluid animations for special moves and satisfying impact effects. Two-player local multiplayer makes it perfect for settling rivalries with friends — who wins in a fight between Ichigo and Zoro? Now you can find out. With dozens of characters and multiple game modes, Anime Battle 4.3 offers hours of anime fighting action.</p>
-<h2 class="wp-block-heading"><strong>How To Play Anime Battle 4.3</strong></h2>
-<ul class="wp-block-list">
-<li>Player 1: WASD to move, U/I/O for attacks, J for special move.</li>
-<li>Player 2: Arrow keys to move, numpad 1/2/3 for attacks, numpad 4 for special.</li>
-<li>Combine direction keys with attack buttons for different moves.</li>
-<li>Fill your power gauge to unleash ultimate transformations and finishing moves.</li>
-</ul>
+    tags: ['puzzle', 'arcade'],
+    embedUrl: 'https://selenite-cc.github.io/selenite-old/hextris/',
+    thumbnail: '/images/hextris.webp',
+    relatedSlugs: ['line-rider', 'little-alchemy', 'there-is-no-game'],
+    excerpt: 'Hextris is a fast-paced puzzle game where you rotate a hexagon to catch falling colored blocks, matching three or more of the same color to clear them.',
+    content: `<p>Hextris takes the addictive block-stacking formula and wraps it around a hexagon. Colored blocks fall toward a central hexagonal shape from all six directions, and you rotate the hexagon to catch them on matching sides. Line up three or more blocks of the same color and they disappear. Let the blocks stack too high on any side and the game is over.</p>
+<p>The hexagonal twist on the formula creates a uniquely disorienting challenge. Instead of thinking in straight lines, you must manage six sides simultaneously while rotating rapidly to catch incoming blocks. The pace starts gently but ramps up quickly — within minutes you will be spinning frantically, trying to match colors across multiple sides.</p>
+<p>The minimalist design — clean geometric shapes, bold colors, and smooth rotation — keeps your focus entirely on the gameplay. There are no power-ups or special abilities, just pure puzzle skill and spatial reasoning. High scores come from maintaining composure under increasing pressure and finding opportunities for multi-line clears.</p>
+<p>Playing Hextris online is the perfect quick-play puzzle experience. The simple controls and instant restart make it ideal for short sessions, while the endless difficulty scaling keeps you coming back to beat your high score. Its elegant design has made it a favourite among puzzle game fans who appreciate clean, focused gameplay.</p>
+<h2 class="wp-block-heading">How to Play Hextris Online</h2>
+<p>Use the left and right arrow keys to rotate the central hexagon. Blocks fall from the edges toward the center, and you must position the hexagon so that falling blocks land next to blocks of the same color. Quick reactions and forward planning are both essential for high scores.</p>
+<p>Match three or more blocks of the same color in a row to clear them from the hexagon. Cleared blocks earn you points and free up space on that side. Try to set up chain reactions by planning several moves ahead — clearing one group can cause blocks above to drop and form new matches.</p>
+<p>Keep all six sides of the hexagon as low as possible. If blocks stack too high on any single side, the game ends. This means you cannot focus on just one or two sides — you need to distribute your attention evenly across the entire hexagon to survive.</p>
+<p>As the game progresses, blocks fall faster and in more challenging patterns. Stay calm and focus on making clean matches rather than panicking. The best Hextris players develop a rhythm of rotation and matching that lets them handle even the fastest speeds. Practice builds the spatial awareness and quick decision-making needed to achieve truly impressive scores.</p>
 <!-- CONTENT END 1 -->`,
   },
 ];
