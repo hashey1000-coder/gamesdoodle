@@ -14549,6 +14549,506 @@ export const games = [
 </ul>
 <!-- CONTENT END 1 -->`,
   },
+{
+    slug: 'airport-madness-4',
+    datePublished: '2026-06-10T10:00:00+00:00',
+    dateModified: '2026-06-10T10:00:00+00:00',
+    dateAdded: '2026-06-10',
+    title: 'Airport Madness 4 – Play the Air Traffic Control Game Free',
+    metaDescription: 'Play Airport Madness 4 online free. Direct planes on taxiways and runways, prevent collisions, and manage busy airport traffic in this addictive simulation game.',
+    category: 'online-games',
+    tags: ['simulation', 'strategy'],
+    embedUrl: 'https://www.play-games.com/iframe/38826.html',
+    thumbnail: '/images/airport-madness-4.webp',
+    relatedSlugs: ['air-warfare-3d', 'among-cars', 'amuse-park'],
+    excerpt: 'Airport Madness 4 is an air traffic control simulation where you direct aircraft on taxiways, runways, and through the sky to prevent collisions at a busy airport.',
+    content: `<p>Airport Madness 4 puts you in the hot seat as an air traffic controller managing one of the busiest airports in the series. Your job is to guide arriving and departing aircraft safely — taxi planes to gates, clear them for takeoff, sequence landings, and keep everything moving without a single collision. It sounds simple until three planes converge on the same runway at once.</p>
+<p>Each level ramps up the complexity with more simultaneous flights, tighter spacing, and challenging weather conditions. You click aircraft to issue commands — hold, taxi, take off, land, or change altitude — and juggle dozens of decisions per minute. The satisfaction of clearing a packed runway sequence cleanly is surprisingly addictive, while a single mistake can trigger a chain reaction of near-misses.</p>
+<p>The fourth instalment adds improved graphics, more realistic airport layouts, and additional aircraft types ranging from small propeller planes to wide-body jets. The risk-reward tension is constant: do you rush a departure to clear the runway for an incoming flight, or play it safe and stack up the arrivals? Airport Madness 4 is the perfect game for anyone who thinks they could do a better job than real air traffic controllers.</p>
+<h2 class="wp-block-heading"><strong>How To Play Airport Madness 4</strong></h2>
+<ul class="wp-block-list">
+<li>Click on aircraft to select them and issue commands.</li>
+<li>Direct planes to taxi, hold, take off, or land using the control panel.</li>
+<li>Manage runway spacing to prevent collisions between arriving and departing flights.</li>
+<li>Clear levels by safely handling all scheduled flights without incidents.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'akinator',
+    datePublished: '2026-06-10T10:00:00+00:00',
+    dateModified: '2026-06-10T10:00:00+00:00',
+    dateAdded: '2026-06-10',
+    title: 'Akinator – Play the Mind-Reading Genie Game Free Online',
+    metaDescription: 'Play Akinator online free. Think of any real or fictional character and the genie will guess who you are thinking of by asking yes-or-no questions.',
+    category: 'online-games',
+    tags: ['puzzle', 'word-and-trivia'],
+    embedUrl: 'https://www.play-games.com/iframe/38659.html',
+    thumbnail: '/images/akinator.webp',
+    relatedSlugs: ['adventure-capitalist', 'among-us-detecting-the-real-imposter', 'anime-battle-4-3'],
+    excerpt: 'Akinator is the famous mind-reading genie game where you think of any character — real or fictional — and the AI guesses who it is using yes-or-no questions.',
+    content: `<p>Akinator is the legendary web genie that can read your mind — or at least it feels that way. Think of any real or fictional character, answer a series of yes-or-no questions, and watch in disbelief as the turban-wearing genie narrows down millions of possibilities to guess exactly who you are thinking of. It works with celebrities, cartoon characters, video game heroes, historical figures, and even obscure internet personalities.</p>
+<p>The AI behind Akinator uses a decision-tree algorithm trained on millions of player sessions. Each question strategically eliminates large groups of characters, and the system learns from every game played. The more people play, the smarter it gets. Try to stump it with an obscure character and you will be shocked at how often it wins — though beating the genie with a truly niche pick is deeply satisfying.</p>
+<p>The game is endlessly replayable because the challenge changes every time. Think of your favourite anime character one round, a historical scientist the next, then a minor character from an old sitcom. Akinator adapts its questioning strategy based on your answers, making each session feel like a unique battle of wits between you and the machine. It is one of the most impressive demonstrations of AI in a casual browser game.</p>
+<h2 class="wp-block-heading"><strong>How To Play Akinator</strong></h2>
+<ul class="wp-block-list">
+<li>Think of any real or fictional character before starting.</li>
+<li>Answer each question with Yes, No, Probably Yes, Probably No, or Don't Know.</li>
+<li>The genie will make a guess after enough questions — confirm or deny it.</li>
+<li>If Akinator is wrong, you can continue answering or add your character to the database.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'alex-world',
+    datePublished: '2026-06-10T10:00:00+00:00',
+    dateModified: '2026-06-10T10:00:00+00:00',
+    dateAdded: '2026-06-10',
+    title: 'Alex World – Play the Platformer Adventure Game Free Online',
+    metaDescription: 'Play Alex World online free. Run, jump, and explore colorful levels in this classic side-scrolling platformer inspired by retro adventure games.',
+    category: 'online-games',
+    tags: ['platformer', 'arcade'],
+    embedUrl: 'https://www.play-games.com/iframe/34999.html',
+    thumbnail: '/images/alex-world.webp',
+    relatedSlugs: ['a-koopas-revenge', 'amy-rose-in-sonic-the-hedgehog-2', 'a-koopas-revenge-2'],
+    excerpt: 'Alex World is a colorful side-scrolling platformer where you run, jump, and collect items across vibrant levels filled with enemies and obstacles.',
+    content: `<p>Alex World is a cheerful side-scrolling platformer that channels the spirit of classic adventure games. Guide Alex through vibrant, hand-crafted levels filled with platforms to jump across, enemies to stomp or dodge, and collectibles scattered throughout every stage. The controls are tight and responsive, making each jump and landing feel precise.</p>
+<p>Each level introduces new obstacles and enemy patterns that keep the gameplay fresh. Moving platforms, disappearing blocks, and tricky enemy placements require you to think on your feet while maintaining momentum. Coins and power-ups reward exploration — venture off the beaten path and you will discover hidden areas with bonus items that help you tackle tougher stages ahead.</p>
+<p>The game features colourful pixel-art graphics and a catchy soundtrack that perfectly complement the upbeat platforming action. Boss encounters punctuate the adventure at regular intervals, testing your pattern recognition and reflexes. Alex World captures that nostalgic feeling of discovering a great platformer for the first time, wrapped in a browser-friendly package that runs smoothly without any downloads.</p>
+<h2 class="wp-block-heading"><strong>How To Play Alex World</strong></h2>
+<ul class="wp-block-list">
+<li>Arrow keys or WASD to move and jump.</li>
+<li>Jump on enemies to defeat them — avoid touching them from the side.</li>
+<li>Collect coins and power-ups for extra points and abilities.</li>
+<li>Reach the flag at the end of each level to advance.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'alien-device',
+    datePublished: '2026-06-10T10:00:00+00:00',
+    dateModified: '2026-06-10T10:00:00+00:00',
+    dateAdded: '2026-06-10',
+    title: 'Alien Device – Play the Sci-Fi Puzzle Game Free Online',
+    metaDescription: 'Play Alien Device online free. Solve mysterious alien puzzles by manipulating strange devices and uncovering the secrets of an extraterrestrial machine.',
+    category: 'online-games',
+    tags: ['puzzle', 'strategy'],
+    embedUrl: 'https://www.play-games.com/iframe/6430.html',
+    thumbnail: '/images/alien-device.webp',
+    relatedSlugs: ['akinator', 'amateur-surgeon', 'abandoned-2-the-forest'],
+    excerpt: 'Alien Device is a sci-fi puzzle game where you interact with mysterious extraterrestrial technology, solving intricate puzzles to unlock the secrets of an alien machine.',
+    content: `<p>Alien Device drops you in front of a mysterious piece of extraterrestrial technology with zero instructions. Your job is to figure out how it works by clicking, dragging, and experimenting with its strange components. Each interaction reveals a new layer of the puzzle, and the device gradually comes alive as you unlock its secrets. It is pure exploration-driven puzzle solving at its finest.</p>
+<p>The puzzle design is clever and layered — early interactions teach you the basic mechanics, while later stages combine those mechanics in unexpected ways. Lights flash, gears turn, and energy pulses through circuits as you connect the right components. There are no hints or tutorials, so every discovery feels genuinely earned. The sense of accomplishment when a complex mechanism suddenly clicks into place is immensely satisfying.</p>
+<p>The atmospheric sci-fi presentation enhances the mystery. Ambient sound effects and a dark, metallic aesthetic make you feel like you are genuinely tinkering with alien technology. Alien Device is a short but memorable experience that rewards curiosity and lateral thinking over brute-force trial and error.</p>
+<h2 class="wp-block-heading"><strong>How To Play Alien Device</strong></h2>
+<ul class="wp-block-list">
+<li>Click and drag components on the alien device to interact with them.</li>
+<li>Observe how each interaction affects other parts of the machine.</li>
+<li>Combine discoveries to unlock new mechanisms and progress.</li>
+<li>There are no hints — experiment freely and pay attention to visual and audio cues.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'amateur-surgeon',
+    datePublished: '2026-06-10T10:00:00+00:00',
+    dateModified: '2026-06-10T10:00:00+00:00',
+    dateAdded: '2026-06-10',
+    title: 'Amateur Surgeon – Play the Wacky Surgery Game Free Online',
+    metaDescription: 'Play Amateur Surgeon online free. Perform hilarious back-alley surgeries using pizza cutters, lighters, and staple guns in this darkly comedic operation game.',
+    category: 'online-games',
+    tags: ['puzzle', 'simulation'],
+    embedUrl: 'https://www.play-games.com/iframe/32927.html',
+    thumbnail: '/images/amateur-surgeon.webp',
+    relatedSlugs: ['akinator', 'alien-device', 'amuse-park'],
+    excerpt: 'Amateur Surgeon is a darkly comedic surgery simulation where you operate on patients using unconventional tools like pizza cutters, lighters, and staple guns.',
+    content: `<p>Amateur Surgeon is a brilliantly twisted take on the surgery simulation genre. Instead of a sterile operating room and proper medical instruments, you perform life-saving operations in a back alley using a pizza cutter for incisions, a lighter to cauterise wounds, a staple gun to close cuts, and other hilariously inappropriate tools. The patients are equally absurd — each one arrives with bizarre injuries and objects lodged inside their bodies.</p>
+<p>The gameplay combines precision clicking with time pressure. Each surgery follows a sequence: cut open the patient, remove foreign objects (sometimes including things like car batteries and live animals), stop bleeding, stitch up wounds, and close the incision before the patient's health bar runs out. The difficulty ramps up steadily, with later patients requiring faster reactions and more complex multi-step procedures.</p>
+<p>Originally created by Adult Swim Games, Amateur Surgeon became a cult classic for its perfect blend of gross-out humour and genuinely engaging gameplay. The story follows Alan Probe, a pizza delivery guy who dreams of becoming a surgeon but lacks any formal training — so he improvises. Each chapter introduces new characters and increasingly ridiculous medical emergencies that keep the comedy and challenge escalating throughout.</p>
+<h2 class="wp-block-heading"><strong>How To Play Amateur Surgeon</strong></h2>
+<ul class="wp-block-list">
+<li>Use the pizza cutter to make incisions where indicated.</li>
+<li>Use the lighter to cauterise small wounds and the staple gun to close cuts.</li>
+<li>Extract foreign objects carefully with the tongs.</li>
+<li>Monitor the patient's heart rate — work quickly but precisely to keep them alive.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'amazing-strange-rope-police-vice-spider',
+    datePublished: '2026-06-10T10:00:00+00:00',
+    dateModified: '2026-06-10T10:00:00+00:00',
+    dateAdded: '2026-06-10',
+    title: 'Amazing Strange Rope Police Vice Spider – Play Free Online',
+    metaDescription: 'Play Amazing Strange Rope Police Vice Spider online free. Swing through a 3D city as a spider-powered hero, fight crime, and explore an open-world sandbox.',
+    category: 'online-games',
+    tags: ['arcade', 'shooter'],
+    embedUrl: 'https://www.play-games.com/iframe/26342.html',
+    thumbnail: '/images/amazing-strange-rope-police-vice-spider.webp',
+    relatedSlugs: ['among-shooter-2', 'among-u-red-imposter', 'ace-gangster'],
+    excerpt: 'Amazing Strange Rope Police Vice Spider is an open-world action game where you swing through a 3D city as a spider-powered hero fighting crime and causing chaos.',
+    content: `<p>Amazing Strange Rope Police Vice Spider is an action-packed open-world game that combines spider-hero rope-swinging with sandbox city chaos. You play as a super-powered hero with the ability to shoot ropes, swing between skyscrapers, and fight criminals across a sprawling 3D city. Think of it as a browser-based superhero playground where you are free to patrol the streets or just enjoy the physics of swinging through the skyline.</p>
+<p>The rope-swinging mechanic is the star of the show. Aim at buildings, fire your rope, and launch yourself across the city with satisfying momentum. The physics are intentionally loose and fun, encouraging wild stunts and death-defying swings between rooftops. Combat involves punching and kicking enemies, and the open-world design means you can pick fights, complete missions, or simply explore at your own pace.</p>
+<p>The 3D city environment is surprisingly detailed for a browser game, with vehicles driving along roads, pedestrians walking the sidewalks, and various districts to explore. Missions range from stopping robberies to chasing down vehicles, and the freedom to approach each objective using your rope-swinging abilities makes every encounter feel dynamic. It is pure superhero sandbox fun.</p>
+<h2 class="wp-block-heading"><strong>How To Play Amazing Strange Rope Police Vice Spider</strong></h2>
+<ul class="wp-block-list">
+<li>WASD to move, mouse to look around.</li>
+<li>Left click to shoot rope and swing, right click to attack.</li>
+<li>Explore the open city and complete missions marked on the map.</li>
+<li>Use rope-swinging creatively to reach rooftops and travel quickly.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'american-dad-vs-family-guy-kung-fu',
+    datePublished: '2026-06-10T10:00:00+00:00',
+    dateModified: '2026-06-10T10:00:00+00:00',
+    dateAdded: '2026-06-10',
+    title: 'American Dad vs Family Guy Kung Fu – Play the Fighting Game Free',
+    metaDescription: 'Play American Dad vs Family Guy Kung Fu online free. Choose iconic characters from both shows and battle in fast-paced kung fu fighting matches.',
+    category: 'online-games',
+    tags: ['arcade', 'sports'],
+    embedUrl: 'https://www.play-games.com/iframe/17738.html',
+    thumbnail: '/images/american-dad-vs-family-guy-kung-fu.webp',
+    relatedSlugs: ['anime-battle-4-3', 'among-shooter-2', 'ace-gangster-2'],
+    excerpt: 'American Dad vs Family Guy Kung Fu is a fighting game featuring characters from both animated shows battling in fast-paced kung fu combat.',
+    content: `<p>American Dad vs Family Guy Kung Fu finally settles the debate: which animated family would win in a fight? This side-scrolling fighting game pits beloved characters from both shows against each other in fast-paced kung fu battles. Pick your favourite fighter from the roster — including Stan Smith, Peter Griffin, Roger the Alien, and more — then duke it out in one-on-one combat.</p>
+<p>Each character has unique moves and fighting styles that reflect their personality from the shows. The combat system is accessible but offers enough depth for competitive matches, with punch combos, special attacks, and blocking mechanics. The animations are smooth and the character sprites capture the look of the original cartoons, making every fight feel like a crossover episode you always wanted to see.</p>
+<p>The game supports two-player local multiplayer, making it perfect for settling arguments with friends about which show has tougher characters. Single-player mode lets you fight through the roster in arcade fashion, with increasing difficulty and the occasional surprise encounter. It is a fun, lighthearted fighter that fans of either show will enjoy.</p>
+<h2 class="wp-block-heading"><strong>How To Play American Dad vs Family Guy Kung Fu</strong></h2>
+<ul class="wp-block-list">
+<li>Player 1: WASD to move, G to punch, H to kick, J for special attack.</li>
+<li>Player 2: Arrow keys to move, numpad keys to attack.</li>
+<li>Block by holding back while standing or crouching.</li>
+<li>Deplete your opponent's health bar to win the round.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'among-cars',
+    datePublished: '2026-06-10T10:00:00+00:00',
+    dateModified: '2026-06-10T10:00:00+00:00',
+    dateAdded: '2026-06-10',
+    title: 'Among Cars – Play the Impostor Racing Game Free Online',
+    metaDescription: 'Play Among Cars online free. Race Among Us-themed cars through obstacle courses, dodge traps, and reach the finish line first in this fun racing game.',
+    category: 'online-games',
+    tags: ['racing', 'arcade'],
+    embedUrl: 'https://www.play-games.com/iframe/29059.html',
+    thumbnail: '/images/among-cars.webp',
+    relatedSlugs: ['among-shooter-2', 'among-u-red-imposter', 'among-us-detecting-the-real-imposter'],
+    excerpt: 'Among Cars is a fun racing game featuring Among Us-themed vehicles racing through obstacle-filled tracks with traps and surprises at every turn.',
+    content: `<p>Among Cars takes the iconic Among Us character design and puts it on wheels. Race adorable crewmate-shaped cars through colourful obstacle courses filled with ramps, barriers, moving platforms, and impostor traps. The goal is simple — reach the finish line first — but the chaotic track design makes every race unpredictable and entertaining.</p>
+<p>The tracks are packed with hazards inspired by the Among Us universe. Vent-shaped speed boosts launch you forward, while sabotage zones slow you down or send you flying off course. The physics are deliberately bouncy and fun, meaning crashes and wipeouts are as entertaining as winning. Each course has multiple routes, rewarding exploration and risk-taking with shortcuts that can either save you precious seconds or send you tumbling.</p>
+<p>With bright, cheerful graphics and responsive controls, Among Cars is easy to pick up and hard to put down. The combination of Among Us nostalgia and arcade racing creates a uniquely fun experience that works whether you are a fan of the original game or just enjoy lighthearted racing action.</p>
+<h2 class="wp-block-heading"><strong>How To Play Among Cars</strong></h2>
+<ul class="wp-block-list">
+<li>Arrow keys or WASD to steer and accelerate.</li>
+<li>Spacebar for handbrake or boost (depending on the track).</li>
+<li>Dodge obstacles and use shortcuts to gain an advantage.</li>
+<li>Reach the finish line before your opponents to win.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'among-shooter-2',
+    datePublished: '2026-06-10T10:00:00+00:00',
+    dateModified: '2026-06-10T10:00:00+00:00',
+    dateAdded: '2026-06-10',
+    title: 'Among Shooter 2 – Play the Impostor Shooting Game Free Online',
+    metaDescription: 'Play Among Shooter 2 online free. Battle impostors in fast-paced shooting action with Among Us-themed characters across multiple challenging levels.',
+    category: 'online-games',
+    tags: ['shooter', 'arcade'],
+    embedUrl: 'https://www.play-games.com/iframe/27318.html',
+    thumbnail: '/images/among-shooter-2.webp',
+    relatedSlugs: ['among-u-red-imposter', 'among-us-detecting-the-real-imposter', 'among-cars'],
+    excerpt: 'Among Shooter 2 is an action-packed shooting game featuring Among Us characters in intense battles against impostors across multiple challenging levels.',
+    content: `<p>Among Shooter 2 drops you into a fast-paced shooting game starring Among Us-inspired characters. The crewmates have had enough of the impostors and are fighting back with an arsenal of weapons. Navigate through levels filled with hostile impostors, aim carefully, and eliminate every threat before they get you first. The sequel improves on the original with more weapons, better level design, and smoother combat.</p>
+<p>Each level presents a different combat scenario — some pit you against waves of impostors in confined spaces, while others require careful movement through corridors and open areas. You collect new weapons and ammunition as you progress, upgrading from basic pistols to shotguns, rifles, and explosive weaponry. Headshots deal extra damage, rewarding accurate aim over spray-and-pray tactics.</p>
+<p>The Among Us visual style gives the game a unique charm that sets it apart from typical browser shooters. The chunky character designs, colourful environments, and satisfying hit effects create an experience that is violent enough to be exciting but lighthearted enough to keep the mood fun. Among Shooter 2 is perfect for quick shooting sessions when you want action without complexity.</p>
+<h2 class="wp-block-heading"><strong>How To Play Among Shooter 2</strong></h2>
+<ul class="wp-block-list">
+<li>WASD to move, mouse to aim and shoot.</li>
+<li>R to reload, number keys or scroll wheel to switch weapons.</li>
+<li>Eliminate all impostors in each level to progress.</li>
+<li>Collect ammo and health pickups to stay alive.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'among-u-red-imposter',
+    datePublished: '2026-06-10T10:00:00+00:00',
+    dateModified: '2026-06-10T10:00:00+00:00',
+    dateAdded: '2026-06-10',
+    title: 'Among U Red Imposter – Play the Stealth Action Game Free Online',
+    metaDescription: 'Play Among U Red Imposter online free. Sneak through the spaceship as the red impostor, eliminate crewmates, sabotage systems, and avoid getting caught.',
+    category: 'online-games',
+    tags: ['arcade', 'strategy'],
+    embedUrl: 'https://www.play-games.com/iframe/26569.html',
+    thumbnail: '/images/among-u-red-imposter.webp',
+    relatedSlugs: ['among-shooter-2', 'among-us-detecting-the-real-imposter', 'among-cars'],
+    excerpt: 'Among U Red Imposter lets you play as the impostor, sneaking through a spaceship to eliminate crewmates and sabotage systems without getting caught.',
+    content: `<p>Among U Red Imposter flips the Among Us formula — instead of finding the impostor, you ARE the impostor. Play as the notorious red crewmate and sneak through the spaceship eliminating other crew members one by one. Timing is everything: strike when no one is watching, use vents to escape, and blend in with the remaining crewmates to avoid suspicion.</p>
+<p>Each level presents a different section of the spaceship with patrolling crewmates who follow set routes. Study their movement patterns, find blind spots, and execute your eliminations cleanly. Get spotted and the alarm triggers, forcing you to hide or escape through the vent system. The stealth mechanics add genuine tension to every encounter — one wrong move and the whole ship is on alert.</p>
+<p>The game captures the paranoia and deception that made Among Us so popular, but from the other side. Sabotaging systems creates distractions that draw crewmates away from their routes, opening up opportunities for stealthy kills. With multiple levels of increasing difficulty and tighter security, Among U Red Imposter delivers a satisfying stealth experience wrapped in the beloved Among Us aesthetic.</p>
+<h2 class="wp-block-heading"><strong>How To Play Among U Red Imposter</strong></h2>
+<ul class="wp-block-list">
+<li>WASD or arrow keys to move through the spaceship.</li>
+<li>Click or press Space near a crewmate to eliminate them.</li>
+<li>Use vents to travel quickly and escape after eliminations.</li>
+<li>Sabotage systems to create distractions and lure crewmates away.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'among-us-detecting-the-real-imposter',
+    datePublished: '2026-06-10T10:00:00+00:00',
+    dateModified: '2026-06-10T10:00:00+00:00',
+    dateAdded: '2026-06-10',
+    title: 'Among Us Detecting The Real Imposter – Play Free Online',
+    metaDescription: 'Play Among Us Detecting The Real Imposter online free. Use detective skills to observe clues, analyse behaviour, and identify the hidden impostor among crewmates.',
+    category: 'online-games',
+    tags: ['puzzle', 'strategy'],
+    embedUrl: 'https://www.play-games.com/iframe/26715.html',
+    thumbnail: '/images/among-us-detecting-the-real-imposter.webp',
+    relatedSlugs: ['among-u-red-imposter', 'among-shooter-2', 'akinator'],
+    excerpt: 'Among Us Detecting The Real Imposter is a detective puzzle game where you analyse clues and observe crewmate behaviour to identify the hidden impostor.',
+    content: `<p>Among Us Detecting The Real Imposter turns the social deduction of Among Us into a single-player detective experience. Observe a group of crewmates, spot the subtle differences in behaviour, analyse the evidence, and identify which one is the impostor before it is too late. Each round presents a new scenario with different clues to uncover.</p>
+<p>The detective gameplay requires sharp observation. Watch how crewmates interact with tasks, notice who moves suspiciously, and examine the evidence left at crime scenes. Some clues are obvious — a crewmate standing near a vent — while others require careful attention to timing and positioning. The game rewards patience and analytical thinking over quick reflexes.</p>
+<p>Each level increases the challenge by adding more suspects, more complex scenarios, and red herrings designed to throw you off track. The Among Us art style is faithfully recreated, and the tension of making your accusation — knowing you only get one shot — captures the heart-pounding moment of calling an emergency meeting in the original game. If you loved the detective side of Among Us, this game lets you practice your impostor-catching skills solo.</p>
+<h2 class="wp-block-heading"><strong>How To Play Among Us Detecting The Real Imposter</strong></h2>
+<ul class="wp-block-list">
+<li>Observe all crewmates and look for suspicious behaviour.</li>
+<li>Click on clues and evidence to gather information.</li>
+<li>Analyse movement patterns and task interactions.</li>
+<li>Select the crewmate you believe is the impostor to make your accusation.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'amphibia-locust-pocus',
+    datePublished: '2026-06-10T10:00:00+00:00',
+    dateModified: '2026-06-10T10:00:00+00:00',
+    dateAdded: '2026-06-10',
+    title: 'Amphibia Locust Pocus – Play the Disney Arcade Game Free Online',
+    metaDescription: 'Play Amphibia Locust Pocus online free. Help Anne and friends catch locusts and protect Wartwood in this fun Disney Channel arcade game based on the Amphibia series.',
+    category: 'online-games',
+    tags: ['arcade', 'platformer'],
+    embedUrl: 'https://www.play-games.com/iframe/24867.html',
+    thumbnail: '/images/amphibia-locust-pocus.webp',
+    relatedSlugs: ['alex-world', 'angelina-ballerina-dress-up', 'adventures-in-wonderland'],
+    excerpt: 'Amphibia Locust Pocus is a Disney Channel arcade game where you help Anne catch swarms of locusts to protect the town of Wartwood from the Amphibia series.',
+    content: `<p>Amphibia Locust Pocus is an official Disney Channel game based on the popular animated series Amphibia. A massive swarm of locusts is threatening Wartwood, and it is up to Anne Boonchuy and her frog friends to catch them all before they devour everything in sight. Swing your net, time your catches, and rack up combos to save the town.</p>
+<p>The gameplay is fast-paced arcade action — locusts fly across the screen in waves, and you need quick reflexes to catch them before they escape. Different locust types require different strategies: some fly in predictable patterns, others zigzag unpredictably, and boss locusts take multiple hits. Power-ups and special abilities from the Amphibia characters help you deal with the increasingly chaotic swarms.</p>
+<p>The game faithfully captures the colourful art style and humour of the Amphibia series. Familiar locations from Wartwood serve as backgrounds, and character animations are full of personality. Fans of the show will appreciate the references and character interactions, while newcomers will enjoy the accessible, pick-up-and-play arcade gameplay. It is a charming, well-made licensed game that is genuinely fun to play.</p>
+<h2 class="wp-block-heading"><strong>How To Play Amphibia Locust Pocus</strong></h2>
+<ul class="wp-block-list">
+<li>Move your character with arrow keys or WASD.</li>
+<li>Click or press Space to swing your net and catch locusts.</li>
+<li>Catch multiple locusts in quick succession for combo bonuses.</li>
+<li>Use power-ups to clear large groups and deal with boss locusts.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'amuse-park',
+    datePublished: '2026-06-10T10:00:00+00:00',
+    dateModified: '2026-06-10T10:00:00+00:00',
+    dateAdded: '2026-06-10',
+    title: 'Amuse Park – Play the Theme Park Puzzle Game Free Online',
+    metaDescription: 'Play Amuse Park online free. Build and manage your own amusement park by solving puzzles, placing rides, and keeping visitors happy in this creative puzzle game.',
+    category: 'online-games',
+    tags: ['puzzle', 'simulation'],
+    embedUrl: 'https://www.play-games.com/iframe/4815.html',
+    thumbnail: '/images/amuse-park.webp',
+    relatedSlugs: ['airport-madness-4', 'adventure-capitalist', 'amateur-surgeon'],
+    excerpt: 'Amuse Park is a creative puzzle game where you build your own amusement park by placing rides, solving challenges, and keeping park visitors entertained and happy.',
+    content: `<p>Amuse Park combines puzzle-solving with amusement park management in a delightful package. Your goal is to build the ultimate theme park by strategically placing rides, attractions, and facilities to keep visitors happy. Each level presents a puzzle — limited space, specific visitor demands, and budget constraints force you to think creatively about where every ride and concession stand goes.</p>
+<p>The park-building mechanics are intuitive but offer genuine depth. Different rides attract different types of visitors, and placement matters — putting a roller coaster next to a food stand creates synergies, while cramming too many thrill rides together overwhelms guests. You need to balance excitement with comfort, ensuring there are enough rest areas, bathrooms, and gentle rides to keep everyone satisfied.</p>
+<p>As you progress through levels, new ride types unlock and the puzzles become more complex. Some levels challenge you to maximise profit, others focus on guest satisfaction, and special scenarios introduce unique constraints like weather events or VIP visitors with specific demands. The cheerful graphics and satisfying feedback when your park comes alive with happy visitors make Amuse Park a genuinely enjoyable puzzle experience.</p>
+<h2 class="wp-block-heading"><strong>How To Play Amuse Park</strong></h2>
+<ul class="wp-block-list">
+<li>Click and drag rides and attractions onto the park grid.</li>
+<li>Place facilities strategically to maximise visitor satisfaction.</li>
+<li>Balance your budget — rides cost money but generate income from visitors.</li>
+<li>Meet the level objectives (profit, satisfaction, or visitor count) to advance.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'amy-rose-in-sonic-the-hedgehog-2',
+    datePublished: '2026-06-10T10:00:00+00:00',
+    dateModified: '2026-06-10T10:00:00+00:00',
+    dateAdded: '2026-06-10',
+    title: 'Amy Rose in Sonic The Hedgehog 2 – Play the ROM Hack Free Online',
+    metaDescription: 'Play Amy Rose in Sonic The Hedgehog 2 online free. Experience the classic Sonic 2 as Amy Rose with her unique hammer abilities in this popular fan-made ROM hack.',
+    category: 'online-games',
+    tags: ['platformer', 'arcade'],
+    embedUrl: 'https://www.play-games.com/iframe/30902.html',
+    thumbnail: '/images/amy-rose-in-sonic-the-hedgehog-2.webp',
+    relatedSlugs: ['a-koopas-revenge', 'alex-world', 'a-koopas-revenge-2'],
+    excerpt: 'Amy Rose in Sonic The Hedgehog 2 is a ROM hack that lets you play through the classic Sonic 2 as Amy Rose, complete with her signature hammer attacks and unique moveset.',
+    content: `<p>Amy Rose in Sonic The Hedgehog 2 is a fan-made ROM hack that replaces Sonic with Amy Rose in the classic Sega Genesis masterpiece. Amy brings her own unique moveset — including her iconic Piko Piko Hammer — which fundamentally changes how you approach every zone. Without Sonic's spin dash, you need to master Amy's hammer attacks and different momentum mechanics to blast through Emerald Hill, Chemical Plant, and all the beloved stages.</p>
+<p>The hack is impressively polished. Amy's sprite work is detailed and expressive, with smooth animations for her hammer swing, jump, and running states. The level design of Sonic 2 takes on new life when played with a different character — sections that were trivial with Sonic's abilities become genuine challenges with Amy, while her hammer opens up alternative strategies for dealing with enemies and obstacles.</p>
+<p>For Sonic fans, this hack offers a fresh perspective on a game many have memorised inside out. The familiar zones feel new again when your toolkit changes, and discovering how Amy's abilities interact with classic Sonic 2 level design is a joy. Boss fights require different strategies, special stages feel different with Amy's physics, and the overall experience is a love letter to both Amy Rose as a character and Sonic 2 as a platforming classic.</p>
+<h2 class="wp-block-heading"><strong>How To Play Amy Rose in Sonic The Hedgehog 2</strong></h2>
+<ul class="wp-block-list">
+<li>Arrow keys to move, Z or Space to jump.</li>
+<li>Press the attack button while jumping to use Amy's hammer.</li>
+<li>Collect rings for protection — getting hit with zero rings means losing a life.</li>
+<li>Reach the end of each zone and defeat bosses to progress through the game.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'andy-golf-2',
+    datePublished: '2026-06-10T10:00:00+00:00',
+    dateModified: '2026-06-10T10:00:00+00:00',
+    dateAdded: '2026-06-10',
+    title: 'Andy Golf 2 – Play the Mini Golf Puzzle Game Free Online',
+    metaDescription: 'Play Andy Golf 2 online free. Aim, set power, and putt your way through creative mini golf courses with obstacles, slopes, and trick shots in this addictive golf puzzle game.',
+    category: 'online-games',
+    tags: ['sports', 'puzzle'],
+    embedUrl: 'https://www.play-games.com/iframe/14355.html',
+    thumbnail: '/images/andy-golf-2.webp',
+    relatedSlugs: ['amuse-park', 'airport-madness-4', 'among-cars'],
+    excerpt: 'Andy Golf 2 is a mini golf puzzle game where you aim and putt through creative courses filled with obstacles, slopes, moving platforms, and trick-shot opportunities.',
+    content: `<p>Andy Golf 2 is a physics-based mini golf game that turns putting into a puzzle-solving experience. Each hole is a carefully designed challenge featuring ramps, moving obstacles, teleporters, and tricky slopes that require you to think several shots ahead. Aim your putter, set the power, and watch your ball navigate through increasingly creative courses that test both your golf skills and your problem-solving abilities.</p>
+<p>The level design is where Andy Golf 2 shines. Early holes teach you the basics — simple angles and straightforward putts — before introducing mechanics like bouncing walls, speed boosts, and gravity-defying loops. Later stages combine multiple mechanics into elaborate Rube Goldberg-style challenges where a single well-aimed shot can trigger a chain of events that guides your ball into the hole. Finding the optimal path and nailing the execution is deeply satisfying.</p>
+<p>The clean, minimalist art style keeps the focus on the puzzles, and the physics engine delivers consistent, predictable ball behaviour that rewards precision. A star rating system encourages you to replay holes and find lower-stroke solutions, adding significant replay value. Andy Golf 2 is the perfect game for short sessions — each hole takes just a minute or two, but the "one more hole" factor makes it easy to lose track of time.</p>
+<h2 class="wp-block-heading"><strong>How To Play Andy Golf 2</strong></h2>
+<ul class="wp-block-list">
+<li>Click and drag from the ball to set direction and power.</li>
+<li>Release to putt — the longer the drag, the harder the hit.</li>
+<li>Get the ball in the hole in as few strokes as possible.</li>
+<li>Earn stars by completing holes under the target stroke count.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'angelina-ballerina-dress-up',
+    datePublished: '2026-06-10T10:00:00+00:00',
+    dateModified: '2026-06-10T10:00:00+00:00',
+    dateAdded: '2026-06-10',
+    title: 'Angelina Ballerina Dress Up – Play the Fashion Game Free Online',
+    metaDescription: 'Play Angelina Ballerina Dress Up online free. Design outfits for Angelina the dancing mouse with tutus, accessories, and ballet costumes in this fun dress-up game.',
+    category: 'online-games',
+    tags: ['music-and-creative', 'simulation'],
+    embedUrl: 'https://www.play-games.com/iframe/2962.html',
+    thumbnail: '/images/angelina-ballerina-dress-up.webp',
+    relatedSlugs: ['amphibia-locust-pocus', 'adventures-in-ponyville', 'adventure-time-character-creator'],
+    excerpt: 'Angelina Ballerina Dress Up lets you create beautiful ballet outfits for Angelina the dancing mouse with a variety of tutus, costumes, and accessories.',
+    content: `<p>Angelina Ballerina Dress Up is a charming fashion game based on the beloved children's character Angelina Mouseling. Mix and match ballet tutus, shoes, tiaras, and accessories to create the perfect outfit for Angelina before her big dance performance. The game features dozens of clothing items in various colours and styles, giving you creative freedom to design unique looks.</p>
+<p>The dress-up interface is simple and intuitive — click on items to try them on, drag accessories into position, and swap pieces until you find the perfect combination. Different categories include ballet outfits, casual wear, performance costumes, and seasonal clothing. Each item is drawn in the soft, watercolour-inspired art style of the Angelina Ballerina series, maintaining the gentle, artistic feel that fans love.</p>
+<p>Beyond just dressing up, you can choose backgrounds that set the scene — a ballet stage, a dance studio, a garden party, or Angelina's bedroom. The combination of outfit and setting lets you create complete scenes and stories. It is a relaxing, creative experience that encourages imagination and self-expression, perfect for young fans of the Angelina Ballerina series or anyone who enjoys fashion games.</p>
+<h2 class="wp-block-heading"><strong>How To Play Angelina Ballerina Dress Up</strong></h2>
+<ul class="wp-block-list">
+<li>Click on clothing items in the menu to try them on Angelina.</li>
+<li>Browse different categories: outfits, shoes, accessories, and hairstyles.</li>
+<li>Click an item again to remove it or try a different piece.</li>
+<li>Choose a background scene to complete your design.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'angry-ducks',
+    datePublished: '2026-06-10T10:00:00+00:00',
+    dateModified: '2026-06-10T10:00:00+00:00',
+    dateAdded: '2026-06-10',
+    title: 'Angry Ducks – Play the Slingshot Physics Game Free Online',
+    metaDescription: 'Play Angry Ducks online free. Launch ducks from a slingshot to destroy structures and defeat enemies in this fun physics-based demolition game.',
+    category: 'online-games',
+    tags: ['arcade', 'puzzle'],
+    embedUrl: 'https://www.play-games.com/iframe/30252.html',
+    thumbnail: '/images/angry-ducks.webp',
+    relatedSlugs: ['angry-gran-toss', 'andy-golf-2', 'amuse-park'],
+    excerpt: 'Angry Ducks is a slingshot physics game where you launch furious ducks to demolish structures and defeat enemies across dozens of creative levels.',
+    content: `<p>Angry Ducks takes the classic slingshot-and-physics formula and gives it a feathery twist. Your ducks are furious, and the only way to calm them down is to launch them at rickety structures sheltering their enemies. Pull back the slingshot, aim carefully, and release to send your duck flying across the screen in a satisfying arc of destruction. Wood splinters, stone crumbles, and enemies tumble as your well-aimed shots bring entire structures crashing down.</p>
+<p>Each level is a physics puzzle in disguise. The structures are built from different materials — wood breaks easily, stone is tougher, and ice shatters on impact — so you need to identify weak points and plan your shots accordingly. Different duck types have special abilities: some split into multiple projectiles, others drop explosive eggs, and a few are simply heavy enough to smash through anything in their path.</p>
+<p>The level design starts simple and ramps up beautifully. Early stages teach you about angles, power, and material physics, while later levels combine all these elements into complex puzzles where the optimal destruction sequence requires real thought. The three-star rating system on each level provides excellent replay value, challenging you to find the most efficient demolition strategy. It is pure physics-based fun that is easy to understand and surprisingly hard to master.</p>
+<h2 class="wp-block-heading"><strong>How To Play Angry Ducks</strong></h2>
+<ul class="wp-block-list">
+<li>Click and drag the duck on the slingshot to aim — pull further for more power.</li>
+<li>Release to launch the duck at the target structure.</li>
+<li>Tap or click while the duck is in flight to activate its special ability.</li>
+<li>Destroy all enemies using as few ducks as possible for the best score.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'angry-gran-toss',
+    datePublished: '2026-06-10T10:00:00+00:00',
+    dateModified: '2026-06-10T10:00:00+00:00',
+    dateAdded: '2026-06-10',
+    title: 'Angry Gran Toss – Play the Ragdoll Launch Game Free Online',
+    metaDescription: 'Play Angry Gran Toss online free. Launch the angry grandmother as far as possible using gadgets, boosts, and upgrades in this hilarious ragdoll distance game.',
+    category: 'online-games',
+    tags: ['arcade', 'simulation'],
+    embedUrl: 'https://www.play-games.com/iframe/2630.html',
+    thumbnail: '/images/angry-gran-toss.webp',
+    relatedSlugs: ['angry-ducks', 'animal-transform-race', 'amuse-park'],
+    excerpt: 'Angry Gran Toss is a hilarious ragdoll launch game where you fling an angry grandmother as far as possible using gadgets, boosts, and upgradeable equipment.',
+    content: `<p>Angry Gran Toss is a hilariously chaotic launch game where your goal is to fling a furious grandmother as far as humanly possible. Use a giant catapult to send Gran sailing through the air, then watch as she bounces off trampolines, gets propelled by rockets, and crashes through obstacles in a ragdoll physics extravaganza. The further she flies, the more coins you earn to buy upgrades that send her even further next time.</p>
+<p>The upgrade system is the heart of the game's addictive loop. Spend your hard-earned coins on better launchers, bouncier trampolines, jet packs, and special abilities that extend Gran's flight. Each upgrade makes a noticeable difference, and the satisfaction of watching your distance counter climb higher with every improvement keeps you coming back for "just one more launch." The progression from barely reaching 100 metres to soaring past 10,000 is incredibly satisfying.</p>
+<p>The ragdoll physics make every launch unique and entertaining. Gran flails, tumbles, and bounces in unpredictable ways, and the random placement of boost items means no two flights are identical. Power-ups scattered along the flight path can give you extra speed, height, or special effects that dramatically extend your distance. It is the perfect idle game for short sessions — launch, upgrade, repeat, and watch the numbers go up.</p>
+<h2 class="wp-block-heading"><strong>How To Play Angry Gran Toss</strong></h2>
+<ul class="wp-block-list">
+<li>Click or tap to set the launch angle, then click again to set power.</li>
+<li>Use boost buttons during flight to activate special abilities.</li>
+<li>Collect coins during the flight to spend on upgrades.</li>
+<li>Upgrade your launcher, boosts, and equipment between launches to increase distance.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'animal-transform-race',
+    datePublished: '2026-06-10T10:00:00+00:00',
+    dateModified: '2026-06-10T10:00:00+00:00',
+    dateAdded: '2026-06-10',
+    title: 'Animal Transform Race – Play the Shape-Shifting Racing Game Free',
+    metaDescription: 'Play Animal Transform Race online free. Transform between different animals mid-race to overcome obstacles — fly as a bird, swim as a fish, and run as a cheetah.',
+    category: 'online-games',
+    tags: ['racing', 'arcade'],
+    embedUrl: 'https://www.play-games.com/iframe/38039.html',
+    thumbnail: '/images/animal-transform-race.webp',
+    relatedSlugs: ['among-cars', 'angry-gran-toss', 'angry-ducks'],
+    excerpt: 'Animal Transform Race is a shape-shifting racing game where you transform between different animals mid-race to fly, swim, run, and overcome diverse obstacles.',
+    content: `<p>Animal Transform Race is a unique racing game where the key to victory is not just speed — it is knowing which animal to become. Transform between different creatures mid-race to tackle whatever obstacle lies ahead. Hit a lake? Become a fish. Face a cliff? Transform into a bird and fly over it. Need raw speed on flat ground? Shift into a cheetah and sprint ahead of the competition. The transformation mechanic turns every race into a strategic puzzle.</p>
+<p>The courses are cleverly designed around the transformation system. Each track features a mix of terrain types — water sections, aerial gaps, underground tunnels, and open sprints — that require you to constantly switch between animal forms. The timing of your transformations matters: shifting too early wastes time, while shifting too late means crashing into obstacles. Mastering the rhythm of form-switching is what separates the winners from the rest.</p>
+<p>With bright, colourful 3D graphics and a roster of unlockable animal forms, the game has strong replay value. Each animal has different stats for speed, agility, and special abilities. Some tracks favour certain animal combinations, encouraging you to experiment with different transformation strategies. The competitive element of racing against AI opponents keeps the pressure on, making Animal Transform Race an exciting blend of racing action and quick-thinking strategy.</p>
+<h2 class="wp-block-heading"><strong>How To Play Animal Transform Race</strong></h2>
+<ul class="wp-block-list">
+<li>Your character runs automatically — focus on timing your transformations.</li>
+<li>Click or tap the animal icons to transform when approaching different terrain.</li>
+<li>Match the right animal to the terrain: fish for water, bird for air, cheetah for land.</li>
+<li>Transform quickly and accurately to maintain speed and beat your opponents.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
+  {
+    slug: 'anime-battle-4-3',
+    datePublished: '2026-06-10T10:00:00+00:00',
+    dateModified: '2026-06-10T10:00:00+00:00',
+    dateAdded: '2026-06-10',
+    title: 'Anime Battle 4.3 – Play the Anime Fighting Game Free Online',
+    metaDescription: 'Play Anime Battle 4.3 online free. Choose from a massive roster of anime characters including Naruto, Goku, Luffy, and more in epic 2D fighting battles.',
+    category: 'online-games',
+    tags: ['arcade', 'sports'],
+    embedUrl: 'https://www.play-games.com/iframe/26861.html',
+    thumbnail: '/images/anime-battle-4-3.webp',
+    relatedSlugs: ['american-dad-vs-family-guy-kung-fu', 'among-shooter-2', 'a-koopas-revenge'],
+    excerpt: 'Anime Battle 4.3 is a 2D fighting game featuring a massive roster of iconic anime characters from Naruto, Dragon Ball, One Piece, Bleach, and more popular series.',
+    content: `<p>Anime Battle 4.3 is the ultimate crossover fighting game for anime fans. Choose from a massive roster of characters spanning Dragon Ball, Naruto, One Piece, Bleach, Fairy Tail, and more — then battle it out in fast-paced 2D combat. Each fighter comes with signature moves and special attacks pulled straight from their respective anime series, making every match feel like a dream episode where your favourite characters finally clash.</p>
+<p>The fighting system combines accessibility with depth. Basic combos are easy to execute, but mastering each character's full moveset — including transformation states and ultimate abilities — takes practice. Goku can go Super Saiyan for a power boost, Naruto activates Sage Mode, and Luffy stretches into Gear Fourth. These transformations are not just visual — they change your character's speed, power, and available moves, adding a strategic layer to every fight.</p>
+<p>Version 4.3 brings the largest character roster in the series along with balance updates and new stages. The pixel-art sprites are surprisingly detailed, with fluid animations for special moves and satisfying impact effects. Two-player local multiplayer makes it perfect for settling rivalries with friends — who wins in a fight between Ichigo and Zoro? Now you can find out. With dozens of characters and multiple game modes, Anime Battle 4.3 offers hours of anime fighting action.</p>
+<h2 class="wp-block-heading"><strong>How To Play Anime Battle 4.3</strong></h2>
+<ul class="wp-block-list">
+<li>Player 1: WASD to move, U/I/O for attacks, J for special move.</li>
+<li>Player 2: Arrow keys to move, numpad 1/2/3 for attacks, numpad 4 for special.</li>
+<li>Combine direction keys with attack buttons for different moves.</li>
+<li>Fill your power gauge to unleash ultimate transformations and finishing moves.</li>
+</ul>
+<!-- CONTENT END 1 -->`,
+  },
 ];
 
 export function getGameBySlug(slug) {
