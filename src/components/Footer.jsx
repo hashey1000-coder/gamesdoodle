@@ -12,6 +12,8 @@ export default function Footer() {
           <Link to="/top-games/">Top Games</Link>
           <Link to="/new-games/">New Games</Link>
           <Link to="/all-games/">All Games A–Z</Link>
+          <Link to="/collections/">Collections</Link>
+          <Link to="/my-stats/">My Stats</Link>
           <Link to="/about-us/">About Us</Link>
           <Link to="/privacy-policy/">Privacy Policy</Link>
           <Link to="/terms-of-service/">Terms of Service</Link>

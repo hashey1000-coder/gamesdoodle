@@ -31,6 +31,7 @@ const gamesSource = fs.readFileSync(path.join(__dirname, 'src/data/games.js'), '
 const CAT_SLUGS = ['google-doodle-games', 'online-games', 'google-tools', 'google-easter-egg'];
 const TAG_SLUGS = ['arcade', 'racing', 'shooter', 'puzzle', 'sports', 'io', 'word-and-trivia', 'strategy', 'music-and-creative', 'simulation', 'card-and-board', 'platformer'];
 const STATIC_SLUGS = ['about-us', 'privacy-policy', 'contact-us', 'editorial-policy', 'terms-of-service', 'dmca'];
+const COLLECTION_SLUGS = ['chill-games', 'brain-teasers', 'action-packed', 'multiplayer-fun', 'retro-classics', 'speed-runs', 'hidden-gems', 'google-doodle-best'];
 
 const allSlugs = [...gamesSource.matchAll(/^\s+slug: '([^']+)'/gm)].map(m => m[1]);
 const gameSlugs = allSlugs.filter(s => !CAT_SLUGS.includes(s));
@@ -40,6 +41,10 @@ const routes = [
   '/top-games/',
   '/new-games/',
   '/all-games/',
+  '/my-stats/',
+  '/favorites/',
+  '/collections/',
+  ...COLLECTION_SLUGS.map(s => `/collections/${s}/`),
   ...CAT_SLUGS.map(s => `/${s}/`),
   ...TAG_SLUGS.map(s => `/tag/${s}/`),
   ...STATIC_SLUGS.map(s => `/${s}/`),

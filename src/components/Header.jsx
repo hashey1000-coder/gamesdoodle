@@ -1,13 +1,14 @@
 import { useState, useEffect } from 'react';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 import SearchBar from './SearchBar';
+import PlayQueuePanel from './PlayQueuePanel';
 import { games, tags } from '../data/games';
+import { usePlayQueue } from '../hooks/usePlayQueue';
+import { useFavorites } from '../hooks/useFavorites';
 
 const navLinks = [
   { to: '/google-doodle-games/', label: 'Doodle Games' },
   { to: '/online-games/', label: 'Online Games' },
-  { to: '/google-tools/', label: 'Google Tools' },
-  { to: '/google-easter-egg/', label: 'Easter Eggs' },
   { to: '/top-games/', label: 'Top Games' },
   { to: '/new-games/', label: 'New Games' },
 ];
@@ -16,7 +17,10 @@ export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [genresOpen, setGenresOpen] = useState(false);
+  const [queueOpen, setQueueOpen] = useState(false);
   const navigate = useNavigate();
+  const { count: queueCount } = usePlayQueue();
+  const { favorites } = useFavorites();
 
   // Global keyboard shortcut: Ctrl/Cmd + K to open search
   useEffect(() => {
@@ -91,6 +95,31 @@ export default function Header() {
           </ul>
         </nav>
         <div className="header-actions">
+          <Link
+            to="/my-stats/"
+            className="stats-nav-btn"
+            aria-label="My Stats"
+            title="My Stats"
+          >
+            📊
+          </Link>
+          <Link
+            to="/favorites/"
+            className="fav-nav-btn"
+            aria-label="Liked games"
+            title="Liked games"
+          >
+            {favorites.length > 0 ? '❤️' : '🤍'}
+            {favorites.length > 0 && <span className="queue-badge">{favorites.length}</span>}
+          </Link>
+          <button
+            className="queue-nav-btn"
+            onClick={() => setQueueOpen(true)}
+            aria-label="Play Next queue"
+            title="Play Next queue"
+          >
+            📋{queueCount > 0 && <span className="queue-badge">{queueCount}</span>}
+          </button>
           <button
             className="random-game-btn"
             onClick={handleRandomGame}
@@ -118,6 +147,7 @@ export default function Header() {
         </div>
       </div>
       {searchOpen && <SearchBar onClose={() => setSearchOpen(false)} />}
+      {queueOpen && <PlayQueuePanel onClose={() => setQueueOpen(false)} />}
     </header>
   );
 }

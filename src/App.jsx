@@ -10,6 +10,9 @@ import TagPage from './pages/TagPage';
 import TopGamesPage from './pages/TopGamesPage';
 import NewGamesPage from './pages/NewGamesPage';
 import AllGamesPage from './pages/AllGamesPage';
+import StatsPage from './pages/StatsPage';
+import FavoritesPage from './pages/FavoritesPage';
+import { CollectionsIndex, CollectionDetail } from './pages/CollectionsPage';
 import NotFoundPage from './pages/NotFoundPage';
 import ScrollToTop from './components/ScrollToTop';
 import { getTagBySlug } from './data/games';
@@ -34,6 +37,10 @@ function App() {
             <Route path="/top-games" element={<TopGamesPage />} />
             <Route path="/new-games" element={<NewGamesPage />} />
             <Route path="/all-games" element={<AllGamesPage />} />
+            <Route path="/my-stats" element={<StatsPage />} />
+            <Route path="/favorites" element={<FavoritesPage />} />
+            <Route path="/collections" element={<CollectionsIndex />} />
+            <Route path="/collections/:collectionSlug" element={<CollectionDetail />} />
             <Route path="/tag/:tagSlug" element={<TagRoute />} />
             <Route path="/:slug" element={<GamePage />} />
             <Route path="/:slug/page/:page" element={<GamePage />} />

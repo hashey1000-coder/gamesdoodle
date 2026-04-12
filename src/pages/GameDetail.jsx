@@ -3,11 +3,14 @@ import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import GameEmbed from '../components/GameEmbed';
 import VoteButtons from '../components/VoteButtons';
+import EmojiReactions from '../components/EmojiReactions';
+import PlayQueueButton from '../components/PlayQueueButton';
 import GameCard from '../components/GameCard';
 import { games, getCategoryBySlug, getRelatedGames, getTagsForGame } from '../data/games';
 import { useFavorites } from '../hooks/useFavorites';
 import { usePlayStreak } from '../hooks/usePlayStreak';
 import { usePlayCount, formatPlayCount } from '../hooks/usePlayCount';
+import { useAchievements } from '../hooks/useAchievements';
 import { useToast } from '../components/Toast';
 
 function trackRecentlyPlayed(slug) {
@@ -28,6 +31,7 @@ export default function GameDetail({ game }) {
   const { current: streakCurrent, best: streakBest, recordPlay } = usePlayStreak();
   const streak = { current: streakCurrent, best: streakBest };
   const { playCount, incrementPlay } = usePlayCount(game.slug);
+  const { checkAndUnlock } = useAchievements();
   const showToast = useToast();
   const fav = isFavorite(game.slug);
 
@@ -48,12 +52,21 @@ export default function GameDetail({ game }) {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [game.slug]);
 
-  // Track this game as recently played + record streak + play count
+  // Track this game as recently played + record streak + play count + achievements
   useEffect(() => {
     trackRecentlyPlayed(game.slug);
     recordPlay();
     incrementPlay();
-  }, [game.slug, recordPlay, incrementPlay]);
+    // Check achievements after a small delay to let state settle
+    setTimeout(() => {
+      const newBadges = checkAndUnlock();
+      if (newBadges.length > 0) {
+        newBadges.forEach(badge => {
+          showToast(`🏅 Achievement Unlocked: ${badge.emoji} ${badge.title}!`);
+        });
+      }
+    }, 1000);
+  }, [game.slug, recordPlay, incrementPlay, checkAndUnlock, showToast]);
 
   const handleShare = useCallback(async () => {
     const url = `https://gamesdoodle.org/${game.slug}/`;
@@ -129,6 +142,7 @@ export default function GameDetail({ game }) {
             <button className={`action-btn fav-btn${fav ? ' active' : ''}`} onClick={handleFavorite}>
               {fav ? '❤️' : '🤍'} {fav ? 'Favorited' : 'Favorite'}
             </button>
+            <PlayQueueButton slug={game.slug} title={game.title} />
             <button className="action-btn share-btn" onClick={handleShare}>
               📤 Share
             </button>
@@ -138,6 +152,8 @@ export default function GameDetail({ game }) {
         <GameEmbed game={game} />
 
         <VoteButtons slug={game.slug} />
+
+        <EmojiReactions slug={game.slug} />
 
         <div
           className="game-page-content"

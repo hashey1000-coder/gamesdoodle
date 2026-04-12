@@ -2,7 +2,9 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import GameCard from '../components/GameCard';
+import TrendingGames from '../components/TrendingGames';
 import { games, tags, featuredGameSlugs, getGameBySlug } from '../data/games';
+import { collections } from '../data/collections';
 import { useFavorites } from '../hooks/useFavorites';
 
 // Count games per tag (computed once at module level)
@@ -69,6 +71,9 @@ export default function HomePage() {
           </section>
         )}
 
+        {/* Trending Games — from Firebase play counts */}
+        <TrendingGames />
+
         {/* Featured Games Grid */}
         <section className="homepage-section">
           <div className="homepage-section-header">
@@ -100,6 +105,23 @@ export default function HomePage() {
                 <span className="genre-card-emoji">{tag.emoji}</span>
                 <span className="genre-card-name">{tag.name}</span>
                 <span className="genre-card-count">{tagGameCounts[tag.slug] || 0} games</span>
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        {/* Curated Collections Preview */}
+        <section className="homepage-section">
+          <div className="homepage-section-header">
+            <h2 className="homepage-section-title">🎯 Game Collections</h2>
+            <Link to="/collections/" className="homepage-section-link">View all →</Link>
+          </div>
+          <div className="collections-preview-grid">
+            {collections.slice(0, 4).map(col => (
+              <Link key={col.slug} to={`/collections/${col.slug}/`} className="collection-preview-card">
+                <span className="collection-preview-emoji">{col.emoji}</span>
+                <span className="collection-preview-title">{col.title}</span>
+                <span className="collection-preview-count">{col.gameSlugs.length} games</span>
               </Link>
             ))}
           </div>
