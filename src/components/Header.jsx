@@ -62,6 +62,20 @@ export default function Header() {
                 </NavLink>
               </li>
             ))}
+            {/* Mobile-only quick links */}
+            {mobileOpen && (
+              <>
+                <li className="mobile-only-link">
+                  <Link to="/my-stats/" onClick={() => setMobileOpen(false)}>📊 My Stats</Link>
+                </li>
+                <li className="mobile-only-link">
+                  <Link to="/favorites/" onClick={() => setMobileOpen(false)}>❤️ Liked Games</Link>
+                </li>
+                <li className="mobile-only-link">
+                  <button className="mobile-random-btn" onClick={handleRandomGame}>🎲 Random Game</button>
+                </li>
+              </>
+            )}
             {/* Genres dropdown */}
             <li
               className="nav-genres-wrap"

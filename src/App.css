@@ -2191,6 +2191,11 @@ html, body {
     display: flex;
   }
 
+  .stats-nav-btn,
+  .random-game-btn {
+    display: none;
+  }
+
   .search-trigger-text,
   .search-trigger-kbd {
     display: none;
@@ -2367,6 +2372,26 @@ html, body {
   }
 
   /* Nav genres dropdown becomes inline list in mobile menu */
+  .mobile-only-link {
+    display: block !important;
+  }
+
+  .mobile-random-btn {
+    background: none;
+    border: none;
+    color: var(--text);
+    font-size: 0.95rem;
+    padding: 12px 16px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    border-radius: var(--radius-sm);
+  }
+
+  .mobile-random-btn:hover {
+    background: rgba(255,255,255,0.06);
+  }
+
   .main-nav.mobile-open .nav-genres-wrap {
     display: block;
     width: 100%;
@@ -3617,6 +3642,10 @@ html, body {
   background: rgba(129, 140, 248, 0.15);
   border-color: rgba(129, 140, 248, 0.3);
   color: var(--accent);
+}
+
+.mobile-only-link {
+  display: none;
 }
 
 .queue-nav-btn,
