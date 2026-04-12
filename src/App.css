@@ -2374,9 +2374,24 @@ html, body {
     display: flex;
   }
 
-  /* Nav genres dropdown becomes inline list in mobile menu */
+  /* Mobile-only quick links in hamburger menu */
   .mobile-only-link {
-    display: block !important;
+    display: list-item;
+    list-style: none;
+  }
+
+  .mobile-only-link a {
+    display: block;
+    padding: 12px 16px;
+    font-size: 0.95rem;
+    border-radius: var(--radius-sm);
+    color: var(--text);
+    text-decoration: none;
+  }
+
+  .mobile-only-link a:hover,
+  .mobile-random-btn:hover {
+    background: rgba(255,255,255,0.06);
   }
 
   .mobile-random-btn {
@@ -3645,10 +3660,6 @@ html, body {
   background: rgba(129, 140, 248, 0.15);
   border-color: rgba(129, 140, 248, 0.3);
   color: var(--accent);
-}
-
-.mobile-only-link {
-  display: none;
 }
 
 .queue-nav-btn,
