@@ -2194,7 +2194,7 @@ html, body {
   .stats-nav-btn,
   .random-game-btn,
   .fav-nav-btn {
-    display: none;
+    display: none !important;
   }
 
   .search-trigger-text,
