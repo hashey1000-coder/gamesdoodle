@@ -2192,7 +2192,8 @@ html, body {
   }
 
   .stats-nav-btn,
-  .random-game-btn {
+  .random-game-btn,
+  .fav-nav-btn {
     display: none;
   }
 
@@ -2202,7 +2203,9 @@ html, body {
   }
 
   .search-trigger {
-    padding: 8px 12px;
+    background: none;
+    border-color: transparent;
+    padding: 6px 8px;
   }
 
   .hero-title {
