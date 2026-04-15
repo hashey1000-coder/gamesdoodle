@@ -20,7 +20,7 @@ const INDEXNOW_KEY = process.env.INDEXNOW_KEY || '4aa56dab9c758816f479a1f2583759
 const HOST         = 'gamesdoodle.org';
 const SITEMAP_PATH = 'public/sitemap.xml';
 const ENDPOINT     = 'api.indexnow.org';   // official aggregator → distributes to Bing, Yandex, etc.
-const BATCH_SIZE   = 10_000;               // IndexNow max per request
+const DELAY_MS     = 500;                  // 500ms between submissions (streaming mode)
 // ─────────────────────────────────────────────────────────────────────────────
 
 function extractUrls(xmlContent) {
@@ -78,32 +78,41 @@ async function main() {
     return;
   }
 
-  // Submit in batches
-  for (let i = 0; i < urlsToSubmit.length; i += BATCH_SIZE) {
-    const batch = urlsToSubmit.slice(i, i + BATCH_SIZE);
+  // Submit one URL at a time (streaming mode — avoids Bing batch warning)
+  let successCount = 0;
+  for (let i = 0; i < urlsToSubmit.length; i++) {
+    const url = urlsToSubmit[i];
     const payload = {
       host:        HOST,
       key:         INDEXNOW_KEY,
       keyLocation: `https://${HOST}/${INDEXNOW_KEY}.txt`,
-      urlList:     batch,
+      urlList:     [url],
     };
 
-    console.log(`📤  Sending batch ${Math.floor(i / BATCH_SIZE) + 1}: ${batch.length} URLs…`);
+    process.stdout.write(`📤  [${i + 1}/${urlsToSubmit.length}] ${url} … `);
     try {
       const { status, body } = await post(payload);
       if (status === 200 || status === 202) {
-        console.log(`✅  Batch accepted (HTTP ${status})`);
+        console.log(`✅ ${status}`);
+        successCount++;
       } else if (status === 422) {
-        console.log(`⚠️   HTTP 422 — URLs already submitted recently, nothing to do.`);
+        console.log(`⏭️  422 (already submitted)`);
       } else {
-        console.error(`❌  Unexpected HTTP ${status}: ${body}`);
+        console.log(`❌ ${status}: ${body}`);
         process.exitCode = 1;
       }
     } catch (err) {
-      console.error(`❌  Request failed: ${err.message}`);
+      console.log(`❌ error: ${err.message}`);
       process.exitCode = 1;
     }
+
+    // Delay between submissions to stay in streaming mode
+    if (i < urlsToSubmit.length - 1) {
+      await new Promise(r => setTimeout(r, DELAY_MS));
+    }
   }
+
+  console.log(`\n🎉  Done — ${successCount}/${urlsToSubmit.length} URLs accepted.`);
 }
 
 main();

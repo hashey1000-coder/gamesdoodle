@@ -58,8 +58,11 @@ export default function TopGamesPage() {
 
     setTopGames(null); // show skeleton while switching tabs
 
-    const dbPath = sortBy === 'plays' ? 'playCounts' : 'votes';
-    const topRef = query(ref(db, dbPath), orderByValue(), limitToLast(50));
+    // votes are objects {up, down} so orderByValue() won't work — fetch all and sort client-side
+    // playCounts are scalars so we can use orderByValue + limitToLast for efficiency
+    const topRef = sortBy === 'votes'
+      ? ref(db, 'votes')
+      : query(ref(db, 'playCounts'), orderByValue(), limitToLast(50));
 
     const unsubscribe = onValue(topRef, (snapshot) => {
       const data = snapshot.val();
