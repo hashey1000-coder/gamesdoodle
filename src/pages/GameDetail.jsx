@@ -13,6 +13,29 @@ import { usePlayCount, formatPlayCount } from '../hooks/usePlayCount';
 import { useAchievements } from '../hooks/useAchievements';
 import { useToast } from '../components/Toast';
 
+/**
+ * Strip WordPress migration artifacts from game content HTML.
+ * Runs once per render — keeps the source data untouched.
+ */
+function sanitizeContent(html) {
+  return html
+    // Remove wp-block-heading class from headings
+    .replace(/\s*class="wp-block-heading"/g, '')
+    // Remove empty ad-inserter code-block divs (entire tag + whitespace)
+    .replace(/<div\s+class=['"]code-block[^'"]*['"][^>]*>\s*<\/div>/gi, '')
+    // Remove <!-- CONTENT END ... --> comments
+    .replace(/<!--\s*CONTENT END[^>]*-->/gi, '')
+    // Unwrap unnecessary <strong> inside headings: <h2><strong>text</strong></h2> → <h2>text</h2>
+    .replace(/(<h[2-6][^>]*>)\s*<strong>(.*?)<\/strong>\s*(<\/h[2-6]>)/gi, '$1$2$3')
+    // Convert WP curly quote entities to plain characters
+    .replace(/&#8217;/g, "'")
+    .replace(/&#8216;/g, "'")
+    .replace(/&#8220;/g, '"')
+    .replace(/&#8221;/g, '"')
+    .replace(/&#8230;/g, '…')
+    .replace(/&nbsp;/g, ' ');
+}
+
 function trackRecentlyPlayed(slug) {
   try {
     let recent = JSON.parse(localStorage.getItem('recentlyPlayed') || '[]');
@@ -157,7 +180,7 @@ export default function GameDetail({ game }) {
 
         <div
           className="game-page-content"
-          dangerouslySetInnerHTML={{ __html: game.content.replace(/\s*class="wp-block-heading"/g, '') }}
+          dangerouslySetInnerHTML={{ __html: sanitizeContent(game.content) }}
         />
 
         {category && (
