@@ -157,7 +157,7 @@ export default function GameDetail({ game }) {
 
         <div
           className="game-page-content"
-          dangerouslySetInnerHTML={{ __html: game.content }}
+          dangerouslySetInnerHTML={{ __html: game.content.replace(/\s*class="wp-block-heading"/g, '') }}
         />
 
         {category && (
