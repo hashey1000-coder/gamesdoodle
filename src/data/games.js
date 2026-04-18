@@ -3911,40 +3911,6 @@ export const games = [
 <!-- CONTENT END 1 -->`,
   },
   {
-    slug: 'bad-ice-cream',
-    datePublished: '2025-12-28T17:32:30+00:00',
-    dateModified: '2025-12-28T17:32:32+00:00',
-    title: 'Bad Ice-Cream - Play Icecream Game Unblocked Online',
-    metaDescription: 'Play Bad Ice-Cream unblocked and collect fruits in challenging mazes. Avoid enemies, use strategy, and enjoy this addictive icecream game for hours of fun.',
-    category: 'online-games',
-    tags: ['arcade', 'puzzle'],
-    embedUrl: 'https://ubgwtf.gitlab.io/bad-ice-cream/',
-    thumbnail: '/images/bad-ice-cream.webp',
-    relatedSlugs: ['huggy-wuggy', 'watermelon-game', 'stunt-bike-extreme'],
-    excerpt: 'Bad Ice-Cream is a fun and challenging arcade-style game that blends puzzle-solving with fast-paced action.',
-    content: `<p>Bad Ice-Cream is a fun and challenging arcade-style game that blends puzzle-solving with fast-paced action. Players control an ice cream character who navigates through colorful mazes while avoiding enemies and obstacles. The game’s vibrant graphics and playful design make it enjoyable for all ages, while the strategic elements keep players engaged. Each level presents new challenges that test your reflexes and problem-solving skills.</p>
-
-<p>The main objective in Bad Ice-Cream is to collect all the fruits in each level before the enemies catch you. Enemies constantly patrol the maze, so timing and careful movement are crucial to avoid getting trapped. Players can also create blocks to block paths or trap enemies, adding a strategic layer to the game. This combination of action and strategy makes Bad Ice-Cream highly addictive.</p>
-
-<p>In Bad Ice-Cream unblocked, you don’t need to download or install anything, making it easy to play directly in your browser. This allows for instant fun on any device, whether at home, school, or work. The game’s simple controls make it accessible to beginners, while advanced levels provide enough complexity to keep experienced players entertained. It’s perfect for quick gaming sessions or extended play.</p>
-
-<p>Bad Ice-Cream online has multiple characters and levels to explore, each with unique layouts and increasing difficulty. Players must adapt their strategies as the game progresses, balancing speed and caution. Collecting all fruits while avoiding enemies provides a sense of accomplishment and encourages replayability. The combination of fun graphics, challenging levels, and strategic gameplay makes Bad Ice-Cream a standout ice cream game.</p>
-
-<h2 class="wp-block-heading">How to Play Bad Ice-Cream</h2>
-
-<p>To play Bad Ice-Cream, use the arrow keys to move your ice cream character around the maze. The goal is to collect all the fruits in each level while avoiding enemies that roam the pathways. Planning your route and timing your movements carefully will prevent you from being trapped or caught. Every maze requires both quick thinking and careful navigation.</p>
-
-<p>In Bad Ice-Cream, you can break ice blocks or create obstacles to block enemies and protect yourself. Using these mechanics strategically allows you to control the maze and gain an advantage. Each level becomes progressively more challenging, introducing new enemy patterns and more complex layouts. Adapting to these changes is key to success.</p>
-
-<p>Bad Ice-Cream unblocked offers a multiplayer mode, where you can compete against friends or AI characters. Coordinating movements, blocking paths, and racing to collect fruits adds an exciting competitive element. This mode requires quick reflexes and clever use of the environment to outperform opponents and claim victory.</p>
-
-<p>As you advance, the game increases in difficulty with faster enemies and more intricate mazes. Learning the patterns of enemies and planning your fruit-collecting route becomes essential. Patience, observation, and timing are critical in Bad Ice-Cream online to complete levels efficiently. Mastering these skills ensures hours of fun and challenging gameplay.</p>
-<div class='code-block code-block-1' style='margin: 8px auto; text-align: center; display: block; clear: both;'>
-
-</div>
-<!-- CONTENT END 1 -->`,
-  },
-  {
     slug: 'minefun-io',
     datePublished: '2025-12-28T16:45:04+00:00',
     dateModified: '2025-12-28T16:45:06+00:00',
@@ -9650,7 +9616,7 @@ export const games = [
     metaDescription: 'Play Oregon Trail game and experience the classic journey west. Survive, trade, and explore in Oregon Trail unblocked adventures full of strategy and fun.',
     category: 'online-games',
     tags: ['simulation', 'strategy'],
-    embedUrl: 'https://archive.org/embed/msdos_Oregon_Trail_The_1990',
+    embedUrl: 'https://www.passclassroom.com/flashgame?load=oregon-trail',
     thumbnail: '/images/oregon-trail.webp',
     relatedSlugs: ['incredibox', 'mortal-kombat', 'my-singing-monsters'],
     excerpt: 'Oregon Trail is a legendary adventure and strategy game that takes you back to the 19th-century American frontier.',
@@ -11804,31 +11770,7 @@ export const games = [
 <p>Some levels require you to use the environment creatively, freezing to knock over blocks, trigger switches, or push objects into position. Look for interactive elements that respond to your frozen sliding and consider whether you need to manipulate the environment before attempting your final path to the box. The best solutions often involve setting up the level before making your final slide.</p>
 <!-- CONTENT END 1 -->`,
   },
-  {
-    slug: 'awesome-tanks-2',
-    datePublished: '2026-03-20T10:00:00+00:00',
-    dateModified: '2026-03-20T10:00:00+00:00',
-    dateAdded: '2026-03-20',
-    title: 'Awesome Tanks 2 – Play the Tank Shooter Game Free Online',
-    metaDescription: 'Play Awesome Tanks 2 online free. Blast through levels, upgrade your tank, and destroy enemies in this top-down tank shooter. No download required.',
-    category: 'online-games',
-    tags: ['shooter', 'arcade'],
-    embedUrl: 'https://hushygames.github.io/games/awesometanks2/game.html',
-    noSandbox: true,
-    thumbnail: '/images/awesome-tanks-2.webp',
-    relatedSlugs: ['house-of-hazards', 'g-switch-3', 'tomb-of-the-mask'],
-    excerpt: 'Awesome Tanks 2 is a top-down tank shooter where you blast through maze-like levels, destroy enemy tanks, collect coins, and upgrade your arsenal with devastating weapons...',
-    content: `<p>Awesome Tanks 2 is an action-packed top-down tank combat game that puts you in command of a fully upgradeable war machine. Battle through dozens of levels filled with enemy tanks, turrets, and fortifications, collecting coins and power-ups to transform your tank into an unstoppable force. The combination of shooting action and deep upgrade mechanics creates a compelling loop of combat and progression.</p>
-<p>The upgrade system is where the game truly shines. Earned coins purchase new weapons including machine guns, lasers, flamethrowers, rockets, and rail guns. Each weapon handles differently and excels in specific situations. You can also upgrade your tank's armour, speed, and special abilities, creating a customised war machine that matches your preferred combat style.</p>
-<p>Level design grows increasingly complex as you advance. Early levels feature simple rooms with a few enemies, while later stages introduce maze-like layouts, destructible walls, hidden rooms, and boss encounters. Environmental hazards like mines and lava add another dimension to combat, requiring spatial awareness alongside aiming skill. Secrets hidden in breakable walls reward thorough exploration.</p>
-<p>Playing Awesome Tanks 2 online delivers satisfying destruction and meaningful progression in a polished package. Each level feels like a small combat puzzle where choosing the right weapon and approach matters as much as aim. The gradual transformation of your starter tank into a heavily armed and armoured behemoth is one of the most satisfying progression arcs in browser gaming.</p>
-<h2 class="wp-block-heading">How to Play Awesome Tanks 2 Online</h2>
-<p>Move your tank with WASD or arrow keys and aim with the mouse. Click to fire your currently equipped weapon. The twin-stick style controls give you independent movement and aiming, allowing strafing manoeuvres and shooting while retreating. Master circle-strafing to deal damage while avoiding enemy fire.</p>
-<p>Destroy all enemies in each level to unlock the exit. Some enemies are hidden behind destructible walls that you must blast through to reach. Clear each room methodically, watching for enemy projectiles and turret firing arcs. Rushing into rooms without checking for ambushes is the most common way to lose health unnecessarily.</p>
-<p>Spend coins in the upgrade shop between levels to improve your tank and weapons. Prioritise one weapon tree initially rather than spreading upgrades thin across many weapons. A fully upgraded machine gun or laser deals far more effective damage than several partially upgraded alternatives. Add armour upgrades when enemy damage starts overwhelming your health pool.</p>
-<p>Explore every corner of each level for hidden coin caches and bonus items. Destructible walls sometimes conceal rooms filled with coins that significantly boost your upgrade budget. The extra resources from thorough exploration compound over many levels, giving completionist players noticeably better equipment than those who rush through stages.</p>
-<!-- CONTENT END 1 -->`,
-  },
+
   {
     slug: 'taylor-swift-2048',
     datePublished: '2026-03-20T10:00:00+00:00',
@@ -12944,7 +12886,7 @@ export const games = [
     metaDescription: 'Play A Koopa\'s Revenge 2 online free. The sequel brings new power-ups, bigger worlds, and tougher bosses in this expanded fan-made Mario-inspired platformer.',
     category: 'online-games',
     tags: ['platformer', 'arcade'],
-    embedUrl: 'https://flashga.me/embed/a-koopa-s-revenge-2?toolbar=false&game=%7B%22id%22%3A62249%2C%22name%22%3A%22A+Koopa%27s+Revenge+2%22%2C%22slug%22%3A%22a-koopa-s-revenge-2%22%2C%22file%22%3A%22%5B%7B%5C%22download_link%5C%22%3A%5C%22games%5C%5C%5C%2FMay2023%5C%5C%5C%2Fa-koopa-s-revenge-2.swf%5C%22%2C%5C%22original_name%5C%22%3A%5C%22a-koopa-s-revenge-2.swf%5C%22%7D%5D%22%2C%22alt_file%22%3A%22https%3A%5C%2F%5C%2Fflashga.me%22%2C%22alt_game%22%3Anull%2C%22width%22%3A550%2C%22height%22%3A400%2C%22origin%22%3Anull%2C%22extension%22%3A%22SWF%22%2C%22flashversion%22%3Anull%2C%22image%22%3A%22games%5C%2FMay2023%5C%2FnIHuJqVeU3NvD8fnrKfR.jpg%22%2C%22playable%22%3A1%2C%22resizable%22%3A1%2C%22updatedAt%22%3Anull%2C%22avm%22%3A1%2C%22flashvars%22%3Anull%2C%22emulator%22%3A%22ruffle%22%2C%22orientation%22%3A%22landscape%22%2C%22embed_options%22%3A%22%7B%5C%22wmode%5C%22%3A%5C%22opaque%5C%22%2C+%5C%22allowNetworking%5C%22%3A+%5C%22internal%5C%22%2C+%5C%22allowScriptAccess%5C%22%3A+%5C%22no%5C%22%7D%22%2C%22name_mvkb%22%3A%22%7B%5Cr%5Cn%5C%22KeyA%5C%22%3A+%7B%5C%22name%5C%22%3A+%5C%22Attack%5C%22%2C+%5C%22class%5C%22%3A+%5C%22border%5C%22%2C+%5C%22title%5C%22%3A+%5C%22A%5C%22%7D%2C%5Cr%5Cn%5C%22KeyP%5C%22%3A+%7B%5C%22title%5C%22%3A+%5C%22Pause%5C%22%7D%2C%5Cr%5Cn%5C%22KeyF%5C%22%3A+%7B%5C%22title%5C%22%3A+%5C%22Item+box%5C%22%7D%2C%5Cr%5Cn%5C%22KeyS%5C%22%3A+%7B%5C%22title%5C%22%3A+%5C%22S%5C%22%2C+%5C%22class%5C%22%3A+%5C%22jumping%5C%22%7D%2C%5Cr%5Cn%5C%22rightRound%5C%22%3A+%7B%5Cr%5Cn++++++%5C%22KeyA%5C%22%3A%5B%5C%22ArrowDown%5C%22%2C+%5C%22ArrowUp%5C%22%2C+%5C%22KeyS%5C%22%2C+%5C%22KeyF%5C%22%2C+%5C%22KeyP%5C%22%5D%5Cr%5Cn+++++++++++++++++++++++++%7D%5Cr%5Cn%7D%22%2C%22style_mvkb%22%3Anull%2C%22left_mvkb%22%3A%22%5B%5C%22ARROWS%5C%22%5D%22%2C%22right_mvkb%22%3A%22%5B%5C%2238%5C%22%2C%5C%2240%5C%22%2C%5C%2265%5C%22%2C%5C%2270%5C%22%2C%5C%2280%5C%22%2C%5C%2283%5C%22%5D%22%2C%22category_slug%22%3A%22revenge%22%2C%22updated_at%22%3Anull%2C%22star_user%22%3A101%7D',
+    embedUrl: 'https://www.passclassroom.com/flashgame?load=a-koopas-revenge-2',
     thumbnail: '/images/a-koopas-revenge-2.webp',
     relatedSlugs: ['a-koopas-revenge', 'run-3', 'red-ball'],
     excerpt: 'A Koopa\'s Revenge 2 is the expanded sequel that builds on the original with new power-ups, larger worlds, multiple playable characters, and significantly more challenging level designs.',
@@ -13490,9 +13432,9 @@ export const games = [
   },
 {
     slug: 'bloons-td-5',
-    datePublished: '2026-06-11T10:00:00+00:00',
-    dateModified: '2026-06-11T10:00:00+00:00',
-    dateAdded: '2026-06-11',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
     title: 'Bloons TD 5 – Play the Tower Defense Game Free Online',
     metaDescription: 'Play Bloons TD 5 online free. Place monkey towers, pop bloons, and survive endless waves in the most popular tower defense game ever made.',
     category: 'online-games',
@@ -13514,9 +13456,9 @@ export const games = [
   },
 {
     slug: 'bloons-td-4',
-    datePublished: '2026-06-11T10:00:00+00:00',
-    dateModified: '2026-06-11T10:00:00+00:00',
-    dateAdded: '2026-06-11',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
     title: 'Bloons TD 4 – Play the Classic Tower Defense Game Free',
     metaDescription: 'Play Bloons TD 4 online free. Build monkey towers and pop bloons across dozens of maps in this beloved tower defense classic.',
     category: 'online-games',
@@ -13538,9 +13480,9 @@ export const games = [
   },
 {
     slug: 'learn-to-fly',
-    datePublished: '2026-06-11T10:00:00+00:00',
-    dateModified: '2026-06-11T10:00:00+00:00',
-    dateAdded: '2026-06-11',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
     title: 'Learn to Fly – Play the Penguin Launch Game Free Online',
     metaDescription: 'Play Learn to Fly online free. Help a determined penguin build a ramp, buy upgrades, and launch further each day to prove penguins can fly.',
     category: 'online-games',
@@ -13562,9 +13504,9 @@ export const games = [
   },
 {
     slug: 'learn-to-fly-2',
-    datePublished: '2026-06-11T10:00:00+00:00',
-    dateModified: '2026-06-11T10:00:00+00:00',
-    dateAdded: '2026-06-11',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
     title: 'Learn to Fly 2 – Play the Penguin Launch Sequel Free',
     metaDescription: 'Play Learn to Fly 2 online free. The penguin returns with more upgrades, new stages, and bonus game modes in this beloved launch game sequel.',
     category: 'online-games',
@@ -13586,9 +13528,9 @@ export const games = [
   },
 {
     slug: 'little-alchemy',
-    datePublished: '2026-06-11T10:00:00+00:00',
-    dateModified: '2026-06-11T10:00:00+00:00',
-    dateAdded: '2026-06-11',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
     title: 'Little Alchemy – Play the Element Combining Game Free',
     metaDescription: 'Play Little Alchemy online free. Start with four basic elements and combine them to discover over 500 items in this relaxing puzzle crafting game.',
     category: 'online-games',
@@ -13610,9 +13552,9 @@ export const games = [
   },
 {
     slug: 'super-hot',
-    datePublished: '2026-06-11T10:00:00+00:00',
-    dateModified: '2026-06-11T10:00:00+00:00',
-    dateAdded: '2026-06-11',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
     title: 'SUPERHOT – Play the Time-Bending Shooter Game Free',
     metaDescription: 'Play SUPERHOT online free. Time only moves when you move in this revolutionary FPS where strategy matters more than reflexes.',
     category: 'online-games',
@@ -13634,9 +13576,9 @@ export const games = [
   },
 {
     slug: 'celeste',
-    datePublished: '2026-06-11T10:00:00+00:00',
-    dateModified: '2026-06-11T10:00:00+00:00',
-    dateAdded: '2026-06-11',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
     title: 'Celeste – Play the Precision Platformer Game Free Online',
     metaDescription: 'Play Celeste online free. Scale Celeste Mountain in this challenging precision platformer with tight controls and a heartfelt story about perseverance.',
     category: 'online-games',
@@ -13658,9 +13600,9 @@ export const games = [
   },
 {
     slug: 'there-is-no-game',
-    datePublished: '2026-06-11T10:00:00+00:00',
-    dateModified: '2026-06-11T10:00:00+00:00',
-    dateAdded: '2026-06-11',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
     title: 'There Is No Game – Play the Anti-Game Puzzle Free Online',
     metaDescription: 'Play There Is No Game online free. A narrator insists there is no game to play — ignore him and click everything to discover the game hidden within.',
     category: 'online-games',
@@ -13682,9 +13624,9 @@ export const games = [
   },
 {
     slug: 'jetpack-joyride',
-    datePublished: '2026-06-11T10:00:00+00:00',
-    dateModified: '2026-06-11T10:00:00+00:00',
-    dateAdded: '2026-06-11',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
     title: 'Jetpack Joyride – Play the Endless Runner Game Free',
     metaDescription: 'Play Jetpack Joyride online free. Strap on a bullet-powered jetpack, dodge lasers and missiles, and collect coins in this classic endless runner.',
     category: 'online-games',
@@ -13706,9 +13648,9 @@ export const games = [
   },
 {
     slug: 'burrito-bison',
-    datePublished: '2026-06-11T10:00:00+00:00',
-    dateModified: '2026-06-11T10:00:00+00:00',
-    dateAdded: '2026-06-11',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
     title: 'Burrito Bison – Play the Wrestling Launch Game Free',
     metaDescription: 'Play Burrito Bison online free. Launch a luchador wrestler out of the ring and bounce off gummy bears to escape Candy Land in this addictive launch game.',
     category: 'online-games',
@@ -13730,9 +13672,9 @@ export const games = [
   },
 {
     slug: 'clicker-heroes',
-    datePublished: '2026-06-11T10:00:00+00:00',
-    dateModified: '2026-06-11T10:00:00+00:00',
-    dateAdded: '2026-06-11',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
     title: 'Clicker Heroes – Play the Idle RPG Clicker Game Free',
     metaDescription: 'Play Clicker Heroes online free. Click monsters, hire heroes, and progress through zones in this legendary idle RPG that plays itself while you are away.',
     category: 'online-games',
@@ -13754,9 +13696,9 @@ export const games = [
   },
 {
     slug: 'line-rider',
-    datePublished: '2026-06-11T10:00:00+00:00',
-    dateModified: '2026-06-11T10:00:00+00:00',
-    dateAdded: '2026-06-11',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
     title: 'Line Rider – Play the Drawing Physics Game Free Online',
     metaDescription: 'Play Line Rider online free. Draw lines to create tracks and watch a tiny sledder ride your creation using realistic physics in this classic sandbox game.',
     category: 'online-games',
@@ -13778,9 +13720,9 @@ export const games = [
   },
 {
     slug: 'gun-mayhem-2',
-    datePublished: '2026-06-11T10:00:00+00:00',
-    dateModified: '2026-06-11T10:00:00+00:00',
-    dateAdded: '2026-06-11',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
     title: 'Gun Mayhem 2 – Play the Platform Shooter Game Free',
     metaDescription: 'Play Gun Mayhem 2 online free. Blast opponents off platforms with an arsenal of weapons in this fast-paced multiplayer platform shooter.',
     category: 'online-games',
@@ -13802,9 +13744,9 @@ export const games = [
   },
 {
     slug: 'fleeing-the-complex',
-    datePublished: '2026-06-11T10:00:00+00:00',
-    dateModified: '2026-06-11T10:00:00+00:00',
-    dateAdded: '2026-06-11',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
     title: 'Fleeing the Complex – Play the Stickman Escape Game Free',
     metaDescription: 'Play Fleeing the Complex online free. Make choices to help Henry Stickmin escape a maximum-security prison in this hilarious interactive adventure.',
     category: 'online-games',
@@ -13826,9 +13768,9 @@ export const games = [
   },
 {
     slug: 'infiltrating-the-airship',
-    datePublished: '2026-06-11T10:00:00+00:00',
-    dateModified: '2026-06-11T10:00:00+00:00',
-    dateAdded: '2026-06-11',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
     title: 'Infiltrating the Airship – Play the Stickman Adventure Free',
     metaDescription: 'Play Infiltrating the Airship online free. Help Henry Stickmin sneak aboard an airship in this hilarious choose-your-own-adventure stickman game.',
     category: 'online-games',
@@ -13850,9 +13792,9 @@ export const games = [
   },
 {
     slug: 'stealing-the-diamond',
-    datePublished: '2026-06-11T10:00:00+00:00',
-    dateModified: '2026-06-11T10:00:00+00:00',
-    dateAdded: '2026-06-11',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
     title: 'Stealing the Diamond – Play the Stickman Heist Game Free',
     metaDescription: 'Play Stealing the Diamond online free. Help Henry Stickmin steal the Tunisian Diamond from a museum in this hilarious choose-your-own-adventure game.',
     category: 'online-games',
@@ -13874,9 +13816,9 @@ export const games = [
   },
 {
     slug: 'breaking-the-bank',
-    datePublished: '2026-06-11T10:00:00+00:00',
-    dateModified: '2026-06-11T10:00:00+00:00',
-    dateAdded: '2026-06-11',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
     title: 'Breaking the Bank – Play the Stickman Heist Game Free',
     metaDescription: 'Play Breaking the Bank online free. The original Henry Stickmin adventure where you try to break into a bank vault using hilariously creative methods.',
     category: 'online-games',
@@ -13898,9 +13840,9 @@ export const games = [
   },
 {
     slug: 'fancy-pants-adventures',
-    datePublished: '2026-06-11T10:00:00+00:00',
-    dateModified: '2026-06-11T10:00:00+00:00',
-    dateAdded: '2026-06-11',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
     title: 'Fancy Pants Adventures – Play the Stickman Platformer Free',
     metaDescription: 'Play Fancy Pants Adventures online free. Run, jump, and wall-slide through hand-drawn levels in this beloved stickman platformer with fluid animations.',
     category: 'online-games',
@@ -13922,9 +13864,9 @@ export const games = [
   },
 {
     slug: 'fancy-pants-adventures-2',
-    datePublished: '2026-06-11T10:00:00+00:00',
-    dateModified: '2026-06-11T10:00:00+00:00',
-    dateAdded: '2026-06-11',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
     title: 'Fancy Pants Adventures 2 – Play the Platformer Sequel Free',
     metaDescription: 'Play Fancy Pants Adventures 2 online free. More levels, smoother moves, and new abilities in the sequel to the beloved stickman platformer.',
     category: 'online-games',
@@ -13945,10 +13887,178 @@ export const games = [
 <!-- CONTENT END 1 -->`,
   },
 {
+    slug: 'armor-mayhem',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
+    title: 'Armor Mayhem – Play the Sci-Fi Shooter Free Online',
+    metaDescription: 'Play Armor Mayhem online free. Choose your armor suit, grab powerful weapons, and battle through sci-fi arenas in this fast-paced Flash shooter classic.',
+    category: 'online-games',
+    tags: ['shooter', 'arcade'],
+    embedUrl: 'https://kdata1.com/RS/game.php?r=//kdata1.com/2017/05/armor-mayhem-chronic.swf&w=800&h=500&warnsupport=true',
+    thumbnail: '/images/armor-mayhem.webp',
+    relatedSlugs: ['avalanche', 'avatar-fortress-fight', 'avatar-fortress-fight-2'],
+    excerpt: 'Armor Mayhem is a fast-paced sci-fi shooter where you equip customizable armor suits and battle enemies across futuristic arenas with an arsenal of powerful weapons.',
+    content: `<p>Armor Mayhem drops you into intense sci-fi combat where armored soldiers clash across futuristic battlegrounds. Choose from multiple armor types, each with unique stats affecting your speed, defense, and firepower. Grab weapons scattered across the map — from rapid-fire blasters to devastating rocket launchers — and fight to dominate the arena.</p>
+<p>The campaign mode sends you through a series of increasingly challenging missions against AI opponents. Each level introduces tougher enemies and more complex arenas, pushing you to master movement, weapon switching, and tactical positioning. Between missions you can upgrade your loadout, choosing the perfect combination of armor and weapons for your playstyle.</p>
+<p>Multiplayer-style battles pit you against multiple opponents in free-for-all combat. The arenas feature multi-level platforms, jump pads, and environmental hazards that add strategic depth beyond simple shooting. Controlling weapon spawn points and high-ground positions gives you a significant advantage over opponents.</p>
+<p>Playing Armor Mayhem online delivers classic arena shooter action directly in your browser. The responsive controls, satisfying weapon variety, and fast respawn times create an addictive combat loop that keeps you coming back. It is a beloved Flash-era shooter that holds up remarkably well thanks to tight gameplay design and exciting sci-fi aesthetics.</p>
+<h2 class="wp-block-heading">How to Play Armor Mayhem</h2>
+<p>Use WASD or arrow keys to move and jump through the arena. Your armor type affects your movement speed and jump height, so choose a loadout that matches whether you prefer agile flanking or heavy frontline combat.</p>
+<p>Click to shoot your current weapon at enemies. Different weapons have different fire rates, damage, and projectile speeds. Pick up new weapons from spawn points around the map and switch between them to adapt to different combat situations and ranges.</p>
+<p>Collect health packs and armor pickups scattered across the arena to stay alive during extended firefights. Map awareness is crucial — knowing where health spawns are located can mean the difference between surviving a close encounter and getting eliminated.</p>
+<p>Complete campaign missions to unlock new armor types and weapons. Experiment with different loadouts to find your ideal combination. Heavier armor absorbs more damage but moves slower, while lighter suits let you dodge and outmaneuver opponents at the cost of survivability.</p>
+<!-- CONTENT END 1 -->`,
+  },
+{
+    slug: 'avalanche',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
+    title: 'Avalanche – Play the Falling Blocks Survival Game Free',
+    metaDescription: 'Play Avalanche online free. Jump between rising falling blocks to climb as high as possible in this addictive arcade survival game. How high can you go?',
+    category: 'online-games',
+    tags: ['arcade', 'platformer'],
+    embedUrl: 'https://iframe.unblocked-76-games.org/avalanche-main/',
+    thumbnail: '/images/avalanche.webp',
+    relatedSlugs: ['armor-mayhem', 'avatar-arena', 'learn-to-fly'],
+    excerpt: 'Avalanche is an addictive arcade survival game where you jump between falling blocks to climb as high as possible while avoiding being crushed or falling off screen.',
+    content: `<p>Avalanche is a brilliantly simple survival game with one objective: climb as high as you can. Blocks of various sizes fall from above, and you must jump from block to block, riding them upward as the screen scrolls. Fall below the bottom of the screen or get crushed between blocks and it is game over.</p>
+<p>The genius of Avalanche lies in its escalating tension. Early blocks fall slowly and predictably, giving you time to position yourself carefully. But the pace increases rapidly — blocks fall faster, gaps become tighter, and you will find yourself making desperate leaps between tiny platforms while dodging incoming blocks from above.</p>
+<p>Each block behaves differently based on its size and the physics engine. Large blocks provide stable platforms but can crush you against other surfaces. Small blocks are harder to land on but create useful stepping stones. Learning to read the falling pattern and plan your route several jumps ahead is the key to reaching impressive heights.</p>
+<p>Playing Avalanche online is the perfect quick-play arcade experience. Each run takes only a few minutes but the desire to beat your high score makes it incredibly replayable. The simple one-button jumping mechanic is instantly accessible, while the physics-based block interactions create emergent challenges that keep every attempt feeling fresh.</p>
+<h2 class="wp-block-heading">How to Play Avalanche</h2>
+<p>Use the arrow keys or WASD to move left and right. Position yourself on falling blocks as they descend, then jump to higher blocks as they appear. Stay near the center of blocks for the safest footing — edges are risky and can cause you to slip off.</p>
+<p>Press the up arrow or W to jump. Timing your jumps is everything in Avalanche. Jump too early and you might miss the next block; jump too late and the rising screen will swallow you. Watch the shadows of incoming blocks to anticipate where safe landing spots will be.</p>
+<p>Avoid getting trapped between blocks. As blocks pile up, gaps can close quickly and crush your character. Always keep an escape route in mind and be ready to jump sideways if blocks start closing in around you. Staying mobile is safer than staying still.</p>
+<p>Focus on steady upward progress rather than risky big jumps. Consistent small hops between nearby blocks will take you higher than ambitious leaps that miss their target. The game rewards patience and careful movement, especially in the faster later stages where one mistake ends your run.</p>
+<!-- CONTENT END 1 -->`,
+  },
+{
+    slug: 'avatar-arena',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
+    title: 'Avatar Arena – Play the Bending Fighting Game Free Online',
+    metaDescription: 'Play Avatar Arena online free. Choose your bender and fight in element-based combat inspired by Avatar: The Last Airbender in this action-packed fighting game.',
+    category: 'online-games',
+    tags: ['arcade', 'strategy'],
+    embedUrl: '/roms/avatar-arena.swf',
+    thumbnail: '/images/avatar-arena.webp',
+    relatedSlugs: ['avatar-fortress-fight', 'avatar-fortress-fight-2', 'armor-mayhem'],
+    excerpt: 'Avatar Arena is an element-bending fighting game where you choose characters from the Avatar universe and battle opponents using water, earth, fire, and air bending.',
+    content: `<p>Avatar Arena brings the elemental combat of the Avatar universe to your browser in an exciting fighting game. Choose from a roster of benders — each wielding water, earth, fire, or air — and battle opponents in fast-paced arena combat. Every element has unique attacks, strengths, and weaknesses that create a rock-paper-scissors dynamic between fighters.</p>
+<p>Each character has a distinct moveset reflecting their bending style. Firebenders launch devastating ranged attacks, earthbenders create defensive barriers and powerful strikes, waterbenders flow between offense and healing, and airbenders use speed and evasion to outmaneuver opponents. Mastering your chosen element's strengths while exploiting enemy weaknesses is the path to victory.</p>
+<p>The arena battles escalate in difficulty as you progress through the game's stages. Early opponents test basic combat skills, but later enemies combine multiple techniques and require careful timing and strategy to defeat. Boss fights against powerful benders provide climactic challenges that test everything you have learned.</p>
+<p>Playing Avatar Arena online lets fans of the series experience elemental combat firsthand. The game captures the spirit of bending battles with satisfying attack animations, strategic depth, and a roster of beloved characters. Whether you prefer the aggressive power of fire or the fluid defense of water, there is a fighting style for everyone.</p>
+<h2 class="wp-block-heading">How to Play Avatar Arena</h2>
+<p>Use WASD or the arrow keys to move your character around the arena. Each bender has different movement speeds — airbenders are fastest while earthbenders are more grounded. Position yourself strategically to land attacks while avoiding enemy strikes.</p>
+<p>Use the attack keys to perform bending moves. Each character has basic attacks, special abilities, and ultimate moves that consume energy. Learn your character's full moveset to maximize damage output and create devastating combo chains.</p>
+<p>Block and dodge enemy attacks to preserve your health. Timing your blocks correctly can create openings for counterattacks. Different elements require different defensive strategies — fire attacks hit hard but are telegraphed, while water attacks are more unpredictable.</p>
+<p>Manage your energy bar carefully during fights. Special moves deal more damage but drain energy quickly. Balance between basic attacks to build energy and special moves to deal burst damage. Save your ultimate ability for critical moments when it can turn the tide of battle.</p>
+<!-- CONTENT END 1 -->`,
+  },
+{
+    slug: 'armedforces-io',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
+    title: 'ArmedForces.io – Play the Multiplayer FPS Shooter Free Online',
+    metaDescription: 'Play ArmedForces.io online free. Jump into intense 3D multiplayer FPS battles with great graphics, multiple weapons, and fast-paced combat action.',
+    category: 'online-games',
+    tags: ['shooter', 'io'],
+    embedUrl: 'https://maddox.games/db2/2021/unity3/armedforces-io/index.html?school=1',
+    thumbnail: '/images/armedforces-io.webp',
+    relatedSlugs: ['armor-mayhem', 'avatar-fortress-fight', '1v1-lol-unblocked'],
+    excerpt: 'ArmedForces.io is a fast-paced multiplayer FPS game with stunning 3D graphics, a complex weapon shop system, and intense online combat against players worldwide.',
+    content: `<p>ArmedForces.io drops you into intense multiplayer first-person shooter combat with impressive 3D graphics that run smoothly in your browser. Battle against other players on detailed maps, using an arsenal of weapons ranging from assault rifles and sniper rifles to shotguns and explosives. The game features smooth controls and responsive aiming that rival dedicated FPS games.</p>
+<p>The weapon shop system adds strategic depth to the combat. Earn credits through kills and objectives to purchase better weapons, attachments, and equipment. Choose between going for a powerful sniper rifle for long-range picks or an SMG for aggressive close-quarters combat. Your loadout choices significantly impact your effectiveness in different situations.</p>
+<p>Maps feature multiple levels, hiding spots, and tactical positions that reward players who learn the terrain. Use cover effectively, control chokepoints, and coordinate movements to dominate the battlefield. The fast respawn system keeps the action continuous — you are never waiting long to get back into the fight.</p>
+<p>Playing ArmedForces.io online delivers a full multiplayer FPS experience without any downloads. The game runs directly in your browser with WebGL-powered 3D graphics, making it accessible from any computer. Whether you are a seasoned FPS player or new to the genre, the intuitive controls and exciting combat make it easy to jump in and start competing.</p>
+<h2 class="wp-block-heading">How to Play ArmedForces.io</h2>
+<p>Use WASD keys to move your character around the map. Press Shift to sprint for faster movement when repositioning or rushing objectives. Use the spacebar to slide and C to crouch behind cover during firefights.</p>
+<p>Aim with the mouse and left-click to shoot. Each weapon has different recoil patterns, fire rates, and damage profiles. Learn to control recoil by making small mouse adjustments while firing to keep your shots accurate at longer ranges.</p>
+<p>Press 1, 2, or 3 to switch between your equipped weapons. Use E or F to interact with objects and pickups on the map. Press G to throw dynamite for area damage and H to use a medkit when your health is low.</p>
+<p>Press Tab to check the scoreboard and see how you rank against other players. Climb the leaderboard by getting kills, playing objectives, and staying alive. The more you play, the better you will understand map layouts and weapon strengths, giving you a competitive edge over other players.</p>
+<!-- CONTENT END 1 -->`,
+  },
+{
+    slug: 'animon',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
+    title: 'Animon – Play the Monster Collecting RPG Free Online',
+    metaDescription: 'Play Animon online free. Collect and battle anime-style monsters in this GBA RPG adventure with turn-based combat, evolution systems, and exploration.',
+    category: 'online-games',
+    tags: ['strategy', 'arcade'],
+    embedUrl: 'https://pokedoku.co/emulatorjs/gameframe/animon-pokemon-anime',
+    thumbnail: '/images/animon.webp',
+    relatedSlugs: ['avatar-arena', 'armor-mayhem', 'avatar-fortress-fight'],
+    excerpt: 'Animon is a monster-collecting RPG for Game Boy Advance where you capture, train, and battle anime-inspired creatures in turn-based combat across an adventure-filled world.',
+    content: `<p>Animon is a charming monster-collecting RPG that puts you in the role of a trainer exploring a world filled with capturable creatures. Each Animon has unique elemental types, abilities, and evolution paths that make building your team a strategic and rewarding experience. The pixel art style brings every creature to life with expressive animations and colorful designs.</p>
+<p>The turn-based battle system offers deep tactical choices. Each Animon can learn multiple moves of different types, and exploiting elemental weaknesses is key to victory. Build a balanced team that covers each other's weaknesses, and develop strategies for tough trainer battles and wild encounters alike.</p>
+<p>Exploration takes you through diverse environments — forests, caves, mountains, and cities — each home to different Animon species. Talk to NPCs to receive quests, discover hidden areas with rare creatures, and challenge rival trainers to test your team's strength. The world is full of secrets waiting to be uncovered.</p>
+<p>Playing Animon online through browser emulation lets you experience this beloved GBA RPG without any downloads. The game captures the magic of monster-collecting adventures with its engaging storyline, strategic battles, and the irresistible urge to catch every creature you encounter. Train your team, evolve your favorites, and become the ultimate Animon champion.</p>
+<h2 class="wp-block-heading">How to Play Animon</h2>
+<p>Use the arrow keys to move your character through the game world. Explore towns, routes, and dungeons to discover new Animon species and advance the story. Talk to every NPC you meet — many offer helpful items, tips, or side quests.</p>
+<p>Press Z or A to confirm actions and interact with objects. Press X or B to cancel or go back in menus. Navigate battle menus to select attacks, use items, switch Animon, or attempt to flee from wild encounters.</p>
+<p>During battles, choose moves strategically based on type matchups. Each Animon type has strengths and weaknesses against other types. Learning these matchups is essential for winning tougher battles later in the game.</p>
+<p>Capture wild Animon by weakening them in battle first, then using capture items. Lower their health and apply status effects to increase your catch rate. Build a diverse team with different types and abilities to handle any challenge the game throws at you.</p>
+<!-- CONTENT END 1 -->`,
+  },
+{
+    slug: 'archer-ragdoll-masters',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
+    title: 'Archer Ragdoll Masters – Play the Physics Archery Game Free',
+    metaDescription: 'Play Archer Ragdoll Masters online free. Aim and shoot ragdoll archers in this hilarious physics-based archery game with satisfying ragdoll destruction.',
+    category: 'online-games',
+    tags: ['arcade', 'shooter'],
+    embedUrl: 'https://ragdollhit.gg/games/ragdoll-archers/',
+    thumbnail: '/images/archer-ragdoll-masters.webp',
+    relatedSlugs: ['armor-mayhem', 'avatar-arena', 'avatar-fortress-fight'],
+    excerpt: 'Archer Ragdoll Masters is a hilarious physics-based archery game where you aim and shoot at ragdoll targets, creating satisfying chain reactions and spectacular ragdoll destruction.',
+    content: `<p>Archer Ragdoll Masters combines precision archery with hilarious ragdoll physics for an endlessly entertaining experience. Drag and aim your bow, release to fire, and watch as your arrows send ragdoll targets flying, tumbling, and flopping through elaborately designed levels. The exaggerated physics make every shot a spectacle.</p>
+<p>Each level presents a unique puzzle of targets and obstacles. Some targets hide behind barriers, requiring trick shots that bounce off walls or arc over obstacles. Others are perched on unstable structures that collapse dramatically when hit, creating chain reactions that send ragdolls tumbling in satisfyingly chaotic ways.</p>
+<p>The simple one-touch control scheme — drag to aim, release to shoot — makes the game instantly accessible, but mastering the physics takes real skill. Wind effects, gravity, and the unpredictable behavior of ragdoll bodies mean that no two shots play out exactly the same way, keeping the game fresh and surprising.</p>
+<p>Playing Archer Ragdoll Masters online delivers quick-hit entertainment perfect for short gaming sessions. The combination of satisfying archery mechanics, hilarious ragdoll physics, and clever level design creates an addictive loop of aiming, shooting, and laughing at the results. With dozens of levels to complete, there is always a new challenge waiting.</p>
+<h2 class="wp-block-heading">How to Play Archer Ragdoll Masters</h2>
+<p>Click and hold the left mouse button to aim your bow. Drag to adjust the angle and power of your shot. A trajectory guide helps you line up shots, but the ragdoll physics can create unexpected results that add to the fun.</p>
+<p>Release the mouse button to fire your arrow. Watch as it flies through the air and impacts your target. Direct hits send ragdolls flying, while near-misses can still cause environmental destruction that knocks targets around.</p>
+<p>Complete each level by hitting all required targets within the arrow limit. Some levels require hitting targets in a specific order, while others reward creative solutions that take out multiple targets with a single well-placed shot.</p>
+<p>Aim for headshots and trick shots to earn bonus points and achieve three-star ratings on each level. Experiment with different angles and power levels to find the most efficient and spectacular ways to clear each stage. The most satisfying solutions often involve chain reactions that clear the entire level in dramatic fashion.</p>
+<!-- CONTENT END 1 -->`,
+  },
+{
+    slug: 'attack-of-the-puppybots',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
+    title: 'Attack of the Puppybots – Play the Powerpuff Girls Game Free',
+    metaDescription: 'Play Attack of the Puppybots online free. Help the Powerpuff Girls defeat waves of puppy robots in this classic Cartoon Network action Flash game.',
+    category: 'online-games',
+    tags: ['arcade', 'platformer'],
+    embedUrl: '/roms/566-attack-of-the-puppy-bots.swf',
+    thumbnail: '/images/attack-of-the-puppybots.webp',
+    relatedSlugs: ['armor-mayhem', 'avatar-arena', 'avatar-fortress-fight'],
+    excerpt: 'Attack of the Puppybots is a classic Cartoon Network action game where the Powerpuff Girls must battle waves of robotic puppies using their unique superpowers.',
+    content: `<p>Attack of the Puppybots brings the Powerpuff Girls into an action-packed battle against an army of adorable but dangerous robot puppies. Choose from Blossom, Bubbles, or Buttercup, each with unique abilities and attack styles, and fight through waves of increasingly tough puppybot enemies across the city of Townsville.</p>
+<p>Each Powerpuff Girl plays differently, offering varied gameplay experiences. Blossom uses ice breath and strategic attacks, Bubbles brings sonic screams and agility, while Buttercup relies on raw power and aggressive combat. Switching between characters or replaying with different girls adds significant replay value.</p>
+<p>The puppybots come in various types — some charge directly at you, others attack from range, and boss puppybots require learning attack patterns to defeat. As waves progress, the enemies become faster, tougher, and appear in greater numbers, testing your reflexes and combat skills to the limit.</p>
+<p>Playing Attack of the Puppybots online through browser-based Flash emulation preserves this beloved Cartoon Network classic for modern players. The colorful animation style faithful to the TV show, responsive controls, and escalating challenge make it a joy to play whether you are a longtime Powerpuff Girls fan or discovering it for the first time.</p>
+<h2 class="wp-block-heading">How to Play Attack of the Puppybots</h2>
+<p>Use the arrow keys to move your chosen Powerpuff Girl around the screen. Navigate between enemies to avoid attacks while positioning yourself for effective counterstrikes. Each character has different movement speeds — factor this into your strategy.</p>
+<p>Press the attack key to punch, kick, and use special abilities against puppybot enemies. Time your attacks carefully, as some enemies have brief invulnerability periods after being hit. Combo attacks deal more damage and can clear groups of enemies quickly.</p>
+<p>Collect power-ups dropped by defeated enemies to restore health, boost your attack power, or gain temporary invincibility. Save powerful abilities for tougher enemy waves and boss encounters where you will need every advantage.</p>
+<p>Defeat all puppybots in each wave to advance to the next stage. Boss battles appear at regular intervals and require pattern recognition — observe the boss's attack sequences, dodge at the right moments, and strike during vulnerability windows to claim victory.</p>
+<!-- CONTENT END 1 -->`,
+  },
+{
     slug: 'hextris',
-    datePublished: '2026-06-11T10:00:00+00:00',
-    dateModified: '2026-06-11T10:00:00+00:00',
-    dateAdded: '2026-06-11',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
     title: 'Hextris – Play the Hexagonal Puzzle Game Free Online',
     metaDescription: 'Play Hextris online free. Rotate a hexagon to catch falling blocks and match colors in this fast-paced geometric twist on the classic Tetris formula.',
     category: 'online-games',
@@ -13966,6 +14076,342 @@ export const games = [
 <p>Match three or more blocks of the same color in a row to clear them from the hexagon. Cleared blocks earn you points and free up space on that side. Try to set up chain reactions by planning several moves ahead — clearing one group can cause blocks above to drop and form new matches.</p>
 <p>Keep all six sides of the hexagon as low as possible. If blocks stack too high on any single side, the game ends. This means you cannot focus on just one or two sides — you need to distribute your attention evenly across the entire hexagon to survive.</p>
 <p>As the game progresses, blocks fall faster and in more challenging patterns. Stay calm and focus on making clean matches rather than panicking. The best Hextris players develop a rhythm of rotation and matching that lets them handle even the fastest speeds. Practice builds the spatial awareness and quick decision-making needed to achieve truly impressive scores.</p>
+<!-- CONTENT END 1 -->`,
+  },
+{
+    slug: 'aqua-energizer',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
+    title: 'Aqua Energizer – Play the Classic Water Puzzle Game Free Online',
+    metaDescription: 'Play Aqua Energizer online for free. Guide water through pipes and puzzles in this classic Flash arcade game, now playable in your browser via emulation.',
+    category: 'online-games',
+    tags: ['puzzle', 'arcade', 'classic'],
+    embedUrl: 'https://www.play-games.com/iframe/39103.html',
+    thumbnail: '/images/aqua-energizer.webp',
+    relatedSlugs: ['avalanche', 'armor-mayhem', 'avatar-arena'],
+    excerpt: 'Aqua Energizer is a classic Flash puzzle-arcade game where you guide water through obstacles and collect energy to power up each level.',
+    content: `<p>Aqua Energizer is a charming Flash-era puzzle game that challenges you to direct water flow through a series of increasingly complex levels. Each stage presents a maze of pipes, gates, and obstacles, and you must figure out the correct path to move water from source to destination while collecting energy orbs along the way.</p>
+<p>The core gameplay loop is simple but addictive — click and interact with level elements to open pathways, redirect flow, and avoid hazards. Early levels ease you in with straightforward puzzles, but the difficulty ramps up steadily as new mechanics are introduced: timed gates, branching pipes, and obstacles that require precise timing to navigate.</p>
+<p>The colorful, cartoon-style visuals give the game a lighthearted feel that belies the genuine challenge of later stages. Water physics add a satisfying element as liquid rushes through the paths you create, rewarding clever solutions with smooth, cascading flows.</p>
+<p>Now preserved and playable in your browser through Flash emulation, Aqua Energizer is a nostalgic trip back to the golden age of web-based puzzle games. Whether you played it years ago or are discovering it for the first time, its clever level design and satisfying mechanics hold up remarkably well.</p>
+<h2 class="wp-block-heading">How to Play Aqua Energizer Online</h2>
+<p>Use your mouse to interact with the puzzle elements on each level. Click on gates, valves, and switches to redirect the flow of water toward the goal. Collect all energy orbs in the level for a perfect score.</p>
+<p>Plan your route before activating any switches — some gates are one-way or timed, so acting hastily can leave you stuck. Observe the entire level layout first, identify the critical junctions, and work out the sequence of actions needed.</p>
+<p>Later levels introduce multiple water sources and destinations, requiring you to manage several flows simultaneously. Patience and careful observation are your best tools for mastering the trickier puzzles.</p>
+<p>On levels with timed gates, count the rhythm before acting. Most timed elements follow a consistent pattern — open for three seconds, closed for two — and knowing the cycle lets you plan your moves precisely rather than guessing and restarting.</p>
+<!-- CONTENT END 1 -->`,
+  },
+{
+    slug: 'awesome-pirates',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
+    title: 'Awesome Pirates – Play the Cannon Defense Game Free Online',
+    metaDescription: 'Play Awesome Pirates online for free. Defend your pirate ship with cannons, upgrade your arsenal, and blast enemy ships in this action-packed Flash classic.',
+    category: 'online-games',
+    tags: ['action', 'shooting', 'strategy'],
+    embedUrl: 'https://maddox.games/db2/2024/flash/awesome-pirates/index.html?school=1',
+    thumbnail: '/images/awesome-pirates.webp',
+    relatedSlugs: ['awesome-planes', 'awesome-tanks-2', 'armor-mayhem'],
+    excerpt: 'Awesome Pirates is an action-packed cannon defense game where you protect your pirate ship from waves of attacking enemies.',
+    content: `<p>Awesome Pirates puts you in command of a pirate vessel under siege. Enemy ships approach from both sides, and your job is to blast them out of the water with your trusty cannons before they can sink you. Each wave brings tougher enemies — larger ships, faster boats, and armoured vessels that take multiple hits to destroy.</p>
+<p>Between waves you can spend your plundered gold on upgrades: more powerful cannons, faster reload times, additional gun emplacements, and special abilities like explosive cannonballs and chain shot. The upgrade tree is deep enough to encourage different strategies — you can focus on raw firepower, rate of fire, or defensive repairs.</p>
+<p>The cartoon pirate aesthetic gives the game a playful tone, with exaggerated explosions and satisfying sound effects every time a cannonball finds its mark. Despite the lighthearted presentation, the later waves demand genuine skill and smart resource management to survive.</p>
+<p>Awesome Pirates delivers that perfect arcade loop of shoot, earn, upgrade, repeat. Each session gets a little further as your ship grows more powerful, making it incredibly hard to put down.</p>
+<h2 class="wp-block-heading">How to Play Awesome Pirates</h2>
+<p>Aim your cannons with the mouse and click to fire. Adjust your angle and timing to hit moving ships at different distances. Keep an eye on both sides of the screen as enemies can approach from either direction.</p>
+<p>Collect gold from destroyed ships and spend it in the upgrade shop between waves. Prioritize upgrades that suit your play style — whether that is maximum damage, rapid fire, or keeping your ship repaired.</p>
+<p>Keep your ship repaired between waves — a sinking ship ends the game regardless of how many enemies remain. The repair upgrade becomes increasingly valuable in later waves when damage comes from multiple directions simultaneously.</p>
+<p>Learn to lead your shots on faster-moving ships. Cannonballs take time to travel, so you need to aim ahead of where a ship is heading rather than where it currently sits. This becomes second nature with practice and is essential for hitting the speedy scout ships that appear from wave 10 onwards.</p>
+<!-- CONTENT END 1 -->`,
+  },
+{
+    slug: 'awesome-planes',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
+    title: 'Awesome Planes – Play the Side-Scrolling Shooter Free Online',
+    metaDescription: 'Play Awesome Planes online for free. Fly through enemy territory, shoot down planes, and upgrade your aircraft in this thrilling side-scrolling Flash shooter.',
+    category: 'online-games',
+    tags: ['action', 'shooting', 'arcade'],
+    embedUrl: 'https://passclassroom.com/flashgame?load=awesome-planes',
+    thumbnail: '/images/awesome-planes.webp',
+    relatedSlugs: ['awesome-pirates', 'awesome-tanks-2', 'armor-mayhem'],
+    excerpt: 'Awesome Planes is a side-scrolling aerial shooter where you fly through enemy territory, dogfight rival planes, and upgrade your aircraft.',
+    content: `<p>Awesome Planes sends you soaring into intense side-scrolling aerial combat. Pilot your plane through increasingly dangerous skies filled with enemy fighters, ground defences, and massive boss aircraft. Your reflexes and shooting accuracy determine whether you make it through each mission alive.</p>
+<p>The upgrade system is where the game truly shines. Earn money from successful missions and invest it in a huge range of improvements: new weapons like machine guns, rockets, and lasers; armour plating and shields; engine upgrades for better speed and manoeuvrability. You can even buy entirely new aircraft as you progress.</p>
+<p>Each mission introduces new enemy types and formation patterns that keep the combat feeling fresh. Early levels feature simple single-engine fighters, but you will soon face heavily armoured bombers, nimble aces, and screen-filling bosses with devastating attack patterns.</p>
+<p>The smooth controls and satisfying weapon effects make every dogfight a thrill. Awesome Planes perfectly balances the excitement of arcade shooting with the depth of a progression system that keeps you invested mission after mission.</p>
+<h2 class="wp-block-heading">How to Play Awesome Planes</h2>
+<p>Move your plane with the mouse — it follows your cursor position. Click or hold the mouse button to fire your weapons. Dodge enemy bullets by weaving through gaps in their fire patterns.</p>
+<p>After each mission, visit the shop to upgrade your plane. Try different weapon combinations to find what works best against each enemy type. Balance offence and defence for the toughest later missions.</p>
+<p>Keep moving constantly — a stationary plane is an easy target. Weave between enemy bullets while maintaining steady fire on your targets. The best pilots develop a rhythm of dodging and shooting that keeps them alive through the toughest missions.</p>
+<p>Prioritize taking out enemy aces and bombers before they can unload their payloads. Aces are fast and aggressive, while bombers deal devastating area damage if left unchecked. Clear the biggest threats first, then mop up the smaller fighters at your leisure.</p>
+<!-- CONTENT END 1 -->`,
+  },
+{
+    slug: 'awesome-tanks-2',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
+    title: 'Awesome Tanks 2 – Play the Tank Shooter Game Free Online',
+    metaDescription: 'Play Awesome Tanks 2 online for free. Drive your tank through maze-like arenas, destroy enemies, and upgrade weapons in this top-down shooter classic.',
+    category: 'online-games',
+    tags: ['action', 'shooting', 'strategy'],
+    embedUrl: 'https://www.passclassroom.com/awesome-tanks-2',
+    thumbnail: '/images/awesome-tanks-2.webp',
+    relatedSlugs: ['awesome-tanks-3', 'awesome-planes', 'awesome-pirates'],
+    excerpt: 'Awesome Tanks 2 is a top-down tank shooter where you battle through maze-like arenas and upgrade your war machine.',
+    content: `<p>Awesome Tanks 2 drops you into a top-down arena where your tank must blast its way through rooms filled with enemy tanks, turrets, and obstacles. Navigate tight corridors, peek around corners, and line up devastating shots while avoiding incoming fire from all directions.</p>
+<p>The variety of weapons is staggering — machine guns, shotguns, flamethrowers, laser beams, rockets, and more can all be mounted on your tank. Each weapon has distinct strengths, and finding the right loadout for each level is part of the fun. You can even equip mines and shields for extra tactical options.</p>
+<p>Gold collected from destroyed enemies and hidden stashes funds your upgrades between levels. Improve your tank's speed, armour, and weapon damage, or save up for entirely new weapon systems. The progression is deeply satisfying, turning your humble starter tank into an unstoppable war machine.</p>
+<p>Level design keeps things interesting with destructible walls, hidden passages, and clever enemy placements that reward exploration and strategic thinking. Awesome Tanks 2 is one of the best top-down shooters available in a browser — simple to learn but endlessly engaging.</p>
+<h2 class="wp-block-heading">How to Play Awesome Tanks 2</h2>
+<p>Use WASD or arrow keys to drive your tank. Aim with the mouse and click to fire. Navigate each arena, destroy all enemy tanks, and collect gold before moving to the next level.</p>
+<p>Visit the shop between levels to buy new weapons and upgrade your tank. Experiment with different weapon combinations to find what works best for your play style.</p>
+<p>Focus your upgrade budget on one or two weapon trees early on rather than spreading coins across everything. A fully upgraded flamethrower or laser deals far more damage than several half-upgraded alternatives. Add armour and speed boosts once your main weapon feels powerful enough.</p>
+<p>Shoot through destructible walls to uncover hidden rooms packed with bonus gold. Many levels have secret stashes tucked behind breakable sections, and the extra coins compound quickly over multiple stages, giving thorough players a real equipment advantage.</p>
+<!-- CONTENT END 1 -->`,
+  },
+{
+    slug: 'axis-football-league',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
+    title: 'Axis Football League – Play the American Football Game Free Online',
+    metaDescription: 'Play Axis Football League online for free. Call plays, run the offence, and lead your team to victory in this classic browser-based American football game.',
+    category: 'online-games',
+    tags: ['sports', 'strategy', 'classic'],
+    embedUrl: 'https://ubg89.github.io/AxisFootballLeague/',
+    thumbnail: '/images/axis-football-league.webp',
+    relatedSlugs: ['awesome-tanks-2', 'awesome-planes', 'armor-mayhem'],
+    excerpt: 'Axis Football League is a browser-based American football game where you call plays and lead your team to championship glory.',
+    content: `<p>Axis Football League brings full American football action to your browser. Choose your team, call offensive and defensive plays, and compete through a complete season of games. The play-calling system gives you real strategic depth — pick from a variety of running and passing plays to outmanoeuvre your opponent.</p>
+<p>On offence, you control the quarterback after the snap. Read the defence, decide whether to pass or hand off, and execute your chosen play. Passing requires timing and accuracy — lead your receivers and thread the ball through defensive coverage. Running plays demand quick cuts and smart use of blockers.</p>
+<p>The defensive AI adapts to your tendencies, so you cannot rely on the same plays over and over. Mix up your approach, use play-action fakes, and keep the defence guessing to move the chains consistently.</p>
+<p>With season mode, playoffs, and a championship to win, Axis Football League offers a surprisingly complete football experience for a browser game. It captures the strategic essence of the sport while keeping the controls accessible and the action fast-paced.</p>
+<h2 class="wp-block-heading">How to Play Axis Football League</h2>
+<p>Select your play from the playbook before each snap. After the snap, use the mouse or keyboard to control your player. On offence, click on a receiver to throw the ball. On running plays, use arrow keys to dodge defenders.</p>
+<p>On defence, position yourself to make tackles or intercept passes. Learn the opponent's tendencies and adjust your play-calling accordingly to dominate both sides of the ball.</p>
+<p>Pay attention to the play clock and game clock management, especially in the fourth quarter. Running plays eat more clock time, which can be useful when protecting a lead. When trailing, stick to passing plays to preserve time and move the ball downfield quickly.</p>
+<p>Mix up your play-calling to keep the AI guessing. If you run the ball three times in a row, the defence will start stacking the box. Throw in a play-action pass to catch them off guard and open up big gains down the field.</p>
+<!-- CONTENT END 1 -->`,
+  },
+{
+    slug: 'az-tank-trouble',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
+    title: 'Az Tank Trouble – Play the Multiplayer Tank Game Free Online',
+    metaDescription: 'Play Az Tank Trouble online for free. Battle friends in maze arenas, bounce shots off walls, and be the last tank standing in this classic multiplayer game.',
+    category: 'online-games',
+    tags: ['action', 'multiplayer', 'arcade'],
+    embedUrl: 'https://www.passclassroom.com/az-tank-trouble',
+    thumbnail: '/images/az-tank-trouble.webp',
+    relatedSlugs: ['awesome-tanks-2', 'awesome-tanks-3'],
+    excerpt: 'Az Tank Trouble is a multiplayer tank battle game where you navigate mazes and bounce shots off walls to destroy your opponents.',
+    content: `<p>Az Tank Trouble is the ultimate local multiplayer tank battle game. Navigate your tiny tank through a maze of walls and fire bullets that ricochet off surfaces. The bouncing projectiles create chaotic, unpredictable combat where a poorly aimed shot can circle back and destroy the tank that fired it.</p>
+<p>The genius of Tank Trouble lies in its simplicity. The mazes are compact, the controls are basic, and every round lasts just seconds — but the ricocheting bullets add a layer of physics-based strategy that keeps every match thrilling. You must think several bounces ahead, using the walls to reach opponents hiding around corners.</p>
+<p>Up to three players can compete on a single keyboard, making it a perfect game for playing with friends. The cramped arenas mean encounters are frequent and intense, with matches often decided by a single well-placed ricochet shot.</p>
+<p>Power-ups appear randomly in the maze, granting weapons like rockets, machine guns, and devastating laser beams. Grabbing these game-changers before your opponents can turn the tide of battle instantly.</p>
+<h2 class="wp-block-heading">How to Play Az Tank Trouble</h2>
+<p>Player 1 uses WASD to move and Q to shoot. Player 2 uses arrow keys and M to shoot. Navigate the maze, line up your shots, and use wall bounces to hit opponents around corners.</p>
+<p>Collect power-up crates that appear in the maze for special weapons. Avoid your own ricocheting bullets — they can destroy you just as easily as your enemies.</p>
+<p>In tight corridors, fire a shot and then quickly reverse to let the ricochet do the work. Many players make the mistake of chasing their own bullets through narrow passages, only to run into their own ricocheting projectiles. Let the physics work for you instead.</p>
+<p>When playing against three players, focus on staying out of crossfire rather than being the most aggressive shooter. The player who survives longest often wins — not the one who fires the most. Use walls as cover and wait for opponents to eliminate each other before making your move.</p>
+<!-- CONTENT END 1 -->`,
+  },
+{
+    slug: 'backflip-adventure',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
+    title: 'Backflip Adventure – Play the Acrobatic Stunt Game Free Online',
+    metaDescription: 'Play Backflip Adventure online for free. Perform daring backflips and stunts across challenging levels in this physics-based acrobatics game.',
+    category: 'online-games',
+    tags: ['arcade', 'sports', 'physics'],
+    embedUrl: 'https://www.passclassroom.com/html5game?load=backflip-adventure',
+    thumbnail: '/images/backflip-adventure.webp',
+    relatedSlugs: ['awesome-planes', 'awesome-tanks-2'],
+    excerpt: 'Backflip Adventure is a physics-based stunt game where you perform daring backflips and acrobatic tricks across challenging levels.',
+    content: `<p>Backflip Adventure challenges you to master the art of the backflip across a series of increasingly difficult environments. From rooftops to trampolines to cliff edges, each level presents a unique launching point and landing zone. Your job is to nail the rotation and stick the landing perfectly.</p>
+<p>The physics engine makes every flip feel weighty and realistic. Launch too weakly and you will under-rotate, landing on your head. Jump too hard and you will over-rotate past the landing zone. Finding the sweet spot is immensely satisfying when everything clicks.</p>
+<p>As you progress, levels introduce obstacles, moving platforms, and multi-flip challenges that demand precision timing. Some levels require chaining multiple flips in sequence, testing both your nerve and your understanding of the game's physics.</p>
+<p>The ragdoll failure animations are entertainingly brutal, making even failed attempts amusing. But the real joy comes from perfectly executing a triple backflip off a skyscraper and sticking the landing below.</p>
+<h2 class="wp-block-heading">How to Play Backflip Adventure</h2>
+<p>Click and hold to build up jump power, then release to launch. While airborne, click or hold to control your rotation speed. Release at the right moment to land on your feet.</p>
+<p>Watch the power meter carefully — too little power means you won't clear the gap, too much sends you flying past the target. Practice the timing on early levels before tackling the more demanding stunts.</p>
+<p>On levels with moving platforms, watch the platform's full cycle before attempting your jump. Rushing in without understanding the timing leads to missed landings and wasted attempts. Patience in observation translates directly to success in execution.</p>
+<p>For multi-flip challenges, focus on maintaining a consistent rotation speed rather than trying to speed up mid-air. Smooth, steady rotations are far easier to control than frantic spinning, and they make it much simpler to judge when to stop rotating for the landing.</p>
+<!-- CONTENT END 1 -->`,
+  },
+{
+    slug: 'backrooms',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
+    title: 'Backrooms – Play the Horror Exploration Game Free Online',
+    metaDescription: 'Play Backrooms online for free. Navigate the unsettling endless maze of yellow rooms, avoid entities, and try to find an exit in this creepypasta horror game.',
+    category: 'online-games',
+    tags: ['horror', 'adventure', 'exploration'],
+    embedUrl: 'https://ubg76.gitlab.io/backrooms/',
+    thumbnail: '/images/backrooms.webp',
+    relatedSlugs: ['back-to-grannys-house', 'back-to-grannys-house-2', 'bad-parenting-mr-red-face'],
+    excerpt: 'Backrooms is a horror exploration game where you navigate an infinite maze of unsettling yellow rooms while avoiding mysterious entities.',
+    content: `<p>Backrooms drops you into the internet's most famous creepypasta setting — an infinite labyrinth of identical yellowish rooms with buzzing fluorescent lights, damp carpet, and the overwhelming feeling that something is very, very wrong. Your only goal: find a way out, if one even exists.</p>
+<p>The horror comes not from jump scares but from atmosphere. The endless, monotonous hallways create a suffocating sense of isolation. Every room looks the same, making navigation nearly impossible. The constant hum of fluorescent lights and the occasional distant sound of movement keep you permanently on edge.</p>
+<p>Entities lurk in the deeper levels of the Backrooms. These mysterious beings patrol the corridors, and encountering one usually means starting over. Learning their patterns and knowing when to run, hide, or freeze is essential for survival.</p>
+<p>The game captures the essence of the Backrooms mythos perfectly — that primal fear of being lost in an infinite, empty space where the normal rules of reality no longer apply. It is a uniquely unsettling experience that lingers long after you stop playing.</p>
+<h2 class="wp-block-heading">How to Play Backrooms</h2>
+<p>Use WASD to move through the rooms. Move your mouse to look around. Explore the corridors and try to find an exit or a way to progress to different levels of the Backrooms.</p>
+<p>Listen carefully for audio cues that indicate nearby entities. If you hear something approaching, find a hiding spot or change direction immediately. Keep moving and try to map the layout mentally to avoid going in circles.</p>
+<p>Create mental landmarks to avoid walking in circles — note distinctive wall patterns, corner angles, or slight colour variations between rooms. The Backrooms are designed to disorient you, so developing your own navigation system is essential for making progress.</p>
+<p>When you hear an entity nearby, stop moving immediately and listen. Sound direction is your most reliable indicator of where threats are. If the sound grows louder, change direction. If it fades, you are moving away safely. Running blindly in panic almost always leads you straight into danger.</p>
+<!-- CONTENT END 1 -->`,
+  },
+{
+    slug: 'bad-ice-cream',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
+    title: 'Bad Ice Cream – Play the Ice Cream Maze Game Free Online',
+    metaDescription: 'Play Bad Ice Cream online for free. Navigate mazes as an ice cream character, collect fruit, and build ice walls to outsmart enemies in this classic Flash game.',
+    category: 'online-games',
+    tags: ['puzzle', 'arcade', 'multiplayer'],
+    embedUrl: 'https://www.passclassroom.com/bad-ice-cream',
+    thumbnail: '/images/bad-ice-cream.webp',
+    relatedSlugs: ['bad-ice-cream-2', 'bad-egg', 'bacon-the-game'],
+    excerpt: 'Bad Ice Cream is a maze game where you play as an ice cream character, collect all the fruit, and use ice walls to outsmart enemies.',
+    content: `<p>Bad Ice Cream is a beloved Flash-era maze game that puts you in control of an adorable ice cream character on a mission to collect every piece of fruit in the level. The twist: you can create and destroy ice blocks to reshape the maze, building walls to block enemies and carve paths to reach distant fruit.</p>
+<p>Each level is a self-contained puzzle filled with different enemy types, each with their own movement patterns. Some chase you directly, others patrol fixed routes, and a few can break through your ice walls. Learning each enemy's behaviour is key to devising your collection strategy.</p>
+<p>The ice manipulation mechanic sets Bad Ice Cream apart from other maze games. Building a wall at just the right moment can save your life, while breaking one at the wrong time can let enemies flood into your safe zone. This dynamic element turns every level into a real-time puzzle.</p>
+<p>Two-player co-op on a single keyboard adds even more fun. Work together to collect fruit faster, trap enemies between your combined ice walls, or accidentally block each other into corners — cooperative chaos at its finest.</p>
+<h2 class="wp-block-heading">How to Play Bad Ice Cream</h2>
+<p>Use arrow keys to move your ice cream character. Press the spacebar to create or break ice blocks in the direction you are facing. Collect all fruit in the level to advance.</p>
+<p>Player 2 uses WASD to move and Q to use ice powers. Coordinate with your partner to trap enemies and collect fruit efficiently. Avoid all enemies — one touch and you lose a life.</p>
+<p>On levels with multiple enemy types, prioritise avoiding the faster enemies and use ice walls to funnel slower ones into dead ends. Creating long ice corridors effectively removes slow-moving enemies from the equation while you collect fruit freely.</p>
+<p>In two-player mode, assign each player to different sections of the maze for maximum efficiency. One player can create ice walls to contain enemies while the other collects fruit. Communication and coordination turn difficult levels into manageable teamwork exercises.</p>
+<!-- CONTENT END 1 -->`,
+  },
+{
+    slug: 'bad-ice-cream-2',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
+    title: 'Bad Ice Cream 2 – Play the Ice Cream Maze Sequel Free Online',
+    metaDescription: 'Play Bad Ice Cream 2 online for free. More levels, new enemies, and new ice cream flavours await in this sequel to the classic maze-puzzle game.',
+    category: 'online-games',
+    tags: ['puzzle', 'arcade', 'multiplayer'],
+    embedUrl: 'https://rycellgames.github.io/raw/games/badicecream2/index.html',
+    thumbnail: '/images/bad-ice-cream-2.webp',
+    relatedSlugs: ['bad-ice-cream', 'bad-egg'],
+    excerpt: 'Bad Ice Cream 2 returns with new levels, enemies, and ice cream flavours in this sequel to the classic maze-puzzle game.',
+    content: `<p>Bad Ice Cream 2 scoops up everything great about the original and adds a generous helping of new content. New ice cream flavours each come with unique abilities — some can break through special barriers, others have faster movement speed, and a few have enhanced ice-building powers.</p>
+<p>The new levels introduce clever puzzle elements that require more strategic thinking. Multi-layered mazes, teleporters, and environmental hazards like lava tiles and moving platforms add complexity beyond simple fruit collection and enemy avoidance.</p>
+<p>New enemy types are smarter and more dangerous than before. Some can phase through ice walls, others create their own barriers, and boss-like enemies require specific strategies to avoid. The difficulty curve ramps up significantly from the original.</p>
+<p>Two-player co-op returns and is more important than ever, as some levels are designed specifically around teamwork. Certain fruit can only be reached through coordinated ice building, making communication and cooperation essential.</p>
+<h2 class="wp-block-heading">How to Play Bad Ice Cream 2</h2>
+<p>Controls are the same as the original: arrow keys to move, spacebar to create or break ice. Choose your ice cream flavour at the start of each level — each has different abilities.</p>
+<p>Player 2 uses WASD and Q. Some levels require both players to reach different areas simultaneously, so plan your routes before rushing in.</p>
+<p>Experiment with every ice cream flavour available — some flavours have abilities that trivialise certain level layouts. A flavour with faster ice creation can lock down an entire section before enemies even reach you, while speed-focused flavours let you grab distant fruit before threats close in.</p>
+<p>On levels with teleporters, use them to your advantage by luring enemies toward one portal while you escape through another. Teleporters can also be blocked with ice walls on one end, creating one-way escape routes that leave enemies stranded on the wrong side of the maze.</p>
+<!-- CONTENT END 1 -->`,
+  },
+{
+    slug: 'bad-parenting-mr-red-face',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
+    title: 'Bad Parenting Mr Red Face – Play the Horror Story Game Free Online',
+    metaDescription: 'Play Bad Parenting Mr Red Face online for free. Experience a chilling narrative horror game about a child facing a terrifying bedtime story come to life.',
+    category: 'online-games',
+    tags: ['horror', 'adventure', 'story'],
+    embedUrl: 'https://play.unity.com/api/v1/struckd/app?game=bad-parings-struckd-version&unity=unity',
+    thumbnail: '/images/bad-parenting-mr-red-face.webp',
+    relatedSlugs: ['backrooms', 'back-to-grannys-house', 'back-to-grannys-house-2'],
+    excerpt: 'Bad Parenting Mr Red Face is a narrative horror game about a child whose bedtime story about Mr Red Face becomes terrifyingly real.',
+    content: `<p>Bad Parenting Mr Red Face tells the unsettling story of a child whose father reads them a bedtime story about the mysterious Mr Red Face — a figure who visits naughty children at night. What starts as a simple cautionary tale quickly takes a dark turn as the line between story and reality begins to blur.</p>
+<p>The game unfolds through exploration and dialogue, with you controlling the child as they navigate their home after dark. Every shadow seems threatening, every creak could be footsteps, and the growing dread builds masterfully through environmental storytelling and clever audio design.</p>
+<p>The pixel art aesthetic gives the game a retro feel that contrasts effectively with its genuinely disturbing atmosphere. The limited visual detail forces your imagination to fill in the gaps, making the horror more personal and more effective than any high-resolution graphics could achieve.</p>
+<p>Bad Parenting is a short but impactful horror experience that explores themes of childhood fear and parental influence. The story lingers in your mind long after the credits roll, and the final revelation reframes everything you thought you understood.</p>
+<h2 class="wp-block-heading">How to Play Bad Parenting Mr Red Face</h2>
+<p>Use arrow keys or WASD to move your character through the house. Interact with objects and people by pressing the action key when prompted. Follow the story and make choices when presented.</p>
+<p>Pay attention to environmental details and dialogue — they contain clues about what is really happening. Explore every room thoroughly for the full experience.</p>
+<p>Check drawers, shelves, and objects that seem out of place — many contain notes and items that flesh out the story. The game rewards thorough exploration with additional context that makes the horror more meaningful and the ending more impactful.</p>
+<p>The game has multiple endings depending on your actions and choices during key moments. If you have finished it once, replay with different decisions to uncover the full story. Some endings completely recontextualise the events you witnessed in earlier playthroughs.</p>
+<!-- CONTENT END 1 -->`,
+  },
+{
+    slug: 'bad-piggies',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
+    title: 'Bad Piggies – Play the Vehicle Building Puzzle Game Free Online',
+    metaDescription: 'Play Bad Piggies online for free. Build crazy vehicles from spare parts and guide the pigs to the finish line in this physics puzzle game from the Angry Birds universe.',
+    category: 'online-games',
+    tags: ['puzzle', 'physics', 'building'],
+    embedUrl: 'https://html-classic.itch.zone/html/15766060-1469116/index.html',
+    thumbnail: '/images/bad-piggies.webp',
+    relatedSlugs: ['bad-ice-cream', 'bad-egg', 'bacon-the-game'],
+    excerpt: 'Bad Piggies is a physics puzzle game where you build vehicles from spare parts to help the pigs reach the finish line.',
+    content: `<p>Bad Piggies flips the Angry Birds formula on its head — this time you play as the pigs! Instead of launching birds, you build vehicles and contraptions from a collection of spare parts: wooden crates, wheels, engines, fans, umbrellas, and more. The goal is to get your pig from start to finish in one piece.</p>
+<p>Each level provides a grid where you place your parts, then press go and watch your creation attempt the course. The physics engine is wonderfully realistic, meaning your vehicle needs to be structurally sound as well as functional. Poorly balanced builds tip over, overloaded engines explode, and top-heavy designs crash spectacularly.</p>
+<p>Star objectives add replay value — beyond simply finishing, you can aim for speed records, collecting star boxes along the route, and completing levels without using certain parts. These challenges encourage creative and unconventional vehicle designs.</p>
+<p>The joy of Bad Piggies is in the experimentation. There is rarely one correct solution — instead, you are free to build whatever wild contraption you can imagine and see if it works. The most improbable-looking vehicles often produce the most entertaining results.</p>
+<h2 class="wp-block-heading">How to Play Bad Piggies</h2>
+<p>Place parts on the building grid by clicking and dragging. Wheels go on the bottom, engines provide propulsion, and your pig must be included somewhere in the build. Press the play button to test your vehicle on the course.</p>
+<p>If your vehicle fails, return to the build screen and adjust. Try different part combinations, change the layout, or add structural support. Collect all three stars on each level for the ultimate challenge.</p>
+<p>Lighter builds often work better than complex ones. Resist the urge to use every available part — sometimes a simple cart with two wheels and an engine outperforms an elaborate flying machine. Start simple and only add complexity if the level demands it.</p>
+<p>Use the sandbox mode to experiment freely with different part combinations before tackling the trickier campaign levels. Understanding how each component interacts with the physics engine — how fans create lift, how engines distribute weight, how umbrellas catch air — gives you a massive advantage in later puzzles.</p>
+<!-- CONTENT END 1 -->`,
+  },
+{
+    slug: 'bakugan-battle-brawlers',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
+    title: 'Bakugan Battle Brawlers – Play the Strategy Battle Game Free Online',
+    metaDescription: 'Play Bakugan Battle Brawlers online for free. Battle with powerful Bakugan creatures in strategic turn-based combat in this classic game based on the hit anime series.',
+    category: 'online-games',
+    tags: ['strategy', 'rpg', 'classic'],
+    embedUrl: 'https://gamesfrog.com/games/nds/bakugan-battle-brawlers/iframe',
+    thumbnail: '/images/bakugan-battle-brawlers.webp',
+    relatedSlugs: ['bakugan-the-big-battle', 'bakugan-the-final-brawl', 'bad-egg'],
+    excerpt: 'Bakugan Battle Brawlers is a strategy battle game based on the anime series where you command powerful Bakugan creatures in combat.',
+    content: `<p>Bakugan Battle Brawlers brings the popular anime franchise to life as an interactive game. Choose your Bakugan, enter the arena, and engage in strategic battles that combine card game mechanics with action-packed creature combat. Fans of the show will recognise their favourite characters and Bakugan species.</p>
+<p>Battles play out through a combination of gate card placement, Bakugan rolling, and ability card activation. Place gate cards on the field to set traps and bonuses, then roll your Bakugan onto the field. When opposing Bakugan land on the same gate card, a battle begins where stats and ability cards determine the winner.</p>
+<p>Building your collection of Bakugan and ability cards is central to the experience. Each Bakugan has unique attributes — some excel in raw power, others specialise in speed or special abilities. Pairing the right Bakugan with complementary ability cards creates powerful combinations.</p>
+<p>The story mode follows the anime narrative, letting you experience key moments from the series while battling iconic characters. For fans of the franchise, it is a nostalgic trip through Bakugan lore with engaging gameplay to match.</p>
+<h2 class="wp-block-heading">How to Play Bakugan Battle Brawlers</h2>
+<p>Follow the on-screen instructions to place gate cards and roll your Bakugan. During battles, select ability cards to boost your Bakugan's power. Pay attention to elemental matchups for strategic advantages.</p>
+<p>Progress through the story by winning battles and collecting new Bakugan. Build a balanced team with different attributes to handle any opponent you face.</p>
+<p>Learn the elemental matchup chart early — it gives you a significant edge in harder battles. Some element combinations deal double damage while others are virtually useless. Building a team that covers all elemental matchups ensures you are never caught at a severe disadvantage.</p>
+<p>Save your most powerful ability cards for boss battles and rival encounters. Regular battles can usually be won with basic attacks and common cards, but the tougher opponents require your best combinations to defeat. Resource management separates good players from great ones.</p>
+<!-- CONTENT END 1 -->`,
+  },
+{
+    slug: 'baldis-basics-roblox',
+    datePublished: '2026-04-18T10:00:00+00:00',
+    dateModified: '2026-04-18T10:00:00+00:00',
+    dateAdded: '2026-04-18',
+    title: 'Baldis Basics Roblox – Play the Horror Education Game Free Online',
+    metaDescription: 'Play Baldis Basics Roblox online for free. Navigate the school, collect notebooks, and escape from Baldi in this horror-comedy game inspired by the viral hit.',
+    category: 'online-games',
+    tags: ['horror', 'arcade', 'survival'],
+    embedUrl: 'https://unblockedgames6969.gitlab.io/baldisbasics/',
+    thumbnail: '/images/baldis-basics-roblox.webp',
+    relatedSlugs: ['backrooms', 'back-to-grannys-house', 'back-to-grannys-house-2'],
+    excerpt: 'Baldis Basics Roblox is a horror-comedy game where you must collect notebooks and escape a school while avoiding the terrifying Baldi.',
+    content: `<p>Baldis Basics combines education and horror in the most unexpected way. You are trapped in a school where the friendly-looking teacher Baldi has a dark side — get a maths question wrong and he starts chasing you through the hallways, ruler in hand, getting faster with every mistake you make.</p>
+<p>Your goal is to collect seven notebooks scattered throughout the school. Each notebook contains maths problems you must solve. Early problems are simple, but later ones become intentionally unsolvable — and that is when the horror begins. Baldi starts his pursuit and never stops.</p>
+<p>The school is filled with other characters who both help and hinder your escape. The Principal sends you to detention for running in the halls, Playtime forces you to jump rope, and Arts and Crafts charges at you from across the building. Managing all these threats while collecting notebooks is a genuine challenge.</p>
+<p>The deliberately crude graphics and jarring audio create an atmosphere that oscillates between funny and genuinely unsettling. The increasing tempo of Baldi's ruler slapping as he gets closer is one of gaming's most effective tension-building sound effects.</p>
+<h2 class="wp-block-heading">How to Play Baldis Basics</h2>
+<p>Use WASD to move through the school. Click on doors to open them and click on notebooks to collect them. Solve the maths problems in each notebook — but beware, some cannot be solved.</p>
+<p>Collect items like energy drinks for speed boosts and BSODA to push Baldi away temporarily. Listen for Baldi's ruler slaps to gauge how close he is. Find all seven notebooks and reach the exit to escape.</p>
+<p>Learn the school layout quickly — knowing which corridors connect to which rooms gives you escape routes when Baldi gets close. Dead ends are death traps, so always have at least two exit paths from any room you enter. Map knowledge is your single biggest advantage.</p>
+<p>Use items strategically rather than immediately. The BSODA is best saved for emergency escapes when Baldi corners you, while the energy drink is most useful for sprinting between distant notebooks. Wasting items early leaves you defenceless when the final notebooks ramp up the difficulty significantly.</p>
 <!-- CONTENT END 1 -->`,
   },
 ];
