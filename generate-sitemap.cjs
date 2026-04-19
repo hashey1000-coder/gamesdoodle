@@ -8,6 +8,10 @@ const path = require('path');
 const SITE_URL = 'https://gamesdoodle.org';
 const today = new Date().toISOString().split('T')[0];
 
+// Use the most recent game dateModified as the "site last updated" date
+// instead of today's date, so lastmod only changes when content actually changes
+const STATIC_LASTMOD = today; // will be overridden below after parsing games
+
 // Parse games.js to extract slugs and categories
 const content = fs.readFileSync(path.join(__dirname, 'src/data/games.js'), 'utf8');
 
@@ -69,15 +73,27 @@ staticSlugs.forEach(slug => {
 });
 
 // Game pages — use each game's own dateModified for lastmod
-const gameEntries = [...content.matchAll(/slug:\s*'([^']+)'[\s\S]*?dateModified:\s*'([^']+)'/g)];
+// Split by top-level slug fields and extract dateModified from each block
 const gameDateMap = {};
-gameEntries.forEach(m => {
-  const slug = m[1];
-  const dateModified = m[2].split('T')[0]; // extract YYYY-MM-DD
-  if (!catSlugs.includes(slug)) {
-    gameDateMap[slug] = dateModified;
+let newestGameDate = '2025-01-01';
+const slugLines = [...content.matchAll(/^\s+slug: '([^']+)'/gm)];
+for (let i = 0; i < slugLines.length; i++) {
+  const slug = slugLines[i][1];
+  if (catSlugs.includes(slug)) continue;
+  // Get the text block from this slug to the next slug (or end of file)
+  const start = slugLines[i].index;
+  const end = i + 1 < slugLines.length ? slugLines[i + 1].index : content.length;
+  const block = content.slice(start, end);
+  const dmMatch = block.match(/dateModified:\s*'([^']+)'/);
+  const daMatch = block.match(/dateAdded:\s*'([^']+)'/);
+  const date = dmMatch ? dmMatch[1].split('T')[0] : daMatch ? daMatch[1].split('T')[0] : null;
+  if (date) {
+    gameDateMap[slug] = date;
+    if (date > newestGameDate) newestGameDate = date;
   }
-});
+}
+// Non-game pages use the newest game date as their lastmod (only changes when content does)
+const siteLastmod = newestGameDate;
 
 // High-priority games (featured + popular) get 0.9, pinned get 0.8, rest get 0.7
 const highPrioritySlugs = new Set([
@@ -106,7 +122,7 @@ gameSlugs.forEach(slug => {
     loc: `${SITE_URL}/${slug}/`,
     priority,
     changefreq: 'weekly',
-    lastmod: gameDateMap[slug] || today,
+    lastmod: gameDateMap[slug] || siteLastmod,
   });
 });
 
@@ -115,7 +131,7 @@ const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map(u => `  <url>
     <loc>${u.loc}</loc>
-    <lastmod>${u.lastmod || today}</lastmod>
+    <lastmod>${u.lastmod || siteLastmod}</lastmod>
     <changefreq>${u.changefreq}</changefreq>
     <priority>${u.priority}</priority>
   </url>`).join('\n')}

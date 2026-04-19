@@ -2,7 +2,9 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ref, onValue, query, orderByValue, limitToLast } from 'firebase/database';
 import SEO from '../components/SEO';
-import { games, getGameBySlug, getCategoryBySlug } from '../data/games';
+import GameCard from '../components/GameCard';
+import { games, getGameBySlug, getCategoryBySlug, getGamesByCategory } from '../data/games';
+import { useFavorites } from '../hooks/useFavorites';
 import { db } from '../firebase';
 import { formatPlayCount } from '../hooks/usePlayCount';
 
@@ -17,6 +19,18 @@ const RECENT_GAMES = [...games]
     return db_ - da;
   })
   .slice(0, 30);
+
+// Hand-picked iconic Google Doodle games for the spotlight
+const FEATURED_DOODLE_SLUGS = [
+  'google-pacman', 'dinosaur-game', 'doodle-baseball', 'great-ghoul-duel',
+  'google-cricket', 'google-snake', 'coding-for-carrots', 'quick-draw',
+];
+const FEATURED_DOODLES = FEATURED_DOODLE_SLUGS
+  .map(slug => getGameBySlug(slug))
+  .filter(Boolean);
+
+// All doodle-category games for the Doodle Games tab
+const DOODLE_GAMES = getGamesByCategory('google-doodle-games');
 
 function LeaderboardRow({ game, index, scoreLabel }) {
   const category = getCategoryBySlug(game.category);
@@ -46,11 +60,18 @@ function LeaderboardRow({ game, index, scoreLabel }) {
 export default function TopGamesPage() {
   const [topGames, setTopGames] = useState(null); // null = loading
   const [sortBy, setSortBy] = useState('plays');
+  const { toggleFavorite, isFavorite } = useFavorites();
 
   useEffect(() => {
     // Recent tab uses local data — no Firebase needed
     if (sortBy === 'recent') {
       setTopGames(RECENT_GAMES);
+      return;
+    }
+
+    // Doodle tab uses local data
+    if (sortBy === 'doodle') {
+      setTopGames(DOODLE_GAMES);
       return;
     }
 
@@ -97,8 +118,8 @@ export default function TopGamesPage() {
   return (
     <>
       <SEO
-        title="Top Games - Most Popular | Games Doodle"
-        description="Play the most popular games on Games Doodle. See what everyone is playing — top-voted and most-played Google Doodle games and browser games."
+        title="Top Games – Play Google Doodle Games & Popular Browser Games | Games Doodle"
+        description="Play the best Google Doodle games and most popular browser games online for free. Pac-Man, Dinosaur Game, Baseball, Cricket and hundreds more — no download needed."
         canonical="/top-games/"
         ogType="article"
         schemaType="category"
@@ -107,15 +128,32 @@ export default function TopGamesPage() {
       <div className="page-content">
         <h1 className="page-title">🏆 Top Games</h1>
         <p className="category-description">
-          The most popular games on Games Doodle, ranked by the community.
+          The most popular Google Doodle games and browser games, ranked by the community. Play classics like Pac-Man, the Dinosaur Game, and Doodle Baseball — plus hundreds of free online games.
         </p>
 
+        {/* Google Doodle Games Spotlight */}
+        <section className="doodle-spotlight">
+          <div className="doodle-spotlight-header">
+            <h2 className="doodle-spotlight-title">🎨 Popular Google Doodle Games</h2>
+            <Link to="/google-doodle-games/" className="doodle-spotlight-link">Browse all doodles →</Link>
+          </div>
+          <div className="games-grid games-grid--compact">
+            {FEATURED_DOODLES.map(game => (
+              <GameCard key={game.slug} game={game} isFavorite={isFavorite(game.slug)} onToggleFavorite={toggleFavorite} />
+            ))}
+          </div>
+        </section>
+
+        <h2 className="leaderboard-heading">📊 Community Rankings</h2>
         <div className="top-games-tabs">
           <button className={`top-tab${sortBy === 'plays' ? ' active' : ''}`} onClick={() => setSortBy('plays')}>
             Most Played
           </button>
           <button className={`top-tab${sortBy === 'votes' ? ' active' : ''}`} onClick={() => setSortBy('votes')}>
             Top Voted
+          </button>
+          <button className={`top-tab${sortBy === 'doodle' ? ' active' : ''}`} onClick={() => setSortBy('doodle')}>
+            Doodle Games
           </button>
           <button className={`top-tab${sortBy === 'recent' ? ' active' : ''}`} onClick={() => setSortBy('recent')}>
             Most Recent

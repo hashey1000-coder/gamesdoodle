@@ -1911,6 +1911,50 @@ html, body {
 
 
 /* ============ Top Games Page ============ */
+
+/* Google Doodle Spotlight */
+.doodle-spotlight {
+  margin-bottom: 36px;
+}
+.doodle-spotlight-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.doodle-spotlight-title {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--text);
+  margin: 0;
+}
+.doodle-spotlight-link {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--primary);
+  text-decoration: none;
+}
+.doodle-spotlight-link:hover {
+  text-decoration: underline;
+}
+.games-grid--compact {
+  grid-template-columns: repeat(4, 1fr);
+}
+@media (max-width: 768px) {
+  .games-grid--compact {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.leaderboard-heading {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--text);
+  margin: 0 0 16px;
+}
+
 .top-games-tabs {
   display: flex;
   gap: 0;
