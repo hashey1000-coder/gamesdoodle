@@ -3,7 +3,6 @@ import { ToastProvider } from './components/Toast';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import BackToTop from './components/BackToTop';
-import CookieConsent from './components/CookieConsent';
 import HomePage from './pages/HomePage';
 import GamePage from './pages/GamePage';
 import TagPage from './pages/TagPage';
@@ -49,7 +48,6 @@ function App() {
         </main>
         <Footer />
         <BackToTop />
-        <CookieConsent />
       </div>
     </ToastProvider>
   );
