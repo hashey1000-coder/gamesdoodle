@@ -1,7 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 
-const content = fs.readFileSync('src/data/games.js', 'utf8');
+const content = [
+  fs.readFileSync('src/data/games.js', 'utf8'),
+  fs.readFileSync('src/data/additionalGames.js', 'utf8'),
+].join('\n');
 
 // Extract all game slugs (skip category slugs which come first)
 const allSlugs = [...content.matchAll(/slug: '([^']+)'/g)].map(m => m[1]);

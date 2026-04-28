@@ -12,8 +12,10 @@ const today = new Date().toISOString().split('T')[0];
 // instead of today's date, so lastmod only changes when content actually changes
 const STATIC_LASTMOD = today; // will be overridden below after parsing games
 
-// Parse games.js to extract slugs and categories
-const content = fs.readFileSync(path.join(__dirname, 'src/data/games.js'), 'utf8');
+// Parse game data files to extract slugs and dates
+const gamesContent = fs.readFileSync(path.join(__dirname, 'src/data/games.js'), 'utf8');
+const additionalGamesContent = fs.readFileSync(path.join(__dirname, 'src/data/additionalGames.js'), 'utf8');
+const content = [gamesContent, additionalGamesContent].join('\n');
 
 // Category slugs
 const catSlugs = ['google-doodle-games', 'online-games', 'google-tools', 'google-easter-egg'];
@@ -76,22 +78,28 @@ staticSlugs.forEach(slug => {
 // Split by top-level slug fields and extract dateModified from each block
 const gameDateMap = {};
 let newestGameDate = '2025-01-01';
-const slugLines = [...content.matchAll(/^\s+slug: '([^']+)'/gm)];
-for (let i = 0; i < slugLines.length; i++) {
-  const slug = slugLines[i][1];
-  if (catSlugs.includes(slug)) continue;
-  // Get the text block from this slug to the next slug (or end of file)
-  const start = slugLines[i].index;
-  const end = i + 1 < slugLines.length ? slugLines[i + 1].index : content.length;
-  const block = content.slice(start, end);
-  const dmMatch = block.match(/dateModified:\s*'([^']+)'/);
-  const daMatch = block.match(/dateAdded:\s*'([^']+)'/);
-  const date = dmMatch ? dmMatch[1].split('T')[0] : daMatch ? daMatch[1].split('T')[0] : null;
-  if (date) {
-    gameDateMap[slug] = date;
-    if (date > newestGameDate) newestGameDate = date;
+
+function parseGameDates(source, defaultDate = null) {
+  const slugLines = [...source.matchAll(/^\s+slug: '([^']+)'/gm)];
+  for (let i = 0; i < slugLines.length; i++) {
+    const slug = slugLines[i][1];
+    if (catSlugs.includes(slug)) continue;
+    // Get the text block from this slug to the next slug (or end of file)
+    const start = slugLines[i].index;
+    const end = i + 1 < slugLines.length ? slugLines[i + 1].index : source.length;
+    const block = source.slice(start, end);
+    const dmMatch = block.match(/dateModified:\s*'([^']+)'/);
+    const daMatch = block.match(/dateAdded:\s*'([^']+)'/);
+    const date = dmMatch ? dmMatch[1].split('T')[0] : daMatch ? daMatch[1].split('T')[0] : defaultDate;
+    if (date) {
+      gameDateMap[slug] = date;
+      if (date > newestGameDate) newestGameDate = date;
+    }
   }
 }
+
+parseGameDates(gamesContent);
+parseGameDates(additionalGamesContent, additionalGamesContent.match(/const today = '([^']+)'/)?.[1] || null);
 // Non-game pages use the newest game date as their lastmod (only changes when content does)
 const siteLastmod = newestGameDate;
 

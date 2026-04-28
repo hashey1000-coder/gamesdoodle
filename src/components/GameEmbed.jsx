@@ -74,7 +74,7 @@ export default function GameEmbed({ game }) {
     return () => { document.body.style.overflow = ''; };
   }, [isFullscreen]);
 
-  const isSwf = game.embedUrl?.toLowerCase().endsWith('.swf');
+  const isSwf = /\.swf(?:[?#]|$)/i.test(game.embedUrl || '');
   const ruffleContainerRef = useRef(null);
 
   // Load Ruffle Flash emulator for SWF games

@@ -26,7 +26,10 @@ const template = fs.readFileSync(path.join(DIST, 'index.html'), 'utf8');
 fs.copyFileSync(path.join(DIST, 'index.html'), path.join(DIST, '200.html'));
 
 // ── Collect all routes to prerender ────────────────────────────────────
-const gamesSource = fs.readFileSync(path.join(__dirname, 'src/data/games.js'), 'utf8');
+const gamesSource = [
+  fs.readFileSync(path.join(__dirname, 'src/data/games.js'), 'utf8'),
+  fs.readFileSync(path.join(__dirname, 'src/data/additionalGames.js'), 'utf8'),
+].join('\n');
 
 const CAT_SLUGS = ['google-doodle-games', 'online-games', 'google-tools', 'google-easter-egg'];
 const TAG_SLUGS = ['arcade', 'racing', 'shooter', 'puzzle', 'sports', 'io', 'word-and-trivia', 'strategy', 'music-and-creative', 'simulation', 'card-and-board', 'platformer'];
