@@ -5,17 +5,13 @@
  * No manual re-triggering needed.
  */
 
-/** Named banner slot: GD_Game_Top, GD_Game_Bottom */
-export function AdSlot({ id, className = '' }) {
-  return <div id={id} className={`ad-unit${className ? ` ${className}` : ''}`} />;
+/** Named banner slot — exactly as per guide: <div id="GD_Game_Top"></div> */
+export function AdSlot({ id }) {
+  return <div id={id} />;
 }
 
-/** In-content lazy repeater — place between paragraphs / sections */
-export function LazyAd({ className = '' }) {
-  return (
-    <div className={`ad-unit${className ? ` ${className}` : ''}`}>
-      {/* eslint-disable-next-line react/no-unknown-property */}
-      <div className="lazy" {...{ 'parent-unit': '' }} />
-    </div>
-  );
+/** In-content lazy repeater: <div class="lazy" parent-unit="GD_Game_Bottom"></div> */
+export function LazyAd() {
+  // eslint-disable-next-line react/no-unknown-property
+  return <div className="lazy" {...{ 'parent-unit': 'GD_Game_Bottom' }} />;
 }
