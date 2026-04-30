@@ -39,7 +39,7 @@ function sanitizeContent(html) {
 
 /** Insert a lazy ad div after the 3rd paragraph in HTML content */
 function injectInContentAd(html) {
-  const AD = '<div class="lazy" parent-unit="GD_Game_Bottom"></div>';
+  const AD = '<div class="lazy" parent-unit=""></div>';
   let count = 0;
   return html.replace(/<\/p>/gi, (match) => {
     count++;
