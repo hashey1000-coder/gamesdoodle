@@ -3,6 +3,7 @@ import { ToastProvider } from './components/Toast';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import BackToTop from './components/BackToTop';
+import { AdSlot } from './components/AdSlot';
 import HomePage from './pages/HomePage';
 import GamePage from './pages/GamePage';
 import TagPage from './pages/TagPage';
@@ -31,6 +32,7 @@ function App() {
       <div className="site-wrapper">
         <Header />
         <main className="site-main">
+          <AdSlot id="GD_Game_Top" className="site-ad-slot--top" />
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/top-games" element={<TopGamesPage />} />
@@ -45,6 +47,7 @@ function App() {
             <Route path="/:slug/page/:page" element={<GamePage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
+          <AdSlot id="GD_Game_Bottom" className="site-ad-slot--bottom" />
         </main>
         <Footer />
         <BackToTop />

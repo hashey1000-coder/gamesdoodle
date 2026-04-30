@@ -2,6 +2,7 @@ import { useEffect, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import GameEmbed from '../components/GameEmbed';
+import { LazyAd } from '../components/AdSlot';
 import VoteButtons from '../components/VoteButtons';
 import EmojiReactions from '../components/EmojiReactions';
 import PlayQueueButton from '../components/PlayQueueButton';
@@ -172,7 +173,11 @@ export default function GameDetail({ game }) {
           </div>
         </div>
 
+          <LazyAd className="page-ad-slot" />
+
         <GameEmbed game={game} />
+
+          <LazyAd className="page-ad-slot" />
 
         <VoteButtons slug={game.slug} />
 
@@ -182,6 +187,8 @@ export default function GameDetail({ game }) {
           className="game-page-content"
           dangerouslySetInnerHTML={{ __html: sanitizeContent(game.content) }}
         />
+
+        <LazyAd className="page-ad-slot" />
 
         {category && (
           <div className="game-category-tag">
@@ -214,6 +221,8 @@ export default function GameDetail({ game }) {
             </div>
           </section>
         )}
+
+        <LazyAd className="page-ad-slot" />
 
         {/* People Also Play — tag/category discovery chips */}
         <PeopleAlsoPlay game={game} category={category} gameTags={gameTags} />

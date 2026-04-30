@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import { LazyAd } from '../components/AdSlot';
 import { games } from '../data/games';
 
 // Group games by first letter at module level (computed once)
@@ -40,6 +41,8 @@ export default function AllGamesPage() {
           Browse all {games.length} games on Games Doodle. Click a letter to jump to that section.
         </p>
 
+        <LazyAd className="page-ad-slot" />
+
         {/* Letter jump nav */}
         <nav className="az-letter-nav" aria-label="Jump to letter">
           {letters.map(letter => (
@@ -78,6 +81,8 @@ export default function AllGamesPage() {
           Can't find what you're looking for? Try the <Link to="/">homepage</Link> or browse by{' '}
           <Link to="/online-games/">category</Link>.
         </p>
+
+        <LazyAd className="page-ad-slot" />
       </div>
     </>
   );

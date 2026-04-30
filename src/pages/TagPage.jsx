@@ -1,6 +1,7 @@
 import { useSearchParams, Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import GameCard from '../components/GameCard';
+import { LazyAd } from '../components/AdSlot';
 import { getTagBySlug, getGamesByTag, tags } from '../data/games';
 import { useFavorites } from '../hooks/useFavorites';
 import { COLLECTIONS } from './CollectionPage';
@@ -50,11 +51,14 @@ export default function TagPage({ slug }) {
         <div className="category-meta">
           🎯 {allGames.length} games available
         </div>
+        <LazyAd className="page-ad-slot" />
         <div className="games-grid">
           {paginatedGames.map(game => (
             <GameCard key={game.slug} game={game} isFavorite={isFavorite(game.slug)} onToggleFavorite={toggleFavorite} />
           ))}
         </div>
+
+        <LazyAd className="page-ad-slot" />
 
         {totalPages > 1 && (
           <nav className="pagination">

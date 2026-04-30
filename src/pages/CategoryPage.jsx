@@ -2,6 +2,7 @@ import { useSearchParams, Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import SEO from '../components/SEO';
 import GameCard from '../components/GameCard';
+import { LazyAd } from '../components/AdSlot';
 import { getCategoryBySlug, getGamesByCategory } from '../data/games';
 import { useFavorites } from '../hooks/useFavorites';
 
@@ -62,11 +63,14 @@ export default function CategoryPage({ slug }) {
         <div className="category-meta">
           🎯 {allGames.length} games available
         </div>
+        <LazyAd className="page-ad-slot" />
         <div className="games-grid">
           {paginatedGames.map(game => (
             <GameCard key={game.slug} game={game} isFavorite={isFavorite(game.slug)} onToggleFavorite={toggleFavorite} />
           ))}
         </div>
+
+        <LazyAd className="page-ad-slot" />
 
         {totalPages > 1 && (
           <nav className="pagination">

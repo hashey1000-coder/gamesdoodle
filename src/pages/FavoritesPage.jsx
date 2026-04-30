@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import { LazyAd } from '../components/AdSlot';
 import GameCard from '../components/GameCard';
 import { getGameBySlug } from '../data/games';
 import { useFavorites } from '../hooks/useFavorites';
@@ -29,6 +30,8 @@ export default function FavoritesPage() {
             : 'You haven\'t liked any games yet.'}
         </p>
 
+        <LazyAd className="page-ad-slot" />
+
         {favoriteGames.length > 0 ? (
           <div className="games-grid">
             {favoriteGames.map(game => (
@@ -48,6 +51,8 @@ export default function FavoritesPage() {
             <Link to="/" className="favorites-browse-btn">Browse Games</Link>
           </div>
         )}
+
+        <LazyAd className="page-ad-slot" />
       </div>
     </>
   );

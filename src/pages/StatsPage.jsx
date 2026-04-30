@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import { LazyAd } from '../components/AdSlot';
 import { games, getGameBySlug, categories } from '../data/games';
 import { useAchievements, ACHIEVEMENT_DEFS } from '../hooks/useAchievements';
 
@@ -97,6 +98,8 @@ export default function StatsPage() {
           <div className="stats-loading">Loading your stats…</div>
         ) : (
           <>
+            <LazyAd className="page-ad-slot" />
+
             {/* Overview Cards */}
             <div className="stats-overview">
               <div className="stat-card">
@@ -208,6 +211,8 @@ export default function StatsPage() {
                 </div>
               </div>
             )}
+
+            <LazyAd className="page-ad-slot" />
           </>
         )}
       </div>

@@ -1,5 +1,6 @@
 import { Link, useParams } from 'react-router-dom';
 import SEO from '../components/SEO';
+import { LazyAd } from '../components/AdSlot';
 import GameCard from '../components/GameCard';
 import { getGameBySlug } from '../data/games';
 import { collections, getCollectionBySlug } from '../data/collections';
@@ -24,6 +25,7 @@ export function CollectionsIndex() {
         <p className="category-description">
           Curated playlists for every mood. Pick a collection and start playing!
         </p>
+        <LazyAd className="page-ad-slot" />
         <div className="collections-grid">
           {collections.map(col => (
             <Link key={col.slug} to={`/collections/${col.slug}/`} className="collection-card">
@@ -36,6 +38,7 @@ export function CollectionsIndex() {
             </Link>
           ))}
         </div>
+        <LazyAd className="page-ad-slot" />
       </div>
     </>
   );
@@ -82,6 +85,7 @@ export function CollectionDetail() {
         </nav>
         <h1 className="page-title">{collection.emoji} {collection.title}</h1>
         <p className="category-description">{collection.description}</p>
+        <LazyAd className="page-ad-slot" />
         <div className="games-grid">
           {collectionGames.map(game => (
             <GameCard
@@ -92,6 +96,7 @@ export function CollectionDetail() {
             />
           ))}
         </div>
+        <LazyAd className="page-ad-slot" />
         <div className="collection-back">
           <Link to="/collections/" className="collection-back-link">← All Collections</Link>
         </div>

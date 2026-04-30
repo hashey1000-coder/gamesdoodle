@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import GameCard from '../components/GameCard';
+import { LazyAd } from '../components/AdSlot';
 import TrendingGames from '../components/TrendingGames';
 import { games, tags, featuredGameSlugs, getGameBySlug } from '../data/games';
 import { collections } from '../data/collections';
@@ -74,6 +75,8 @@ export default function HomePage() {
         {/* Trending Games — from Firebase play counts */}
         <TrendingGames />
 
+        <LazyAd className="page-ad-slot" />
+
         {/* Featured Games Grid */}
         <section className="homepage-section">
           <div className="homepage-section-header">
@@ -126,6 +129,8 @@ export default function HomePage() {
             ))}
           </div>
         </section>
+
+        <LazyAd className="page-ad-slot" />
 
         <div className="homepage-seo-text">
           <p>Google Doodle games turn the search engine's iconic logo into playable interactive experiences, celebrating holidays, historic events, and cultural moments from around the world. From the Halloween-themed Great Ghoul Duel to the Olympic hurdles runner, each game offers a unique creative twist that blends art, music, and gameplay into something anyone can enjoy in seconds.</p>

@@ -1,5 +1,6 @@
 import SEO from '../components/SEO';
 import GameCard from '../components/GameCard';
+import { LazyAd } from '../components/AdSlot';
 import { games } from '../data/games';
 import { useFavorites } from '../hooks/useFavorites';
 
@@ -34,6 +35,7 @@ export default function NewGamesPage() {
         <div className="category-meta">
           🎮 Showing {sortedGames.length} newest games
         </div>
+        <LazyAd className="page-ad-slot" />
         <div className="games-grid">
           {sortedGames.map(game => (
             <GameCard
@@ -44,6 +46,7 @@ export default function NewGamesPage() {
             />
           ))}
         </div>
+        <LazyAd className="page-ad-slot" />
       </div>
     </>
   );

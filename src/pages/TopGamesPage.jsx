@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ref, onValue, query, orderByValue, limitToLast } from 'firebase/database';
 import SEO from '../components/SEO';
 import GameCard from '../components/GameCard';
+import { LazyAd } from '../components/AdSlot';
 import { games, getGameBySlug, getCategoryBySlug, getGamesByCategory } from '../data/games';
 import { useFavorites } from '../hooks/useFavorites';
 import { db } from '../firebase';
@@ -144,6 +145,8 @@ export default function TopGamesPage() {
           </div>
         </section>
 
+        <LazyAd className="page-ad-slot" />
+
         <h2 className="leaderboard-heading">📊 Community Rankings</h2>
         <div className="top-games-tabs">
           <button className={`top-tab${sortBy === 'plays' ? ' active' : ''}`} onClick={() => setSortBy('plays')}>
@@ -197,6 +200,8 @@ export default function TopGamesPage() {
             </div>
           </>
         )}
+
+        <LazyAd className="page-ad-slot" />
       </div>
     </>
   );
