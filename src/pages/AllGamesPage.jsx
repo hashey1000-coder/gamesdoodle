@@ -52,8 +52,34 @@ export default function AllGamesPage() {
           ))}
         </nav>
 
-        {/* Game listings by letter */}
-        {letters.map(letter => (
+        {/* Game listings by letter — split mid-way for an in-content ad */}
+        {letters.slice(0, Math.ceil(letters.length / 2)).map(letter => (
+          <section key={letter} id={`letter-${letter}`} className="az-section">
+            <h2 className="az-section-heading">{letter}</h2>
+            <ul className="az-game-list">
+              {grouped[letter].map(game => (
+                <li key={game.slug} className="az-game-item">
+                  <Link to={`/${game.slug}/`} className="az-game-link">
+                    <img
+                      src={`/images/${game.slug}.webp`}
+                      alt={game.title}
+                      className="az-game-thumb"
+                      loading="lazy"
+                      decoding="async"
+                      width="48"
+                      height="27"
+                    />
+                    <span className="az-game-title">{game.title}</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))}
+
+        <LazyAd />
+
+        {letters.slice(Math.ceil(letters.length / 2)).map(letter => (
           <section key={letter} id={`letter-${letter}`} className="az-section">
             <h2 className="az-section-heading">{letter}</h2>
             <ul className="az-game-list">

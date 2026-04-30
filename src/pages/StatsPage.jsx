@@ -179,6 +179,7 @@ export default function StatsPage() {
             </div>
 
             {/* Recent Games */}
+            <LazyAd />
             {stats.recentGames.length > 0 && (
               <div className="stats-section">
                 <h2>🕐 Recently Played</h2>

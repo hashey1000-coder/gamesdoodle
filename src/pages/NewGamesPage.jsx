@@ -37,7 +37,7 @@ export default function NewGamesPage() {
         </div>
         <LazyAd className="page-ad-slot" />
         <div className="games-grid">
-          {sortedGames.map(game => (
+          {sortedGames.slice(0, 24).map(game => (
             <GameCard
               key={game.slug}
               game={game}
@@ -46,6 +46,21 @@ export default function NewGamesPage() {
             />
           ))}
         </div>
+        {sortedGames.length > 24 && (
+          <>
+            <LazyAd />
+            <div className="games-grid">
+              {sortedGames.slice(24).map(game => (
+                <GameCard
+                  key={game.slug}
+                  game={game}
+                  isFavorite={isFavorite(game.slug)}
+                  onToggleFavorite={toggleFavorite}
+                />
+              ))}
+            </div>
+          </>
+        )}
         <LazyAd className="page-ad-slot" />
       </div>
     </>

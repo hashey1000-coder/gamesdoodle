@@ -145,7 +145,7 @@ export default function TopGamesPage() {
           </div>
         </section>
 
-        <LazyAd className="page-ad-slot" />
+        <LazyAd />
 
         <h2 className="leaderboard-heading">📊 Community Rankings</h2>
         <div className="top-games-tabs">
@@ -170,20 +170,41 @@ export default function TopGamesPage() {
         )}
 
         {hasData && (
-          <div className="leaderboard-list">
-            {topGames.map((game, i) => (
-              <LeaderboardRow
-                key={game.slug}
-                game={game}
-                index={i}
-                scoreLabel={sortBy === 'plays'
-                  ? `${formatPlayCount(game._score)} players`
-                  : sortBy === 'votes'
-                  ? `${game._score > 0 ? '+' : ''}${game._score} votes`
-                  : game.dateAdded || ''}
-              />
-            ))}
-          </div>
+          <>
+            <div className="leaderboard-list">
+              {topGames.slice(0, 10).map((game, i) => (
+                <LeaderboardRow
+                  key={game.slug}
+                  game={game}
+                  index={i}
+                  scoreLabel={sortBy === 'plays'
+                    ? `${formatPlayCount(game._score)} players`
+                    : sortBy === 'votes'
+                    ? `${game._score > 0 ? '+' : ''}${game._score} votes`
+                    : game.dateAdded || ''}
+                />
+              ))}
+            </div>
+            {topGames.length > 10 && (
+              <>
+                <LazyAd />
+                <div className="leaderboard-list">
+                  {topGames.slice(10).map((game, i) => (
+                    <LeaderboardRow
+                      key={game.slug}
+                      game={game}
+                      index={i + 10}
+                      scoreLabel={sortBy === 'plays'
+                        ? `${formatPlayCount(game._score)} players`
+                        : sortBy === 'votes'
+                        ? `${game._score > 0 ? '+' : ''}${game._score} votes`
+                        : game.dateAdded || ''}
+                    />
+                  ))}
+                </div>
+              </>
+            )}
+          </>
         )}
 
         {isEmpty && (
@@ -194,14 +215,20 @@ export default function TopGamesPage() {
               <p className="leaderboard-empty-sub">Here are some great games to kick things off:</p>
             </div>
             <div className="leaderboard-list">
-              {FALLBACK_GAMES.map((game, i) => (
+              {FALLBACK_GAMES.slice(0, 10).map((game, i) => (
                 <LeaderboardRow key={game.slug} game={game} index={i} />
+              ))}
+            </div>
+            <LazyAd />
+            <div className="leaderboard-list">
+              {FALLBACK_GAMES.slice(10).map((game, i) => (
+                <LeaderboardRow key={game.slug} game={game} index={i + 10} />
               ))}
             </div>
           </>
         )}
 
-        <LazyAd className="page-ad-slot" />
+        <LazyAd />
       </div>
     </>
   );

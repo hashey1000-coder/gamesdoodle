@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import { LazyAd } from '../components/AdSlot';
 import { COLLECTIONS } from './CollectionPage';
 import { games } from '../data/games';
 
@@ -20,6 +21,8 @@ export default function CollectionsIndexPage() {
           Hand-picked lists of the best free browser games, organised by genre and theme.
         </p>
 
+        <LazyAd />
+
         <div className="collections-grid">
           {COLLECTIONS.map(col => {
             const count = games.filter(col.filter).length;
@@ -36,6 +39,8 @@ export default function CollectionsIndexPage() {
             );
           })}
         </div>
+
+        <LazyAd />
       </div>
     </>
   );

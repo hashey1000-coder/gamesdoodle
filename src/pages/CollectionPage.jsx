@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import GameCard from '../components/GameCard';
+import { LazyAd } from '../components/AdSlot';
 import { games, getTagsForGame, getCategoryBySlug } from '../data/games';
 import { useFavorites } from '../hooks/useFavorites';
 
@@ -108,6 +109,7 @@ export default function CollectionPage({ slug }) {
         <div className="category-meta">
           {collectionGames.length} games in this collection
         </div>
+        <LazyAd />
         <div className="games-grid">
           {collectionGames.map(game => (
             <GameCard
@@ -119,7 +121,9 @@ export default function CollectionPage({ slug }) {
           ))}
         </div>
 
-        {/* Link to all collections */}
+        <LazyAd />
+
+        {/* Link to all collections */}}
         <div className="collection-back">
           <Link to="/collections/" className="collection-back-link">
             ← View All Collections

@@ -18,12 +18,12 @@ export default function StaticPage({ slug }) {
       />
       <div className="page-content static-page">
         <h1 className="page-title">{page.title}</h1>
-        <LazyAd className="page-ad-slot" />
+        <LazyAd />
         <div
           className="static-page-content"
           dangerouslySetInnerHTML={{ __html: page.content }}
         />
-        <LazyAd className="page-ad-slot" />
+        <LazyAd />
       </div>
     </>
   );

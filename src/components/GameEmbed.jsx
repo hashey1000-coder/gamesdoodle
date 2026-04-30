@@ -10,7 +10,6 @@ export default function GameEmbed({ game }) {
   const isExternal = Boolean(game.externalUrl);
 
   const handlePlay = useCallback(() => {
-    if (isPlaying) return;
     setIsPlaying(true);
     setIsLoaded(false);
     // Save to recently played in localStorage
@@ -22,7 +21,7 @@ export default function GameEmbed({ game }) {
     } catch {
       // localStorage unavailable — ignore
     }
-  }, [game.slug, isPlaying]);
+  }, [game.slug]);
 
   const handleIframeLoad = useCallback(() => {
     setIsLoaded(true);
@@ -144,7 +143,6 @@ export default function GameEmbed({ game }) {
           /* Thumbnail + play button overlay for ALL games */
           <button
             className="game-play-overlay"
-            onPointerDownCapture={isExternal ? undefined : handlePlay}
             onClick={isExternal ? undefined : handlePlay}
             aria-label={`Play ${game.title}`}
           >

@@ -51,14 +51,14 @@ export default function TagPage({ slug }) {
         <div className="category-meta">
           🎯 {allGames.length} games available
         </div>
-        <LazyAd className="page-ad-slot" />
+        <LazyAd />
         <div className="games-grid">
           {paginatedGames.map(game => (
             <GameCard key={game.slug} game={game} isFavorite={isFavorite(game.slug)} onToggleFavorite={toggleFavorite} />
           ))}
         </div>
 
-        <LazyAd className="page-ad-slot" />
+        <LazyAd />
 
         {totalPages > 1 && (
           <nav className="pagination">
@@ -91,6 +91,7 @@ export default function TagPage({ slug }) {
         )}
 
         {/* Related tags */}
+        <LazyAd />
         <div className="related-tags-section">
           <h3 className="related-tags-heading">Explore Other Game Types</h3>
           <div className="related-tags-chips">

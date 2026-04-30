@@ -114,6 +114,7 @@ export default function HomePage() {
         </section>
 
         {/* Curated Collections Preview */}
+        <LazyAd className="page-ad-slot" />
         <section className="homepage-section">
           <div className="homepage-section-header">
             <h2 className="homepage-section-title">🎯 Game Collections</h2>

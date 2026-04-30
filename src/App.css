@@ -60,27 +60,18 @@ html, body {
   box-sizing: border-box;
 }
 
-.site-ad-slot {
+/* Ad units — 40px breathing room above every ad, consistent centering */
+.ad-unit {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin: 0 auto 28px;
+  margin-top: 40px;
+  margin-bottom: 12px;
 }
 
-.site-ad-slot--bottom {
-  margin: 36px auto 0;
-}
-
-.site-ad-slot > div {
-  width: 100%;
-}
-
-.site-ad-slot-lazy {
-  margin: 28px auto;
-}
-
-.page-ad-slot {
-  max-width: 100%;
+/* Prevent back-to-back ad units from doubling the gap */
+.ad-unit + .ad-unit {
+  margin-top: 0;
 }
 
 /* ============ Header ============ */

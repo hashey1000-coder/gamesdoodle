@@ -32,7 +32,7 @@ function App() {
       <div className="site-wrapper">
         <Header />
         <main className="site-main">
-          <AdSlot id="GD_Game_Top" className="site-ad-slot--top" />
+          <AdSlot id="GD_Game_Top" />
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/top-games" element={<TopGamesPage />} />
@@ -47,7 +47,7 @@ function App() {
             <Route path="/:slug/page/:page" element={<GamePage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
-          <AdSlot id="GD_Game_Bottom" className="site-ad-slot--bottom" />
+          <AdSlot id="GD_Game_Bottom" />
         </main>
         <Footer />
         <BackToTop />

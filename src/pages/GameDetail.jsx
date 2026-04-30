@@ -1,4 +1,4 @@
-import { useEffect, useCallback } from 'react';
+import { useEffect, useCallback, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import GameEmbed from '../components/GameEmbed';
@@ -35,6 +35,16 @@ function sanitizeContent(html) {
     .replace(/&#8221;/g, '"')
     .replace(/&#8230;/g, '…')
     .replace(/&nbsp;/g, ' ');
+}
+
+/** Insert a lazy ad div after the 3rd paragraph in HTML content */
+function injectInContentAd(html) {
+  const AD = '<div class="lazy" parent-unit="Incontent_Lazy"></div>';
+  let count = 0;
+  return html.replace(/<\/p>/gi, (match) => {
+    count++;
+    return count === 3 ? `${match}${AD}` : match;
+  });
 }
 
 function trackRecentlyPlayed(slug) {
@@ -114,6 +124,12 @@ export default function GameDetail({ game }) {
   const plainText = game.content.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
   const wordCount = plainText.split(/\s+/).length;
 
+  // Content with in-content ad injected after 3rd paragraph
+  const contentWithAd = useMemo(
+    () => injectInContentAd(sanitizeContent(game.content)),
+    [game.content]
+  );
+
   // Use a consistent publish date (site launch) since WordPress dates aren't preserved
   const datePublished = game.datePublished || '2024-01-15T00:00:00+00:00';
   const dateModified = game.dateModified || '2025-01-15T00:00:00+00:00';
@@ -173,11 +189,9 @@ export default function GameDetail({ game }) {
           </div>
         </div>
 
-          <LazyAd className="page-ad-slot" />
-
         <GameEmbed game={game} />
 
-          <LazyAd className="page-ad-slot" />
+        <LazyAd />
 
         <VoteButtons slug={game.slug} />
 
@@ -185,10 +199,8 @@ export default function GameDetail({ game }) {
 
         <div
           className="game-page-content"
-          dangerouslySetInnerHTML={{ __html: sanitizeContent(game.content) }}
+          dangerouslySetInnerHTML={{ __html: contentWithAd }}
         />
-
-        <LazyAd className="page-ad-slot" />
 
         {category && (
           <div className="game-category-tag">
@@ -222,7 +234,7 @@ export default function GameDetail({ game }) {
           </section>
         )}
 
-        <LazyAd className="page-ad-slot" />
+        <LazyAd />
 
         {/* People Also Play — tag/category discovery chips */}
         <PeopleAlsoPlay game={game} category={category} gameTags={gameTags} />
