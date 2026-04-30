@@ -195,6 +195,8 @@ export default function GameDetail({ game }) {
 
         <VoteButtons slug={game.slug} />
 
+        <LazyAd />
+
         <EmojiReactions slug={game.slug} />
 
         <div
