@@ -15,7 +15,7 @@ export function LazyAd({ className = '' }) {
   return (
     <div className={`ad-unit${className ? ` ${className}` : ''}`}>
       {/* eslint-disable-next-line react/no-unknown-property */}
-      <div className="lazy" {...{ 'parent-unit': 'Incontent_Lazy' }} />
+      <div className="lazy" {...{ 'parent-unit': '' }} />
     </div>
   );
 }

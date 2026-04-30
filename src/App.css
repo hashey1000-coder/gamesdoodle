@@ -60,18 +60,31 @@ html, body {
   box-sizing: border-box;
 }
 
-/* Ad units — 40px breathing room above every ad, consistent centering */
+/* Ad units — consistent centering, breathing room */
 .ad-unit {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 24px;
   margin-bottom: 12px;
+  min-height: 0; /* collapse gracefully when empty */
+}
+
+/* First ad on the page — no top gap */
+.site-main > .ad-unit:first-child {
+  margin-top: 0;
 }
 
 /* Prevent back-to-back ad units from doubling the gap */
 .ad-unit + .ad-unit {
   margin-top: 0;
+}
+
+@media (max-width: 600px) {
+  .ad-unit {
+    margin-top: 16px;
+    margin-bottom: 8px;
+  }
 }
 
 /* ============ Header ============ */
