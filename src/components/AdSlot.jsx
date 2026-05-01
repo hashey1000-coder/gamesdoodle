@@ -4,7 +4,11 @@ import { useLocation } from 'react-router-dom';
 let refreshTimerIds = [];
 
 function runAdRefresh() {
-  try { window.av?.google?.go_rAU?.(); } catch (e) { /* ignore */ }
+  try {
+    const foundNewUnits = window.av?.google?.go_sSN?.();
+    if (foundNewUnits) window.av?.auction?.requestBids?.();
+    window.av?.google?.go_rAU?.();
+  } catch (e) { /* ignore */ }
 }
 
 export function scheduleAdRefresh() {
