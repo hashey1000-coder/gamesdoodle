@@ -2,7 +2,7 @@ import { useEffect, useCallback, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import GameEmbed from '../components/GameEmbed';
-import { LazyAd } from '../components/AdSlot';
+import { AdSlot, LazyAd } from '../components/AdSlot';
 import VoteButtons from '../components/VoteButtons';
 import EmojiReactions from '../components/EmojiReactions';
 import PlayQueueButton from '../components/PlayQueueButton';
