@@ -60,32 +60,20 @@ html, body {
   box-sizing: border-box;
 }
 
-/* Ad units — consistent centering, breathing room */
-.ad-unit {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 24px;
-  margin-bottom: 12px;
-  min-height: 0; /* collapse gracefully when empty */
+/* Ad units — center and 20px margin on all sides */
+#GD_Game_Top,
+#GD_Game_Bottom,
+.lazy {
+  display: block;
+  margin: 20px auto;
+  text-align: center;
 }
 
-/* First ad on the page — no top gap */
-.site-main > .ad-unit:first-child {
+/* First ad — no top gap */
+.site-main > #GD_Game_Top:first-child {
   margin-top: 0;
 }
 
-/* Prevent back-to-back ad units from doubling the gap */
-.ad-unit + .ad-unit {
-  margin-top: 0;
-}
-
-@media (max-width: 600px) {
-  .ad-unit {
-    margin-top: 16px;
-    margin-bottom: 8px;
-  }
-}
 
 /* ============ Header ============ */
 .site-header {
