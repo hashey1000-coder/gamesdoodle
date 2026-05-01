@@ -1,8 +1,8 @@
-import { useEffect, useCallback, useMemo } from 'react';
+import { useEffect, useCallback, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import GameEmbed from '../components/GameEmbed';
-import { LazyAd } from '../components/AdSlot';
+import { LazyAd, scheduleAdRefresh } from '../components/AdSlot';
 import VoteButtons from '../components/VoteButtons';
 import EmojiReactions from '../components/EmojiReactions';
 import PlayQueueButton from '../components/PlayQueueButton';
@@ -68,6 +68,11 @@ export default function GameDetail({ game }) {
   const { checkAndUnlock } = useAchievements();
   const showToast = useToast();
   const fav = isFavorite(game.slug);
+  const [hasMounted, setHasMounted] = useState(false);
+
+  useEffect(() => {
+    setHasMounted(true);
+  }, []);
 
   // Smart "You Might Also Like" — tag-based recommendations beyond relatedSlugs
   const smartRecommendations = getSmartRecommendations(game, relatedGames);
@@ -126,9 +131,16 @@ export default function GameDetail({ game }) {
 
   // Content with in-content ad injected after 3rd paragraph
   const contentWithAd = useMemo(
-    () => injectInContentAd(sanitizeContent(game.content)),
-    [game.content]
+    () => {
+      const sanitized = sanitizeContent(game.content);
+      return hasMounted ? injectInContentAd(sanitized) : sanitized;
+    },
+    [game.content, hasMounted]
   );
+
+  useEffect(() => {
+    if (hasMounted) scheduleAdRefresh();
+  }, [contentWithAd, hasMounted]);
 
   // Use a consistent publish date (site launch) since WordPress dates aren't preserved
   const datePublished = game.datePublished || '2024-01-15T00:00:00+00:00';
