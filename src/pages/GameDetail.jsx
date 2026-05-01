@@ -2,7 +2,7 @@ import { useEffect, useCallback, useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import GameEmbed from '../components/GameEmbed';
-import { AdSlot, LazyAd } from '../components/AdSlot';
+import { LazyAd } from '../components/AdSlot';
 import VoteButtons from '../components/VoteButtons';
 import EmojiReactions from '../components/EmojiReactions';
 import PlayQueueButton from '../components/PlayQueueButton';
@@ -190,8 +190,6 @@ export default function GameDetail({ game }) {
         </div>
 
         <GameEmbed game={game} />
-
-        <AdSlot id="GD_Game_Bottom" />
 
         <VoteButtons slug={game.slug} />
 

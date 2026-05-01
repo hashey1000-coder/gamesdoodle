@@ -1,4 +1,4 @@
-import { Routes, Route, useParams } from 'react-router-dom';
+import { Routes, Route, useLocation, useParams } from 'react-router-dom';
 import { ToastProvider } from './components/Toast';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -26,13 +26,21 @@ function TagRoute() {
 }
 
 function App() {
+  const { pathname, search } = useLocation();
+
   return (
     <ToastProvider>
       <ScrollToTop />
       <div className="site-wrapper">
         <Header />
+        <div className="global-top-ad-shell">
+          <AdSlot
+            key={`${pathname}${search}`}
+            id="GD_Game_Top"
+            className="global-top-ad-slot"
+          />
+        </div>
         <main className="site-main">
-          <AdSlot id="GD_Game_Top" />
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/top-games" element={<TopGamesPage />} />
@@ -47,7 +55,10 @@ function App() {
             <Route path="/:slug/page/:page" element={<GamePage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
-          <AdSlot id="GD_Game_Bottom" />
+          <AdSlot
+            key={`bottom-${pathname}${search}`}
+            id="GD_Game_Bottom"
+          />
         </main>
         <Footer />
         <BackToTop />

@@ -51,6 +51,14 @@ html, body {
   flex-direction: column;
 }
 
+.global-top-ad-shell {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 12px 24px 0;
+  box-sizing: border-box;
+}
+
 .site-main {
   flex: 1;
   width: 100%;
@@ -69,8 +77,8 @@ html, body {
   text-align: center;
 }
 
-/* First ad — no top gap */
-.site-main > #GD_Game_Top:first-child {
+/* Global top ad — sit tight below the header */
+.global-top-ad-slot {
   margin-top: 0;
 }
 
