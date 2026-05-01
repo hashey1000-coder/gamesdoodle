@@ -3,7 +3,7 @@ import { ToastProvider } from './components/Toast';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import BackToTop from './components/BackToTop';
-import { LazyAd } from './components/AdSlot';
+import { AdSlot } from './components/AdSlot';
 import HomePage from './pages/HomePage';
 import GamePage from './pages/GamePage';
 import TagPage from './pages/TagPage';
@@ -34,9 +34,9 @@ function App() {
       <div className="site-wrapper">
         <Header />
         <div className="global-top-ad-shell">
-          <LazyAd
-            key={`${pathname}${search}`}
-            parentUnit="GD_Game_Top"
+          <AdSlot
+            key={`top-${pathname}${search}`}
+            id="GD_Game_Top"
             className="global-top-ad-slot"
           />
         </div>
@@ -55,9 +55,9 @@ function App() {
             <Route path="/:slug/page/:page" element={<GamePage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
-          <LazyAd
+          <AdSlot
             key={`bottom-${pathname}${search}`}
-            parentUnit="GD_Game_Bottom"
+            id="GD_Game_Bottom"
             className="global-bottom-ad-slot"
           />
         </main>

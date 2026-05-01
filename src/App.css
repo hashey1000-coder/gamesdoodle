@@ -71,7 +71,12 @@ html, body {
 /* Ad units — center and 20px margin on all sides */
 #GD_Game_Top,
 #GD_Game_Bottom,
-.lazy {
+.lazy,
+.lazy-unit,
+.av-ads,
+.global-top-ad-slot,
+.global-bottom-ad-slot,
+.page-ad-slot {
   display: block;
   margin: 20px auto;
   text-align: center;

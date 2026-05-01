@@ -10,6 +10,14 @@ function registerNewAdNodes() {
   } catch (e) { /* ignore */ }
 }
 
+function refreshPrimaryAdSlots() {
+  try {
+    if (document.getElementById('GD_Game_Top') || document.getElementById('GD_Game_Bottom')) {
+      window.av?.google?.go_rAU?.();
+    }
+  } catch (e) { /* ignore */ }
+}
+
 export function scheduleAdRefresh() {
   if (typeof window === 'undefined') return;
 
@@ -17,9 +25,13 @@ export function scheduleAdRefresh() {
   refreshTimerIds = [];
 
   registerNewAdNodes();
+  refreshPrimaryAdSlots();
 
   window.requestAnimationFrame(() => {
-    window.requestAnimationFrame(registerNewAdNodes);
+    window.requestAnimationFrame(() => {
+      registerNewAdNodes();
+      refreshPrimaryAdSlots();
+    });
   });
 
   refreshTimerIds = [250, 900, 2200].map(delay => setTimeout(registerNewAdNodes, delay));
