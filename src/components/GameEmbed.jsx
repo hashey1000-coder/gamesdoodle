@@ -1,15 +1,17 @@
 import { useState, useCallback, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { getRelatedGames } from '../data/games';
+import { hasRewardedGameAd, requestGameRewardAd } from './AdSlot';
 
 export default function GameEmbed({ game }) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
+  const rewardTimerRef = useRef(null);
   const relatedGames = getRelatedGames(game.relatedSlugs || []);
   const isExternal = Boolean(game.externalUrl);
 
-  const handlePlay = useCallback(() => {
+  const startGame = useCallback(() => {
     setIsPlaying(true);
     setIsLoaded(false);
     // Save to recently played in localStorage
@@ -22,6 +24,38 @@ export default function GameEmbed({ game }) {
       // localStorage unavailable — ignore
     }
   }, [game.slug]);
+
+  const handlePlay = useCallback(() => {
+    if (hasRewardedGameAd()) {
+      startGame();
+      return;
+    }
+
+    window.rwrdUnfill = false;
+
+    if (!requestGameRewardAd()) {
+      startGame();
+      return;
+    }
+
+    const startedAt = Date.now();
+    const checkReward = () => {
+      if (hasRewardedGameAd() || window.rwrdUnfill) {
+        startGame();
+        return;
+      }
+
+      // Do not leave the player stuck if the provider is blocked or no-fill.
+      if (Date.now() - startedAt > 8000 && !document.querySelector('.advergic-preroll-overlay')) {
+        startGame();
+        return;
+      }
+
+      rewardTimerRef.current = window.setTimeout(checkReward, 250);
+    };
+
+    checkReward();
+  }, [startGame]);
 
   const handleIframeLoad = useCallback(() => {
     setIsLoaded(true);
@@ -59,10 +93,20 @@ export default function GameEmbed({ game }) {
 
   // Reset state when navigating to a different game
   useEffect(() => {
+    if (rewardTimerRef.current) {
+      clearTimeout(rewardTimerRef.current);
+      rewardTimerRef.current = null;
+    }
     setIsPlaying(false);
     setIsFullscreen(false);
     setIsLoaded(false);
   }, [game.slug]);
+
+  useEffect(() => {
+    return () => {
+      if (rewardTimerRef.current) clearTimeout(rewardTimerRef.current);
+    };
+  }, []);
 
   // Lock body scroll when fullscreen
   useEffect(() => {

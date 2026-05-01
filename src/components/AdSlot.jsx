@@ -3,11 +3,10 @@ import { useLocation } from 'react-router-dom';
 
 let refreshTimerIds = [];
 
-function runAdRefresh() {
+function registerNewAdNodes() {
   try {
     const foundNewUnits = window.av?.google?.go_sSN?.();
     if (foundNewUnits) window.av?.auction?.requestBids?.();
-    window.av?.google?.go_rAU?.();
   } catch (e) { /* ignore */ }
 }
 
@@ -17,13 +16,32 @@ export function scheduleAdRefresh() {
   refreshTimerIds.forEach(id => clearTimeout(id));
   refreshTimerIds = [];
 
-  runAdRefresh();
+  registerNewAdNodes();
 
   window.requestAnimationFrame(() => {
-    window.requestAnimationFrame(runAdRefresh);
+    window.requestAnimationFrame(registerNewAdNodes);
   });
 
-  refreshTimerIds = [150, 500, 1200, 2500, 5000].map(delay => setTimeout(runAdRefresh, delay));
+  refreshTimerIds = [250, 900, 2200].map(delay => setTimeout(registerNewAdNodes, delay));
+}
+
+export function hasRewardedGameAd() {
+  if (typeof window === 'undefined') return false;
+  try { return Boolean(window.av?.visitor?.vi_c?.('rewarded')); } catch { return false; }
+}
+
+export function requestGameRewardAd() {
+  if (typeof window === 'undefined') return false;
+
+  try {
+    if (hasRewardedGameAd()) return false;
+    if (!window.av?.gr?.gr_rP) return false;
+
+    window.av.gr.gr_rP();
+    return true;
+  } catch {
+    return false;
+  }
 }
 
 function useClientAdLifecycle() {
@@ -33,10 +51,6 @@ function useClientAdLifecycle() {
   useEffect(() => {
     setMounted(true);
   }, []);
-
-  useEffect(() => {
-    if (mounted) scheduleAdRefresh();
-  }, [mounted, pathname, search]);
 
   return { mounted, routeKey: `${pathname}${search}` };
 }
