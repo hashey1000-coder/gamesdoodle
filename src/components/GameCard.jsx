@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { isNewGame, getTagsForGame } from '../data/games';
 
-export default function GameCard({ game, isFavorite, onToggleFavorite }) {
+export default function GameCard({ game, isFavorite, onToggleFavorite, priority = false }) {
   const [imgError, setImgError] = useState(false);
   const shortTitle = game.title.split(' – ')[0].trim();
   const gameTags = getTagsForGame(game);
@@ -16,7 +16,8 @@ export default function GameCard({ game, isFavorite, onToggleFavorite }) {
             <img
               src={game.thumbnail}
               alt={game.title}
-              loading="lazy"
+              loading={priority ? 'eager' : 'lazy'}
+              fetchPriority={priority ? 'high' : 'auto'}
               decoding="async"
               width="400"
               height="225"

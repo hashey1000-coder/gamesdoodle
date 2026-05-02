@@ -1,7 +1,53 @@
-import { useEffect, useId, useState } from 'react';
+import { useEffect, useId } from 'react';
 import { useLocation } from 'react-router-dom';
 
 let refreshTimerIds = [];
+let adScriptPromise = null;
+
+function loadAdScript() {
+  if (typeof window === 'undefined') return Promise.resolve(false);
+  if (window.av) return Promise.resolve(true);
+  if (adScriptPromise) return adScriptPromise;
+
+  adScriptPromise = new Promise((resolve) => {
+    const existing = document.querySelector('script[data-advergic]');
+    if (existing) {
+      existing.addEventListener('load', () => resolve(true), { once: true });
+      existing.addEventListener('error', () => resolve(false), { once: true });
+      return;
+    }
+
+    const script = document.createElement('script');
+    script.src = 'https://avads.live/s/av-gamesdoodle.js';
+    script.async = true;
+    script.setAttribute('data-advergic', 'true');
+    script.addEventListener('load', () => resolve(true), { once: true });
+    script.addEventListener('error', () => resolve(false), { once: true });
+    document.head.appendChild(script);
+  });
+
+  return adScriptPromise;
+}
+
+export function AdScriptLoader() {
+  useEffect(() => {
+    const load = () => {
+      loadAdScript().then((loaded) => {
+        if (loaded) scheduleAdRefresh();
+      });
+    };
+
+    if ('requestIdleCallback' in window) {
+      const idleId = window.requestIdleCallback(load, { timeout: 1600 });
+      return () => window.cancelIdleCallback?.(idleId);
+    }
+
+    const timer = setTimeout(load, 1200);
+    return () => clearTimeout(timer);
+  }, []);
+
+  return null;
+}
 
 function registerNewAdNodes() {
   try {
@@ -37,34 +83,9 @@ export function scheduleAdRefresh() {
   refreshTimerIds = [250, 900, 2200].map(delay => setTimeout(registerNewAdNodes, delay));
 }
 
-export function hasRewardedGameAd() {
-  if (typeof window === 'undefined') return false;
-  try { return Boolean(window.av?.visitor?.vi_c?.('rewarded')); } catch { return false; }
-}
-
-export function requestGameRewardAd() {
-  if (typeof window === 'undefined') return false;
-
-  try {
-    if (hasRewardedGameAd()) return false;
-    if (!window.av?.gr?.gr_rP) return false;
-
-    window.av.gr.gr_rP();
-    return true;
-  } catch {
-    return false;
-  }
-}
-
-function useClientAdLifecycle() {
+function useAdRouteKey() {
   const { pathname, search } = useLocation();
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  return { mounted, routeKey: `${pathname}${search}` };
+  return `${pathname}${search}`;
 }
 
 /**
@@ -76,9 +97,7 @@ function useClientAdLifecycle() {
 
 /** Named banner slot — exactly as per guide: <div id="GD_Game_Top"></div> */
 export function AdSlot({ id, className = '' }) {
-  const { mounted, routeKey } = useClientAdLifecycle();
-
-  if (!mounted) return null;
+  const routeKey = useAdRouteKey();
 
   return <div key={`${id}-${routeKey}`} id={id} className={className} />;
 }
@@ -86,9 +105,7 @@ export function AdSlot({ id, className = '' }) {
 /** In-content lazy repeater: <div class="lazy" parent-unit="GD_Game_Bottom"></div> */
 export function LazyAd({ className = '', parentUnit = 'GD_Game_Bottom' }) {
   const instanceId = useId().replace(/:/g, '');
-  const { mounted, routeKey } = useClientAdLifecycle();
-
-  if (!mounted) return null;
+  const routeKey = useAdRouteKey();
 
   // eslint-disable-next-line react/no-unknown-property
   return (

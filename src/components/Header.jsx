@@ -44,7 +44,7 @@ export default function Header() {
     <header className="site-header">
       <div className="header-inner">
         <Link to="/" className="site-logo" onClick={() => setMobileOpen(false)}>
-          <img src="/logo.png" alt="Games Doodle" className="logo-icon" />
+          <img src="/logo.png" alt="Games Doodle" className="logo-icon" width="36" height="36" decoding="async" />
           <span className="logo-text">
             Games<span className="logo-highlight">Doodle</span>
           </span>

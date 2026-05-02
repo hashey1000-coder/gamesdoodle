@@ -55,8 +55,9 @@ html, body {
   width: 100%;
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 12px 24px 0;
+  padding: 20px 24px 0;
   box-sizing: border-box;
+  min-height: 130px;
 }
 
 .site-main {
@@ -85,6 +86,26 @@ html, body {
 /* Global top ad — sit tight below the header */
 .global-top-ad-slot {
   margin-top: 0;
+}
+
+#GD_Game_Top,
+#GD_Game_Bottom,
+.global-top-ad-slot,
+.global-bottom-ad-slot {
+  min-height: 90px;
+}
+
+@media (max-width: 768px) {
+  .global-top-ad-shell {
+    min-height: 290px;
+  }
+
+  #GD_Game_Top,
+  #GD_Game_Bottom,
+  .global-top-ad-slot,
+  .global-bottom-ad-slot {
+    min-height: 250px;
+  }
 }
 
 

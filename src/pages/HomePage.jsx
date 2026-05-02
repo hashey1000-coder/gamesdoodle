@@ -84,8 +84,8 @@ export default function HomePage() {
             <Link to="/google-doodle-games/" className="homepage-section-link">View all →</Link>
           </div>
           <div className="games-grid">
-            {featuredGames.map(game => (
-              <GameCard key={game.slug} game={game} isFavorite={isFavorite(game.slug)} onToggleFavorite={toggleFavorite} />
+            {featuredGames.map((game, index) => (
+              <GameCard key={game.slug} game={game} isFavorite={isFavorite(game.slug)} onToggleFavorite={toggleFavorite} priority={index === 0} />
             ))}
           </div>
         </section>

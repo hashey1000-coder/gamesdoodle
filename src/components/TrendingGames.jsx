@@ -5,32 +5,59 @@ import { db } from '../firebase';
 import { getGameBySlug } from '../data/games';
 import { formatPlayCount } from '../hooks/usePlayCount';
 
+const FALLBACK_TRENDING_SLUGS = [
+  'doodle-baseball',
+  'drive-mad',
+  'google-cricket',
+  'google-snake',
+  'dinosaur-game',
+  'google-pacman',
+  'slope-unblocked',
+  'google-tic-tac-toe',
+];
+
+const FALLBACK_TRENDING = FALLBACK_TRENDING_SLUGS
+  .map((slug, index) => {
+    const game = getGameBySlug(slug);
+    return game ? { ...game, _playCount: [5400, 3300, 1500, 1200, 1000, 900, 800, 700][index] } : null;
+  })
+  .filter(Boolean);
+
 /**
  * Trending Games section — shows top games by recent play count.
  * Pulls from Firebase playCounts and displays as a horizontal strip.
  */
 export default function TrendingGames() {
-  const [trending, setTrending] = useState([]);
+  const [trending, setTrending] = useState(FALLBACK_TRENDING);
 
   useEffect(() => {
     if (!db) return;
-    const topRef = query(ref(db, 'playCounts'), orderByValue(), limitToLast(10));
-    const unsubscribe = onValue(topRef, (snapshot) => {
-      const data = snapshot.val();
-      if (!data) { setTrending([]); return; }
-      const entries = Object.entries(data)
-        .map(([slug, count]) => ({ slug, count }))
-        .sort((a, b) => b.count - a.count);
-      const resolved = entries
-        .map(e => {
-          const g = getGameBySlug(e.slug);
-          return g ? { ...g, _playCount: e.count } : null;
-        })
-        .filter(Boolean)
-        .slice(0, 8);
-      setTrending(resolved);
-    });
-    return () => unsubscribe();
+    let unsubscribe;
+
+    const subscribe = () => {
+      const topRef = query(ref(db, 'playCounts'), orderByValue(), limitToLast(10));
+      unsubscribe = onValue(topRef, (snapshot) => {
+        const data = snapshot.val();
+        if (!data) return;
+        const entries = Object.entries(data)
+          .map(([slug, count]) => ({ slug, count }))
+          .sort((a, b) => b.count - a.count);
+        const resolved = entries
+          .map(e => {
+            const g = getGameBySlug(e.slug);
+            return g ? { ...g, _playCount: e.count } : null;
+          })
+          .filter(Boolean)
+          .slice(0, 8);
+        if (resolved.length > 0) setTrending(resolved);
+      });
+    };
+
+    const timer = setTimeout(subscribe, 2500);
+    return () => {
+      clearTimeout(timer);
+      if (unsubscribe) unsubscribe();
+    };
   }, []);
 
   if (trending.length === 0) return null;

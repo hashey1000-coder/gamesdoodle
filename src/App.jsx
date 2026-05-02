@@ -3,7 +3,7 @@ import { ToastProvider } from './components/Toast';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import BackToTop from './components/BackToTop';
-import { AdSlot } from './components/AdSlot';
+import { AdScriptLoader, AdSlot } from './components/AdSlot';
 import HomePage from './pages/HomePage';
 import GamePage from './pages/GamePage';
 import TagPage from './pages/TagPage';
@@ -30,6 +30,7 @@ function App() {
 
   return (
     <ToastProvider>
+      <AdScriptLoader />
       <ScrollToTop />
       <div className="site-wrapper">
         <Header />

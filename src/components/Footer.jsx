@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="footer-inner">
         <div className="footer-brand">
-          <img src="/logo.png" alt="Games Doodle" className="footer-brand-icon" />
+          <img src="/logo.png" alt="Games Doodle" className="footer-brand-icon" width="32" height="32" loading="lazy" decoding="async" />
           <span className="footer-brand-text">Games Doodle</span>
         </div>
         <div className="footer-links">
