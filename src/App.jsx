@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import BackToTop from './components/BackToTop';
 import HomePage from './pages/HomePage';
 import ScrollToTop from './components/ScrollToTop';
+import { AdScriptLoader, AdSlot } from './components/AdSlot';
 import './App.css';
 
 const GamePage = lazy(() => import('./pages/GamePage'));
@@ -18,37 +19,72 @@ const FavoritesPage = lazy(() => import('./pages/FavoritesPage'));
 const CollectionsIndex = lazy(() => import('./pages/CollectionsPage').then(module => ({ default: module.CollectionsIndex })));
 const CollectionDetail = lazy(() => import('./pages/CollectionsPage').then(module => ({ default: module.CollectionDetail })));
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage'));
-const AdScriptLoader = import.meta.env.PROD
-  ? lazy(() => import('./components/AdSlot').then(module => ({ default: module.AdScriptLoader })))
-  : () => null;
-const AdSlot = import.meta.env.PROD
-  ? lazy(() => import('./components/AdSlot').then(module => ({ default: module.AdSlot })))
-  : () => null;
+
+function runAfterCriticalWindow(callback) {
+  if (typeof window === 'undefined') return () => {};
+
+  let timerId;
+  let idleId;
+  let done = false;
+
+  const run = () => {
+    if (done) return;
+    done = true;
+    window.clearTimeout(timerId);
+    if (idleId) window.cancelIdleCallback?.(idleId);
+    callback();
+  };
+
+  const queue = () => {
+    if ('requestIdleCallback' in window) {
+      idleId = window.requestIdleCallback(run, { timeout: 12000 });
+    }
+    timerId = window.setTimeout(run, 12000);
+  };
+
+  if (document.readyState === 'complete') {
+    queue();
+  } else {
+    window.addEventListener('load', queue, { once: true });
+  }
+
+  ['pointerdown', 'keydown', 'touchstart'].forEach(eventName => {
+    window.addEventListener(eventName, run, { once: true, passive: true });
+  });
+
+  return () => {
+    done = true;
+    window.clearTimeout(timerId);
+    if (idleId) window.cancelIdleCallback?.(idleId);
+    window.removeEventListener('load', queue);
+    ['pointerdown', 'keydown', 'touchstart'].forEach(eventName => {
+      window.removeEventListener(eventName, run);
+    });
+  };
+}
 
 function AnalyticsLoader() {
   useEffect(() => {
     if (!import.meta.env.PROD || typeof window === 'undefined') return;
     if (window.dataLayer) return;
 
-    const preconnect = document.createElement('link');
-    preconnect.rel = 'preconnect';
-    preconnect.href = 'https://www.googletagmanager.com';
-    preconnect.crossOrigin = 'anonymous';
-    document.head.appendChild(preconnect);
-
-    const script = document.createElement('script');
-    script.src = 'https://www.googletagmanager.com/gtag/js?id=G-LW3QVZF18T';
-    script.async = true;
-    document.head.appendChild(script);
-
     window.dataLayer = window.dataLayer || [];
     window.gtag = function gtag() { window.dataLayer.push(arguments); };
-    window.gtag('js', new Date());
-    window.gtag('config', 'G-LW3QVZF18T');
+
+    let script;
+    const cleanup = runAfterCriticalWindow(() => {
+      script = document.createElement('script');
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=G-LW3QVZF18T';
+      script.async = true;
+      document.head.appendChild(script);
+
+      window.gtag('js', new Date());
+      window.gtag('config', 'G-LW3QVZF18T', { send_page_view: true });
+    });
 
     return () => {
-      preconnect.remove();
-      script.remove();
+      cleanup();
+      script?.remove();
     };
   }, []);
 
@@ -67,24 +103,18 @@ function App() {
   return (
     <ToastProvider>
       <AnalyticsLoader />
-      {showAds && (
-        <Suspense fallback={null}>
-          <AdScriptLoader />
-        </Suspense>
-      )}
+      {showAds && <AdScriptLoader />}
       <ScrollToTop />
       <div className="site-wrapper">
         <Header />
         {showAds && (
-          <Suspense fallback={null}>
-            <div className="global-top-ad-shell">
-              <AdSlot
-                key={`top-${pathname}${search}`}
-                id="GD_Game_Top"
-                className="global-top-ad-slot"
-              />
-            </div>
-          </Suspense>
+          <div className="global-top-ad-shell" aria-hidden="true">
+            <AdSlot
+              key={`top-${pathname}${search}`}
+              id="GD_Game_Top"
+              className="global-top-ad-slot"
+            />
+          </div>
         )}
         <main className="site-main">
           <Suspense fallback={null}>
@@ -104,13 +134,11 @@ function App() {
             </Routes>
           </Suspense>
           {showAds && (
-            <Suspense fallback={null}>
-              <AdSlot
-                key={`bottom-${pathname}${search}`}
-                id="GD_Game_Bottom"
-                className="global-bottom-ad-slot"
-              />
-            </Suspense>
+            <AdSlot
+              key={`bottom-${pathname}${search}`}
+              id="GD_Game_Bottom"
+              className="global-bottom-ad-slot"
+            />
           )}
         </main>
         <Footer />

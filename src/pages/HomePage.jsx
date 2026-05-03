@@ -1,14 +1,12 @@
-import { lazy, Suspense, useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import GameCard from '../components/GameCard';
+import SEO from '../components/SEO';
+import TrendingGames from '../components/TrendingGames';
+import { LazyAd } from '../components/AdSlot';
 import { featuredHomeGames, homeCollectionPreviews, homeTagCounts } from '../data/homeData';
 import { tagMeta as tags } from '../data/tagMeta';
 import { useFavorites } from '../hooks/useFavorites';
-
-const TrendingGames = lazy(() => import('../components/TrendingGames'));
-const LazyAd = import.meta.env.PROD
-  ? lazy(() => import('../components/AdSlot').then(module => ({ default: module.LazyAd })))
-  : () => null;
 
 function getRecentlyPlayed() {
   try {
@@ -22,26 +20,22 @@ function getRecentlyPlayed() {
 export default function HomePage() {
   const [recentGames, setRecentGames] = useState([]);
   const [genreExpanded, setGenreExpanded] = useState(false);
-  const [showTrending, setShowTrending] = useState(false);
   const { toggleFavorite, isFavorite } = useFavorites();
 
   useEffect(() => {
-    setRecentGames(getRecentlyPlayed());
-  }, []);
-
-  useEffect(() => {
-    const show = () => setShowTrending(true);
-    if ('requestIdleCallback' in window) {
-      const idleId = window.requestIdleCallback(show, { timeout: 2500 });
-      return () => window.cancelIdleCallback?.(idleId);
-    }
-
-    const timer = setTimeout(show, 1800);
+    const timer = setTimeout(() => setRecentGames(getRecentlyPlayed()), 0);
     return () => clearTimeout(timer);
   }, []);
 
   return (
     <>
+      <SEO
+        title="Games Doodle - Play Google Doodle Games Online"
+        description="Play fun and interactive Google Doodle Games online. Enjoy classic and new doodles with creative gameplay, browser games, challenges, and endless entertainment."
+        canonical="/"
+        image="/logo.png"
+        schemaType="homepage"
+      />
       <div className="page-content">
         {/* Hero Section - matches WP H1 exactly */}
         <section className="hero-section">
@@ -66,15 +60,9 @@ export default function HomePage() {
         )}
 
         {/* Trending Games — from Firebase play counts */}
-        {showTrending && (
-          <Suspense fallback={null}>
-            <TrendingGames />
-          </Suspense>
-        )}
+        <TrendingGames />
 
-        <Suspense fallback={null}>
-          <LazyAd className="page-ad-slot" />
-        </Suspense>
+        <LazyAd className="page-ad-slot" />
 
         {/* Featured Games Grid */}
         <section className="homepage-section">
@@ -113,9 +101,7 @@ export default function HomePage() {
         </section>
 
         {/* Curated Collections Preview */}
-        <Suspense fallback={null}>
-          <LazyAd className="page-ad-slot" />
-        </Suspense>
+        <LazyAd className="page-ad-slot" />
         <section className="homepage-section">
           <div className="homepage-section-header">
             <h2 className="homepage-section-title">🎯 Game Collections</h2>
@@ -132,9 +118,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        <Suspense fallback={null}>
-          <LazyAd className="page-ad-slot" />
-        </Suspense>
+        <LazyAd className="page-ad-slot" />
 
         <div className="homepage-seo-text">
           <p>Google Doodle games turn the search engine's iconic logo into playable interactive experiences, celebrating holidays, historic events, and cultural moments from around the world. From the Halloween-themed Great Ghoul Duel to the Olympic hurdles runner, each game offers a unique creative twist that blends art, music, and gameplay into something anyone can enjoy in seconds.</p>

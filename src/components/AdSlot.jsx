@@ -1,4 +1,5 @@
-import { useEffect, useId } from 'react';
+/* eslint-disable react-refresh/only-export-components */
+import { useEffect, useId, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 
 let refreshTimerIds = [];
@@ -31,10 +32,61 @@ function loadAdScript() {
   return adScriptPromise;
 }
 
-export function AdScriptLoader() {
-  if (!ADS_ENABLED) return null;
+function useAdsReady() {
+  const [ready, setReady] = useState(false);
 
   useEffect(() => {
+    if (!ADS_ENABLED || typeof window === 'undefined') return undefined;
+
+    let timerId;
+    let idleId;
+    let complete = false;
+
+    const markReady = () => {
+      if (complete) return;
+      complete = true;
+      clearTimeout(timerId);
+      if (idleId) window.cancelIdleCallback?.(idleId);
+      setReady(true);
+    };
+
+    const queue = () => {
+      if ('requestIdleCallback' in window) {
+        idleId = window.requestIdleCallback(markReady, { timeout: 12000 });
+      }
+      timerId = setTimeout(markReady, 12000);
+    };
+
+    if (document.readyState === 'complete') {
+      queue();
+    } else {
+      window.addEventListener('load', queue, { once: true });
+    }
+
+    ['pointerdown', 'keydown', 'touchstart'].forEach(eventName => {
+      window.addEventListener(eventName, markReady, { once: true, passive: true });
+    });
+
+    return () => {
+      complete = true;
+      clearTimeout(timerId);
+      if (idleId) window.cancelIdleCallback?.(idleId);
+      window.removeEventListener('load', queue);
+      ['pointerdown', 'keydown', 'touchstart'].forEach(eventName => {
+        window.removeEventListener(eventName, markReady);
+      });
+    };
+  }, []);
+
+  return ready;
+}
+
+export function AdScriptLoader() {
+  const adsReady = useAdsReady();
+
+  useEffect(() => {
+    if (!ADS_ENABLED || !adsReady) return undefined;
+
     const load = () => {
       loadAdScript().then((loaded) => {
         if (loaded) scheduleAdRefresh();
@@ -48,7 +100,7 @@ export function AdScriptLoader() {
 
     const timer = setTimeout(load, 1200);
     return () => clearTimeout(timer);
-  }, []);
+  }, [adsReady]);
 
   return null;
 }
@@ -57,7 +109,7 @@ function registerNewAdNodes() {
   try {
     const foundNewUnits = window.av?.google?.go_sSN?.();
     if (foundNewUnits) window.av?.auction?.requestBids?.();
-  } catch (e) { /* ignore */ }
+  } catch { /* ignore */ }
 }
 
 function refreshPrimaryAdSlots() {
@@ -65,7 +117,7 @@ function refreshPrimaryAdSlots() {
     if (document.getElementById('GD_Game_Top') || document.getElementById('GD_Game_Bottom')) {
       window.av?.google?.go_rAU?.();
     }
-  } catch (e) { /* ignore */ }
+  } catch { /* ignore */ }
 }
 
 export function scheduleAdRefresh() {
@@ -102,19 +154,30 @@ function useAdRouteKey() {
 
 /** Named banner slot — exactly as per guide: <div id="GD_Game_Top"></div> */
 export function AdSlot({ id, className = '' }) {
-  if (!ADS_ENABLED) return null;
   const routeKey = useAdRouteKey();
+  const adsReady = useAdsReady();
+
+  if (!ADS_ENABLED) return null;
+
+  if (!adsReady) {
+    return <div className={[className, 'ad-slot-placeholder'].filter(Boolean).join(' ')} aria-hidden="true" />;
+  }
 
   return <div key={`${id}-${routeKey}`} id={id} className={className} />;
 }
 
 /** In-content lazy repeater: <div class="lazy" parent-unit="GD_Game_Bottom"></div> */
 export function LazyAd({ className = '', parentUnit = 'GD_Game_Bottom' }) {
-  if (!ADS_ENABLED) return null;
   const instanceId = useId().replace(/:/g, '');
   const routeKey = useAdRouteKey();
+  const adsReady = useAdsReady();
 
-  // eslint-disable-next-line react/no-unknown-property
+  if (!ADS_ENABLED) return null;
+
+  if (!adsReady) {
+    return <div className={[className, 'ad-slot-placeholder'].filter(Boolean).join(' ')} aria-hidden="true" />;
+  }
+
   return (
     <div
       key={`${parentUnit}-${instanceId}-${routeKey}`}

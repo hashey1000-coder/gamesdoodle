@@ -2,6 +2,10 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { isNewGame, getTagMetaForGame } from '../data/tagMeta';
 
+const CARD_SRCSETS = {
+  '/images/doodle-baseball.webp': '/images/doodle-baseball-card.webp 420w, /images/doodle-baseball.webp 640w',
+};
+
 export default function GameCard({ game, isFavorite, onToggleFavorite, priority = false }) {
   const [imgError, setImgError] = useState(false);
   const shortTitle = game.title.split(' – ')[0].trim();
@@ -15,12 +19,14 @@ export default function GameCard({ game, isFavorite, onToggleFavorite, priority 
           {game.thumbnail && !imgError ? (
             <img
               src={game.thumbnail}
+              srcSet={CARD_SRCSETS[game.thumbnail]}
+              sizes="(max-width: 480px) calc((100vw - 40px) / 2), (max-width: 768px) calc((100vw - 52px) / 2), (max-width: 1280px) calc((100vw - 88px) / 3), 400px"
               alt=""
               loading={priority ? 'eager' : 'lazy'}
               fetchPriority={priority ? 'high' : 'auto'}
               decoding="async"
               width="400"
-              height="225"
+              height="250"
               onError={() => setImgError(true)}
             />
           ) : (

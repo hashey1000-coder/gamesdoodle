@@ -75,7 +75,7 @@ function buildPage(url) {
   // client-side code uses [data-rh] to find managed tags during hydration.
   // Without it, Helmet adds a second set of title/meta/link → duplicates.
   // Inject data-rh="true" on every Helmet-generated tag so hydration dedupes.
-  const markedHeadTags = headTags.replace(/<(title|meta|link)([\s>\/])/g, '<$1 data-rh="true"$2');
+  const markedHeadTags = headTags.replace(/<(title|meta|link)([\s>/])/g, '<$1 data-rh="true"$2');
 
   // Extract JSON-LD <script> tags from inside the body and move them to <head>
   let jsonLd = '';

@@ -20,6 +20,7 @@ export default defineConfig({
     headers: securityHeaders,
   },
   build: {
+    sourcemap: true,
     rollupOptions: {
       output: {
         manualChunks(id) {

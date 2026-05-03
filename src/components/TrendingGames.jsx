@@ -19,6 +19,43 @@ const FALLBACK_TRENDING = [
   { slug: 'google-tic-tac-toe', title: 'Google Tic Tac Toe - Play Game Free Online', thumbnail: '/images/google-tic-tac-toe.webp', _playCount: 700 },
 ];
 
+const TRENDING_THUMBS = {
+  '/images/doodle-baseball.webp': '/images/doodle-baseball-tiny.webp',
+  '/images/google-cricket.webp': '/images/google-cricket-tiny.webp',
+  '/images/google-snake.webp': '/images/google-snake-tiny.webp',
+  '/images/google-tic-tac-toe.webp': '/images/google-tic-tac-toe-tiny.webp',
+};
+
+function getTrendingThumb(src) {
+  return TRENDING_THUMBS[src] || src;
+}
+
+function runAfterUserOrDelay(callback) {
+  if (typeof window === 'undefined') return () => {};
+
+  let timerId;
+  let complete = false;
+  const run = () => {
+    if (complete) return;
+    complete = true;
+    window.clearTimeout(timerId);
+    callback();
+  };
+
+  timerId = window.setTimeout(run, 15000);
+  ['pointerdown', 'keydown', 'touchstart'].forEach(eventName => {
+    window.addEventListener(eventName, run, { once: true, passive: true });
+  });
+
+  return () => {
+    complete = true;
+    window.clearTimeout(timerId);
+    ['pointerdown', 'keydown', 'touchstart'].forEach(eventName => {
+      window.removeEventListener(eventName, run);
+    });
+  };
+}
+
 /**
  * Trending Games section — shows top games by recent play count.
  * Pulls from Firebase playCounts and displays as a horizontal strip.
@@ -59,10 +96,10 @@ export default function TrendingGames() {
       });
     };
 
-    const timer = setTimeout(subscribe, 2500);
+    const cleanupDelay = runAfterUserOrDelay(subscribe);
     return () => {
       cancelled = true;
-      clearTimeout(timer);
+      cleanupDelay();
       if (unsubscribe) unsubscribe();
     };
   }, []);
@@ -83,7 +120,7 @@ export default function TrendingGames() {
               <span className="trending-rank">#{i + 1}</span>
               <div className="trending-thumb">
                 {game.thumbnail && (
-                  <img src={game.thumbnail} alt="" loading="lazy" width="48" height="28" />
+                  <img src={getTrendingThumb(game.thumbnail)} alt="" loading="lazy" decoding="async" width="48" height="28" />
                 )}
               </div>
               <div className="trending-info">
