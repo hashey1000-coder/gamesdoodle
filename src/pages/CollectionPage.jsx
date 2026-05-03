@@ -123,7 +123,7 @@ export default function CollectionPage({ slug }) {
 
         <LazyAd />
 
-        {/* Link to all collections */}}
+        {/* Link to all collections */}
         <div className="collection-back">
           <Link to="/collections/" className="collection-back-link">
             ← View All Collections
