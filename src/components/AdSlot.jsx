@@ -39,16 +39,24 @@ function useAdsReady() {
     if (!ADS_ENABLED || typeof window === 'undefined') return undefined;
 
     let timerId;
+    let idleId;
     let complete = false;
 
     const markReady = () => {
       if (complete) return;
       complete = true;
       clearTimeout(timerId);
+      if (typeof window.cancelIdleCallback === 'function' && idleId) {
+        window.cancelIdleCallback(idleId);
+      }
       setReady(true);
     };
 
-    timerId = setTimeout(markReady, 30000);
+    if (typeof window.requestIdleCallback === 'function') {
+      idleId = window.requestIdleCallback(markReady, { timeout: 1800 });
+    }
+
+    timerId = setTimeout(markReady, 2500);
 
     ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach(eventName => {
       window.addEventListener(eventName, markReady, { once: true, passive: true });
@@ -57,6 +65,9 @@ function useAdsReady() {
     return () => {
       complete = true;
       clearTimeout(timerId);
+      if (typeof window.cancelIdleCallback === 'function' && idleId) {
+        window.cancelIdleCallback(idleId);
+      }
       ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach(eventName => {
         window.removeEventListener(eventName, markReady);
       });
@@ -72,14 +83,11 @@ export function AdScriptLoader() {
   useEffect(() => {
     if (!ADS_ENABLED || !adsReady) return undefined;
 
-    const load = () => {
-      loadAdScript().then((loaded) => {
-        if (loaded) scheduleAdRefresh();
-      });
-    };
+    loadAdScript().then((loaded) => {
+      if (loaded) scheduleAdRefresh();
+    });
 
-    const timer = setTimeout(load, 250);
-    return () => clearTimeout(timer);
+    return undefined;
   }, [adsReady]);
 
   return null;
