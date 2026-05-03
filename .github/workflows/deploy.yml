@@ -41,8 +41,11 @@ jobs:
           CPANEL_HOST: ${{ secrets.CPANEL_HOST }}
           CPANEL_USER: ${{ secrets.CPANEL_USER }}
           CPANEL_SSH_KEY: ${{ secrets.CPANEL_SSH_KEY }}
+          CPANEL_SSH_PORT: ${{ secrets.CPANEL_SSH_PORT }}
         run: |
           set -euo pipefail
+
+          SSH_PORT="${CPANEL_SSH_PORT:-22}"
 
           if [ -z "${CPANEL_HOST}" ]; then
             echo "CPANEL_HOST secret is empty or missing"
@@ -59,11 +62,16 @@ jobs:
             exit 1
           fi
 
+          if ! [[ "$SSH_PORT" =~ ^[0-9]+$ ]]; then
+            echo "CPANEL_SSH_PORT must be a numeric port, got: $SSH_PORT"
+            exit 1
+          fi
+
           mkdir -p ~/.ssh
           printf '%s\n' "$CPANEL_SSH_KEY" | tr -d '\r' > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
-          if ! ssh-keyscan -T 15 -H "$CPANEL_HOST" >> ~/.ssh/known_hosts 2>/dev/null; then
-            echo "ssh-keyscan failed for host: $CPANEL_HOST"
+          if ! ssh-keyscan -T 15 -p "$SSH_PORT" -H "$CPANEL_HOST" >> ~/.ssh/known_hosts 2>/dev/null; then
+            echo "ssh-keyscan failed for host: $CPANEL_HOST on port $SSH_PORT"
             exit 1
           fi
 
@@ -71,9 +79,12 @@ jobs:
         env:
           CPANEL_HOST: ${{ secrets.CPANEL_HOST }}
           CPANEL_USER: ${{ secrets.CPANEL_USER }}
+          CPANEL_SSH_PORT: ${{ secrets.CPANEL_SSH_PORT }}
         run: |
           set -euo pipefail
+          SSH_PORT="${CPANEL_SSH_PORT:-22}"
           scp -r dist/* \
+          -P "$SSH_PORT" \
           "$CPANEL_USER@$CPANEL_HOST:/home/sassache2/gamesdoodle.org/"
 
       - name: Submit new URLs to Bing IndexNow
