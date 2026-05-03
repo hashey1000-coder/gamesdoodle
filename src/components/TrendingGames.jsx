@@ -1,27 +1,23 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ref, onValue, query, orderByValue, limitToLast } from 'firebase/database';
-import { db } from '../firebase';
-import { getGameBySlug } from '../data/games';
-import { formatPlayCount } from '../hooks/usePlayCount';
 
-const FALLBACK_TRENDING_SLUGS = [
-  'doodle-baseball',
-  'drive-mad',
-  'google-cricket',
-  'google-snake',
-  'dinosaur-game',
-  'google-pacman',
-  'slope-unblocked',
-  'google-tic-tac-toe',
+function formatPlayCount(count) {
+  if (!count) return '0';
+  if (count >= 1_000_000) return `${(count / 1_000_000).toFixed(1)}M`;
+  if (count >= 1_000) return `${(count / 1_000).toFixed(1)}K`;
+  return count.toString();
+}
+
+const FALLBACK_TRENDING = [
+  { slug: 'doodle-baseball', title: 'Google Doodle Baseball - Play 4th of July Game Online', thumbnail: '/images/doodle-baseball.webp', _playCount: 5400 },
+  { slug: 'drive-mad', title: 'Drive Mad - Play the Physics Driving Game Online', thumbnail: '/images/drive-mad-small.webp', _playCount: 3300 },
+  { slug: 'google-cricket', title: 'Google Cricket - Play Google Doodle Cricket Online', thumbnail: '/images/google-cricket.webp', _playCount: 1500 },
+  { slug: 'google-snake', title: 'Google Snake - Play Classic Snake Game Online', thumbnail: '/images/google-snake.webp', _playCount: 1200 },
+  { slug: 'dinosaur-game', title: 'Google Dinosaur Game - Play Chrome Dino Run Online', thumbnail: '/images/dinosaur-game.webp', _playCount: 1000 },
+  { slug: 'google-pacman', title: 'Google Pacman - Play the Game Free Online', thumbnail: '/images/google-pacman.webp', _playCount: 900 },
+  { slug: 'slope-unblocked', title: 'Slope Unblocked - Play the Endless Runner Online', thumbnail: '/images/slope-unblocked.webp', _playCount: 800 },
+  { slug: 'google-tic-tac-toe', title: 'Google Tic Tac Toe - Play Game Free Online', thumbnail: '/images/google-tic-tac-toe.webp', _playCount: 700 },
 ];
-
-const FALLBACK_TRENDING = FALLBACK_TRENDING_SLUGS
-  .map((slug, index) => {
-    const game = getGameBySlug(slug);
-    return game ? { ...game, _playCount: [5400, 3300, 1500, 1200, 1000, 900, 800, 700][index] } : null;
-  })
-  .filter(Boolean);
 
 /**
  * Trending Games section — shows top games by recent play count.
@@ -31,10 +27,20 @@ export default function TrendingGames() {
   const [trending, setTrending] = useState(FALLBACK_TRENDING);
 
   useEffect(() => {
-    if (!db) return;
-    let unsubscribe;
+    if (!import.meta.env.PROD) return;
 
-    const subscribe = () => {
+    let unsubscribe;
+    let cancelled = false;
+
+    const subscribe = async () => {
+      const [{ ref, onValue, query, orderByValue, limitToLast }, { db }, { getGameBySlug }] = await Promise.all([
+        import('firebase/database'),
+        import('../firebase'),
+        import('../data/games'),
+      ]);
+
+      if (cancelled || !db) return;
+
       const topRef = query(ref(db, 'playCounts'), orderByValue(), limitToLast(10));
       unsubscribe = onValue(topRef, (snapshot) => {
         const data = snapshot.val();
@@ -55,6 +61,7 @@ export default function TrendingGames() {
 
     const timer = setTimeout(subscribe, 2500);
     return () => {
+      cancelled = true;
       clearTimeout(timer);
       if (unsubscribe) unsubscribe();
     };
@@ -66,7 +73,7 @@ export default function TrendingGames() {
     <section className="homepage-section trending-section">
       <div className="homepage-section-header">
         <h2 className="homepage-section-title">🔥 Trending Now</h2>
-        <Link to="/top-games/" className="homepage-section-link">See all →</Link>
+        <Link to="/top-games/" className="homepage-section-link">All top games →</Link>
       </div>
       <div className="trending-strip">
         {trending.map((game, i) => {
@@ -76,7 +83,7 @@ export default function TrendingGames() {
               <span className="trending-rank">#{i + 1}</span>
               <div className="trending-thumb">
                 {game.thumbnail && (
-                  <img src={game.thumbnail} alt={shortTitle} loading="lazy" width="120" height="68" />
+                  <img src={game.thumbnail} alt="" loading="lazy" width="48" height="28" />
                 )}
               </div>
               <div className="trending-info">

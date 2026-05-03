@@ -1,28 +1,19 @@
-import { useState, useEffect } from 'react';
+import { lazy, Suspense, useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import SEO from '../components/SEO';
 import GameCard from '../components/GameCard';
-import { LazyAd } from '../components/AdSlot';
-import TrendingGames from '../components/TrendingGames';
-import { games, tags, featuredGameSlugs, getGameBySlug } from '../data/games';
-import { collections } from '../data/collections';
+import { featuredHomeGames, homeCollectionPreviews, homeTagCounts } from '../data/homeData';
+import { tagMeta as tags } from '../data/tagMeta';
 import { useFavorites } from '../hooks/useFavorites';
 
-// Count games per tag (computed once at module level)
-const tagGameCounts = {};
-games.forEach(game => {
-  (game.tags || []).forEach(tagSlug => {
-    tagGameCounts[tagSlug] = (tagGameCounts[tagSlug] || 0) + 1;
-  });
-});
+const TrendingGames = lazy(() => import('../components/TrendingGames'));
+const LazyAd = import.meta.env.PROD
+  ? lazy(() => import('../components/AdSlot').then(module => ({ default: module.LazyAd })))
+  : () => null;
 
 function getRecentlyPlayed() {
   try {
-    const stored = JSON.parse(localStorage.getItem('recentlyPlayed') || '[]');
-    return stored
-      .map(slug => getGameBySlug(slug))
-      .filter(Boolean)
-      .slice(0, 6);
+    const stored = JSON.parse(localStorage.getItem('recentlyPlayedGames') || '[]');
+    return Array.isArray(stored) ? stored.slice(0, 6) : [];
   } catch {
     return [];
   }
@@ -31,24 +22,26 @@ function getRecentlyPlayed() {
 export default function HomePage() {
   const [recentGames, setRecentGames] = useState([]);
   const [genreExpanded, setGenreExpanded] = useState(false);
+  const [showTrending, setShowTrending] = useState(false);
   const { toggleFavorite, isFavorite } = useFavorites();
 
   useEffect(() => {
     setRecentGames(getRecentlyPlayed());
   }, []);
 
-  const featuredGames = featuredGameSlugs
-    .map(slug => games.find(g => g.slug === slug))
-    .filter(Boolean);
+  useEffect(() => {
+    const show = () => setShowTrending(true);
+    if ('requestIdleCallback' in window) {
+      const idleId = window.requestIdleCallback(show, { timeout: 2500 });
+      return () => window.cancelIdleCallback?.(idleId);
+    }
+
+    const timer = setTimeout(show, 1800);
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <>
-      <SEO
-        title="Games Doodle - Play Google Doodle Games Online"
-        description="Play fun and interactive Google Doodle Games online. Enjoy classic and new doodles with creative gameplay, challenges, and endless entertainment!"
-        canonical="/"
-        schemaType="homepage"
-      />
       <div className="page-content">
         {/* Hero Section - matches WP H1 exactly */}
         <section className="hero-section">
@@ -73,18 +66,24 @@ export default function HomePage() {
         )}
 
         {/* Trending Games — from Firebase play counts */}
-        <TrendingGames />
+        {showTrending && (
+          <Suspense fallback={null}>
+            <TrendingGames />
+          </Suspense>
+        )}
 
-        <LazyAd className="page-ad-slot" />
+        <Suspense fallback={null}>
+          <LazyAd className="page-ad-slot" />
+        </Suspense>
 
         {/* Featured Games Grid */}
         <section className="homepage-section">
           <div className="homepage-section-header">
             <h2 className="homepage-section-title">⭐ Featured Games</h2>
-            <Link to="/google-doodle-games/" className="homepage-section-link">View all →</Link>
+            <Link to="/google-doodle-games/" className="homepage-section-link">All doodle games →</Link>
           </div>
           <div className="games-grid">
-            {featuredGames.map((game, index) => (
+            {featuredHomeGames.map((game, index) => (
               <GameCard key={game.slug} game={game} isFavorite={isFavorite(game.slug)} onToggleFavorite={toggleFavorite} priority={index === 0} />
             ))}
           </div>
@@ -107,31 +106,35 @@ export default function HomePage() {
               <Link key={tag.slug} to={`/tag/${tag.slug}/`} className="genre-card">
                 <span className="genre-card-emoji">{tag.emoji}</span>
                 <span className="genre-card-name">{tag.name}</span>
-                <span className="genre-card-count">{tagGameCounts[tag.slug] || 0} games</span>
+                <span className="genre-card-count">{homeTagCounts[tag.slug] || 0} games</span>
               </Link>
             ))}
           </div>
         </section>
 
         {/* Curated Collections Preview */}
-        <LazyAd className="page-ad-slot" />
+        <Suspense fallback={null}>
+          <LazyAd className="page-ad-slot" />
+        </Suspense>
         <section className="homepage-section">
           <div className="homepage-section-header">
             <h2 className="homepage-section-title">🎯 Game Collections</h2>
-            <Link to="/collections/" className="homepage-section-link">View all →</Link>
+            <Link to="/collections/" className="homepage-section-link">All collections →</Link>
           </div>
           <div className="collections-preview-grid">
-            {collections.slice(0, 4).map(col => (
+            {homeCollectionPreviews.map(col => (
               <Link key={col.slug} to={`/collections/${col.slug}/`} className="collection-preview-card">
                 <span className="collection-preview-emoji">{col.emoji}</span>
                 <span className="collection-preview-title">{col.title}</span>
-                <span className="collection-preview-count">{col.gameSlugs.length} games</span>
+                <span className="collection-preview-count">{col.gameCount} games</span>
               </Link>
             ))}
           </div>
         </section>
 
-        <LazyAd className="page-ad-slot" />
+        <Suspense fallback={null}>
+          <LazyAd className="page-ad-slot" />
+        </Suspense>
 
         <div className="homepage-seo-text">
           <p>Google Doodle games turn the search engine's iconic logo into playable interactive experiences, celebrating holidays, historic events, and cultural moments from around the world. From the Halloween-themed Great Ghoul Duel to the Olympic hurdles runner, each game offers a unique creative twist that blends art, music, and gameplay into something anyone can enjoy in seconds.</p>

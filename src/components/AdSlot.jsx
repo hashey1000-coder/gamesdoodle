@@ -3,8 +3,10 @@ import { useLocation } from 'react-router-dom';
 
 let refreshTimerIds = [];
 let adScriptPromise = null;
+const ADS_ENABLED = import.meta.env.PROD;
 
 function loadAdScript() {
+  if (!ADS_ENABLED) return Promise.resolve(false);
   if (typeof window === 'undefined') return Promise.resolve(false);
   if (window.av) return Promise.resolve(true);
   if (adScriptPromise) return adScriptPromise;
@@ -30,6 +32,8 @@ function loadAdScript() {
 }
 
 export function AdScriptLoader() {
+  if (!ADS_ENABLED) return null;
+
   useEffect(() => {
     const load = () => {
       loadAdScript().then((loaded) => {
@@ -65,6 +69,7 @@ function refreshPrimaryAdSlots() {
 }
 
 export function scheduleAdRefresh() {
+  if (!ADS_ENABLED) return;
   if (typeof window === 'undefined') return;
 
   refreshTimerIds.forEach(id => clearTimeout(id));
@@ -97,6 +102,7 @@ function useAdRouteKey() {
 
 /** Named banner slot — exactly as per guide: <div id="GD_Game_Top"></div> */
 export function AdSlot({ id, className = '' }) {
+  if (!ADS_ENABLED) return null;
   const routeKey = useAdRouteKey();
 
   return <div key={`${id}-${routeKey}`} id={id} className={className} />;
@@ -104,6 +110,7 @@ export function AdSlot({ id, className = '' }) {
 
 /** In-content lazy repeater: <div class="lazy" parent-unit="GD_Game_Bottom"></div> */
 export function LazyAd({ className = '', parentUnit = 'GD_Game_Bottom' }) {
+  if (!ADS_ENABLED) return null;
   const instanceId = useId().replace(/:/g, '');
   const routeKey = useAdRouteKey();
 

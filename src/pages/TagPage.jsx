@@ -5,6 +5,7 @@ import { LazyAd } from '../components/AdSlot';
 import { getTagBySlug, getGamesByTag, tags } from '../data/games';
 import { useFavorites } from '../hooks/useFavorites';
 import { COLLECTIONS } from './CollectionPage';
+import NotFoundPage from './NotFoundPage';
 
 const GAMES_PER_PAGE = 48;
 
@@ -12,6 +13,10 @@ export default function TagPage({ slug }) {
   const [searchParams] = useSearchParams();
   const tag = getTagBySlug(slug);
   const { toggleFavorite, isFavorite } = useFavorites();
+
+  if (!tag) {
+    return <NotFoundPage />;
+  }
 
   const allGames = getGamesByTag(slug);
   const currentPage = parseInt(searchParams.get('page') || '1', 10);

@@ -18,10 +18,25 @@ export default function GameEmbed({ game }) {
       const prev = JSON.parse(localStorage.getItem(key) || '[]');
       const updated = [game.slug, ...prev.filter(s => s !== game.slug)].slice(0, 12);
       localStorage.setItem(key, JSON.stringify(updated));
+
+      const gameSummary = {
+        slug: game.slug,
+        title: game.title,
+        thumbnail: game.thumbnail,
+        excerpt: game.excerpt,
+        tags: game.tags,
+        category: game.category,
+        dateAdded: game.dateAdded,
+        isNew: game.isNew,
+      };
+      const summaryKey = 'recentlyPlayedGames';
+      const prevSummaries = JSON.parse(localStorage.getItem(summaryKey) || '[]');
+      const nextSummaries = [gameSummary, ...prevSummaries.filter(item => item.slug !== game.slug)].slice(0, 12);
+      localStorage.setItem(summaryKey, JSON.stringify(nextSummaries));
     } catch {
       // localStorage unavailable — ignore
     }
-  }, [game.slug]);
+  }, [game.category, game.dateAdded, game.excerpt, game.isNew, game.slug, game.tags, game.thumbnail, game.title]);
 
   const handleIframeLoad = useCallback(() => {
     setIsLoaded(true);

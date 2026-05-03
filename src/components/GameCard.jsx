@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { isNewGame, getTagsForGame } from '../data/games';
+import { isNewGame, getTagMetaForGame } from '../data/tagMeta';
 
 export default function GameCard({ game, isFavorite, onToggleFavorite, priority = false }) {
   const [imgError, setImgError] = useState(false);
   const shortTitle = game.title.split(' – ')[0].trim();
-  const gameTags = getTagsForGame(game);
+  const gameTags = getTagMetaForGame(game);
 
   return (
     <article className="game-card">
@@ -15,7 +15,7 @@ export default function GameCard({ game, isFavorite, onToggleFavorite, priority 
           {game.thumbnail && !imgError ? (
             <img
               src={game.thumbnail}
-              alt={game.title}
+              alt=""
               loading={priority ? 'eager' : 'lazy'}
               fetchPriority={priority ? 'high' : 'auto'}
               decoding="async"
@@ -30,7 +30,7 @@ export default function GameCard({ game, isFavorite, onToggleFavorite, priority 
           )}
         </div>
         <div className="game-card-body">
-          <h4 className="game-card-title">{shortTitle}</h4>
+          <h3 className="game-card-title">{shortTitle}</h3>
           <p className="game-card-excerpt">{game.excerpt}</p>
           <span className="game-card-cta">▶ Play Now</span>
         </div>

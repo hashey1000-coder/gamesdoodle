@@ -1,10 +1,11 @@
-import { useState, useEffect } from 'react';
+import { lazy, Suspense, useState, useEffect } from 'react';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
-import SearchBar from './SearchBar';
-import PlayQueuePanel from './PlayQueuePanel';
-import { games, tags } from '../data/games';
+import { tagMeta as tags } from '../data/tagMeta';
 import { usePlayQueue } from '../hooks/usePlayQueue';
 import { useFavorites } from '../hooks/useFavorites';
+
+const SearchBar = lazy(() => import('./SearchBar'));
+const PlayQueuePanel = lazy(() => import('./PlayQueuePanel'));
 
 const navLinks = [
   { to: '/google-doodle-games/', label: 'Doodle Games' },
@@ -34,7 +35,8 @@ export default function Header() {
     return () => document.removeEventListener('keydown', handleKeyDown);
   }, []);
 
-  const handleRandomGame = () => {
+  const handleRandomGame = async () => {
+    const { games } = await import('../data/games');
     const randomGame = games[Math.floor(Math.random() * games.length)];
     setMobileOpen(false);
     navigate(`/${randomGame.slug}/`);
@@ -44,7 +46,17 @@ export default function Header() {
     <header className="site-header">
       <div className="header-inner">
         <Link to="/" className="site-logo" onClick={() => setMobileOpen(false)}>
-          <img src="/logo.png" alt="Games Doodle" className="logo-icon" width="36" height="36" decoding="async" />
+          <img
+            src="/favicon-192x192.png"
+            srcSet="/favicon-32x32.png 32w, /favicon-192x192.png 192w"
+            sizes="36px"
+            alt=""
+            aria-hidden="true"
+            className="logo-icon"
+            width="36"
+            height="36"
+            decoding="async"
+          />
           <span className="logo-text">
             Games<span className="logo-highlight">Doodle</span>
           </span>
@@ -160,8 +172,10 @@ export default function Header() {
           </button>
         </div>
       </div>
-      {searchOpen && <SearchBar onClose={() => setSearchOpen(false)} />}
-      {queueOpen && <PlayQueuePanel onClose={() => setQueueOpen(false)} />}
+      <Suspense fallback={null}>
+        {searchOpen && <SearchBar onClose={() => setSearchOpen(false)} />}
+        {queueOpen && <PlayQueuePanel onClose={() => setQueueOpen(false)} />}
+      </Suspense>
     </header>
   );
 }
