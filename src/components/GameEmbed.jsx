@@ -3,40 +3,10 @@ import { Link } from 'react-router-dom';
 import { getRelatedGames } from '../data/games';
 
 export default function GameEmbed({ game }) {
-  const [isPlaying, setIsPlaying] = useState(false);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
   const relatedGames = getRelatedGames(game.relatedSlugs || []);
   const isExternal = Boolean(game.externalUrl);
-
-  const handlePlay = useCallback(() => {
-    setIsPlaying(true);
-    setIsLoaded(false);
-    // Save to recently played in localStorage
-    try {
-      const key = 'recentlyPlayed';
-      const prev = JSON.parse(localStorage.getItem(key) || '[]');
-      const updated = [game.slug, ...prev.filter(s => s !== game.slug)].slice(0, 12);
-      localStorage.setItem(key, JSON.stringify(updated));
-
-      const gameSummary = {
-        slug: game.slug,
-        title: game.title,
-        thumbnail: game.thumbnail,
-        excerpt: game.excerpt,
-        tags: game.tags,
-        category: game.category,
-        dateAdded: game.dateAdded,
-        isNew: game.isNew,
-      };
-      const summaryKey = 'recentlyPlayedGames';
-      const prevSummaries = JSON.parse(localStorage.getItem(summaryKey) || '[]');
-      const nextSummaries = [gameSummary, ...prevSummaries.filter(item => item.slug !== game.slug)].slice(0, 12);
-      localStorage.setItem(summaryKey, JSON.stringify(nextSummaries));
-    } catch {
-      // localStorage unavailable — ignore
-    }
-  }, [game.category, game.dateAdded, game.excerpt, game.isNew, game.slug, game.tags, game.thumbnail, game.title]);
 
   const handleIframeLoad = useCallback(() => {
     setIsLoaded(true);
@@ -74,7 +44,6 @@ export default function GameEmbed({ game }) {
 
   // Reset state when navigating to a different game
   useEffect(() => {
-    setIsPlaying(false);
     setIsFullscreen(false);
     setIsLoaded(false);
   }, [game.slug]);
@@ -91,10 +60,11 @@ export default function GameEmbed({ game }) {
 
   const isSwf = /\.swf(?:[?#]|$)/i.test(game.embedUrl || '');
   const ruffleContainerRef = useRef(null);
+  const isEmbeddedGame = !isExternal;
 
   // Load Ruffle Flash emulator for SWF games
   useEffect(() => {
-    if (!isPlaying || !isSwf || !ruffleContainerRef.current) return;
+    if (!isEmbeddedGame || !isSwf || !ruffleContainerRef.current) return;
     const container = ruffleContainerRef.current;
     container.innerHTML = '';
 
@@ -127,9 +97,9 @@ export default function GameEmbed({ game }) {
     }
 
     return () => { container.innerHTML = ''; };
-  }, [isPlaying, isSwf, game.embedUrl]);
+  }, [isEmbeddedGame, isSwf, game.embedUrl]);
 
-  const showIframe = isPlaying && !isExternal && !isSwf;
+  const showIframe = isEmbeddedGame && !isSwf;
 
   return (
     <div className={`game-embed-wrapper ${isFullscreen ? 'fullscreen' : ''}`}>
@@ -153,23 +123,19 @@ export default function GameEmbed({ game }) {
           )}
         </div>
       </div>
-      <div id="av-reward" className={`game-iframe-container${showIframe ? ' playing' : ''}`}>
-        {!isPlaying ? (
-          /* Thumbnail + play button overlay for ALL games */
+      <div id={isEmbeddedGame ? 'av-reward' : undefined} className={`game-iframe-container${showIframe ? ' playing' : ''}`}>
+        {!isEmbeddedGame ? (
           <button
             className="game-play-overlay"
-            onClick={isExternal ? undefined : handlePlay}
             aria-label={`Play ${game.title}`}
           >
-            {isExternal && (
-              <a
-                href={game.externalUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="game-play-external-link"
-                aria-label={`Play ${game.title} (opens in new tab)`}
-              />
-            )}
+            <a
+              href={game.externalUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="game-play-external-link"
+              aria-label={`Play ${game.title} (opens in new tab)`}
+            />
             <img
               src={game.thumbnail}
               alt={game.title}
@@ -178,7 +144,7 @@ export default function GameEmbed({ game }) {
             />
             <div className="game-play-btn">
               <span className="game-play-icon">▶</span>
-              <span className="game-play-label">{isExternal ? 'Play on Official Site ↗' : 'Play Now'}</span>
+              <span className="game-play-label">Play on Official Site ↗</span>
             </div>
           </button>
         ) : (

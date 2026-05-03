@@ -42,6 +42,13 @@ export default function Header() {
     navigate(`/${randomGame.slug}/`);
   };
 
+  const lazyPanels = (
+    <>
+      {searchOpen && <SearchBar onClose={() => setSearchOpen(false)} />}
+      {queueOpen && <PlayQueuePanel onClose={() => setQueueOpen(false)} />}
+    </>
+  );
+
   return (
     <header className="site-header">
       <div className="header-inner">
@@ -172,10 +179,7 @@ export default function Header() {
           </button>
         </div>
       </div>
-      <Suspense fallback={null}>
-        {searchOpen && <SearchBar onClose={() => setSearchOpen(false)} />}
-        {queueOpen && <PlayQueuePanel onClose={() => setQueueOpen(false)} />}
-      </Suspense>
+      {import.meta.env.SSR ? lazyPanels : <Suspense fallback={null}>{lazyPanels}</Suspense>}
     </header>
   );
 }

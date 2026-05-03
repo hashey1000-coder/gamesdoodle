@@ -9,16 +9,40 @@ import ScrollToTop from './components/ScrollToTop';
 import { AdScriptLoader, AdSlot } from './components/AdSlot';
 import './App.css';
 
-const GamePage = lazy(() => import('./pages/GamePage'));
-const TagPage = lazy(() => import('./pages/TagPage'));
-const TopGamesPage = lazy(() => import('./pages/TopGamesPage'));
-const NewGamesPage = lazy(() => import('./pages/NewGamesPage'));
-const AllGamesPage = lazy(() => import('./pages/AllGamesPage'));
-const StatsPage = lazy(() => import('./pages/StatsPage'));
-const FavoritesPage = lazy(() => import('./pages/FavoritesPage'));
-const CollectionsIndex = lazy(() => import('./pages/CollectionsPage').then(module => ({ default: module.CollectionsIndex })));
-const CollectionDetail = lazy(() => import('./pages/CollectionsPage').then(module => ({ default: module.CollectionDetail })));
-const NotFoundPage = lazy(() => import('./pages/NotFoundPage'));
+const SSR_PAGE_MODULES = import.meta.env.SSR
+  ? import.meta.glob('./pages/*.jsx', { eager: true })
+  : null;
+
+const GamePage = import.meta.env.SSR
+  ? SSR_PAGE_MODULES['./pages/GamePage.jsx'].default
+  : lazy(() => import('./pages/GamePage'));
+const TagPage = import.meta.env.SSR
+  ? SSR_PAGE_MODULES['./pages/TagPage.jsx'].default
+  : lazy(() => import('./pages/TagPage'));
+const TopGamesPage = import.meta.env.SSR
+  ? SSR_PAGE_MODULES['./pages/TopGamesPage.jsx'].default
+  : lazy(() => import('./pages/TopGamesPage'));
+const NewGamesPage = import.meta.env.SSR
+  ? SSR_PAGE_MODULES['./pages/NewGamesPage.jsx'].default
+  : lazy(() => import('./pages/NewGamesPage'));
+const AllGamesPage = import.meta.env.SSR
+  ? SSR_PAGE_MODULES['./pages/AllGamesPage.jsx'].default
+  : lazy(() => import('./pages/AllGamesPage'));
+const StatsPage = import.meta.env.SSR
+  ? SSR_PAGE_MODULES['./pages/StatsPage.jsx'].default
+  : lazy(() => import('./pages/StatsPage'));
+const FavoritesPage = import.meta.env.SSR
+  ? SSR_PAGE_MODULES['./pages/FavoritesPage.jsx'].default
+  : lazy(() => import('./pages/FavoritesPage'));
+const CollectionsIndex = import.meta.env.SSR
+  ? SSR_PAGE_MODULES['./pages/CollectionsPage.jsx'].CollectionsIndex
+  : lazy(() => import('./pages/CollectionsPage').then(module => ({ default: module.CollectionsIndex })));
+const CollectionDetail = import.meta.env.SSR
+  ? SSR_PAGE_MODULES['./pages/CollectionsPage.jsx'].CollectionDetail
+  : lazy(() => import('./pages/CollectionsPage').then(module => ({ default: module.CollectionDetail })));
+const NotFoundPage = import.meta.env.SSR
+  ? SSR_PAGE_MODULES['./pages/NotFoundPage.jsx'].default
+  : lazy(() => import('./pages/NotFoundPage'));
 
 function runAfterCriticalWindow(callback) {
   if (typeof window === 'undefined') return () => {};
@@ -84,6 +108,22 @@ function TagRoute() {
 function App() {
   const { pathname, search } = useLocation();
   const showAds = import.meta.env.PROD;
+  const routes = (
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/top-games" element={<TopGamesPage />} />
+      <Route path="/new-games" element={<NewGamesPage />} />
+      <Route path="/all-games" element={<AllGamesPage />} />
+      <Route path="/my-stats" element={<StatsPage />} />
+      <Route path="/favorites" element={<FavoritesPage />} />
+      <Route path="/collections" element={<CollectionsIndex />} />
+      <Route path="/collections/:collectionSlug" element={<CollectionDetail />} />
+      <Route path="/tag/:tagSlug" element={<TagRoute />} />
+      <Route path="/:slug" element={<GamePage />} />
+      <Route path="/:slug/page/:page" element={<GamePage />} />
+      <Route path="*" element={<NotFoundPage />} />
+    </Routes>
+  );
 
   return (
     <ToastProvider>
@@ -102,22 +142,7 @@ function App() {
           </div>
         )}
         <main className="site-main">
-          <Suspense fallback={null}>
-            <Routes>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/top-games" element={<TopGamesPage />} />
-              <Route path="/new-games" element={<NewGamesPage />} />
-              <Route path="/all-games" element={<AllGamesPage />} />
-              <Route path="/my-stats" element={<StatsPage />} />
-              <Route path="/favorites" element={<FavoritesPage />} />
-              <Route path="/collections" element={<CollectionsIndex />} />
-              <Route path="/collections/:collectionSlug" element={<CollectionDetail />} />
-              <Route path="/tag/:tagSlug" element={<TagRoute />} />
-              <Route path="/:slug" element={<GamePage />} />
-              <Route path="/:slug/page/:page" element={<GamePage />} />
-              <Route path="*" element={<NotFoundPage />} />
-            </Routes>
-          </Suspense>
+          {import.meta.env.SSR ? routes : <Suspense fallback={null}>{routes}</Suspense>}
           {showAds && (
             <AdSlot
               key={`bottom-${pathname}${search}`}
