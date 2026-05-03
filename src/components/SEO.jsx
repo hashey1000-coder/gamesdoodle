@@ -2,7 +2,7 @@ import { Helmet } from 'react-helmet-async';
 
 const SITE_URL = 'https://gamesdoodle.org';
 const SITE_NAME = 'Games Doodle';
-const LOGO_URL = `${SITE_URL}/logo.png`;
+const LOGO_URL = `${SITE_URL}/favicon-192x192.png`;
 
 // Shared Organization + WebSite entities
 function baseGraph(includeSearch = false) {
@@ -18,8 +18,8 @@ function baseGraph(includeSearch = false) {
       contentUrl: LOGO_URL,
       caption: SITE_NAME,
       inLanguage: 'en-US',
-      width: '512',
-      height: '512',
+      width: '192',
+      height: '192',
     },
   };
 

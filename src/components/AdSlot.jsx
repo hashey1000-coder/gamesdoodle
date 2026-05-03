@@ -104,6 +104,11 @@ export function scheduleAdRefresh() {
   if (!ADS_ENABLED) return;
   if (typeof window === 'undefined') return;
 
+  // The rewarded in-game flow bound to #av-reward is vendor-managed.
+  // Re-registering ad nodes here can cause the rewarded overlay to be
+  // rediscovered and restarted, which can create a play-loop on game pages.
+  if (document.getElementById('av-reward')) return;
+
   refreshTimerIds.forEach(id => clearTimeout(id));
   refreshTimerIds = [];
 

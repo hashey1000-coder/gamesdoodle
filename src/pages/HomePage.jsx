@@ -33,7 +33,7 @@ export default function HomePage() {
         title="Games Doodle - Play Google Doodle Games Online"
         description="Play fun and interactive Google Doodle Games online. Enjoy classic and new doodles with creative gameplay, browser games, challenges, and endless entertainment."
         canonical="/"
-        image="/logo.png"
+        image="/favicon-192x192.png"
         schemaType="homepage"
       />
       <div className="page-content">

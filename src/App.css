@@ -540,7 +540,7 @@ html, body {
 /* ============ Back to Top ============ */
 .back-to-top {
   position: fixed;
-  bottom: 32px;
+  bottom: 132px;
   right: 32px;
   z-index: 90;
   width: 48px;
@@ -2554,7 +2554,7 @@ html, body {
   }
 
   .back-to-top {
-    bottom: 20px;
+    bottom: 120px;
     right: 20px;
     width: 42px;
     height: 42px;
