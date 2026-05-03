@@ -42,15 +42,15 @@ function runAfterUserOrDelay(callback) {
     callback();
   };
 
-  timerId = window.setTimeout(run, 15000);
-  ['pointerdown', 'keydown', 'touchstart'].forEach(eventName => {
+  timerId = window.setTimeout(run, 30000);
+  ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach(eventName => {
     window.addEventListener(eventName, run, { once: true, passive: true });
   });
 
   return () => {
     complete = true;
     window.clearTimeout(timerId);
-    ['pointerdown', 'keydown', 'touchstart'].forEach(eventName => {
+    ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach(eventName => {
       window.removeEventListener(eventName, run);
     });
   };

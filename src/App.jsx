@@ -24,40 +24,25 @@ function runAfterCriticalWindow(callback) {
   if (typeof window === 'undefined') return () => {};
 
   let timerId;
-  let idleId;
   let done = false;
 
   const run = () => {
     if (done) return;
     done = true;
     window.clearTimeout(timerId);
-    if (idleId) window.cancelIdleCallback?.(idleId);
     callback();
   };
 
-  const queue = () => {
-    if ('requestIdleCallback' in window) {
-      idleId = window.requestIdleCallback(run, { timeout: 12000 });
-    }
-    timerId = window.setTimeout(run, 12000);
-  };
+  timerId = window.setTimeout(run, 30000);
 
-  if (document.readyState === 'complete') {
-    queue();
-  } else {
-    window.addEventListener('load', queue, { once: true });
-  }
-
-  ['pointerdown', 'keydown', 'touchstart'].forEach(eventName => {
+  ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach(eventName => {
     window.addEventListener(eventName, run, { once: true, passive: true });
   });
 
   return () => {
     done = true;
     window.clearTimeout(timerId);
-    if (idleId) window.cancelIdleCallback?.(idleId);
-    window.removeEventListener('load', queue);
-    ['pointerdown', 'keydown', 'touchstart'].forEach(eventName => {
+    ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach(eventName => {
       window.removeEventListener(eventName, run);
     });
   };

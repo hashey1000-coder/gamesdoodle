@@ -4,6 +4,16 @@ import { isNewGame, getTagMetaForGame } from '../data/tagMeta';
 
 const CARD_SRCSETS = {
   '/images/doodle-baseball.webp': '/images/doodle-baseball-card.webp 420w, /images/doodle-baseball.webp 640w',
+  '/images/google-cricket.webp': '/images/google-cricket-card.webp 420w, /images/google-cricket.webp 640w',
+  '/images/quick-draw.webp': '/images/quick-draw-card.webp 420w, /images/quick-draw.webp 640w',
+  '/images/flip-a-coin.webp': '/images/flip-a-coin-card.webp 420w, /images/flip-a-coin.webp 640w',
+  '/images/google-pacman.webp': '/images/google-pacman-card.webp 420w, /images/google-pacman.webp 640w',
+  '/images/google-tic-tac-toe.webp': '/images/google-tic-tac-toe-card.webp 420w, /images/google-tic-tac-toe.webp 800w',
+  '/images/google-solitaire.webp': '/images/google-solitaire-card.webp 420w, /images/google-solitaire.webp 791w',
+  '/images/google-minesweeper.webp': '/images/google-minesweeper-card.webp 420w, /images/google-minesweeper.webp 640w',
+  '/images/google-snake.webp': '/images/google-snake-card.webp 420w, /images/google-snake.webp 722w',
+  '/images/memory-game.webp': '/images/memory-game-card.webp 420w, /images/memory-game.webp 640w',
+  '/images/google-dreidel.webp': '/images/google-dreidel-card.webp 420w, /images/google-dreidel.webp 603w',
 };
 
 export default function GameCard({ game, isFavorite, onToggleFavorite, priority = false }) {

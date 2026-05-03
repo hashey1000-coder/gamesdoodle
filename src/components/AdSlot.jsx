@@ -39,40 +39,25 @@ function useAdsReady() {
     if (!ADS_ENABLED || typeof window === 'undefined') return undefined;
 
     let timerId;
-    let idleId;
     let complete = false;
 
     const markReady = () => {
       if (complete) return;
       complete = true;
       clearTimeout(timerId);
-      if (idleId) window.cancelIdleCallback?.(idleId);
       setReady(true);
     };
 
-    const queue = () => {
-      if ('requestIdleCallback' in window) {
-        idleId = window.requestIdleCallback(markReady, { timeout: 12000 });
-      }
-      timerId = setTimeout(markReady, 12000);
-    };
+    timerId = setTimeout(markReady, 30000);
 
-    if (document.readyState === 'complete') {
-      queue();
-    } else {
-      window.addEventListener('load', queue, { once: true });
-    }
-
-    ['pointerdown', 'keydown', 'touchstart'].forEach(eventName => {
+    ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach(eventName => {
       window.addEventListener(eventName, markReady, { once: true, passive: true });
     });
 
     return () => {
       complete = true;
       clearTimeout(timerId);
-      if (idleId) window.cancelIdleCallback?.(idleId);
-      window.removeEventListener('load', queue);
-      ['pointerdown', 'keydown', 'touchstart'].forEach(eventName => {
+      ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach(eventName => {
         window.removeEventListener(eventName, markReady);
       });
     };
@@ -93,12 +78,7 @@ export function AdScriptLoader() {
       });
     };
 
-    if ('requestIdleCallback' in window) {
-      const idleId = window.requestIdleCallback(load, { timeout: 1600 });
-      return () => window.cancelIdleCallback?.(idleId);
-    }
-
-    const timer = setTimeout(load, 1200);
+    const timer = setTimeout(load, 250);
     return () => clearTimeout(timer);
   }, [adsReady]);
 
