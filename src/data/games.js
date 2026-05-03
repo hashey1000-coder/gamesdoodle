@@ -13058,7 +13058,7 @@ export const games = [
     category: 'online-games',
     tags: ['arcade', 'racing'],
     embedUrl: 'https://unblockedgames.blogbucket.org/fplayer/part2/Ace-Gangster-Taxi.html',
-    thumbnail: '/images/Ace-Gangster-Taxi Metroville-City.webp',
+    thumbnail: '/images/ace-gangster-taxi.webp',
     relatedSlugs: ['ace-gangster', 'ace-gangster-2', 'crazy-cars'],
     excerpt: 'Ace Gangster Taxi puts you behind the wheel of a cab in Metroville City. Pick up passengers, earn cash, dodge traffic, and survive in a crime-ridden metropolis.',
     content: `<p>Ace Gangster Taxi puts you in the driver's seat of a criminal underworld taxi service. Pick up shady passengers, complete illegal deliveries, and outrun the police across a sprawling city. The game blends open-world driving with mission-based gameplay, giving you the freedom to explore the city streets between jobs while building your reputation as the most reliable getaway driver in town.</p>

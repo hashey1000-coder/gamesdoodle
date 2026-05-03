@@ -3,8 +3,8 @@ import SEO from '../components/SEO';
 import GameCard from '../components/GameCard';
 import { LazyAd } from '../components/AdSlot';
 import { getTagBySlug, getGamesByTag, tags } from '../data/games';
+import { collections } from '../data/collections';
 import { useFavorites } from '../hooks/useFavorites';
-import { COLLECTIONS } from './CollectionPage';
 import NotFoundPage from './NotFoundPage';
 
 const GAMES_PER_PAGE = 48;
@@ -19,6 +19,10 @@ export default function TagPage({ slug }) {
   }
 
   const allGames = getGamesByTag(slug);
+  const matchingCollections = collections.filter(col => {
+    const tagGames = new Set(allGames.map(game => game.slug));
+    return col.gameSlugs.some(gameSlug => tagGames.has(gameSlug));
+  });
   const currentPage = parseInt(searchParams.get('page') || '1', 10);
   const totalPages = Math.ceil(allGames.length / GAMES_PER_PAGE);
   const startIndex = (currentPage - 1) * GAMES_PER_PAGE;
@@ -109,16 +113,12 @@ export default function TagPage({ slug }) {
         </div>
 
         {/* Related collections */}
-        {COLLECTIONS.filter(col => col.filter && col.slug.includes(slug.split('-')[0]) || COLLECTIONS.find(c => c.slug === `best-${slug}-games`)).length > 0 && (
+        {matchingCollections.length > 0 && (
           <div className="related-tags-section" style={{ marginTop: 0 }}>
             <h3 className="related-tags-heading">Curated {tag.name} Collections</h3>
             <div className="related-tags-chips">
-              {COLLECTIONS.filter(col => {
-                // Show collections that match this tag's games
-                const tagGames = getGamesByTag(slug);
-                return tagGames.some(g => col.filter(g));
-              }).map(col => (
-                <Link key={col.slug} to={`/collection/${col.slug}/`} className="related-tag-chip related-tag-chip-collection">
+              {matchingCollections.map(col => (
+                <Link key={col.slug} to={`/collections/${col.slug}/`} className="related-tag-chip related-tag-chip-collection">
                   {col.emoji} {col.title}
                 </Link>
               ))}

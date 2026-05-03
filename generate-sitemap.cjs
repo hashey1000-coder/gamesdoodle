@@ -66,7 +66,7 @@ tagSlugs.forEach(slug => {
 // Collections index + individual collection pages
 urls.push({ loc: `${SITE_URL}/collections/`, priority: '0.8', changefreq: 'weekly' });
 collectionSlugs.forEach(slug => {
-  urls.push({ loc: `${SITE_URL}/collection/${slug}/`, priority: '0.7', changefreq: 'weekly' });
+  urls.push({ loc: `${SITE_URL}/collections/${slug}/`, priority: '0.7', changefreq: 'weekly' });
 });
 
 // Static pages
