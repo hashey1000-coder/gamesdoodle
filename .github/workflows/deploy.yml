@@ -37,16 +37,44 @@ jobs:
           VITE_FIREBASE_APP_ID: ${{ secrets.VITE_FIREBASE_APP_ID }}
 
       - name: Setup SSH
+        env:
+          CPANEL_HOST: ${{ secrets.CPANEL_HOST }}
+          CPANEL_USER: ${{ secrets.CPANEL_USER }}
+          CPANEL_SSH_KEY: ${{ secrets.CPANEL_SSH_KEY }}
         run: |
+          set -euo pipefail
+
+          if [ -z "${CPANEL_HOST}" ]; then
+            echo "CPANEL_HOST secret is empty or missing"
+            exit 1
+          fi
+
+          if [ -z "${CPANEL_USER}" ]; then
+            echo "CPANEL_USER secret is empty or missing"
+            exit 1
+          fi
+
+          if [ -z "${CPANEL_SSH_KEY}" ]; then
+            echo "CPANEL_SSH_KEY secret is empty or missing"
+            exit 1
+          fi
+
           mkdir -p ~/.ssh
-          echo "${{ secrets.CPANEL_SSH_KEY }}" > ~/.ssh/id_ed25519
+          printf '%s\n' "$CPANEL_SSH_KEY" | tr -d '\r' > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
-          ssh-keyscan -H ${{ secrets.CPANEL_HOST }} >> ~/.ssh/known_hosts
+          if ! ssh-keyscan -T 15 -H "$CPANEL_HOST" >> ~/.ssh/known_hosts 2>/dev/null; then
+            echo "ssh-keyscan failed for host: $CPANEL_HOST"
+            exit 1
+          fi
 
       - name: Upload dist files
+        env:
+          CPANEL_HOST: ${{ secrets.CPANEL_HOST }}
+          CPANEL_USER: ${{ secrets.CPANEL_USER }}
         run: |
+          set -euo pipefail
           scp -r dist/* \
-          ${{ secrets.CPANEL_USER }}@${{ secrets.CPANEL_HOST }}:/home/sassache2/gamesdoodle.org/
+          "$CPANEL_USER@$CPANEL_HOST:/home/sassache2/gamesdoodle.org/"
 
       - name: Submit new URLs to Bing IndexNow
         run: node submit-indexnow.cjs /tmp/prev-sitemap.xml
