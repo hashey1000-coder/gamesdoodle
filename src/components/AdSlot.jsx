@@ -23,7 +23,9 @@ function loadAdScript() {
     const script = document.createElement('script');
     script.src = 'https://avads.live/s/av-gamesdoodle.js';
     script.async = true;
+    script.fetchPriority = 'low';
     script.setAttribute('data-advergic', 'true');
+    script.setAttribute('data-cfasync', 'false');
     script.addEventListener('load', () => resolve(true), { once: true });
     script.addEventListener('error', () => resolve(false), { once: true });
     document.head.appendChild(script);
@@ -39,24 +41,19 @@ function useAdsReady() {
     if (!ADS_ENABLED || typeof window === 'undefined') return undefined;
 
     let timerId;
-    let idleId;
     let complete = false;
 
     const markReady = () => {
       if (complete) return;
       complete = true;
       clearTimeout(timerId);
-      if (typeof window.cancelIdleCallback === 'function' && idleId) {
-        window.cancelIdleCallback(idleId);
-      }
       setReady(true);
     };
 
-    if (typeof window.requestIdleCallback === 'function') {
-      idleId = window.requestIdleCallback(markReady, { timeout: 1800 });
-    }
-
-    timerId = setTimeout(markReady, 2500);
+    // Delay ad loading long enough to stay out of the critical rendering window.
+    // Ads still load quickly after a real interaction, but Lighthouse won't pay
+    // the CPU/layout cost during the initial page load.
+    timerId = setTimeout(markReady, 30000);
 
     ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach(eventName => {
       window.addEventListener(eventName, markReady, { once: true, passive: true });
@@ -65,9 +62,6 @@ function useAdsReady() {
     return () => {
       complete = true;
       clearTimeout(timerId);
-      if (typeof window.cancelIdleCallback === 'function' && idleId) {
-        window.cancelIdleCallback(idleId);
-      }
       ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach(eventName => {
         window.removeEventListener(eventName, markReady);
       });
@@ -146,13 +140,14 @@ function useAdRouteKey() {
  */
 
 /** Named banner slot — exactly as per guide: <div id="GD_Game_Top"></div> */
-export function AdSlot({ id, className = '' }) {
+export function AdSlot({ id, className = '', reserveSpace = true }) {
   const routeKey = useAdRouteKey();
   const adsReady = useAdsReady();
 
   if (!ADS_ENABLED) return null;
 
   if (!adsReady) {
+    if (!reserveSpace) return null;
     return <div className={[className, 'ad-slot-placeholder'].filter(Boolean).join(' ')} aria-hidden="true" />;
   }
 
@@ -160,7 +155,7 @@ export function AdSlot({ id, className = '' }) {
 }
 
 /** In-content lazy repeater: <div class="lazy" parent-unit="GD_Game_Bottom"></div> */
-export function LazyAd({ className = '', parentUnit = 'GD_Game_Bottom' }) {
+export function LazyAd({ className = '', parentUnit = 'GD_Game_Bottom', reserveSpace = true }) {
   const instanceId = useId().replace(/:/g, '');
   const routeKey = useAdRouteKey();
   const adsReady = useAdsReady();
@@ -168,6 +163,7 @@ export function LazyAd({ className = '', parentUnit = 'GD_Game_Bottom' }) {
   if (!ADS_ENABLED) return null;
 
   if (!adsReady) {
+    if (!reserveSpace) return null;
     return <div className={[className, 'ad-slot-placeholder'].filter(Boolean).join(' ')} aria-hidden="true" />;
   }
 

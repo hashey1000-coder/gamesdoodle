@@ -61,6 +61,8 @@ function AnalyticsLoader() {
       script = document.createElement('script');
       script.src = 'https://www.googletagmanager.com/gtag/js?id=G-LW3QVZF18T';
       script.async = true;
+      script.fetchPriority = 'low';
+      script.setAttribute('data-cfasync', 'false');
       document.head.appendChild(script);
 
       window.gtag('js', new Date());
@@ -84,6 +86,7 @@ function TagRoute({ Component }) {
 function App({ ssrPages = null }) {
   const { pathname, search } = useLocation();
   const showAds = import.meta.env.PROD;
+  const showTopAd = showAds && pathname !== '/';
   const GamePage = ssrPages?.GamePage || LazyGamePage;
   const TagPage = ssrPages?.TagPage || LazyTagPage;
   const TopGamesPage = ssrPages?.TopGamesPage || LazyTopGamesPage;
@@ -118,12 +121,13 @@ function App({ ssrPages = null }) {
       <ScrollToTop />
       <div className="site-wrapper">
         <Header />
-        {showAds && (
+        {showTopAd && (
           <div className="global-top-ad-shell" aria-hidden="true">
             <AdSlot
               key={`top-${pathname}${search}`}
               id="GD_Game_Top"
               className="global-top-ad-slot"
+              reserveSpace={false}
             />
           </div>
         )}
