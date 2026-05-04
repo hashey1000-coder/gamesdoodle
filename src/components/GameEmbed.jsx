@@ -123,7 +123,7 @@ export default function GameEmbed({ game }) {
           )}
         </div>
       </div>
-      <div id={isEmbeddedGame ? 'av-reward' : undefined} className={`game-iframe-container${showIframe ? ' playing' : ''}`}>
+      <div id={isEmbeddedGame ? 'av-reward' : undefined} className={`game-iframe-container${isEmbeddedGame ? ' reward_game' : ''}${showIframe ? ' playing' : ''}`}>
         {!isEmbeddedGame ? (
           <button
             className="game-play-overlay"
