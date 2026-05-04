@@ -34,7 +34,7 @@ function loadAdScript() {
   return adScriptPromise;
 }
 
-function useAdsReady() {
+function useAdsReady(delayMs = 8000) {
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
@@ -50,10 +50,9 @@ function useAdsReady() {
       setReady(true);
     };
 
-    // Delay ad loading long enough to stay out of the critical rendering window.
-    // Ads still load quickly after a real interaction, but Lighthouse won't pay
-    // the CPU/layout cost during the initial page load.
-    timerId = setTimeout(markReady, 30000);
+    // Keep ads out of the most critical rendering window, but don't delay them
+    // so long that the site feels under-monetized to real users.
+    timerId = setTimeout(markReady, delayMs);
 
     ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach(eventName => {
       window.addEventListener(eventName, markReady, { once: true, passive: true });
@@ -66,13 +65,13 @@ function useAdsReady() {
         window.removeEventListener(eventName, markReady);
       });
     };
-  }, []);
+  }, [delayMs]);
 
   return ready;
 }
 
 export function AdScriptLoader() {
-  const adsReady = useAdsReady();
+  const adsReady = useAdsReady(8000);
 
   useEffect(() => {
     if (!ADS_ENABLED || !adsReady) return undefined;
@@ -142,7 +141,7 @@ function useAdRouteKey() {
 /** Named banner slot — exactly as per guide: <div id="GD_Game_Top"></div> */
 export function AdSlot({ id, className = '', reserveSpace = true }) {
   const routeKey = useAdRouteKey();
-  const adsReady = useAdsReady();
+  const adsReady = useAdsReady(8000);
 
   if (!ADS_ENABLED) return null;
 
@@ -158,7 +157,7 @@ export function AdSlot({ id, className = '', reserveSpace = true }) {
 export function LazyAd({ className = '', parentUnit = 'GD_Game_Bottom', reserveSpace = true }) {
   const instanceId = useId().replace(/:/g, '');
   const routeKey = useAdRouteKey();
-  const adsReady = useAdsReady();
+  const adsReady = useAdsReady(8000);
 
   if (!ADS_ENABLED) return null;
 
