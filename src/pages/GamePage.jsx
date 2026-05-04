@@ -21,18 +21,18 @@ export default function GamePage() {
   // Check if it's a category page
   const category = getCategoryBySlug(slug);
   if (category) {
-    return <CategoryPage slug={slug} />;
+    return <CategoryPage key={`category:${slug}`} slug={slug} />;
   }
 
   // Check if it's a static page
   if (staticPages[slug]) {
-    return <StaticPage slug={slug} />;
+    return <StaticPage key={`static:${slug}`} slug={slug} />;
   }
 
   // Check if it's a game page
   const game = getGameBySlug(slug);
   if (game) {
-    return <GameDetail game={game} />;
+    return <GameDetail key={`game:${game.slug}`} game={game} />;
   }
 
   // Nothing matched - 404
