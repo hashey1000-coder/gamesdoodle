@@ -15,6 +15,18 @@ export default defineConfig({
   plugins: [react()],
   server: {
     headers: securityHeaders,
+    warmup: {
+      clientFiles: [
+        './src/main.jsx',
+        './src/App.jsx',
+        './src/App.css',
+        './src/pages/HomePage.jsx',
+        './src/components/Header.jsx',
+        './src/components/GameCard.jsx',
+        './src/components/TrendingGames.jsx',
+        './src/components/AdSlot.jsx',
+      ],
+    },
   },
   preview: {
     headers: securityHeaders,

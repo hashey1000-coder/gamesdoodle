@@ -1,48 +1,24 @@
 import { lazy, Suspense, useEffect } from 'react';
 import { Routes, Route, useLocation, useParams } from 'react-router-dom';
-import { ToastProvider } from './components/Toast';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import BackToTop from './components/BackToTop';
-import HomePage from './pages/HomePage';
-import ScrollToTop from './components/ScrollToTop';
-import { AdScriptLoader, AdSlot } from './components/AdSlot';
+import { ToastProvider } from './components/Toast.jsx';
+import Header from './components/Header.jsx';
+import Footer from './components/Footer.jsx';
+import BackToTop from './components/BackToTop.jsx';
+import HomePage from './pages/HomePage.jsx';
+import ScrollToTop from './components/ScrollToTop.jsx';
+import { AdScriptLoader, AdSlot } from './components/AdSlot.jsx';
 import './App.css';
 
-const SSR_PAGE_MODULES = import.meta.env.SSR
-  ? import.meta.glob('./pages/*.jsx', { eager: true })
-  : null;
-
-const GamePage = import.meta.env.SSR
-  ? SSR_PAGE_MODULES['./pages/GamePage.jsx'].default
-  : lazy(() => import('./pages/GamePage'));
-const TagPage = import.meta.env.SSR
-  ? SSR_PAGE_MODULES['./pages/TagPage.jsx'].default
-  : lazy(() => import('./pages/TagPage'));
-const TopGamesPage = import.meta.env.SSR
-  ? SSR_PAGE_MODULES['./pages/TopGamesPage.jsx'].default
-  : lazy(() => import('./pages/TopGamesPage'));
-const NewGamesPage = import.meta.env.SSR
-  ? SSR_PAGE_MODULES['./pages/NewGamesPage.jsx'].default
-  : lazy(() => import('./pages/NewGamesPage'));
-const AllGamesPage = import.meta.env.SSR
-  ? SSR_PAGE_MODULES['./pages/AllGamesPage.jsx'].default
-  : lazy(() => import('./pages/AllGamesPage'));
-const StatsPage = import.meta.env.SSR
-  ? SSR_PAGE_MODULES['./pages/StatsPage.jsx'].default
-  : lazy(() => import('./pages/StatsPage'));
-const FavoritesPage = import.meta.env.SSR
-  ? SSR_PAGE_MODULES['./pages/FavoritesPage.jsx'].default
-  : lazy(() => import('./pages/FavoritesPage'));
-const CollectionsIndex = import.meta.env.SSR
-  ? SSR_PAGE_MODULES['./pages/CollectionsPage.jsx'].CollectionsIndex
-  : lazy(() => import('./pages/CollectionsPage').then(module => ({ default: module.CollectionsIndex })));
-const CollectionDetail = import.meta.env.SSR
-  ? SSR_PAGE_MODULES['./pages/CollectionsPage.jsx'].CollectionDetail
-  : lazy(() => import('./pages/CollectionsPage').then(module => ({ default: module.CollectionDetail })));
-const NotFoundPage = import.meta.env.SSR
-  ? SSR_PAGE_MODULES['./pages/NotFoundPage.jsx'].default
-  : lazy(() => import('./pages/NotFoundPage'));
+const LazyGamePage = lazy(() => import('./pages/GamePage.jsx'));
+const LazyTagPage = lazy(() => import('./pages/TagPage.jsx'));
+const LazyTopGamesPage = lazy(() => import('./pages/TopGamesPage.jsx'));
+const LazyNewGamesPage = lazy(() => import('./pages/NewGamesPage.jsx'));
+const LazyAllGamesPage = lazy(() => import('./pages/AllGamesPage.jsx'));
+const LazyStatsPage = lazy(() => import('./pages/StatsPage.jsx'));
+const LazyFavoritesPage = lazy(() => import('./pages/FavoritesPage.jsx'));
+const LazyCollectionsIndex = lazy(() => import('./pages/CollectionsPage.jsx').then(module => ({ default: module.CollectionsIndex })));
+const LazyCollectionDetail = lazy(() => import('./pages/CollectionsPage.jsx').then(module => ({ default: module.CollectionDetail })));
+const LazyNotFoundPage = lazy(() => import('./pages/NotFoundPage.jsx'));
 
 function runAfterCriticalWindow(callback) {
   if (typeof window === 'undefined') return () => {};
@@ -100,14 +76,24 @@ function AnalyticsLoader() {
   return null;
 }
 
-function TagRoute() {
+function TagRoute({ Component }) {
   const { tagSlug } = useParams();
-  return <TagPage slug={tagSlug} />;
+  return <Component slug={tagSlug} />;
 }
 
-function App() {
+function App({ ssrPages = null }) {
   const { pathname, search } = useLocation();
   const showAds = import.meta.env.PROD;
+  const GamePage = ssrPages?.GamePage || LazyGamePage;
+  const TagPage = ssrPages?.TagPage || LazyTagPage;
+  const TopGamesPage = ssrPages?.TopGamesPage || LazyTopGamesPage;
+  const NewGamesPage = ssrPages?.NewGamesPage || LazyNewGamesPage;
+  const AllGamesPage = ssrPages?.AllGamesPage || LazyAllGamesPage;
+  const StatsPage = ssrPages?.StatsPage || LazyStatsPage;
+  const FavoritesPage = ssrPages?.FavoritesPage || LazyFavoritesPage;
+  const CollectionsIndex = ssrPages?.CollectionsIndex || LazyCollectionsIndex;
+  const CollectionDetail = ssrPages?.CollectionDetail || LazyCollectionDetail;
+  const NotFoundPage = ssrPages?.NotFoundPage || LazyNotFoundPage;
   const routes = (
     <Routes>
       <Route path="/" element={<HomePage />} />
@@ -118,7 +104,7 @@ function App() {
       <Route path="/favorites" element={<FavoritesPage />} />
       <Route path="/collections" element={<CollectionsIndex />} />
       <Route path="/collections/:collectionSlug" element={<CollectionDetail />} />
-      <Route path="/tag/:tagSlug" element={<TagRoute />} />
+      <Route path="/tag/:tagSlug" element={<TagRoute Component={TagPage} />} />
       <Route path="/:slug" element={<GamePage />} />
       <Route path="/:slug/page/:page" element={<GamePage />} />
       <Route path="*" element={<NotFoundPage />} />

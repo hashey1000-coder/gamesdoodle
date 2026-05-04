@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { isNewGame, getTagMetaForGame } from '../data/tagMeta';
+import { isNewGame, getTagMetaForGame } from '../data/tagMeta.js';
 
 const CARD_SRCSETS = {
   '/images/doodle-baseball.webp': '/images/doodle-baseball-card.webp 420w, /images/doodle-baseball.webp 640w',

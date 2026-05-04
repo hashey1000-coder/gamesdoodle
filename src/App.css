@@ -549,34 +549,6 @@ html, body {
 
 /* ============ Loading Skeleton ============ */
 
-/* ============ Back to Top ============ */
-.back-to-top {
-  position: fixed;
-  bottom: 132px;
-  right: 32px;
-  z-index: 90;
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  background: var(--accent);
-  color: #fff;
-  border: none;
-  font-size: 1.3rem;
-  font-weight: 700;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 4px 20px rgba(129, 140, 248, 0.35);
-  transition: all var(--transition);
-  animation: slideUp 0.3s ease;
-}
-
-@keyframes slideUp {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
 .back-to-top:hover {
   transform: translateY(-3px);
   box-shadow: 0 6px 28px rgba(129, 140, 248, 0.5);
@@ -749,35 +721,6 @@ html, body {
   border-color: rgba(129, 140, 248, 0.3);
   background: var(--accent-glow);
   color: var(--accent-hover);
-}
-
-/* ============ Scroll Reveal Animation ============ */
-.game-card {
-  animation: cardReveal 0.4s ease both;
-}
-
-.games-grid .game-card:nth-child(1) { animation-delay: 0s; }
-.games-grid .game-card:nth-child(2) { animation-delay: 0.05s; }
-.games-grid .game-card:nth-child(3) { animation-delay: 0.1s; }
-.games-grid .game-card:nth-child(4) { animation-delay: 0.15s; }
-.games-grid .game-card:nth-child(5) { animation-delay: 0.2s; }
-.games-grid .game-card:nth-child(6) { animation-delay: 0.25s; }
-.games-grid .game-card:nth-child(7) { animation-delay: 0.3s; }
-.games-grid .game-card:nth-child(8) { animation-delay: 0.35s; }
-.games-grid .game-card:nth-child(9) { animation-delay: 0.4s; }
-.games-grid .game-card:nth-child(10) { animation-delay: 0.45s; }
-.games-grid .game-card:nth-child(11) { animation-delay: 0.5s; }
-.games-grid .game-card:nth-child(12) { animation-delay: 0.55s; }
-
-@keyframes cardReveal {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 
 /* ============ Footer ============ */

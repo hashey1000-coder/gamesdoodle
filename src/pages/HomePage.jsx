@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import GameCard from '../components/GameCard';
-import SEO from '../components/SEO';
-import TrendingGames from '../components/TrendingGames';
-import { LazyAd } from '../components/AdSlot';
-import { featuredHomeGames, homeCollectionPreviews, homeTagCounts } from '../data/homeData';
-import { tagMeta as tags } from '../data/tagMeta';
-import { useFavorites } from '../hooks/useFavorites';
+import GameCard from '../components/GameCard.jsx';
+import SEO from '../components/SEO.jsx';
+import TrendingGames from '../components/TrendingGames.jsx';
+import { LazyAd } from '../components/AdSlot.jsx';
+import { featuredHomeGames, homeCollectionPreviews, homeTagCounts } from '../data/homeData.js';
+import { tagMeta as tags } from '../data/tagMeta.js';
+import { useFavorites } from '../hooks/useFavorites.js';
 
 function getRecentlyPlayed() {
   try {

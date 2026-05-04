@@ -72,8 +72,8 @@ export default function TrendingGames() {
     const subscribe = async () => {
       const [{ ref, onValue, query, orderByValue, limitToLast }, { db }, { getGameBySlug }] = await Promise.all([
         import('firebase/database'),
-        import('../firebase'),
-        import('../data/games'),
+        import('../firebase.js'),
+        import('../data/games.js'),
       ]);
 
       if (cancelled || !db) return;

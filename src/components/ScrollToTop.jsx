@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import { scheduleAdRefresh } from './AdSlot';
+import { scheduleAdRefresh } from './AdSlot.jsx';
 
 export default function ScrollToTop() {
   const { pathname, search } = useLocation();

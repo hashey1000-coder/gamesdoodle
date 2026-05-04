@@ -1,11 +1,11 @@
 import { lazy, Suspense, useState, useEffect } from 'react';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
-import { tagMeta as tags } from '../data/tagMeta';
-import { usePlayQueue } from '../hooks/usePlayQueue';
-import { useFavorites } from '../hooks/useFavorites';
+import { tagMeta as tags } from '../data/tagMeta.js';
+import { usePlayQueue } from '../hooks/usePlayQueue.js';
+import { useFavorites } from '../hooks/useFavorites.js';
 
-const SearchBar = lazy(() => import('./SearchBar'));
-const PlayQueuePanel = lazy(() => import('./PlayQueuePanel'));
+const SearchBar = lazy(() => import('./SearchBar.jsx'));
+const PlayQueuePanel = lazy(() => import('./PlayQueuePanel.jsx'));
 
 const navLinks = [
   { to: '/google-doodle-games/', label: 'Doodle Games' },
@@ -36,7 +36,7 @@ export default function Header() {
   }, []);
 
   const handleRandomGame = async () => {
-    const { games } = await import('../data/games');
+    const { games } = await import('../data/games.js');
     const randomGame = games[Math.floor(Math.random() * games.length)];
     setMobileOpen(false);
     navigate(`/${randomGame.slug}/`);
