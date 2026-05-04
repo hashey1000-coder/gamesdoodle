@@ -45,7 +45,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          SSH_PORT="${CPANEL_SSH_PORT:-22}"
+          SSH_PORT="${CPANEL_SSH_PORT:-2239}"
 
           if [ -z "${CPANEL_HOST}" ]; then
             echo "CPANEL_HOST secret is empty or missing"
@@ -82,7 +82,7 @@ jobs:
           CPANEL_SSH_PORT: ${{ secrets.CPANEL_SSH_PORT }}
         run: |
           set -euo pipefail
-          SSH_PORT="${CPANEL_SSH_PORT:-22}"
+          SSH_PORT="${CPANEL_SSH_PORT:-2239}"
           scp -r dist/* \
           -P "$SSH_PORT" \
           "$CPANEL_USER@$CPANEL_HOST:/home/sassache2/gamesdoodle.org/"
