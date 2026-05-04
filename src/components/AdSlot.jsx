@@ -70,8 +70,21 @@ function useAdsReady(delayMs = 8000) {
   return ready;
 }
 
+function useFixedDelayReady(delayMs = 2200) {
+  const [ready, setReady] = useState(false);
+
+  useEffect(() => {
+    if (!ADS_ENABLED || typeof window === 'undefined') return undefined;
+
+    const timerId = window.setTimeout(() => setReady(true), delayMs);
+    return () => window.clearTimeout(timerId);
+  }, [delayMs]);
+
+  return ready;
+}
+
 export function AdScriptLoader() {
-  const adsReady = useAdsReady(800);
+  const adsReady = useFixedDelayReady(2200);
 
   useEffect(() => {
     if (!ADS_ENABLED || !adsReady) return undefined;
