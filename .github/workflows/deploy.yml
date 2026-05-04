@@ -83,7 +83,14 @@ jobs:
         run: |
           set -euo pipefail
           SSH_PORT="${CPANEL_SSH_PORT:-2239}"
-          scp -P "$SSH_PORT" -r dist/* \
+          scp \
+          -i ~/.ssh/id_ed25519 \
+          -o IdentitiesOnly=yes \
+          -o PreferredAuthentications=publickey \
+          -o PubkeyAuthentication=yes \
+          -o BatchMode=yes \
+          -P "$SSH_PORT" \
+          -r dist/* \
           "$CPANEL_USER@$CPANEL_HOST:/home/sassache2/gamesdoodle.org/"
 
       - name: Submit new URLs to Bing IndexNow
