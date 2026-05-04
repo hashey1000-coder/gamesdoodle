@@ -1396,6 +1396,16 @@ html, body {
   overflow: hidden;
 }
 
+.game-loading-thumb {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.35) blur(2px);
+  transform: scale(1.05); /* hide blur edges */
+}
+
 .game-skeleton {
   position: absolute;
   inset: 0;

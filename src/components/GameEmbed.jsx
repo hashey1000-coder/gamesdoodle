@@ -151,9 +151,15 @@ export default function GameEmbed({ game }) {
           <>
             {!isLoaded && (
               <div className="game-loading-overlay">
-                <div className="game-skeleton">
-                  <div className="skeleton-shimmer" />
-                </div>
+                {game.thumbnail && (
+                  <img
+                    src={game.thumbnail}
+                    alt=""
+                    className="game-loading-thumb"
+                    loading="eager"
+                    aria-hidden="true"
+                  />
+                )}
                 <div className="game-spinner" />
                 <span className="game-loading-text">Loading game…</span>
               </div>

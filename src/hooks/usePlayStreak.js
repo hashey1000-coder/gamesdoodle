@@ -28,9 +28,11 @@ function saveStreak(data) {
  * Returns { current, best, recordPlay }.
  */
 export function usePlayStreak() {
-  const [streak, setStreak] = useState(() => loadStreak());
+  // Start with SSR-safe defaults — reading localStorage here would cause a
+  // hydration mismatch because the prerendered HTML always has current=0.
+  const [streak, setStreak] = useState({ current: 0, lastDate: null, best: 0 });
 
-  // On mount, check if streak is still valid (didn't miss a day)
+  // On mount, load actual streak and check if it's still valid (didn't miss a day)
   useEffect(() => {
     const data = loadStreak();
     const today = getToday();
@@ -45,7 +47,11 @@ export function usePlayStreak() {
         const reset = { current: 0, lastDate: data.lastDate, best: data.best };
         saveStreak(reset);
         setStreak(reset);
+      } else {
+        setStreak(data);
       }
+    } else {
+      setStreak(data);
     }
   }, []);
 
