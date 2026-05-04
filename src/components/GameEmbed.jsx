@@ -103,6 +103,7 @@ export default function GameEmbed({ game }) {
 
   const showEmbeddedPlayer = isEmbeddedGame && hasStarted;
   const showIframe = showEmbeddedPlayer && !isSwf;
+  const containerKey = `${game.slug}-${hasStarted ? 'started' : 'idle'}`;
 
   const handleStartGame = useCallback(() => {
     setHasStarted(true);
@@ -131,7 +132,7 @@ export default function GameEmbed({ game }) {
           )}
         </div>
       </div>
-      <div id={showEmbeddedPlayer ? 'av-reward' : undefined} className={`game-iframe-container${showEmbeddedPlayer ? ' reward_game playing' : ''}`}>
+      <div key={containerKey} id={showEmbeddedPlayer ? 'av-reward' : undefined} className={`game-iframe-container${showEmbeddedPlayer ? ' reward_game playing' : ''}`}>
         {!isEmbeddedGame ? (
           <button
             className="game-play-overlay"
