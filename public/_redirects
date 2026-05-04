@@ -1,2 +1,14 @@
+/about /about-us/ 301
+/about/ /about-us/ 301
+/contact /contact-us/ 301
+/contact/ /contact-us/ 301
+/games /online-games/ 301
+/games/ /online-games/ 301
+/doodle-games /google-doodle-games/ 301
+/doodle-games/ /google-doodle-games/ 301
+/game/google-doodle-baseball /doodle-baseball/ 301
+/game/google-doodle-baseball/ /doodle-baseball/ 301
+/game/:slug /:slug/ 301
+/game/:slug/ /:slug/ 301
 /roms/* /roms/:splat 200
 /* /200.html 200

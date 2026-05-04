@@ -1,5 +1,5 @@
 import { lazy, Suspense, useEffect } from 'react';
-import { Routes, Route, useLocation, useParams } from 'react-router-dom';
+import { Routes, Route, Navigate, useLocation, useParams } from 'react-router-dom';
 import { ToastProvider } from './components/Toast.jsx';
 import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
@@ -83,6 +83,15 @@ function TagRoute({ Component }) {
   return <Component slug={tagSlug} />;
 }
 
+function LegacyGameRoute() {
+  const { slug } = useParams();
+  const legacySlugMap = {
+    'google-doodle-baseball': 'doodle-baseball',
+  };
+
+  return <Navigate to={`/${legacySlugMap[slug] || slug}/`} replace />;
+}
+
 function App({ ssrPages = null }) {
   const { pathname, search } = useLocation();
   const showAds = import.meta.env.PROD;
@@ -100,6 +109,11 @@ function App({ ssrPages = null }) {
   const routes = (
     <Routes>
       <Route path="/" element={<HomePage />} />
+      <Route path="/about" element={<Navigate to="/about-us/" replace />} />
+      <Route path="/contact" element={<Navigate to="/contact-us/" replace />} />
+      <Route path="/games" element={<Navigate to="/online-games/" replace />} />
+      <Route path="/doodle-games" element={<Navigate to="/google-doodle-games/" replace />} />
+      <Route path="/game/:slug" element={<LegacyGameRoute />} />
       <Route path="/top-games" element={<TopGamesPage />} />
       <Route path="/new-games" element={<NewGamesPage />} />
       <Route path="/all-games" element={<AllGamesPage />} />

@@ -93,6 +93,7 @@ export default function StatsPage() {
       <div className="page-content stats-page">
         <h1 className="page-title">📊 My Stats</h1>
         <p className="category-description">Your personal gaming dashboard — track your progress and unlock achievements.</p>
+        <p className="stats-local-note">Stats are stored in this browser only, so they can reset if you clear site data or switch devices.</p>
 
         {!stats ? (
           <div className="stats-loading">Loading your stats…</div>

@@ -10,9 +10,9 @@ export const categories = [
   {
     slug: 'online-games',
     name: 'Online Games',
-    description: 'Play the collection of all the online games at the once place. Scroll through the fun online games and play now.',
-    metaTitle: 'Online Games – Play Free Browser Games | Games Doodle',
-    metaDescription: 'Play the collection of all the online games at the once place. Scroll through the fun online games and play now.',
+    description: 'Play our full collection of online games in one place. Scroll through hundreds of fun browser games and start playing now.',
+    metaTitle: 'Online Games - Play Free Browser Games | Games Doodle',
+    metaDescription: 'Play our full collection of online games in one place. Scroll through hundreds of fun browser games and start playing now.',
     introContent: 'Browse hundreds of browser-based titles spanning every genre—from shooters and racing sims to puzzles and creative sandboxes. Every game loads instantly with no downloads or installs needed.',
   },
   {

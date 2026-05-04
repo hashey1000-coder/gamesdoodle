@@ -108,8 +108,7 @@ html, body {
   min-height: 90px;
 }
 
-.page-ad-slot,
-.lazy.page-ad-slot {
+.page-ad-slot.ad-slot-placeholder {
   min-height: 280px;
 }
 
@@ -3578,14 +3577,24 @@ html, body {
   font-weight: 600;
   font-size: 0.82rem;
   color: var(--text);
-  white-space: nowrap;
+  line-height: 1.28;
+  line-clamp: 2;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
   overflow: hidden;
-  text-overflow: ellipsis;
+  text-wrap: balance;
 }
 
 .trending-plays {
   font-size: 0.72rem;
   color: var(--text-secondary);
+}
+
+.stats-local-note {
+  margin: -4px 0 18px;
+  color: var(--text-muted);
+  font-size: 0.92rem;
 }
 
 /* ============================================

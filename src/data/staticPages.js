@@ -47,7 +47,7 @@ export const staticPages = {
     title: 'Privacy Policy',
     metaTitle: 'Privacy Policy – Games Doodle',
     metaDescription: 'Read the Privacy Policy for GamesDoodle.org. Learn how we handle your data, cookies, and third-party services.',
-    content: `<p>Last updated: January 2026</p>
+    content: `<p>Last updated: May 2026</p>
 <p>At gamesdoodle.org, we respect your privacy and are committed to protecting it. This Privacy Policy explains what information is collected when you visit our website, how it is used, and the choices you have regarding your data.</p>
 <p>By accessing or using gamesdoodle.org, you agree to the terms of this Privacy Policy.</p>
 
@@ -163,7 +163,7 @@ export const staticPages = {
     title: 'Editorial Policy',
     metaTitle: 'Editorial Policy – Games Doodle',
     metaDescription: 'Read the Editorial Policy for GamesDoodle.org. Learn how content is created, reviewed, and maintained on our website.',
-    content: `<p>Last updated: January 2026</p>
+    content: `<p>Last updated: May 2026</p>
 <p>At gamesdoodle.org, we are committed to providing accurate, reliable, and enjoyable content for our visitors. This Editorial Policy explains how content is created, reviewed, and maintained on our website.</p>
 
 <h2>Editorial Independence</h2>
@@ -227,7 +227,7 @@ export const staticPages = {
     title: 'Terms of Service',
     metaTitle: 'Terms of Service – Games Doodle',
     metaDescription: 'Read the Terms of Service for GamesDoodle.org. Understand the terms and conditions for using our website and playing games.',
-    content: `<p>Last updated: March 2026</p>
+    content: `<p>Last updated: May 2026</p>
 <p>Welcome to gamesdoodle.org. By accessing and using this website, you accept and agree to be bound by these Terms of Service. If you do not agree with any part of these terms, you should not use this website.</p>
 
 <h2>1. Description of Service</h2>
@@ -287,7 +287,7 @@ export const staticPages = {
     title: 'DMCA & Copyright Policy',
     metaTitle: 'DMCA & Copyright Policy – Games Doodle',
     metaDescription: 'Read the DMCA and Copyright Policy for GamesDoodle.org. Learn how to report copyright infringement and how we handle takedown requests.',
-    content: `<p>Last updated: March 2026</p>
+    content: `<p>Last updated: May 2026</p>
 <p>gamesdoodle.org respects the intellectual property rights of others and expects its users to do the same. We comply with the Digital Millennium Copyright Act (DMCA) and will respond promptly to notices of alleged copyright infringement.</p>
 
 <h2>Copyright Ownership</h2>

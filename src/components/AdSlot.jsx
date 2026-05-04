@@ -154,7 +154,7 @@ export function AdSlot({ id, className = '', reserveSpace = true, delayMs = 3500
 }
 
 /** In-content lazy repeater: <div class="lazy" parent-unit="GD_Game_Bottom"></div> */
-export function LazyAd({ className = '', parentUnit = 'GD_Game_Bottom', reserveSpace = true, delayMs = 3500 }) {
+export function LazyAd({ className = '', parentUnit = 'GD_Game_Bottom', reserveSpace = false, delayMs = 3500 }) {
   const instanceId = useId().replace(/:/g, '');
   const routeKey = useAdRouteKey();
   const adsReady = useAdsReady(delayMs);
