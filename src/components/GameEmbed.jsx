@@ -5,6 +5,7 @@ import { getRelatedGames } from '../data/games';
 export default function GameEmbed({ game }) {
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
+  const [hasStarted, setHasStarted] = useState(false);
   const relatedGames = getRelatedGames(game.relatedSlugs || []);
   const isExternal = Boolean(game.externalUrl);
 
@@ -46,6 +47,7 @@ export default function GameEmbed({ game }) {
   useEffect(() => {
     setIsFullscreen(false);
     setIsLoaded(false);
+    setHasStarted(false);
   }, [game.slug]);
 
   // Lock body scroll when fullscreen
@@ -64,7 +66,7 @@ export default function GameEmbed({ game }) {
 
   // Load Ruffle Flash emulator for SWF games
   useEffect(() => {
-    if (!isEmbeddedGame || !isSwf || !ruffleContainerRef.current) return;
+    if (!isEmbeddedGame || !hasStarted || !isSwf || !ruffleContainerRef.current) return;
     const container = ruffleContainerRef.current;
     container.innerHTML = '';
 
@@ -97,9 +99,15 @@ export default function GameEmbed({ game }) {
     }
 
     return () => { container.innerHTML = ''; };
-  }, [isEmbeddedGame, isSwf, game.embedUrl]);
+  }, [isEmbeddedGame, hasStarted, isSwf, game.embedUrl]);
 
-  const showIframe = isEmbeddedGame && !isSwf;
+  const showEmbeddedPlayer = isEmbeddedGame && hasStarted;
+  const showIframe = showEmbeddedPlayer && !isSwf;
+
+  const handleStartGame = useCallback(() => {
+    setHasStarted(true);
+    setIsLoaded(false);
+  }, []);
 
   return (
     <div className={`game-embed-wrapper ${isFullscreen ? 'fullscreen' : ''}`}>
@@ -116,14 +124,14 @@ export default function GameEmbed({ game }) {
           </div>
         )}
         <div className="embed-actions">
-          {showIframe && (
+          {showEmbeddedPlayer && (
             <button className="fullscreen-btn" onClick={toggleFullscreen}>
               {isFullscreen ? '✕ Exit' : '⛶ Fullscreen'}
             </button>
           )}
         </div>
       </div>
-      <div id={isEmbeddedGame ? 'av-reward' : undefined} className={`game-iframe-container${isEmbeddedGame ? ' reward_game' : ''}${showIframe ? ' playing' : ''}`}>
+      <div id={showEmbeddedPlayer ? 'av-reward' : undefined} className={`game-iframe-container${showEmbeddedPlayer ? ' reward_game playing' : ''}`}>
         {!isEmbeddedGame ? (
           <button
             className="game-play-overlay"
@@ -145,6 +153,25 @@ export default function GameEmbed({ game }) {
             <div className="game-play-btn">
               <span className="game-play-icon">▶</span>
               <span className="game-play-label">Play on Official Site ↗</span>
+            </div>
+          </button>
+        ) : !hasStarted ? (
+          <button
+            className="game-play-overlay"
+            onClick={handleStartGame}
+            aria-label={`Start ${game.title}`}
+          >
+            {game.thumbnail && (
+              <img
+                src={game.thumbnail}
+                alt={game.title}
+                className="game-play-thumb"
+                loading="eager"
+              />
+            )}
+            <div className="game-play-btn">
+              <span className="game-play-icon">▶</span>
+              <span className="game-play-label">Click to Start Game</span>
             </div>
           </button>
         ) : (

@@ -128,7 +128,7 @@ function App({ ssrPages = null }) {
               id="GD_Game_Top"
               className="global-top-ad-slot"
               reserveSpace={false}
-              delayMs={750}
+              delayMs={0}
             />
           </div>
         )}
@@ -139,7 +139,7 @@ function App({ ssrPages = null }) {
               key={`bottom-${pathname}${search}`}
               id="GD_Game_Bottom"
               className="global-bottom-ad-slot"
-              delayMs={4000}
+              delayMs={2500}
             />
           )}
         </main>
