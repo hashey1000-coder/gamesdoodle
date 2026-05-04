@@ -71,7 +71,7 @@ function useAdsReady(delayMs = 8000) {
 }
 
 export function AdScriptLoader() {
-  const adsReady = useAdsReady(8000);
+  const adsReady = useAdsReady(2500);
 
   useEffect(() => {
     if (!ADS_ENABLED || !adsReady) return undefined;
@@ -139,9 +139,9 @@ function useAdRouteKey() {
  */
 
 /** Named banner slot — exactly as per guide: <div id="GD_Game_Top"></div> */
-export function AdSlot({ id, className = '', reserveSpace = true }) {
+export function AdSlot({ id, className = '', reserveSpace = true, delayMs = 8000 }) {
   const routeKey = useAdRouteKey();
-  const adsReady = useAdsReady(8000);
+  const adsReady = useAdsReady(delayMs);
 
   if (!ADS_ENABLED) return null;
 
@@ -154,10 +154,10 @@ export function AdSlot({ id, className = '', reserveSpace = true }) {
 }
 
 /** In-content lazy repeater: <div class="lazy" parent-unit="GD_Game_Bottom"></div> */
-export function LazyAd({ className = '', parentUnit = 'GD_Game_Bottom', reserveSpace = true }) {
+export function LazyAd({ className = '', parentUnit = 'GD_Game_Bottom', reserveSpace = true, delayMs = 8000 }) {
   const instanceId = useId().replace(/:/g, '');
   const routeKey = useAdRouteKey();
-  const adsReady = useAdsReady(8000);
+  const adsReady = useAdsReady(delayMs);
 
   if (!ADS_ENABLED) return null;
 
