@@ -3,11 +3,12 @@ import { Link } from 'react-router-dom';
 import { getRelatedGames } from '../data/games';
 
 export default function GameEmbed({ game }) {
+  const isExternal = Boolean(game.externalUrl);
+  const isEmbeddedGame = !isExternal;
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
-  const [hasStarted, setHasStarted] = useState(false);
+  const [hasStarted, setHasStarted] = useState(() => isEmbeddedGame);
   const relatedGames = getRelatedGames(game.relatedSlugs || []);
-  const isExternal = Boolean(game.externalUrl);
 
   const handleIframeLoad = useCallback(() => {
     setIsLoaded(true);
@@ -47,8 +48,8 @@ export default function GameEmbed({ game }) {
   useEffect(() => {
     setIsFullscreen(false);
     setIsLoaded(false);
-    setHasStarted(false);
-  }, [game.slug]);
+    setHasStarted(isEmbeddedGame);
+  }, [game.slug, isEmbeddedGame]);
 
   // Lock body scroll when fullscreen
   useEffect(() => {
@@ -62,7 +63,6 @@ export default function GameEmbed({ game }) {
 
   const isSwf = /\.swf(?:[?#]|$)/i.test(game.embedUrl || '');
   const ruffleContainerRef = useRef(null);
-  const isEmbeddedGame = !isExternal;
 
   // Load Ruffle Flash emulator for SWF games
   useEffect(() => {
