@@ -75,6 +75,19 @@ jobs:
             exit 1
           fi
 
+          if ! ssh \
+            -i ~/.ssh/id_ed25519 \
+            -o IdentitiesOnly=yes \
+            -o PreferredAuthentications=publickey \
+            -o PubkeyAuthentication=yes \
+            -o BatchMode=yes \
+            -o ConnectTimeout=15 \
+            -p "$SSH_PORT" \
+            "$CPANEL_USER@$CPANEL_HOST" true; then
+            echo "SSH authentication failed. Verify CPANEL_USER and ensure CPANEL_SSH_KEY contains the matching private key for the authorized public key in cPanel."
+            exit 1
+          fi
+
       - name: Upload dist files
         env:
           CPANEL_HOST: ${{ secrets.CPANEL_HOST }}
