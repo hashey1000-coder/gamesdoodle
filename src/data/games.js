@@ -7498,7 +7498,7 @@ export const games = [
     metaDescription: 'Play Drive Mad unblocked! Enjoy the thrilling Drive Mad game with crazy stunts, tricky tracks, and exciting car challenges online anytime.',
     category: 'online-games',
     tags: ['racing', 'puzzle'],
-    embedUrl: 'https://embed.gamesdoodle.org/drive-mad/index.html',
+    embedUrl: 'https://rivegames.com/games/drive-mad/index.html',
     thumbnail: '/images/drive-mad.webp',
     relatedSlugs: ['rooftop-snipers', 'bad-time-simulator', 'do-a-barrel-roll'],
     excerpt: 'Drive Mad is an exciting driving game that tests your skills, balance, and patience on wild obstacle-filled tracks.',
