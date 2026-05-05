@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { isNewGame, getTagMetaForGame } from '../data/tagMeta.js';
 
@@ -18,14 +18,19 @@ const CARD_SRCSETS = {
 
 export default function GameCard({ game, isFavorite, onToggleFavorite, priority = false }) {
   const [imgError, setImgError] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
   const shortTitle = game.title.split(' – ')[0].trim();
   const gameTags = getTagMetaForGame(game);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
   return (
     <article className="game-card">
       <Link to={`/${game.slug}/`} className="game-card-link">
         <div className="game-card-thumb">
-          {isNewGame(game) && <span className="game-card-new-badge">NEW</span>}
+          {isMounted && isNewGame(game) && <span className="game-card-new-badge">NEW</span>}
           {game.thumbnail && !imgError ? (
             <img
               src={game.thumbnail}

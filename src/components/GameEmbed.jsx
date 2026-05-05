@@ -134,17 +134,13 @@ export default function GameEmbed({ game }) {
       </div>
       <div key={containerKey} id={showEmbeddedPlayer ? 'av-reward' : undefined} className={`game-iframe-container${showEmbeddedPlayer ? ' reward_game playing' : ''}`}>
         {!isEmbeddedGame ? (
-          <button
-            className="game-play-overlay"
-            aria-label={`Play ${game.title}`}
+          <a
+            href={game.externalUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="game-play-overlay game-play-external-link"
+            aria-label={`Play ${game.title} (opens in new tab)`}
           >
-            <a
-              href={game.externalUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="game-play-external-link"
-              aria-label={`Play ${game.title} (opens in new tab)`}
-            />
             <img
               src={game.thumbnail}
               alt={game.title}
@@ -155,7 +151,7 @@ export default function GameEmbed({ game }) {
               <span className="game-play-icon">▶</span>
               <span className="game-play-label">Play on Official Site ↗</span>
             </div>
-          </button>
+          </a>
         ) : !hasStarted ? (
           <button
             className="game-play-overlay"

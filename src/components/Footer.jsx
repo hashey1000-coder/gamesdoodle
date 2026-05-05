@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 
+const COPYRIGHT_YEAR = 2026;
+
 export default function Footer() {
   return (
     <footer className="site-footer">
@@ -32,7 +34,7 @@ export default function Footer() {
           <Link to="/contact-us/">Contact Us</Link>
           <Link to="/editorial-policy/">Editorial Policy</Link>
         </div>
-        <p className="footer-copy">&copy; {new Date().getFullYear()} Games Doodle. All Rights Reserved.</p>
+        <p className="footer-copy">&copy; {COPYRIGHT_YEAR} Games Doodle. All Rights Reserved.</p>
       </div>
     </footer>
   );
