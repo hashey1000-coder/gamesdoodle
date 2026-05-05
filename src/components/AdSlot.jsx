@@ -118,13 +118,27 @@ export function scheduleAdRefresh() {
   if (!ADS_ENABLED) return;
   if (typeof window === 'undefined') return;
 
-  // The rewarded in-game flow bound to #av-reward is vendor-managed.
-  // Re-registering ad nodes here can cause the rewarded overlay to be
-  // rediscovered and restarted, which can create a play-loop on game pages.
-  if (document.getElementById('av-reward')) return;
-
   refreshTimerIds.forEach(id => clearTimeout(id));
   refreshTimerIds = [];
+
+  const hasRewardedFlow = Boolean(document.getElementById('av-reward'));
+
+  // Always refresh the primary page banners immediately.
+  // On game pages this keeps the ATF/BTM units from waiting on the
+  // rewarded player flow before they render.
+  refreshPrimaryAdSlots();
+
+  // The rewarded in-game flow bound to #av-reward is vendor-managed.
+  // Re-registering discovered nodes here can cause that overlay to be
+  // rediscovered and restarted, which creates a play-loop on game pages.
+  // So for game pages, refresh only the named banner slots.
+  if (hasRewardedFlow) {
+    window.requestAnimationFrame(() => {
+      refreshPrimaryAdSlots();
+    });
+    refreshTimerIds = [400, 1200].map(delay => setTimeout(refreshPrimaryAdSlots, delay));
+    return;
+  }
 
   registerNewAdNodes();
   refreshPrimaryAdSlots();

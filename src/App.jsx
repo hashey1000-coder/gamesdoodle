@@ -142,7 +142,7 @@ function App({ ssrPages = null }) {
               id="GD_Game_Top"
               className="global-top-ad-slot"
               reserveSpace={false}
-              delayMs={1200}
+              delayMs={0}
             />
           </div>
         )}
