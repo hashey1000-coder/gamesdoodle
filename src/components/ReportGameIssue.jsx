@@ -3,6 +3,7 @@ import { useToast } from './Toast.jsx';
 
 const REPORT_EMAIL = 'admin@gamesdoodle.org';
 const REPORT_ENDPOINT = `https://formsubmit.co/ajax/${REPORT_EMAIL}`;
+const REPORT_FORM_ENDPOINT = `https://formsubmit.co/${REPORT_EMAIL}`;
 
 const ISSUE_OPTIONS = [
   { value: 'game-not-loading', label: 'Game is not loading' },
@@ -22,6 +23,55 @@ function getCurrentUrl(slug) {
   return `https://gamesdoodle.org/${slug}/`;
 }
 
+function submitWithHiddenForm(payload) {
+  if (typeof document === 'undefined') return Promise.reject(new Error('No document'));
+
+  return new Promise((resolve) => {
+    const iframeName = `report-target-${Date.now()}`;
+    const iframe = document.createElement('iframe');
+    const form = document.createElement('form');
+
+    iframe.name = iframeName;
+    iframe.style.display = 'none';
+    iframe.setAttribute('aria-hidden', 'true');
+
+    form.method = 'POST';
+    form.action = REPORT_FORM_ENDPOINT;
+    form.target = iframeName;
+    form.style.display = 'none';
+
+    Object.entries(payload).forEach(([name, value]) => {
+      const input = document.createElement('input');
+      input.type = 'hidden';
+      input.name = name;
+      input.value = String(value ?? '');
+      form.appendChild(input);
+    });
+
+    const cleanup = () => {
+      setTimeout(() => {
+        form.remove();
+        iframe.remove();
+      }, 500);
+    };
+
+    iframe.addEventListener('load', () => {
+      cleanup();
+      resolve();
+    }, { once: true });
+
+    document.body.appendChild(iframe);
+    document.body.appendChild(form);
+    form.submit();
+
+    // Some browsers block reading the iframe response, but the POST is still sent.
+    setTimeout(() => {
+      cleanup();
+      resolve();
+    }, 1800);
+  });
+}
+
 export default function ReportGameIssue({ game }) {
   const [open, setOpen] = useState(false);
   const [issueType, setIssueType] = useState(ISSUE_OPTIONS[0].value);
@@ -30,20 +80,6 @@ export default function ReportGameIssue({ game }) {
   const showToast = useToast();
 
   const shortTitle = useMemo(() => game.title.split(' – ')[0].trim(), [game.title]);
-
-  const openEmailFallback = () => {
-    const subject = encodeURIComponent(`Game report: ${shortTitle}`);
-    const body = encodeURIComponent([
-      `Game: ${shortTitle}`,
-      `Slug: ${game.slug}`,
-      `Issue: ${issueType}`,
-      `URL: ${getCurrentUrl(game.slug)}`,
-      `Browser: ${getBrowserInfo()}`,
-      '',
-      message.trim() || 'No extra details provided.',
-    ].join('\n'));
-    window.location.href = `mailto:${REPORT_EMAIL}?subject=${subject}&body=${body}`;
-  };
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -81,8 +117,15 @@ export default function ReportGameIssue({ game }) {
       setOpen(false);
       showToast?.('Thanks — report emailed!');
     } catch {
-      openEmailFallback();
-      showToast?.('Opening email fallback…', 'info');
+      try {
+        await submitWithHiddenForm(payload);
+        setMessage('');
+        setIssueType(ISSUE_OPTIONS[0].value);
+        setOpen(false);
+        showToast?.('Thanks — report emailed!');
+      } catch {
+        showToast?.('Could not send report. Please use the Contact page.', 'error');
+      }
     } finally {
       setSubmitting(false);
     }
