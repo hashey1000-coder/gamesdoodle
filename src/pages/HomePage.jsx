@@ -5,13 +5,21 @@ import SEO from '../components/SEO.jsx';
 import TrendingGames from '../components/TrendingGames.jsx';
 import { LazyAd } from '../components/AdSlot.jsx';
 import { featuredHomeGames, homeCollectionPreviews, homeTagCounts } from '../data/homeData.js';
+import { getGameBySlug } from '../data/games.js';
 import { tagMeta as tags } from '../data/tagMeta.js';
 import { useFavorites } from '../hooks/useFavorites.js';
 
 function getRecentlyPlayed() {
   try {
-    const stored = JSON.parse(localStorage.getItem('recentlyPlayedGames') || '[]');
-    return Array.isArray(stored) ? stored.slice(0, 6) : [];
+    const recent = JSON.parse(localStorage.getItem('recentlyPlayed') || '[]');
+    const legacy = JSON.parse(localStorage.getItem('recentlyPlayedGames') || '[]');
+    const stored = Array.isArray(recent) && recent.length > 0 ? recent : legacy;
+    if (!Array.isArray(stored)) return [];
+
+    return stored
+      .map(item => (typeof item === 'string' ? getGameBySlug(item) : item))
+      .filter(Boolean)
+      .slice(0, 6);
   } catch {
     return [];
   }

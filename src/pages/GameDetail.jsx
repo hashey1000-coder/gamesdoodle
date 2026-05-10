@@ -6,6 +6,7 @@ import { LazyAd, scheduleAdRefresh } from '../components/AdSlot';
 import VoteButtons from '../components/VoteButtons';
 import EmojiReactions from '../components/EmojiReactions';
 import PlayQueueButton from '../components/PlayQueueButton';
+import ReportGameIssue from '../components/ReportGameIssue';
 import GameCard from '../components/GameCard';
 import { games, getCategoryBySlug, getRelatedGames, getTagsForGame } from '../data/games';
 import { useFavorites } from '../hooks/useFavorites';
@@ -199,6 +200,7 @@ export default function GameDetail({ game }) {
               📤 Share
             </button>
           </div>
+          <ReportGameIssue game={game} />
         </div>
 
         <GameEmbed game={game} />

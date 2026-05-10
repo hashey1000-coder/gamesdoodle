@@ -3660,6 +3660,113 @@ html, body {
 }
 
 /* ============================================
+   Report Game Issue
+   ============================================ */
+.report-game-issue {
+  margin-top: 12px;
+}
+
+.report-game-toggle {
+  border: 1px solid rgba(245, 158, 11, 0.28);
+  background: rgba(245, 158, 11, 0.08);
+  color: #fbbf24;
+  border-radius: var(--radius-xs);
+  padding: 8px 12px;
+  font-size: 0.86rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.report-game-toggle:hover,
+.report-game-issue.open .report-game-toggle {
+  background: rgba(245, 158, 11, 0.15);
+  border-color: rgba(245, 158, 11, 0.45);
+}
+
+.report-game-form {
+  margin-top: 10px;
+  padding: 14px;
+  max-width: 520px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  display: grid;
+  gap: 12px;
+}
+
+.report-game-label {
+  display: grid;
+  gap: 6px;
+  color: var(--text-secondary);
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+
+.report-game-label span,
+.report-game-note {
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.report-game-label select,
+.report-game-label textarea {
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xs);
+  background: var(--bg-secondary);
+  color: var(--text);
+  padding: 10px 12px;
+  font: inherit;
+}
+
+.report-game-label textarea {
+  resize: vertical;
+  min-height: 82px;
+}
+
+.report-game-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.report-game-submit,
+.report-game-cancel {
+  border: 0;
+  border-radius: var(--radius-xs);
+  padding: 9px 14px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.report-game-submit {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  color: #fff;
+}
+
+.report-game-submit:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+
+.report-game-cancel {
+  background: rgba(255,255,255,0.06);
+  color: var(--text-secondary);
+}
+
+.report-game-submit:hover:not(:disabled),
+.report-game-cancel:hover {
+  transform: translateY(-1px);
+}
+
+.report-game-note {
+  margin: -2px 0 0;
+  font-size: 0.75rem;
+}
+
+/* ============================================
    Play Queue Button & Panel
    ============================================ */
 .queue-btn.active {
