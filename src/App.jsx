@@ -7,6 +7,7 @@ import BackToTop from './components/BackToTop.jsx';
 import HomePage from './pages/HomePage.jsx';
 import ScrollToTop from './components/ScrollToTop.jsx';
 import { AdScriptLoader, AdSlot } from './components/AdSlot.jsx';
+import { getGameBySlug } from './data/games';
 import './App.css';
 
 const LazyGamePage = lazy(() => import('./pages/GamePage.jsx'));
@@ -95,7 +96,10 @@ function LegacyGameRoute() {
 function App({ ssrPages = null }) {
   const { pathname, search } = useLocation();
   const showAds = import.meta.env.PROD;
-  const showTopAd = showAds && pathname !== '/';
+  const pathSegments = pathname.split('/').filter(Boolean);
+  const isGameDetailRoute = pathSegments.length === 1 && Boolean(getGameBySlug(pathSegments[0]));
+  const showTopAd = showAds && pathname !== '/' && !isGameDetailRoute;
+  const showBottomAd = showAds && !isGameDetailRoute;
   const GamePage = ssrPages?.GamePage || LazyGamePage;
   const TagPage = ssrPages?.TagPage || LazyTagPage;
   const TopGamesPage = ssrPages?.TopGamesPage || LazyTopGamesPage;
@@ -148,7 +152,7 @@ function App({ ssrPages = null }) {
         )}
         <main className="site-main">
           {import.meta.env.SSR ? routes : <Suspense fallback={null}>{routes}</Suspense>}
-          {showAds && (
+          {showBottomAd && (
             <AdSlot
               key={`bottom-${pathname}${search}`}
               id="GD_Game_Bottom"

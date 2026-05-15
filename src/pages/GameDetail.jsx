@@ -2,7 +2,7 @@ import { useEffect, useCallback, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import GameEmbed from '../components/GameEmbed';
-import { LazyAd, scheduleAdRefresh } from '../components/AdSlot';
+import { AdSlot, LazyAd, scheduleAdRefresh } from '../components/AdSlot';
 import VoteButtons from '../components/VoteButtons';
 import EmojiReactions from '../components/EmojiReactions';
 import PlayQueueButton from '../components/PlayQueueButton';
@@ -183,6 +183,12 @@ export default function GameDetail({ game }) {
             <span>{game.title.split(' – ')[0].trim()}</span>
           </nav>
           <h1 className="game-page-title">{game.title.replace(/ - /g, ' – ')}</h1>
+          <AdSlot
+            id="GD_Game_Top"
+            className="game-page-top-ad"
+            reserveSpace={false}
+            delayMs={0}
+          />
           <div className="game-meta-bar">
             <span className="game-play-count">
               {playCount > 0 ? `🎮 ${formatPlayCount(playCount)} players` : '🎮 Be the first to play!'}
@@ -207,9 +213,13 @@ export default function GameDetail({ game }) {
 
         <VoteButtons slug={game.slug} />
 
-        <LazyAd />
-
         <EmojiReactions slug={game.slug} />
+
+        <AdSlot
+          id="GD_Game_Bottom"
+          className="game-page-bottom-ad"
+          reserveSpace={false}
+        />
 
         <div
           className="game-page-content"
