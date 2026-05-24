@@ -112,11 +112,7 @@ export const additionalThumbnailManifest = {
   "arrow-tap-puzzle": "/images/additional/arrow-tap-puzzle.jpg",
   "cubica": "/images/additional/cubica.jpg",
   "key-quest": "/images/additional/key-quest.jpg",
-  "nonogram": "/images/additional/nonogram.jpg",
   "mahjong-quest": "/images/additional/mahjong-quest.jpg",
   "drift-rush-3d": "/images/additional/drift-rush-3d.jpg",
-  "my-manga-avatar": "/images/additional/my-manga-avatar.jpg",
-  "penalty-kick-target": "/images/additional/penalty-kick-target.jpg",
-  "fireworks-simulator": "/images/additional/fireworks-simulator.jpg",
-  "space-find-the-differences": "/images/additional/space-find-the-differences.jpg"
+  "my-manga-avatar": "/images/additional/my-manga-avatar.jpg"
 };
