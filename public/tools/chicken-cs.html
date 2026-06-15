@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chicken CS</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: #0f121a;
+        font-family: Arial, sans-serif;
+      }
+
+      #unity-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background: #0f121a;
+      }
+
+      #unity-canvas {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: #0f121a;
+      }
+
+      #loading {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+        color: #fff;
+        background: radial-gradient(circle at center, #1e2433 0%, #0f121a 70%);
+      }
+
+      .bar {
+        width: min(320px, 76vw);
+        height: 10px;
+        border-radius: 999px;
+        overflow: hidden;
+        background: rgba(255, 255, 255, 0.14);
+      }
+
+      .bar-fill {
+        width: 0%;
+        height: 100%;
+        background: linear-gradient(90deg, #ffc93c, #ff7b54);
+        transition: width 0.15s ease;
+      }
+
+      #message {
+        max-width: 520px;
+        padding: 0 20px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.5;
+        color: rgba(255, 255, 255, 0.86);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="unity-container">
+      <canvas id="unity-canvas" aria-label="Chicken CS"></canvas>
+      <div id="loading">
+        <div>Loading Chicken CS…</div>
+        <div class="bar"><div class="bar-fill" id="bar-fill"></div></div>
+        <div id="message">Preparing the local embed.</div>
+      </div>
+    </div>
+
+    <script>
+      const buildRoot = 'https://chicken-cs.game-files.crazygames.com/chicken-cs/1/Build';
+      const canvas = document.getElementById('unity-canvas');
+      const loading = document.getElementById('loading');
+      const barFill = document.getElementById('bar-fill');
+      const message = document.getElementById('message');
+
+      const config = {
+        dataUrl: `${buildRoot}/5875d353973e6e9f3002fd919fa7edb8.data.br`,
+        frameworkUrl: `${buildRoot}/ca50dfd76e12b1aa44df5802b0900fff.framework.js.br`,
+        codeUrl: `${buildRoot}/6d99706f68a38ccb552255389bf6884f.wasm.br`,
+        companyName: 'Chicken CS',
+        productName: 'Chicken CS',
+        productVersion: '1.0',
+        matchWebGLToCanvasSize: true,
+        devicePixelRatio: 1,
+        showBanner: (text, type) => {
+          if (type === 'error') {
+            message.textContent = text;
+          }
+        },
+      };
+
+      const script = document.createElement('script');
+      script.src = `${buildRoot}/9df76ec83b819561a13f26ca3156e76d.loader.js`;
+      script.onload = () => {
+        createUnityInstance(canvas, config, (progress) => {
+          barFill.style.width = `${Math.round(progress * 100)}%`;
+          message.textContent = `Loading assets… ${Math.round(progress * 100)}%`;
+        })
+          .then(() => {
+            loading.style.display = 'none';
+          })
+          .catch((error) => {
+            message.textContent = `Chicken CS could not be loaded: ${error}`;
+          });
+      };
+      script.onerror = () => {
+        message.textContent = 'Chicken CS loader could not be reached.';
+      };
+      document.body.appendChild(script);
+    </script>
+  </body>
+</html>
