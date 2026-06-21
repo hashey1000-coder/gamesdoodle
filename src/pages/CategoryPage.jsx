@@ -101,6 +101,21 @@ export default function CategoryPage({ slug }) {
             )}
           </nav>
         )}
+
+        {/* FAQ Section — shown on page 1 only */}
+        {currentPage === 1 && category.faq && category.faq.length > 0 && (
+          <section className="category-faq-section">
+            <h2 className="category-faq-heading">Frequently Asked Questions</h2>
+            <div className="category-faq-list">
+              {category.faq.map((item, i) => (
+                <div key={i} className="category-faq-item">
+                  <h3 className="category-faq-question">{item.q}</h3>
+                  <p className="category-faq-answer">{item.a}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
       </div>
     </>
   );

@@ -546,6 +546,92 @@ html, body {
   min-width: 220px;
 }
 
+/* ============ FAQ Section (Game Pages) ============ */
+.game-faq-section {
+  margin-top: 48px;
+  padding-top: 36px;
+  border-top: 1px solid var(--border);
+}
+
+.game-faq-heading {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #fff;
+  margin: 0 0 24px;
+  letter-spacing: -0.3px;
+}
+
+.game-faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.game-faq-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 18px 20px;
+}
+
+.game-faq-question {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin: 0 0 8px;
+  line-height: 1.4;
+}
+
+.game-faq-answer {
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.65;
+}
+
+/* ============ FAQ Section (Category Pages) ============ */
+.category-faq-section {
+  margin-top: 48px;
+  padding-top: 36px;
+  border-top: 1px solid var(--border);
+}
+
+.category-faq-heading {
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #fff;
+  margin: 0 0 24px;
+  letter-spacing: -0.3px;
+}
+
+.category-faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.category-faq-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 18px 20px;
+}
+
+.category-faq-question {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin: 0 0 8px;
+  line-height: 1.4;
+}
+
+.category-faq-answer {
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.65;
+}
+
 /* ============ Loading Skeleton ============ */
 
 .back-to-top:hover {

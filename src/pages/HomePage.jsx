@@ -4,7 +4,7 @@ import GameCard from '../components/GameCard.jsx';
 import SEO from '../components/SEO.jsx';
 import TrendingGames from '../components/TrendingGames.jsx';
 import { LazyAd } from '../components/AdSlot.jsx';
-import { featuredHomeGames, homeCollectionPreviews, homeTagCounts } from '../data/homeData.js';
+import { featuredHomeGames, homeCollectionPreviews, homeTagCounts, popularGoogleGames, latestGoogleDoodles } from '../data/homeData.js';
 import { getGameBySlug } from '../data/games.js';
 import { tagMeta as tags } from '../data/tagMeta.js';
 import { useFavorites } from '../hooks/useFavorites.js';
@@ -85,6 +85,32 @@ export default function HomePage() {
           </div>
         </section>
 
+        {/* Popular Google Games */}
+        <section className="homepage-section">
+          <div className="homepage-section-header">
+            <h2 className="homepage-section-title">🎮 Popular Google Games</h2>
+            <a href="/google-doodle-games/" className="homepage-section-link">All Google games →</a>
+          </div>
+          <div className="games-grid">
+            {popularGoogleGames.map(game => (
+              <GameCard key={game.slug} game={game} isFavorite={isFavorite(game.slug)} onToggleFavorite={toggleFavorite} />
+            ))}
+          </div>
+        </section>
+
+        {/* Latest Google Doodles */}
+        <section className="homepage-section">
+          <div className="homepage-section-header">
+            <h2 className="homepage-section-title">✨ Latest Google Doodles</h2>
+            <a href="/google-doodle-games/" className="homepage-section-link">View all doodles →</a>
+          </div>
+          <div className="games-grid">
+            {latestGoogleDoodles.map(game => (
+              <GameCard key={game.slug} game={game} isFavorite={isFavorite(game.slug)} onToggleFavorite={toggleFavorite} />
+            ))}
+          </div>
+        </section>
+
         {/* Browse by Genre */}
         <section className="homepage-section">
           <div className="homepage-section-header">
@@ -129,8 +155,12 @@ export default function HomePage() {
         <LazyAd className="page-ad-slot" />
 
         <div className="homepage-seo-text">
-          <p>Google Doodle games turn the search engine's iconic logo into playable interactive experiences, celebrating holidays, historic events, and cultural moments from around the world. From the Halloween-themed Great Ghoul Duel to the Olympic hurdles runner, each game offers a unique creative twist that blends art, music, and gameplay into something anyone can enjoy in seconds.</p>
-          <p>Games Doodle brings together these beloved browser-based experiences alongside other popular web games so you can discover, replay, and share them all in one place. Whether you're looking for a quick puzzle break, a nostalgic classic, or a brand-new challenge, every title runs directly in your browser with no downloads or sign-ups required.</p>
+          <p>Google Doodle games turn the search engine’s iconic logo into playable interactive experiences, celebrating holidays, historic events, and cultural moments from around the world. From the Halloween-themed Magic Cat Academy to the Olympic hurdles runner, each game offers a unique creative twist that blends art, music, and gameplay into something anyone can enjoy in seconds.</p>
+          <p>Games Doodle brings together these beloved browser-based experiences alongside other popular web games so you can discover, replay, and share them all in one place. Whether you’re looking for a quick puzzle break, a nostalgic classic, or a brand-new challenge, every title runs directly in your browser with no downloads or sign-ups required.</p>
+          <p>Google games span decades of internet history. The first playable Google Doodle was the iconic Pac-Man anniversary edition in 2010, which racked up over a billion plays in just two days. Since then, Google Doodle games have grown far more ambitious — from simple click challenges to full RPGs like Doodle Champion Island with seven sports, 22 side quests, and hundreds of hidden secrets. These are not just logos; they are genuinely great games.</p>
+          <p>Some of the best Google Doodles to play right now include <a href="/quick-draw/">Quick Draw</a>, where Google’s AI guesses your sketches in real time; <a href="/doodle-baseball/">Doodle Baseball</a>, the beloved Fourth of July classic; <a href="/google-cricket/">Google Cricket</a>, a fan-favourite from the ICC Champions Trophy; and <a href="/magic-cat-academy/">Magic Cat Academy</a>, the Halloween doodle where you draw spells to defeat ghosts. Each of these hidden Google games takes just seconds to start and can entertain for hours.</p>
+          <p>If you want to play Google games online, you’ve come to the right place. Games Doodle archives the most popular and beloved Doodles so they’re always available — no hunting through archive pages or worrying about broken links. Whether you’re a returning player chasing a high score or a newcomer exploring Google Doodle games for the first time, every title here is free, fast, and ready to play instantly.</p>
+          <p>Beyond the classic doodles, we also feature the best Google Easter eggs — hidden surprises like <a href="/google-gravity/">Google Gravity</a>, <a href="/google-minesweeper/">Google Minesweeper</a>, and <a href="/google-snake/">Google Snake</a> that most people never discover. Explore our complete collection of Google games by category, from sports and arcade to puzzle and creative — and you’ll find something new to play every visit.</p>
         </div>
       </div>
     </>

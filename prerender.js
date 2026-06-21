@@ -33,7 +33,7 @@ const gamesSource = [
 
 const CAT_SLUGS = ['google-doodle-games', 'online-games', 'google-tools', 'google-easter-egg'];
 const TAG_SLUGS = ['arcade', 'racing', 'shooter', 'puzzle', 'sports', 'io', 'word-and-trivia', 'strategy', 'music-and-creative', 'simulation', 'card-and-board', 'platformer'];
-const STATIC_SLUGS = ['about-us', 'privacy-policy', 'contact-us', 'editorial-policy', 'terms-of-service', 'dmca'];
+const STATIC_SLUGS = ['about-us', 'privacy-policy', 'contact-us', 'editorial-policy', 'terms-of-service', 'dmca', 'google-games-list', 'best-google-doodle-games', 'google-easter-eggs', 'google-games-by-category'];
 const COLLECTION_SLUGS = ['chill-games', 'brain-teasers', 'action-packed', 'multiplayer-fun', 'retro-classics', 'speed-runs', 'hidden-gems', 'google-doodle-best'];
 
 const allSlugs = [...gamesSource.matchAll(/^\s+slug: '([^']+)'/gm)].map(m => m[1]);

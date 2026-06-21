@@ -337,4 +337,164 @@ export const staticPages = {
 <p>For any copyright-related questions or concerns:</p>
 <p>Email: admin@gamesdoodle.org<br/>Website: <a href="https://gamesdoodle.org/">https://gamesdoodle.org/</a></p>`,
   },
+
+  'google-games-list': {
+    title: 'Google Games List – Every Google Game You Can Play Online',
+    metaTitle: 'Google Games List – All Google Games You Can Play Free | Games Doodle',
+    metaDescription: 'The complete Google games list. Find every Google game, Google Doodle game, and hidden Google Easter egg in one place — all free to play online.',
+    content: `<p>This is the definitive Google games list — every game Google has ever made that you can still play today. From Google Doodle games celebrating historic milestones to hidden Easter eggs built into Google Search, this list covers all Google games across every category. Bookmark this page and come back whenever you want to discover something new to play.</p>
+
+<h2>What Are Google Games?</h2>
+<p>Google games fall into three main categories. <strong>Google Doodle Games</strong> are interactive animated versions of the Google logo that appear on the homepage to mark special dates — holidays, anniversaries, cultural events, and historic firsts. <strong>Google Easter Eggs</strong> are hidden games and experiments built into Google Search or Google Chrome, accessible by typing specific queries or pressing certain key combinations. <strong>Google Experiments</strong> are standalone web projects from Google labs that showcase AI and browser technology through playful interactions.</p>
+
+<h2>Most Popular Google Games</h2>
+<ul>
+<li><a href="/google-pacman/">Google Pacman</a> – The Pac-Man 30th Anniversary Doodle. Over 1 billion plays. Still the most iconic Google game ever made.</li>
+<li><a href="/doodle-baseball/">Doodle Baseball</a> – The Fourth of July classic. Time your swings to hit home runs as food characters.</li>
+<li><a href="/google-cricket/">Google Cricket</a> – ICC Champions Trophy Doodle. Bat as a cricket insect against snails.</li>
+<li><a href="/quick-draw/">Quick Draw</a> – Google's AI drawing game. Sketch an object and see if the neural network can guess it.</li>
+<li><a href="/google-snake/">Google Snake</a> – The classic snake game reimagined with multiple modes and themes.</li>
+<li><a href="/google-soccer/">Google Soccer</a> – 2012 Olympic Doodle. Block penalty shots as goalkeeper.</li>
+<li><a href="/google-basketball-doodle/">Google Basketball</a> – 2012 Olympic Doodle. Sink baskets in 24 seconds.</li>
+<li><a href="/magic-cat-academy/">Magic Cat Academy</a> – Halloween Doodle. Draw spells to defeat ghosts and save Momo's spellbook.</li>
+<li><a href="/doodle-champion-island-games/">Doodle Champion Island</a> – Tokyo Olympics RPG. Seven sports, 22 side quests, and a full adventure.</li>
+</ul>
+
+<h2>Google Easter Egg Games</h2>
+<p>These hidden Google games are tucked inside Google Search and other Google products. Most people never find them on their own — but you can play all of them here.</p>
+<ul>
+<li><a href="/google-snake/">Google Snake</a> – Type "google snake game" in Google Search to find it, or play it here.</li>
+<li><a href="/google-minesweeper/">Google Minesweeper</a> – Search "minesweeper" in Google to access this classic puzzle game.</li>
+<li><a href="/google-gravity/">Google Gravity</a> – A physics experiment that makes the Google homepage collapse.</li>
+<li><a href="/dinosaur-game/">Chrome Dinosaur Game</a> – The famous offline dinosaur runner, playable any time on our site.</li>
+</ul>
+
+<h2>All Google Games by Type</h2>
+<p>Browse our full collection: <a href="/google-doodle-games/">Google Doodle Games</a> | <a href="/google-easter-egg/">Google Easter Eggs</a> | <a href="/google-tools/">Google Tools & Experiments</a></p>
+<p>Every game on this list is playable free in your browser right now — no downloads, no accounts, no waiting. Just click and play.</p>`,
+  },
+
+  'best-google-doodle-games': {
+    title: 'Best Google Doodle Games – Top Doodles Ranked',
+    metaTitle: 'Best Google Doodle Games – Top Google Doodles Ranked | Games Doodle',
+    metaDescription: 'The best Google Doodle games of all time, ranked. Discover the top Google Doodles you can still play free online — from Pac-Man to Champion Island.',
+    content: `<p>Not all Google Doodles are created equal. Some are beautiful but passive animations. Others are fully playable games with depth, replayability, and moments of genuine brilliance. This list ranks the best Google Doodle games of all time — the ones worth playing, replaying, and sharing.</p>
+
+<h2>1. Doodle Champion Island Games</h2>
+<p><a href="/doodle-champion-island-games/">Doodle Champion Island</a> is the most ambitious Google Doodle ever made. Developed with Japanese animation studio Studio 4°C for the Tokyo 2020 Olympics, it's a full 16-bit RPG with seven sports minigames, 22 side quests, 24 hidden trophies, and dozens of characters drawn from Japanese folklore. If you only play one Google Doodle, make it this one. It takes two to three hours to complete fully.</p>
+
+<h2>2. Google Pacman</h2>
+<p>The <a href="/google-pacman/">Pac-Man 30th Anniversary Doodle</a> from 2010 remains the most-played Google Doodle ever with over a billion plays. It faithfully recreates the original arcade game, including all four original ghosts and a hidden two-player mode. It set the standard for what a playable Google Doodle could be.</p>
+
+<h2>3. Magic Cat Academy</h2>
+<p><a href="/magic-cat-academy/">Magic Cat Academy</a> is a Halloween Doodle featuring Momo the cat wizard battling waves of ghosts by drawing symbols. Five levels, escalating difficulty, a satisfying boss fight, and beloved enough to spawn two sequels. One of the best-designed Doodle games ever built.</p>
+
+<h2>4. Quick Draw</h2>
+<p><a href="/quick-draw/">Quick Draw</a> is Google's AI drawing experiment. You draw, the neural network guesses. Simple premise, endlessly entertaining. It's also one of the most valuable public machine learning datasets ever created — millions of doodles training Google's image recognition.</p>
+
+<h2>5. Doodle Baseball</h2>
+<p><a href="/doodle-baseball/">Doodle Baseball</a> is Google's Fourth of July classic. Food characters bat against peanuts in a timeless rhythm-based clicking game. Simple, charming, and surprisingly hard to put down once you start chasing a high score.</p>
+
+<h2>6. Google Cricket</h2>
+<p><a href="/google-cricket/">Google Cricket</a> arrived for the 2017 ICC Champions Trophy and became an instant fan favourite. The insect-vs-snails batting game is perfectly casual — easy to start, rewarding to master, and charming enough to replay dozens of times.</p>
+
+<h2>7. Google Soccer & Basketball</h2>
+<p>The 2012 London Olympics Doodles — <a href="/google-soccer/">Google Soccer</a> and <a href="/google-basketball-doodle/">Google Basketball</a> — together with Hurdles and Slalom Canoe racked up over a billion collective plays in four days. Soccer's endless goalkeeper mode and Basketball's tight 24-second timer both hold up brilliantly today.</p>
+
+<h2>8. Jerry Lawson Google Doodle</h2>
+<p><a href="/jerry-lawson-google-doodle/">The Jerry Lawson Doodle</a> honours the father of the video game cartridge with a built-in level editor. Play five pre-made retro games or build your own. One of the most educational and creative Doodles Google has ever published.</p>
+
+<p>All of these are available to play free right now. <a href="/google-doodle-games/">Browse the full Google Doodle Games collection</a> to find more.</p>`,
+  },
+
+  'google-easter-eggs': {
+    title: 'Google Easter Eggs – Hidden Google Tricks & Games List',
+    metaTitle: 'Google Easter Eggs – Hidden Google Tricks & Games | Games Doodle',
+    metaDescription: 'Discover every Google Easter egg and hidden Google trick. Secret games in Google Search, hidden features in Chrome, and fun experiments — all in one list.',
+    content: `<p>Google Easter eggs are hidden surprises, jokes, and mini-games tucked inside Google's products. Most users never find them — they're discovered by accident or shared between curious users who know where to look. This is the complete list of Google Easter eggs you can access right now, including several playable hidden Google games.</p>
+
+<h2>Hidden Google Games in Search</h2>
+<p>These Easter egg games activate directly in Google Search — just type the query and look for the interactive panel.</p>
+<ul>
+<li><strong>Google Snake</strong> – Search "google snake game" and click Play. <a href="/google-snake/">Play Google Snake here.</a></li>
+<li><strong>Google Minesweeper</strong> – Search "minesweeper" and click Play. Choose Easy, Medium, or Hard. <a href="/google-minesweeper/">Play Google Minesweeper here.</a></li>
+<li><strong>Google Solitaire</strong> – Search "solitaire" for a full Klondike card game. <a href="/google-solitaire/">Play Google Solitaire here.</a></li>
+<li><strong>Google Tic-Tac-Toe</strong> – Search "tic tac toe" and play against the computer. <a href="/google-tic-tac-toe/">Play Google Tic-Tac-Toe here.</a></li>
+<li><strong>Google Pac-Man</strong> – Search "pac-man" for a playable Pac-Man game panel. <a href="/google-pacman/">Play Google Pacman here.</a></li>
+<li><strong>Google Spinner / Dice</strong> – Search "spin a spinner" or "roll a dice" for random number tools.</li>
+<li><strong>Google Coin Flip</strong> – Search "flip a coin" for an animated heads-or-tails result. <a href="/flip-a-coin/">Try the Google Coin Flip.</a></li>
+</ul>
+
+<h2>Google Chrome Easter Eggs</h2>
+<ul>
+<li><strong>Chrome Dinosaur Game</strong> – When Chrome has no internet, press Space to play the hidden dinosaur runner game. <a href="/dinosaur-game/">Play the Dinosaur Game online here.</a></li>
+<li><strong>Chrome Dino High Score</strong> – The game never ends — scores above 99,999 wrap back to 0.</li>
+</ul>
+
+<h2>Classic Google Tricks & Experiments</h2>
+<ul>
+<li><strong>Google Gravity</strong> – A physics experiment making the Google homepage collapse under gravity. Drag and toss elements around. <a href="/google-gravity/">Try Google Gravity here.</a></li>
+<li><strong>Do a Barrel Roll</strong> – Search "do a barrel roll" and the search results page spins 360 degrees.</li>
+<li><strong>Askew</strong> – Search "askew" and the Google results page tilts slightly to one side.</li>
+<li><strong>Google Thanos Snap</strong> – Search "Thanos" and click the Infinity Gauntlet to make half your search results disintegrate. <a href="/google-thanos-snap/">Try it here.</a></li>
+<li><strong>Google Zerg Rush</strong> – Search "zerg rush" and O's attack your search results. Click them to defend.</li>
+</ul>
+
+<h2>Google Doodle Easter Eggs</h2>
+<p>Some of the best hidden Google games are actually past Google Doodles preserved in their archive. The <a href="/doodle-champion-island-games/">Doodle Champion Island</a> alone has 24 hidden trophies that most players never find. The <a href="/jerry-lawson-google-doodle/">Jerry Lawson Doodle</a> includes a secret ending.</p>
+
+<p>Explore more at our <a href="/google-easter-egg/">Google Easter Egg collection</a> — all hidden tricks and games playable right here, no searching required.</p>`,
+  },
+
+  'google-games-by-category': {
+    title: 'Google Games by Category – Sports, Puzzle, Arcade & More',
+    metaTitle: 'Google Games by Category – Sports, Puzzle, Arcade Google Games | Games Doodle',
+    metaDescription: 'Browse Google games by category. Find sports Google games, puzzle Google games, arcade Google games, and more — all free to play online.',
+    content: `<p>Not sure which Google game to play? Browse by category. Google has created games across virtually every genre — sports simulations, brain-teasing puzzles, fast-paced arcade challenges, creative tools, and more. This guide organises every major Google game by type so you can find exactly what you're in the mood for.</p>
+
+<h2>Sports Google Games</h2>
+<p>Google has a strong sports Doodle tradition, especially around major world events like the Olympics and cricket tournaments.</p>
+<ul>
+<li><a href="/google-cricket/">Google Cricket</a> – ICC Champions Trophy batting game. Click to hit, score runs, top your best.</li>
+<li><a href="/google-soccer/">Google Soccer</a> – 2012 Olympics keeper game. Block endless penalties until three get past you.</li>
+<li><a href="/google-basketball-doodle/">Google Basketball</a> – 2012 Olympics shooting game. Score as many hoops as possible in 24 seconds.</li>
+<li><a href="/doodle-baseball/">Doodle Baseball</a> – Fourth of July Doodle. Time your swing to send the ball flying.</li>
+<li><a href="/doodle-champion-island-games/">Doodle Champion Island</a> – Full Olympic RPG with table tennis, skateboarding, archery, and more.</li>
+</ul>
+
+<h2>Puzzle Google Games</h2>
+<p>These Google games challenge your logic, pattern recognition, and strategic thinking.</p>
+<ul>
+<li><a href="/google-minesweeper/">Google Minesweeper</a> – The classic mine-clearing logic puzzle. Easy, Medium, and Hard modes.</li>
+<li><a href="/quick-draw/">Quick Draw</a> – Draw objects and challenge Google's AI to guess them in 20 seconds.</li>
+<li><a href="/google-solitaire/">Google Solitaire</a> – Classic Klondike solitaire, always available in your browser.</li>
+<li><a href="/google-tic-tac-toe/">Google Tic-Tac-Toe</a> – Play against the AI at three difficulty levels.</li>
+</ul>
+
+<h2>Arcade Google Games</h2>
+<p>Fast reactions and high scores define this category. These are the Google games you'll want to replay dozens of times.</p>
+<ul>
+<li><a href="/google-pacman/">Google Pacman</a> – The iconic maze game. Eat pellets, dodge ghosts, beat your score.</li>
+<li><a href="/google-snake/">Google Snake</a> – Classic snake with modern modes. Grow as long as possible without crashing.</li>
+<li><a href="/magic-cat-academy/">Magic Cat Academy</a> – Draw symbols to cast spells and defeat waves of ghosts.</li>
+<li><a href="/dinosaur-game/">Chrome Dinosaur Game</a> – The infinite runner built into Chrome. Jump cacti, duck under birds.</li>
+</ul>
+
+<h2>Creative & Music Google Games</h2>
+<p>These Google experiments blend gameplay with artistic expression.</p>
+<ul>
+<li><a href="/quick-draw/">Quick Draw</a> – A drawing game that doubles as an AI training tool.</li>
+<li><a href="/jerry-lawson-google-doodle/">Jerry Lawson Doodle</a> – Build your own retro arcade levels in a browser-based game editor.</li>
+</ul>
+
+<h2>Google Easter Egg Games</h2>
+<p>Hidden in plain sight, these games are built into Google Search and Chrome.</p>
+<ul>
+<li><a href="/google-gravity/">Google Gravity</a> – Physics experiment. Watch the Google homepage collapse and bounce.</li>
+<li><a href="/google-snake/">Google Snake</a> – Hidden in Google Search. Play the full game here.</li>
+<li><a href="/google-minesweeper/">Google Minesweeper</a> – Hidden in Google Search. Multiple difficulty levels.</li>
+</ul>
+
+<p>Browse the full library: <a href="/google-doodle-games/">All Google Doodle Games</a> | <a href="/google-easter-egg/">All Google Easter Eggs</a></p>`,
+  },
 };

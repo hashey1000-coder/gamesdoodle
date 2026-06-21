@@ -258,6 +258,21 @@ export default function GameDetail({ game }) {
           </section>
         )}
 
+        {/* FAQ Section — game-specific questions */}
+        {game.faq && game.faq.length > 0 && (
+          <section className="game-faq-section">
+            <h2 className="game-faq-heading">Frequently Asked Questions</h2>
+            <div className="game-faq-list">
+              {game.faq.map((item, i) => (
+                <div key={i} className="game-faq-item">
+                  <h3 className="game-faq-question">{item.q}</h3>
+                  <p className="game-faq-answer">{item.a}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
         <LazyAd />
 
         {/* People Also Play — tag/category discovery chips */}
@@ -340,6 +355,11 @@ function getSmartRecommendations(game, relatedGames) {
  * Build FAQ items for a game page for FAQPage schema.
  */
 function buildFAQ(game, category) {
+  // Use game-specific FAQs if provided
+  if (game.faq && game.faq.length > 0) {
+    return game.faq.map(({ q, a }) => ({ question: q, answer: a }));
+  }
+
   const shortTitle = game.title.split(' – ')[0].trim();
   const faqs = [];
 

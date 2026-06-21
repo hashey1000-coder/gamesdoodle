@@ -24,7 +24,7 @@ export const featuredHomeGames = [
   },
   {
     slug: 'google-cricket',
-    title: 'Google Cricket - Play Google Doodle Cricket Online',
+    title: 'Google Cricket Game – Play the Official Google Doodle Cricket Online',
     category: 'google-doodle-games',
     tags: ['sports', 'arcade'],
     thumbnail: '/images/google-cricket.webp',
@@ -48,7 +48,7 @@ export const featuredHomeGames = [
   },
   {
     slug: 'google-pacman',
-    title: 'Google Pacman - Play the Game Free Online',
+    title: 'Google Pacman – Play the Original Pac-Man Google Doodle Game',
     category: 'google-doodle-games',
     tags: ['arcade', 'puzzle'],
     thumbnail: '/images/google-pacman.webp',
@@ -80,7 +80,7 @@ export const featuredHomeGames = [
   },
   {
     slug: 'google-minesweeper',
-    title: 'Google Minesweeper – Play Minesweeper Online Game Free',
+    title: 'Google Minesweeper – Play the Classic Google Minesweeper Game Free',
     category: 'google-doodle-games',
     tags: ['puzzle', 'strategy'],
     thumbnail: '/images/google-minesweeper.webp',
@@ -88,7 +88,7 @@ export const featuredHomeGames = [
   },
   {
     slug: 'doodle-baseball',
-    title: 'Google Doodle Baseball - Play 4th of July Game Online',
+    title: 'Doodle Baseball – Play Google\'s 4th of July Baseball Game Free Online',
     category: 'google-doodle-games',
     tags: ['sports', 'arcade'],
     thumbnail: '/images/doodle-baseball.webp',
@@ -96,7 +96,7 @@ export const featuredHomeGames = [
   },
   {
     slug: 'google-snake',
-    title: 'Google Snake - Play Classic Snake Game Online',
+    title: 'Google Snake Game – Play the Classic Snake Game Online Free',
     category: 'google-doodle-games',
     tags: ['arcade', 'puzzle'],
     thumbnail: '/images/google-snake.webp',
@@ -125,4 +125,98 @@ export const homeCollectionPreviews = [
   { slug: 'brain-teasers', emoji: '🧠', title: 'Brain Teasers', gameCount: 12 },
   { slug: 'action-packed', emoji: '💥', title: 'Action Packed', gameCount: 10 },
   { slug: 'multiplayer-fun', emoji: '👥', title: 'Play With Friends', gameCount: 11 },
+];
+
+export const popularGoogleGames = [
+  {
+    slug: 'quick-draw',
+    title: 'Quick Draw – Play Google\'s AI Drawing Game Online Free',
+    category: 'google-doodle-games',
+    tags: ['music-and-creative', 'puzzle'],
+    thumbnail: '/images/quick-draw.webp',
+    excerpt: 'Draw objects while Google\'s AI tries to guess your sketch in under 20 seconds — a unique blend of art and machine learning.',
+  },
+  {
+    slug: 'doodle-baseball',
+    title: 'Doodle Baseball – Play Google\'s 4th of July Baseball Game Free Online',
+    category: 'google-doodle-games',
+    tags: ['sports', 'arcade'],
+    thumbnail: '/images/doodle-baseball.webp',
+    excerpt: 'The beloved Fourth of July Google Doodle — time your swings to hit home runs as food characters bat against peanuts.',
+  },
+  {
+    slug: 'google-cricket',
+    title: 'Google Cricket Game – Play the Official Google Doodle Cricket Online',
+    category: 'google-doodle-games',
+    tags: ['sports', 'arcade'],
+    thumbnail: '/images/google-cricket.webp',
+    excerpt: 'Bat as a cricket insect against snails in this charming ICC Champions Trophy Google Doodle. Score as many runs as you can!',
+  },
+  {
+    slug: 'google-pacman',
+    title: 'Google Pacman – Play the Original Pac-Man Google Doodle Game',
+    category: 'google-doodle-games',
+    tags: ['arcade', 'puzzle'],
+    thumbnail: '/images/google-pacman.webp',
+    excerpt: 'The iconic Pac-Man Google Doodle celebrating 30 years of the arcade legend — eat pellets, dodge ghosts, play free.',
+  },
+  {
+    slug: 'google-snake',
+    title: 'Google Snake Game – Play the Classic Snake Game Online Free',
+    category: 'google-doodle-games',
+    tags: ['arcade', 'puzzle'],
+    thumbnail: '/images/google-snake.webp',
+    excerpt: 'The classic Snake game reimagined with Google\'s modern twist — grow longer, dodge walls, and beat your high score.',
+  },
+  {
+    slug: 'google-soccer',
+    title: 'Google Soccer Game – Play the Olympic Google Doodle Football Online',
+    category: 'online-games',
+    tags: ['sports', 'arcade'],
+    thumbnail: '/images/google-soccer.webp',
+    excerpt: 'Block penalty shots as goalkeeper in this viral 2012 Olympics Google Doodle. Survive as long as you can!',
+  },
+  {
+    slug: 'google-basketball-doodle',
+    title: 'Google Basketball Game – Play the Olympic Google Doodle Basketball Online',
+    category: 'online-games',
+    tags: ['sports', 'arcade'],
+    thumbnail: '/images/google-basketball-doodle.webp',
+    excerpt: 'Sink as many baskets as possible in 24 seconds in this Olympic Google Doodle from London 2012.',
+  },
+];
+
+export const latestGoogleDoodles = [
+  {
+    slug: 'magic-cat-academy',
+    title: 'Magic Cat Academy – Play the Halloween Google Doodle Game',
+    category: 'online-games',
+    tags: ['arcade', 'puzzle'],
+    thumbnail: '/images/magic-cat-academy.webp',
+    excerpt: 'Guide Momo the cat wizard to defeat ghosts by drawing shapes in this beloved Halloween Google Doodle.',
+  },
+  {
+    slug: 'doodle-champion-island-games',
+    title: 'Doodle Champion Island Games – Play the 16-Bit RPG Adventure',
+    category: 'online-games',
+    tags: ['arcade', 'sports'],
+    thumbnail: '/images/doodle-champion-island-games.webp',
+    excerpt: 'Google\'s most ambitious Doodle ever — a full 16-bit RPG with 7 Olympic minigames, side quests, and 24 hidden trophies.',
+  },
+  {
+    slug: 'garden-gnomes',
+    title: 'Garden Gnomes – Play the Google Doodle Gnome Launch Game',
+    category: 'online-games',
+    tags: ['arcade'],
+    thumbnail: '/images/garden-gnomes.webp',
+    excerpt: 'Launch garden gnomes as far as possible in this whimsical Google Doodle celebrating the humble garden ornament.',
+  },
+  {
+    slug: 'jerry-lawson-google-doodle',
+    title: 'Jerry Lawson Google Doodle – Build and Play Retro Arcade Games',
+    category: 'online-games',
+    tags: ['arcade', 'music-and-creative'],
+    thumbnail: '/images/jerry-lawson-google-doodle.webp',
+    excerpt: 'Play and build retro arcade games in this unique Google Doodle honouring the father of the game cartridge.',
+  },
 ];
